@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="300055" type="armor">
+
+    <name>Wraith_weapon_name</name>
+    <no>Wraith_weapon_name</no>
+    <desc>Wraith_armor_desc</desc>
+    <specialDesc>Wraith_armor_specialDesc</specialDesc>
+
+    <require type="R">4</require>
+    <require type="level">3</require>
+
+    <armorId>13001</armorId>
+    <script>WraithArmor</script>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+</equipment_list>

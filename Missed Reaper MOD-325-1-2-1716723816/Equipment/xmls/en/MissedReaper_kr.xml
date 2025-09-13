@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">Longing</text>
+  <text id="MissedReaper_weapon_desc">“If only you could see the child's face and hold their hand one more time...”</text>
+  <text id="MissedReaper_weapon_specialDesc">In order to wield it the agent must have: Longing E.G.O. Gift&#13;&#10;Auto-attacks hostile entities present in the facility.</text>
+  <text id="MissedReaper_armor_name">Longing</text>
+  <text id="MissedReaper_armor_desc">Those who leave never come back.&#13;&#10;I wish I'd said something back then.&#13;&#10;&#13;&#10;I should’ve said, ‘I’m sorry that I let go of your hand’ and apologized, even if it didn’t mean anything."</text>
+  <text id="Reaper_gift">Longing</text>
+  <text id="Reaper_desc">SP +6&#13;&#10;I’m Missin’ U</text>
+</localize>

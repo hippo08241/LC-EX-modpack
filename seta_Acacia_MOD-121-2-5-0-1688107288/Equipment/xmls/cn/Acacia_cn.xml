@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Acacia_weapon_name">深渊</text>
+  <text id="Acacia_weapon_Desc">这把枪所射出的罪恶子弹将同样穿过走廊，达到人们目不可及之处。</text>
+  <text id="Acacia_armor_Desc">洁白无瑕的长袍掩盖着至深至黑的罪恶。</text>
+  <text id="Acacia_armor_specialDesc">穿着此E.G.O护甲的员工将不会受到“魔弹射手”与“猎手的新娘”E.G.O武器的伤害。</text>
+  <text id="Acacia_gift_Desc">最大精神值+3 攻击速度+10 压迫工作的成功率提高3% </text>
+</localize>

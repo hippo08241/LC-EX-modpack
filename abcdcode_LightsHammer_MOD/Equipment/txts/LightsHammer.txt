@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200025" type="weapon">
+
+    <name>LightsHammer_weapon_name</name>
+    <desc>LightsHammer_weapon_desc</desc>
+    <specialDesc>LightsHammer_weapon_specialDesc</specialDesc>
+<sprite>LightsHammer</sprite>
+    <script>LightsHammerWeapon</script>
+<animation>Attack1</animation>
+    <damage type="W" min="6" max="12">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+<weaponClassType>mace</weaponClassType>
+    <range>3</range>
+<attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+<equipment id="500025" type="weapon">
+
+    <name>LightsHammer_weapon_name</name>
+    <desc>LightsHammer_weapon_desc</desc>
+    <specialDesc>LightsHammer_weapon_specialDesc</specialDesc>
+<sprite>LightsHammer_Big</sprite>
+    <script>LightsHammerWeapon</script>
+<animation>Attack1</animation>
+    <damage type="W" min="10" max="15">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+<weaponClassType>hammer</weaponClassType>
+    <range>5</range>
+<attackSpeed>3</attackSpeed>
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+<equipment id="300025" type="armor">
+
+    <name>LightsHammer_weapon_name</name>
+    <desc>LightsHammer_weapon_desc</desc>
+
+    <armorId>300025</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+<equipment id="400025" type="special">
+    <name>LightsHammer_weapon_name</name>
+    <desc>LightsHammer_weapon_desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+    </bonus>
+    <sprite>LightsHammerFace</sprite>
+
+  </equipment>
+
+
+</equipment_list>
+
+

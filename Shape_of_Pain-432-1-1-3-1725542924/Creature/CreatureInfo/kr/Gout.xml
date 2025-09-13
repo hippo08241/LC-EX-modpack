@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+ 
+  <info id ="126775">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 직원은 그것을 보기만 해도 통증을 느낍니다.},
+      {"앗뜨…!"}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {가만히 보기만 해도 레고를 밟은 느낌입니다…},
+      {이런 뾰족한 게 몸속에 있다고 생각하자 #0 직원은 온몸에 소름이 돋습니다.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {어째서 이런 게 생긴 걸까요…?},
+      {#0 직원은 $0를 보고만 있어도 어디에서 통증이 올라올지 몰라 걱정합니다.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 직원은 나중에 진찰을 받으러 가야 할지 고민합니다.},
+      {올바른 식습관을 가지도록 합시다.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-267</codeNo>
+      <portrait openLevel ="1">Custom/GoutPain</portrait>
+
+      <name openLevel ="1">
+        고통의 형상
+      </name>
+
+      <riskLevel openLevel ="1">
+       HE 
+      </riskLevel>
+
+      <openText>이런 게 몸 속에서 만들어졌다니 그딴 개소리는 집어쳐!!!!!</openText>
+
+    </collection>
+
+
+    <desc id="1" openLevel="0">
+      [
+      {"보기만 해도 존나 아플 것처럼 생겼잖아!!!!! 이런 게 몸 속에서 만들어졌다니 그딴 개소리는 집어쳐!!!!!"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {현재 도시의 기술로는 통증을 쉽게 지울 수 있을 것이다. 하지만 치료할 돈이 없는 빈곤층의 사람들이라면… 유감스럽게도, 치료를 받을 돈이 없을 것이기에 계속해서 그 고통을 견뎌내야 한다…}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {설령 치료받을 수 있다고 하더라도, 당연히 그 이전까진 고통을 견뎌내야 한다. 세상 어느 누구도 고통을 받길 원치 않지만, 언젠가 고통은 반드시 찾아오기 마련이다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {$0이 가져오는 통증을 경험한 직원은, 일반적인 생활 속에서 얻게 되는 통증보다 더 강력하며, 전신에서 계속해서 통증이 느껴진다고 진술하였다.}
+      ]
+    </desc>
+
+    <specialTipSize size="2">
+      <specialTip openLevel="0" key="0">작업 결과가 나쁨일 경우, 작업을 진행했던 직원은 '통증'을 얻었다. 또한, 작업 결과가 보통일 경우, 작업을 진행했던 직원은 보통의 확률로 '통증'을 얻었다.</specialTip>
+      <specialTip openLevel="1" key="1">억압 작업으로 작업한 결과가 좋음일 경우, 작업을 진행했던 직원의 '통증'이 나았다.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

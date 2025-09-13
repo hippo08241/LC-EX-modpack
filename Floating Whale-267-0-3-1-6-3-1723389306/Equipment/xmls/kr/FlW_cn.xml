@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="FlW_weapon_name">거인양 외관</text>
+  <text id="FlW_weapon_desc">썩은 냄새가 거대한 괴물의 몸을 가득 채웠다.&#13;&#10;더러운 피와 살이 파리와 호기심이 가득한 아이들을 끌어들인다.</text>
+  <text id="FlW_weapon_specialDesc">같은 방에 체력이 70%미만이면서 착용자의 등급보다 높거나 같은 직원이 존재하는 경우, 공격시 추가 배율의 데미지를 입힌다. (최대 8배) </text>
+
+  <text id="FlW_armor_name">거인양 외관</text>
+  <text id="FlW_armor_desc">썩은 냄새가 거대한 괴물의 몸을 가득 채웠다.&#13;&#10;아무도 감히 그 근처를 머물려는 사람은 없었고, 그 존재는 시간이 지나면서 점점 더 썩어가고 있었다.&#13;&#10;결국엔 시간과 함께 무너지게 되고, 이는 산업으로부터 오는 이질감이라는 악몽이다.</text>
+  <text id="FlW_armor_specialDesc">주기적으로 같은 방에 있는 모든 환상체에게 소량의 W 피해</text>
+  
+  <text id="FlW_gift_name">거인양 외관</text>
+  <text id="FlW_gift_desc">체력 +8 작업 성공률 -2 작업 속도 -2</text>
+</localize>

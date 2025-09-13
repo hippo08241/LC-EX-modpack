@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="AuthorNote_armor_name">scenario</text>
+  <text id="AuthorNote_armor_desc">Poor Screenwriter’s Note prefers that everything goes according to his own scenario. &#13;&#10;&#13;&#10;It is a neatly arranged black suit. Apparently plain, but true power will be revealed when it goes according to the scenario.</text>
+  <text id="AuthorNote_armor_specialDesc">Immune to one random attribute every cycle.</text>
+  <text id="AuthorNote_weapon_name">scenario</text>
+  <text id="AuthorNote_weapon_desc">Poor Screenwriter’s Note prefers that everything goes according to his own scenario.&#13;&#10;&#13;&#10;It is a small dagger that can be used as a small theater item. It is not sharp, but it can penetrate everything.</text>
+  <text id="AuthorNote_weapon_specialDesc">Damage the enemy's most vulnerable attributes</text>
+</localize>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156511">
+
+
+
+    <narration action="move">
+      #0 is on their way to $0's Containment Unit to begin the work process.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is crying.},
+      {#0 feels gloomy as they enter the containment room.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0's stomach began growing, #0 got a little scared...},
+      {#0 sees $0 shed a tear, #0 braces for it to cry...},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {... But nothing happened.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-01-23-04</codeNo>
+      <portrait openLevel ="1">Custom/Amiroji_portrait</portrait>
+
+      <name openLevel ="1">
+        Blubbering Toad
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>"How can I make it stop crying?"</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {There is a tale about a "legendary" creature known as the Blubbering Toad, it is said that popping out its eyes will cause something bizarre to occur.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {One day, a warrior heard of the tale and went to the cave of the Blubbering Toad to challenge this mysterious creature. After a fierce battle, the warrior finally succeeded in popping out the eyes of the Blubbering Toad.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Suddenly, the toad's stomach began to bulge as it began to suck in the air around it. Its big eyes flooded with blue tears. Then the toad opened its mouth, enveloping the cave with a gloomy aura. }
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {The warrior realized they had triggered the "bizarre event" the tale mentioned. They were suddenly struck with an overwhelming feeling which caused them to panic, soon after they fell to their knees and silently prayed for whatever was about to come, to not harm them.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {The Blubbering Toad began to cry, its tears fell like rain, and the whole cave was filled with sorrow and sadness. The warrior who witnessed this scene felt immense sadness in their heart.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {“How can I make it stop crying?”}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">$0's Qliphoth counter decreased when the work result was bad, $0's Qliphoth counter also has a small chance to decrease upon getting a normal work result.</specialTip>
+      <specialTip openLevel="1" key="1">$0 dislikes instinct and repression works. After finishing a work on $0, the employee will get its gift. When the work result was good, $0 restored the SP of everyone in the facility.</specialTip>
+      <specialTip openLevel="2" key="2">When $0's Qliphoth counter reaches 0, it will begin to cry inside its containment unit and no work can be done until $0 is suppressed.</specialTip>
+      <specialTip openLevel="3" key="3">$0 is extremely resistant to all damages except PALE.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

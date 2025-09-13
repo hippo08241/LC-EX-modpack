@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ReddenedBuddy_equip_name">숨바꼭질</text>
+<text id="ReddenedBuddy_weapon_desc">“또 나를 불러주세요…언제나 기다릴께요…”</text>
+<text id="ReddenedBuddy_gift_desc">체력 + 6</text>
+<text id="ReddenedBuddy_weapon_specialDesc">공격 속도 매우 느림. 공격 준비 중 받는 RED 피해 감소</text>
+<text id="ReddenedBuddy_armor_desc">“주인님을 향한 내 마음은…그저 붉은 상처로 남아.”</text>
+</localize>

@@ -1,0 +1,15 @@
+How to install:
+1. Go to (Your disk with game here):\Lobotomy Corporation v1.0.2.13f1\LobotomyCorp_Data\Managed And (Your disk with game here):\Lobotomy Corporation v1.0.2.13f1\Managed
+2. Replace Assembly-CSharp with this one.
+3. Enjoy the mod.
+
+Changes:
+-Added Chesed rain (filter)
+-At the begining only 1 type of damage is boosted.
+-After 2 qliphoth meltdown 2 types of damages is boosted.
+-Red Mist have 30% more hp.
+-Chesed effect is not turning off when Gebura comes.
+-After 6 qliphoth meltdown 3 types of damage is boosted,
+-After 8 qliphoth meltdown all types of damage is boosted.
+
+You need to supress Red Mist or reach 10 qliphoth meltdown + collect all the energy.

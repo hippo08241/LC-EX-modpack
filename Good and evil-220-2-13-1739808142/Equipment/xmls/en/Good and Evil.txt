@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Good and Evil_weapon_name">Invisible Morality</text>
+<text id="Good and Evil_gift_name">Invisible Morality</text>
+<text id="Good and Evil_gift_desc">Work Success Rate+10</text>
+<text id="Good and Evil_armor_desc">No matter why you came to this company, you must respect "my" choices.</text>
+<text id="Good and Evil_weapon_desc">Harming others will result in self-inflicted damage.</text>
+</localize>

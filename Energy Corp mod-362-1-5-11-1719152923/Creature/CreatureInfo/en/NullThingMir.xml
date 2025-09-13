@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="178800">
+    <narration action="move">
+      #0 is on their way to $0’s Containment Unit to begin the work process.
+    </narration>
+    <narration action="start">
+      [
+      {$0’s appearance is just like that of a human being. However, employees with sharp eyes will notice a sense of incompatibility.},
+      {$0 is different from ordinary Abnormalities. The biggest difference between them is that it has never once shown its true nature.},
+      {Do you know the difference between the terms “shell” and “skin”?}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0 meaninglessly grinds its teeth while staring at #0.},
+      {The bone, which appears to be a rib of $0, makes a crunching sound.},
+      {$0 gazes at #0, the twisted neck of its shell snapping and turning unnaturally.},
+      {The organ that’s something akin to a mouth belonging to $0 occasionally drips intestines that may have belonged to a human once.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 tries their best to avoid stepping on the unknown secretions of $0.},
+      {Even though $0 makes not a single threatening action towards #0, their entire body shivers in fear.},
+      {#0 is aware that the Abnormality is not going to attack them right away, but they are still extremely terrified of being in its containment.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {While #0 works, they find $0 to be somewhat familiar in an odd way.},
+      {#0 spots something from $0.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {“She” was #0’s senior. They had never spoken a word to each other, but they may have been good coworkers.},
+      {#0 had seen “her” employee profile. The reason why #0 could remember “her” is that she had a distinguishable mole on her face.}
+      ]
+    </narration>
+    <narration action="special_ability1">
+      [
+      {$0 has put on #0.}
+      ]
+    </narration>
+    <narration action="special_ability2">
+      [
+      {During the act of wearing on #0, their bones were scattered across the floor.}
+      ]
+    </narration>
+    <narration action="special_ability3">
+      [
+      {$0, now assuming the shape of #0, makes noises from its still displaced bones every time it takes a step.}
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {#0 feels a helpless disgust and dread coming off of $0. This innate hatred exuding from $0 strikes #0 to the core.}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {Now #0 has become $0’s new shell. Perhaps the day will come when they may get a proper burial, like the “shell” $0 just molted.},
+      {#0 has now become $0’s new shell. Every employee in the facility will remember them; regardless if they wish not to do so, they will have to.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-06-20</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/NotThing</portrait>
+      <name openLevel ="1">Nothing There</name>
+      <name openLevel ="2">Refracted Nothing There</name>
+      <name openLevel ="4">Mirrored Nothing There</name>
+      <riskLevel openLevel ="1">ZAYIN</riskLevel>
+      <openText>And the many shells cried out one word, "Manager".</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {This abnormality is a debug abnormality of Energy Corp mod. If this Abnormality appears while using the Additional Containment Unit mod, please copy and paste the contents of the OnClickConfirm_PatchError.txt file created in the BaseMods folder to the BUGS tab of the mod page. If you approached this abnormality while using the Random Additional Abnormality mod, risk level nodes in risklevel.xml may have problem. Check whether nodes are empty, LcId has modid which is in mod blacklist, supporter abnormalities in node while you disabled them in option.}
+      ]
+    </desc>
+   <specialTipSize size="7">
+      <specialTip openLevel="1" key="needKill">The lower the working employee’s Fortitude, the lower the success rate was and the less stable the work was.</specialTip>
+      <specialTip openLevel="2" key="justice">When an employee whose Justice was lower than Level 4 completed the work, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="2" key="killUp">#0, who was in the Containment Unit, was killed by $0. Suddenly, $0 changed into #0. The same instance occurred when another employee had panicked.</specialTip>
+      <specialTip openLevel="2" key="panicUp">When the work result was Bad, #0 was attacked and turned into $0’s shell.</specialTip>
+      <specialTip openLevel="3" key="makePanic">Employees of Fortitude Level 3 or lower immediately panicked when entering $0’s unit. It is recommended that employees lower than Fortitude Level 4 never be sent to work with $0.</specialTip>
+      <specialTip openLevel="3" key="backMonster">When #0, who witnessed $0’s human appearance, fell into a panic, they became $0’s new shell. At the same time, the Qliphoth Counter lowered.</specialTip>
+      <specialTip openLevel="4" key="needGun">When the Qliphoth Counter reached 0, $0, taking the appearance of the dead #0, disappeared from its Containment Unit. The manager must quickly find and kill $0’s disguised appearance.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

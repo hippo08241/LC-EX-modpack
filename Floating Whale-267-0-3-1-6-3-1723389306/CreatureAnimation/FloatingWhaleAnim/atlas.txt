@@ -1,0 +1,41 @@
+
+whale.png
+size: 5453,2590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 4240, 491
+  size: 2097, 1211
+  orig: 2097, 1211
+  offset: 0, 0
+  index: -1
+bowels
+  rotate: true
+  xy: 4240, 221
+  size: 268, 549
+  orig: 268, 549
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 4240, 187
+  size: 90, 32
+  orig: 90, 32
+  offset: 0, 0
+  index: -1
+浮鲸贴图2
+  rotate: false
+  xy: 2, 2
+  size: 4236, 2586
+  orig: 4236, 2586
+  offset: 0, 0
+  index: -1
+爆炸2
+  rotate: false
+  xy: 4791, 209
+  size: 431, 280
+  orig: 431, 280
+  offset: 0, 0
+  index: -1

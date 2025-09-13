@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="BronzeBull_weapon_name">斗牛披风</text>
+<text id="BronzeBull_gift_name">斗牛披风</text>
+<text id="BronzeBull_gift_desc">生命值+8</text>
+<text id="BronzeBull_armor_desc">“这是我人生中第一次现场看斗牛，也应该是最后一次了。我以前不知道，原来斗牛不是单纯的表演，是真的会斗！死！牛！怪我太天真。”</text>
+<text id="BronzeBull_weapon_desc">普通攻击有几率造成灵魂伤害。</text>
+</localize>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+    <text id="SFZW_ArmorName_H">臣民</text>
+    <text id="SFZW_ArmorDesc_H">赤色に飾られた宴会場には、王の加護を受けた臣民たちが行き来している…。</text>
+    <text id="SFZW_ArmorSpeDesc_H">装備者に付与されている「包帯」ギフト1つにつき、この防護服の耐性を0.1強化する。</text>
+    <text id="SFZW_ArmorName_W">盛大な歓待</text>
+    <text id="SFZW_ArmorDesc_W">権威と権力を象徴する玉座は、相変わらず力強い。&#13;&#10;玉座の上にいるのは、全てを支配する至高の君主なのか、それとも拘束されている哀れな者なのか？</text>
+    <text id="SFZW_ArmorSpeDesc_W">一定時間ごとに、装備者と同じ場所にいる職員に、Blackシールドを展開する。&#13;&#10;装備者に付与されている「包帯」ギフト1つにつき、展開するBlackシールドの数値が5％増加する。
+EGO防具「縛られし王」が玉座に座るとき、&#13;&#10;すべての属性耐性が2.0になり、拘束され、特殊効果を失う。&#13;&#10;
+拘束：移動不可</text>
+    <text id="SFZW_ArmorName_A">縛られし王</text>
+    <text id="SFZW_ArmorDesc_A">この紐は包帯であり、足枷…。いったい、いつになれば我を放すつもりだ！！</text>
+    <text id="SFZW_ArmorSpeDesc_A">この防護服を装備し、EGO武器「拘束」のどちらかを装備している時、&#13;&#10;EGO防具「盛大な歓待」の装備者が自分と同じ場所に存在すると、自発的に玉座に座ることが出来る。&#13;&#10;
+玉座に座った職員は移動できず、攻撃範囲は施設全体に広がり、特殊攻撃しか発動できない。&#13;&#10;職員は攻撃対象を選ぶことができない。&#13;&#10;
+玉座に座っている職員は、「包帯」ギフト1つにつき一定時間でシールドを1つ展開する。&#13;&#10;シールドの数値は、従来のシールドより10％増加している。&#13;&#10;
+職員は、体力を一定数値失うことで、自発的に玉座から離れることができる。&#13;&#10;玉座から離れた場合、再び玉座に座るまでに60秒が経過しなければならない。</text>
+
+    <text id="SFZW_WeaponName_Chui">拘束</text>
+    <text id="SFZW_WeaponDesc_Chui">オレはこの玉座に縛られ、独りで統治する者であるがゆえ…。</text>
+    <text id="SFZW_WeaponSpeDesc_Chui">通常の攻撃では、一定範囲にいる対象にダメージを与える。&#13;&#10;
+20％の確率で特殊攻撃が発動する。特殊攻撃ではダメージを与える範囲が拡大し、&#13;&#10;命中時、対象の移動速度を50％減少させる。効果の持続時間は5秒。また、20％の確率で減速効果が拘束効果に変更される。&#13;&#10;拘束効果の確率は、装備者に付与されている「包帯」ギフト1つごとに10％増加する。&#13;&#10;
+拘束：移動不可</text>
+    <text id="SFZW_WeaponName_Dao">拘束</text>
+    <text id="SFZW_WeaponDesc_Dao">よくも…権威に挑もうとなぞ！</text>
+    <text id="SFZW_WeaponSpeDesc_Dao">この武器による攻撃は、対象の耐性値を0.1無視する。装備者に付与されている「包帯」ギフト1つにつき、&#13;&#10;無視する耐性値を0.1増加させる。&#13;&#10;
+攻撃的中時に20％の確率で、対象を1秒間拘束する特殊攻撃が発動する。&#13;&#10;
+拘束：移動不可</text>
+
+    <text id="SFZW_GiftNameBodyUp">包帯</text>
+    <text id="SFZW_GiftDescBodyUp">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameEye">包帯</text>
+    <text id="SFZW_GiftDescEye">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameFace">包帯</text>
+    <text id="SFZW_GiftDescFace">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameHair">包帯</text>
+    <text id="SFZW_GiftDescHair">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameRibborn">包帯</text>
+    <text id="SFZW_GiftDescRibborn">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameRightCheek">包帯</text>
+    <text id="SFZW_GiftDescRightCheek">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameRightHand">包帯</text>
+    <text id="SFZW_GiftDescRightHand">移動速度-10 縛れらた王の効果によって展開されるシールドの数値を大幅に増加させる。</text>
+    <text id="SFZW_GiftNameHead">盛大な歓待</text>
+    <text id="SFZW_GiftDescHead">移動速度-5、体力+8、作業成功率+5</text>
+
+</localize>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">Тоска</text>
+  <text id="MissedReaper_weapon_desc">"Если бы вы могли ещё раз увидеть лицо ребёнка и взять его за руку..."</text>
+  <text id="MissedReaper_weapon_specialDesc">Требование к экипировке: Э.П.О.С. дар Тоска&#13;&#10;Автоматически атакует враждебные цели, присутствующие на объекте.</text>
+  <text id="MissedReaper_armor_name">Тоска</text>
+  <text id="MissedReaper_armor_desc">Те, кто уходит, никогда не возвращаются.&#13;&#10;Жаль, что я тогда ничего не сказал.&#13;&#10;&#13;&#10;Я должен был сказать: «Мне жаль, что я отпустил твою руку», и извиниться, даже если это ничего не значило.</text>
+  <text id="Reaper_gift">Тоска</text>
+  <text id="Reaper_desc">SP +6&#13;&#10;Я скучаю по тебе</text>
+</localize>

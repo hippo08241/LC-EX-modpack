@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="110052">
+
+
+
+    <narration action="move">
+      #0 được chỉ định tới buồng quản thúc của $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0 phát ra tiếng cọt kẹt kì lạ, #0 chưa dám khẳng định đó là âm vang sinh ra từ ảo giác của chính họ hay không.}
+      {Như mọi khi, $0 rất quan tâm tới việc học tập.}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 đang bắt chước theo #0.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0 đang cảm thấy mệt mỏi với trò bắt chước của $0.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-10-15</codeNo>
+      <name openLevel ="1">Con Rối</name>
+      <name openLevel ="4">Pinocchio</name>
+      <portrait openLevel ="4">Custom/Pinocchio</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>Nếu tôi tiếp tục bắt chước người đó, tôi có thể trở thành họ chứ?</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Vấn đề ở chỗ Dị Thể này liên tục "học" bằng cách làm theo người khác.&#13;&#10;&#13;&#10;  【Đoạn thông tin tiếp theo là từ bản ghi các cuộc đối thoại giữa các nhân viên trong cơ sở】  &#13;&#10;&#13;&#10;"Này! Tôi nghe nói là cậu đã được chỉ định quản thúc dị thường đó dạo gần đây. Thú vị đấy." &#13;&#10;"Ừ thì... dị thường này không nguy hiểm cho lắm, trông khá là ổn. Việc duy nhất cần phải làm là dạy nó những điều mới lạ. Nhìn cái thứ vụng về đó cố gắng học hỏi cũng ngộ phết."&#13;&#10;"Không nguy hiểm á? Nghe đáng nghi vãi. Tôi nghĩ cậu nên cẩn thận hơn. Nó vẫn được đánh giá là một dị thường cấp độ HE đấy. Chắc chắn là có gì đó mờ ám nguy hiểm đằng sau những cử chỉ vụng về của nó."&#13;&#10;Tất nhiên rồi, cảm ơn vì đã nhắc nhở tôi. Thêm nữa, khát vọng học tập của loại dị thường này cực kì mãnh liệt. Mỗi khi tôi chỉ nó vài thứ vớ vẩn và nhàm chán, hoặc dạy nó ít hơn bình thường, năng lượng mà nó sản sinh ra lại giảm một cách rõ rệt. Vì vậy, tôi đã phải làm việc tăng ca với nó nhiều lần tới tận nửa đêm."&#13;&#10;"Hầy. Nghe mệt dữ. Cậu đã làm việc rất chăm chỉ."À, còn nữa, dị thể này có một vấn đề rất nghiêm trọng. Đó là nó chỉ học bằng cách bắt chước người khác."&#13;&#10; "Vì sao thế?"&#13;&#10;"Bởi vì đối với nó, 'học' đơn giản chỉ là việc ghi nhớ, và nó không biết vận dụng những kiến thức đã học một cách linh hoạt."&#13;&#10;"Xì, thôi nào, nó chỉ là một con quái vật thôi mà. Thanh niên nghiêm túc thế?"&#13;&#10;"Mặc dù nó là một con quái vật, nhưng tôi đã là một giáo viên tại một con hẻm trong suốt 8 năm rồi. Dưới danh nghĩa và trách nhiệm của một giáo viên, tôi không thể để học sinh của tôi ghi nhớ kiến thức một cách trống rỗng như vậy được, có lẽ tôi nên dạy nó cách vận dụng kiến thức linh hoạt." &#13;&#10; "Ồ, danh dự và trách nhiệm của giáo viên cơ đấy. Nghe cũng ngầu. Mà này, có một công ty cổ phần Hamhampangpang vừa mở của bên cạnh cơ sở của chúng ta. Muốn qua đó ăn thử sau khi kết thúc ngày làm việc không?"&#13;&#10;"Ủa? Thật à? Công việc hôm nay cũng không nặng đô cho lắm, gặp nhau tại lối vào công ty sau giờ làm việc nhé." &#13;&#10; "Ngon, nhớ đừng sủi kèo ấy nhé!"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {&#13;&#10;&#13;&#10;——Tôi đã rất chăm chỉ để học vào ngày hôm nay, có muốn tôi thể hiện kiến thức cho bạn chiêm ngưỡng không? &#13;&#10;&#13;&#10;【Nội dung sau đây được trích từ bản ghi các cuộc đối thoại bên trong buồng quản thúc】 &#13;&#10;&#13;&#10;"Chào buổi sáng, Pinocchio. Mình là ■■■■, và hôm nay, tớ sẽ là giáo viên của cậu." &#13;&#10;" (Tiếng gỗ cọt kẹt) Chào b-b-buổi s-s-áng, ■■■■. Mình là P-Pinocchio. H-Hôm nay mọi thứ cũng thật tốt đẹp..." &#13;&#10; "Hầy... (lầm bầm) Nó vẫn không thể vận dụng kiến thức đã học mà chỉ đơn giản bắt chước theo. "
+"Được rồi, hãy bắt đầu bài học ngày hôm nay nào, Pinocchio." &#13;&#10;..................................&#13;&#10; "Được rồi, hôm nay tới đây thôi. Cuối cùng cũng đến lúc về nhà rồi.""■■■■, tôi đã rất chăm chỉ để học vào ngày hôm nay, có muốn tôi thể hiện kiến thức cho bạn chiêm ngưỡng không?"&#13;&#10;"Hử? Thể hiện sao? Học trò Pinocchio đã tiến bộ rồi ư?""Được, tất nhiên là cậu có thể cho tớ thấy những gì mà tớ vừa dạy cậu về cách bầu bạn với người khác trong buổi học ngày hôm nay."&#13;&#10;(Tiếng gỗ cọt kẹt)&#13;&#10; "Hừm... di chuyển không tệ, cũng có thể nói là đã khá ổn định. Tiếp theo là gì nào?"&#13;&#10;"Xin chào, một ngày tốt lành phải không, Pinocchio?"&#13;&#10;“？？？"??? Cái khỉ gì vậy? Đó là giọng của ta mà? Làm thế quái nào mà ngươi có thể phát ra cái chất giọng đó?!"&#13;&#10;"Buổi chiều tốt lành, Pinocchio. Cậu vừa dùng bữa trưa với món gì vậy?"&#13;&#10;"Đợi đã, dừng, dừng, dừng lại!"&#13;&#10;..............&#13;&#10; 【Đặc vụ đã phải nhận một cuộc tư vấn tâm lý.】}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {【Thông báo từ Tập đoàn L vào ngày ■■ tháng Sáu】 &#13;&#10;&#13;&#10; Thông báo tới toàn bộ Đặc vụ,&#13;&#10; Qua việc những sự cố thương tâm liên quan tới việc dị thường F-10-15's trốn thoát đang gia tăng với một mức độ đáng báo động, chúng tôi sẽ đưa ra lời cảnh báo tới tất cả những nhân viên chịu trách nhiệm quản thúc F-10-15. Do F-10-15 gần đây đã bắt đầu "lừa gạt", toàn bộ nhân viên chịu trách nhiệm quản thúc F-10-15 sẽ phải làm lại bài kiểm tra đánh giá năng lực. Bài kiểm tra sẽ bắt đầu vào lúc ■■:■■ chiều. Xin đừng tới trễ.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {-"Mọi người luôn nói dối. Tại sao đó lại là chuyện xấu?"}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;Được tạo ra với mục đích trở thành ■■■■ tuyệt vời nhất trên thế giới, nhưng sau khi được "sinh ra", người tạo ra nó đã ngay lập tức ném một cái nhìn đầy chán ghét và thất vọng tới "đứa con" của mình. Vào thời điểm đó, nó đã không thể hiểu nổi tại sao việc đó lại xảy ra với mình. Sau đó, nó trở thành một con tốt quan trọng cho kế hoạch vĩ đại của hắn, và nó cũng vui vẻ chấp nhận vai trò của nó. Tuy nhiên, sau khi trải qua những vòng quay lặp đi lặp lại một cách bất tận, trái tim nhiệt huyết của nó đã trở nên nguội lạnh. Nó dần từ bỏ bản thể gốc của mình và bắt đầu bắt chước và học hỏi từ những kẻ khác, liên tục thúc đẩy kế hoạch. Nhưng ngay cả khi làm vậy, nó vẫn phải trải qua vô vàn vòng lặp. Trong những vòng lặp vô tận đó, nó đã học cách "lừa gạt" và một ý tưởng khủng khiếp đã dần hình thành trong tâm trí nó...
+  Và tại vòng lặp cuối cùng, nó đã....【Nội dung tiếp theo đã bị hư hại hoàn toàn, không thể đọc】  }
+      ]
+    </desc>
+
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Các chỉ số kháng cự sát thương của $0 không hề cố định và nó sẽ sao chép chỉ số kháng cự của bất kì đặc vụ nào còn sống.</specialTip>
+      <specialTip openLevel="2" key="2">Vào mỗi cấp độ rò rỉ Qliphoth, có một tỉ lệ nhỏ $0 sẽ lừa gạt, tự giảm bộ đếm Qliphoth của chính nó. Nếu không được quản thúc đúng cách, nó sẽ trốn thoát vào cấp độ rò rỉ kế tiếp.</specialTip>
+      <specialTip openLevel="3" key="3">Nhân viên sẽ có tỉ lệ nhìn thấu trò lừa bịp khi làm việc với nó, khả năng này dựa vào cấp độ Công Bằng và "mức độ cảnh giác" của họ. Nếu kết quả làm việc là Tốt, bộ đếm của nó sẽ trở lại bình thường.</specialTip>
+      <specialTip openLevel="4" key="4">Sau khi trốn thoát, Dị thể sẽ mô phỏng, bắt chước các nhân viên và gây loại sát thương dựa trên thuộc tính sát thương (của vũ khí E.G.O) của họ.</specialTip>
+     </specialTipSize>
+
+
+
+
+  </observe>
+  <child>
+    <name>name</name>
+    <codeId>F-10-15-1</codeId>
+  </child>
+</creature>

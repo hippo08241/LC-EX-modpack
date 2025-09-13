@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>
+  <!--UI-->
+  <text id="Rabbit_Manual_Title">- R사 제 4무리 사용설명서 -</text>
+  <text id="Rabbit_Manual_Day">1. R사 4무리는 Day당 1회 호출 가능합니다.</text>
+  <text id="Rabbit_Manual_MaxSefira">2. 4무리는 동시에 최대 4개의 부서까지 호출 가능합니다.</text>
+  <text id="Rabbit_Manual_MaxCount">3. 토끼와 순록은 최대 32마리, 코뿔소는 16마리가 호출됩니다.</text>
+  <text id="Rabbit_Manual_Cost">4. 호출 부서당 현재 모은 에너지의 25%를 지불하게 됩니다. 세 팀을 전부 부를 시에는 현재 모은 에너지의 30%를 지불하게 됩니다.</text>
+  <text id="Rabbit_Manual_Command">5. R사 4무리가 호출 된 부서에서는 관리자가 아닌 4무리가 모든 지휘권을 갖습니다.</text>
+  <text id="Rabbit_Manual_Clear">6. 호출된 부서에 모든 적대개체가 소멸되면 R사 4무리는 자동 철수 합니다.</text>
+  <text id="Rabbit_Manual_Panic">- 4무리가 호출 된 부서는 봉쇄되며, 남아있던 직원들은 즉시 패닉에 빠집니다.</text>
+</localize>

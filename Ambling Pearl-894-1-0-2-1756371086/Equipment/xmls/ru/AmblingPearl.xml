@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AmblingPearl_weapon1_name">Бурлящая коррозия</text>
+<text id="AmblingPearl_weapon1_desc">Все такое липкое... От этого действительно не увернуться!</text>
+<text id="AmblingPearl_weapon1_specialDesc">При получении урона есть шанс нанести ответный урон всем враждебным существам в той же комнате.</text>
+<text id="AmblingPearl_weapon2_desc">Будет больно~ Она не сломается, даже если порезать тебя ей.</text>
+<text id="AmblingPearl_weapon2_specialDesc">При нанесении урона Hp владельца восстанавливается.
+Если Hp владельца меньше 50%, во время удара урон будет нанесен любому обьекту (не включая офицеров) в той же комнате.</text>
+<text id="AmblingPearl_armor_desc">Хм... Фу, гадость. Не стоит даже превращаться в жемчужину!	</text>
+<text id="AmblingPearl_armor_specialDesc">При ношении особого ЭПОС оружия, О-02-21-11 появится рядом с владельцем и поможет ему в действиях.</text>
+</localize>

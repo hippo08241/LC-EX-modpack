@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+ <text id="ScytheClock_weapon_name">Price</text>
+
+<text id="ScytheClock_armor_no">B-02형</text>
+
+<text id="ScytheClock_armor_desc">Time’s wasting, time’s running out… They are nothing but meaningless tantrums. This armor will not only take your lost time back, but also give you even more time. The price will follow to your decision. It is designed this way.</text>
+
+<text id="ScytheClock_armor_specialDesc">When use pause, equipped agent take P type damage</text>
+
+<text id="ScytheClock_armor_no">A-02형</text>
+
+<text id="ScytheClock_weapon_desc">Time’s wasting, time’s running out… They are nothing but meaningless tantrums. This weapon will be seeked who refuse to pay and run away. Whether you want it or not, we all know that you have to take it.</text>
+
+<text id="ScytheClock_weapon_specialDesc">Extra damage relative to total health when attack Abnormality</text>
+
+<text id="ScytheClock_gift_Desc">mental + 3 Not specified as the target of special abilities of this Abnormality</text>
+</localize>

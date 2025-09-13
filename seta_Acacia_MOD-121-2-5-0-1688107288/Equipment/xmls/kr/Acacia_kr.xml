@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Acacia_weapon_name">나락</text>
+  <text id="Acacia_weapon_Desc">죄악을 담은 탄환은 지평선을 따라 복도를 가로지른다.</text>
+  <text id="Acacia_armor_Desc">새하얀 겉옷은 새카만 죄악을 덮어낸다.</text>
+  <text id="Acacia_armor_specialDesc">해당 환상체의 방어구 장착 시 마탄의 피해를 입지 않는다.</text>
+  <text id="Acacia_gift_Desc">정신력 +3 공격속도 +10 억압작업 성공률 +3% </text>
+</localize>

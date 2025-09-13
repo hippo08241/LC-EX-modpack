@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="27003">
+
+
+
+    <narration action="move">
+      #0は$0の収容室に割り当てられる。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {あぁ…遂に……！やっと我々を呼んでいる！},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-93-01</codeNo>
+      <portrait openLevel ="1">Custom/BlueStar_Altar</portrait>
+
+      <name openLevel ="1">
+        青い星の祭壇
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>皆いつかあの場所に帰る。これは本能だよ。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {灰色のボディを持つ古代の石像で、その外見は記録されているアブノーマリティーO-03-93&#13;&#10;によく似ている。研究され、儀式にも使われてきた。}
+      ]
+    </desc>
+   <desc id="2" openLevel="2">
+      [
+      {このアブノーマリティーと接触した職員は、奇妙で遠い呼び声を聞いたという。}
+      ]
+    </desc>
+   <desc id="3" openLevel="3">
+      [
+      {「収容室内はひどく静かで、祭壇は青い光を点滅させ続け、私は聞いた……&#13;&#10;果てしない……待望の声を……」}
+      ]
+    </desc>
+   <desc id="4" openLevel="4">
+      [
+      {精神的強度の低い職員は、この声の影響を受け、異常な行動パターンを示すことがある。&#13;&#10;より深い影響を受けた職員は、外見上の身体的徴候が変わることさえある。}
+      ]
+    </desc>
+  <desc id="5" openLevel="5">
+      [
+      {！！！警告：精神鑑定の結果が芳しくない職員は、このアブノーマリティーに触れてはならない！！！}
+      ]
+    </desc>
+
+
+
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">アブノーマリティーは、使用中の職員の精神力を供物として吸収し続け、同時に精神力が70％未満の施設内の全職員の精神力を回復させる。施設内にO-03-93を収容している場合、回復量は2倍になる。</specialTip>
+      <specialTip openLevel="0" key="0">使用時間が20秒未満、または40秒を越えると、使用した職員の精神力をすべて吸収し、精神力を回復する。また、部門内の職員の精神力を50回復させ、自制ランクまたは職員ランクが4以下の職員は使用すると即座にパニックに陥る。</specialTip>
+      <specialTip openLevel="0" key="0">このアブノーマリティーが精神力を50吸収するごとに、O-03-93のカウンターが1増える。</specialTip>
+      <specialTip openLevel="0" key="0">同じクリフォト暴走レベル内で、職員がこのアブノーマリティーによって精神力を80以上回復させられるとパニックに陥る。</specialTip>
+      <specialTip openLevel="0" key="0">O-03-93は、130秒以上使用されないか、このアブノーマリティーによってパニックに陥った職員の総数が5人を超えると脱走する。このとき、生け贄にする職員を選ぶことができる。 5人の生贄が成功すると、O-03-93は収容室に戻る。</specialTip>
+    </specialTipSize>
+  </observe>
+	
+  <child>
+    <name>新星の影</name>
+    <codeId>O-03-93-01-1</codeId>
+  </child>
+
+</creature>

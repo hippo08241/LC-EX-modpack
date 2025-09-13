@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="509122">
+
+    <narration action="move">
+      Начинаю работу...
+    </narration>
+
+  </info>
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-05-222</codeNo>
+      <portrait openLevel ="1">Custom/VendWords</portrait>
+
+      <name openLevel ="2">
+        Торговый автомат слов
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>
+        Автомат выдавал не газировку или закуски, а самые изысканные звуки.
+      </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Автомат выдавал не газировку или закуски, а самые изысканные звуки.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Тот, кто прислушивался к звукам, доносящимся из Торгового автомата слов, 
+чувствовал себя глубоко просветленным.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="2">
+      [
+      {Желая погреться в лучах его мудрости, он возвращался бы сюда снова и снова, 
+пока все знания не были бы переданы ему.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="3">
+      [
+      {Однако такими божественными словами нельзя делиться; все было напрасно, 
+когда пришли другие и украли его мудрость.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {За все приходится платить. В конце концов, это единственное, чему они научились.}
+      ]
+    </desc>
+
+     <specialTipSize size="5">
+      <specialTip openLevel="0" key="Hubris1">После работы с Аномалией $0 у Агента улучшились показатели Выдержки.</specialTip>
+      <specialTip openLevel="1" key="Hubris2">Было обнаружено, что агент также имел повышенный 
+процент успешных результатов при выполнении работы на Понимание.
+</specialTip>
+      <specialTip openLevel="1" key="Hubris3">Эффект усиливается с каждым последующим использованием. Максимум до трех раз.
+</specialTip>
+      <specialTip openLevel="2" key="Hubris4">Если другой Агент работает с Аномалией $0, 
+первоначальный Агент теряет эффект и его нельзя будет получить повторно до конца дня.</specialTip>
+      <specialTip openLevel="3" key="Hubris5">Часть вырабатываемой Энергии Агентом с эффектом выплачивается Аномалии $0.</specialTip>
+      </specialTipSize>
+  </observe>
+</creature>

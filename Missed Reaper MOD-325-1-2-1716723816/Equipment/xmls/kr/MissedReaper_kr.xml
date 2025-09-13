@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">그리움</text>
+  <text id="MissedReaper_weapon_desc">“다시 한번, 그 아이의 얼굴을 볼수있다면, 그 아이의 손을 잡을수있다면...”</text>
+  <text id="MissedReaper_weapon_specialDesc">착용 요구 조건:그리움 E.G.O. Gift 착용&#13;&#10;시설내 적대 개체가 존재할 경우 자동 공격</text>
+  <text id="MissedReaper_armor_name">그리움</text>
+  <text id="MissedReaper_armor_desc">“이미 떠나 보낸 이는 다시 돌아오지않아.&#13;&#10;그때 뭐라고 말이라도 할걸&#13;&#10;&#13;&#10;손을 놓쳐서 정말 미안해라던지 같은 의미 없는 사과라도 할 걸.”</text>
+  <text id="Reaper_gift">그리움</text>
+  <text id="Reaper_desc">정신력 +6&#13;&#10;I’m Missin’U</text>
+</localize>

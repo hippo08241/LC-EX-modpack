@@ -1,0 +1,363 @@
+
+DrownedSister.png
+size: 3885,3029
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+격리실 머리카락
+  rotate: true
+  xy: 1504, 878
+  size: 1500, 1267
+  orig: 1500, 1500
+  offset: 0, 0
+  index: -1
+길게늘어진머리
+  rotate: false
+  xy: 2, 2380
+  size: 2801, 647
+  orig: 3537, 2789
+  offset: 400, 157
+  index: -1
+빡친장화_눈
+  rotate: true
+  xy: 3719, 2784
+  size: 243, 146
+  orig: 248, 148
+  offset: 3, 1
+  index: -1
+빡친장화_눈동자
+  rotate: false
+  xy: 3043, 1082
+  size: 191, 65
+  orig: 193, 67
+  offset: 1, 1
+  index: -1
+빡친장화_뒷머리
+  rotate: true
+  xy: 2805, 2068
+  size: 499, 528
+  orig: 502, 531
+  offset: 2, 1
+  index: -1
+빡친장화_뒷머리2
+  rotate: false
+  xy: 3274, 1402
+  size: 367, 283
+  orig: 368, 285
+  offset: 1, 1
+  index: -1
+빡친장화_뒷머리3
+  rotate: false
+  xy: 2793, 378
+  size: 357, 330
+  orig: 357, 330
+  offset: 0, 0
+  index: -1
+빡친장화_머리카락1
+  rotate: true
+  xy: 901, 14
+  size: 204, 349
+  orig: 204, 360
+  offset: 0, 11
+  index: -1
+빡친장화_머리카락2
+  rotate: false
+  xy: 677, 39
+  size: 222, 387
+  orig: 222, 387
+  offset: 0, 0
+  index: -1
+빡친장화_머리카락3
+  rotate: false
+  xy: 3643, 1426
+  size: 217, 225
+  orig: 217, 225
+  offset: 0, 0
+  index: -1
+빡친장화_머리카락4
+  rotate: false
+  xy: 3152, 148
+  size: 308, 275
+  orig: 308, 276
+  offset: 0, 0
+  index: -1
+빡친장화_앞머리
+  rotate: false
+  xy: 1252, 2
+  size: 308, 187
+  orig: 310, 189
+  offset: 1, 1
+  index: -1
+빡친장화_옆머리1
+  rotate: true
+  xy: 3662, 846
+  size: 262, 200
+  orig: 262, 200
+  offset: 0, 0
+  index: -1
+빡친장화_옆머리2
+  rotate: true
+  xy: 3648, 1936
+  size: 281, 235
+  orig: 282, 235
+  offset: 0, 0
+  index: -1
+빡친장화_입
+  rotate: false
+  xy: 2773, 1019
+  size: 18, 58
+  orig: 20, 60
+  offset: 1, 1
+  index: -1
+빡친장화_잔머리1
+  rotate: false
+  xy: 3746, 595
+  size: 112, 249
+  orig: 113, 250
+  offset: 1, 0
+  index: -1
+빡친장화_잔머리2
+  rotate: false
+  xy: 3719, 2593
+  size: 98, 189
+  orig: 98, 189
+  offset: 0, 0
+  index: -1
+빡친홍련_눈
+  rotate: true
+  xy: 2639, 223
+  size: 243, 146
+  orig: 248, 148
+  offset: 2, 1
+  index: -1
+빡친홍련_눈동자
+  rotate: true
+  xy: 2490, 122
+  size: 191, 65
+  orig: 193, 67
+  offset: 1, 1
+  index: -1
+빡친홍련_뒷머리
+  rotate: false
+  xy: 2773, 1538
+  size: 499, 528
+  orig: 502, 531
+  offset: 2, 1
+  index: -1
+빡친홍련_뒷머리2
+  rotate: true
+  xy: 2793, 710
+  size: 367, 283
+  orig: 368, 285
+  offset: 1, 1
+  index: -1
+빡친홍련_뒷머리3
+  rotate: false
+  xy: 3078, 740
+  size: 357, 330
+  orig: 357, 330
+  offset: 0, 0
+  index: -1
+빡친홍련_머리카락1
+  rotate: false
+  xy: 3605, 2219
+  size: 204, 348
+  orig: 204, 360
+  offset: 0, 12
+  index: -1
+빡친홍련_머리카락2
+  rotate: false
+  xy: 3043, 1149
+  size: 222, 387
+  orig: 222, 387
+  offset: 0, 0
+  index: -1
+빡친홍련_머리카락3
+  rotate: true
+  xy: 2557, 4
+  size: 217, 225
+  orig: 217, 225
+  offset: 0, 0
+  index: -1
+빡친홍련_머리카락4
+  rotate: true
+  xy: 3462, 132
+  size: 307, 275
+  orig: 308, 275
+  offset: 1, 0
+  index: -1
+빡친홍련_앞머리
+  rotate: false
+  xy: 1562, 2
+  size: 308, 187
+  orig: 310, 189
+  offset: 1, 1
+  index: -1
+빡친홍련_옆머리1
+  rotate: false
+  xy: 1972, 113
+  size: 262, 200
+  orig: 263, 200
+  offset: 1, 0
+  index: -1
+빡친홍련_옆머리2
+  rotate: true
+  xy: 3648, 1653
+  size: 281, 235
+  orig: 282, 235
+  offset: 1, 0
+  index: -1
+빡친홍련_입
+  rotate: false
+  xy: 2773, 959
+  size: 18, 58
+  orig: 20, 60
+  offset: 1, 1
+  index: -1
+빡친홍련_잔머리1
+  rotate: false
+  xy: 3746, 344
+  size: 112, 249
+  orig: 113, 250
+  offset: 1, 0
+  index: -1
+빡친홍련_잔머리2
+  rotate: false
+  xy: 3739, 153
+  size: 98, 189
+  orig: 98, 189
+  offset: 0, 0
+  index: -1
+심해
+  rotate: false
+  xy: 2, 888
+  size: 1500, 1490
+  orig: 1500, 1500
+  offset: 0, 0
+  index: -1
+안빡친장화_머리
+  rotate: true
+  xy: 3152, 425
+  size: 313, 295
+  orig: 323, 297
+  offset: 1, 1
+  index: -1
+안빡친장화_머리카락1
+  rotate: true
+  xy: 2118, 315
+  size: 151, 519
+  orig: 152, 521
+  offset: 1, 1
+  index: -1
+안빡친장화_머리카락2
+  rotate: false
+  xy: 3335, 2110
+  size: 268, 457
+  orig: 269, 457
+  offset: 1, 0
+  index: -1
+안빡친장화_몸
+  rotate: true
+  xy: 1450, 344
+  size: 532, 666
+  orig: 536, 673
+  offset: 2, 5
+  index: -1
+안빡친장화_앞머리
+  rotate: true
+  xy: 3274, 1687
+  size: 379, 328
+  orig: 382, 331
+  offset: 2, 1
+  index: -1
+안빡친장화_잔머리카락
+  rotate: true
+  xy: 3648, 1110
+  size: 314, 223
+  orig: 315, 223
+  offset: 0, 0
+  index: -1
+안빡친장화_장화
+  rotate: false
+  xy: 2236, 69
+  size: 252, 244
+  orig: 260, 247
+  offset: 7, 1
+  index: -1
+안빡친장화_하체
+  rotate: false
+  xy: 2805, 2569
+  size: 912, 458
+  orig: 915, 463
+  offset: 2, 1
+  index: -1
+안빡친장회_뒷머리
+  rotate: true
+  xy: 2, 18
+  size: 408, 673
+  orig: 409, 675
+  offset: 1, 1
+  index: -1
+안빡친홍련_뒷머리
+  rotate: true
+  xy: 2118, 468
+  size: 408, 673
+  orig: 409, 675
+  offset: 1, 1
+  index: -1
+안빡친홍련_머리
+  rotate: true
+  xy: 3449, 441
+  size: 313, 295
+  orig: 323, 297
+  offset: 9, 1
+  index: -1
+안빡친홍련_머리카락1
+  rotate: true
+  xy: 1450, 191
+  size: 151, 520
+  orig: 152, 521
+  offset: 1, 1
+  index: -1
+안빡친홍련_머리카락2
+  rotate: false
+  xy: 2773, 1079
+  size: 268, 457
+  orig: 269, 457
+  offset: 1, 0
+  index: -1
+안빡친홍련_몸
+  rotate: false
+  xy: 915, 220
+  size: 533, 666
+  orig: 536, 673
+  offset: 2, 5
+  index: -1
+안빡친홍련_앞머리
+  rotate: false
+  xy: 3267, 1072
+  size: 379, 328
+  orig: 382, 331
+  offset: 2, 1
+  index: -1
+안빡친홍련_잔머리카락
+  rotate: true
+  xy: 3437, 756
+  size: 314, 223
+  orig: 315, 223
+  offset: 1, 0
+  index: -1
+안빡친홍련_하체
+  rotate: false
+  xy: 2, 428
+  size: 911, 458
+  orig: 914, 463
+  offset: 2, 1
+  index: -1
+안빡친홍련_홍련
+  rotate: true
+  xy: 2787, 121
+  size: 255, 301
+  orig: 258, 304
+  offset: 2, 1
+  index: -1

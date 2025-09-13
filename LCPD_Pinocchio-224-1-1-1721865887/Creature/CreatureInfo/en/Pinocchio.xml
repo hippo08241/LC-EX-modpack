@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="110052">
+
+
+
+    <narration action="move">
+      #0 is assigned to the containment unit of $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0 made a creaking sound, #0 is unsure if it was an illusion or not.}
+      {$0 is keen on learning, as usual.}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is imitating what #0's doing.}
+      {#0 can see $0's trying to imitate writing on a clipboard.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0's getting tired of $0's attempts to mimic them.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-10-15</codeNo>
+      <name openLevel ="1">Puppet</name>
+      <name openLevel ="4">Pinocchio</name>
+      <portrait openLevel ="4">Custom/Pinocchio</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>Can I become like them if I keep imitating?</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {This guy just keeps "learning" by following others, and that's the problem.&#13;&#10;&#13;&#10;  【The following content is from employee conversation records】  &#13;&#10;&#13;&#10;"Hey! I heard you've been assigned to manage that marionette recently. It sounds interesting." &#13;&#10;"Well... this anomaly is alright, not very dangerous. My assigned task is just to teach it new things, It's quite amusing to see how clumsily it learns."&#13;&#10;"Not dangerous? That sounds suspicious. I think you should be careful, it's rated as an HE-level Abnormality. There must be some risks involved."&#13;&#10;Indeed, thanks for the reminder. By the way, this anomaly has a strong desire for learning. Whenever I refused to teach it, its energy output decreases immediately. Because of this, I've had to work overtime several times until midnight."&#13;&#10;"Oh? That sounds tough. You've been working hard lately."And also, this anomaly has a big problem. It only learns by following others, and that's the issue."&#13;&#10; "Why is that?"&#13;&#10;"Because its "learning" has been nothing but an imitation what I do, it doesn't interpret the knowledge, it simply copies it."&#13;&#10;"Oh come on, it's just an abnormality... Why do you take it so seriously?"&#13;&#10;"Even though it's an abnormality, I've been a teacher in the backstreets for 8 years. My sense of responsibility as an educator tells me that I can't let my students merely memorize knowledge, but rather, I should teach them how to interpret the information and apply it flexibly in the future." &#13;&#10; "Well, that's a strange sense of responsibility. By the way, there's a new HamHamPangPang joint that opened next to the company. Shall we go try it after work?"&#13;&#10;"Oh? Really? Today's workload is not heavy, so let's meet at the company entrance after work." &#13;&#10; "Great, see you there after work!"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {&#13;&#10;&#13;&#10;——I also worked hard to learn today, do you want me to show my new knowledge to you? &#13;&#10;&#13;&#10;【The following content is from recorded conversations inside the containment unit】 &#13;&#10;&#13;&#10;"Good morning, Pinocchio. I'm ■■■■, and today I'll be teaching you." &#13;&#10;" (Wood creaking sounds) Good m-m-m-morning ■■■■, I'm P-Pinocchio. T-Today is good too..." &#13;&#10; "Sigh... (mumbling softly) It still can't apply knowledge, only imitates..."
+"Alright, let's start today's learning, Pinocchio." &#13;&#10;..................................&#13;&#10; "Alright, that's it for today. Finally, time to go home.""■■■■, I also worked hard to learn today, do you want me to show what I learnt to you?"&#13;&#10;"Hmm? Show? Did my Pinocchio student have a breakthrough?""Well... Sure, you can demonstrate to me what I taught you today about how to get along with others."&#13;&#10;(Wood creaking sounds)&#13;&#10; "Hmm... Not bad movements, quite standard. What's next?"&#13;&#10;"Hello, it's a beautiful day today, Pinocchio."&#13;&#10;“？？？"??? What the hell? Isn't that my voice? How can you imitate my voice?!"&#13;&#10;"Good afternoon, Pinocchio. What did you have for lunch today?"&#13;&#10;"Wait, stop, stop, stop!"&#13;&#10;..............&#13;&#10; 【The agent has received psychological counseling.】}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {【Announcement from L Corp Management on June ■■】 &#13;&#10;&#13;&#10; Dear agents,&#13;&#10;  Considering the recent increase in incidents related to Anomaly F-10-15's escape, we hereby warn all employees responsible for F-10-15. Since F-10-15 has now started "lying", all employees responsible for F-10-15 are required to retake the employee competency test. The test will begin today at ■■:■■ PM. Please do not be late.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {-"People lie all the time. Why is that a bad thing?"}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;It was created to be the greatest ■■■■ in the world, but after being created, its creator grew deeply disgusted with it after just a glimpse. At that time, it didn't understand why. Later on, they became an important pawn in his grand plan, and it delightedly embraced their role as a pawn. However, in the endless cycle of repetition, its once passionate heart gradually turned into a heart made of cold steel. It gradually abandoned its former self and began to imitate and learn from others, relentlessly pushing forward the plan. But even so, it went through numerous cycles. In these cycles, it learned "lying" and a terrible idea took hold in its mind...
+  In that final cycle, they....【The following content has been damaged】  }
+      ]
+    </desc>
+
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">$0 does not have fixed resistances and will adopt the resistances of other agents as its own.</specialTip>
+      <specialTip openLevel="2" key="2">There is a small probability for $0 to lie during each meltdown level, decreasing its Qliphoth counter, and if not properly managed, it'll result in it escaping on the next meltdown level.</specialTip>
+      <specialTip openLevel="3" key="3">Employees have a probability, based on their levels of justice and prudence, to discern lies while working with it. If the work result is good, its Qliphoth counter will return to normal.</specialTip>
+      <specialTip openLevel="4" key="4">After escaping, the anomaly will mimic employees and inflict damage based on their attack attributes.</specialTip>
+     </specialTipSize>
+
+
+
+
+  </observe>
+  <child>
+    <name>name</name>
+    <codeId>F-10-15-1</codeId>
+  </child>
+</creature>

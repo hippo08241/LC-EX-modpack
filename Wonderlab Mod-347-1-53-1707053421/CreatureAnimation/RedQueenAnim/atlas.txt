@@ -1,0 +1,146 @@
+
+redqueen.png
+size: 1906,538
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 1580, 200
+  size: 140, 295
+  orig: 147, 297
+  offset: 1, 1
+  index: -1
+button
+  rotate: false
+  xy: 1404, 289
+  size: 25, 34
+  orig: 28, 36
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 2, 10
+  size: 621, 526
+  orig: 626, 528
+  offset: 1, 1
+  index: -1
+collar1
+  rotate: false
+  xy: 625, 90
+  size: 349, 172
+  orig: 351, 174
+  offset: 1, 1
+  index: -1
+collar2
+  rotate: true
+  xy: 625, 7
+  size: 81, 238
+  orig: 83, 242
+  offset: 1, 2
+  index: -1
+collar3
+  rotate: false
+  xy: 625, 264
+  size: 367, 272
+  orig: 369, 274
+  offset: 1, 1
+  index: -1
+crown
+  rotate: true
+  xy: 1580, 342
+  size: 194, 159
+  orig: 198, 163
+  offset: 1, 2
+  index: -1
+eye1
+  rotate: false
+  xy: 976, 249
+  size: 11, 13
+  orig: 13, 15
+  offset: 1, 1
+  index: -1
+eye2
+  rotate: false
+  xy: 1404, 263
+  size: 19, 24
+  orig: 21, 26
+  offset: 1, 1
+  index: -1
+eye3
+  rotate: true
+  xy: 865, 22
+  size: 66, 98
+  orig: 68, 100
+  offset: 1, 1
+  index: -1
+eye32
+  rotate: true
+  xy: 1580, 10
+  size: 66, 98
+  orig: 800, 1000
+  offset: 400, 739
+  index: -1
+foot
+  rotate: false
+  xy: 1420, 6
+  size: 48, 46
+  orig: 50, 48
+  offset: 1, 1
+  index: -1
+head
+  rotate: true
+  xy: 976, 2
+  size: 166, 167
+  orig: 168, 169
+  offset: 1, 1
+  index: -1
+head2
+  rotate: true
+  xy: 1145, 2
+  size: 166, 167
+  orig: 800, 1000
+  offset: 336, 707
+  index: -1
+head_back
+  rotate: false
+  xy: 1741, 358
+  size: 147, 178
+  orig: 149, 180
+  offset: 1, 1
+  index: -1
+legs1
+  rotate: false
+  xy: 994, 170
+  size: 408, 153
+  orig: 410, 155
+  offset: 1, 1
+  index: -1
+legs2
+  rotate: true
+  xy: 1580, 78
+  size: 120, 324
+  orig: 122, 326
+  offset: 1, 1
+  index: -1
+neck
+  rotate: false
+  xy: 1314, 49
+  size: 104, 119
+  orig: 107, 121
+  offset: 2, 1
+  index: -1
+paper1
+  rotate: true
+  xy: 994, 325
+  size: 211, 439
+  orig: 212, 439
+  offset: 1, 0
+  index: -1
+paper2
+  rotate: true
+  xy: 1435, 54
+  size: 482, 143
+  orig: 490, 145
+  offset: 1, 1
+  index: -1

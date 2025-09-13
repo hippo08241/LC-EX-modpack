@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="178801">
+    <narration action="move">
+      #0 is on their way to $0’s Containment Unit to begin the work process.
+    </narration>
+    <narration action="start">
+      [
+      {No one knows what will happen when this button is pressed.}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {No matter what happens in the Containment Unit, this button SHOULD NOT BE PRESSED.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {Stop! Manager! Think of those poor employees. Don’t you have any pity for them?}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {Oh, please, no, don’t touch that button.}
+      ]
+    </narration>
+    
+    <narration action="mid4">
+      [
+      {You've pressed it numerous times and you still have something you want to know about it?}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-05-47-1</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/DontTouchMe</portrait>
+
+      <name openLevel ="1">
+        Don’t Touch Me
+      </name>
+      
+      <name openLevel="3">
+        Button Bug
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>You've pressed it numerous times and you still have something you want to know about it?</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {A machine in the shape of a box with a tempting big red button. Old scribblings are written around it. They're mostly warnings, such as: "Don't push the button."}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Many employees file their temptation to push the button as so strong it gives them insomnia. However, as the number of employees claiming they are suffering from this temptation is quite large, a solution to this problem is being worked on currently.}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {One of the most important aspects of defining an abnormality is "free will". This Abnormality is confirmed to possess a strong will to make anyone around it want to push it. Thus, it is categorized as an Abnormality.}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {When the button is pressed, things that shouldn't happen, happen. Some say an apocalypse will befall, others say rainbow-colored light will shine down and unicorns will descend from the sky, and others still say a bomb buried deep underneath the facility will detonate and reset everything. However, none of these rumors are confirmed.}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {&lt;b&gt;Caution is advised&lt;/b&gt; as this Abnormality possesses the ability to evoke one's curiosity to press it. Sometimes, it changes its shape in a cunning attempt to be pressed by mistake.}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {&lt;Excerpt from an Employee’s Testimony&gt;&#13;&#10;
+      "When I snapped back to reality, I was standing right in front of the containment room, just about to press that damn button. I would have, if not for the other employees dragging me out of that situation..."&#13;&#10;&#13;&#10;The employee is currently back on duty after going through various tests and being diagnosed as normal. Although, we did order the employee to go to counseling, as they still visibly expressed dissatisfaction for missing the opportunity to press the button.}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">When an employee with Fortitude or Temperance Level 1 finished their work, the Qliphoth Counter lowered.</specialTip>
+      <specialTip openLevel="1" key="2">When the Work was performed with $0, the Qliphoth Counter lowered with a low probability.</specialTip>
+      <specialTip openLevel="1" key="3">When the work result was Bad, the Qliphoth Counter lowered with a low probability.</specialTip>
+      <specialTip openLevel="1" key="4">When employee #0 panicked during work, the Qliphoth Counter lowered.</specialTip>
+      <specialTip openLevel="1" key="5">$0 voluntarily returned to its containment after a period of time had passed.</specialTip>
+      <specialTip openLevel="1" key="6">#0 was ordered to suppress $0. When they tried to attack it, the Abnormaliry emitted ominous mechanical sound. Afterward, anomalies detected in the facility.</specialTip>
+      <specialTip openLevel="1" key="7">This Abnormality is not affected by Qliphoth Meltdowns.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

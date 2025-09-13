@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Dead End Answer_armor_name">Dead End</text>
+<text id="Dead End Answer_armor_desc">The heavy armor is constructed to be extremely sturdy in order to protect the 'answer'.
+Those who cling to that 'answer' will likely face a dead end.</text>
+<text id="Dead End Answer_armor_specialDesc">Movement speed and attack speed are significantly reduced.
+When equipped with The Dead Answer's E.G.O gift, resistance improves.</text>
+<text id="Dead End Answer_weapon_name">Dead End</text>
+<text id="Dead End Answer_weapon_desc">To them, it was undoubtedly the answer. However, it was not complete.
+That's all there is to it.</text>
+<text id="Dead End Answer_weapon_specialDesc">Reduces the damage taken by the wearer by 60%.
+Additionally, during suppression, it reduces damage taken by other employees or abnormalities positioned directly behind the wearer by 30%.
+
+When fully equipped with The Dead Answer's E.G.O, R resistance is further enhanced.
+</text>
+<text id="Dead End Answer_gift_name">Dead End</text>
+<text id="Dead End Answer_gift_desc">Health +14, Sanity +14, Movement speed -10, Attack speed -10</text>
+</localize>

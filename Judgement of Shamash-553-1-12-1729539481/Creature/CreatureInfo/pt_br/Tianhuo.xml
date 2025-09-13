@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="720000">
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar a trabalhar.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-09-314</codeNo>
+
+      <portrait openLevel ="1">Custom/th</portrait>
+
+      <name openLevel ="1">
+        Julgamento de Shamash
+      </name>
+
+      <riskLevel openLevel ="1">WAW</riskLevel>
+
+      <openText>Fiz uma promessa a ela, a todos, de que não importava o custo, a humanidade triunfaria sobre o Colapso!</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {A Anormalidade foi descoberta em um meteorito depois que a empresa decifrou
+o nome da Anormalidade e descobriu que ela veio de um mundo que havia entrado em colapso.
+É a Chave da Destruição, feita do núcleo do Sétimo Governante do mundo antigo,
+É uma arma dupla que possui grande poder destrutivo nascido do poder do "calor"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Ele tem um cano preto e branco, enquanto o núcleo do Ruler é carmesim.
+O núcleo tem um mecanismo de segurança no lugar. Para limitar seu poder, o núcleo do Ruler
+foi dividido em duas partes e colocado nas armas gêmeas.
+Não é muito poderoso, pois esse mecanismo fez com que os canos das armas gêmeas
+se esticassem e se transformassem para formar os punhos da espada, e uma chama quente, como ouro derretido, sobe para o céu e se funde no corpo da espada.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {O método de uso é chamado de Bainha do Fogo Celestial, e como o nome sugere,
+traz destruição absoluta a todas as coisas.
+A tempestade de chamas criada pela Grande Espada é capaz de destruir até mesmo as criaturas mais poderosas,
+mas esse poder tem um preço alto, pois aqueles que ousam usá-lo são queimados até as cinzas ao liberar a Bainha do Fogo Celestial.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Quando a arma atingir seu poder total, ela removerá a trava
+e se transformará em uma arma devastadoramente poderosa.
+Poderia ser considerada uma encarnação da própria morte, e somente a luz que irrompe de uma supernova poderia competir com ela.
+Esta é a origem do nome "Kabuto". Somente aquele que pode ultrapassar os limites da mortalidade pode resistir a ela.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Quando a empresa decifrou todas as informações sobre isso, eles encontraram uma única frase visível na terra arrasada onde o meteoro caiu:
+Eu fiz uma promessa a ela, a todos, que não importava o custo, a humanidade triunfaria sobre o Colapso!}
+      ]
+    </desc>
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Esta Anormalidade contém grande poder. Pode ser exercida por funcionários.</specialTip>
+      <specialTip openLevel="2" key="2">Isso faz com que aqueles que o usam percam PV para causar dano exponencialmente maior.</specialTip>
+      <specialTip openLevel="3" key="3">Quando é usado duas vezes pelo mesmo funcionário em um único dia, ele terá uma morte estranha e sem precedentes.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

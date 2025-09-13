@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101118">
+
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+
+    <narration action="start">
+      [
+      {“$0”正在计数，一，二，三，四……}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0一边哼着歌，一边梳着“$0”的头发。}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0在思索该给“$0”绑头发还是扎辫子。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {“$0”会记住它与#0共度的时间。}
+      ]
+    </narration>
+
+    <narration action="Bald_code_start">
+      [
+      {“$0”平静的表情里蕴含着悲伤。}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid1">
+      [
+      {#0正在尝试安慰“$0”。}
+      ]
+    </narration>
+    
+    <narration action="Bald_code_mid2">
+      [
+      {#0觉得“$0”可能会在冬天着凉，因为它没有一丝头发。}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid4">
+      [
+      {#0认为存在奇点也无法解决的问题。}
+      ]
+    </narration>
+
+    <narration action="Bald_start">
+      [
+      {“无发公主”平静的表情里蕴含着悲伤。}
+      ]
+    </narration>
+
+    <narration action="Bald_mid1">
+      [
+      {#0正在努力让工作顺利进行。}
+      ]
+    </narration>
+    
+    <narration action="Bald_mid2">
+      [
+      {#0觉得“无发公主”可能会在冬天着凉，因为它没有一丝头发。}
+      ]
+    </narration>
+
+    <narration action="Bald_mid4">
+      [
+      {#0认为存在奇点也无法解决的问题。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-118</codeNo>
+      <portrait openLevel ="1">Custom/Tangle</portrait>
+
+      <name openLevel ="1">
+        缠发公主
+      </name>
+      
+      <specialName openLevel ="1">
+        无发公主
+      </specialName>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>解开我的头发吧，这样我就能逃离
+这个地狱了。</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {这是一个拥有绚丽金发的球形异想体。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {观察结果显示，“$0”记录了它与一名员工共度的时间，其目的尚且未知。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {进一步的观察显示，“$0”似乎非常重视自己的头发。它对那些善待它的员工非常友好，但对那些试图压制它的员工表现出攻击性。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {最终的观察结果显示，它对员工表现出的友好只不过是出逃前的掩饰。被请求助其出逃的员工将之镇压后，“$0”将再次开始计数，一切重新循环。&#13;&#10;然而，即使该员工未能将其制服，预期中的异想体脱逃事件仍然没有发生。}
+      ]
+    </desc>
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">当本能工作结果为优时，“$0”的逆卡巴拉计数器有小概率立刻减少。</specialTip>
+      <specialTip openLevel="2" key="2">当沟通工作结果为优时，“$0”的逆卡巴拉计数器有小概率立刻减少。</specialTip>
+      <specialTip openLevel="3" key="3">开始压迫工作时，“$0”的逆卡巴拉计数器会立刻减少。</specialTip>
+      <specialTip openLevel="4" key="4">当“$0”的逆卡巴拉计数器归零时，它袭击了收容单元里的员工并试图逃跑。然而，无论员工胜负如何，“$0”都无法逃离这里。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

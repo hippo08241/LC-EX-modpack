@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<equipment_list>
+
+  <equipment id="202177" type="weapon">
+    <name>Default_weapon_name</name>
+    <no>Default_weapon_no</no>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite></sprite>
+
+    <grade>1</grade>
+    <range>3</range>
+    <attackSpeed>2</attackSpeed>
+    <script>RRR4.RhinoMaceWeapon, RRR4.Call</script>
+
+    <animation>mace</animation>
+    <damage type="R" min="30" max="40"/>
+
+    <animation>dash</animation>
+    <damage type="R" min="20" max="20"/>
+
+  </equipment>
+
+  <equipment id="302177" type="armor">
+    <name></name>
+    <script></script>
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+  </equipment>
+
+</equipment_list>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Rhino_Captain_Start_0">Rhinoceros on the move! I'm confident in our abilities!</text>
+  <text id="Rhino_Captain_Start_1">Let's hit hard and block hard!</text>
+  <text id="Rhino_Captain_Start_2">Never mind the facilities, it's our job to go on a rampage!</text>
+  <text id="Rhino_Captain_Start_Geburah">It's an honor to be able to compete with the Red Mist!</text>
+  <text id="Rhino_Captain_Start_Binah">Hey, Manager! Fighting with an Arbiter is a breach of contract!</text>
+  
+  <text id="Rhino_Captain_Half_0">Half the rhino have been trampled.</text>
+  <text id="Rhino_Captain_Half_1">How many are left, half of em'?</text>
+  <text id="Rhino_Captain_Half_2">Half of us are dead! Charge ahead, and the path will open up!</text>
+  <text id="Rhino_Captain_Half_Geburah">Half of the rhino have been trampled, but the struggle isn't over!</text>
+  <text id="Rhino_Captain_Half_Binah">Even if it's not a real Arbiter, it's still a bitch to deal with!</text>
+
+  <text id="Rhino_Captain_Almost_0">80% trampled. Looks like we've got ourselves quite the opponent.</text>
+  <text id="Rhino_Captain_Almost_1">80% of the rhinos are dead. C'mon, It's up to you if you live or die here!</text>
+  <text id="Rhino_Captain_Almost_Geburah">We're out 80%. You're as tough as the bunny always says!</text>
+  <text id="Rhino_Captain_Almost_Binah">I can't believe it's this tough, even degraded... Yeesh, a real one would be a pain.</text>
+  
+  <text id="Rhino_Captain_Eliminated_0">Rhinoceros annihilated! Whoops, we got trampled.</text>
+  <text id="Rhino_Captain_Eliminated_1">All the rhinos are dead, and we didn't even get to go all out...</text>
+  <text id="Rhino_Captain_Eliminated_2">The Rhinos were wiped out! That's a pain in the ass.</text>
+  <text id="Rhino_Captain_Eliminated_Geburah">Man, we got shoved aside like nothing...</text>
+  <text id="Rhino_Captain_Eliminated_Binah">We've met our match. We'll be rooting for ya!</text>
+  
+  <text id="Rhino_Captain_End_0">Go alone like the rhino’s horn!</text>
+  <text id="Rhino_Captain_End_1">That was easier than dealing with the stuff in the Ruins!</text>
+  <text id="Rhino_Captain_End_2">Weren’t so tough after all!</text>
+  <text id="Rhino_Captain_End_3">Mission accomplished! The rhinos will forget all about what happened here!</text>
+  <text id="Rhino_Captain_End_Geburah">Haha! Are we really that strong?</text>
+  <text id="Rhino_Captain_End_Binah">Even if you're an Arbiter, your skills don't mean shit against overwhelming power!</text>
+
+  <!--Rhino Units
+      
+      Rhino_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Rhino_Unit_Name">Rhino</text>
+  
+  <text id="Rhino_Unit_Start_0">Don't hesitate, be bold!</text>
+  <text id="Rhino_Unit_Start_1">Any enemy will be crushed by the rhino's feet!</text>
+  <text id="Rhino_Unit_Start_2">Nothing stands in the way of a rhino!</text>
+  <text id="Rhino_Unit_Start_3">Captain. Can I just jump right in?</text>
+  
+  <text id="Rhino_Unit_Encounter_Officer_0">Poor bastards!</text>
+  <text id="Rhino_Unit_Encounter_Officer_1">Deal with the straglers!</text>
+  <text id="Rhino_Unit_Encounter_Officer_2">Off you go!</text>
+  
+  <text id="Rhino_Unit_Encounter_Agent_0">You're in my way... how foolish of you, haha!</text>
+  <text id="Rhino_Unit_Encounter_Agent_1">You too are forsaken!</text>
+  <text id="Rhino_Unit_Encounter_Agent_2">What a waste of a weapon.</text>
+  <text id="Rhino_Unit_Encounter_Agent_3">Clear!</text>
+  <text id="Rhino_Unit_Encounter_Agent_4">You're carrying some useful gear.</text>
+
+  <text id="Rhino_Unit_Encounter_Creature_TETH_0">Not a risk.</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_1">Which one should I trample first?</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_2">You're very fragile, aren't you?</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_HE_0">Maybe a risk.</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_1">Such attacks don't work!</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_2">Huh, this thing from the ruins?</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_3">Taking a bit of a walk, huh! Back to your cell!</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_4">I'll take it out in one hit!</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_WAW_0">Big risk.</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_1">Now this, this could be fun!</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_2">Eh? Are they using these things to make energy somehow?</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_3">If they used this during the Smoke Wars, we'd be in trouble.</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_4">I don't care if these monsters get in my way! I have a job to do!</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_0">Real big risk.</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_1">Let's hope it doesn't lead to the annihilation of the pack!</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_2">Against monsters, we shouldn't be this weak...!</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_3">I'll be dead if I screw up around this one.</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_4">It's like walking into the heart of the ruins...</text>
+  
+  <text id="Rhino_Unit_Panic_0">Maximum mental corruption reached. Commencing automatic disposal.</text>
+  <text id="Rhino_Unit_Panic_1">Automatic disposal to eliminate all human risk.</text>
+
+  <text id="Rhino_Unit_SectorClear_0">Mission accomplished!</text>
+  <text id="Rhino_Unit_SectorClear_1">We win!</text>
+  <text id="Rhino_Unit_SectorClear_2">It's been a while since we've had a decent opponent!</text>
+  <text id="Rhino_Unit_SectorClear_3">You thought you could win? Too bad!</text>
+  
+</localize>

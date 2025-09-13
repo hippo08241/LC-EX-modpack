@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="ConfessedSin_equip_name">原罪</text>
+	<text id="ConfessedSin_weapon_desc">「しかし、彼は私たちの罪のために負傷し、私たちの咎のために打ち傷を負いました。私たちの平和のための懲罰が彼にありました。そして彼の打ち傷によって私たちは癒されました。」</text>
+	<text id="ConfessedSin_weapon_specialDesc">装備中は移動速度が 50% 減少します。&#13;&#10;攻撃時にSPを2回復します&#13;&#10;職員が1つの罪と100の善行を持っている場合、E.G.O.以下の効果をギフトすると発動する：特殊攻撃時、自身は白ダメージを受けなくなる。</text>
+
+	<text id="ConfessedSin_armor_name">原罪</text>
+	<text id="ConfessedSin_armor_desc">「棘は深く埋め込まれており、まるで取り除くことはできず、原罪は洗い流すこともできないかのように、罪を共有するかのようです。それは最初から最後まであなたとともにあります。」</text>
+	<text id="ConfessedSin_armor_specialDesc">2以下の白ダメージに対する耐性&#13;&#10;パニックに対する耐性。精神力が0になると完全な精神力を取り戻すが、直後に30秒間無力化される。SPが10未満になると死亡する。無力なまま&#13;&#10;E.G.O. 1つの罪と100の善行の贈り物 アーマー防御力を (0.3 0.3 0.3 0.3 0.2) に増加します。同じ部屋にいるチームメイトが受けるダメージを白のダメージに置き換えてから、そのダメージを受けます。</text>
+	
+	<text id="ConfessedSin_gift">原罪</text>
+	<text id="ConfessedSin_desc">「父よ、できることなら、この杯を私から去らせてください。それでも、私が望むようにではなく、あなたが望むように。」.&#13;&#10;&#13;&#10;SP +15</text>
+
+
+</localize>

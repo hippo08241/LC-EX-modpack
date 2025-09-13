@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="27003">
+
+
+
+    <narration action="move">
+      #0 está a caminho da Unidade de Contenção $0 para iniciar o processo de trabalho.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {Aah... Finalmente...! Está nos chamando finalmente!},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-93-01</codeNo>
+      <portrait openLevel ="1">Custom/BlueStar_Altar</portrait>
+
+      <name openLevel ="1">
+        Santuário da Estrela Azul
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>Todos nós voltamos para aquele lugar algum dia. É um instinto.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {A Anormalidade assume a forma de uma estátua de pedra cinza, cuja aparência é muito semelhante à Anormalidade O-03-93 documentada.&#13;&#10; Ele estava sendo usado para fins ritualisticos nas profundezas da instalação antes de ser apreendido e contido.}
+      ]
+    </desc>
+   <desc id="2" openLevel="2">
+      [
+      {Funcionários que foram expostos a essa anormalidade relataram ouvir sons estranhos e distantes, como se algo os estivesse "chamando".}
+      ]
+    </desc>
+   <desc id="3" openLevel="3">
+      [
+      {"Estava terrivelmente quieto na unidade de contenção. O altar só ficava piscando essa luz azul, e eu ouvi...&#13;&#10;Ouvi os gritos... intermináveis... chamando por mim..."}
+      ]
+    </desc>
+   <desc id="4" openLevel="4">
+      [
+      {Funcionários com estados mentais abaixo do ideal podem começar a ser afetados por essa "voz" e apresentar padrões comportamentais anormais.&#13;&#10; Funcionários que foram afetados de forma mais significativa podem até começar a apresentar mudanças físicas também.}
+      ]
+    </desc>
+  <desc id="5" openLevel="5">
+      [
+      {AVISO IMPORTANTE: Funcionários cujos resultados de avaliação psiquiátrica forem inferiores a 60% não devem ser expostos a esta Anormalidade!}
+      ]
+    </desc>
+
+
+
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">A Anormalidade absorverá o PS do funcionário que trabalha como uma oferta. Todos os funcionários na instalação que têm menos de 70% de PS recuperarão PS ao mesmo tempo.
+Se O-03-93 estiver presente na instalação, a recuperação será dobrada.</specialTip>
+      <specialTip openLevel="0" key="0">Quando menos de 20 segundos de tempo de trabalho tiverem ocorrido, ou mais de 40 segundos, a Anormalidade absorverá todo o PS do funcionário em um instante.
+Depois, todos os funcionários do departamento curarão 50 PS. Agentes com Temperança ou Prudência Nível 4 ou inferior começaram a entrar em pânico ao trabalhar com a Anormalidade.</specialTip>
+      <specialTip openLevel="0" key="0">Para cada 50 PS absorvidos pela Anormalidade, o Contador Qliphoth aumenta em 1.</specialTip>
+      <specialTip openLevel="0" key="0">Se um funcionário recuperar mais de 80 SP dos efeitos desta Anormalidade, entrará em pânico. Este contador é reiniciado após ocorrer um Colapso do Qliphoth.</specialTip>
+      <specialTip openLevel="0" key="0">O-03-93-01 escapará quando não for trabalhado por mais de 130 segundos, ou quando o número total de funcionários colocados em pânico por esta Anormalidade exceder cinco.
+Quando isso acontece, o Gerente pode escolher sacrificar um funcionário. Após 5 sacrifícios bem-sucedidos, O-03-93-01 retornará à contenção.</specialTip>
+    </specialTipSize>
+  </observe>
+	
+  <child>
+    <name>Sombra da Estrela</name>
+    <codeId>O-03-93-01-1</codeId>
+  </child>
+
+</creature>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyGentleman_weapon_name">たぷつき</text>
+<text id="FairyGentleman_gift_name">たぷつき</text>
+<text id="FairyGentleman_gift_desc">作業成功率・作業速度+3</text>
+<text id="FairyGentleman_armor_desc">夜行性の翅は飛行能力こそないものの、明かりの代わりになる。&#13;&#10;&#13;&#10;ずっしりとした見た目とは異なり、E.G.O自体は意外と軽い。</text>
+<text id="FairyGentleman_weapon_desc">妖精の力を集め、敵の魂を破壊せよ！うむ…妖精酒一杯…</text>
+</localize>

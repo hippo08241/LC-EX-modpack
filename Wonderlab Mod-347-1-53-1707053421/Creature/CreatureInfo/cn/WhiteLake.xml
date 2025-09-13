@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="102177">
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+    <narration action="start">
+      [{“$0”拥有能让任何人倾倒的美丽身姿。}]
+    </narration>
+    <narration action="mid1">
+      [{只有被选中的勇士才能进入月的宫殿。}]
+    </narration>
+    <narration action="mid2">
+      [{只有勇士才能让“$0”满意。}]
+    </narration>
+    <narration action="mid4">
+      [{“$0”寻找着勇士。}]
+    </narration>
+  </info>
+
+  <observe level ="4">
+   <collection>
+    <codeNo openLevel ="0">O-02-177</codeNo>
+    <portrait openLevel ="1">Custom/WhiteLake</portrait>
+    <name openLevel ="1">纯白之湖</name>
+    <riskLevel openLevel ="1">HE</riskLevel>
+    <openText>只有被选中的勇士才能进入月的宫殿。</openText>    
+   </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {湖水平静，直到有不洁的侵入者闯入。}
+      ]
+   </desc>
+
+   <desc id="2" openLevel="1">
+      [
+      {白色湖水中的公主比任何人都美丽。在她的宫殿里，她想要的东西一应俱全。那富丽堂皇的景象足以让所有人艳羡。公主不缺少任何东西——除了一样事物，那就是没有勇士来拯救她。}
+      ]
+   </desc>
+
+   <desc id="3" openLevel="2">
+      [
+      {没有勇士，公主什么都不是。玫瑰鲜艳欲滴，明镜闪闪发亮，但没有勇士就毫无意义。公主已经拥有了勇士之外的一切，宝物再怎样被抛光和擦拭，对她而言也只不过是无聊乏味的杂物。}
+      ]
+   </desc>
+
+   <desc id="4" openLevel="3">
+      [
+      {公主等待着，等待着那个只照顾自己的小而可爱的勇士。
+但是，公主希望的勇士没有选择她。于是公主想着——
+
+如果不能被勇士选中，那就让自己选择勇士吧。}
+      ]
+   </desc>
+
+   <specialTipSize size="4">
+    <specialTip openLevel="1" key="1">勇气等级为2级或更低的员工开始非压迫工作时，工作成功率显著提高。当工作结果为优时，“$0”会赠送E.G.O饰品作为礼物给完成工作的员工。</specialTip>
+    <specialTip openLevel="2" key="2">勇气等级为3级或更高的员工开始工作时，工作成功率略有降低。若该员工开始沟通工作，“$0”的逆卡巴拉计数器会立刻减少。</specialTip>
+    <specialTip openLevel="3" key="3">当工作结果为差时，“$0”的逆卡巴拉计数器会在倒计时结束后减少。</specialTip>
+    <specialTip openLevel="4" key="4">当“$0”的逆卡巴拉计数器归零时，获得过E.G.O饰品的员工成为了“勇士”。成为“勇士”的员工与恐慌类似，可通过白色的精神伤害或黑色的侵蚀伤害恢复精神值，以此恢复正常。“勇士”被制服或死亡后，“$0”的逆卡巴拉计数器得以恢复。如果没有任何员工拥有“$0”的E.G.O饰品，当“$0”的逆卡巴拉计数器归零时，下一个进入收容单元的员工将成为“勇士”。</specialTip>
+   </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {悬挂在天花板上的果实在你眼前来回摇摆。}
+{一颗果实注意到了你，所有的它们都疯狂地向你冲来。}
+{你的选择是……}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="保护自己" target="1" isAnswer="false"/>
+        <node desc="闭上眼睛" target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {你试图用双手保护自己。}
+{它们穿过了你的手掌，穿透血肉。}
+{这是你从未感受过的疼痛。}
+{新的果实开始生长。}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {就像什么都不在乎一般，你闭上了眼睛。}
+{预期的结果并未到来，你缓慢地睁开了眼睛。}
+{没有果实，没有缎带，没有任何变化。}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {一个拥有可爱外表，但试图让观众陷入谵妄的异想体。},
+        {您相信您所认为的是真实吗？主管？}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

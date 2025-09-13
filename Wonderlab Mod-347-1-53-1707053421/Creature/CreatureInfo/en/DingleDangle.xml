@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100121">
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="mid1">
+      [ {Everyone is bound to come across a situation they cannot endure.} ]
+    </narration>
+    <narration action="mid4">
+      [ {Would you be able to persevere?} ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+   <collection>
+    <codeNo openLevel ="0">F-03-121</codeNo>
+    <portrait openLevel ="1">Custom/DingleDangle</portrait>
+    <name openLevel ="1">DingleDangle</name>
+    <riskLevel openLevel ="1">TETH</riskLevel>
+    <openText>Let's all become fruits, let's all hang together.</openText>    
+   </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {A tree, laced with ribbons.
+Though it appears harmless, the occasional rumor says otherwise.]
+      ]
+   </desc>
+
+   <desc id="2" openLevel="1">
+      [
+      {A new fruit is formed on the t ree.
+Let's all become fruits, let's all hang together.}
+      ]
+   </desc>
+    
+   <specialTipSize size="3">
+    <specialTip openLevel="1" key="1">Dingle-dangle attempts to hypnotize an Agent with over 3 Prudence every 40 seconds. However, if any of their other three stats are also over 3, they were unaffected.</specialTip>
+    <specialTip openLevel="2" key="2">A hypnotized Agent #0 entered Dingle-dangle's Containment Unit in a trance. (This phenomenon has been dubbed “Allurement”.) When said Agent was killed, a "fruit" appeared in the Containment Chamber.</specialTip>
+    <specialTip openLevel="3" key="3">PE-Box production was increased when a 'fruit' was formed.</specialTip>
+   </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The fruits hanging from the ceiling sway to and fro, before your eyes.}
+{A fruit notices, causing all of them to rush towards you in a frenzy.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="protect yourself." target="1" isAnswer="false"/>
+        <node desc="close your eyes." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You attempt to protect yourself with your hands.}
+{They pierce your hand, digging through.}
+{Pain, as you had never felt.}
+{A new fruit begins to form.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You close your eyes without a care.}
+{When the expected impact doesn't arrive, you slowly open your eyes.}
+{No fruit, no ribbons. Nothing has changed.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {An abnormality that attempts to cause delirium to the viewer, despite its cute appearance.},
+        {Do you believe what you think is the truth, Manager?}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

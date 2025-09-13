@@ -1,0 +1,132 @@
+
+FairyMassAnim.png
+size: 2541,755
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 1028, 241
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BIOOD
+  rotate: false
+  xy: 2, 2
+  size: 1024, 751
+  orig: 1024, 751
+  offset: 0, 0
+  index: -1
+fairy_00
+  rotate: true
+  xy: 1542, 320
+  size: 433, 388
+  orig: 433, 388
+  offset: 0, 0
+  index: -1
+后手1
+  rotate: false
+  xy: 2075, 5
+  size: 145, 151
+  orig: 145, 151
+  offset: 0, 0
+  index: -1
+后手2
+  rotate: false
+  xy: 2423, 137
+  size: 115, 178
+  orig: 115, 178
+  offset: 0, 0
+  index: -1
+后脚1
+  rotate: true
+  xy: 1976, 158
+  size: 184, 259
+  orig: 184, 259
+  offset: 0, 0
+  index: -1
+后脚2
+  rotate: false
+  xy: 2237, 104
+  size: 184, 238
+  orig: 184, 238
+  offset: 0, 0
+  index: -1
+头发
+  rotate: false
+  xy: 2448, 317
+  size: 91, 208
+  orig: 91, 208
+  offset: 0, 0
+  index: -1
+手大臂1
+  rotate: true
+  xy: 1932, 344
+  size: 158, 256
+  orig: 158, 256
+  offset: 0, 0
+  index: -1
+手大臂2
+  rotate: true
+  xy: 1847, 14
+  size: 109, 226
+  orig: 109, 226
+  offset: 0, 0
+  index: -1
+手小臂1
+  rotate: true
+  xy: 2190, 344
+  size: 158, 256
+  orig: 158, 256
+  offset: 0, 0
+  index: -1
+手小臂2
+  rotate: false
+  xy: 2400, 527
+  size: 109, 226
+  orig: 109, 226
+  offset: 0, 0
+  index: -1
+翅膀
+  rotate: true
+  xy: 1628, 125
+  size: 193, 346
+  orig: 193, 346
+  offset: 0, 0
+  index: -1
+脚后零件1
+  rotate: true
+  xy: 1932, 504
+  size: 249, 232
+  orig: 249, 232
+  offset: 0, 0
+  index: -1
+脚后零件2
+  rotate: true
+  xy: 1028, 7
+  size: 232, 298
+  orig: 232, 298
+  offset: 0, 0
+  index: -1
+脚零件1
+  rotate: true
+  xy: 2166, 504
+  size: 249, 232
+  orig: 249, 232
+  offset: 0, 0
+  index: -1
+脚零件2
+  rotate: true
+  xy: 1328, 7
+  size: 232, 298
+  orig: 232, 298
+  offset: 0, 0
+  index: -1
+身体
+  rotate: true
+  xy: 1628, 5
+  size: 118, 217
+  orig: 118, 217
+  offset: 0, 0
+  index: -1

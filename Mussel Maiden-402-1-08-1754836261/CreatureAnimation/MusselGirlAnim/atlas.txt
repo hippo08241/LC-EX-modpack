@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 2414,2414
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+上臂
+  rotate: false
+  xy: 2, 1758
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+下臂
+  rotate: true
+  xy: 2, 1189
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+同类的骨头上
+  rotate: false
+  xy: 571, 89
+  size: 567, 529
+  orig: 567, 529
+  offset: 0, 0
+  index: -1
+同类的骨头下
+  rotate: false
+  xy: 1140, 2
+  size: 567, 529
+  orig: 567, 529
+  offset: 0, 0
+  index: -1
+头部
+  rotate: true
+  xy: 571, 1845
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+披肩
+  rotate: false
+  xy: 658, 1189
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+普攻小蚌壳
+  rotate: false
+  xy: 2, 89
+  size: 567, 529
+  orig: 567, 529
+  offset: 0, 0
+  index: -1
+珍珠
+  rotate: true
+  xy: 2, 620
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+耳部
+  rotate: true
+  xy: 658, 620
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+蚌壳上
+  rotate: false
+  xy: 1227, 1758
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+蚌壳下
+  rotate: true
+  xy: 1227, 1189
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+蚌肉底座
+  rotate: false
+  xy: 1709, 2
+  size: 567, 529
+  orig: 567, 529
+  offset: 0, 0
+  index: -1
+躯干连接处
+  rotate: false
+  xy: 1796, 1758
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+长裙
+  rotate: false
+  xy: 1314, 533
+  size: 567, 654
+  orig: 567, 654
+  offset: 0, 0
+  index: -1
+骨蚌上
+  rotate: true
+  xy: 1883, 1189
+  size: 567, 529
+  orig: 567, 529
+  offset: 0, 0
+  index: -1
+骨蚌下
+  rotate: true
+  xy: 1883, 620
+  size: 567, 529
+  orig: 567, 529
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="joe_name">乔</text>
+  <text id="wonderlab_1_dialog_1">啊……听到了吗？</text>
+  <text id="wonderlab_1_dialog_2">您好！这里是乔，O-5681支部的控制部部长。</text>
+  <text id="wonderlab_1_dialog_3">如前所述，O-5681支部的主管已死亡。</text>
+  <text id="wonderlab_1_dialog_4">O-5681支部不具备选拔主管的资格，然而，如果没有主管，该支部存在的许多异想体将面临极高的管理风险。</text>
+  <text id="wonderlab_1_dialog_5">因此，我们决定将至少一个异想体的亚种送至总部。</text>
+  <text id="wonderlab_1_dialog_6">按照运输异想体的程序，已经通过邮件发送了异想体的识别码，还请确认。</text>
+  <text id="wonderlab_1_dialog_angelica">（与O-5681的支部通话中断）</text>
+  <text id="wonderlab_1_dialog_7">您的表情怎么了？主管？</text>
+  <text id="wonderlab_1_selection_1">真的没问题吗？</text>
+  <text id="wonderlab_1_dialog_8">O-5681支部发送的异想体具有出色的PE-BOX生产能力，同时能够提取出强大的E.G.O装备。</text>
+  <text id="wonderlab_1_dialog_9">生产更多的能源，一向是公司的宗旨。</text>
+  <text id="wonderlab_1_dialog_10">当然，也有非常危险的异想体。按照预期，主管的工作将会变得更加繁忙。</text>
+  <text id="wonderlab_1_dialog_11">然而……不是有人说过，美丽的花都带刺吗？</text>
+  <text id="wonderlab_1_dialog_12">如果积极看待这句话的话，带刺的花无比美丽。</text>
+  <text id="wonderlab_1_dialog_13">……仙人掌如果开花，会很漂亮的。</text>
+</localize>

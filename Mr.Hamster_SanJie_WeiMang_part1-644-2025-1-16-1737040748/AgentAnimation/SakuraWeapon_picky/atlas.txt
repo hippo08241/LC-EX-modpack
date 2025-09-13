@@ -1,0 +1,195 @@
+
+picky.png
+size: 2976,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 1544, 262
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 2834, 262
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 1804, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 2062, 132
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 2320, 132
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 2578, 132
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: true
+  xy: 1030, 262
+  size: 256, 512
+  orig: 256, 512
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 1802, 262
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2060, 262
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 2836, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 1804, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 2844, 66
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 1934, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 2064, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 2194, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Note
+  rotate: false
+  xy: 2318, 262
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 2324, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 2454, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 2910, 66
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 2584, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 2714, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Sakura_picky
+  rotate: false
+  xy: 2576, 262
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Sakura_picky_1
+  rotate: false
+  xy: 1030, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Sakura_picky_2
+  rotate: false
+  xy: 1288, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 1546, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+培根切切
+  rotate: false
+  xy: 2, 6
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+培根突击
+  rotate: false
+  xy: 516, 6
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

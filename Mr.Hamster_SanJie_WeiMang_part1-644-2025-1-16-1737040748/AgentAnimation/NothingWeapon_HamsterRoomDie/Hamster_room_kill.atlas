@@ -1,0 +1,264 @@
+
+Hamster_room_kill.png
+size: 2820,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2044, 266
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: true
+  xy: 1530, 136
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 1788, 136
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 2046, 136
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 2304, 136
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 2562, 136
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: true
+  xy: 1530, 266
+  size: 256, 512
+  orig: 256, 512
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 2302, 266
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2560, 266
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 1530, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 1660, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 2700, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 1790, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 1920, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 2050, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 2180, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 2310, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 2700, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 2440, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 2570, 6
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+bacon_taco
+  rotate: false
+  xy: 2, 2
+  size: 762, 520
+  orig: 762, 520
+  offset: 0, 0
+  index: -1
+bacon_taco_float
+  rotate: false
+  xy: 2, 2
+  size: 762, 520
+  orig: 762, 520
+  offset: 0, 0
+  index: -1
+bacon_taco_bite
+  rotate: false
+  xy: 766, 2
+  size: 762, 520
+  orig: 762, 520
+  offset: 0, 0
+  index: -1
+
+Hamster_room_kill2.png
+size: 2241,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wellcheers/Wellcheers_eye_1
+  rotate: false
+  xy: 2, 4
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_eye_fail
+  rotate: false
+  xy: 260, 4
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_eye_success
+  rotate: false
+  xy: 518, 4
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_eyebrow_1
+  rotate: false
+  xy: 776, 4
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_eyebrow_fail
+  rotate: false
+  xy: 1034, 4
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_eyebrow_success
+  rotate: false
+  xy: 1292, 4
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_fail_effect
+  rotate: false
+  xy: 2175, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_hand
+  rotate: false
+  xy: 2175, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_mouth_1
+  rotate: true
+  xy: 1550, 4
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_mouth_2
+  rotate: true
+  xy: 1675, 4
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_mouth_3
+  rotate: true
+  xy: 1800, 4
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_mouth_fail
+  rotate: true
+  xy: 1925, 4
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1
+wellcheers/Wellcheers_mouth_success
+  rotate: true
+  xy: 2050, 4
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1

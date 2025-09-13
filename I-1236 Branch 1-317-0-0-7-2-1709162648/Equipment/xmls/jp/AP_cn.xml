@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="ChP_weapon_name">テクノロジーの美</text>
+  <text id="ChP_weapon_desc">子供たちは世界を探し出そうと手探りで進みました。</text>
+  <text id="ChP_weapon_specialDesc">蓄積されたトラウマ。ダメージの延長</text>
+  <text id="ChP_armor_desc">子供たちは世界を構築するために探検する。</text>
+  <text id="ChP_armor_specialDesc">非常に洗練された特殊効果を持っていますが、ここはスペースが小さすぎて書ききれません。</text>
+
+  <text id="SpMa_armor_name">漆黒の液体</text>
+  <text id="SpMa_armor_desc">私の周囲にある瓶、つまり魂が今にも割れて、黒い液体が漏れ出すかもしれない。</text>
+  <text id="SpMa_armor_specialDesc">同じエリアの従業員が少ないほど、精神的な属性は高くなります。</text>  
+</localize>

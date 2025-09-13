@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200009" type="weapon">
+    <name>OneBadManyGood_weapon_name</name>
+    <no>OneBadManyGood_weapon_no</no>
+    <desc>OneBadManyGood_weapon_desc</desc>
+    <specialDesc>OneBadManyGood_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>132009</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="5" max="7">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+    <script>OneBadManyGoodWeapon</script>
+    <maxNum>5</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+<equipment id="300009" type="armor">
+    <name>OneBadManyGood_weapon_name</name>
+    <no>OneBadManyGood_armor_no</no>
+    <desc>OneBadManyGood_armor_desc</desc>
+    <specialDesc>OneBadManyGood_armor_specialDesc</specialDesc>
+
+    <armorId>133009</armorId>
+    <defense>
+      <defenseElement type="R">0.9</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+    <script>OneBadManyGoodArmor</script>
+  </equipment>
+
+</equipment_list>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156725">
+
+
+
+    <narration action="move">
+      #0 está a caminho da Unidade de Contenção de $0 para iniciar o processo de trabalho.
+    </narration>
+
+    <narration action="start">
+      [
+      {A Unidade de Contenção de $0 sempre emite um cheiro estranho.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 não acha que $0 é assustador.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 está soluçando.}
+      {“Eca, tão fedorento, mas também terrivelmente doce, talvez.”}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-01-11-12</codeNo>
+      <name openLevel ="1">Cavalheiro Fada</name>
+      <portrait openLevel ="1">Custom/FairyGentleman</portrait>
+      <riskLevel openLevel ="1">TETH</riskLevel>
+      <openText>Você gostaria de um pouco de vinho de fada?</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {O trecho a seguir é das anotações e gravações da voz de um funcionário}
+        Embora seja mais amigável do que a maioria dos caras aqui, parados ali, dizendo olá com bolhas fedorentas e convidando você a se sentar. Quando ele me entregou uma xícara de... coisa? Coisa como geléia de chá verde podre na qual alguns globos oculares, talvez, estivessem flutuando... , eu hesitei.  （Por que eu descrevo isso tão detalhado? Porque essa mxxda maldita entrou na minha garganta!）
+        Não, não é truque. É o meu trabalho. Quanto a como eu bebi... Achei que esse bolo de matcha verde mofado poderia me libertar daqui assim como o refrigerante roxo naquela máquina de refrigerante e me deixar feliz. Mas, quero dizer, mas realmente nada aconteceu... Apenas minhas feridas foram curadas. E, essa coisa tem um gosto bom... puta merda, devo checar minha língua...}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {—— Mais uma Xícara?
+       —— Fxxa-se...
+       É uma merda... realmente, o cavalheiro e aquele... Ewwww, caramba....
+       Ah, mas, retrospectivamente, não é apenas o gosto estranho.
+       Para ser preciso, é... um sabor muito doce!  Meu nariz não aguenta mais!
+       Que estranho, muito esquisito.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Talvez eu precise mudar de ideia. Depois de beber, não sento mais nojo. Por outro lado, animado. Como se tivesse bebido muitas bebidas energéticas. Vi que os outros estão balançando. Sinto-me cheio de energia.  brup Mais uma Xícara!}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Eu estraguei tudo brup, só fui a unidade para uma bebida e derrubei o copo, que pena ... Ewww ... (Notas cobertas de vômito)
+       Outra observação: este funcionário foi removido da lista de seleção de "Melhor funcionário", esperamos que todos possam receber o aviso.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Beber em excesso é prejudicial à saúde. ——Angela, I.A da Corporação Lobotomia}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">Quando o resultado do trabalho for bom, o primeiro funcionário que terminar o trabalho com $0 receberá 5 incentivos de moral.</specialTip>
+      <specialTip openLevel="1" key="1">Quando o trabalho é concluído, o HP do funcionário foi curado e o funcionário receberá um aumento de moral com base no resultado.</specialTip>
+      <specialTip openLevel="2" key="2">Quando o resultado do trabalho era ruim ou o funcionário tinha temperança nível 2 ou inferior, o funcionário quebrava a taça de vinho e logo após todos os aumentos de moral se transformavam em embriagados.</specialTip>
+      <specialTip openLevel="3" key="3">Se $0 tiver um Vinho de Fada pronto, o próximo funcionário que entrar em sua Unidade de Contenção beberá e receberá 5 Embriagados.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

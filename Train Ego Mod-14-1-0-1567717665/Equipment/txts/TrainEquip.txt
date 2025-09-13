@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="802003" type="special"> 
+    <name>Train_gift_name</name>
+    <desc>Train_gift_desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>0</hp>
+      <mental>-2</mental>
+      <workProb>5</workProb>
+      <cubeSpeed>10</cubeSpeed> 
+      <movement>0</movement>
+      <attackSpeed>0</attackSpeed>
+    </bonus>
+    <sprite>YourTicketHat</sprite>
+    <script>HellTrainGift</script> 
+  </equipment>
+
+  <equipment id="802001" type="armor"> 
+    <name>Train_equip_name</name>
+    <no>Armor_no</no>
+    <desc>Train_armor_desc</desc>
+    <specialDesc>Train_armor_specialDesc</specialDesc>
+
+    <armorId>3102</armorId>
+
+    <require type="level">4</require>
+
+
+    <defense>
+      <defenseElement type="R">0.55</defenseElement>
+      <defenseElement type="W">1.3</defenseElement>
+      <defenseElement type="B">0.45</defenseElement>
+      <defenseElement type="P">1.3</defenseElement>
+    </defense>
+
+    <script></script>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="802002" type="weapon"> 
+    <name>Train_equip_name</name>
+    <no>Weapon_no</no>
+    <desc>Train_weapon_desc</desc>
+    <specialDesc>Train_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>TicketWeapon</sprite>
+
+    <require type="level">4</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="0" max="0">
+      <soundInfo type="damage">Weapons/revolver1</soundInfo>
+    </damage>
+    <range>8</range> 
+
+    <script>HellTrainWeapon</script> // Leave the content blank unless you know what you are doing
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>4</grade> // Corresponds to risk level; 1 is ZAYIN, 2 is TETH, ..., 5 is ALEPH
+  </equipment>
+
+</equipment_list>

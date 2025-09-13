@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AmblingPearl_weapon1_name">沸腾腐蚀</text>
+<text id="AmblingPearl_weapon1_desc">这东西很黏……你绝对躲不开的！</text>
+<text id="AmblingPearl_weapon1_specialDesc">造成伤害时，有一定概率对同房间的所有敌对实体造成伤害。</text>
+<text id="AmblingPearl_weapon2_desc">应该会很痛哦~一旦你被割伤，它就再也取不出来了。</text>
+<text id="AmblingPearl_weapon2_specialDesc">造成伤害时，为持有者恢复一定生命值。
+如果持有者的生命值低于50%，
+则会对同房间除员工（不包括文职）以外的任何实体造成伤害。</text>
+<text id="AmblingPearl_armor_desc">嗯……咳，难吃。连转化成珍珠的价值都没有！</text>
+<text id="AmblingPearl_armor_specialDesc">如果穿戴者同时持有特定E.G.O.武器，
+一只迷你的O-02-21-11会出现在穿戴者附近并支援穿戴者。</text>
+<text id="AmblingPearl_gift_desc">最大生命值+2 最大精神值+3
+工作速度+5 工作成功率+5</text>
+</localize>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110003">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-01-111</codeNo>
+      <name openLevel ="1">Ozma</name>
+      <portrait openLevel ="1">Custom/Ozma</portrait>
+      <riskLevel openLevel ="2">WAW</riskLevel>
+      <openText>Child... I will grant you a life anew.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A humanoid Abnormality with black clothes and a red ribbon in its hair. Though it has no arms, it's constantly smiling.검은 옷에 머리에는 빨간 리본을 묶고 있는 인간 형태의 환상체. 양팔은 달려 있지 않지만, 언제나 즐거운 듯 싱글벙글 웃고 있다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Dorothy lived in a remote cottage before being struck with a cyclone, losing her house and falling on a shack. Having heard of the Great Wizard, she put on a pair of silver shoes from the midst of the wreckage, and headed for the Emerald City on the yellow brick road. &#13;&#10;&#13;&#10;‘The Great Wizard can surely send me back home!’ 외딴 시골집에 살던 소녀 도로시는 하룻밤 사이에 폭풍에 휩쓸려 집을 잃고 어느 판잣집 위로 떨어졌다. 마법사에 대한 소문을 들은 소녀는 부서진 잔해 속에서 주운 은구두를 신고 황금의 길을 따라 에메랄드빛 도시로 향했다.&#13;&#10;&#13;&#10;‘그곳에 있는 위대한 마법사는 분명 나를 집으로 보내줄 수 있을 거야!’}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Dorothy met three friends on her adventure to the Emerald City. With a Scarecrow in search of a brain, a Tin Woodsman looking to regain his heart, and a Cowardly Lion wishing for courage, she finally found herself looking at the great Wizard herself.&#13;&#10;&#13;&#10;‘I want to go back home. Please grant me my wish.’&#13;&#10;&#13;&#10; The one they had thought to be the great all-powerful Wizard instead gave them directions.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {‘You have those wonderful silver shoes, no? If you follow the yellow brick road with those, you'll eventually reach your home. But, you'll have to make haste, for it's quite a long journey. When you get there, make sure to say it was the Great Wizard who granted your wish.’&#13;&#10;&#13;&#10; And so, Dorothy said her goodbyes and started on her journey home. The road was extremely long, enveloped by darkness once out of the brilliant glamour of the Emerald City. After a long time, she spotted her house in the distance - but when she arrived, all she found was a sad pile of destroyed rubble.&#13;&#10;&#13;&#10; The silver-shoed girl headed back to the Emerald City.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {The Emerald City still shone vibrantly, but the Great Wizard Oz was nowhere to be seen.  She had first sent the clever human girl away, then played tricks and decieved the rest of the girl's friends, who killed Oz in a rage.&#13;&#10;&#13;&#10;‘Y-you wicked Wizard! My friends, you've stripped me of my friends!’&#13;&#10;&#13;&#10; Dorothy, unable to reach her home after days and months of walking, decided to call all her friends and return home together.&#13;&#10;&#13;&#10; Four friends, who had started on a journey with a feeble hope dependant on a a swindler. The only ones who they could trust and rely on were each other.사기꾼에게 실낱같은 희망을 품고 서로를 도와가며 여행을 떠난 네 명의 친구들. 상처받은 그들이 믿고 의지할 수 있는 건 서로밖에 없었다.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {‘Gather around, everyone. Dance with me!’&#13;&#10; A scarecrow with hay for brains, an emotionless woodsman of tin, and a lion without courage all soon gathered around her.&#13;&#10;&#13;&#10;‘Friends! Let us proceed! Let's all go home together!’&#13;&#10; Together, on their way home, they all obtained what they wished for&#13;&#10;&#13;&#10;‘Let's all go together. A road long and harsh.’&#13;&#10; And so, their endless march began.&#13;&#10;&#13;&#10;Let's all march onward. To a beautiful land, to a world of dreams.}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">When an employee with less than 4 Fortitude committed work on $0, the Qliphoth Counter decreased. 용기가 4등급 이상인 직원이 $0의 작업을 진행하자 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="2" key="2">When Instinct word was done, the Qliphoth Counter decreased.본능 작업을 완료하자 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="3" key="3">If an Agent completes work while the Qliphoth Counter is 0, said employee is killed. Then, the Abnoramality will escape.클리포트 카운터가 0인 상태에서 $0의 작업을 완료한 직원은 사망한다. 이후 해당 환상체는 탈출하였다.</specialTip>
+      <specialTip openLevel="4" key="4">When $0 escaped, a House fell somewhere within the facility. $0이 탈출하자 시설 어딘가에 집이 떨어졌다.</specialTip>
+      <specialTip openLevel="5" key="5">$0 called for F-05-32 and F-01-87 within the Facility, and started a march together. 탈출한 $0은 시설 내의 F-05-32와 F-01-87을 불러내어 함께 행진을 시작했다.</specialTip>
+  </specialTipSize>
+
+  </observe>
+
+  <child>
+    <name>Jack</name>
+    <codeId>F-01-111-1</codeId>
+  </child>
+
+</creature>

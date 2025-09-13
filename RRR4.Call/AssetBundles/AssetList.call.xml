@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assetlist>
+  <assetbundle name="rrr4_button">
+    <asset key="Button" name="Toggle"/> <!-- Legacy -->
+    <asset key="ButtonReindeer" name="ReindeerToggle"/>
+    <asset key="ButtonRabbit" name="RabbitToggle"/>
+    <asset key="ButtonRhino" name="RhinoToggle"/>
+  </assetbundle>
+
+  <assetbundle name="rrr4_portrait">
+    <!-- portrait -->
+    <asset key="ReindeerPortrait" name="ReindeerPortrait" type="Sprite"/>
+    <asset key="RhinoPortrait" name="RhinoPortrait" type="Sprite"/>
+    <asset key="R4thPackPortrait" name="RRRPortrait" type="Sprite"/>
+  </assetbundle>
+
+  <assetbundle name="rrr4_art">
+    <asset key="RRR4_Protocol" name="RRR4_Protocol" type="Sprite"/>
+
+    <asset key="UI_4th_1" name="UI4th_45" type="Sprite"/>
+    <asset key="UI_Reindeer_1" name="UIReindeer_45" type="Sprite"/>
+    <asset key="UI_Rhino_1" name="UIRhino_45" type="Sprite"/>
+
+    <asset key="UI_Reindeer_Corner" name="UIReindeerCorner" type="Sprite"/>
+    <asset key="UI_Rhino_Corner" name="UIRhinoCorner" type="Sprite"/>
+    <asset name="UI4thCorner">
+      <sub key="UI4th_0" name="UI4th_0" type="Sprite"/>
+      <sub key="UI4th_4" name="UI4th_4" type="Sprite"/>
+      <sub key="UI4thCorner" name="UI4thCorner" type="Sprite"/>
+    </asset>
+
+    <!-- portal -->
+    <asset key="ReindeerField" name="ReindeerField"/>
+    <asset key="RhinoField" name="RhinoField"/>
+    <asset key="R4thPackField" name="RRRField"/>
+  </assetbundle>
+
+  <assetbundle name="rrr4_vfx">
+    <asset key="VFX__Whip_Start" name="RRR_MindWhipStart"/>
+    <asset key="VFX__Whip_Line" name="RRR_MindWhipTrail"/>
+    <asset key="VFX__Ram" name="VFX__Ram"/>
+  </assetbundle>
+
+  <!-- subdirectory: Unit\ -->
+  <assetbundle name="Unit\rrr4_unit_reindeer">
+    <dependencies>
+      <assetbundle name="Unit\rrr4_unit"/>
+      <assetbundle name="Unit\rrr4_unit_reindeer_spine"/>
+    </dependencies>
+
+    <asset key="ReindeerUnit" name="ReindeerUnit"/>
+  </assetbundle>
+
+  <assetbundle name="Unit\rrr4_unit_rhino">
+    <dependencies>
+      <assetbundle name="Unit\rrr4_unit"/>
+      <assetbundle name="Unit\rrr4_unit_rhino_spine"/>
+    </dependencies>
+
+    <asset key="RhinoUnit" name="RhinoUnit"/>
+  </assetbundle>
+
+  <!-- subdirectory: Debug\ -->
+  <assetbundle name="Debug\rrr4_unit_debug">
+    <dependencies>
+      <assetbundle name="Debug\rrr4_unit_debug_internal"/>
+    </dependencies>
+
+    <asset key="RhinoDebugger" name="Debug_Rhino"/>
+    <asset key="DebugQuad" name="Debug_Quad"/>
+    <asset key="DebugLine" name="Debug_Line"/>
+  </assetbundle>
+
+</assetlist>

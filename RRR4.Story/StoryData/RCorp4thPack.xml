@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="RRR4_MOD">
+    <bgm src="Theme_-_Crime_Lord"/>
+    <character id="angela" name="angela_name" sprite="Angela"/>
+
+    <character id="rabbit" name="rabbit_name" sprite="Rabbit"/>
+    <character id="rabbitHalmet" name="rabbitUnknown_name" sprite="RabbitHalmet"/>
+    <character id="reindeer" name="reindeer_name" sprite="Reindeer"/>
+    <character id="reindeerHelmet" name="rabbitUnknown_name" sprite="ReindeerHelmet"/>
+    <character id="rhino" name="rhino_name" sprite="Rhino"/>
+    <character id="rhinoHelmet" name="rabbitUnknown_name" sprite="RhinoHelmet"/>
+    <character id="nikolai" name="nikolai_name" sprite="Nikolai"/>
+
+    <position character="angela" y="-45" to="right" direction="left"/>
+    <set_anim character="angela" anim="Default1"/>
+    <position character="nikolai" y="135" to="center" direction="right"/>
+    <set_anim character="nikolai" anim="기본"/>
+
+    <position character="reindeerHelmet" y="135" to="left-full" direction="right"/>
+    <position character="rhinoHelmet" y="135" to="left" direction="right"/>
+    <position character="rabbitHalmet" y="-45" to="right-full" direction="left"/>
+
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackA</speak> <!-- 전원 자리에서 대기. -->
+    <sound src="uisound/newuisound/openGate2"/>
+
+    <disappear character="reindeerHelmet"/>
+    <disappear character="rabbitHalmet"/>
+    <disappear character="rhinoHelmet"/>
+
+    <position character="reindeer" y="135" to="left-full" direction="right"/>
+    <set_anim character="reindeer" anim="기본얼굴"/>
+    <position character="rhino" y="135" to="left" direction="right"/>
+    <set_anim character="rhino" anim="기본"/>
+    <position character="rabbit" y="-45" to="right-full" direction="left"/>
+    <set_anim character="rabbit" anim="Default"/>
+
+    <speak speaker="rabbit" anim="Default">custom/RCorp4thPackB</speak>
+    <speak speaker="rabbit" anim="Default2">custom/RCorp4thPackC</speak>
+
+    <speak speaker="nikolai" anim="인상">custom/RCorp4thPackD</speak>
+    <speak speaker="angela" anim="Default2">custom/RCorp4thPackE2</speak>
+    <speak speaker="rabbit" anim="Default2">custom/RCorp4thPackF2</speak>
+    <speak speaker="reindeer" anim="입벌림">custom/RCorp4thPackG2</speak>
+    <speak speaker="rabbit" anim="Smile">custom/RCorp4thPackH2</speak>
+    <speak speaker="reindeer" anim="입벌림">custom/RCorp4thPackI2</speak>
+    <speak speaker="reindeer" anim="기본얼굴">custom/RCorp4thPackJ2</speak>
+    <bgm src="Unfolding"/>
+    <speak speaker="rabbit" anim="Anger2">custom/RCorp4thPackK2</speak>
+    <speak speaker="reindeer" anim="위협">custom/RCorp4thPackL2</speak>
+    <speak speaker="nikolai" anim="화냄">custom/RCorp4thPackM2</speak>
+    <bgm src="Theme_-_Crime_Lord"/>
+    <speak speaker="reindeer" anim="땀">custom/RCorp4thPackN2</speak>
+    <speak speaker="rabbit" anim="Smile2">custom/RCorp4thPackE</speak> <!-- 넴 -->
+
+    <speak speaker="rhino" anim="기본">custom/RCorp4thPackF</speak>
+    <speak speaker="rhino" anim="웃음">custom/RCorp4thPackG</speak>
+    <speak speaker="nikolai" anim="빡침">custom/RCorp4thPackH</speak>
+    <speak speaker="rhino" anim="웃음">custom/RCorp4thPackI</speak> <!-- 죄송합니다! -->
+
+    <speak speaker="reindeer" anim="기본얼굴">custom/RCorp4thPackJ</speak>
+    <speak speaker="reindeer" anim="입벌림">custom/RCorp4thPackK</speak>
+    <speak speaker="reindeer" anim="인상">custom/RCorp4thPackL</speak>
+    <speak speaker="reindeer" anim="기본얼굴">custom/RCorp4thPackM</speak>
+    <speak speaker="rhino" anim="시무룩">custom/RCorp4thPackN</speak>
+    <speak speaker="rhino" anim="입벌림">custom/RCorp4thPackO</speak>
+    <speak speaker="rhino" anim="한숨">custom/RCorp4thPackP</speak>
+    <speak speaker="rabbit" anim="Happy">custom/RCorp4thPackQ</speak>
+    <speak speaker="rabbit" anim="Happy2">custom/RCorp4thPackR</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackS</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackT</speak>
+    <speak speaker="nikolai" anim="인상">custom/RCorp4thPackU</speak>
+    <speak speaker="angela" anim="Default1">custom/RCorp4thPackV</speak>
+    <speak speaker="angela" anim="Default2">custom/RCorp4thPackW</speak>
+    <speak speaker="angela" anim="Sigh2">custom/RCorp4thPackX</speak>
+    <speak speaker="angela" anim="Glad1">custom/RCorp4thPackY</speak>
+    <speak speaker="angela" anim="Default1">custom/RCorp4thPackZ</speak>
+    <speak speaker="angela" anim="Default2">custom/RCorp4thPacka</speak>
+    <speak speaker="angela" anim="Glad2">custom/RCorp4thPackb</speak>
+    <speak speaker="nikolai" anim="인상">custom/RCorp4thPackc</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackd</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPacke</speak>
+    <speak speaker="nikolai" anim="화냄">custom/RCorp4thPackf</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackg</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackh</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPacki</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackj</speak>
+    <speak speaker="nikolai" anim="기본">custom/RCorp4thPackk</speak>
+    <speak speaker="angela" anim="Default1">custom/RCorp4thPackl</speak>
+    <speak speaker="rhino" anim="웃음">custom/RCorp4thPackm</speak>
+    <speak speaker="reindeer" anim="입벌림">custom/RCorp4thPackn</speak>
+    <speak speaker="rabbit" anim="Smile2">custom/RCorp4thPacko</speak>
+
+    <!-- R사 제 4무리의 전력을 L사 내부에 투입하는 만큼, 우리도 전력을 다하겠다. -->
+    <background src="RRR4CG" effect="none"/>
+    <disappear character="reindeer"/>
+    <disappear character="rabbit"/>
+    <disappear character="rhino"/>
+    <disappear character="nikolai"/>
+    <disappear character="angela"/>
+    <speak speaker="nikolai">custom/RCorp4thPackp</speak>
+    <speak speaker="nikolai">custom/RCorp4thPackq</speak>
+    <speak speaker="reindeer">custom/RCorp4thPackr</speak>
+    <speak speaker="reindeer">custom/RCorp4thPacks</speak>
+    <speak speaker="rhino">custom/RCorp4thPackt</speak>
+    <speak speaker="rhino">custom/RCorp4thPacku</speak>
+    <speak speaker="rabbit">custom/RCorp4thPackv</speak>
+    <speak speaker="rabbit">custom/RCorp4thPackw</speak>
+    <speak speaker="nikolai">custom/RCorp4thPackx</speak>
+    <speak speaker="nikolai">custom/RCorp4thPacky</speak>
+    <speak speaker="nikolai">custom/RCorp4thPackz</speak>
+<!--
+    <position character="rabbitHalmet" to="left-full" direction="right"/>
+    <position character="rabbit" to="left-full" direction="right"/>
+
+    <position character="geburaPast" anim="Shock2" to="left-full" direction="right"/>
+    <position character="gebura2" to="right-full"/>
+    <position character="angela" to="left-full" direction="right"/>
+
+    <position character="rabbit" to="left-full" direction="right"/>
+-->
+  </scene>
+</root>

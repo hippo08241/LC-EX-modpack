@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Good and Evil_weapon_name">Невидимая Мораль</text>
+<text id="Good and Evil_gift_name">Невидимая Мораль</text>
+<text id="Good and Evil_gift_desc">Шанс успешной работы +10</text>
+<text id="Good and Evil_armor_desc">Независимо от того, почему вы пришли в эту компанию, вы должны уважать "мой" выбор.</text>
+<text id="Good and Evil_weapon_desc">Причинение вреда другим приведет к нанесению ущерба самому себе.</text>
+</localize>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="191987">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0은 온화해 보입니다. 세 마리 작은 요정들이 그녀 주변에서 나타났다 사라지는 것을 반복합니다.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {“짐은 신선한 것을 먹고 싶다……” 라고 $0이 힘없이 말했습니다.},
+      {“아마도 너무 오랫동안 굶주렸기 때문이겠지. 이건 정말로 짐이 참을 수 없는 일이다……”},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0의 온몸에는 피가 묻어 있었습니다. “짐에게 오라…… 이제 보살핌의 대가를 치를 때가 되었도다……”},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-83-01</codeNo>
+      <portrait openLevel ="1">Custom/FairyQueen</portrait>
+
+      <name openLevel ="1">
+        여왕 요정
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>짐이 직접 너희들을 돌보리라……&#13;&#10;너희는…… 영원히 짐을 지키리라……</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {옛날 옛적에 요정들은 하나의 왕국을 세웠다. 그곳에서 모든 요정은 여왕의 세심한 보살핌을 받았다. 작은 요정들은 여왕을 둘러싸고 그녀에게 찬가와 진미를 바쳤다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {그러나 한 차례의 기근이 이 모든 것을 바꿨다. 왕국에는 남은 요정들이 거의 없었고, 작은 요정들은 더 이상 여왕에게 바칠 음식을 구할 수 없었다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {식량은 점점 줄어들었고, 여왕은 날이 갈수록 야위었다…… 그녀는 더 이상 굶주림을 견딜 수 없었다. 그래서 그녀는 본래 동족이었던 요정들에게 주목했다……}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {요정의 수는 점점 줄어들었고, 여왕은 여전히 그들을 보살폈다. 그러나 이제 이 보살핌은 더 이상 백성들에 대한 사랑에서 나온 것이 아니었다. 여왕은 여전히 그녀의 식량을 세심하게 보살폈지만, 이 보살핌의 대가는 과연 무엇이었을까……}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {"짐이 직접 너희들을 돌보리라……&#13;&#10;너희는…… 영원히 짐을 지키리라……"}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">$0은 지속적으로 배고픔을 축적하여, 배고픔이 쌓일 때마다 이동 속도와 공격력이 5%씩 증가하였다. 배고픔이 10이 되자 클리포트 카운터가 0이 되었다.</specialTip>
+      <specialTip openLevel="1" key="1">본능 작업을 완료하자 작업 결과에 따라 배고픔 수치가 달라졌다. $0에게 어떤 작업이든 두 번 이상 완료한 직원은, 체력이 계속해서 회복되는 $0의 예비 식량이 되었다.</specialTip>
+      <specialTip openLevel="2" key="2">예비 식량이 $0에게서 두 번 이상 작업을 수행할 경우, 작업을 수행했던 직원은 $0에게 먹히면서 배고픔 수치가 초기화되었다. 예비 식량 직원이 다른 이유로 사망할 경우 $0의 클리포트 카운터가 초기화되었다.</specialTip>
+      <specialTip openLevel="3" key="3">$0이 격리실에서 탈출한 후 세 마리의 요정덩이가 $0을 따라다니며, $0은 지속적으로 요정덩이를 회복시켜 주었다.</specialTip>
+      <specialTip openLevel="4" key="4">체력을 30%씩 잃을 때마다 $0은 요정덩이를 하나 먹어치우며 배고픔 수치를 초기화하였고, 동시에 피해에 취약해졌다. 남은 요정덩이가 없을 때 $0은 광폭 상태가 되었다.</specialTip>
+
+    </specialTipSize>
+  </observe>
+   <child>
+    <name>요정덩이</name>
+    <codeId>F-04-83-01-1</codeId>
+  </child>
+</creature>

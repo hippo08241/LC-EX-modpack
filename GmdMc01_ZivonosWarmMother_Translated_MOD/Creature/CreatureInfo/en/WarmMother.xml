@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="160068">
+
+
+
+    <narration action="move">
+      #0 is sent into $0's containment chamber.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is radiating warmth all around its cell},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {The fabric which $0 is made of, seems comforting to #0},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 can feel $0's “love”.},
+      ]
+    </narration>
+	    <narration action="mid4">
+      [
+      {$0 reminds #0 of their mother},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-05-168</codeNo>
+      <portrait openLevel ="1">Custom/warm_mother</portrait>
+
+      <name openLevel ="1">
+        Warm Mother
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <specialName openLevel ="1">
+      Warm Mother
+      </specialName>
+      <openText>I am the perfect mother soft, warm, tender and a mother who loves all her children.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {$0 vaguely resembles a humanoid with a cylindrical body and a face. It’s body seems to be made of a wooden core surrounded by soft sponge rubber sheathed in a tan cotton terry cloth. The face of the abnormality is drawn onto a grey cylinder with a neutal expression and exaggerated facial features.
+}
+      ]
+    </desc>
+	
+	  <desc id="2" openLevel="1">
+      [
+      {$0 is constantly generating heat around it and the process of how this heat is created is yet of unknown. The heat has been observed to have a positive effect on the mental health of agents. Especially agents with troubled childhoods or abusive parents seem to be comforted by the abnormality, this could be used to benefit the facility but further testing is required.
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Oberservation Log #1_562&gt;
+	  
+	  &lt;Redacted&gt; grew up in the backstreets after losing his parents at a young age. He doesn’t interact with other staff often and enjoys working alone. For this test he was sent into Warm Mother’s containment to do attatchment work with her. Even though Warm Mother didn’t respond to any of &lt;Redacted&gt;’s interactions, after he left the containment he reported that he felt comforted during his visit.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {&lt;Oberservation Log #2_562&gt;
+	  
+      &lt;Redacted&gt; was sent into Warm Mother's containment again. But this time he was in the containment for much longer. He started talking with Warm Mother and asked her questions like “Do you love me?” “Did my parents love me?”, when asked why he did this he said that it felt like the thing he should do and he also stated that he felt better about his past. His behaviour seems to have changed, to now be much more friendly and easygoing towards other staff.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {&lt;Oberservation Log #3_562&gt;
+	  
+	  &lt;Redacted&gt; was once again sent into Warm Mother's containment, he talked to Warm Mother and after cleaning the containment asked if she liked it, in the middle of the work he walked towards Warm Mother and hugged her. After there were no news from &lt;Redacted&gt; for 15 min, an agent went in to check on him. They found him passed out while hugging warm mother, during a subsequent medical exam on him the cause was determined to be malnutrition. To the question why he didn’t eat or drink for the last days he said: “The thought of leaving $0 terrified me.” He was ordered a psychological evaluation and testing with him is discontinued.}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {&lt;Memo&gt; 
+	  
+	  &lt;Redacted&gt; did not show up for his evaluation a search team found his corpse hugging Warm Mother. He died due to dehydration. After this it was decided that no agent with a troubled background was allowed to work with Warm Mother for extended periods of time.}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="4">
+      [
+      {1 day later a piece of paper was found in Warm Mother's room
+	  
+	  &lt;Piece of paper&gt;
+"I am the perfect mother soft, warm, tender, a mother with infinite patience, a mother available twenty-four hours a day, a mother who never scolded her infant and a mother who loves all her children. But why then do all my children die? Why can I not keep those close to me alive? Why can I only give comfort and not life if I am supposed to be the perfect mother?".}
+      ]
+    </desc>
+
+
+    <specialTipSize size="7">
+      <specialTip openLevel="0" key="paranoia">$0 will restore SP but deal RED damage after finishing work. The agent working with $0 will also feel increasingly attatched to $0 with every work.</specialTip>
+      <specialTip openLevel="1" key="paranoia2">The amount of SP regenerated will increase with the amount of times an egent has worked with $0.</specialTip>
+      <specialTip openLevel="1" key="paranoia3">The RED damage depends on the amount of good PE boxes and the amount of times an agent has worked with $0.</specialTip>
+      <specialTip openLevel="1" key="paranoia4">Sending agents to work with different abnormalities resets the physical damage taken but regeneration stays at its current level.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>

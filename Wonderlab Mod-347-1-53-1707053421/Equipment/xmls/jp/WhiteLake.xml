@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="WhiteLake_weapon_name">引き裂かれた翼</text>
+  <text id="WhiteLake_weapon_desc">何かに引き裂かれ傷ついた荒羽</text>
+  <text id="WhiteLakeKnight_weapon_name">勇者の剣</text>
+  <text id="WhiteLakeKnight_weapon_desc"></text>
+  <text id="WhiteLake_armor_desc">例え翼が折れたとしても、脚が止まらぬ限り進み続けるだろう。</text>
+  <text id="WhiteLake_gift_desc">作業成功率+5 作業速度+5</text>
+</localize>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142017">
+
+    <narration action="move">
+      Сотрудник #0 направляется в камеру содержания $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" смотрит на #0.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {Внешний вид "$0" неожиданный для #0.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {"$0" пришла в голову блестящая идея, и он пригласил "#0" стать ее участником.}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {"$0" надеется, что "$0" и #0 сможет совместно выполнить задачу.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-01-127</codeNo>
+      <portrait openLevel="1">Custom/AgentP</portrait>
+
+      <name openLevel="1">Ребёнок P</name>
+      
+      <riskLevel openLevel="1">TETH</riskLevel>
+
+      <openText>Давайте вернемся в ту эпоху.&#13;&#10; Эпоху, когда дети могли свободно исследовать мир.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="8" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="9" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="10" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Сотруднки с 3 уровнем любой характеристики получили значительный урон от эрозии по окончанию работы."Это несчастный случай, прости меня".</specialTip>
+      <specialTip openLevel="2" key="2">Когда результат работы Хороший, "$0" изменит свой внешний вид на внешность сотрудника проводившего работу. Причиной были неизвестные эфекты.</specialTip>
+      <specialTip openLevel="2" key="3">Когда сотрудник похожий на "$0" вошел в камеру содержания, его максимальное SP постепенно увеличилось.</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

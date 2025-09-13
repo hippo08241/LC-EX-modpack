@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Hookah_weapon_name">Diary</text>
+  <text id="Hookah_weapon_Desc">"Who are you?" asked the caterpillar."</text>
+  <text id="Hookah_armor_Desc">"How big do you want to be?"</text>
+  <text id="Hookah_gift_Desc">Attack Speed +4, Movement Speed +4</text>
+  <text id="Mermaid_weapon_name">Siren</text>
+  <text id="Mermaid_weapon_Desc">"Stab the Prince's heart. Only then can you live."</text>
+  <text id="Mermaid_armor_Desc">"The witch gave her human legs, for the price of taking her beautiful voice. She cut off her tongue."</text>
+  <text id="Mermaid_gift_Desc">Work Speed, Work Success Rate +8</text>
+  <text id="RedQueen_weapon_name">Colored Paper</text>
+  <text id="RedQueen_weapon_Desc">“Aren't the roses already red?”</text>
+  <text id="RedQueen_armor_Desc">“Your Highness! We've committed an unforgiveable deed! Please, spare u..."</text>
+  <text id="RedQueen_gift_Desc">SP +4</text>
+  <text id="Nosferatu_weapon_name">Thirst</text>
+  <text id="Nosferatu_weapon_Desc">"A single drop of blood is enough&#13;&#10;to spend the night in a rampage."</text>
+  <text id="Nosferatu_weapon_specialDesc">Take RED damage every attack&#13;&#10;Heal 40% of damage dealt as HP</text>
+  <text id="Nosferatu_armor_Desc">"And the thirst would never truly be quenched."</text>
+  <text id="Nosferatu_armor_specialDesc">Convert some health regained by Thirst into a shield</text>
+  <text id="Nosferatu_gift_Desc">HP +8, SP -3</text>
+  <text id="Tangle_weapon_name">Cage</text>
+  <text id="Tangle_weapon_Desc">"Lower my hair. Lower my hair."</text>
+  <text id="Tangle_armor_Desc">"Lower my hair, so I can escape from this hell."</text>
+  <text id="Tangle_gift_Desc">HP +4</text>
+</localize>

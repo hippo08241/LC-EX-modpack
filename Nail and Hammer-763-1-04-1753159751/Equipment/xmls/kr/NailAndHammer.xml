@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="NailAndHammer_weapon_name">죄와 벌</text>
+
+<text id="NailAndHammer_weapon_desc">못은 많은 것들을 박아서 고정할 수 있다.
+예를 들어, 심장. 예를 들어, 생명. 예를 들어, 죄악.
+못과 망치를 휘둘러 타인의 죄를 심판하라.
+그 안에는 정의가 없으며, 오직 심판과 징벌만이 있을 뿐이다.
+벌이라는 것에 다른 무엇이 더 필요하겠는가?</text>
+<text id="NailAndHammer_weapon_specialDesc">착용자의 시야에 대상이 들어오면, 착용자는 대상 근처로 이동하여 피해를 줌.
+공격 시 정신력이 5 감소. 착용자의 정신력이 10 미만일 경우, 이 무기로 피해를 줄 수 없음.
+동일한 대상을 연속으로 공격 시, 매 공격마다 피해량이 1씩 증가함. 이는 중첩되며, 착용자가 다른 대상을 공격하거나 전투를 이탈하면 효과가 초기화됨.</text>
+
+<text id="NailAndHammer_armor_desc">사람이 사람에게 쇠사슬을 채우고 무거운 짐을 지우기 전에, 죄는 이미 사람의 마음속에서 그렇게 하고 있었다.
+수많은 손들이 너의 옷자락과 발목을 잡아서 점점 움직일 수 없게 된다.
+정신을 차려보면, 너는 이미 고정된 못이 되어 있다.
+죄라는 것은 결국 이런 것이다.</text>
+<text id="NailAndHammer_armor_specialDesc">피격 시 공격한 대상에게 W 5의 피해를 주고 5초 동안 유지되는 표식을 남긴다.
+표식이 있는 대상을 공격 시, 준 피해량 만큼 W 피해를 추가로 줌. (최대 10)
+착용자의 정의가 3등급 미만일 경우, 이동 속도가 30% 감소.</text>
+
+<text id="NailAndHammer_gift_Desc">정신력 -4, 작업 성공률 -6, 공격 속도 +8, 이동 속도 +8</text>
+</localize>

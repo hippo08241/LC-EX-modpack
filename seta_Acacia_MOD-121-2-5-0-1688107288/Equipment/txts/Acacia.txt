@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="201103" type="weapon">
+    <name>Acacia_weapon_name</name>
+    <desc>Acacia_weapon_Desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <require type="B">3</require>
+    <sprite>Acacia_weapon</sprite>
+    <animation>Attack1</animation>
+    <damage type="B" min="15" max="20">
+      <soundInfo type="damage">Weapons/blackSwan1</soundInfo>
+    </damage>
+
+    <range>25</range>
+
+    <maxNum>1</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="301103" type="armor">
+    <name>Acacia_weapon_name</name>
+    <desc>Acacia_armor_Desc</desc>
+    <specialDesc>Acacia_armor_specialDesc</specialDesc>
+
+    <require type="R">3</require>
+    <require type="B">3</require>
+
+    <armorId>101103</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+  <equipment id="401103" type="special">
+    <name>Acacia_weapon_name</name>
+    <desc>Acacia_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+     <armorId>401103</armorId>
+    <bonus>
+      <mental>+3</mental>
+      <attackSpeed>+10</attackSpeed>
+      <epressionWork>+3%</epressionWork>
+    </bonus>
+    <sprite>Acacia_gift</sprite>
+  </equipment>
+</equipment_list>

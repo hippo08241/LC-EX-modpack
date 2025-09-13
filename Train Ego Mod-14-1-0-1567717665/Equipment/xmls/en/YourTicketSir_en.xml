@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Train_equip_name">A Train to Hell's Conductor</text>
+<text id="Train_gift_name">Your Ticket, Sir?</text>
+<text id="Train_gift_desc">SP -2; Work Probablity +5; Work Speed +10; Attacks will slow Abnormalities.<!--&#13;&#10;&#13;&#10;Every conductor needs some kind of identification for the passengers.&#13;&#10;While one who works on a literal train to hell may not be the most mentally stable, their speed for punching tickets will be unmatched.--></text>
+<text id="Train_armor_desc">Any outfit for a professional must look the part of the role. However, that same outfit must protect those who fill the role from work hazard.&#13;&#10;The passengers of the train will attempt to leave as quickly as they boarded, this suit protects one from their blows. At the same time, it helps maintain the wholeness of the conductor.</text>
+<text id="Train_armor_specialDesc">The train's mighty whistle is sharp yet low, piercing the soul while shaking the body.</text>
+<text id="Train_weapon_desc">A gauntlet with an unblinking eye. Its grip can prevent even the most hardy passenger from leaping off while at high speeds.&#13;&#10;Constant work on a train that carries off those of unsound mind and body can erode its crew members. Calloused hands to barrier and hold onto oneself from such a deterioration of being are necessary.</text>
+<text id="Train_weapon_specialDesc">Absorbs BLACK damage from all sources while the barrier is cast.</text>
+</localize>

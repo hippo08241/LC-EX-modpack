@@ -1,0 +1,139 @@
+
+BronzeBull.png
+size: 1320,776
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+人上臂
+  rotate: false
+  xy: 1040, 142
+  size: 68, 115
+  orig: 68, 115
+  offset: 0, 0
+  index: -1
+人后臂
+  rotate: true
+  xy: 1220, 511
+  size: 263, 76
+  orig: 263, 76
+  offset: 0, 0
+  index: -1
+人头
+  rotate: true
+  xy: 906, 39
+  size: 92, 113
+  orig: 92, 113
+  offset: 0, 0
+  index: -1
+人小臂
+  rotate: true
+  xy: 906, 250
+  size: 124, 132
+  orig: 124, 132
+  offset: 0, 0
+  index: -1
+前大腿1
+  rotate: false
+  xy: 1206, 238
+  size: 112, 142
+  orig: 112, 142
+  offset: 0, 0
+  index: -1
+前大腿2
+  rotate: false
+  xy: 1124, 238
+  size: 80, 163
+  orig: 80, 163
+  offset: 0, 0
+  index: -1
+前小腿1
+  rotate: false
+  xy: 1040, 259
+  size: 78, 115
+  orig: 78, 115
+  offset: 0, 0
+  index: -1
+前小腿2
+  rotate: true
+  xy: 1110, 142
+  size: 94, 97
+  orig: 94, 97
+  offset: 0, 0
+  index: -1
+后大腿1
+  rotate: false
+  xy: 1208, 382
+  size: 103, 127
+  orig: 103, 127
+  offset: 0, 0
+  index: -1
+后大腿2
+  rotate: false
+  xy: 1028, 13
+  size: 103, 127
+  orig: 103, 127
+  offset: 0, 0
+  index: -1
+后小腿1
+  rotate: false
+  xy: 906, 133
+  size: 120, 115
+  orig: 120, 115
+  offset: 0, 0
+  index: -1
+后小腿2
+  rotate: false
+  xy: 1231, 48
+  size: 75, 90
+  orig: 75, 90
+  offset: 0, 0
+  index: -1
+嘴
+  rotate: true
+  xy: 1209, 140
+  size: 96, 106
+  orig: 96, 106
+  offset: 0, 0
+  index: -1
+头
+  rotate: false
+  xy: 906, 376
+  size: 216, 211
+  orig: 216, 211
+  offset: 0, 0
+  index: -1
+尾巴
+  rotate: false
+  xy: 1133, 38
+  size: 96, 100
+  orig: 96, 100
+  offset: 0, 0
+  index: -1
+眼泪
+  rotate: false
+  xy: 1298, 691
+  size: 19, 83
+  orig: 19, 83
+  offset: 0, 0
+  index: -1
+蒸汽
+  rotate: false
+  xy: 2, 2
+  size: 902, 772
+  orig: 902, 772
+  offset: 0, 0
+  index: -1
+身体
+  rotate: true
+  xy: 1124, 403
+  size: 184, 82
+  orig: 184, 82
+  offset: 0, 0
+  index: -1
+身子
+  rotate: false
+  xy: 906, 589
+  size: 312, 185
+  orig: 312, 185
+  offset: 0, 0
+  index: -1

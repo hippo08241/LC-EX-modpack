@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Rhino_Captain_Start_0">Айда, Носороги! Постараемся на славу!</text>
+  <text id="Rhino_Captain_Start_1">Бейте изо всех сил, сбивайте их пыл!</text>
+  <text id="Rhino_Captain_Start_2">Не думайте о комплексе! Наша миссия — разобраться в нашем стиле!</text>
+  <text id="Rhino_Captain_Start_Geburah">Это честь биться с Красным туманом!</text>
+  <text id="Rhino_Captain_Start_Binah">Эй, управляющий! Сражаться против Арбитра — нарушение контракта!</text>
+  
+  <text id="Rhino_Captain_Half_0">Половину носорогов растоптали.</text>
+  <text id="Rhino_Captain_Half_1">Сколько нас осталось? Половина?</text>
+  <text id="Rhino_Captain_Half_2">Половина мертва! Протопчите ещё немного! Хватит одного рывка, чтобы пробить себе дорогу!</text>
+  <text id="Rhino_Captain_Half_Geburah">Половина носорогов растоптаны. Но мы ещё не закончили мериться силой!</text>
+  <text id="Rhino_Captain_Half_Binah">Даже если она не настоящий Арбитр, ничего не попишешь!</text>
+
+  <text id="Rhino_Captain_Almost_0">Восемьдесят процентов растоптаны. Нам попалась крайне жёсткая трава.</text>
+  <text id="Rhino_Captain_Almost_1">Восемьдесят процентов носорогов мертвы. Только от вас зависит — жить или умереть здесь!</text>
+  <text id="Rhino_Captain_Almost_Geburah">Мы потеряли уже восемьдесят процентов! Крольчиха была права, она просто потрясна.</text>
+  <text id="Rhino_Captain_Almost_Binah">Даже ослабев, её сила... Нет, я ни за что не хочу столкнуться с настоящим Арбитром.</text>
+  
+  <text id="Rhino_Captain_Eliminated_0">Носороги уничтожены! Вот же ж блин! Нас растоптали.</text>
+  <text id="Rhino_Captain_Eliminated_1">Все Носороги мертвы. Поверить не могу, что мы продули, так и не разбежавшись…</text>
+  <text id="Rhino_Captain_Eliminated_2">Носороги уничтожены! Мне больно это видеть.</text>
+  <text id="Rhino_Captain_Eliminated_Geburah">Быть не может, нас вытолкнули с ринга чистой силой...</text>
+  <text id="Rhino_Captain_Eliminated_Binah">У вас большие проблемы, ребята из корпорации L. Давайте, разберитесь с нею сами!</text>
+  
+  <text id="Rhino_Captain_End_0">Жить нужно одиноким, как рог у носорога.</text>
+  <text id="Rhino_Captain_End_1">Они стоят побольше ребяток из Руин!</text>
+  <text id="Rhino_Captain_End_2">Да-а, не так сложно, как я думал!</text>
+  <text id="Rhino_Captain_End_3">Миссия выполнена! Носороги, забываем всё, что здесь видели, и возвращаемся обратно!</text>
+  <text id="Rhino_Captain_End_Geburah">Ха-ха! Неужто так мощны наши ноги?</text>
+  <text id="Rhino_Captain_End_Binah">Не важно, Арбитр или нет, против нас силой не попрёшь!!!</text>
+
+  <!--Rhino Units
+      
+      Rhino_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Rhino_Unit_Name">Носорог</text>
+  
+  <text id="Rhino_Unit_Start_0">Дерзко, без колебаний!</text>
+  <text id="Rhino_Unit_Start_1">Любой противник будет растоптан под ногами Носорогов!</text>
+  <text id="Rhino_Unit_Start_2">Ничто не остановит Носорогов!</text>
+  <text id="Rhino_Unit_Start_3">Капитан, уже можно начинать?</text>
+  
+  <text id="Rhino_Unit_Encounter_Officer_0">Во бедные!</text>
+  <text id="Rhino_Unit_Encounter_Officer_1">Разберёмся с брошенными бедолагами!</text>
+  <text id="Rhino_Unit_Encounter_Officer_2">Очищаем!</text>
+  
+  <text id="Rhino_Unit_Encounter_Agent_0">Ты уж зря… Встаёшь у меня на пути! Ха-ха!</text>
+  <text id="Rhino_Unit_Encounter_Agent_1">Так тебя тоже бросили!</text>
+  <text id="Rhino_Unit_Encounter_Agent_2">Зря только оружие портят.</text>
+  <text id="Rhino_Unit_Encounter_Agent_3">Устраняем бедолагу, ребята</text>
+  <text id="Rhino_Unit_Encounter_Agent_4">И полезная ж у тебя снаряга.</text>
+
+  <text id="Rhino_Unit_Encounter_Creature_TETH_0">Низкий уровень опасности.</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_1">Ну и из-за кого мы хорошенько укрепим свою силовую броню?!</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_2">Да-а, эта тварюга слишком хлипкая!</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_HE_0">Средний уровень опасности.</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_1">Эти атаки бесполезны против нас!</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_2">Новые твари из Руин?</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_3">Мы словно по Руинам прогуливаемся!</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_4">Пора размяться.</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_WAW_0">Высокий уровень опасности.</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_1">Только с таким противником можно ожидать хорошую взбучку!</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_2">Они выжимают энергию из окраинных тварей?</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_3">С такими тварями, да во времена Дымной войны, даже нас бы втянули, а?</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_4">Плевать, даже если эти монстры стоят у нас на пути! У меня есть работа, которую нужно выполнить!</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_0">Очень высокий уровень опасности.</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_1">Надеюсь, эта тварь не вырежет всю стаю!</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_2">Мы не настолько хороши против таких чудовищ!.. </text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_3">Хоть один шаг в сторону против этих ребяток, и нас вперёд ногами выносить будут?</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_4">Мы словно исследуем глубины Руин.</text>
+  
+  <text id="Rhino_Unit_Panic_0">Психическое загрязнение достигло максимальной границы. Производится автоматическая ликвидация.</text>
+  <text id="Rhino_Unit_Panic_1">Уничтожение рискованных факторов через автоматическую ликвидацию.</text>
+
+  <text id="Rhino_Unit_SectorClear_0">Миссия выполнена!</text>
+  <text id="Rhino_Unit_SectorClear_1">Победа у нас в руках!</text>
+  <text id="Rhino_Unit_SectorClear_2">Давненько у нас не было достойного противника!</text>
+  <text id="Rhino_Unit_SectorClear_3">Думали, победа у вас в кармане? Как бы не так!</text>
+  
+</localize>

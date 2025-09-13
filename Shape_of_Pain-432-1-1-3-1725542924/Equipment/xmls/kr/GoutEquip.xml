@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Gout_equip_name">가시돋친 결정</text>
+
+<!--Weapon-->
+<text id="Gout_weapon_desc">사용하려고 하면 손에 찔리기 때문에, 해당 무기를 지급할 때 지급받은 직원들이 노골적으로 싫은 표정을 지을 정도로 사용하기 가장 싫어하는 무기 중 하나다.</text>
+<text id="GoutWeaponSpecial_desc">공격 시 10%의 확률로 공격 대상이 10초 동안 '통증'을 얻음.
+공격 시 착용자는 소량의 R 속성과 W 속성의 피해를 입음.</text>
+
+</localize>

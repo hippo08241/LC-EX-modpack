@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="MusselMaiden_Name">蚌心</text>
+<text id="MusselMaiden_Weapon_SpecialDesc">攻击时，如果目标最弱的抗性为物理抗性，攻击速度就会大幅提高。</text>
+<text id="MusselMaiden_Weapon_Desc">由破碎坚硬的蚌壳和蓝色丝绸结合而成。&#10;为什么蚌要把蚌壳做的如此坚硬呢？</text>
+<text id="MusselMaiden_Armor_SpecialDesc">开始工作后，同部门的员工获得他们生命值上限10%的全抗性护盾。</text>
+<text id="MusselMaiden_Armor_Desc">由坚硬的蚌壳组装而成。&#10;在这坚硬的蚌壳下隐藏的又是什么呢？</text>
+<text id="MusselMaiden_Gift_Desc">生命值+4 精神值+3&#10;如此美丽的珍珠是用什么做成的呢?</text>
+</localize>

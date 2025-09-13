@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DrownedSister_equip_name">悲伤</text>
+<text id="DrownedSister_weapon_desc">“啊啊，原来我们即是苦难啊。我们已然成为罪人了吗。”</text>
+<text id="DrownedSister_gift_desc">最大精神值-4 移动速度+6 攻击速度+6</text>
+<text id="DrownedSister_weapon_specialDesc">每天一次，当在镇压期间被命令移动到另一区域时，则与当前区域内所有对象移动到该区域。</text>
+<text id="DrownedSister_armor_desc">“请倾听我们，
+倾听那连我们自己都未曾意识到却早已犯下的罪过……
+使我们从恨意中解脱……”</text>
+</localize>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DrownedSister_equip_name">出迎えの母</text>
+<text id="DrownedSister_weapon_desc">“ああ無念でございます 我々は罪人になってしまいました"</text>
+<text id="DrownedSister_gift_desc">精神力-4. 移動速度+6. 攻撃速度+6</text>
+<text id="DrownedSister_weapon_specialDesc">一日に一度、制圧中に他の区域に移動命令を出すと、現在の区域内の全ての個体と共に該当区域に移動。</text>
+<text id="DrownedSister_armor_desc">“我々も知らない、我々の罪を聞いてください。聞いて···聞いて......恨みを晴らしてください"</text>
+</localize>

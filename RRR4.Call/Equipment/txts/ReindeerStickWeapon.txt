@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<equipment_list>
+
+  <equipment id="202277" type="weapon">
+    <name>Default_weapon_name</name>
+    <no>Default_weapon_no</no>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite></sprite>
+
+    <grade>1</grade>
+    <range>3</range>
+    <attackSpeed>2</attackSpeed>
+    <script>RRR4.ReindeerStickWeapon, RRR4.Call</script>
+
+    <animation>short</animation>
+    <damage type="B" min="30" max="42"/>
+
+    <animation>short_panic</animation>
+    <damage type="B" min="27" max="36"/>
+
+    <animation>long</animation>
+    <damage type="B" min="3" max="9"/>
+
+    <animation>long_panic</animation>
+    <damage type="B" min="3" max="6"/>
+
+    <!-- self long dmg -->
+    <damage type="W" min="1" max="2"/>
+    <!-- self short dmg -->
+    <damage type="W" min="7" max="11"/>
+
+  </equipment>
+
+  <equipment id="302277" type="armor">
+    <name></name>
+    <script></script>
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">0.6</defenseElement>
+    </defense>
+  </equipment>
+
+</equipment_list>

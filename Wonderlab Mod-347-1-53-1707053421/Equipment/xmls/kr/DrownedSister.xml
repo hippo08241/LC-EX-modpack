@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DrownedSister_equip_name">마중어미</text>
+<text id="DrownedSister_weapon_desc">“아아 원통하옵니다 저희는 죄인이 되버렸습니다"</text>
+<text id="DrownedSister_gift_desc">정신력 -4. 이동속도 + 6. 공격속도 + 6</text>
+<text id="DrownedSister_weapon_specialDesc">하루에 한번 제압 도중 다른 구역으로 이동 명령을 내리면 현재 구역내에 모든 개체와 함께 해당 구역으로 이동.</text>
+<text id="DrownedSister_armor_desc">“저희도 모르는 저희의 죄를 들어주시고.
+들어주시고...
+한을 풀어 주시옵소서"</text>
+</localize>

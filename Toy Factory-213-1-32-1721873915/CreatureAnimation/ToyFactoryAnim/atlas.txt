@@ -1,0 +1,48 @@
+
+ToyFactory.png
+size: 1098,519
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+door
+  rotate: true
+  xy: 527, 2
+  size: 267, 298
+  orig: 267, 298
+  offset: 0, 0
+  index: -1
+note
+  rotate: true
+  xy: 881, 139
+  size: 28, 30
+  orig: 33, 36
+  offset: 5, 1
+  index: -1
+room1l
+  rotate: true
+  xy: 527, 271
+  size: 246, 352
+  orig: 246, 352
+  offset: 0, 0
+  index: -1
+room1r
+  rotate: false
+  xy: 2, 7
+  size: 523, 510
+  orig: 523, 510
+  offset: 0, 0
+  index: -1
+room2
+  rotate: false
+  xy: 881, 169
+  size: 215, 348
+  orig: 217, 348
+  offset: 1, 0
+  index: -1
+screen
+  rotate: true
+  xy: 827, 29
+  size: 240, 52
+  orig: 240, 52
+  offset: 0, 0
+  index: -1

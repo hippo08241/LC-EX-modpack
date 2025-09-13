@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>
+
+  <text id="SpMalice_Info_CumlativeText">고유 NE-BOX</text>
+  <text id="SpMalice_Info_NoCost">NE-BOX 부족</text>
+  <text id="SpMalice_Info_Cost">NE-BOX</text>
+
+</localize>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>PersephoneChild</script>
+  <stat>
+    <hp>500</hp>
+    <riskLevel>4</riskLevel>
+    <speed>0</speed>
+
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="Custom/PersephoneChildAnim" x="-1" y="-2"/>
+
+  <attackType openLevel="1">WHITE</attackType>
+  <riskLevel openLevel="1">WAW</riskLevel>
+
+</creature>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+    <text id="SFZW_IsolateDisplay">*잘못된 격리실*</text>
+    <text id="SFZW_WorkType">연회</text>
+    <text id="SFZW_WorkType_called">연회 작업</text>
+</localize>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="310013" type="armor"> 
+    <name>ReddenedBuddy_equip_name</name>
+    <no>Armor_no</no>
+    <desc>ReddenedBuddy_armor_desc</desc>
+
+    <armorId>310013</armorId>
+
+	<require type="R">5</require>
+    <require type="level">5</require>
+
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">0.6</defenseElement>
+    </defense>
+
+
+    <grade>5</grade> 
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="210013" type="weapon"> 
+    <name>ReddenedBuddy_equip_name</name>
+    <no>Weapon_no</no>
+    <desc>ReddenedBuddy_weapon_desc</desc>
+    <specialDesc>ReddenedBuddy_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>CensoredWeapon_ReddenedBuddy</specialWeaponAnim>
+    <sprite>Nothing_ReddenedBuddy</sprite>
+
+	<require type="R">5</require>
+    <require type="level">5</require>
+
+	
+    <animation>Attack1</animation>
+
+    <damage type="R" min="100" max="140">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+
+     <range>6</range>
+
+
+    <script>ReddenedBuddyWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>4</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="410013" type="special">
+    <name>ReddenedBuddy_equip_name</name>
+    <desc>ReddenedBuddy_gift_desc</desc> 
+    <attachPos>back</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>6</hp>
+    </bonus>
+    <sprite>ReddenedBuddy</sprite>
+    <script></script> 
+  </equipment>
+</equipment_list>

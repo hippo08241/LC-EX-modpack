@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ladyinrain_weapon_nameA">Unadorned Dream</text>
+<text id="ladyinrain_armor_descA">A black coat soaked with rain. Sticky rainwater drips from the corners of the coat. Employees have noted that the coat seems to give off a sense of malice. "It's as if... there's someone staring at me from a dark alleyway. Stalking me. Not a pleasant feeling..." Most employees were unwilling to wear this coat, and the ones that were have been noted to have severe mental problems. To err on the side of caution, ensure inexperienced employees do not touch this E.G.O.
+"The figure framed in the pouring rain... Is it her or... Is it me...?"</text>
+<text id="ladyinrain_weapon_descA">A pitch-black umbrella that emits the same intense smell of rain as the Abnormality. The entire umbrella, including the handle, is soaked with rainwater. When held, a strong feeling of melancholy and madness strikes the wielder in their heart.
+"She's still nearby... I have to do something. ...This painting... Maybe I could..."</text>
+<text id="ladyinrain_armor_specialDescA">When taking damage, there is a 20% chance of reducing or increasing the damage received by 1 to 10 points.&#13;&#10;When wearing the full set of Unadorned Dream, the wearer, will teleport to the target location when receiving a movement command.&#13;&#10;This effect has a cooldown of 30 seconds, halved when carrying the picture frame.</text>
+<text id="ladyinrain_weapon_specialDescA">The attack mode changes based on the distance to the target.&#13;&#10;Ranged attacks reduce the movement speed of the target and the wielder by 10% each time an attack is made, stacking up to 9 times.&#13;&#10;The effect lasts for 10 seconds, refreshing each time the effect is reapplied.&#13;&#10;When wearing the full E.G.O. set, &#13;&#10;A special attack will be used against targets will less than 20% HP.&#13;&#10;The attack deals more damage and has a cooldown of 30 seconds, halved when holding the picture frame.
+</text>
+
+<text id="ladyinrain_gift_name">Unadorned Dream</text>
+<text id="ladyinrain_gift_desc">SP -4, Attack Speed +8&#13;&#10;The effect is doubled while holding the picture frame (Both positive and negative)</text>
+</localize>

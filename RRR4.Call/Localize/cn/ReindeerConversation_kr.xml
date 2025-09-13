@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Reindeer_Captain_Start_0">驯鹿们，快快冲上前去。</text>
+  <text id="Reindeer_Captain_Start_1">驯鹿们，一定要凝聚心神再进行战斗。</text>
+  <text id="Reindeer_Captain_Start_2">一展驯鹿队的雄风吧！</text>
+  <text id="Reindeer_Captain_Start_Geburah">想不到这种地方能有特色……驯鹿们，打起精神来！</text>
+  <text id="Reindeer_Captain_Start_Binah">主管，如果那是真正的调律者，可就是违反合同了。</text>
+  
+  <text id="Reindeer_Captain_Half_0">一半的驯鹿被消灭了。</text>
+  <text id="Reindeer_Captain_Half_1">半数被歼灭。快点！拖久了对我们不利。</text>
+  <text id="Reindeer_Captain_Half_2">驯鹿死了一半。 看来对手不是省油的灯。 好好打起精神来！</text>
+  <text id="Reindeer_Captain_Half_Geburah">半数驯鹿被歼灭。这小兔崽子哪来那么大能耐？</text>
+  <text id="Reindeer_Captain_Half_Binah">拥有劣化的调律者的力量….有一半驯鹿离开了。真是不容小觑的对手啊。</text>
+
+  <text id="Reindeer_Captain_Almost_0">80%已死亡。渐渐危险起来了。驯鹿们的精神状态堪忧。</text>
+  <text id="Reindeer_Captain_Almost_1">80%的驯鹿不见了。 说是翼，但内部却和遗迹没什么两样。</text>
+  <text id="Reindeer_Captain_Almost_Geburah">损失了80%。殷红迷雾真的是人吗？这种程度的力量我只在深处见过。</text>
+  <text id="Reindeer_Captain_Almost_Binah">妖灵和钥匙…. 如果真到了这种地步，要想挑战真正的调律者就更惨不忍睹了。</text>
+  
+  <text id="Reindeer_Captain_Eliminated_0">驯鹿全军覆没。 剩下的烂摊子你自己看着办吧。</text>
+  <text id="Reindeer_Captain_Eliminated_1">所有的驯鹿都死了。 任务失败。</text>
+  <text id="Reindeer_Captain_Eliminated_2">全灭。要不是为了那点能源，这里是闻都不想闻的程度啊……</text>
+  <text id="Reindeer_Captain_Eliminated_Geburah">果然是被称为最强的特色吗.... 那种怪物一样的家伙我不想正面对抗。</text>
+  <text id="Reindeer_Captain_Eliminated_Binah">L公司的主管疯了吧。别再把我们牵扯进这种事情里了。</text>
+  
+  <text id="Reindeer_Captain_End_0">处理完了。 就算是怪物一样的家伙，战斗模式也是显而易见啊。</text>
+  <text id="Reindeer_Captain_End_1">希望下次也能邀请我。 应该比兔子有用不少。</text>
+  <text id="Reindeer_Captain_End_2">驯鹿们，回去吧。</text>
+  <text id="Reindeer_Captain_End_3">任务完成。我们将清除驯鹿的记忆。</text>
+  <text id="Reindeer_Captain_End_Geburah">传闻诚不我欺，这是最强的特色。 要是让兔子看到，肯定会说不是全盛时期，然后到处乱跑。</text>
+  <text id="Reindeer_Captain_End_Binah">我希望一辈子都不会牵扯进有跟调律者有关的事情。 即使已经那样了。</text>
+
+  <!--Rabbit Units
+      
+      Rabbit_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Reindeer_Unit_Name">驯鹿</text>
+  
+  <text id="Reindeer_Unit_Start_0">今天也要出击。 大家加把劲吧。</text>
+  <text id="Reindeer_Unit_Start_1">一鼓作气，有始有终。</text>
+  <text id="Reindeer_Unit_Start_2">为了活下去，要努力啊。</text>
+  <text id="Reindeer_Unit_Start_3">要使劲镇压啊。</text>
+  
+  <text id="Reindeer_Unit_Encounter_Officer_0">真是可怜虫。</text>
+  <text id="Reindeer_Unit_Encounter_Officer_1">快给我消失。</text>
+  <text id="Reindeer_Unit_Encounter_Officer_2">净化吧。</text>
+  
+  <text id="Reindeer_Unit_Encounter_Agent_0">好的武器离不开优秀的使用者。</text>
+  <text id="Reindeer_Unit_Encounter_Agent_1">顾不上你们了。</text>
+  <text id="Reindeer_Unit_Encounter_Agent_2">并非毫无价值。</text>
+  <text id="Reindeer_Unit_Encounter_Agent_3">闪开。</text>
+  <text id="Reindeer_Unit_Encounter_Agent_4">你的装备不错。</text>
+
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_0">危险程度低。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_1">快速清除。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_2">小菜一碟。</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_HE_0">危险程度中。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_1">这种程度还行。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_2">长得真别致。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_3">好像是遗迹常见的怪物。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_4">到目前为止没有问题，还是继续镇压吧。</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_0">危险程度高。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_1">这里也聚集了怪物……</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_2">担心也没用。 因为这是没有办法的事情。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_3">难道不该把这些用在翼之间的战争上吗……？</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_4">这是意料之外的情况……</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_0">危险程度极高。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_1">要坚持住...大家要坚持住。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_2">这种力量...在深处见过。</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_3">越来越难坚持了。只有尽快结束...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_4">好像进入了遗迹的深处……喘不过气来……</text>
+  
+  <text id="Reindeer_Unit_Panic_0">去死吧！都杀了，死吧，死吧。</text>
+  <text id="Reindeer_Unit_Panic_1">我要杀了所有人。都消失吧！这样的地方毫无意义。</text>
+
+  <text id="Reindeer_Unit_SectorClear_0">任务完成。</text>
+  <text id="Reindeer_Unit_SectorClear_1">鲁道夫队长，现在要回去了吗？</text>
+  <text id="Reindeer_Unit_SectorClear_2">哪怕再多拖一会儿都会很危险。</text>
+  <text id="Reindeer_Unit_SectorClear_3">唔...都，前往下一个位置...</text>
+  
+</localize>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DoomsdayCalendar_weapon_name">迫り来る日</text>
+<text id="DoomsdayCalendar_armor_name">迫り来る日</text>
+<text id="DoomsdayCalendar_gift_name">迫り来る日</text>
+<text id="DoomsdayCalendar_gift_desc">精神力+8、体力-4、作業成功率+5</text>
+<text id="DoomsdayCalendar_armor_desc">この自我の胸にある頭蓋骨は空洞のように見えるが、「迫り来る日」への深い恐怖で満たされているようだ。&#13;&#10;しかし、限りない敬意と犠牲は、本当に災難を避けることができるのだろうか？&#13;&#10;災難がどのようにして平和と平穏をもたらすのか？</text>
+<text id="DoomsdayCalendar_weapon_desc">血痕のついた冷ややかな顔、誰の血かはまだわからない。&#13;&#10;その棘に引っ掻かれると、幻覚で世界の終焉を見ることができると言われている。「ぶっ潰してやる…。」</text>
+<text id="DoomsdayCalendar_weapon_specialDesc">攻撃によって対象の鎮圧に成功すると、部屋内の全てのエージェントの体力が回復する。&#13;&#10;回復量は各エージェントの最大体力の１２％である。</text>
+</localize>

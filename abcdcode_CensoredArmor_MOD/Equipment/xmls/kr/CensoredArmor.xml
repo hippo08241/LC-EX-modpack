@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Censored_armor_name">검열삭제</text>
+<text id="Censored_armor_desc">(검열삭제)의 (검열삭제)하는 기능은 직원에게만 유효한 것은 아니다. 3초 이상 E.G.O를 바라보면 구역질이 난다.</text>
+<text id="Censored_armor_specialDesc">2단계 이상 낮은 등급의 공격에 피해를 입지 않음</text>
+</localize>

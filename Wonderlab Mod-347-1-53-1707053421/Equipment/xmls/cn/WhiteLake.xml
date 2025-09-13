@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="WhiteLake_weapon_name">撕下的羽翼</text>
+  <text id="WhiteLake_weapon_desc">被某人撕下，受伤的粗糙羽翼。</text>
+  <text id="WhiteLakeKnight_weapon_name">勇士之剑</text>
+  <text id="WhiteLakeKnight_weapon_desc"></text>
+  <text id="WhiteLake_armor_desc">我会撕碎这些羽翼，
+靠我自己的双脚走出自己的道路！！</text>
+  <text id="WhiteLake_gift_desc">成功率+5 工作速度+5</text>
+</localize>

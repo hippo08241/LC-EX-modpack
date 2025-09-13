@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="JackLessTree_weapon_name">Magic Harp</text>
+<text id="JackLessTree_weapon_desc">A rustic old zither. A beanstalk vine is wrapped around the body of the zither.
+Even the loneliest of people will feel at peace as they quietly listen to the music played on this instrument.
+Grow, beanstalk, and one day I will be able to climb that towering beanstalk again to that heavenly world.
+</text>
+<text id="JackLessTree_armor_desc">The clothes were worn by a child named Jack.
+He was a foolish child who traded magic beans for a donkey with an old man...
+Where did Jack go?</text>
+<text id="JackLessTree_gift_name">Ancient Gift</text>
+<text id="JackLessTree_gift_desc">HP +2
+A 500-year-old gift from the beanstalk</text>
+
+</localize>

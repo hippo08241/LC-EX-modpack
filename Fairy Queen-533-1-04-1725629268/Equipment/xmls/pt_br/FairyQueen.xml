@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyQueenWeapon_name">Fome Voraz</text>
+<text id="FairyQueenWeapon_desc">Estou com fome há tanto tempo que mal consigo resistir a mim mesmo... Quero carne... Intacta... E limpa...</text>
+<text id="FairyQueenWeapon_specialDesc">Toda a cura recebida enquanto segura esta arma é reduzida em 90%.
+Há 20% de chance de executar um ataque especial que restaura uma certa quantidade de PV a cada acerto.
+Há 50% de chance de executar imediatamente este ataque especial novamente ao custo de SP. Isso não ocorrerá se o portador tiver menos de 40 PS.
+Quando o ataque especial é reutilizado, o dano que ele causa é aumentado em 6%.
+A primeira reutilização custa 10 PS. Depois, 5 PS são gastos com cada reutilização do ataque.</text>
+<text id="FairyQueen_gift_desc">PV +3, PS +3&#13;&#10;Velocidade de Movimento +2</text>
+<text id="FairyQueenarmor_desc">Somente carne macia e tenra pode preencher esse estômago vazio...</text>
+<text id="FairyQueenArmor_specialDesc">Ao sofrer dano, uma certa quantidade de PV é imediatamente restaurada.&#13;&#10;Para cada 5 pontos de dano sofridos, perca 15% do PV máximo.&#13;&#10;Além disso, aumenta o dano base da arma do usuário em 2.&#13;&#10;Além disso, aumenta a recuperação de PV do usuário em 3% (acumula até 3 vezes)&#13;&#10; Ao usar o conjunto completo de [Fome Voraz],&#13;&#10;o ataque especial causa 10 de dano a todos os funcionários na mesma sala.&#13;&#10;Depois, o PV é restaurado ao usuário para cada funcionário danificado dessa forma,&#13;&#10;O dano base da arma é aumentado em 3,&#13;&#10;e o usuário ganha 30% a mais de velocidade de movimento por um minuto.</text>
+
+</localize>

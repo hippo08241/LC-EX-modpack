@@ -1,0 +1,447 @@
+
+skeleton.png
+size: 7080,1681
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 4674, 6
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+111122234
+  rotate: true
+  xy: 2, 399
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+FX_Tex_CC_TiedKing_Sword1
+  rotate: false
+  xy: 3237, 1167
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+dmg_21_l1_p2_nd
+  rotate: true
+  xy: 6332, 4
+  size: 325, 445
+  orig: 325, 445
+  offset: 0, 0
+  index: -1
+dmg_f1_l1_p2_nd
+  rotate: false
+  xy: 6763, 660
+  size: 309, 417
+  orig: 309, 417
+  offset: 0, 0
+  index: -1
+egg
+  rotate: false
+  xy: 724, 785
+  size: 801, 894
+  orig: 801, 894
+  offset: 0, 0
+  index: -1
+s1_f2
+  rotate: false
+  xy: 4664, 756
+  size: 299, 449
+  orig: 299, 449
+  offset: 0, 0
+  index: -1
+s1_f3
+  rotate: false
+  xy: 4408, 264
+  size: 300, 450
+  orig: 300, 450
+  offset: 0, 0
+  index: -1
+s1_f4
+  rotate: false
+  xy: 4834, 1230
+  size: 269, 449
+  orig: 269, 449
+  offset: 0, 0
+  index: -1
+s1_f5
+  rotate: false
+  xy: 4710, 305
+  size: 269, 449
+  orig: 269, 449
+  offset: 0, 0
+  index: -1
+s1_f6_#197201
+  rotate: false
+  xy: 5603, 329
+  size: 383, 448
+  orig: 383, 448
+  offset: 0, 0
+  index: -1
+s2_f2
+  rotate: false
+  xy: 5859, 780
+  size: 298, 448
+  orig: 298, 448
+  offset: 0, 0
+  index: -1
+s2_f3
+  rotate: false
+  xy: 4965, 779
+  size: 305, 449
+  orig: 305, 449
+  offset: 0, 0
+  index: -1
+s2_f4
+  rotate: false
+  xy: 5105, 1230
+  size: 305, 449
+  orig: 305, 449
+  offset: 0, 0
+  index: -1
+s2_f5
+  rotate: false
+  xy: 6015, 1231
+  size: 305, 448
+  orig: 305, 448
+  offset: 0, 0
+  index: -1
+s2_f6
+  rotate: true
+  xy: 5432, 21
+  size: 305, 448
+  orig: 305, 448
+  offset: 0, 0
+  index: -1
+s2_f7
+  rotate: false
+  xy: 4981, 328
+  size: 305, 449
+  orig: 305, 449
+  offset: 0, 0
+  index: -1
+s2_f8
+  rotate: false
+  xy: 5272, 779
+  size: 284, 449
+  orig: 284, 449
+  offset: 0, 0
+  index: -1
+s3_f2
+  rotate: false
+  xy: 4419, 1207
+  size: 413, 472
+  orig: 413, 472
+  offset: 0, 0
+  index: -1
+s3_f3
+  rotate: true
+  xy: 3128, 29
+  size: 542, 522
+  orig: 542, 522
+  offset: 0, 0
+  index: -1
+s3_f4
+  rotate: false
+  xy: 2491, 1125
+  size: 461, 554
+  orig: 461, 554
+  offset: 0, 0
+  index: -1
+s3_f5
+  rotate: true
+  xy: 1713, 413
+  size: 594, 454
+  orig: 594, 454
+  offset: 0, 0
+  index: -1
+s3_f6
+  rotate: true
+  xy: 2169, 413
+  size: 594, 455
+  orig: 594, 455
+  offset: 0, 0
+  index: -1
+s4_f10
+  rotate: false
+  xy: 5714, 1230
+  size: 299, 449
+  orig: 299, 449
+  offset: 0, 0
+  index: -1
+s4_f11
+  rotate: false
+  xy: 6159, 781
+  size: 335, 448
+  orig: 335, 448
+  offset: 0, 0
+  index: -1
+s4_f12
+  rotate: false
+  xy: 6322, 1231
+  size: 299, 448
+  orig: 299, 448
+  offset: 0, 0
+  index: -1
+s4_f13
+  rotate: false
+  xy: 6779, 241
+  size: 299, 417
+  orig: 299, 417
+  offset: 0, 0
+  index: -1
+s4_f14
+  rotate: true
+  xy: 1713, 72
+  size: 339, 562
+  orig: 339, 562
+  offset: 0, 0
+  index: -1
+s4_f15
+  rotate: true
+  xy: 2277, 84
+  size: 327, 558
+  orig: 327, 558
+  offset: 0, 0
+  index: -1
+s4_f16
+  rotate: false
+  xy: 3907, 687
+  size: 375, 481
+  orig: 375, 481
+  offset: 0, 0
+  index: -1
+s4_f17
+  rotate: false
+  xy: 4028, 205
+  size: 378, 480
+  orig: 378, 480
+  offset: 0, 0
+  index: -1
+s4_f18
+  rotate: false
+  xy: 4030, 1198
+  size: 387, 481
+  orig: 387, 481
+  offset: 0, 0
+  index: -1
+s4_f19
+  rotate: false
+  xy: 4284, 716
+  size: 378, 480
+  orig: 378, 480
+  offset: 0, 0
+  index: -1
+s4_f1_l2_p1_n
+  rotate: false
+  xy: 3189, 601
+  size: 342, 527
+  orig: 342, 527
+  offset: 0, 0
+  index: -1
+s4_f2
+  rotate: true
+  xy: 5882, 28
+  size: 299, 448
+  orig: 299, 448
+  offset: 0, 0
+  index: -1
+s4_f20
+  rotate: false
+  xy: 2954, 1130
+  size: 281, 549
+  orig: 281, 549
+  offset: 0, 0
+  index: -1
+s4_f21
+  rotate: false
+  xy: 2837, 19
+  size: 289, 550
+  orig: 289, 550
+  offset: 0, 0
+  index: -1
+s4_f22
+  rotate: false
+  xy: 2626, 571
+  size: 302, 552
+  orig: 302, 552
+  offset: 0, 0
+  index: -1
+s4_f23
+  rotate: false
+  xy: 2176, 1097
+  size: 313, 582
+  orig: 313, 582
+  offset: 0, 0
+  index: -1
+s4_f24
+  rotate: false
+  xy: 3533, 656
+  size: 372, 509
+  orig: 372, 509
+  offset: 0, 0
+  index: -1
+s4_f25
+  rotate: false
+  xy: 3751, 1170
+  size: 277, 509
+  orig: 277, 509
+  offset: 0, 0
+  index: -1
+s4_f26
+  rotate: true
+  xy: 739, 13
+  size: 167, 715
+  orig: 167, 715
+  offset: 0, 0
+  index: -1
+s4_f27
+  rotate: true
+  xy: 2, 11
+  size: 169, 735
+  orig: 169, 735
+  offset: 0, 0
+  index: -1
+s4_f28
+  rotate: true
+  xy: 4355, 2
+  size: 201, 317
+  orig: 201, 317
+  offset: 0, 0
+  index: -1
+s4_f29
+  rotate: true
+  xy: 4028, 4
+  size: 199, 325
+  orig: 199, 325
+  offset: 0, 0
+  index: -1
+s4_f3
+  rotate: false
+  xy: 5412, 1230
+  size: 300, 449
+  orig: 300, 449
+  offset: 0, 0
+  index: -1
+s4_f4
+  rotate: true
+  xy: 4981, 15
+  size: 311, 449
+  orig: 311, 449
+  offset: 0, 0
+  index: -1
+s4_f5
+  rotate: false
+  xy: 5288, 328
+  size: 313, 449
+  orig: 313, 449
+  offset: 0, 0
+  index: -1
+s4_f6
+  rotate: false
+  xy: 5558, 779
+  size: 299, 449
+  orig: 299, 449
+  offset: 0, 0
+  index: -1
+s4_f7
+  rotate: true
+  xy: 6623, 1079
+  size: 299, 446
+  orig: 299, 446
+  offset: 0, 0
+  index: -1
+s4_f8
+  rotate: false
+  xy: 5988, 330
+  size: 300, 448
+  orig: 300, 448
+  offset: 0, 0
+  index: -1
+s4_f9
+  rotate: true
+  xy: 6623, 1380
+  size: 299, 447
+  orig: 299, 447
+  offset: 0, 0
+  index: -1
+star661
+  rotate: false
+  xy: 2626, 441
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+丁达尔光线1
+  rotate: false
+  xy: 1527, 1009
+  size: 647, 670
+  orig: 647, 670
+  offset: 0, 0
+  index: -1
+图层 1
+  rotate: false
+  xy: 6290, 331
+  size: 138, 448
+  orig: 138, 448
+  offset: 0, 0
+  index: -1
+图层 1 拷贝
+  rotate: true
+  xy: 2, 182
+  size: 215, 812
+  orig: 215, 812
+  offset: 0, 0
+  index: -1
+图层 1 拷贝 3
+  rotate: false
+  xy: 2930, 573
+  size: 257, 550
+  orig: 257, 550
+  offset: 0, 0
+  index: -1
+图层 1 拷贝 4
+  rotate: false
+  xy: 3652, 161
+  size: 374, 493
+  orig: 374, 493
+  offset: 0, 0
+  index: -1
+图层 1 拷贝 5
+  rotate: false
+  xy: 1456, 77
+  size: 255, 706
+  orig: 255, 706
+  offset: 0, 0
+  index: -1
+图层 1 拷贝 6
+  rotate: true
+  xy: 724, 433
+  size: 350, 706
+  orig: 350, 706
+  offset: 0, 0
+  index: -1
+图层 1 拷贝 7
+  rotate: false
+  xy: 6430, 341
+  size: 331, 438
+  orig: 331, 438
+  offset: 0, 0
+  index: -1
+头
+  rotate: true
+  xy: 2491, 1040
+  size: 83, 133
+  orig: 83, 133
+  offset: 0, 0
+  index: -1
+身体
+  rotate: true
+  xy: 6779, 14
+  size: 225, 299
+  orig: 225, 299
+  offset: 0, 0
+  index: -1

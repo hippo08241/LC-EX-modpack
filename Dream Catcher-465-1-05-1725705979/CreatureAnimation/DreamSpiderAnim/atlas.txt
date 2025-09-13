@@ -1,0 +1,139 @@
+
+DreamSpider.png
+size: 955,955
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DreamSpider
+  rotate: true
+  xy: 2, 116
+  size: 188, 174
+  orig: 188, 174
+  offset: 0, 0
+  index: -1
+web2
+  rotate: true
+  xy: 2, 15
+  size: 99, 106
+  orig: 99, 106
+  offset: 0, 0
+  index: -1
+web21
+  rotate: true
+  xy: 284, 183
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1
+web3
+  rotate: false
+  xy: 237, 120
+  size: 117, 53
+  orig: 117, 53
+  offset: 0, 0
+  index: -1
+web5
+  rotate: true
+  xy: 178, 238
+  size: 66, 104
+  orig: 66, 104
+  offset: 0, 0
+  index: -1
+web51
+  rotate: true
+  xy: 110, 30
+  size: 84, 132
+  orig: 84, 132
+  offset: 0, 0
+  index: -1
+前上1
+  rotate: false
+  xy: 410, 208
+  size: 42, 34
+  orig: 42, 34
+  offset: 0, 0
+  index: -1
+前上2
+  rotate: false
+  xy: 349, 183
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+前下3
+  rotate: true
+  xy: 290, 76
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+前下4
+  rotate: true
+  xy: 354, 80
+  size: 23, 76
+  orig: 23, 76
+  offset: 0, 0
+  index: -1
+后上1
+  rotate: false
+  xy: 356, 105
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+后上2
+  rotate: false
+  xy: 178, 116
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+后下3
+  rotate: false
+  xy: 244, 56
+  size: 44, 62
+  orig: 44, 62
+  offset: 0, 0
+  index: -1
+后下4
+  rotate: false
+  xy: 324, 2
+  size: 31, 72
+  orig: 31, 72
+  offset: 0, 0
+  index: -1
+头部
+  rotate: true
+  xy: 356, 144
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+尾部丝
+  rotate: true
+  xy: 244, 36
+  size: 18, 78
+  orig: 18, 78
+  offset: 0, 0
+  index: -1
+网
+  rotate: false
+  xy: 284, 244
+  size: 155, 60
+  orig: 155, 60
+  offset: 0, 0
+  index: -1
+胸
+  rotate: true
+  xy: 249, 200
+  size: 36, 31
+  orig: 36, 31
+  offset: 0, 0
+  index: -1
+蜘蛛腹部
+  rotate: true
+  xy: 178, 175
+  size: 61, 69
+  orig: 61, 69
+  offset: 0, 0
+  index: -1

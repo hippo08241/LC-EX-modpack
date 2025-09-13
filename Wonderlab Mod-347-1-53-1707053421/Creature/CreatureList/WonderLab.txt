@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+<!-- <creature name="Hookah" src="Hookah" id="100410">
+    <stat>Hookah_stat</stat>
+  </creature> -->
+<creature name="Mermaid" src="Mermaid" id="100539">
+    <stat>Mermaid_stat</stat>
+  </creature>
+<creature name="RedQueen" src="RedQueen" id="102113">
+    <stat>RedQueen_stat</stat>
+  </creature>
+<creature name="Tangle" src="Tangle" id="101118">
+    <stat>Tangle_stat</stat>
+  </creature>
+<!-- <creature name="DingleDingle" src="DingleDingle" id="103121">
+    <stat>DingleDingle_stat</stat>
+  </creature> -->
+<creature name="Nosferatu" src="Nosferatu" id="100134">
+    <stat>Nosferatu_stat</stat>
+  </creature>
+</creature_list>

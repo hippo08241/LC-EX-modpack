@@ -1,0 +1,181 @@
+
+skeleton.png
+size: 1176,3590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 636, 660
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BIOOD
+  rotate: false
+  xy: 2, 2837
+  size: 1024, 751
+  orig: 1024, 751
+  offset: 0, 0
+  index: -1
+S1
+  rotate: false
+  xy: 2, 2540
+  size: 690, 295
+  orig: 690, 295
+  offset: 0, 0
+  index: -1
+S5
+  rotate: true
+  xy: 636, 1174
+  size: 512, 537
+  orig: 512, 537
+  offset: 0, 0
+  index: -1
+judge_xx_06
+  rotate: false
+  xy: 327, 364
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+体1
+  rotate: false
+  xy: 694, 2310
+  size: 449, 285
+  orig: 449, 285
+  offset: 0, 0
+  index: -1
+前手12
+  rotate: false
+  xy: 1028, 2821
+  size: 97, 182
+  orig: 97, 182
+  offset: 0, 0
+  index: -1
+前手13
+  rotate: false
+  xy: 1023, 2637
+  size: 97, 182
+  orig: 97, 182
+  offset: 0, 0
+  index: -1
+前臂1
+  rotate: true
+  xy: 2, 2145
+  size: 393, 686
+  orig: 393, 686
+  offset: 0, 0
+  index: -1
+前臂2
+  rotate: true
+  xy: 2, 1750
+  size: 393, 686
+  orig: 393, 686
+  offset: 0, 0
+  index: -1
+后壁1
+  rotate: true
+  xy: 2, 1186
+  size: 562, 632
+  orig: 562, 632
+  offset: 0, 0
+  index: -1
+后壁2
+  rotate: true
+  xy: 2, 622
+  size: 562, 632
+  orig: 562, 632
+  offset: 0, 0
+  index: -1
+后手
+  rotate: true
+  xy: 1028, 3489
+  size: 99, 146
+  orig: 99, 146
+  offset: 0, 0
+  index: -1
+头1
+  rotate: false
+  xy: 1028, 3005
+  size: 104, 172
+  orig: 104, 172
+  offset: 0, 0
+  index: -1
+头2
+  rotate: true
+  xy: 694, 2597
+  size: 238, 327
+  orig: 238, 327
+  offset: 0, 0
+  index: -1
+抓12
+  rotate: false
+  xy: 694, 9
+  size: 323, 297
+  orig: 323, 297
+  offset: 0, 0
+  index: -1
+抓13
+  rotate: false
+  xy: 2, 323
+  size: 323, 297
+  orig: 323, 297
+  offset: 0, 0
+  index: -1
+抓手前
+  rotate: true
+  xy: 2, 2
+  size: 304, 344
+  orig: 304, 344
+  offset: 0, 0
+  index: -1
+抓手后
+  rotate: true
+  xy: 348, 2
+  size: 304, 344
+  orig: 304, 344
+  offset: 0, 0
+  index: -1
+抽打
+  rotate: true
+  xy: 690, 2029
+  size: 279, 429
+  orig: 279, 429
+  offset: 0, 0
+  index: -1
+正常精灵1
+  rotate: false
+  xy: 1028, 3279
+  size: 122, 100
+  orig: 122, 100
+  offset: 0, 0
+  index: -1
+正常精灵2
+  rotate: false
+  xy: 1028, 3381
+  size: 122, 106
+  orig: 122, 106
+  offset: 0, 0
+  index: -1
+正常精灵3
+  rotate: false
+  xy: 1028, 3179
+  size: 112, 98
+  orig: 112, 98
+  offset: 0, 0
+  index: -1
+翅膀1
+  rotate: false
+  xy: 690, 1688
+  size: 381, 339
+  orig: 381, 339
+  offset: 0, 0
+  index: -1
+翅膀2
+  rotate: false
+  xy: 636, 308
+  size: 357, 350
+  orig: 357, 350
+  offset: 0, 0
+  index: -1

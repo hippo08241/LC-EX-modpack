@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156511">
+
+
+
+    <narration action="move">
+      #0は$0の収容室に割り当てられる。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0は泣いている。},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0が膨らんだため、#0は少し怯えた。},
+      {しかし、何も起こらなかった。},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0は$0の泣き声を聞いて、悲しい気持ちになった。},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-01-23-04</codeNo>
+      <portrait openLevel ="1">Custom/Amiroji_portrait</portrait>
+
+      <name openLevel ="1">
+        泣きヒキガエル
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>どうしたら泣き止むのか？</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {この物語は、泣きヒキガエルと呼ばれる伝説上の生物について語られている。泣きヒキガエルの目が溶け落ちるたびに、怪奇現象が起こると書かれている。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {ある日、一人の男が泣きヒキガエルの洞窟にやって来た。彼は泣きヒキガエルの伝説を聞いたため、泣きヒキガエルと戦いにきた。激しい戦いの末、彼はついに泣きヒキガエルの目を壊すことに成功した。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {その後、泣きヒキガエルの腹が空気を吸い込むように膨らみ始めた。大きな鈴のような目には、青い涙が浮かんでいた。泣きヒキガエルが口を開くと、洞窟全体が陰鬱な感情に包まれているかのようだった。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {彼は、伝説上の生物「泣きヒキガエル」がこの事態を引き起こしていることに気づいた。これから先はどうなってしまうのかと、彼はパニックに陥った。この事態が穏便に済むよう、彼は静かに祈った。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {泣きヒキガエルは泣き始めた。泣きヒキガエルの涙は雨のように降り注ぎ、洞窟全体が悲しみと嘆きで満たされた。この光景を見て、彼の心は悲しみに包まれた。}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {「どうしたら泣き止むのか？」}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">作業結果が悪い場合、クリフォトカウンターが減少。作業結果が普通の場合、低確率でクリフォトカウンターが減少。</specialTip>
+      <specialTip openLevel="1" key="1">$0は本能作業と抑圧作業を嫌う。$0への作業を完了した職員には、ギフトが付与される。作業結果が良い場合、施設内の全職員の精神力を回復させた。</specialTip>
+      <specialTip openLevel="2" key="2">クリフォトカウンターが0になっても何も起こらず、収容室でただ泣き続ける。$0を鎮圧すると、再び$0への作業を行うことができた。</specialTip>
+      <specialTip openLevel="3" key="3">$0はPale以外のダメージに対して、非常に高い耐性を持っている。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

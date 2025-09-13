@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100410">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 職員は作業をしながら何度も気を取り戻そうと努力します。},
+      {$0はヒラヒラと翻しながら#0職員を観察します。 }
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0の辺りに新しい果実が生えてきています。}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {#0 職員は$0の前まで行きますが、結局、正気に戻って帰ってきます。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {果実からは今も苦痛の声が響きます。},
+      {果実からは今も絶望の声が響きます。},
+      {果実からは今も悲しみの声が響きます。}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-10</codeNo>
+      <portrait openLevel ="1">Custom/Hookah</portrait>
+
+      <name openLevel ="1">
+        水たばこ
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>君を乗せて、僕を酔わせて、翼を咲かせる。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {天井に幾つかの果実がぶら下がっているアブノーマリティ}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {その果実は、誰かの犠牲、絶望、苦痛、悲しみ。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {思考が深いほど悲しみ、記憶が積み重なるほど悲しみ、知っていることが多いほど絶望する。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {考えもせず、覚えてもいなかったら、もっとよかったんじゃないか。}
+      ]
+    </desc>
+
+  <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">職員が作業を終えると、羽化イベント(以下F-04-10-1)が進んだ。</specialTip>
+      <specialTip openLevel="2" key="2">F-04-10-1は、高ランクの抑圧作業を行う時は進まなかった。</specialTip>
+      <specialTip openLevel="3" key="3">F-04-10-1状態の職員が作業を終えると、F-04-10-1の姿が変化した(以下F-04-10-2)</specialTip>
+      <specialTip openLevel="4" key="4">F-04-10-2状態の職員が作業を終えると、$0のクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="5" key="5">$0は低ランクの職員が作業を始めた時、より多くのPE-boxを生産した</specialTip>
+      <specialTip openLevel="6" key="6">作業中の職員が死亡した時、$0のクリフォトカウンターが減少した。</specialTip>
+      </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {天井につるされている果実はひらひらと目の前で揺れ動く。}
+{ある果実があなたを認識すると、全ての果実があなたに飛びつく。}
+{あなたは飛んできた果実に対して}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="防ぐ" target="1" isAnswer="false"/>
+        <node desc="目を瞑る" target="2" isAnswer="true"/>
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {果実を手ではたき落した。}
+{だが到底受け止められるものではない。}
+{知らない絶望、知るべきでない苦痛。}
+{果実が一つ、増えた。}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {何も気にしないように目を瞑る}
+{衝撃が来ない状況に、あなたは少しずつ目を開く。}
+{動いていた果実も、何もなく、いつも通りの景色が広がっていた。}
+        ]
+      </desc>
+
+
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {かわいい姿とは異なり、精神の錯乱を試みるアブノーマリティです、},
+        {あなたは自分が考えていることが真実だと思われますか？}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

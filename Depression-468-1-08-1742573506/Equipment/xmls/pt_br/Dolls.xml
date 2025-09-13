@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="Depression_Weapon_Name">Envolto em Feridas, por todo o corpo</text>
+  <text id="Depression_Armor_Desc">Este traje de proteção foi projetado para proteger o usuário de ataques mentais... O tempo dirá.</text>
+  <text id="Depression_Armor_spDesc">Todo dano sofrido ao usar esta armadura é convertido em dano BRANCO. Quando 200 de dano BRANCO são sofridos em um dia, o usuário morre.</text>
+  <text id="Depression_Weapon_Name">Veias Cortadas</text>
+  <text id="Depression_Weapon_desc">Uma faca projetada com o único propósito de cortar os pulsos. A lâmina é muito afiada, você só precisa apontá-la para a artéria e cortar.</text>
+  <text id="Depression_Weapon_spDesc">O funcionário que empunha esta arma sofre 3 de dano BRANCO sempre que um ataque é feito.</text>
+</localize>

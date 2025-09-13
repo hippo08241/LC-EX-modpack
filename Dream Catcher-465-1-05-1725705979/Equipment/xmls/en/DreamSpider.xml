@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="DreamSpider_weapon_name">Dreamer</text>
+  <text id="DreamSpider_gift_name">Dreamer</text>
+  <text id="DreamSpider_gift_desc">Sanity +4&#13;&#10;When holding "Dreamer", the maximum and minimum attack power are increased by 2 points
+</text>
+  <text id="DreamSpider_weapon_desc">The bullets fired by this weapon are structured like delicate spider webs, and a hit can put the target into a brief dream. &#13;&#10;If you indulge in this carefully woven masterpiece, the spiders that feed on dreams will soon invade your mind. &#13;&#10;Sleep, sleep, my dear, may you sleep peacefully in it forever.</text>
+<text id="DreamSpider_armor_desc">The fabric of this armor is as thin and illusory as a dream, making you feel like you are in a dream when you put it on. &#13;&#10;If employees with weak willpower are allowed to wear it, they will sink into a dream and never wake up. &#13;&#10;The entanglement of the spider silk becomes tighter and tighter. Are the people trapped in the web unable to escape, or are they unwilling to escape?</text>
+<text id="DreamSpider_weapon_specialDesc">When this weapon hits a target, it will reduce the target's movement speed and attack speed by 35% for 2.5 seconds.</text>
+<text id="DreamSpider_armor_specialDesc">Employees wearing this armor are unable to work on "T-02-676" and will not be charmed by "T-02-676". &#13;&#10;When "T-02-676" consumes mental energy, the wearer will recover 2-3 sanity points per second.</text>
+</localize>

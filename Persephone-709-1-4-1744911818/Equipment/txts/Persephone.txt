@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="8192311" type="weapon"> 
+    <name>Persephone_Name</name>
+    <desc>Persephone_Weapon_Desc</desc> 
+    <specialDesc>Persephone_Weapon_Special_Desc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    
+    <specialWeaponAnim>BossBirdWeapon_PersephoneWeapon</specialWeaponAnim>
+
+    <sprite>Censored_PersephoneWeapon</sprite>
+
+    <damage type="W" min="0" max="0">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+    <range>3</range>
+    
+    <script>PersephoneWeapon</script>
+
+    <maxNum>1</maxNum>
+    <grade>5</grade>
+  </equipment>
+  
+  <equipment id="8192312" type="armor">
+    <name>Persephone_Name</name>
+    <no>armor_no</no>
+    <desc>Persephone_Armor_Desc</desc>
+    <specialDesc>Persephone_Armor_Special_Desc</specialDesc>
+
+    <script>PersephoneArmor</script>
+    <armorId>8192312</armorId>
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="8192313" type="special"> 
+    <name>Persephone_Name</name>
+    <desc>Persephone_Gift_Desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <mental>6</mental>
+      <cubeSpeed>5</cubeSpeed>
+    </bonus>
+    <sprite>PersephoneGiftHair_8192313</sprite>
+  </equipment>
+  
+</equipment_list>

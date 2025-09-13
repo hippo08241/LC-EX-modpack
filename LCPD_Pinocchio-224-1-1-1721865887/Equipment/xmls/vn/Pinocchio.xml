@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+   <text id="Pinocchio_weapon_name">Con Rối Gỗ</text>
+   <text id="Pinocchio_weapon_desc">Một cái rìu gỗ cũ, bị mẻ vài chỗ ở phần lưỡi. Khi cầm nó lên, bạn sẽ cảm thấy sức nặng của nó dao động liên tục giữa nặng và nhẹ, như thể nó đang cố bắt chước với sức nặng mà bạn cảm thấy "vừa tay".&#13;&#10;&#13;&#10;Trong thành phố, để sống sót, mọi cư dân thành thị sẽ không ngừng bắt chước những kẻ thành công, với hi vọng được trở thành một cá nhân xuất chúng khác. Tuy nhiên... bắt chước thì vẫn mãi là bắt chước, không thể nào "bắt chước" được sự thành công một cách hoàn hảo được. Cuối cùng, những kẻ bắt chước tội nghiệp đó sẽ bị thành phố tiêu thụ.</text>
+   <text id="Pinocchio_weapon_sp_Desc">Bắt Chước Học Hỏi: Khi được trang bị đủ bộ EGO (Vũ khí + Giáp), nó sẽ ngẫu nhiên bắt chước loại sát thương của kẻ địch.&#13;&#10;Bậc Thầy Mô Phỏng: Mỗi đòn tấn công sẽ gây thêm sát thương.</text>
+   <text id="Pinocchio_armor_desc">Một bộ quần áo tinh xảo có màu tương phản với vũ khí của chính nó. Khi mặc nó, bạn sẽ vô thức bắt chước những người khác.&#13;&#10;&#13;&#10;Để thích nghi với môi trường mới một cách hiệu quả hơn, một cá nhân cần phải biết bắt chước một tập thể. Làm những gì giống với tập thể làm, ăn những thứ giống với tập thể ăn – hiện trạng này đang hiện hữu ở khắp mọi nơi, đặc biệt là trong thành phố...</text>
+   <text id="Pinocchio_armor_sp_Desc">Lừa Dối: Chỉ số kháng cự sẽ thay đổi ngẫu nhiên.&#13;&#10;Bắt Chước Học Hỏi: Khi được trang bị đủ bộ EGO (Vũ khí + Giáp), có tỉ lệ bắt chước chỉ số kháng cự (giáp) từ một đồng nghiệp cùng một phòng ban. Hiệu ứng này sẽ dần biến mất sau một thời gian nhất định.</text>
+   <text id="Pinocchio_hat_desc">HP +3, Tốc Độ Làm Việc +2.&#13;&#10;&#13;&#10;Liệu con người không phải là một sinh vật liên tục bắt chước nhau?</text>
+</localize>

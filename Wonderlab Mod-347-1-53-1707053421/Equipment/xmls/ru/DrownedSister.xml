@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DrownedSister_equip_name">Горе</text>
+<text id="DrownedSister_weapon_desc">"Ахх, горе нам. Мы стали грешниками."</text>
+<text id="DrownedSister_gift_desc">SP -4, Скорость перемещения + 6, Скорость атаки + 6.</text>
+<text id="DrownedSister_weapon_specialDesc">Раз в день, сотрудник направленный на Подавление, мгновенно, перемещается в указанное место со всеми существами по близости.</text>
+<text id="DrownedSister_armor_desc">"Просим услышать нас,
+услышать наши грехи, мы не знаем, что совершили...
+И освободи от нашей печали."</text>
+</localize>

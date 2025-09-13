@@ -1,0 +1,104 @@
+
+unchild.png
+size: 732,502
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lblue
+  rotate: false
+  xy: 444, 135
+  size: 132, 131
+  orig: 132, 131
+  offset: 0, 0
+  index: -1
+lbroken
+  rotate: false
+  xy: 578, 143
+  size: 133, 130
+  orig: 133, 130
+  offset: 0, 0
+  index: -1
+ledb
+  rotate: false
+  xy: 549, 69
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ledbreak
+  rotate: false
+  xy: 549, 3
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ledg
+  rotate: false
+  xy: 615, 77
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ledr
+  rotate: false
+  xy: 615, 11
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+lgr
+  rotate: false
+  xy: 414, 3
+  size: 133, 130
+  orig: 133, 130
+  offset: 0, 0
+  index: -1
+lred
+  rotate: false
+  xy: 280, 2
+  size: 132, 131
+  orig: 132, 131
+  offset: 0, 0
+  index: -1
+内手
+  rotate: true
+  xy: 2, 29
+  size: 56, 228
+  orig: 56, 228
+  offset: 0, 0
+  index: -1
+外手
+  rotate: true
+  xy: 2, 87
+  size: 68, 276
+  orig: 68, 276
+  offset: 0, 0
+  index: -1
+多边形 1
+  rotate: true
+  xy: 518, 275
+  size: 225, 212
+  orig: 225, 212
+  offset: 0, 0
+  index: -1
+头
+  rotate: true
+  xy: 298, 144
+  size: 122, 144
+  orig: 122, 144
+  offset: 0, 0
+  index: -1
+身体
+  rotate: false
+  xy: 2, 157
+  size: 294, 343
+  orig: 294, 343
+  offset: 0, 0
+  index: -1
+钢管杆
+  rotate: false
+  xy: 298, 268
+  size: 218, 232
+  orig: 218, 232
+  offset: 0, 0
+  index: -1

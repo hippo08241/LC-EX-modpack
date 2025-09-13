@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="ChP_weapon_name">Tech Beauty</text>
+  <text id="ChP_weapon_desc">The children, fumbling, extracted the world.</text>
+  <text id="ChP_weapon_specialDesc">Cumulate trauma. Defer damage.</text>
+  <text id="ChP_armor_desc">The children, seeking, built the world.</text>
+  <text id="ChP_armor_specialDesc">I have a brilliant effect, but unfortunately there's too little space here for me to write down it.</text>
+
+  <text id="SpMa_armor_name">Black Fluid</text>
+  <text id="SpMa_armor_desc">Bottles of soul around me would break at any time, with black liquid spilling out.</text>
+  <text id="SpMa_armor_specialDesc">The fewer other employees were in the same area, the higher W defense would be.</text>
+
+  <text id="UnC_weapon_name">htp://link.io</text><!--Heart Translating Protocol-->
+  <text id="UnC_weapon_desc">"The Sky had failed to keep its existence."</text>
+  
+</localize>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142019">
+
+    <narration action="move">
+      #0 heads to $0's containment unit.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" is just here, not making any movements.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {"$0" do not respond.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {The lights on the back of the "$0" flashes softly.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-240</codeNo>
+      <portrait openLevel="1">Custom/UnChild</portrait>
+
+      <name openLevel="1">The child of Connection</name>
+      <specialName openLevel="1">U2lnbmFsIExvc3Q</specialName>
+      
+      <riskLevel openLevel="1">ZAYIN</riskLevel>
+
+      <openText>The doorway to a new world fully opens.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Connection.}
+      ]
+    </desc><!--translated by DeepL-->
+
+    <desc id="2" openLevel="1">
+      [
+      {The empty shells that were held hostage by the city are brought back to life here.&#13;&#10;Interesting and similar souls gather here, and a grain of world rises.&#13;&#10;And, connection.&#13;&#10;"Greetings, I am ......"}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {The child arrived here. It was empty. With that, a description was created.&#13;&#10;A window that currents of thought intercommunicated. Opened. The child was able to get a brief respite.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {The barrier was shattered. Disintegrated in an instant. &#13;&#10; Fragile -- and so amazing -- this world. &#13;&#10; Only a small bit of malice -- flooded, knocked down, shattered. All of this. &#13;&#10;-- The sky disintegrates into fragments.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {One of us found an abandoned drawing room -- or more than that. Countless gray, black and burnt umber hung on the walls, glass columns surrounding.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {However -- head up. Elegant colors smeared across the ceiling - a painting, depicting a bizarre picture that we never witnessed.&#13;&#10;How has that world ever been?}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">When an Attachment Work was completed with the result was good, Connections would be built among employees. When one employee in a Connection takes damage, employees in the same Connection will take a small amount of damage and reduce the damage to the original victim meanwhile.</specialTip>
+      <specialTip openLevel="2" key="2">When a Connection was built between two employees from different Connections, the two Connections would be merged.</specialTip>
+      <specialTip openLevel="2" key="3">When an Repress Work was completed, the last change of Connections would be withdrawn. However, when an employee with Connection died, all previous changes would be unable to be withdrawn.</specialTip>
+      <specialTip openLevel="2" key="4">$0 couldn't build too much Connections. Every attempt to do that would make every employees with Connection "Unconnected". Then if an Repress Work was completed, all "Unconnected" employees would panic instantly and the statement of Connections would reset.</specialTip>
+      <specialTip openLevel="2" key="5">$0 is not affected by Qliphoth Meltdowns.</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

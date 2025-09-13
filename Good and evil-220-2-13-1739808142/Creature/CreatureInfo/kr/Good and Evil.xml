@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="647140">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.... 오늘은 평소랑 다른가 봅니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0은 사람들을 끌어들이거나 밀어내길 원하는 듯이 끊임없이 회전합니다.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0직원은 $0이 어느 두 환상체와 닮았다고 생각합니다.}
+      {이 곳의 분위기는 때로는 편안하고 때로는 압박이 느껴집니다.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {알 수 없는 힘이 #0 직원을 나가지 못하게 합니다.}
+      {$0은 혼란스럽습니다. 선악의 본질은 무엇일까요? 우리가 선악 그 자체일까요?}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">X-06-104-62</codeNo>
+      <name openLevel ="1">피와 살 그리고 황금</name>
+      <name openLevel ="4">선과 악</name>
+      <portrait openLevel ="1">Custom/Good and Evil</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>선악의 간극따윈 천재와 광인이 뒤엉키듯이 섞이며 철학적인 춤으로 인간의 본질에 대한 경계선을 드러내는 듯 하다.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {이 환상체는 X-7209 지부에서 온 것으로 O-05-102와 O-07-103과 생김새가 비슷합니다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {우리는 X-06-104-62의 어두운 부분이 악의 근원이라 생각했지만, 그 반대로 선이라 여겨지던 황금 부분이 악이라는 사실을 깨닫지 못 했어요.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {3등급의 직원인 샬롯이 X-06-104-62에게 여러 차례 작업을 하다가 갑자기 사망했습니다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {실험 1 : &#13;&#10;12~16개의 PE 박스를 생성하자 저스틴의 정신 오염 수치가 0이 되었다.&#13;&#10;X-06-104-62의 검은 부분 때문인 것으로 보입니다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {실험 2 : &#13;&#10;X-06-104-62의 작업을 완료한 샬롯 직원은 물리적인 피해를 입었고,&#13;&#10;여러 차례 작업을 한 후에 샬롯 직원은 사망했습니다. 이는 X-06-104-62의 황금색 부분 때문인 것으로 보입니다.&#13;&#10;샬롯은 환각 속에서 X-06-104-62의 진정한 모습을 보았습니다. 단순하지 않고 복잡한 형태를 가졌습니다. 피와 살은 삶에 대한 갈망을 나타내며, 순수한 본성을 숨겼습니다. 황금 부분은 순수한 선을 의미하는 것 같지만 속임수와 유혹으로 이루어져 있습니다.}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">작업 결과가 좋음이면 클리포트 카운터가 ▇▇▇▇.</specialTip>
+      <specialTip openLevel="2" key="2">작업 결과가 나쁨이면 클리포트 카운터가 감소한다.</specialTip>
+      <specialTip openLevel="3" key="3">작업을 해서 PE 박스를 12~16개 생성하면 그 직원의 정신력이 약간 회복된다.</specialTip>
+     <specialTip openLevel="4" key="4">작업 결과가 좋거나 나쁘면 $0의 특수 능력이 발동된다.</specialTip>
+     <specialTip openLevel="5" key="5">O-05-102는 $0의 클리포트 카운터가 0이 되면 탈출한다.</specialTip>
+     <specialTip openLevel="6" key="6">$0-1의 특수 능력으로 직원의 체력과 정신력을 200으로 만들어주지만, 회복을 못 받게 된다. $0-2의 특수 능력으로 직원에게 R 피해를 입힌다.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

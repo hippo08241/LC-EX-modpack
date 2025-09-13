@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>Home</script>
+  <stat>
+    <hp>100</hp>
+    <speed>0</speed>
+
+    <defense id="1">
+      <defenseElement type="R">0.1</defenseElement>
+      <defenseElement type="W">0.1</defenseElement>
+      <defenseElement type="B">0.1</defenseElement>
+      <defenseElement type="P">0.1</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="Custom/HomeAnim" x="-1" y="-2"/>
+
+  <riskLevel openLevel="1">HE</riskLevel>
+
+</creature>

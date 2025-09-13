@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="DingleDangle_weapon_name">행맨</text>
+  <text id="DingleDangle_weapon_desc">모두 함께 열매가 되어 매달리자. 다 같이 매달리자.</text>
+  <text id="DingleDangle_armor_desc">너의 절망, 슬픔... 길게 매달리자.</text>
+  <text id="DingleDangle_gift_desc">정신력+6, 작업 성공률, 작업 속도-4</text>
+</localize>

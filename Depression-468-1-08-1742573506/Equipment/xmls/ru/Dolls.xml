@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="Depression_Armor_Name">Покрытый ранами</text>
+  <text id="Depression_Armor_Desc">Эта броня была разработана для защиты владельца от психических атак... Но так ли оно работает, время покажет.</text>
+  <text id="Depression_Armor_spDesc">Весь урон, получаемый при ношении этой брони, преобразуется в БЕЛЫЙ урон. Если за день будет получено 200 единиц БЕЛОГО урона, владелец скончается.</text>
+  <text id="Depression_Weapon_Name">Разорванные вены</text>
+  <text id="Depression_Weapon_desc">Нож, созданный с единственной целью - перерезать вены. Лезвие остро, просто приставь его к артерии и режь.</text>
+  <text id="Depression_Weapon_spDesc">Сотрудник, владеющий этим оружием, будет получать 3 единицы БЕЛОГО урона при каждой атаке.</text>
+</localize>

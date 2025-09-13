@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>1일차 환상체 버그 수정</name>
+<descs>
+<desc>1일차에 '단 한번의 학과 수백가지의 선행' 환상체가 아닌 다른 환상체가 격리실에 들어오는 버그를 수정한다.</desc>
+</descs>
+</info>

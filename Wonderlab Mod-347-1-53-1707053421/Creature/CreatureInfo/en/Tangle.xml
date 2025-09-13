@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101118">
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {Tangle is counting. One, two, three, four...}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 hums as they brush Tangle's hair.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0 is deciding on whether to tie or braid Tangle's hair.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {Tangle remembers its time with #0.}
+      ]
+    </narration>
+
+    <narration action="Bald_code_start">
+      [
+      {Tangle's face full of sadness...}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid1">
+      [
+      {Employee #0 tries to comfort Tangle.}
+      ]
+    </narration>
+    
+    <narration action="Bald_code_mid2">
+      [
+      {While looking at Tangle, employee #0 thinking that it must be cold in the winter for her because she has no hair.}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid4">
+      [
+      {Employee #0 thinks this problem cannot be solved even with Singularity.}
+      ]
+    </narration>
+
+    <narration action="Bald_start">
+      [
+      {Smooth's face full of sadness...}
+      ]
+    </narration>
+
+    <narration action="Bald_mid1">
+      [
+      {Employee #0 tries to comfort Smooth.}
+      ]
+    </narration>
+    
+    <narration action="Bald_mid2">
+      [
+      {While looking at Smooth, employee #0 thinking that it must be cold in the winter for her because she has no hair.}
+      ]
+    </narration>
+
+    <narration action="Bald_mid4">
+      [
+      {Employee #0 thinks this problem cannot be solved even with Singularity.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-118</codeNo>
+      <portrait openLevel ="1">Custom/Tangle</portrait>
+
+      <name openLevel ="1">
+        Tangle
+      </name>
+      
+      <specialName openLevel ="1">
+        Smooth
+      </specialName>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>Lower my hair, so I can escape from this hell.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Abnormality with brilliant golden hair, it looks like a ball at first glance.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Upon investigation, it was confirmed that $0 records its time spent with an employee. The purpose behind this is unknown.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Success Rate increased depending on how carefully employees brushed its hair. It was also friendly to employees that treated it well, but aggressive to those that tried to repress or distance themselves from it.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {The friendliness it showed to employees was proven to be nothing else than an attempt to escape. When Tangle was supressed by an employee it was recording its time with, it started all over again.&#13;&#10;However, even if the employee failed to suppress the Tangle, the Tangle could not escape.}
+      ]
+    </desc>
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">When the Instinct work result was Good, the Qliphoth Counter decreased with a very low probability.</specialTip>
+      <specialTip openLevel="2" key="2">When the Attachment work result was Good, the Qliphoth Counter decreased with a very low probability.</specialTip>
+      <specialTip openLevel="3" key="3">When Repression work was committed, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="4" key="4">When Qliphoth counter of $0 reached zero, she attacked the staff in the containment chamber and attempted to escape. However, regardless of the employee's victory or defeat, $0 did not escape from her chamber.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

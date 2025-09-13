@@ -1,0 +1,258 @@
+
+LongBirdWeapon.png
+size: 2328,529
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+-1
+  rotate: true
+  xy: 2, 11
+  size: 516, 1437
+  orig: 1620, 2160
+  offset: 516, 343
+  index: -1
+Body
+  rotate: false
+  xy: 1794, 271
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 1924, 271
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 2028, 13
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 2054, 271
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 1441, 2
+  size: 139, 42
+  orig: 256, 128
+  offset: 58, 40
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 22, 3
+  size: 118, 6
+  orig: 256, 128
+  offset: 65, 61
+  index: -1
+HairBack
+  rotate: false
+  xy: 1565, 240
+  size: 227, 287
+  orig: 256, 512
+  offset: 14, 113
+  index: -1
+HairFront
+  rotate: false
+  xy: 1772, 6
+  size: 254, 232
+  orig: 256, 256
+  offset: 2, 8
+  index: -1
+Head
+  rotate: true
+  xy: 1565, 47
+  size: 191, 205
+  orig: 256, 256
+  offset: 35, 27
+  index: -1
+L arm 1
+  rotate: false
+  xy: 2278, 240
+  size: 48, 88
+  orig: 128, 128
+  offset: 37, 20
+  index: -1
+L arm 2
+  rotate: true
+  xy: 2158, 198
+  size: 59, 90
+  orig: 128, 128
+  offset: 32, 20
+  index: -1
+L hand
+  rotate: false
+  xy: 1582, 2
+  size: 49, 43
+  orig: 64, 64
+  offset: 7, 11
+  index: -1
+L leg 1
+  rotate: true
+  xy: 2184, 330
+  size: 51, 94
+  orig: 128, 128
+  offset: 40, 13
+  index: -1
+L leg 2
+  rotate: false
+  xy: 2158, 7
+  size: 50, 79
+  orig: 128, 128
+  offset: 39, 29
+  index: -1
+Mouth
+  rotate: false
+  xy: 2, 2
+  size: 18, 7
+  orig: 128, 128
+  offset: 56, 59
+  index: -1
+Note
+  rotate: false
+  xy: 2184, 436
+  size: 106, 91
+  orig: 256, 256
+  offset: 69, 76
+  index: -1
+R arm 1
+  rotate: true
+  xy: 2158, 88
+  size: 48, 88
+  orig: 128, 128
+  offset: 40, 21
+  index: -1
+R arm 2
+  rotate: true
+  xy: 2158, 138
+  size: 58, 90
+  orig: 128, 128
+  offset: 35, 19
+  index: -1
+R hand
+  rotate: false
+  xy: 2282, 384
+  size: 44, 50
+  orig: 64, 64
+  offset: 10, 8
+  index: -1
+R leg 1
+  rotate: true
+  xy: 2184, 383
+  size: 51, 96
+  orig: 128, 128
+  offset: 35, 8
+  index: -1
+R leg 2
+  rotate: true
+  xy: 2250, 182
+  size: 56, 70
+  orig: 128, 128
+  offset: 35, 30
+  index: -1
+Weapon_Fist_Left
+  rotate: true
+  xy: 2184, 259
+  size: 69, 92
+  orig: 256, 256
+  offset: 93, 135
+  index: -1
+Weapon_GreatSword
+  rotate: true
+  xy: 1441, 46
+  size: 481, 122
+  orig: 481, 122
+  offset: 0, 0
+  index: -1
+레이어 3
+  rotate: false
+  xy: 1654, 2
+  size: 14, 20
+  orig: 16, 22
+  offset: 1, 1
+  index: -1
+레이어 31
+  rotate: false
+  xy: 1794, 246
+  size: 21, 23
+  orig: 23, 25
+  offset: 1, 1
+  index: -1
+레이어 4
+  rotate: false
+  xy: 1867, 251
+  size: 13, 18
+  orig: 15, 20
+  offset: 1, 1
+  index: -1
+레이어 41
+  rotate: true
+  xy: 2248, 75
+  size: 51, 52
+  orig: 133, 54
+  offset: 1, 1
+  index: -1
+레이어 411
+  rotate: false
+  xy: 2250, 128
+  size: 56, 52
+  orig: 133, 54
+  offset: 76, 1
+  index: -1
+레이어 5
+  rotate: false
+  xy: 1882, 251
+  size: 13, 18
+  orig: 15, 20
+  offset: 1, 1
+  index: -1
+레이어 51
+  rotate: false
+  xy: 1633, 24
+  size: 130, 21
+  orig: 132, 23
+  offset: 1, 1
+  index: -1
+레이어 511
+  rotate: false
+  xy: 1817, 251
+  size: 48, 18
+  orig: 132, 23
+  offset: 1, 1
+  index: -1
+레이어 5111
+  rotate: false
+  xy: 1670, 3
+  size: 54, 19
+  orig: 132, 23
+  offset: 77, 3
+  index: -1
+레이어 6
+  rotate: false
+  xy: 1726, 3
+  size: 15, 19
+  orig: 17, 21
+  offset: 1, 1
+  index: -1
+레이어 61
+  rotate: true
+  xy: 1633, 2
+  size: 20, 19
+  orig: 22, 21
+  offset: 1, 1
+  index: -1
+레이어 7
+  rotate: false
+  xy: 1743, 3
+  size: 14, 19
+  orig: 17, 21
+  offset: 2, 1
+  index: -1

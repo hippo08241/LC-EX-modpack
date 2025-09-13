@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122223">
+    <narration action="move">
+      職員 #0 が作業を始めに $0の収容室に向かいました.
+    </narration>
+    <narration action="start">
+      [
+      {$0は今日も夫-オベロンを探しています.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {小さな光が #0 職員の頭上をぐるぐると回ります.},
+      {$0は #0 職員が夫ではないかと疑っています.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {職員 #0 の口から芳香剤のにおいがします.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-34</codeNo>
+      <portrait openLevel ="1">Custom/Titania</portrait>
+
+      <name openLevel ="1">
+       ティターニア
+      </name>
+
+      <riskLevel openLevel ="1">
+        ALEPH
+      </riskLevel>
+      <openText>“花に生まれ変わるだろう。”</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {夫に子を奪われた女王。 当然、幻想体に夫は存在しない。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {水と日差し、それ以前に彼女には子供がいて、「夫-オベロン」がいた。 女王が子供たちを盗む夫を探すと、子供たちが消える。 しかしオベロンはいないので-見たことがないので-目がくらんでいたので、女王は彼を目の前にしても気づかない。 ただ静かに聞くだけだ.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {“あなたですか、オベロン？ 私の目に毒草汁を塗っていたあなたで合っていますか？”}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {花は種があるからこそ咲く。
+種がなければそれは花ではない。 間違った何かに過ぎない。}
+      ]
+    </desc>
+    
+     <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">$0の作業結果が良いとき、クリフォトカウンターが増加した。</specialTip>
+      <specialTip openLevel="2" key="2">$0の作業結果が悪いとき、クリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="3" key="3">自制ランクが4以下のの職員が作業を始めると、当該職員が花へと変化した。</specialTip>
+      <specialTip openLevel="4" key="4">$0はオベロンを探すため不規則に妖精を送り出した。 妖精によって職員が死亡した時、$0のクリフォトカウンターが2減少した。 妖精によって死亡した職員の死体は花になり、花はしばらくして妖精になった。 （妖精によって死亡した職員たちは該当ログが生成されなかった。)&#13;&#10;$0への作業が終わった後、40秒間は妖精を送り出さなかった。</specialTip>
+      <specialTip openLevel="5" key="5">アルト職員に妖精がついた時、強いRedあるいはWHITE被害を与えると妖精は隔離室に戻った。</specialTip>
+      <specialTip openLevel="6" key="6">$0の攻撃を受けたランク3以下の職員は巨大な花となった。</specialTip>
+      <specialTip openLevel="7" key="7">$0が他の幻想体に初めて遭遇した時、該当幻想体を「オベロン」と見なした。 この時、$0は初めて遭遇した幻想体に同化した。 同化した幻想体が制圧されると、$0は隔離室に戻った。</specialTip>
+     </specialTipSize>
+  </observe>
+
+  <child>
+    <name>妖精</name>
+    <codeId>O-03-34-1</codeId>
+  </child>
+  
+</creature>

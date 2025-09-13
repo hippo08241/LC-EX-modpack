@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+<creature name="DoomsdayCalendar" src="DoomsdayCalendar" id="156514">
+    <stat>DoomsdayCalendar_stat</stat>
+  </creature>
+</creature_list>

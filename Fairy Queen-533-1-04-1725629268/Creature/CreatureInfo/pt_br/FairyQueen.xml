@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="191987">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar a trabalhar.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 parece pacífica, com três fadas aparecendo e desaparecendo ao seu redor.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {"Preciso de algo fresco..." A voz de $0 está fraca.},
+      {"Estou com fome há tanto tempo que mal consigo resistir a mim mesmo..."},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 se inclina sobre #0. "Venha até mim... É hora de pagar pelos meus cuidados..."},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-83-01</codeNo>
+      <portrait openLevel ="1">Custom/FairyQueen</portrait>
+
+      <name openLevel ="1">
+        Rainha das Fadas
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>Eu lhe darei o prazer de receber meus cuidados...&#13;&#10;Sente-se quieto e seja gentil...</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Há muito, muito tempo, as fadas fundaram um reino. Lá, todas as fadas seriam cuidadas por sua rainha. As fadas cercaram sua rainha, oferecendo-lhe canções e iguarias em sua homenagem.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {No entanto, uma fome mudou tudo isso. Restaram poucas fadas no reino, e as que permaneceram não tinham mais comida para oferecer à sua rainha.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {A comida tornou-se cada vez mais escassa, e a rainha definhava dia após dia... Ela não conseguia mais suportar a fome. Então, ela voltou sua atenção para seus leais companheiros...}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {O número de fadas diminui a cada dia, mas a rainha ainda se importa com elas. Não por amor aos seus súditos, no entanto. Em vez disso, ela se importa com elas para preservar a carne...}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {"Eu lhe darei o prazer de receber meus cuidados...&#13;&#10;Sente-se quieto e seja gentil..."}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">Com o tempo, $0 ganhará acúmulos de fome, com sua velocidade de movimento e dano de ataque aumentando em 5% para cada acúmulo de fome. Quando $0 tiver 10 acúmulos de fome, o Qliphoth Counter diminuirá para 0.</specialTip>
+      <specialTip openLevel="1" key="1">Após completar o trabalho Instinct em $0, ela perderá pilhas de fome com base no resultado. Funcionários que completarem qualquer trabalho em $0 recuperarão PV por um período de tempo e serão rotulados como "Carne Preparada".</specialTip>
+      <specialTip openLevel="2" key="2">Quando a Carne Preparada trabalha em $0 mais de duas vezes, ela será consumida e as pilhas de fome cairão para 0. Se a Carne Preparada morrer de qualquer outra maneira, o Contador Qliphoth cairá para 0.</specialTip>
+      <specialTip openLevel="3" key="3">Após escapar, três Massa de Fadas começarão a seguir $0. $0 recuperará PV constantemente enquanto estiverem por perto.</specialTip>
+      <specialTip openLevel="4" key="4">Para cada 30% de PV perdido, $0 comerá uma Massa de Fadas, o que zerará suas pilhas de fome e a enfraquecerá por um período de tempo. Quando não houver Massa de Fadas presente, $0 ficará enfurecida.</specialTip>
+
+    </specialTipSize>
+  </observe>
+   <child>
+    <name>Massa de Fadas</name>
+    <codeId>F-04-83-01-1</codeId>
+  </child>
+</creature>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="460068" type="special"> 
+    <name>WarmMother_gift_name</name>
+    <desc>WarmMother_gift_desc</desc> 
+    <attachPos>body_up</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-4</hp>
+	  <mental>5</mental>
+	<workProb>2</workProb>
+    </bonus>
+    <sprite>ribborn_0_460068</sprite>
+  </equipment>
+  
+    <equipment id="360068" type="armor">
+    <name>WarmMother_weapon_name</name>
+    <no>WarmMother_armor_no</no>
+    <desc>WarmMother_armor_desc</desc>
+
+    <armorId>360068</armorId>
+    <defense>
+      <defenseElement type="R">1.5</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+  
+</equipment_list>

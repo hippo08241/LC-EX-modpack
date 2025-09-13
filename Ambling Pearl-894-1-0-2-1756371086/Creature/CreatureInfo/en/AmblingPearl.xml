@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="165880">
+
+
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {Stench emanates from $0.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 feels sick.},
+      {There is a constant flow of filth flowing from $0.}
+
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {The smell can cause weaker willed individuals to throw up on the spot.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0 doesn't just spew out filth, you know.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-02-21-11</codeNo>
+      <portrait openLevel ="1">Custom/AmblingPearl</portrait>
+
+      <name openLevel ="1">
+        Ambling Pearl
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>That shell... that damned shell...!
+What comes out of there....</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Record 1: O-02-21-11
+Recorder: Colored Staff
+
+~Start Recording~.
+
+Colored Staff: Work order to O-02-21-11... I'm on my way.
+
+~Colored staff member enters the housing room and attempts to start work~.
+
+Colored Staff: Ugh...I think I'm going to throw up...it stinks like hell.... Let's finish the work as soon as possible...
+
+～Colored Staff proceeds with the work...
+
+Colored Staff: Why does it smell so... bad...? Is the substance coming out of there bad?
+
+～Colored Staff vomits...
+
+Colored Staff: That's not just a bunch of filth! That's... there's a lot of ■■ in that ■■■■■!}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Record 2: O-02-21-11
+
+From Record 1, we found the cause of the foul odor from the O-02-21-11 housing unit.
+It is caused by the substance being produced from O-02-21-11.
+That was....I don't want to record any more of this.
+If you are going to work on O-02-21-11, please work with personnel of high mental capacity.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Note: We have done additional research on the produced substance.
+Substances seem to increase or decrease depending on the results of the work.
+However, as much as possible, please keep the amount of produced substance level, because if the amount of substances increases or decreases too much, the Abnormality will grow volitile.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Record 3: O-02-21-11
+Recorder: Ten Staffer
+
+The following is a record of the escape of O-02-21-11
+
+Announcement: O-02-21-11 has escaped. The instructed personnel should proceed to suppress O-02-21-11.
+
+Ten Staffer: Damn! Why is that smell so potent? I'm not even at O-02-21-11 yet!
+
+～Ten Staffer looks around~
+
+Ten Staffer: What is it? Wait... This green slime... is this the cause of the stench? We can't focus with this stuff around, so lets destroy it on the way!
+
+～Just as the Ten Staffer is about to destroy the substance, O-02-21-11 entered the area.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Ten Staffer: What? Is it trying to eat this stuff? That can't be good... I'd better destroy it before it gets the chance.
+
+～Ten Staffer interupts the Abnormality, and is successful in destroying the substance.
+
+Ten Staffer: Ugh, this things surprisingly nimble... Eh? What's happening now?
+
+～At the same time, the same substance was confirmed to have been destroyed at another location.
+
+Ten Staffer: It popped open... Well, its easier to hit like this. I guess I'll aim for that shining pearl there.
+
+~ Successful suppression of O-02-21-11 ~.
+
+Based on the above record, if O-02-21-11 has escaped, destroy the material that appeared, and if O-02-21-11 has opened, aim for the pearl.
+Note: Do not allow O-02-21-11 to take in the substance.}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">At the beginning of the day, $0 owned 5 green mucus.
+$0 could acquire up to 20 green mucus.</specialTip>
+      <specialTip openLevel="2" key="2">At the end of the work, the staff member who was doing the work received WHITE damage.
+Also, if the work result was good, the Qliphoth Counter decreased and $0 gained 3 green mucus.</specialTip>
+      <specialTip openLevel="3" key="3">If the work result was bad, the Qliphoth Counter increased and $0 lost 3 green mucus.</specialTip>
+      <specialTip openLevel="4" key="4">When the green mucus count reached 10 or more, or was lowered to 0, $0's Qliphoth Counter lowered to 0.
+During the breakout, $0 fixed the amount of green mucus it possesed to 10, and three green slime appeared in the facility.
+The green slime took vastly increased damage when attacked by $0.</specialTip>
+      <specialTip openLevel="5" key="5">If a green slime was defeated by a staff member, $0's green mucus count was reduced by 3. If $0 was suppressed by a staff member, $0's green mucus was increased by 3.
+Also, when a green slime was destroyed, a new green slime appeared somewhere in the facility.</specialTip>
+      <specialTip openLevel="6" key="6">During the escape, if $0's green mucus was reduced to 0, $0 stopped moving and $0's resistances were greatly weakened.
+However, after 30 seconds had passed in this state, $0 gained 10 green mucus and its resistances were restored.</specialTip>
+   </specialTipSize>
+
+  </observe>
+
+  <child>
+    <name>Green Slime</name>
+    <codeId>O-02-21-11</codeId>
+  </child>
+
+</creature>

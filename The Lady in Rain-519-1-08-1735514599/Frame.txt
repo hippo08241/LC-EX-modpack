@@ -1,0 +1,3 @@
+Object reference not set to an instance of an object
+  at CreatureBase.get_currentPassage () [0x00000] in <filename unknown>:0 
+  at GirlInRain.GirlInRain.MakeFramedPassage () [0x00000] in <filename unknown>:0 

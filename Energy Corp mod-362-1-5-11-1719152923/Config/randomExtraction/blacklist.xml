@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blacklistConfig>
+ <useBlacklist>false</useBlacklist>
+ <blacklist>
+Qquickness_EnergyCo
+ </blacklist>
+</blacklistConfig>

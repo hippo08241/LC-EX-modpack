@@ -1,0 +1,223 @@
+
+5.png
+size: 1396,955
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: true
+  xy: 2, 262
+  size: 679, 1000
+  orig: 679, 1000
+  offset: 0, 0
+  index: -1
+BIOOD
+  rotate: true
+  xy: 1004, 429
+  size: 512, 376
+  orig: 512, 376
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 731, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: true
+  xy: 220, 3
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 350, 3
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 480, 3
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 610, 3
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 1264, 363
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+Firebird_Good_0
+  rotate: true
+  xy: 132, 4
+  size: 256, 86
+  orig: 256, 86
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: false
+  xy: 2, 4
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 740, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 861, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Head--p
+  rotate: false
+  xy: 870, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 1264, 297
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 1330, 297
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 1004, 265
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 1251, 231
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 1317, 231
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 1251, 165
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Note
+  rotate: false
+  xy: 991, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 1317, 165
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 1130, 103
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 1038, 265
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 1130, 37
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 1196, 99
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+XX_00002
+  rotate: false
+  xy: 1000, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+XX_00003
+  rotate: false
+  xy: 1004, 299
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+XX_00004
+  rotate: false
+  xy: 1121, 169
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+duswrd_02
+  rotate: false
+  xy: 1134, 299
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+enemy_white_04
+  rotate: false
+  xy: 1196, 33
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+skeleton
+  rotate: true
+  xy: 220, 69
+  size: 191, 509
+  orig: 191, 509
+  offset: 0, 0
+  index: -1

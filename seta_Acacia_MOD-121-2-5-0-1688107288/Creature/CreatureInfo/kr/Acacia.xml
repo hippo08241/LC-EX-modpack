@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101103">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+    <narration action="start">
+      [
+      {$0는 사랑의 반짝임이라던가 선행의 기쁨을 기억하고 있지만, 그런 것을 행하기엔 너무나도 지쳐있습니다.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {악마를 사랑한 대가는 너무나도 참혹했습니다.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {그 무엇이든 맞출 수 있는 탄환은, 그녀 자신만큼은 맞출 수 없었습니다.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0가 목에 건 역십자가는 한 때 올바른 십자가였습니다.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0가 말합니다. "#0, 당신은 신을 믿나요? 부디 믿으시길. 그리고 저처럼 되지 마세요."}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-69-1</codeNo>
+      <portrait openLevel ="1">Custom/Acacia</portrait>
+
+      <name openLevel ="1">
+       마탄의 수녀
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+      <openText>당신은 신을 믿나요?</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {악마가 마침내 바란 것은 절망이었다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {절망은 사람의 마음을 무너뜨려 그 끝에 다다르게 된다. 끝에 다다른 자가 만나는 것은 지옥이라는 이름의 무저갱일 뿐이다. 어느 한 사수가 그러했듯이.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {한 사람이 있었다. 언제나 긍정적이고 밝게 웃는 사람이. 그리고 악마는 그녀의 깊은 곳에서 절망을 보았고, 그런 그녀가 절망에 빠져 허우적대는 모습을 보고 싶어 했다. 그리하여 악마는 마치 인간처럼 사랑을 연기했고, 종국에는 그녀를 진심으로 사랑하게 되었다. 비록 그것을 사랑이라 부를 수 있을지 의문이더라도. 그렇게 악마와 사랑에 빠진 새하얀 아카시아 꽃은 점점 정신이 무너졌고, 결국에는 검게 물들어 악마의 손에 꺾여졌다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {제 손에 쥐어진, 검게 물든 그녀를 보며 만족스러운 듯이 웃은 악마가 꽃에게 속삭였다. 내 무엇이든 맞출 수 있는 탄환을 그대에게 주도록 하지. 그렇게 악마와 거래하여 얻은 탄환으로 그녀는 제 머리를 쐈으나, 거래의 대가로 그녀는 이미 지옥에 떨어져 악마가 된 후였다. 이에 영원히 죽을 수 없게 된 그녀는 지옥을 떠돌아다니며 자신과 같은 이가 나오지 않도록 신의 믿음을 전하고 있다. 자신을 나락으로 떨어뜨린 악마와 함께. 영원히.}
+      ]
+    </desc>
+
+    
+    
+  <specialTipSize size="2">
+      <specialTip openLevel="1" key="1">해당 환상체가 존재할 경우 F-01-69의 의뢰 작업 비용이 절반으로 감소하였다.</specialTip>
+      <specialTip openLevel="1" key="2">정의 3등급 미만의 직원이 작업을 진행하자 작업 완료시 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="1" key="3">작업 결과가 나쁨일 때 높은 확률로 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="1" key="4">F-01-69 환상체가 시설 내에 있을 경우, $0의 클리포트 카운터가 0이 되자 F-01-69 환상체가 시설 어딘가를 향해 스스로 탄환을 발사하였다.</specialTip>
+  </specialTipSize>
+
+  </observe>
+</creature>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Gout_equip_name">Prickly Crystals</text>
+
+<!--Weapon-->
+<text id="Gout_weapon_desc">Employees are, naturally, pretty upset when they are given this weapon to use. It sticks to the hands of those who use it...</text>
+<text id="GoutWeaponSpecial_desc">10% chance to inflict 10 seconds of gout on struck targets.
+Every attack the employee makes causes slight Red and White damage to the equipped employee.</text>
+
+</localize>

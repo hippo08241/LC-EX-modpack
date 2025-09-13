@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>사무직 강화 모드</name>
+<descs>
+<desc>사무직들의 성능이 증가하였습니다.</desc>
+<desc/>
+<desc>사무직 공포 저항 연구 Before > After</desc>
+<desc>직원 공포 저항 등급: II > IV</desc>
+<desc/>
+<desc>사무직 강화 연구 Before > After</desc>
+<desc>체력, 정신력: 20~25 > 65 ~ 70</desc>
+<desc>방어 계수: RW 1.0 B 1.5 P 2.0 > RW 0.5 B 0.75 P 1.0</desc>
+<desc>방어구 등급: ZAYIN > ZAYIN </desc>
+<desc>권총 공격력: 3~5 > 4~8</desc>
+<desc>권총 등급: TETH > WAW</desc>
+</descs>
+</info>

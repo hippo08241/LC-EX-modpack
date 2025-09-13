@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="DingleDangle_weapon_name">悬吊者</text>
+  <text id="DingleDangle_weapon_desc">一起成为果实吧。一同悬挂摇摆吧。</text>
+  <text id="DingleDangle_armor_desc">你们的绝望，悲伤……让一切一起垂下。</text>
+  <text id="DingleDangle_gift_desc">最大精神值+6 成功率-4 工作速度-4</text>
+</localize>

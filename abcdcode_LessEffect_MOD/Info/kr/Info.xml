@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>이펙트 간소화 모드</name>
+<descs>
+<desc>상당수의 이펙트를 제거해 렉을 줄이는 모드</desc>
+<desc>복도에 피가 튀지 않으며, 카메라을 줌아웃하면 이펙트가 보이지 않게 된다.</desc>
+</descs>
+</info>

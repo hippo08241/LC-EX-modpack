@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="TearsBottle_weapon_name">눈알파개</text>
+  <text id="TearsBottle_weapon_desc">할 수 있는 일이라곤 한쪽으로 누워 한 눈으로 문 안을 들여다보는 것이 고작이었다. 그래서 그 곳을 지나가는 일은 엄두도 내지 못하게 되었다. 그녀는 주저 앉아 다시 울기 시작하였다.“이렇게 울다니. 뚝! 그치라고 말했다!” 하지만 그 땐 이미 흘린 눈물이 방안에 가득 차서 큰 웅덩이가 되어 버렸다.</text>
+  <text id="TearsBottle_weapon_specialDesc">E.G.O GIFT가 있다면 피해량 4 증가</text>
+  <text id="TearsBottle_gift_Desc">정신력+8</text>
+  <text id="Titania_weapon_name">한여름</text>
+  <text id="Titania_weapon_desc">“당신의 고통을 거둬드리겠습니다. 꽃으로 환생해주세요.”</text>
+  <text id="Titania_weapon_specialDesc">요정들의 피해량 증가 +1&#13;&#10;직원을 처치했을 때 요정의 수 +1</text>
+  <text id="Titania_armor_desc">“오베론…당신인가요? 제가 사무치게 그리워하는 오베론이 맞나요?”</text>
+  <text id="Titania_armor_specialDesc">몸 주위에 요정들이 생기고 단일 대상을 공격할 때마다 요정들이 추가로 피해를 입힘</text>
+  <text id="Titania_gift_Desc">이동 속도 +6 공격 속도 +6</text>
+</localize>

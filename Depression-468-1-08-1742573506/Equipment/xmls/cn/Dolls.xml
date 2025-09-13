@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="Depression_Weapon_Name">千疮百孔</text>
+  <text id="Depression_Armor_Desc">这件护甲可以抵御所有精神攻击······但愿如此。</text>
+  <text id="Depression_Armor_spDesc">受到的所有伤害全部转换为精神伤害，受到两百次精神伤害时死亡。</text>
+  <text id="Depression_Weapon_Name">割腕</text>
+  <text id="Depression_Weapon_desc">割腕用的刀······很锋利，请对着自己的动脉，划下去</text>
+  <text id="Depression_Weapon_spDesc">攻击时对自己造成3点精神伤害</text>
+</localize>

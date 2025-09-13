@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="sha_name">莎莎</text>
+  <text id="wonderlab_2_dialog_1">……听得见吗？</text>
+  <text id="wonderlab_2_dialog_2">您好，我是莎莎，O-5681支部的惩戒部部长。</text>
+  <text id="wonderlab_2_dialog_3">您可能已经体验过，亚种的管理方法和本部的异想体类似，但也有所不同。</text>
+  <text id="wonderlab_2_dialog_4">因此，建议您对所有员工进行异想体亚种管理的培训，以及相应的E.G.O设备管理。</text>
+  <text id="wonderlab_2_dialog_5">完毕。</text>
+  <text id="wonderlab_2_dialog_angelica">（与O-5681的支部通话中断）</text>
+
+  <text id="wonderlab_2_dialog_6">O-5681支部不仅负责管理异想体，同时还管理异想体的亚种。</text>
+  <text id="wonderlab_2_dialog_7">虽然这家支部的主管去世显得出乎意料，但他们的工作能力毋庸置疑。</text>
+  <text id="wonderlab_2_dialog_8">因此，我建议从O-5681支部中挑选一些员工。</text>
+
+  <text id="wonderlab_2_selection_1">质疑</text>
+  <text id="wonderlab_2_selection_2">允许</text>
+
+  <text id="wonderlab_2_dialog_9">这是为了公司的繁荣。</text>
+  <text id="wonderlab_2_dialog_10">将高效的人力资源安排在合适的地方，这就是我被称为最佳AI的原因。</text>
+  <text id="wonderlab_2_dialog_11">虽然在主管面前说这种话显得有些奇怪。</text>
+  <text id="wonderlab_2_dialog_12">如果您仍然怀疑我的决定，我会确保为访客设立一个通信系统。</text>
+
+  <text id="wonderlab_2_dialog_13">他们以前的主管失败了，但如果是您的话，应当能够充分利用他们。</text>
+  <text id="wonderlab_2_dialog_14">将高效的人力资源安排在合适的地方，这就是我被称为最佳AI的原因。</text>
+  <text id="wonderlab_2_dialog_15">我将一如既往地协助您，因为我是最好的AI。</text>
+  <text id="wonderlab_2_dialog_16">当然，如果您感到负担，随时可以拒绝。</text>
+  <text id="wonderlab_2_dialog_17">一如既往，决定权在您，主管。</text>
+</localize>

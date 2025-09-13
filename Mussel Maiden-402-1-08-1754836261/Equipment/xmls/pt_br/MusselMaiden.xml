@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="MusselMaiden_Name">Coração de Marisco</text>
+<text id="MusselMaiden_Weapon_SpecialDesc">Ao atacar, se a resistência mais fraca do alvo for VERMELHA, a velocidade de ataque do funcionário aumenta drasticamente.</text>
+<text id="MusselMaiden_Weapon_Desc">A arma parece ter sido feita apenas com seda azul e conchas de moluscos.&#10;Por que os moluscos tornam suas conchas tão duras?</text>
+<text id="MusselMaiden_Armor_SpecialDesc">No início do dia de trabalho, os funcionários do mesmo departamento do portador ganham um escudo de resistência total de 10% de seu HP máximo..</text>
+<text id="MusselMaiden_Armor_Desc">Armadura que parece feita de conchas duras de moluscos.&#10;O que há por baixo da casca endurecida?</text>
+<text id="MusselMaiden_Gift_Desc">PV+4, PS+3&#10;Do que são feitas essas lindas pérolas?</text>
+</localize>

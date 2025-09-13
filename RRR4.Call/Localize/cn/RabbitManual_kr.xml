@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>
+  <!--UI-->
+  <text id="Rabbit_Manual_Title">- R公司第4集团军使用说明书 -</text>
+  <text id="Rabbit_Manual_Day">1. 每天可以呼叫1次R公司第4集团军。</text>
+  <text id="Rabbit_Manual_MaxSefira">2. 至多可以在4个部门部署R公司第4集团军。</text>
+  <text id="Rabbit_Manual_MaxCount">3. 至多32只兔子、32只驯鹿以及16只犀牛将响应呼叫。</text>
+  <text id="Rabbit_Manual_Cost">4. 每部署一个部门，您将支付当前能量的25%。如果您同时呼叫了三个团队，您将支付当前能量的30%。</text>
+  <text id="Rabbit_Manual_Command">5. 在R公司第4集团军被部署的部门中，不是主管而是第4集团军本身拥有所有的指挥权。</text>
+  <text id="Rabbit_Manual_Clear">6. 被部署的部门内的所有敌对单位被消灭时，R公司第4集团军将自行撤离。</text>
+  <text id="Rabbit_Manual_Panic">- 第4集团军被部署的部门将被立即封锁，且其中的员工将立即陷入恐慌。</text>
+</localize>

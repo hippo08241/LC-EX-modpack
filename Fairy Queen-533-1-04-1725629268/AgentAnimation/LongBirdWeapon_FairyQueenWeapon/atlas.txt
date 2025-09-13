@@ -1,0 +1,244 @@
+
+1.png
+size: 4246,1031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: true
+  xy: 2845, 36
+  size: 157, 273
+  orig: 157, 273
+  offset: 0, 0
+  index: -1
+128
+  rotate: true
+  xy: 3242, 210
+  size: 316, 343
+  orig: 316, 343
+  offset: 0, 0
+  index: -1
+22
+  rotate: true
+  xy: 2538, 61
+  size: 132, 305
+  orig: 132, 305
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 3893, 350
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 4053, 92
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 3242, 80
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 3500, 14
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+EGO_Fairy_Default
+  rotate: false
+  xy: 3064, 528
+  size: 535, 501
+  orig: 535, 501
+  offset: 0, 0
+  index: -1
+EGO_Fairy_S3
+  rotate: true
+  xy: 2052, 2
+  size: 375, 484
+  orig: 375, 484
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 2538, 14
+  size: 140, 45
+  orig: 140, 45
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 3064, 517
+  size: 118, 9
+  orig: 118, 9
+  offset: 0, 0
+  index: -1
+Fairy
+  rotate: true
+  xy: 2, 5
+  size: 1024, 2048
+  orig: 1024, 2048
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: true
+  xy: 3601, 379
+  size: 227, 290
+  orig: 227, 290
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 3587, 144
+  size: 255, 233
+  orig: 255, 233
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 3844, 156
+  size: 192, 207
+  orig: 192, 207
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 3813, 53
+  size: 50, 89
+  orig: 50, 89
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 4151, 421
+  size: 60, 91
+  orig: 60, 91
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: true
+  xy: 4198, 370
+  size: 49, 46
+  orig: 49, 46
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: true
+  xy: 2680, 6
+  size: 53, 95
+  orig: 53, 95
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 3916, 73
+  size: 52, 81
+  orig: 52, 81
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 2538, 359
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+Note
+  rotate: true
+  xy: 4152, 576
+  size: 107, 92
+  orig: 107, 92
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 3865, 65
+  size: 49, 89
+  orig: 49, 89
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: true
+  xy: 4151, 514
+  size: 60, 93
+  orig: 60, 93
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 4151, 368
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 3758, 43
+  size: 53, 99
+  orig: 53, 99
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: true
+  xy: 3120, 38
+  size: 57, 73
+  orig: 57, 73
+  offset: 0, 0
+  index: -1
+S1
+  rotate: false
+  xy: 2550, 195
+  size: 690, 295
+  orig: 690, 295
+  offset: 0, 0
+  index: -1
+S2
+  rotate: false
+  xy: 2052, 379
+  size: 496, 650
+  orig: 496, 650
+  offset: 0, 0
+  index: -1
+S3
+  rotate: true
+  xy: 3601, 608
+  size: 421, 549
+  orig: 421, 549
+  offset: 0, 0
+  index: -1
+S4
+  rotate: true
+  xy: 4152, 685
+  size: 344, 82
+  orig: 344, 82
+  offset: 0, 0
+  index: -1
+S5
+  rotate: false
+  xy: 2550, 492
+  size: 512, 537
+  orig: 512, 537
+  offset: 0, 0
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 3120, 97
+  size: 71, 96
+  orig: 71, 96
+  offset: 0, 0
+  index: -1
+char_ling_05
+  rotate: false
+  xy: 3500, 144
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

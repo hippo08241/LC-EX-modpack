@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ReddenedBuddy_equip_name">Прятки</text>
+<text id="ReddenedBuddy_weapon_desc">“Прошу, позови меня снова... Я буду ждать тебя, как всегда...”</text>
+<text id="ReddenedBuddy_weapon_specialDesc">Очень медленная скорость атаки. Во время замаха сотрудник получает сниженный КРАСНЫЙ урон.</text>
+<text id="ReddenedBuddy_armor_desc">“Сердце моё для моего хозяина... В конце остались лишь кровавые шрамы.”</text>
+<text id="ReddenedBuddy_gift_desc">HP +6.</text>
+</localize>

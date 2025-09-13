@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="161464">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar a trabalhar.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {O que nos espera do outro lado do $0?},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Considere se #0 pode subir o $0.},
+      {O que teria acontecido com o funcionário que atingiu o topo do $0?},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Existe um pico de $0 para começar?},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-16</codeNo>
+      <portrait openLevel ="1">Custom/JackLessTree</portrait>
+
+      <name openLevel ="1">
+        Pé de Feijão sem o João
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAIYN
+      </riskLevel>
+
+      <openText>Pode parecer uma história maluca, mas ouvi dizer que havia um funcionário aqui que estava determinado a subir na árvore até o topo. &#13;&#10;e assim ele fez...</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Gravação.
+F-03-16 é um grande pé de feijão.
+Parece ter uma conexão com o conto de fadas 'João e o Pé de Feijão''.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Um dos funcionários, curioso sobre o F-03-16, decidiu escalá-lo.
+E assim eles fizeram. Subindo e subindo e subindo e subindo...}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Esse funcionário não foi encontrado até hoje.
+Outros membros da equipe tentaram subir no F-03-16, mas nunca desapareceram.
+Suspeitamos que seja devido a uma diferença de habilidade e atributos dos funcionários.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Pode parecer uma história maluca, mas ouvi dizer que havia um funcionário aqui que estava determinado a subir na árvore até o topo. &#13;&#10;e assim ele fez...#13;&#10;Se existe mesmo um "topo" no pé de feijão, ele provavelmente está morando lá, eu acho.
+}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Ao subir novamente, podemos receber um presente de 500 anos atrás. Pelo menos, é assim que os rumores vão. Na verdade, pode não haver nada. Então é assim.}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">No final do trabalho do Instinto, se os resultados do trabalho fossem bons, o funcionário que trabalhava nele recebia um presente.</specialTip>
+      <specialTip openLevel="1" key="1">No final do trabalho Instinto, se os resultados do trabalho fossem ruins, o funcionário que estava trabalhando nele morria.</specialTip>
+      <specialTip openLevel="2" key="2">No final do trabalho do Prudencia, a quantidade de PE-Boxes produzidas aumentou.</specialTip>
+      <specialTip openLevel="3" key="3">Ao final do trabalho de Repressão, o funcionário que trabalhava recebeu dano VERMELHO, independentemente dos resultados.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

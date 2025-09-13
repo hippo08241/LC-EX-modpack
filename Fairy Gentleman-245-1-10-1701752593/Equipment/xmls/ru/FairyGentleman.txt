@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyGentleman_weapon_name">Хлюпающий</text>
+<text id="FairyGentleman_gift_name">Волшебное вино</text>
+<text id="FairyGentleman_gift_desc">Шанс успешной работы +3, Скорость работы +3</text>
+<text id="FairyGentleman_armor_desc">Эта Э.П.О.С. броня похожа на Взмах Крыльев, но имеет дополнительное крыло.</text>
+<text id="FairyGentleman_weapon_desc">Соберите силу фей и уничтожьте дух врага.</text>
+</localize>

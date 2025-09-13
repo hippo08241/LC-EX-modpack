@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="JackLessTree_weapon_name">노래하는 하프</text>
+<text id="JackLessTree_weapon_desc">콩나무 덩굴이 휘감긴 소박한 하프다.
+"콩나무야, 자라거라. 나는 다시 저 하늘 위의 세계로 여행을 떠날 것이다."
+이 악기로 연주되는 음악을 가만히 듣고 있으면, 아무리 괴로워하는 사람일지라도 잠시간의 평온을 느낄 수 있다.
+언젠가 다시 저기 우뚝 솟은 콩나무에 오를 수 있는 날이 올 거라고 믿는다.</text>
+<text id="JackLessTree_armor_desc">잭이라는 소년이 입었던 옷이다.
+노인을 만나 신비한 힘을 지닌 콩과 소 한마리를 교환했던 어리석은 소년이었다….
+잭은 어디로 갔을까?</text>
+<text id="JackLessTree_gift_name">500년 전의 선물</text>
+<text id="JackLessTree_gift_desc">체력 +2
+콩나무에 있던 500년 전의 선물</text>
+
+</localize>

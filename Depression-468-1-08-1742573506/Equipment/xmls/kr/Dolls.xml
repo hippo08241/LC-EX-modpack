@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="Depression_Weapon_Name">만신창이</text>
+  <text id="Depression_Armor_Desc">이 옷은 모든 심령의 공격을 보호해 준다… 그러길 바란다.</text>
+  <text id="Depression_Armor_spDesc">받는 모든 피해를 W 피해로 전환. 피해를 200회 받으면, 사망한다.</text>
+  <text id="Depression_Weapon_Name">손목 절단</text>
+  <text id="Depression_Weapon_desc">손목 절단용 칼은… 매우 날카롭다. 자신의 동맥에 대고 긋는다…</text>
+  <text id="Depression_Weapon_spDesc">공격 시 착용자에게 W 속성 피해 3.</text>
+</localize>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="102113">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is getting bored with this work.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {To please the Red Queen is quite a challenge.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {$0 is grading this time's Clown Show.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-02-113</codeNo>
+      <portrait openLevel ="1">Custom/RedQueen</portrait>
+
+      <name openLevel ="1">
+        Red Queen
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>When the roses bloomed in the garden, they prayed for them to be red.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {At the entrance of the garden is a large rose tree. One day, three gardeners were painting the white roses red, when a curious girl approached them.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {The girl carefully asked. "Excuse me, why are you painting those white roses red?"
+Five and Six glanced at each other, and started whispering to her.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {“This is a garden of red roses. But one day, we accidentally planted a white rose tree. If the Queen is to know of this, she'll have all of us executed."}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Just then, a Queen wearing a red heart crown appeared behind Two. "It's her! It's the Queen!"
+The gardener busy with painting the roses started to talk.
+“Your Highness! We've committed an unforgiveable deed! Please, spare u-"
+Before the gardener could finish their sentence, his head was removed from his shoulders. As the white roses were soaked red by the gardener's blood, the Queen spoke. "Aren't the roses alreaady red?"}
+      ]
+    </desc>
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">When the work result was Bad, an axe flew in and beheaded employee Wushaming.</specialTip>
+      <specialTip openLevel="2" key="2">When the same work was committed 3 times in a row, an axe flew in and beheaded employee Ruho.</specialTip>
+      <specialTip openLevel="3" key="3">When an employee with a rank over 3 started work, the Work Success rate increased by a small amount.</specialTip>
+      <specialTip openLevel="4" key="4">When an employee with a rank over 4 started work, the Work Success rate increased.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

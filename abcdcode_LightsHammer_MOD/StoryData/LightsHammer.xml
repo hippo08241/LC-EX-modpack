@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_abcdcode.LightsHammer_100025">
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/LightsHammer_1</speak>
+<speak speaker="angela">custom/LightsHammer_2</speak>
+<speak speaker="angela">custom/LightsHammer_3</speak>
+    <speak>custom/LightsHammer_4</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

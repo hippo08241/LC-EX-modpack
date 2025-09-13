@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="1240714" type="weapon">
+    <name>STARname</name>
+    <desc>STARweaponstory</desc>
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_STAR</specialWeaponAnim>
+    <sprite>DangoCreature_star112</sprite>
+    <animation>Attack_1</animation>
+    <require type="W">4</require>
+    <require type="level">4</require>
+
+    <damage type="W" min="25" max="25">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+
+    <range>30</range>
+    <script>STARRwepon</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>4</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+ <equipment id="123012" type="special"> 
+    <name>STARname</name>
+    <desc>star1desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <sp>5</sp>
+    </bonus>
+    <sprite>star1</sprite>
+  </equipment>
+  
+    <equipment id="1240713" type="armor">
+    <name>STARname</name>
+    <desc>STARdesc</desc>
+
+    <armorId>1240713</armorId>
+    <require type="level">4</require>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+
+
+</equipment_list>

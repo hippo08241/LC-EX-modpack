@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110015">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+   <narration action="mid1">
+      [
+      {家ほど安全なところはありません。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0は今日も自分のつらい一日について話します}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {家では皆が幸せです。}
+      ]
+    </narration>
+
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-223</codeNo>
+      <portrait openLevel ="1">Custom/SweetMyHome</portrait>
+
+      <name openLevel ="1">
+        楽しい我が家
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+
+      <specialName openLevel ="1">
+       스파이더맨 : 홈커밍
+      </specialName>
+      <openText>“誰でも帰りたい所があるものではないですか。”</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {なんとなく親しみを感じさせるピンク色の家だ。
+懐かしい香りがする.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {相談記録 X-XX-52
+カウンセラー:こんにちは ガリア、今日一日はどうでしたか。
+ガリア:いつものように、今日もやはり早く家に帰って休みたい。
+カウンセラー:隠してる恋人でもいるみたいですね。
+ガリア:ふん、馬鹿箱も恋人なら恋人でしょう。 たまったドラマを消化しなきゃいけないの。
+カウンセラー:ハハ、時間を奪ってごめんなさい。 じゃあ、特に悩みはないんですよね？
+ガリア:この素晴らしい職場で首にならないか、という心配がひとつありますね。 そうでなくても、最近は いい話し相手が一つできて。
+カウンセラー:誰なのか言ってもらえますか。
+ガリア:今度、押されたドラマを全部消化したら、そのとき言います。}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {相談記録 X-XX-54
+カウンセラー:ニュースを聞きました ガリア、大丈夫ですか。 今お話できますか。
+ガリア:…家に帰りたい。
+カウンセラー:分かります、ここでは大勢の人が死んでいきます。怖くて、恐ろしくて、逃げたいのが普通です。
+ガリア:私が… 私が人を殺しました。あいつが私を… 私にとって…
+カウンセラー:それは自己防衛だったんです。ガリア。理性的に考えてください。あなたの過ちではない。
+ガリア:…家に帰りたい。
+カウンセラー:……そうですか、睡眠剤と安定剤を同封して差し上げます。 宿所で何日かゆっくり休んでお体にお気をつけてください。 大変なら、いつでも来てください。}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {相談記録日誌 X-XX-55
+ガリアは帰ってこなかった。
+聞くところによると、彼女は隔離施設を抜け出して家と関連した幻想体と同化されたそうだ。
+何がいけないのか, わたしにはわからない 別に知りたくもないし。}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {}
+      ]
+    </desc>
+
+
+
+
+
+      <specialTipSize size="3">
+      <specialTip openLevel="0" key="nope">作業結果が悪いときにクリフォトウンターは減少した.</specialTip>
+      <specialTip openLevel="0" key="nope">自制ランクが2以下の職員が作業を開始した時にクリフォトカウンターが減少した</specialTip>
+      <specialTip openLevel="0" key="nope">クリフォトカウンターが0になると、$0は職員と一体化して腫瘍室から脱走した</specialTip>
+     </specialTipSize>
+
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {무대는 시작 된지 오래고 여기 많은 사람들을 죽게 만든 한 남자가 있다. }
+        {그리고 당신에겐 때마침 총이 들려 있다.  }
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="그를 쏜다" target="1" isAnswer="true"  message="커튼이 열린다." />
+        <node desc="지켜본다." target="2" isAnswer="true" message="커튼이 열린다." />
+        <node desc="다른 사람을 쏜다." target="3" isAnswer="true" message="커튼이 열린다." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {당신은 그를 쏘기로 결심했다. }
+        {비로소 막이 내린다.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {총구가 갈 길을 잃었다. }
+        {무대는 비극으로 끝난다.}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {무대는 희극으로 끝난다.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {“죄를 지은 자가 연극을 구경하다가 무대의 기묘한 표현에 마음 속 깊이 뒤흔들려 그 자리에서 자기의 죄를 고백했다. 연극이야 말로 본심을 들쳐낼 수 있을거야.”}
+        ]
+      </angela>
+    </max>
+
+  </observe>
+
+
+</creature>

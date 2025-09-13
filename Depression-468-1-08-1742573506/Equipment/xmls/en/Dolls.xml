@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="Depression_Weapon_Name">Wreathed in Wounds, all over the body</text>
+  <text id="Depression_Armor_Desc">This protective suit was designed to safeguard the wearer from mental attacks... Time will tell.</text>
+  <text id="Depression_Armor_spDesc">All damage taken while wearing this armor is converted into WHITE damage. When 200 WHITE damage is taken in a day, the wearer dies.</text>
+  <text id="Depression_Weapon_Name">Severed Veins</text>
+  <text id="Depression_Weapon_desc">A knife designed with the sole purpose of slitting one's wrists. The blade is very sharp, you merely need to point it at the artery and cut down.</text>
+  <text id="Depression_Weapon_spDesc">The employee wielding this weapon takes 3 WHITE damage whenever an attack is made.</text>
+</localize>

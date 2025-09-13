@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101118">
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0이 숫자를 셉니다. 하나, 둘, 셋, 넷…}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 직원이 콧노래를 부르며 $0의 머리를 빗어줍니다.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0 직원은 $0의 머리를 묶을지, 땋을지 고민합니다.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {$0은 #0 직원과의 시간을 기억합니다.}
+      ]
+    </narration>
+
+    <narration action="Bald_code_start">
+      [
+      {$0의 표정에서 슬픔이 묻어납니다…}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid1">
+      [
+      {#0 직원은 $0을 위로해 보려고 합니다.}
+      ]
+    </narration>
+    
+    <narration action="Bald_code_mid2">
+      [
+      {$0을 보며 #0 직원은 머리카락이 없어서 겨울에 추울 것 같다고 생각합니다.}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid4">
+      [
+      {특이점으로도 해결이 안 되는 문제가 있다고 #0 직원이 생각합니다.}
+      ]
+    </narration>
+
+    <narration action="Bald_start">
+      [
+      {매끈의 표정에서 슬픔이 묻어납니다…}
+      ]
+    </narration>
+
+    <narration action="Bald_mid1">
+      [
+      {#0 직원은 매끈을 위로해 보려고 합니다.}
+      ]
+    </narration>
+    
+    <narration action="Bald_mid2">
+      [
+      {매끈을 보며 #0 직원은 머리카락이 없어서 겨울에 추울 것 같다고 생각합니다.}
+      ]
+    </narration>
+
+    <narration action="Bald_mid4">
+      [
+      {특이점으로도 해결이 안 되는 문제가 있다고 #0 직원이 생각합니다.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-118</codeNo>
+      <portrait openLevel ="1">Custom/Tangle</portrait>
+
+      <name openLevel ="1">
+        탱글
+      </name>
+      
+      <specialName openLevel ="1">
+        매끈
+      </specialName>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>머리를 내려줘. 이 지옥에서 탈출 할 수 있게.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {찬란한 황금빛 머리칼을 가지고 있는 환상체, 언뜻 보면 공처럼 보인다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {관찰 결과, 탱글은 직원과 함께한 시간을 재는 것이 확인 되었다. 다만 무엇을 위한 시간인지 구체적으로 확인된 바는 없다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {관찰 결과, 탱글은 자신의 머리를 소중히 여기는 것으로 보인다. 정성스레 머리를 빚어줄수록 관리 효율이 높게 나타나는 것을 확인할 수 있었다. 또한 자신을 다정히 여기는 직원에게 우호적인 태도를 보였으며, 반대로 자신과 가까이하지 않거나 행동을 제한하려는 직원에겐 공격적인 태도를 보였다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {관찰 결과, 탱글의 우호적인 태도는 탈출을 위한 공작이었음이 확인되었다. 탱글이 탈출을 부탁한 직원에게 제압당하자 탱글은 처음부터 다시 시간을 재기 시작했다.&#13;&#10;그러나 직원이 탱글의 제압을 실패했을 경우에도 탱글은 끝내 탈출하지 못했다.}
+      ]
+    </desc>
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">본능 작업의 결과가 좋음이자 매우 낮은 확률로 클리포트 카운터가 감소했다.</specialTip>
+      <specialTip openLevel="2" key="2">애착 작업의 결과가 좋음이자 매우 낮은 확률로 클리포트 카운터가 감소했다</specialTip>
+      <specialTip openLevel="3" key="3">억압 작업을 시작하자 $0의 클리포트 카운터가 감소했다.</specialTip>
+      <specialTip openLevel="4" key="4">$0의 클리포트 카운터가 0이 되자 격리실의 직원을 공격해 탈출을 시도했다. 그러나 직원의 승패와는 관계 없이 $0은 이내 탈출하지는 않았다.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

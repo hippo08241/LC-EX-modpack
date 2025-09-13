@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="120001">
+
+    <narration action="move">
+       #0は作業を開始するために「$0」の収容室に向かっています。
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-10-06</codeNo>
+
+      <portrait openLevel ="1">Custom/ToyFactory</portrait>
+
+      <name openLevel ="1">
+        おもちゃ工場
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>奇妙な服装をした人々のグループが格納ボックスから出てきました。 &#13;&#10;彼らは頭にブリキ缶をかぶっており、体はプラスチックです...</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {改造手術が可能な輸送用コンテナです。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {この容器は安全かつ効果的に人体を強化することができます。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {変身後はなぜかプラスチックやブリキなどの素材が混入していたが、手術を受けた人は不快感を訴えなかった。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {あなたは自分の街を愛していますか?&#13;&#10;「愛している」と答えた人は幸運です。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {5回の手術の後、従業員の体は完全に潰されました。 &#13;&#10;ますます完璧になり、内部構造は修復され続けます。彼らは本物の戦闘マシンになります!}
+      ]
+    </desc>
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">このマシンに乗り込んだ従業員はあらゆる能力値を上昇させることができる。</specialTip>
+      <specialTip openLevel="2" key="2">マシンを使用する時間が長いほど、能力値の増加が増加します。</specialTip>
+      <specialTip openLevel="3" key="3">5回使用すると、エージェントは完全に変化します。</specialTip>
+      <specialTip openLevel="4" key="4">おそらく、そのエージェントはもう彼ではなかったのでしょう。&#13;&#10;可能であれば、この工場にこう伝えてください:あなたは自分の街を愛していますか?</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>殴られたいですか？急いで？</name>
+    <codeId>T-04-10-06-A</codeId>
+  </child>
+
+</creature>

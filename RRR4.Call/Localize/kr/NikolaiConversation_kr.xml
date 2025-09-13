@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Nikolai_Captain_Start_0">시끄럽다. 다 닥치고 집중해.</text>
+  <text id="Nikolai_Captain_Start_1">4무리 대원들. 살기 위해 왔으니, 살고자 노력해야겠지?</text>
+  <text id="Nikolai_Captain_Start_2">뒈지고 싶지 않으면 진심으로 임하도록.</text>
+  <text id="Nikolai_Captain_Start_Geburah">…묘. 괜히 흔들리는 일은 없도록.</text>
+  <text id="Nikolai_Captain_Start_Binah">....관리자. 저게 진짜 조율자라면 R사에서 책임을 물 거다. 알고 있겠지?</text>
+  
+  <text id="Nikolai_Captain_Half_0">절반 전멸. 점점 무르익고 있다… 조금만 더 버티도록.</text>
+  <text id="Nikolai_Captain_Half_1">절반 남았다. 주위를 신경 쓸 여유 없는 건 알겠지?</text>
+  <text id="Nikolai_Captain_Half_2">절반 죽었다…정신차리도록</text>
+  <text id="Nikolai_Captain_Half_Geburah">4무리 절반 전멸. 괜히 흔들리는 일은 없도록.</text>
+  <text id="Nikolai_Captain_Half_Binah">이 정도라면 진짜 조율자가 아닐지도 모르겠군. 하지만 방심할 상대는 아니다. 다들 집중하도록.</text>
+
+  <text id="Nikolai_Captain_Almost_0">80%의 대원들이 사망했다. 에너지 공급량만 아니라면 이곳 일은 거들떠도 보고 싶지않군.</text>
+  <text id="Nikolai_Captain_Almost_1">80% 손실. 경계 태세를 풀지 마! 이곳은 외곽과 다를 게 없다!</text>
+  <text id="Nikolai_Captain_Almost_Geburah">80%가 뒈졌어. 까다로운 상대지만 밀어붙일 수 밖에 없다. 전력을 다해 총공격을 개시한다!</text>
+  <text id="Nikolai_Captain_Almost_Binah">...이런 놈을 상대하라 하다니. 열화된 능력을 쓰지만, 조율자와 싸우라 하는 미친 회사는 이곳밖에 없을 거다.</text>
+  
+  <text id="Nikolai_Captain_Eliminated_0">4무리 전멸. 경위서는 나중에 제출하지.</text>
+  <text id="Nikolai_Captain_Eliminated_1">모든대원들이 전멸했다. 임무는 실패했다.</text>
+  <text id="Nikolai_Captain_Eliminated_2">이 정도면 유적탐사 위험도가 더 낮은 수준이군. 전부 다 뒈졌다..</text>
+  <text id="Nikolai_Captain_Eliminated_Geburah">붉은안개라...다시 만날 때는…이렇게 당하지 않을 거다.</text>
+  <text id="Nikolai_Captain_Eliminated_Binah">... L사보다 좋은 조건의 에너지 공급 회사가 없는 걸 감사하게 여겨라. 관리자.</text>
+  
+  <text id="Nikolai_Captain_End_0">임무 완료. 작전 보고서는 나중에 제출하겠다.</text>
+  <text id="Nikolai_Captain_End_1">앞으로도 에너지 공급을 잘 부탁한다 관리자.</text>
+  <text id="Nikolai_Captain_End_2">돌아가서 보고할 게 산더미군…</text>
+  <text id="Nikolai_Captain_End_3">임무완료. 대원들에게 기억 소거 절차를 진행한다.</text>
+  <text id="Nikolai_Captain_End_Geburah">…돌아가도록 하지.</text>
+  <text id="Nikolai_Captain_End_Binah">모의 실험이든간에 조율자와 상대 한 일은 없던 걸로 하겠다. 괜한 일에 말려들게 하지 마라 관리자.</text>
+</localize>

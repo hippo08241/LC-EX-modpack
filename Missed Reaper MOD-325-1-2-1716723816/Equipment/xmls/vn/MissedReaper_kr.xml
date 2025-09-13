@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">Khao khát</text>
+  <text id="MissedReaper_weapon_desc">“Giá như tôi có thể gặp mặt đứa trẻ và nắm lấy tay họ một lần nữa...”</text>
+  <text id="MissedReaper_weapon_specialDesc">Để có thể sử dụng nó đặc vụ buộc phải có: Khao khát E.G.O. Gift&#13;&#10;Tự động tấn công thực thể thù địch hiện diện ở trong cơ sở.</text>
+  <text id="MissedReaper_armor_name">Khao khát</text>
+  <text id="MissedReaper_armor_desc">Những người đã rời đi sẽ không bao giờ trở lại.&#13;&#10;Tôi ước lúc đó bản thân đã nói điều gì đó.&#13;&#10;&#13;&#10;Lẽ ra tôi nên nói, ‘Tôi xin lỗi vì đã buông tay em ra’ và cầu xin sự tha thứ, kể cả khi nó không hề mang ý nghĩa gì."</text>
+  <text id="Reaper_gift">Khao khát</text>
+  <text id="Reaper_desc">SP +6&#13;&#10;Tôi nhớ em</text>
+</localize>

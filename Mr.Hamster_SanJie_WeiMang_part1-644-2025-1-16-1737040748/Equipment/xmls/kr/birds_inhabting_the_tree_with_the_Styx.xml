@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="sanchez_weapon_name">&lt;color=#A45864&gt;망각의 강&lt;/color&gt;</text>
+  <text id="sanchez_weapon_specialDesc">&lt;color=#5A9D8B&gt;해당 무기로 공격한 대상에게 R 속성에 취약해지는 효과를 줌. 공격 시 20%의 확률로 특수 공격을 함.&#13;&#10;'금기의 강' 착용 시 공격 대상에게 준 피해의 30%만큼 체력 회복&lt;/color&gt;</text>
+  <text id="sanchez_weapon_desc">삼도천에서 건져 올린 무기다.&#13;&#10;결코 꺼지지 않을 것만 같은 청색 불꽃이 타오른다.&#13;&#10;'살을 베고 영혼을 깎는다'는 뜻이다.&#13;&#10;죽음을 두려워하지 않는 직원만이 이 낫을 다룰 수 있다.&#13;&#10;&lt;color=#A45864&gt;강을 잊은 눈을 보라, 멸망을 잊은 멸망을 보라. 삼세의 돌은 움직이고, 저편의 꽃은 피어나고, 몸은 강의 노예가 되어 가지의 끝을 알지 못하네…&lt;/color&gt;</text>
+
+  <text id="sanchez_armor_name">&lt;color=#A45864&gt;금기의 강&lt;/color&gt;</text>
+  <text id="sanchez_armor_specialDesc">&lt;color=#5A9D8B&gt;하루에 한 번 정신력이 20% 이하로 떨어지면 체력과 정신력 일정량 회복.&#13;&#10;대신 회복된 뒤에 받는 피해량이 증가.&lt;/color&gt;</text>
+  <text id="sanchez_armor_desc">삼도천에서 건져 올린 옷이다.&#13;&#10;결코 꺼지지 않을 것만 같은 청색 불꽃이 타오른다.&#13;&#10;이 옷을 입으면 영혼의 목소리에 민감하게 반응하게 된다.&#13;&#10;&lt;color=#A45864&gt;강물의 노예는 무엇이며, 강물에서는 무엇을 원하는가? 과거의 허무한 삶을 끝내고, 현세의 열매를 끊어내고, 천년 동안 하염없이 강만을 바라본다 할지라도, 마음은 사라지지 않는다…&lt;/color&gt;</text>
+
+  <text id="sanchez_gift_name">&lt;color=#A45864&gt;돌아갈 수 없는 강&lt;/color&gt;</text>
+  <text id="sanchez_gift_Desc">&lt;color=#5A9D8B&gt;체력 +7, 정신력 +3, 이동 속도 +5, 공격 속도 +5&lt;/color&gt; &#13;&#10;&lt;color=#A45864&gt;그건 단지 꿈일 뿐이니, 부디 돌아와줘.&lt;/color&gt;</text>
+
+  <text id="villa_weapon_name">&lt;color=#5682BB&gt;접힌 날개&lt;/color&gt;</text>
+  <text id="villa_weapon_specialDesc">&lt;color=#FDD47E&gt;해당 무기로 공격한 대상에게 P 속성에 취약해지는 효과를 줌. 공격 시 20%의 확률로 특수 공격을 함.&#13;&#10;직원의 현재 정신력에 따라 공격력 변화.&lt;/color&gt;</text>
+   //구체적인 변화 값 : &#13;&#10;정신력이 80% 이상일 때 피해량 +5.&#13;&#10;정신력이 50% 이상 80% 미만일 경우 피해량 +3.&#13;&#10;정신력이 20% 이상 50% 미만일 경우 피해량 +1.&#13;&#10;정신력이 20% 미만일 경우 피해량 -5.
+  <text id="villa_weapon_desc">이 무기는 마음씨 착한 새 세 마리에게 받았다.&#13;&#10;이 깃펜은 마치 영혼이 깃들어 있는 듯, 색이 매우 선명하다.&#13;&#10;이 무기를 착용한 직원은 회사에서 동료 직원들을 가장 소중히 여기는 사람이었다.&#13;&#10;용기와 책임감이 넘치는 직원만이 이 무기를 다룰 수 있다.&#13;&#10;&lt;color=#5682BB&gt;붉은 깃털은 무지개를 비추고, 푸른 날개는 하늘 높이 날았다.&lt;/color&gt;</text>
+
+  <text id="villa_armor_name">&lt;color=#5682BB&gt;모든 새&lt;/color&gt;</text>
+  <text id="villa_armor_specialDesc">&lt;color=#FDD47E&gt;10초마다 같은 방에 있는 다른 직원들의 정신력을 20 회복.&#13;&#10;초과된 회복량은 W 보호장으로 변환.&#13;&#10;회복 효과를 받은 직원은 50초 동안 용기와 정의 능력치가 3 상승.&lt;/color&gt;</text>
+  <text id="villa_armor_desc">이 옷은 숲속의 온갖 새들에게서 추출된 것이다.&#13;&#10;이 옷은 가볍고 부드러운 깃털로 장식되어 있어 마치 이 세상에 존재하지 않는 것처럼 보인다.&#13;&#10;이 옷을 입은 사람은 어려운 상황 속에서도 용기를 잃지 않는다.&#13;&#10;&lt;color=#5682BB&gt;가벼운 깃털이 푸른 하늘을 뚫고, 옷의 날개가 긴 바람을 가른다.&lt;/color&gt;</text>
+
+  <text id="villa_gift_name">&lt;color=#5682BB&gt;불굴&lt;/color&gt;</text>
+  <text id="villa_gift_Desc">&lt;color=#FDD47E&gt;정신력 +10, 작업 성공률 +5, 작업 속도 +5&lt;/color&gt; &#13;&#10;&lt;color=#5682BB&gt;제비가 가볍게 날아가자 비가 내리고, 떨어지는 빗물은 진홍빛 연기를 꺼뜨린다.&lt;/color&gt;</text>
+
+  <text id="bella_weapon_name">&lt;color=#B48662&gt;가라앉은 모래&lt;/color&gt;</text>
+  <text id="bella_weapon_specialDesc">&lt;color=#8F9F54&gt;해당 무기로 공격한 대상에게 W 속성에 취약해지는 효과를 줌. 공격 시 20%의 확률로 특수 공격을 함.&#13;&#10;공격 시 공격 대상의 이동 속도 감소. 대상의 R 속성 내성이 면역일 경우, 대신 B 피해를 줌.&lt;/color&gt;</text>
+  <text id="bella_weapon_desc">이 무기는 사막에서 벼려졌다.&#13;&#10;이 대검의 뿌리 같은 줄기가 만물을 집어삼키는 황사를 억제하고 있는 것일지도 모른다.&#13;&#10;이 대검에 정면으로 맞서는 자는 정신이 쇠약해지고 움직임이 느려진다.&#13;&#10;판단력이 뛰어난 직원만이 이 대검을 휘두를 수 있다.&#13;&#10;&lt;color=#B48662&gt;부러진 깃털은 바닷속 모래 위로 가라앉아, 왕이 떠나 다시는 돌아오지 않는 것을 슬퍼한다.&lt;/color&gt;</text>
+
+  <text id="bella_armor_name">&lt;color=#B48662&gt;팥배나무&lt;/color&gt;</text>
+  <text id="bella_armor_specialDesc">&lt;color=#8F9F54&gt;체력이 낮아질 경우 받는 피해량 감소.&#13;&#10;'가라앉은 모래' 착용 후 특수 공격 시 자신과 같은 방에 있는 직원들에게 B 보호장 부여.&lt;/color&gt;</text>
+//피해량이 감소하는 정도 : 체력이 50% 이상일 때 받는 피해량 20% 감소. 체력이 20% 이상 50% 미만일 경우 받는 피해량 50% 감소. 체력이 20% 미만일 경우 받는 피해량 70% 감소.
+  <text id="bella_armor_desc">이 옷은 사막에서 만들어졌다.&#13;&#10;이 옷은 생명력이 넘쳐나며, 아마도 사막 환경에 적응하지 못한 생명체들을 보호하고 있는 것으로 보인다.&#13;&#10;이 옷을 입은 사람은 다른 사람들을 지켜주는 그늘이 되어준다.&#13;&#10;&lt;color=#B48662&gt;푸른 식물은 모든 것을 보호하고, 오래된 정원에서의 식물의 가지는 그 무엇보다도 생동감이 넘쳐나는 것처럼 보인다.&lt;/color&gt;</text>
+
+  <text id="bella_gift_name">&lt;color=#B48662&gt;떠나지 못하는&lt;/color&gt;</text>
+  <text id="bella_gift_Desc">&lt;color=#8F9F54&gt;체력 +10, 작업 성공률 -2, 작업 속도 +7, 이동 속도 +5&lt;/color&gt;&#13;&#10;&lt;color=#B48662&gt;나무에 기대어, 쏟아지는 빗줄기에 웃으며 노래하고, 술에 취해 모래사장에 누워 밤하늘의 별을 바라본다.&lt;/color&gt;</text>
+
+  <text id="voidream_gift_name">&lt;color=#A45482&gt;황홀한 꿈?&lt;/color&gt;</text>
+  <text id="voidream_gift_Desc">&lt;color=#A486BB&gt;정신력 +4&lt;/color&gt; &#13;&#10;&lt;color=#A45482&gt;한 직원의 꿈에 대한 강한 열망이 이 장신구를 거대화시켰다.&lt;/color&gt;</text>
+
+  <text id="svb_gift_name">&lt;color=#977E7C&gt;후회하지 않는&lt;/color&gt;</text>
+  <text id="svb_gift_Desc">&lt;color=#8F9F54&gt;체력 +12&lt;/color&gt;, &lt;color=#FDD47E&gt;정신력 +5&lt;/color&gt;, &lt;color=#5A9D8B&gt;공격 속도 +7, 이동 속도 +7&lt;/color&gt; &#13;&#10;&lt;color=#A45864&gt;'망각의 강'과 '금기의 강'을 착용 시, 받는 W 피해의 40%만큼 회복.&lt;/color&gt;&#13;&#10;&lt;color=#5682BB&gt;'접힌 날개'와 '모든 새'를 착용 시, 정신력이 회복될 때 회복량의 절반만큼 체력 회복.&lt;/color&gt;&#13;&#10;&lt;color=#B48662&gt;'가라앉은 모래'와 '팥배나무'를 착용 시, 공격 대상에게 B 5의 추가 피해.&lt;/color&gt;&#13;&#10;&lt;color=#977E7C&gt;'돌아갈 수 없는 강', '불굴', '떠나지 못하는'을 착용 시, 하루에 한 번 체력이 0이 되는 피해를 받을 때 해당 피해에 면역이 되며 보호장을 얻음.&#13;&#10;너희 같은 친구들을 만났기에 내 인생에는 한 점의 후회도 없다.&lt;/color&gt; </text>
+
+  <text id="picky_gift_name">햄스터의 코??</text>
+  <text id="picky_gift_Desc">정신력 +4&#13;&#10;어? 이건 어디서 난 E.G.O 기프트지?</text>
+
+  <text id="picky_armor_name">쳇바퀴</text>
+  <text id="picky_armor_desc">어디선가 갑자기 나타난 옷.&#13;&#10;매우 촉감이 좋고 푹신푹신하지만 누가 입어도 통통해 보인다.&#13;&#10;착용한 직원은 알 수 없는 재료로 만든 간식을 동료 직원에게 먹이려고 한다.&#13;&#10;도대체 어떤 뒷골목 사람이 이런 걸 입는지 모르겠다!</text>
+  <text id="picky_armor_specialDesc">10초마다 같은 방에 있는 다른 직원에게 정신력 5의 피해를 주는 대신 체력을 10 회복.&#13;&#10;'기름과 소금' 착용 시 체력 15와 정신력 5를 회복하는 효과로 변경.</text>
+
+  <text id="picky_weapon_name">기름과 소금</text>
+  <text id="picky_weapon_desc">정체불명의 고기로 만든 베이컨.&#13;&#10;식욕을 돋우는 냄새를 풍기며, 제압 작업 도중 먹으면 먹을수록 짧아진다.&#13;&#10;약간 짠맛이 난다! 상대가 죽을 정도로 짠맛을 느낄지도 모른다…고 생각된다.&#13;&#10;저 빌어먹을 식탐 좀 봐!</text>
+  <text id="picky_weapon_specialDesc">제압 작업 중 착용자는 베이컨을 먹어 체력을 회복할 수 있는 대신 무기의 사거리와 피해량이 감소됨.&#13;&#10;30회 공격 시 W 30의 추가 피해.&#13;&#10;직원의 시체 위를 지나갈 경우 베이컨이 복구됨.</text>
+</localize>

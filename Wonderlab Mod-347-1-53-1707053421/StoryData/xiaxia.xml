@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="WonderLab_2">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="no" name="no_name" color="FFBBFF" sprite="" />
+    <character id="sha" name="wonderlab/sha_name" color="750000" sprite="wonderlab/sha" />
+    <background src="wonderlab/bgwnd" effect="none"/>
+
+    <bgm src="wonderlab/WONDER"/>
+
+    <position character="sha" to="center" fast="true"/>
+    
+    <speak speaker="sha" anim="Gald3">custom/wonderlab_2_dialog_1</speak>
+    
+    <speak speaker="sha">custom/wonderlab_2_dialog_2</speak>
+    
+    <speak speaker="sha">custom/wonderlab_2_dialog_3</speak>
+    <speak speaker="sha">custom/wonderlab_2_dialog_4</speak>
+    <speak speaker="sha">custom/wonderlab_2_dialog_5</speak>
+    <bgm src="SFX_radio_broken_01" />
+    <speak speaker="no">custom/wonderlab_2_dialog_angelica</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="sha" fast="true"/>
+    <bgm src=""/>
+    <remove_cg effect="fade" /> 
+    <background src="AngelaBackground" effect="none"/>
+    <bgm src="story-02_ogg" />
+    <position character="angela" to="right" />
+    <speak speaker="angela" anim="Glad2">custom/wonderlab_2_dialog_6</speak>
+    <speak speaker="angela">custom/wonderlab_2_dialog_7</speak>
+    <speak speaker="angela">custom/wonderlab_2_dialog_8</speak>
+    <select>
+      <option text="wonderlab/wonderlab_2_selection_1">
+        <speak speaker="angela" anim="Glad4">custom/wonderlab_2_dialog_9</speak>
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_2_dialog_10</speak>
+        <speak speaker="angela" anim="Default2">custom/wonderlab_2_dialog_11</speak>
+        <speak speaker="angela">custom/wonderlab_2_dialog_12</speak>
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_2_dialog_17</speak>
+      </option>
+      <option text="wonderlab/wonderlab_2_selection_2">
+        <speak speaker="angela" anim="Glad4">custom/wonderlab_2_dialog_13</speak>
+        <speak speaker="angela">custom/wonderlab_2_dialog_9</speak>
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_2_dialog_14</speak>
+        <speak speaker="angela" anim="Default2">custom/wonderlab_2_dialog_15</speak>
+        <speak speaker="angela">custom/wonderlab_2_dialog_16</speak>
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_2_dialog_17</speak>
+      </option>
+    </select>
+  </scene> 
+</root>

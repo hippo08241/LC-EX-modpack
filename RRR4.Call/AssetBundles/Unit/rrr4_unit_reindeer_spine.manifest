@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 2022189355
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1fa4cca38d233b167fda5e02fad29fb7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cfb76a5c5557c1e1c914089728bf13c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam_Material.mat
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam_SkeletonData.asset
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam.atlas.txt
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam.json
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam_Atlas.asset
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam_CTRL.controller
+- Assets/RRR4.Unit/_AssetBundles/Export/Reindeer/Spine/reindeerTeam.png
+Dependencies: []

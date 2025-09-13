@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122222">
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+    <narration action="start">
+      [
+      {#0 직원이  투명한 병 속을 들여다봅니다.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 직원은 격리실을 채우는 달콤한 냄새에 허기가 집니다.},
+      {$0은 식염수만을 찰랑일 뿐 아무런 반응을 하지 않습니다.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-07-25</codeNo>
+      <portrait openLevel ="1">Custom/TearsBottle</portrait>
+
+      <name openLevel ="1">
+       눈물의 병
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+      <openText>너는 자기 눈물에 익사할 것이다.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {케이크로 막아진 투명한 병에 식염수로 가득 차있다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {핀 직원이 눈물의 병의 케이크를 한번 베어 물자 눈물의 병이 깨지면서 격리실이 물로 가득 차기 시작했다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {핀 직원의 몸은 커졌다 줄어들기를 계속해서 반복했다.
+잠시 후 격리실의 물이 모두 사라지고 핀 직원이 격리실에서 나왔다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {격리실을 나온 핀 직원의 심장에 깨진 하트가 붙어있었다.
+눈물의 병을 탐한 자는 자기 눈물에 익사할 것이다.}
+      ]
+    </desc>
+    
+     <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">애착 작업을 했을 때 PE-Box 생산이 증가하였다.</specialTip>
+      <specialTip openLevel="2" key="2">본능 작업을 좋음으로 완료하자 병이 깨지면서 격리실에 물이 가득 차기 시작했다.</specialTip>
+      <specialTip openLevel="3" key="3">자신의 Gift를 가진 직원이 있다면 본능 작업을 할 때 $0은 PE-Box를 생산하지 않았다.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

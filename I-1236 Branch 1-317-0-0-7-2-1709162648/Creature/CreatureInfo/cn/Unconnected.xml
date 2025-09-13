@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142019">
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中
+    </narration>
+
+    <narration action="start">
+      [
+      {“$0”只是在这里，没有做出任何移动。}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {“$0”没有做出应答。}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {“$0”背上的指示灯闪烁着柔和的光芒。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-240</codeNo>
+      <portrait openLevel="1">Custom/UnChild</portrait>
+
+      <name openLevel="1">「连接」的孩子</name>
+      <specialName openLevel="1">‰ø°Âè∑‰∏¢Â§±</specialName>
+      
+      <riskLevel openLevel="1">ZAYIN</riskLevel>
+
+      <openText>新的世界门扉洞开。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {连接。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {被这座都市裹挟的空壳于此重获生命。&#13;&#10;有趣而相似的灵魂聚于此地，一粒世界随着而起。&#13;&#10;以及，连接。&#13;&#10;&#13;&#10;“诸位好，我是……”}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {那个孩子抵达此处。空无一人。随即，他创建了一篇描述。&#13;&#10;一个窗口，互通着思想的气流。打开。而那个孩子得以获得短暂的休憩。在荒原上。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {屏障被打碎。解体于瞬间。&#13;&#10;脆弱——亦如此奇谲——这世界。&#13;&#10;仅是一定量恶意——冲散、击倒、破碎。这一切。&#13;&#10;——天空崩解为碎片。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {我们其中一人发现了一件废弃的画室——或不仅于此。不可计数的画与灰黑、焦黄一并挂于墙上，围绕着玻璃柱。}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {——然而，仰头。绮丽的色彩抹在天花板上——一幅画，描绘着一幅奇异图景，而我们从未目睹。&#13;&#10;这曾经是怎样的世界？}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">当对“$0”的沟通工作结果为优时，“$0”能在员工之间建立联系。某个员工受到伤害时，与之存在联系的员工将会分摊少量伤害。</specialTip>
+      <specialTip openLevel="2" key="2">当两名分属不同联系的员工之间建立联系时，两组联系将会合并。</specialTip>
+      <specialTip openLevel="2" key="3">对“$0”完成压迫工作后，上一条建立的联系将会被撤回。若某一名已建立联系的“员工”死亡，之前所有联系将无法被撤回。</specialTip>
+      <specialTip openLevel="2" key="4">“$0”能建立的联系数量有限。对建立过量联系的尝试将会使所有曾建立联系的员工“断连”。此时对“$0”完成压迫工作后，所有曾建立联系的员工将立即恐慌，同时连接状态重置。</specialTip>
+      <specialTip openLevel="2" key="5">“$0”不会受到逆卡巴拉能量熔毁的影响。</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

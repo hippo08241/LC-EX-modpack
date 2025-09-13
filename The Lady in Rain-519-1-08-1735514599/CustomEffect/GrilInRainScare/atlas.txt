@@ -1,0 +1,858 @@
+
+ladyinrain.png
+size: 6797,6749
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00003
+  rotate: false
+  xy: 2, 4215
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+1111
+  rotate: false
+  xy: 1908, 1687
+  size: 3033, 1532
+  orig: 3033, 1532
+  offset: 0, 0
+  index: -1
+11232
+  rotate: false
+  xy: 4533, 4514
+  size: 1675, 1024
+  orig: 1675, 1024
+  offset: 0, 0
+  index: -1
+666666
+  rotate: true
+  xy: 4943, 861
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+OIP-C (1)
+  rotate: false
+  xy: 6231, 6301
+  size: 474, 266
+  orig: 474, 266
+  offset: 0, 0
+  index: -1
+OIP-C (2)
+  rotate: false
+  xy: 1128, 6182
+  size: 474, 266
+  orig: 474, 266
+  offset: 0, 0
+  index: -1
+blood
+  rotate: false
+  xy: 2, 5369
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+hit1
+  rotate: false
+  xy: 4447, 6364
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+hit2
+  rotate: false
+  xy: 4775, 6364
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+hit3
+  rotate: false
+  xy: 5103, 6354
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+puzzle
+  rotate: false
+  xy: 3091, 4828
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1
+上臂
+  rotate: true
+  xy: 2312, 6640
+  size: 107, 308
+  orig: 107, 308
+  offset: 0, 0
+  index: -1
+上臂1
+  rotate: true
+  xy: 3656, 6617
+  size: 130, 305
+  orig: 130, 305
+  offset: 0, 0
+  index: -1
+上臂（内）
+  rotate: true
+  xy: 2023, 6644
+  size: 103, 287
+  orig: 103, 287
+  offset: 0, 0
+  index: -1
+上身
+  rotate: true
+  xy: 3087, 6101
+  size: 286, 550
+  orig: 286, 550
+  offset: 0, 0
+  index: -1
+上身1
+  rotate: true
+  xy: 2531, 6121
+  size: 281, 554
+  orig: 281, 554
+  offset: 0, 0
+  index: -1
+人物遮挡（呐喊）
+  rotate: true
+  xy: 2856, 6633
+  size: 114, 303
+  orig: 114, 303
+  offset: 0, 0
+  index: -1
+人物遮挡（掘墓人）
+  rotate: false
+  xy: 2364, 5782
+  size: 412, 337
+  orig: 412, 337
+  offset: 0, 0
+  index: -1
+人物遮挡（珍珠）
+  rotate: true
+  xy: 894, 6487
+  size: 203, 306
+  orig: 203, 306
+  offset: 0, 0
+  index: -1
+人物遮挡（蒙娜丽莎）
+  rotate: true
+  xy: 1202, 6473
+  size: 205, 318
+  orig: 205, 318
+  offset: 0, 0
+  index: -1
+内外臂
+  rotate: true
+  xy: 2, 8
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+内小腿
+  rotate: false
+  xy: 1687, 2
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+出逃时画框武器
+  rotate: true
+  xy: 5749, 6017
+  size: 310, 429
+  orig: 310, 429
+  offset: 0, 0
+  index: -1
+呐喊
+  rotate: true
+  xy: 4412, 6064
+  size: 298, 422
+  orig: 298, 422
+  offset: 0, 0
+  index: -1
+嘴
+  rotate: false
+  xy: 263, 6730
+  size: 34, 17
+  orig: 34, 17
+  offset: 0, 0
+  index: -1
+嘴1
+  rotate: false
+  xy: 299, 6730
+  size: 37, 17
+  orig: 37, 17
+  offset: 0, 0
+  index: -1
+图层 19
+  rotate: true
+  xy: 1924, 3612
+  size: 1214, 2012
+  orig: 1214, 2012
+  offset: 0, 0
+  index: -1
+图层 37
+  rotate: true
+  xy: 6053, 5540
+  size: 447, 742
+  orig: 447, 742
+  offset: 0, 0
+  index: -1
+图层 38
+  rotate: false
+  xy: 1067, 6698
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+图层 39
+  rotate: true
+  xy: 663, 6509
+  size: 201, 229
+  orig: 201, 229
+  offset: 0, 0
+  index: -1
+图层 40
+  rotate: false
+  xy: 4163, 6382
+  size: 282, 229
+  orig: 282, 229
+  offset: 0, 0
+  index: -1
+图层 41
+  rotate: true
+  xy: 3963, 6613
+  size: 134, 165
+  orig: 134, 165
+  offset: 0, 0
+  index: -1
+图层 5
+  rotate: false
+  xy: 3382, 6389
+  size: 779, 222
+  orig: 779, 222
+  offset: 0, 0
+  index: -1
+图层 5 拷贝
+  rotate: false
+  xy: 2, 6255
+  size: 775, 252
+  orig: 775, 252
+  offset: 0, 0
+  index: -1
+图层 5 拷贝 2
+  rotate: false
+  xy: 5902, 6593
+  size: 374, 154
+  orig: 374, 154
+  offset: 0, 0
+  index: -1
+图层 8 拷贝
+  rotate: false
+  xy: 1513, 6680
+  size: 74, 67
+  orig: 74, 67
+  offset: 0, 0
+  index: -1
+图层 8 拷贝 2
+  rotate: true
+  xy: 638, 6715
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+坐姿长裙上
+  rotate: false
+  xy: 1604, 6152
+  size: 521, 278
+  orig: 521, 278
+  offset: 0, 0
+  index: -1
+坐姿长裙下
+  rotate: true
+  xy: 4419, 5640
+  size: 411, 695
+  orig: 411, 695
+  offset: 0, 0
+  index: -1
+大卫头像
+  rotate: true
+  xy: 5422, 6599
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+头部
+  rotate: true
+  xy: 4130, 6613
+  size: 134, 201
+  orig: 134, 201
+  offset: 0, 0
+  index: -1
+头部1
+  rotate: true
+  xy: 4333, 6613
+  size: 134, 201
+  orig: 134, 201
+  offset: 0, 0
+  index: -1
+帽子
+  rotate: false
+  xy: 3422, 6628
+  size: 232, 119
+  orig: 232, 119
+  offset: 0, 0
+  index: -1
+帽子整体
+  rotate: false
+  xy: 1522, 6450
+  size: 404, 206
+  orig: 404, 206
+  offset: 0, 0
+  index: -1
+帽子整体1
+  rotate: false
+  xy: 1928, 6432
+  size: 404, 206
+  orig: 404, 206
+  offset: 0, 0
+  index: -1
+帽子的阴影
+  rotate: true
+  xy: 4536, 6613
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+帽子的阴影1
+  rotate: true
+  xy: 4536, 6613
+  size: 134, 181
+  orig: 134, 181
+  offset: 0, 0
+  index: -1
+帽子（饰品）
+  rotate: false
+  xy: 2622, 6639
+  size: 232, 108
+  orig: 232, 108
+  offset: 0, 0
+  index: -1
+手臂（内）
+  rotate: true
+  xy: 6278, 6569
+  size: 178, 362
+  orig: 178, 362
+  offset: 0, 0
+  index: -1
+披肩
+  rotate: true
+  xy: 2778, 5755
+  size: 344, 443
+  orig: 344, 443
+  offset: 0, 0
+  index: -1
+披肩1
+  rotate: true
+  xy: 2778, 5755
+  size: 344, 443
+  orig: 344, 443
+  offset: 0, 0
+  index: -1
+披肩中
+  rotate: false
+  xy: 929, 6707
+  size: 87, 40
+  orig: 87, 40
+  offset: 0, 0
+  index: -1
+披肩右
+  rotate: true
+  xy: 4719, 6609
+  size: 138, 443
+  orig: 138, 443
+  offset: 0, 0
+  index: -1
+披肩左
+  rotate: true
+  xy: 2937, 6404
+  size: 224, 443
+  orig: 224, 443
+  offset: 0, 0
+  index: -1
+拿画框姿势手臂
+  rotate: true
+  xy: 1268, 5297
+  size: 520, 1048
+  orig: 520, 1048
+  offset: 0, 0
+  index: -1
+拿着笔的手
+  rotate: false
+  xy: 5805, 6329
+  size: 424, 262
+  orig: 424, 262
+  offset: 0, 0
+  index: -1
+拿笔的手
+  rotate: false
+  xy: 5656, 6596
+  size: 244, 151
+  orig: 244, 151
+  offset: 0, 0
+  index: -1
+掘墓人
+  rotate: true
+  xy: 516, 5309
+  size: 547, 750
+  orig: 547, 750
+  offset: 0, 0
+  index: -1
+椅子
+  rotate: true
+  xy: 315, 6521
+  size: 192, 346
+  orig: 192, 346
+  offset: 0, 0
+  index: -1
+武器
+  rotate: true
+  xy: 1690, 6658
+  size: 89, 331
+  orig: 89, 331
+  offset: 0, 0
+  index: -1
+武器开
+  rotate: false
+  xy: 4046, 6079
+  size: 364, 301
+  orig: 364, 301
+  offset: 0, 0
+  index: -1
+水桶画具摆件
+  rotate: true
+  xy: 5164, 6603
+  size: 144, 256
+  orig: 144, 256
+  offset: 0, 0
+  index: -1
+浩（员工参照物）
+  rotate: true
+  xy: 779, 6207
+  size: 278, 347
+  orig: 278, 347
+  offset: 0, 0
+  index: -1
+狞笑（嘴）
+  rotate: true
+  xy: 1589, 6663
+  size: 84, 99
+  orig: 84, 99
+  offset: 0, 0
+  index: -1
+珍珠耳环
+  rotate: true
+  xy: 5431, 6344
+  size: 250, 372
+  orig: 250, 372
+  offset: 0, 0
+  index: -1
+琴女头像
+  rotate: true
+  xy: 2127, 6135
+  size: 288, 402
+  orig: 288, 402
+  offset: 0, 0
+  index: -1
+画架整体
+  rotate: true
+  xy: 1313, 5819
+  size: 314, 1049
+  orig: 314, 1049
+  offset: 0, 0
+  index: -1
+画框（掘墓人）
+  rotate: true
+  xy: 2318, 5121
+  size: 632, 771
+  orig: 632, 771
+  offset: 0, 0
+  index: -1
+眼窝（微笑）
+  rotate: false
+  xy: 501, 6722
+  size: 89, 25
+  orig: 89, 25
+  offset: 0, 0
+  index: -1
+睁眼1
+  rotate: false
+  xy: 367, 6724
+  size: 45, 23
+  orig: 45, 23
+  offset: 0, 0
+  index: -1
+睁眼2
+  rotate: false
+  xy: 338, 6725
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+站姿长裙下
+  rotate: true
+  xy: 3848, 5656
+  size: 406, 569
+  orig: 406, 569
+  offset: 0, 0
+  index: -1
+笔
+  rotate: false
+  xy: 674, 6712
+  size: 253, 35
+  orig: 253, 35
+  offset: 0, 0
+  index: -1
+箱子上
+  rotate: false
+  xy: 2334, 6425
+  size: 246, 213
+  orig: 246, 213
+  offset: 0, 0
+  index: -1
+箱子下
+  rotate: false
+  xy: 5385, 6031
+  size: 362, 311
+  orig: 362, 311
+  offset: 0, 0
+  index: -1
+绿色污浊特效
+  rotate: false
+  xy: 2, 2368
+  size: 1904, 1845
+  orig: 1904, 1845
+  offset: 0, 0
+  index: -1
+老人头像
+  rotate: true
+  xy: 2582, 6408
+  size: 223, 353
+  orig: 223, 353
+  offset: 0, 0
+  index: -1
+背景参照
+  rotate: false
+  xy: 3938, 3221
+  size: 2365, 1291
+  orig: 2365, 1291
+  offset: 0, 0
+  index: -1
+腰上的花（大）
+  rotate: false
+  xy: 3292, 6630
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+腰上的花（小）
+  rotate: true
+  xy: 1251, 6691
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+腰间花朵（大）
+  rotate: false
+  xy: 3161, 6631
+  size: 129, 116
+  orig: 129, 116
+  offset: 0, 0
+  index: -1
+腰间花朵（小）
+  rotate: true
+  xy: 1191, 6692
+  size: 55, 58
+  orig: 55, 58
+  offset: 0, 0
+  index: -1
+蒙娜丽莎
+  rotate: true
+  xy: 6180, 5989
+  size: 310, 429
+  orig: 310, 429
+  offset: 0, 0
+  index: -1
+表情（笑）
+  rotate: false
+  xy: 1018, 6707
+  size: 47, 40
+  orig: 47, 40
+  offset: 0, 0
+  index: -1
+转头1
+  rotate: false
+  xy: 2, 5931
+  size: 435, 322
+  orig: 435, 322
+  offset: 0, 0
+  index: -1
+转头2
+  rotate: false
+  xy: 439, 5883
+  size: 435, 322
+  orig: 435, 322
+  offset: 0, 0
+  index: -1
+转头3
+  rotate: false
+  xy: 876, 5858
+  size: 435, 322
+  orig: 435, 322
+  offset: 0, 0
+  index: -1
+长裙上
+  rotate: true
+  xy: 4836, 6053
+  size: 299, 547
+  orig: 299, 547
+  offset: 0, 0
+  index: -1
+闭眼1
+  rotate: false
+  xy: 2, 6737
+  size: 41, 10
+  orig: 41, 10
+  offset: 0, 0
+  index: -1
+闭眼11
+  rotate: false
+  xy: 67, 6736
+  size: 41, 11
+  orig: 41, 11
+  offset: 0, 0
+  index: -1
+闭眼2
+  rotate: false
+  xy: 45, 6736
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+闭眼22
+  rotate: false
+  xy: 110, 6736
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+雨中女郎
+  rotate: true
+  xy: 3639, 6093
+  size: 294, 405
+  orig: 294, 405
+  offset: 0, 0
+  index: -1
+雨中女郎小图标
+  rotate: true
+  xy: 1311, 6687
+  size: 60, 200
+  orig: 60, 200
+  offset: 0, 0
+  index: -1
+雨中女郎小画
+  rotate: false
+  xy: 5116, 5577
+  size: 935, 438
+  orig: 935, 438
+  offset: 0, 0
+  index: -1
+雨中女郎控制
+  rotate: true
+  xy: 2, 6538
+  size: 190, 311
+  orig: 190, 311
+  offset: 0, 0
+  index: -1
+雨中女郎染色
+  rotate: true
+  xy: 3223, 5707
+  size: 384, 623
+  orig: 384, 623
+  offset: 0, 0
+  index: -1
+黄色眼睛(眯眼)
+  rotate: false
+  xy: 183, 6734
+  size: 50, 13
+  orig: 50, 13
+  offset: 0, 0
+  index: -1
+黄色眼睛（睁眼）
+  rotate: false
+  xy: 414, 6724
+  size: 85, 23
+  orig: 85, 23
+  offset: 0, 0
+  index: -1
+黄色眼睛（睁眼）1
+  rotate: false
+  xy: 414, 6724
+  size: 85, 23
+  orig: 85, 23
+  offset: 0, 0
+  index: -1
+黄色眼睛（睁眼）2
+  rotate: false
+  xy: 132, 6736
+  size: 49, 11
+  orig: 49, 11
+  offset: 0, 0
+  index: -1
+鼻子
+  rotate: true
+  xy: 592, 6721
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+鼻子1
+  rotate: true
+  xy: 235, 6733
+  size: 14, 26
+  orig: 14, 26
+  offset: 0, 0
+  index: -1
+鼻子和嘴
+  rotate: true
+  xy: 1121, 6694
+  size: 53, 68
+  orig: 53, 68
+  offset: 0, 0
+  index: -1
+
+ladyinrain2.png
+size: 6209,5827
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00002
+  rotate: true
+  xy: 2, 1985
+  size: 3840, 2160
+  orig: 3840, 2160
+  offset: 0, 0
+  index: -1
+后大腿
+  rotate: false
+  xy: 2016, 300
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+图层 17
+  rotate: false
+  xy: 2164, 4142
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+图层 18
+  rotate: false
+  xy: 2164, 4142
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+外上臂
+  rotate: false
+  xy: 2164, 2457
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+外大腿
+  rotate: true
+  xy: 4376, 97
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+外小腿
+  rotate: true
+  xy: 4524, 3467
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+背景
+  rotate: true
+  xy: 2, 2
+  size: 1981, 2012
+  orig: 1981, 2012
+  offset: 0, 0
+  index: -1
+
+ladyinrain3.png
+size: 5732,5057
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+外手
+  rotate: true
+  xy: 2, 2697
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+已插入图像
+  rotate: true
+  xy: 2, 337
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+椅子8877
+  rotate: false
+  xy: 1687, 3372
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+画框
+  rotate: true
+  xy: 4047, 2697
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+画框9990
+  rotate: true
+  xy: 4047, 2697
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+脸1
+  rotate: false
+  xy: 1687, 1687
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+脸2
+  rotate: true
+  xy: 4047, 337
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1
+身体
+  rotate: false
+  xy: 1687, 2
+  size: 2358, 1683
+  orig: 2358, 1683
+  offset: 0, 0
+  index: -1

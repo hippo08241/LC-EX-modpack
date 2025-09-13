@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110002">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-02-29</codeNo>
+      <name openLevel ="1">Scaredy Cat</name>
+      <portrait openLevel ="1">Custom/ScareyCat</portrait>
+      <riskLevel openLevel ="2">HE</riskLevel>
+      <openText>Can I follow you forever? So I can tear them apart...</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A feline Abnormality that has unusually large eyes. Though nearly entirely furless, the end of its tail is rich with red fur.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {An unusually small lion was left alone in a Forest, shunned by everyone for being a coward. What approached him was a rusted Tin Woodsman, a Scarecrow with an empty head, and a girl in silver shoes. The lion, wishing for courage, joined the daring little girl and her friends in hopes of fulfilling his own wish.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {And so the lion and his friends found their way to the great Wizard and each told her their wish. The lion fully believed the Wizard when she said he would gain unmatched courage, and drank the clear liquid she handed him. The cowardly lion of the Forest was a coward no more, and returned to the Forest leaving his friends behind. He believed he would no longer be scared by anything.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {However, a different fear creeped back into the lion now that he was alone once more. Without his fiends, is there a reason for him to exist? What am I now, left all alone again?&#13;&#10;&#13;&#10;And so the small lion hid away in the forest, surrouned by the fear of loneliness. After spending what seemed like an eternity cowering, what appeared in front of him once again was the three friends he had journeyed together with. Without hesitation, the lion vowed to follow his friends on the endless road, and courage started to well up inside him like magic. There's nothing to fear when everyone is together. The only fear, is that of being alone.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {And so, the fur of the lion with his regained courage was stained red by the blood of those trying to separate them. The lion existed to be with his friends, to grant the wishes of his friends. The more people he fell, the more courage he gained, and his plentiful fur was painted more red by the day.}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">The amount of PE-Boxes $0 produced differed if F-01-25, F-05-32, F-01-87 existed within the facility. These three Abnormalities were dubbed 'Friends'.</specialTip>
+      <specialTip openLevel="2" key="2">The amount of 'Friends' within the facility affected its Work Success rate. If no 'Friends' were present within the facility, it became extremely nervous and the Work Success rate was abysmal.</specialTip>
+      <specialTip openLevel="3" key="3">When a 'Friend' breached containment, $0 breached with them. $0 regenerated all injuries sustained at extreme speed if any other 'Friend' was still breaching.</specialTip>
+  </specialTipSize>
+  </observe>
+
+  <etc>
+    <!-- 오즈 -->
+    <param key="emeraldcastle" index="0">Emerald Palace</param>
+    <param key="lumberjack" index="1">A Heart of Lead</param>
+    <param key="scarecrow" index="2">A Sack of Sawdust</param>
+    <param key="waygohome" index="3">Home that cannot be reached</param>
+    <param key="scareycat" index="4">Liquid Courage</param>
+    <param key="oz" index="5">Adult that tells lies</param>
+  </etc>
+</creature>

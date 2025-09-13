@@ -1,0 +1,1 @@
+{"skeleton":{"hash":"mlcVQhd4ZTq6a8RI8Zy5z+JWfIU","spine":"3.8.75","images":"E:/BaseMods/Assets/StarBell/empty","audio":""},"bones":[{"name":"root"}],"slots":[{"name":"empty","bone":"root","attachment":"empty"}],"skins":[{"name":"default","attachments":{"empty":{"empty":{"width":1,"height":1}}}}],"animations":{"animation":{}}}

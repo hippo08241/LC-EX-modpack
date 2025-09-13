@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="345125" type="special"> 
+    <name>BronzeBull_gift_name</name>
+    <desc>BronzeBull_gift_desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>4</hp>
+    </bonus>
+    <sprite>345125</sprite>
+  </equipment>
+  
+    <equipment id="345126" type="armor">
+    <name>BronzeBull_weapon_name</name>
+    <no>BronzeBull_armor_no</no>
+    <desc>BronzeBull_armor_desc</desc>
+
+    <armorId>345126</armorId>
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.9</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="345127" type="weapon">
+    <name>BronzeBull_weapon_name</name>
+    <desc>BronzeBull_armor_desc</desc>
+    <specialDesc>BronzeBull_weapon_desc</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <sprite>BigBadWolf_BronzeBull</sprite>
+    <specialWeaponAnim>DangoCreatureWeapon_BronzeBull</specialWeaponAnim>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+
+    <damage type="R" min="10" max="12">
+      <soundInfo type="damage">Weapons/fist1</soundInfo>
+    </damage>
+    <damage type="R" min="6" max="12">
+      <soundInfo type="damage">creature/DangoCreature/Danggo_Lv3_Atk</soundInfo>
+    </damage>
+    <damage type="P" min="12" max="15">
+      <soundInfo type="damage">creature/DangoCreature/Danggo_Lv3_Atk</soundInfo>
+    </damage>
+
+    <script>BronzeBullFistattack</script>
+    <range>2</range>
+    <splash type="SPLASH"/>
+    <maxNum>2</maxNum>
+    <attackSpeed>1.8</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+</equipment_list>

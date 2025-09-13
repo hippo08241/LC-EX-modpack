@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>
+
+  <text id="SpMalice_Info_CumlativeText">独立NE-BOX储量</text>
+  <text id="SpMalice_Info_NoCost">NE-BOX不足</text>
+  <text id="SpMalice_Info_Cost">NE-BOX</text>
+
+  <text id="HMIAPStoryBird">Unfinished Text</text>
+  <text id="HMIAPStoryConnection">Unfinished Text</text>
+  <text id="HMIAPStoryHumanPoison">Unfinished Text</text>
+  <text id="HMIAPStoryUnmetCondition">(Condition Unmet)</text>
+
+</localize>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="123444">
+
+
+	  <narration action="move">
+		  #0 bước vào buồng quản thúc của $0 và bắt đầu công việc.
+	  </narration>
+	  <narration action="start">
+		  [
+		  {#0 cảm nhận được niềm vui sướng khi mà đặt chân vào căn phòng.},
+		  {#0 đang nhìn vào đứa trẻ đứng bên cạnh $0 với ánh mắt vô cùng trìu mến.},
+		  {#0 hầu như không thể kiềm chế được bản thân tiến lại gần đứa trẻ đó.},
+		  ]
+	  </narration>
+
+	  <narration action="mid1">
+		  [
+		  {Niềm hạnh phúc và đau khổ của đứa trẻ cũng sẽ trở thành niềm vui sướng và nỗi buồn của #0.},
+		  {Kể cả khi đó xảy ra, #0 không làm gì khác ngoài việc đứng nhìn nó.},
+		  {Đứa trẻ chỉ đơn thuần là một mồi nhử mà $0 dùng để đi săn.},
+		  ]
+	  </narration>
+	  <narration action="mid2">
+		  [
+		  {#0 phải đấu tranh để kiềm chế lại sự khao khát mà bản thân dành cho Đứa Trẻ.},
+		  {Khi đứa trẻ càng đau khổ, thì ý chí của #0 sẽ càng yếu dần.},
+		  {#0 sẽ rất nhớ đứa trẻ đó sau khi hoàn thành công việc.},
+		  ]
+	  </narration>
+	  <narration action="mid3">
+		  [
+		  {Chỉ có những tâm hồn kiên cường nhất mới có thể trốn thoát khỏi nanh vuốt của $0 sau khi bị săn đuổi.},
+		  {#0 có một tâm hồn mạnh mẽ, nhưng lại rất muốn ở bên cạnh đứa trẻ này mãi mãi về sau.},
+		  ]
+	  </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-13</codeNo>
+      <portrait openLevel ="1">Custom/MissedReaper</portrait>
+	  <portrait openLevel ="4">Custom/MissedReaper2</portrait>
+
+      <name openLevel ="1">
+      Missing Child
+      </name>
+
+	  <name openLevel ="4">
+	  Missed Reaper
+	  </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>"Tôi xin lỗi khi hỏi điều này nhưng… Ngài có thể đưa tôi quay trở lại buồng quản thúc lần nữa được không, xin ngài đấy?"</openText>
+    
+    </collection>
+
+<desc id="1" openLevel="0">
+      [
+      {Một Dị Thể trong hình dạng cây đèn khổng lồ phát ra thứ ánh sáng kì ảo. Ở phía dưới đó là một sinh vật không thể xác định mang hình hài của một đứa trẻ.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Mỗi nhân viên bước vào buồng quản thúc đều kể lại những câu truyện khác nhau. Màu tóc của đứa trẻ có thể là vàng hoặc đen. Hoặc một số người nhận định đứa trẻ là một cô bé, trong khi những người khác lại nhận định là một cậu bé. Có rất nhiều ý kiến khác nhau về ngoại hình và độ tuổi của đứa trẻ. Tuy nhiên, tất cả đều nhất quán là đứa trẻ có một giong điệu chứa đầy khao khát. Khao khát này rõ ràng đến mức nó không thể bị giấu kín và luôn hiện diện trong mỗi câu truyện.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+		[
+		{
+		&lt;Trích đoạn từ «Bản Ghi Tư Vấn 01-13-7»: &gt;&#13;&#10;&#13;&#10;"Ngài đã từng bao giờ mất đi thứ gì quan trọng chưa, Ngài quản lí? Tôi thì từng có lần rồi.&#13;&#10;&#13;&#10;Từ rất lâu rồi, thậm chí trước khi gia nhập vào công ty này, tôi từng có một đứa con. &#13;&#10;&#13;&#10;(Ngắt quãng)&#13;&#10;&#13;&#10;Bỗng một ngày, lúc đang đi dạo vòng quanh khu phố trong khi đang nắm lấy tay nó, tôi quay đầu và nhìn lại, đứa trẻ đã biến mất, tôi đã vô thức buông tay nó ra. Thật không may, đây là điều bình thường hay xảy ra ở thành phố này, có vô số câu truyện về việc cha mẹ lạc mất đứa trẻ của họ."}
+        ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {"Tôi biết đứa trẻ bên trong buồng chứa đó không phải là của tôi, bởi vì nó đã mất vào cái ngày tôi buông tay nó ra."&#13;&#10;&#13;&#10;"Tuy nhiên, thưa Ngài, việc biết về nó và chấp nhận nó là hai điều hoàn toàn khác nhau, cực kì khác nhau."&#13;&#10;&#13;&#10;"Một nhân viên ở đội phúc lợi đã thông báo với tôi rằng nỗi đau tinh thần của bản thân đã chạm đến ngưỡng, nên tôi có thể hiểu quyết định của Ngài. Nếu tôi quay trở lại đó, tôi cũng sẽ bị choáng ngợp và phải chịu số phận tương tự như vô số nhân viên trước kia."&#13;&#10;&#13;&#10;"Nhưng như tôi nói, biết về nó không hề giống với việc chấp nhận nó."&#13;&#10;&#13;&#10;"Kể từ ngày đó, tôi không thể dừng nghĩ về việc đấy, lẽ ra tôi nên nói, ‘Mẹ xin lỗi vì đã buông tay con ra’ và cầu xin sự tha thứ, kể cả khi nó không hề mang ý nghĩa gì."&#13;&#10;&#13;&#10;&#13;&#10;"Tôi xin lỗi khi hỏi điều này nhưng… Ngài có thể đưa tôi quay trở lại buồng quản thúc lần nữa được không, xin ngài đấy??"}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Cô ấy đi vào buồng quản thúc và không bao giờ trở lại.&#13;&#10;&#13;&#10;Thứ duy nhất mà cô ấy làm là nhìn chằm chằm vào đứa trẻ ở trước mặt mình, cho đến khi bị cánh tay hình lưỡi hái nắm lấy.&#13;&#10;&#13;&#10;Và vào khoảng khắc cuối cùng, cô mở miệng ra và nói:&#13;&#10;&#13;&#10;"Mẹ nhớ con."}
+      ]
+    </desc>
+    
+  <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Nếu gắn bó của nhân viên mà ở cấp độ 3 hoặc thấp hơn, họ sẽ lập tức chạy đến chỗ $0 ngay khi vừa bước vô buồng quản thúc, sau đó $0 sẽ giết họ.</specialTip>
+      <specialTip openLevel="2" key="2">Nếu điểm SP của nhân viên bị cạn kiệt trong khi làm việc, họ sẽ lập tức chạy đến chỗ $0 và rồi $0 sẽ giết họ.</specialTip>
+      <specialTip openLevel="3" key="3">$0 chỉ thích mỗi công việc khuất phục. (Tái bút, đừng lo lắng về nhân vật trông như đứa trẻ đứng ở bên cạnh $0 (được biết đến là $0-1), nó sẽ không ảnh hưởng đến lượng PE-BOX sản xuất ra).</specialTip>
+	  <specialTip openLevel="4" key="4">Trong lúc đang làm công việc khuất phục, $0-1 trông có vẻ như phải chịu đựng một nỗi đau rất lớn. Cảnh tượng này mang đến một nỗi buồn phiền khá nặng cho Gustav, khiến cho nó nhận quá nhiều sát thương trắng cho mỗi PE-Box được sản xuất ra.</specialTip>
+	  <specialTip openLevel="5" key="5">Mỗi lần $0 sản xuất ra một NE-Box trong lúc đang thực hiện công việc không phải là khuất phục, $0-1 trông có vẻ hạnh phúc, và cảnh tượng này giúp cho Gustav hồi phục độ tỉnh táo (Một lần nữa, $0-1 không hề ảnh hưởng gì đến lượng PE-Box sản xuất ra).</specialTip>
+  </specialTipSize>
+	  <max>
+		  <desc id ="0" select="1">
+			  {Bên cạnh cái giá đỡ hình lưỡi hái là một đứa trẻ mà tôi không thể nhận ra.}
+			  {Kể cả khi tôi chưa bao giờ gặp nó, hơi thở của tôi nghẹn lại trong cổ họng vào khoảng khắc bắt gặp đứa trẻ.}
+			  {Tôi nhớ em... Tôi nhớ em nhiều đến mức mà cổ họng tôi nghẹn lại...}
+			  {Tuy không thể gợi nhớ là ai, nhưng tôi chắc chắn rằng bản thân rất nhớ em.}
+			  {Lời nói của em tràn ngập sự khôn ngoan, và nụ cười của em sẽ là thứ đẹp đẽ nhất trên trái đất này. Tôi biết nó sẽ như thế, thậm chí cả trong tiềm thức cũng vậy.}
+			  {I'm going to...}
+		  </desc>
+
+		  <select id ="1">
+			  <node desc ="Đưa tay ra chỗ họ" target="1" isAnswer="true"/>
+			  <node desc ="Không đưa tay ra chỗ họ" target="2" isAnswer="false"/>
+		  </select>
+		  <desc id="1" select="0">
+			  {Tôi đã quên đi lời cảnh báo vào khoảng khắc tôi bước vô.}
+			  {Lời nói đến từ phòng quản lí đằng sau tôi rất to và rõ, nhưng không hề đinh tai nhức óc.}
+			  {Tôi đưa tay về phía đứa trẻ.}
+			  {Nhưng đứa trẻ quay đầu đi, tránh ánh mắt của chúng khỏi tôi.}
+			  {Kể cả cây Lưỡi Hái cũng liên tục phớt lờ tôi, như thể tôi thậm chí còn không đáng để săn lùng.}
+			  {"Ngươi là một kẻ may mắn khi vẫn còn sống, nhưng việc nhìn thấy chúng sẽ khiến ngươi còn đau đớn hơn cả cái chết."}
+		  </desc>
+
+		  <desc id ="2" select="0">
+			  [
+			  {Liệu tôi có xứng đáng để đưa tay ra chỗ họ?}
+			  {Nó kiểu như là vẫn chưa đến lúc.}
+			  {Liệu họ có cảm thấy giống như vậy?}
+			  {Tôi lo sợ rằng họ sẽ căm ghét và oán giận tôi.}
+			  {Vẫn còn thời gian để rửa sạch tội lỗi của chính mình.}
+			  {Để một ngày nào đó, tôi có thể mỉm cười và đưa tay về phía họ.}
+			  ]
+		  </desc>
+		  <angela>
+			  [
+			  {Đối với ngài thì đứa trẻ trông như thế nào?}
+			  {Và tại sao mà đứa trẻ lại quay mặt đi khỏi ngài?}
+			  {Tôi nghĩ là tôi có thể hiểu, có thể lí do giống hệt với chính tôi.}
+			  {Bạn đã hoàn thành công việc quan sát cuối cùng của Missed Reaper.}
+			  ]
+		  </angela>
+	  </max>
+  </observe>
+</creature>

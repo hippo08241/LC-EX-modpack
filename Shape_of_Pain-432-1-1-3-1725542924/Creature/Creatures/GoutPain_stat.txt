@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Gout</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>2</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.7</prob>
+      <prob level="2">0.7</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.35</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <qliphoth>0</qliphoth>
+    <workCooltime>14</workCooltime>
+    <escapeable>false</escapeable>
+    <speed>1</speed>
+    <feelingStateCubeBounds>
+      <cube>8</cube>
+      <cube>14</cube>
+      <cube>18</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="3" max="6" />
+    <workSpeed>0.2</workSpeed>
+    <observeInfo total="66">
+      <observeElement name="stat" cost="16" />
+      <observeElement name="defense" cost="10" />
+      <observeElement name="work_r" cost="6" />
+      <observeElement name="work_w" cost="6" />
+      <observeElement name="work_b" cost="6" />
+      <observeElement name="work_p" cost="6" />
+      <observeElement name="care_0" cost="8" />
+      <observeElement name="care_1" cost="8" />
+    </observeInfo>
+    <observeBonus level="1" type="prob">1</observeBonus>
+    <observeBonus level="2" type="speed">1</observeBonus>
+    <observeBonus level="3" type="prob">1</observeBonus>
+    <observeBonus level="4" type="speed">1</observeBonus>
+    <equipment level="4" cost="50" equipId="226775" />
+    <!--<equipment level="4" cost="10000" equipId="" />
+    <equipment level="4" prob="0.01" equipId="" />-->
+  </stat>
+  <graph>
+    <node id="creature" x="-1.8" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/GoutAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+</creature>

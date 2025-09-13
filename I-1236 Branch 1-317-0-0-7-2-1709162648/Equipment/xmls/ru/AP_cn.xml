@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="ChP_weapon_name">Красота технологий</text>
+  <text id="ChP_weapon_desc">Дети, шатаясь, добывали мир.</text>
+  <text id="ChP_weapon_specialDesc">Накопившиеся раны. Они могут причинить боль.</text>
+  <text id="ChP_armor_desc">Дети, ищущие, строят мир.</text>
+  <text id="ChP_armor_specialDesc">У меня есть чрезвычайно изысканный особый эффект, но, к сожалению, здесь слишком мало места, чтобы я мог писать.</text>
+  
+  <text id="SpMa_armor_name">Черная жидкость</text>
+  <text id="SpMa_armor_desc">Бутылки с душой вокруг меня могли разбиться в любой момент, и черная жидкость выплеснулась бы наружу.</text>
+  <text id="SpMa_armor_specialDesc">Чем меньше сотрудников находится в комнате с носителем, тем выше защита от БЕЛОГО урона</text>
+  
+</localize>

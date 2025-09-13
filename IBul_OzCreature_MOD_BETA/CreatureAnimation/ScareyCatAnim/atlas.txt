@@ -1,0 +1,90 @@
+
+ScaredyCat.png
+size: 543,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+감은 오른쪽 눈
+  rotate: false
+  xy: 398, 19
+  size: 91, 46
+  orig: 91, 46
+  offset: 0, 0
+  index: -1
+감은 왼쪽 눈
+  rotate: true
+  xy: 399, 67
+  size: 103, 52
+  orig: 103, 52
+  offset: 0, 0
+  index: -1
+꼬리
+  rotate: false
+  xy: 291, 172
+  size: 146, 121
+  orig: 149, 121
+  offset: 0, 0
+  index: -1
+눈동자
+  rotate: false
+  xy: 491, 45
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+뒷다리
+  rotate: true
+  xy: 372, 295
+  size: 226, 145
+  orig: 226, 145
+  offset: 0, 0
+  index: -1
+머리
+  rotate: false
+  xy: 2, 7
+  size: 287, 287
+  orig: 287, 288
+  offset: 0, 0
+  index: -1
+몸통
+  rotate: false
+  xy: 2, 296
+  size: 368, 225
+  orig: 368, 226
+  offset: 0, 1
+  index: -1
+오른쪽 눈
+  rotate: false
+  xy: 291, 81
+  size: 106, 89
+  orig: 106, 89
+  offset: 0, 0
+  index: -1
+오른쪽 다리
+  rotate: false
+  xy: 453, 118
+  size: 85, 78
+  orig: 85, 78
+  offset: 0, 0
+  index: -1
+왼쪽 눈
+  rotate: false
+  xy: 439, 198
+  size: 102, 95
+  orig: 102, 95
+  offset: 0, 0
+  index: -1
+왼쪽 다리
+  rotate: false
+  xy: 291, 2
+  size: 105, 77
+  orig: 105, 77
+  offset: 0, 0
+  index: -1
+코
+  rotate: false
+  xy: 453, 72
+  size: 67, 44
+  orig: 67, 44
+  offset: 0, 0
+  index: -1

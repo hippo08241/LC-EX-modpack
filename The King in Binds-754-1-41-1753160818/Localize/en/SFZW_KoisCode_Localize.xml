@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+    <text id="SFZW_IsolateDisplay">*INVALID CONTAINMENT UNIT*</text>
+    <text id="SFZW_WorkType">Performance</text>
+    <text id="SFZW_WorkType_called">Performance Work</text>
+</localize>

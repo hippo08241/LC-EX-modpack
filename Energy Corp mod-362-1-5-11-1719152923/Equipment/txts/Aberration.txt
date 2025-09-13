@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <!-- strait jactket -->
+  <equipment id="100018" type="weapon">
+    <name></name>
+    <animation>Attack</animation>
+    <!--<damage type="R" min="3" max="5">-->
+    <damage type="R" min="3" max="5">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <range>3</range>
+    <script></script>
+    <splash type="penetration" />
+    <!--dummy For UI-->
+    <attackSpeed>4</attackSpeed>
+    <grade>S</grade>
+  </equipment>
+
+  <equipment id="200001" type="weapon">
+    <name>Matchgirl_weapon_name</name>
+    <no>Matchgirl_weapon_no</no>
+    <desc>Matchgirl_weapon_desc</desc>
+
+    <weaponClassType>cannon</weaponClassType>
+    <sprite>Cannon_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="20" max="30">
+      <soundInfo type="damage">Weapons/cannon</soundInfo>
+
+      <effectInfo type="damage">
+        <src>MatchgirlFire</src>
+        <pos>
+          <x>1.544</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+
+      <effectInfo type="damage">
+        <src>MatchgirlVictim</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+    <range>15</range>
+    <splash type="splash" range="4" />
+
+    <script>MatchgirlWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>5</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="300001" type="armor">
+    <name>Matchgirl_weapon_name</name>
+    <no>Matchgirl_armor_no</no>
+    <desc>Matchgirl_armor_desc</desc>
+
+    <armorId>5</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="400001" type="special">
+    <name>Matchgirl_weapon_name</name>
+    <desc>Matchgirl_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>4</hp>
+    </bonus>
+    <sprite>Mouth_0_1</sprite>
+  </equipment>
+  <equipment id="200011" type="weapon">
+    <name>Helper_weapon_name</name>
+    <no>Helper_weapon_no</no>
+    <desc>Helper_weapon_desc</desc>
+    <sprite>Helper</sprite>
+
+    <require type="R">2</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>HelperWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="1" max="3">
+      <soundInfo type="damage">Weapons/helper</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>HelperWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.6</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="300011" type="armor">
+
+    <name>Helper_weapon_name</name>
+    <no>Helper_armor_no</no>
+    <desc>Helper_armor_desc</desc>
+
+    <require type="W">2</require>
+
+    <armorId>2</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1.3</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+  <equipment id="400011" type="special">
+    <name>Helper_weapon_name</name>
+    <desc>Helper_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>4</workProb>
+      <cubeSpeed>4</cubeSpeed>
+    </bonus>
+    <sprite>Glass_2</sprite>
+  </equipment>
+  <equipment id="200016" type="weapon">
+    <name>Rudolph_weapon_name</name>
+    <no>Rudolph_weapon_no</no>
+    <desc>Rudolph_weapon_desc</desc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>Mace_Set_01_2</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="11" max="13">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <range>3</range>
+
+    <script>RudolphWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="300016" type="armor">
+
+    <name>Rudolph_weapon_name</name>
+    <no>Rudolph_armor_no</no>
+    <desc>Rudolph_armor_desc</desc>
+
+    <require type="R">2</require>
+
+    <armorId>8</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="400016" type="special">
+    <name>Rudolph_weapon_name</name>
+    <desc>Rudolph_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-4</hp>
+      <mental>8</mental>
+    </bonus>
+    <sprite>Hat_0_11</sprite>
+  </equipment>
+
+  <equipment id="200017" type="weapon">
+    <name>NamelessFetus_weapon_name</name>
+    <no>NamelessFetus_weapon_no</no>
+    <desc>NamelessFetus_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FetusWeapon</specialWeaponAnim>
+    <sprite>NamelessFetus</sprite>
+
+    <require type="R">2</require>
+    <require type="level">2</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="3" max="3">
+    </damage>
+    <range>10</range>
+
+    <script>NamelessFetusWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>0.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="300017" type="armor">
+
+    <name>NamelessFetus_weapon_name</name>
+    <no>NamelessFetus_weapon_no</no>
+    <desc>NamelessFetus_weapon_desc</desc>
+
+    <require type="B">3</require>
+
+    <armorId>57</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+
+  </equipment>
+  <equipment id="400017" type="special">
+    <name>NamelessFetus_weapon_name</name>
+    <desc>NamelessFetus_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>-2</hp>
+      <mental>-2</mental>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+    <sprite>Helmet_0_2</sprite>
+    <script>NamelessFetusGift</script>
+  </equipment>
+
+  <equipment id="200018" type="weapon">
+    <name>StraitJacket_weapon_name</name>
+    <no>StraitJacket_weapon_no</no>
+    <desc>StraitJacket_weapon_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>Hammer_Set_01_0</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+    <range>5</range>
+    <splash type="splash" range="2" />
+
+    <script>StraitJacketWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="300018" type="armor">
+
+    <name>StraitJacket_weapon_name</name>
+    <no>StraitJacket_armor_no</no>
+    <desc>StraitJacket_armor_desc</desc>
+
+
+    <armorId>12</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="400018" type="special">
+    <name>StraitJacket_weapon_name</name>
+    <desc>StraitJacket_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <mental>2</mental>
+    </bonus>
+    <sprite>Mouth_0_6</sprite>
+  </equipment>
+
+  <equipment id="200022" type="weapon">
+    <name>LadyLookingAtWall_weapon_name</name>
+    <no>LadyLookingAtWall_weapon_no</no>
+    <desc>LadyLookingAtWall_weapon_desc</desc>
+    <specialDesc>LadyLookingAtWall_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>bowgun</weaponClassType>
+    <sprite>BowGun_Set_01_0</sprite>
+
+    <require type="W">2</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="W" min="7" max="14">
+      <soundInfo type="damage">Weapons/bowgun</soundInfo>
+    </damage>
+    <range>20</range>
+    <splash type="penetration" />
+
+    <script>LadyLookingAtWallWeapon</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="300022" type="armor">
+
+    <name>LadyLookingAtWall_weapon_name</name>
+    <no>LadyLookingAtWall_armor_no</no>
+    <desc>LadyLookingAtWall_armor_desc</desc>
+
+
+    <armorId>14</armorId>
+
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="200035" type="weapon">
+    <name>LongBird_weapon_name</name>
+    <no>LongBird_weapon_no</no>
+    <desc>LongBird_weapon_desc</desc>
+    <sprite>LongBird</sprite>
+
+    <require type="level">5</require>
+    <require type="P">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <!--패턴 1-->
+    <damage type="P" min="2" max="4">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+
+
+    <!--패턴 2-1  사운드 때문에 분리-->
+    <damage type="P" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+
+    <!--패턴 2-2-->
+    <damage type="P" min="2" max="4">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <range>4</range>
+    <splash type="penetration" />
+
+    <script>LongBirdWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+  <equipment id="300035" type="armor">
+
+    <name>LongBird_weapon_name</name>
+    <no>LongBird_armor_no</no>
+    <desc>LongBird_armor_desc</desc>
+
+    <require type="P">5</require>
+    <require type="level">5</require>
+
+    <armorId>4</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+  <equipment id="400035" type="special">
+    <name>LongBird_weapon_name</name>
+    <desc>LongBird_gift_Desc</desc>
+    <sprite>Glass_3</sprite>
+
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+  </equipment>
+
+  <equipment id="200036" type="weapon">
+    <name>Cosmos_weapon_name</name>
+    <no>Cosmos_weapon_no</no>
+    <desc>Cosmos_weapon_desc</desc>
+    <specialDesc>Cosmos_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>Spear_Set_01_1</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="5" max="9">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <script>CosmosWeapon</script>
+    <maxNum>3</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="300036" type="armor">
+
+    <name>Cosmos_weapon_name</name>
+    <no>Cosmos_armor_no</no>
+    <desc>Cosmos_armor_desc</desc>
+
+    <armorId>3</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="400036" type="special">
+    <name>Cosmos_weapon_name</name>
+    <desc>Cosmos_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>2</workProb>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Brooch_0_1</sprite>
+  </equipment>
+  <equipment id="200047" type="weapon">
+    <name>Shark_armor_name</name>
+    <no>Shark_armor_no</no>
+    <desc>Shark_weapon_desc</desc>
+
+    <require type="R">2</require>
+    <require type="level">3</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SharkWeapon</specialWeaponAnim>
+    <sprite>Shark</sprite>
+
+    <animation>Attack1</animation>
+
+    <!--첫번째 데미지 사운드용-->
+    <damage type="W" min="2" max="4">
+      <soundInfo type="damage">Weapons/Shark</soundInfo>
+      <effectInfo type="damage">
+        <src>SharkWeaponEffect</src>
+        <pos>
+          <x>1.044</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="2" max="4">
+    </damage>
+
+    <range>10</range>
+
+    <script>SharkWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="300047" type="armor">
+
+    <name>Shark_armor_name</name>
+    <no>Shark_armor_no</no>
+    <desc>Shark_armor_desc</desc>
+
+    <require type="level">2</require>
+    <require type="B">2</require>
+
+    <armorId>33</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="400047" type="special">
+    <name>Shark_armor_name</name>
+    <desc>Shark_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <mental>6</mental>
+    </bonus>
+    <sprite>Mouth_0_3</sprite>
+  </equipment>
+
+  <equipment id="200054" type="weapon">
+    <name>Bunny_armor_name</name>
+    <no>Bunny_armor_no</no>
+    <desc>Bunny_armor_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>Hammer_Set_01_3</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+    <range>5</range>
+    <splash type="splash" range="2" />
+
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="300054" type="armor">
+
+    <name>Bunny_armor_name</name>
+    <no>Bunny_armor_no</no>
+    <desc>Bunny_armor_desc</desc>
+
+    <armorId>37</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="400054" type="special">
+    <name>Bunny_armor_name</name>
+    <desc>Bunny_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>5</hp>
+    </bonus>
+    <sprite>Mouth_0_2</sprite>
+  </equipment>
+</equipment_list>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>
+  <!--UI-->
+  <text id="Rabbit_Manual_Title">-R社第4群取扱説明書-</text>
+  <text id="Rabbit_Manual_Day">1.R社第4群は1日1回呼び出し可能です。</text>
+  <text id="Rabbit_Manual_MaxSefira">2.第4群は同時に最大4部門まで呼び出し可能です。</text>
+  <text id="Rabbit_Manual_MaxCount">3.ウサギとトナカイは最大32頭、サイは最大16頭呼び出されます。</text>
+  <text id="Rabbit_Manual_Cost">4.呼び出した部門ごとに、現在集めたエネルギーの25%を支払います。3チームすべてを呼び出す場合は、現在集めたエネルギーの30%を支払うことになります。</text>
+  <text id="Rabbit_Manual_Command">5.R社第4群が呼ばれた部門では、管理人ではなく第4群がすべての指揮権を持ちます。</text>
+  <text id="Rabbit_Manual_Clear">6.呼び出された部門にすべての敵対個体が消滅すると、R社第4群は自動撤退します。</text>
+  <text id="Rabbit_Manual_Panic">-第4群が呼ばれた部門は封鎖され、残っていた職員はすぐにパニックに陥ります。</text>
+</localize>

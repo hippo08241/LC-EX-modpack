@@ -1,0 +1,16 @@
+  "events": [
+    "AtkEvent": {
+      
+    },
+    "EatEvent": {
+      
+    }
+  ],
+
+
+"events": [
+        {
+          "time": 1,
+          "name": "AtkEvent"
+        }
+      ],

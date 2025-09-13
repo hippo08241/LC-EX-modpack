@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>Command Macro Mod</name>
+<descs>
+<desc>A mod that commands repeating the Abnormality task</desc>
+<desc>The macro is activated when a task is commanded while holding down the shift key, and when the task cooldown ends, the activated agent automatically executes the task again.</desc>
+<desc>If you give other commands to the agent, such as movement, suppression, etc., the macro will be disabled.</desc>
+</descs>
+</info>

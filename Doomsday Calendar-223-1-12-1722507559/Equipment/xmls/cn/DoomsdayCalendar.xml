@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DoomsdayCalendar_weapon_name">迫近之日</text>
+<text id="DoomsdayCalendar_armor_name">迫近之日</text>
+<text id="DoomsdayCalendar_gift_name">迫近之日</text>
+<text id="DoomsdayCalendar_gift_desc">精神值+8，生命值-4，工作成功率+5%</text>
+<text id="DoomsdayCalendar_armor_desc">这件ego胸前的骷髅头眼中空荡荡的，又好像盈满了对迫近之日的恐惧。&#13;&#10;但无尽的敬畏和祭祀真的能避开灾祸吗？&#13;&#10;制造灾祸的行为又怎样带来安宁？</text>
+<text id="DoomsdayCalendar_weapon_desc">让人感到恶寒的脸盘上沾着不知是谁的血液。&#13;&#10;据说被上面的刺挂到，就能在幻觉中看见世界的终焉。</text>
+<text id="DoomsdayCalendar_weapon_specialDesc">若攻击击杀目标则为该房间内的所有员工回复生命值，&#13;&#10;回复量为员工各自生命值上限的12%</text>
+</localize>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200165" type="weapon">
+    <name>ScytheClock_weapon_name</name>
+    <no>ScytheClock_weapon_no</no>
+    <desc>ScytheClock_weapon_desc</desc>
+    <specialDesc>ScytheClock_weapon_specialDesc</specialDesc>
+    <sprite>ScytheClock_weapon</sprite>
+
+    <require type="P">5</require>
+
+    <weaponClassType>hammer</weaponClassType>
+   
+
+    <animation>Attack1</animation>
+   
+
+    <damage type="P" min="3" max="7">
+      <soundInfo type="damage">Weapons/silent1</soundInfo>
+    </damage>
+
+    
+
+    <range>4</range>
+    <splash type="penetration"/>
+
+    <script>ScytheClockWeapon</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>3</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+  <equipment id="300165" type="armor">
+    <name>ScytheClock_weapon_name</name>
+    <desc>ScytheClock_armor_desc</desc>
+    <specialDesc>ScytheClock_armor_specialDesc</specialDesc>
+
+    <require type="P">5</require>
+
+    <armorId>66</armorId>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <script>ScytheClockArmor</script>
+
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+  <equipment id="400165" type="special">
+    <name>ScytheClock_weapon_name</name>
+    <desc>ScytheClock_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>3</mental>
+    </bonus>
+    <sprite>ScytheClock_gift</sprite>
+  </equipment>
+</equipment_list>

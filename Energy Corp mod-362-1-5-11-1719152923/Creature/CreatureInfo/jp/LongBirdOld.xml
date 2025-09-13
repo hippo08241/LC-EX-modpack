@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+<info id ="178809">
+<narration action="move">
+#0は作業プロセスを開始するために$0の収容室に向かっています。
+</narration>
+<narration action="start">
+[
+{古いことわざに次のようなものがあります。「どれだけ時間がかかっても、いつかはあなたを見つけてくれるでしょう。」}
+]
+</narration>
+<narration action="mid1">
+[
+{$0は決して焦りません。},
+{もしかしたら、すでにあなたの家にもあるかもしれません。}
+]
+</narration>
+<narration action="mid2">
+[
+{許しのない世界に生きる私たちは、救いの捧げ物として自分の魂を捧げます。},
+{人々は狡猾で、自分の魂を救うことができません。だからこそ、$0が私たちにやって来たのです。},
+{自分の罪を認識している人はほとんどいません。$0という天秤は、このことを認識するように導きます。}
+]
+</narration>
+<narration action="mid3">
+[
+{$0はかつて森の守護者でした。しかし、生き物を守ることに一心不乱に取り組んでいたため、最も重要なことの一つを忘れていました。},
+{今、森を支配するのは闇だけだ。}
+]
+</narration>
+</info>
+<observe level ="4">
+<collection>
+<codeNo openLevel ="0">O-02-62</codeNo>
+<portrait openLevel ="1">Sprites/Unit/creature/LongBird</portrait>
+<name openLevel ="1">長鳥</name>
+<name openLevel="2">屈折された長鳥</name>
+<name openLevel="3">屈折された審判鳥</name>
+<name openLevel="4">過去の審判鳥</name>
+<!--<riskLevel openLevel ="0">ZAYIN</riskLevel>-->
+<riskLevel openLevel ="1">HE</riskLevel>
+<openText>その天秤は、どんな小さな罪であっても見逃すことはありません。</openText>
+</collection>
+<desc id="1" openLevel="0">
+[
+{不釣り合いな天秤を持ち、暗い森の中で生きる者を裁いていた鳥。}
+]
+</desc>
+<desc id="2" openLevel="1">
+[
+{天秤は常に同じ方向に傾いているが、目が覆われているのでそれが分からない。あるいは、この真実から目を背けているのかもしれません。}
+]
+</desc>
+<desc id="3" openLevel="2">
+[
+{実際、この鳥はかつては公平な裁判官でした。その秤は、どんな小さな罪であっても見逃すことはありません。}
+]
+</desc>
+<desc id="4" openLevel="2">
+[
+{長鳥は、森の平和を維持するために、あらゆる罪を量ることができる天秤を作りました。}
+]
+</desc>
+<desc id="5" openLevel="3">
+[
+{ある時点で、鳥の目は何でも見通すことができました。その目はいつも夜空の星のように輝いていました。しかし森を守るために大鳥に目を譲った。今、その眼窩を埋めるのは虚空だけです。}
+]
+</desc>
+<desc id="6" openLevel="3">
+[
+{包帯は今にも切れそうなボロボロ。鳥の顔はかつては光る羽毛で覆われていましたが、太陽の光が当たらない時間が長すぎたため、羽が抜け落ちてしまいました。}
+]
+</desc>
+<desc id="7" openLevel="4">
+[
+{残るのは不当な天秤だけだ。長い鳥は判断を下しながら進み続けます。}
+]
+</desc>
+<specialTipSize size="5">
+<specialTip openLevel="1" key="MoodZero">部門内のアブノーマリティーの作業結果が悪い場合、クリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="1" key="escape">職員が脱走したアブノーマリティに攻撃されると、即死する可能性がある。ペールタイプの耐性が低いほど確率が高くなる。</specialTip>
+<specialTip openLevel="1" key="MoodZero1">作業結果が普通の場合、通常の確率でクリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="1" key="MoodZero2">作業結果が悪い場合、高確率でクリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="2" key="escape2">$0はO-02-40とO-02-56の脱走に反応しなかった。</specialTip>
+</specialTipSize>
+</observe>
+</creature>

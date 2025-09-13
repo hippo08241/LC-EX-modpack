@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>E.G.O GIFT 천장 모드</name>
+<descs>
+<desc>E.G.O GIFT를 획득하지 못할 경우 다음 시도 확률을 올려줍니다.</desc>
+<desc>환상체별로 각각 적용되며, 환상체 관리에 따른 기분마다 확률 상승폭이 달라집니다.</desc>
+<desc>모드 폴더의 Settings.txt 파일 에서 배율을 조절할 수 있습니다.</desc>
+</descs>
+</info>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+ 
+  <info id ="126775">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar o trabalho.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 está tendo dificuldade para enxergar, sentindo dor nos olhos.},
+      {"Whoa!"}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Só de olhar para aquela forma dói...},
+      {É natural que objetos pontiagudos doam quando são esfaqueados dentro do corpo.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {De onde diabos continuamos tirando essas coisas?},
+      {É bem possível que #0 tenha gota só de olhar para $0.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 provavelmente deveria ir ao médico mais tarde. Provavelmente.},
+      {Tenha cuidado com sua dieta.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-267</codeNo>
+      <portrait openLevel ="1">Custom/GoutPain</portrait>
+
+      <name openLevel ="1">
+        Forma da Dor
+      </name>
+
+      <riskLevel openLevel ="1">
+       HE 
+      </riskLevel>
+
+      <openText>Eu nunca imaginei que meu corpo pudesse produzir algo assim...!</openText>
+
+    </collection>
+
+
+    <desc id="1" openLevel="0">
+      [
+      {"Que deformação dolorosa! Eu nunca soube que meu corpo poderia produzir algo assim...!"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Com os avanços atuais na medicina e na tecnologia, doenças como gota são facilmente curadas. Mas, se você não tem dinheiro suficiente para ser tratado... Você terá que continuar sofrendo...}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Mesmo que possa ser curado, ainda vai doer quando você contrair inicialmente. Ninguém quer passar por esse tipo de experiência, mas pode acontecer com qualquer um.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {A gota gerada por $0 é mais forte do que a doença normal, e parece se manifestar em todo o corpo. Foi o que disse um funcionário que teve a infelicidade de contraí-la. Em uma nota não relacionada, nós aqui na Lobotomy Corporation não oferecemos seguro saúde.}
+      ]
+    </desc>
+
+    <specialTipSize size="2">
+      <specialTip openLevel="0" key="0">Quando os resultados do trabalho eram ruins, o funcionário que trabalhava contraía gota. Quando os resultados do trabalho eram normais, o funcionário contraía gota com probabilidade normal.</specialTip>
+      <specialTip openLevel="1" key="1">Se os resultados do trabalho de repressão fossem bons, o funcionário era curado.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

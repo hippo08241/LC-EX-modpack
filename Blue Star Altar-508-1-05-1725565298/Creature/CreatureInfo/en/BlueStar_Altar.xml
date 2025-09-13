@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="27003">
+
+
+
+    <narration action="move">
+      #0 is on their way to $0’s Containment Unit to begin the work process.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {Aah... At last...! It’s calling for us at last!},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-93-01</codeNo>
+      <portrait openLevel ="1">Custom/BlueStar_Altar</portrait>
+
+      <name openLevel ="1">
+        Shrine to the Blue Star
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>We all return to that place some day. It’s an instinct.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {The Abnormality takes the form of a gray, stone statue, whose appearance is very similar to the documented Abnormality O-03-93.&#13;&#10; It was being used for ritual purposes in the depths of the facility before being seized and contained.}
+      ]
+    </desc>
+   <desc id="2" openLevel="2">
+      [
+      {Employees who have been exposed to this Abnormality have reported hearing odd, distant sounds, as if something was "calling" them.}
+      ]
+    </desc>
+   <desc id="3" openLevel="3">
+      [
+      {"It was terribly quiet in the containment unit. The alter just kept flashing this blue light, and I heard...&#13;&#10; I heard the endless... cries... calling out to me..."}
+      ]
+    </desc>
+   <desc id="4" openLevel="4">
+      [
+      {Employees with less than optimal mental states may begin to be affected by this "voice" and show abnormal behavioral patterns.&#13;&#10; Employees who have been more significantly affected may even begin to show physical changes as well.}
+      ]
+    </desc>
+  <desc id="5" openLevel="5">
+      [
+      {IMPORTANT NOTICE: Employees whose psychiatric evaluation results are less than 60% are not to be exposed to this Abnormality!}
+      ]
+    </desc>
+
+
+
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">The Abnormality will absorb the SP of the working employee as an offering. All employees in the facility who have less than 70% SP will recover SP at the same time.
+If O-03-93 is present in the facility, the recovery is doubled.</specialTip>
+      <specialTip openLevel="0" key="0">When less than 20 seconds of work time had taken place, or more than 40 seconds, the Abnormality will absorb all of the SP of the working employee in an instant.
+After, all employees in the department will heal 50 SP. Agents with Temperance or Prudence Level 4 or lower began to panic upon working with the Abnormality.</specialTip>
+      <specialTip openLevel="0" key="0">For every 50 SP absorbed by the Abnormality, the Qliphoth Counter increased by 1.</specialTip>
+      <specialTip openLevel="0" key="0">If an employee recovers more than 80 SP from the effects of this Abnormality, they will panic. This counter resets after a Qliphoth Meltdown occurs.</specialTip>
+      <specialTip openLevel="0" key="0">O-03-93-01 will escape when it has not been worked on for more than 130 seconds, or when the total number of employees put into a panic by this Abnormality esceeds five.
+When this happens, the Manager can choose to sacrifice an employee. After 5 successful sacrifices, O-03-93-01 will return to containment.</specialTip>
+    </specialTipSize>
+  </observe>
+	
+  <child>
+    <name>Shadow of the Star</name>
+    <codeId>O-03-93-01-1</codeId>
+  </child>
+
+</creature>

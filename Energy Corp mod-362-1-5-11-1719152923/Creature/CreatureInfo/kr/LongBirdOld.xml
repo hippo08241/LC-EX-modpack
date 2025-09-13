@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="178809">
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {우리의 오래된 속담 중엔 ‘심판의 새를 잊지 말라. 시간이 얼마가 걸리든 그것은 분명히 당신 앞을 찾아온다’ 라는 말이 있습니다.},
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {긴 새는 결코 조급해하지 않습니다. },
+      {어쩌면 지금 이미 당신의 집에 와있을지도 모릅니다. }
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {용서가 없는 세계에 살고 있는 우리는 영혼을 봉헌하여 구원을 바랍니다.},
+      {사람은 본래 간사하여 스스로의 영혼을 구제하지 못합니다. 그것이 긴새가 우리에게 온 이유입니다.}
+      {스스로의 허물을 깨닫는 자는 드뭅니다. 긴 새의 천칭은 이를 대신합니다.}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {긴 새는 숲의 파수꾼이었지만 숲을 지키고자 하는 마음이 너무나 강한 탓에 가장 중요한 것을 놓쳤습니다. },
+      {그 후 아주 어두운 밤만 계속되었습니다.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-02-62</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/LongBird</portrait>
+      <name openLevel ="1">긴 새</name>
+      <name openLevel="2">굴절된 심판 새</name>
+      <name openLevel="4">과거의 심판 새</name>
+      <!--<riskLevel openLevel ="0">ZAYIN</riskLevel>-->
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>그의 천칭은 항상 어떤 죄의 무게도 소홀히 여기지 않았다.</openText>
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {어두운 숲을 불공정한 저울을 들고 다니며 생물들을 심판하던 새다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {천칭은 항상 한 쪽으로만 기울지만 눈이 가려져 있기 때문에 그 사실을 알지 못한다. 어쩌면 외면하고 있는 걸지도 모른다. }
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {사실, 한 때 새는 공명정대한 심판자였다. 그의 천칭은 항상 어떤 죄의 무게도 소홀히 여기지 않았다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {긴 새는 숲에 평화를 지키기 위해 어떤 죄의 무게를 잴 수 있는 저울을 만들었다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {한 때 긴 새의 눈은 모든 것을 꿰뚫어볼 수 있었다. 새의 눈은 언제나 반짝였고 밤 하늘의 별처럼 불타올랐다. 하지만 숲을 지키기 위해 큰 새에게 눈을 바쳤다. 지금은 눈이 있어야 할 자리에 허공이 대신 자리 잡혀 있다. }
+      ]
+    </desc>
+
+    <desc id="6" openLevel="3">
+      [
+      {붕대는 곧 뜯어질 것처럼 너덜거린다. 이 역시 한 때 반짝이는 깃털들로 뒤덮여 있었지만 오랫동안 햇빛을 보지 않아서 깃털들도 사라졌다. }
+      ]
+    </desc>
+
+    <desc id="7" openLevel="4">
+      [
+      {이제 남은 것은 불공정한 천칭뿐이다. 긴 새는 여전히 심판을 멈추지 않는다. }
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="MoodZero">$0와 동일한 부서에 배치된 환상체의 작업 결과가 나쁨이 되자 $0의 클리포트 카운터가 감소했다.</specialTip>
+      <specialTip openLevel="1" key="escape">탈출한 $0에게 공격받은 직원은 확률적으로 즉사할 수 있다. Pale 속성의 피해에 취약한 직원일수록 확률이 증가하는 것으로 보인다.</specialTip>
+      <specialTip openLevel="1" key="MoodZero1">작업 결과가 보통일 때 보통 확률로 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="1" key="MoodZero2">작업 결과가 나쁨일 때 높은 확률로 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="2" key="escape2">$0는 O-02-40과 O-02-56의 탈출에 반응하지 않았다.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

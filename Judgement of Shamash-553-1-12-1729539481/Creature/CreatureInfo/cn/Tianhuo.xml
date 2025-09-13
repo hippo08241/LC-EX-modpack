@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="720000">
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-09-314</codeNo>
+
+      <portrait openLevel ="1">Custom/th</portrait>
+
+      <name openLevel ="1">
+        天火圣裁
+      </name>
+
+      <riskLevel openLevel ="1">WAW</riskLevel>
+
+      <openText>在燃烬的大地上，我向她，向所有人许下承诺，无论付出多少代价，人类一定会战胜崩坏！</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {该异想体是在一场天外陨石的事故中发现的经过公司破译
+发现了异想体的名字来历来自一个属崩坏的世界。
+由前文明纪元第七律者.炎之律者的律者核心制成的神之键，
+双枪形态的天火圣裁，主宰“炎”之力量，拥有最强大的破坏力。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {黑白相间的枪身，鎏金的枪管，赤色的律者核。
+心镶嵌在保险栓处。为了限制其威力，平时炎之律者的核心
+都被分成两块碎片，置于双枪之中。
+其第零额定功率，将双铳保险栓处的律者核心对接在一起，
+双枪伸展变形，构成剑柄，熔金般的高热烈焰冲天而起，凝聚成剑身。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {该使用方法被称之为天火出鞘，如天火圣裁之名所示，
+为万物带来平等的毁灭。
+大剑卷起的烈焰风暴，连帝王级崩坏兽都能消灭，但这份
+力量的代价也是沉重的，在释放天火出鞘时,会将使用者- -同烧成灰烬。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {天火圣裁的能量指数能超过150%后，其将解除界限，
+变化成名为劫灭形态的异型大剑。
+宛如破坏神的化身降世，恒星入灭时爆发的光芒才能与其争辉，
+是谓"劫灭”之意的由来。唯有超越凡人的躯体，才能承受这无尽的毁灭力量。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {到公司破译到最后只看到了一句话：在燃烬的大地上，
+我向她，向所有人许下承诺，无论付出多少代价，人类一定会战胜崩坏！}
+      ]
+    </desc>
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">该异想体似乎拥有着强大的力量</specialTip>
+      <specialTip openLevel="2" key="2">该异想体可以燃烧员工生命力造成巨额伤害。</specialTip>
+      <specialTip openLevel="3" key="3">经过试验当同一个员工当天使用第二次天火时会离奇死亡。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

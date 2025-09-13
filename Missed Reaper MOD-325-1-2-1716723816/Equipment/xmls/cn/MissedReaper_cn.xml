@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">思念</text>
+  <text id="MissedReaper_weapon_desc">“如果能再看到孩子的脸，再握住一次他们的手就好了……”</text>
+  <text id="MissedReaper_weapon_specialDesc">员工必须拥有E.G.O. 饰品“思念”，才能挥舞这件武器。&#13;&#10;自动攻击设施中的敌对单位。</text>
+  <text id="MissedReaper_armor_name">思念</text>
+  <text id="MissedReaper_armor_desc">那些离开的人再也没有回来。&#13;&#10;多希望我当时能说些什么啊……&#13;&#10;&#13;&#10;当时如果说“很抱歉松开你的手”并且道歉就好了，即便这毫无意义。</text>
+  <text id="Reaper_gift">思念</text>
+  <text id="Reaper_desc">最大精神值+6 &#13;&#10;“我很想你。”</text>
+</localize>

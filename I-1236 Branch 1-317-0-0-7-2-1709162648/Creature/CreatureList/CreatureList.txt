@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+  <creature name="AgentP" src="AgentP" id="142017">
+    <stat>AgentP_stat</stat>
+  </creature>
+  <creature name="SpillingMalice" src="SpillingMalice" id="142018">
+    <stat>SpillingMalice_stat</stat>
+  </creature>
+  <creature name="UnconnectedChild" src="Unconnected" id="142019">
+    <stat>Unconnected_stat</stat>
+  </creature>
+  <creature name="UnCDummy" src="UnCDummy" id="342019">
+    <stat>UnCDummy_stat</stat>
+  </creature>
+</creature_list>

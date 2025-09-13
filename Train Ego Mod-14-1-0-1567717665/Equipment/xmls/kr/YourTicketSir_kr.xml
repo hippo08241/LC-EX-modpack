@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Train_equip_name">지옥행 검표원</text>
+<text id="Train_gift_name">티켓 좀 보여주시겠습니까?</text>
+<text id="Train_gift_desc">정신력 -2, 작업 성공률 +5, 작업 속도 +10, 공격 대상의 이동속도 일정 시간 감소</text>
+<text id="Train_armor_desc">모름지기 전문가라면 그에 걸맞는 의상을 갖추어야 한다. 전문가의 의복에는 겉모습뿐만 아니라 실용성 또한 중요한 요소이다. 이 제복은 열차에 새로이 탑승하는 승객과 부딪힐 때의 충격을 완화해 줌과 동시에 검표원으로서의 품위를 완성시킨다.</text>
+<text id="Train_armor_specialDesc">몸과 마음을 뒤흔드는 우렁찬 기적 소리와 함께 열차가 지나간다.</text>
+<text id="Train_weapon_desc">절대 감기지 않는 눈이 달린 장갑. 열차에 탄 승객이 행여나 떨어지지 않도록 세게 움켜잡는다. 지옥을 오가는 열차의 승무원은 거친 손으로 몸과 마음을 부여잡고 침식을 막아낸다.</text>
+<text id="Train_weapon_specialDesc">보호막 전개 시 모든 BLACK 피해 흡수</text>
+</localize>

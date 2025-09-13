@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 2720,1332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+기포1
+  rotate: false
+  xy: 1933, 628
+  size: 740, 702
+  orig: 742, 704
+  offset: 1, 1
+  index: -1
+기포2
+  rotate: false
+  xy: 2, 2
+  size: 1218, 1328
+  orig: 1220, 1330
+  offset: 1, 1
+  index: -1
+기포3
+  rotate: true
+  xy: 1222, 6
+  size: 572, 644
+  orig: 574, 646
+  offset: 1, 1
+  index: -1
+기포4
+  rotate: true
+  xy: 2340, 240
+  size: 386, 378
+  orig: 388, 380
+  offset: 1, 1
+  index: -1
+기포5
+  rotate: false
+  xy: 1868, 12
+  size: 470, 566
+  orig: 472, 568
+  offset: 1, 1
+  index: -1
+기포6
+  rotate: false
+  xy: 1222, 580
+  size: 709, 750
+  orig: 711, 752
+  offset: 1, 1
+  index: -1

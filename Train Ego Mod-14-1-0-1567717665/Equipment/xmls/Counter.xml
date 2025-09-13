@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<translation>
+  <en>
+    <math>"...{0}, add {1}. {2}..."</math>
+    <thanks>"...Thank you for being a recurring patron..."</thanks>
+  </en>
+  <kr>
+    <math>"...{0}장, 거기에 {1}장. {2}장..."</math>
+    <thanks>"...항상 이용해 주셔서 감사합니다..."</thanks>
+  </kr>
+  <es>
+    <math>"...{0}, con {1} más. {2}..."</math>
+    <thanks>"...Gracias por ser un cliente frecuente..."</thanks>
+  </es>
+</translation>

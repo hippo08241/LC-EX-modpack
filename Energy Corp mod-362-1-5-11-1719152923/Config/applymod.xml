@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod>
+ <addIsolate>false</addIsolate>
+
+ <tt05>true</tt05>
+
+ <energyRefine>false</energyRefine>
+
+ <isolateRandomize>false</isolateRandomize>
+
+ <overloadPlus>true</overloadPlus>
+
+ <aberration>false</aberration>
+
+ <centralStair>false</centralStair>
+
+ <languageCompatibility>true</languageCompatibility>
+</mod>

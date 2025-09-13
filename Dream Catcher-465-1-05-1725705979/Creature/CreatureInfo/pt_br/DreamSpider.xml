@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="200676">
+
+
+
+    <narration action="move">
+      #0 é atribuído à unidade de contenção "$0".
+    </narration>
+    <narration action="start">
+      [
+      {"$0" nasceu de um pesadelo e precisa comer sonhos para sobreviver. Yuanzhong.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {"$0" esperou em silêncio, sem demonstrar intenção de atacar.},
+      {"Meu querido, que você tenha bons sonhos no meu teia."},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Os oito olhos de "$0" olharam para #0 gentilmente, revelando uma espécie de amor maternal.},
+      {Se o sonho é tão lindo, por que se preocupar em acordar?},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 sentiu o estranho aroma emitido pela teia de aranha, que os fez sentir sonolentos.},
+      {Aqueles que cobiçam a beleza do momento ficarão presos nessa teia de aranha suave para sempre.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 não conseguiu controlar o sono, deitou-se na teia de aranha macia e caiu em um sono profundo.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-02-676</codeNo>
+      <portrait openLevel ="1">Custom/DreamSpider_portrait</portrait>
+
+      <name openLevel ="1">
+        Apanhador de Sonhos
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>Venha aqui, deite-se na minha rede e tenha uma boa noite de sono</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {"Você está cansado? Como foi seu dia? Correu bem?"
+
+Essa anormalidade parece uma aranha gigante. Ela fica pendurada no teto, e seus oito olhos estão sempre observando os funcionários entrando e saindo. Há teias de aranha rosa por toda a unidade de contenção. Essas teias de aranha exalam uma fragrância leve e parecem ter um forte efeito hipnótico. Vale a pena notar que, embora essas teias de aranha não sejam muito pegajosas, os funcionários que entraram em contato com as teias de aranha expressaram uma forte dependência, o que os torna relutantes em deixar as teias de aranha com as quais entraram em contato novamente.
+A maioria dos funcionários gosta dessa anormalidade. Para eles, essa anormalidade pode ajudá-los a melhorar sua insônia causada pela fadiga do trabalho e ingestão excessiva de café. Ao mesmo tempo, não demonstrou nenhuma agressão. Embora não haja vocalizações registradas dessa anormalidade, os funcionários que concluíram o trabalho alegaram ter ouvido uma voz feminina gentil e amável.
+"A mudança é um fato da vida e isso também passará."}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Os relatórios a seguir ilustram os perigos ocultos dessa anormalidade. A julgar apenas pela conclusão, devemos desistir de planejar atividades que dependem dela para aliviar o estado mental dos funcionários. Os gerentes de cada departamento são solicitados a revisar cuidadosamente o arquivo de áudio e seus anexos:
+
+&lt;Gravação de áudio KM-2426&gt;
+Conselheiro psicológico: Você sente algum desconforto agora?
+Kenny: O que há de errado? Eu me sinto muito bem agora. É a anormalidade mais branda que já encontrei. Embora pareça um pouco assustador, contanto que você realmente converse com ele, você encontrará a diferença entre ele e aqueles monstros.
+Conselheiro psicológico: Você ainda se lembra do que fez na unidade de detenção?
+Kenny: Claro, eu conversei com ele sobre muitas coisas, principalmente eu dizendo que ele estava ouvindo. Então eu parecia um pouco sonolento, então ele me convidou a deitar na rede e dormir. Sabe, eu também estava em pânico na hora, mas depois que acordei, ele ainda olhou para mim com ternura, sabe? Esse foi simplesmente o sonho mais tranquilo que tive em semanas.
+Conselheiro psicológico: Você ainda se lembra dos sonhos que teve?
+Kenny: Eu lembro... era como... Desculpe, não consigo lembrar.
+Conselheiro psicológico: Não importa. Se você sentir que algo está errado mais tarde, lembre-se de relatar para exame o mais rápido possível.
+Kenny: Ok, espero que não nos encontremos novamente. Toda vez que vejo você tão sério, fico com medo...
+
+"Dê a si mesmo mais sol. Você não precisa atender aos outros o tempo todo."}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Gravação de áudio KM-2435&gt;
+Conselheiro psicológico: Parece que seu status de trabalho recente não é muito bom.
+Kenny: Sim? Desculpe, tenho andado um pouco distraído ultimamente, talvez devido a alguma poluição mental.
+Conselheiro psicológico: De acordo com a ordem de turno, parece que você tem trabalhado em "T-02-676" com um pouco mais de frequência esta semana?
+Kenny: Sinto muito, mas você deve entender que, comparado a esses objetos anormais que podem matá-lo a qualquer momento, é simplesmente leve e ridículo. Lembro que, além de mim, há muitos funcionários correndo para trabalhar nisso. .
+Conselheiro psicológico: Percebi que você tem bocejado desde que entrou pela porta. Você está com problemas para dormir?
+Kenny: É um pouco. Tenho bebido muito café recentemente e não tenho dormido muito bem ultimamente. É por isso que me candidatei a trabalhar em "T-02-676" muitas vezes, certo? Quero tratar minha insônia.
+Conselheiro psicológico: Se você só tem insônia, posso lhe fornecer soluções mais eficazes.
+Kenny: Se você está me pedindo para trabalhar nessa ovelha inteligente...
+Conselheiro psicológico: Os funcionários são ativos preciosos dentro da empresa. Como posso deixar você fazer coisas tão arriscadas? Tenho alguns frascos de remédio aqui. Você deveria beber menos café e não tocar mais em álcool...
+
+"Não se preocupe, eu sempre estarei com você, então não desista mais de si mesmo, ok?"}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Gravação de áudio KM-2443&gt;
+Kenny: Eu sempre sinto... que algo está errado...
+Psicólogo: Você está bem?
+Kenny: Eu estou... bem... claro que estou bem... estou só... um pouco sonolento...
+Conselheiro Psicológico: Você descansou bem? Você parece muito mais magro do que antes. Os dados mostram que seu tempo de trabalho naquela aranha é muito maior do que o de outras Anormalidades...
+Kenny: Tão sonolento... Eu quero dormir... Eu quero sonhar...
+Conselheiro: Você está ouvindo?
+Kenny: Deixe-me dormir... deixe-me dormir! Deixe-me dormir!!
+
+O funcionário de repente ficou violento e atacou o conselheiro psicológico e quebrou o monitor. Foi descoberto que seu estado mental estava muito frágil e seu nível de saúde declinou exponencialmente.
+
+"Venha aqui, deite-se na minha rede e tenha uma boa noite de sono."}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Anexado ao arquivo havia uma foto... Ela mostrava um funcionário cadavérico deitado em uma unidade de contenção com um sorriso, uma teia de aranha rosa, uma aranha enorme pendurada no ar e oito olhos fixos na direção da vigilância.
+
+"Boa noite, meu querido, que você tenha bons sonhos."}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">"$0" consumirá níveis correspondentes de sanidade quando o funcionário deixar a unidade de contenção com base nos resultados do trabalho.</specialTip>
+      <specialTip openLevel="1" key="1">Se a quantidade de sanidade consumida por "$0" atingir o limite, seu contador Qliphoth será aumentado.</specialTip>
+      <specialTip openLevel="2" key="2">Funcionários cujo nível de fortitude for menor que o nível 4 ficarão deitados na teia incontrolavelmente após entrarem na unidade de contenção de "$0". Então "$0" cairá e começará a comer o funcionário.</specialTip>
+      <specialTip openLevel="3" key="3">Quando o contador Qliphoth de "$0" atinge seu valor máximo, seu contador Qliphoth será imediatamente zerado, atraindo certos funcionários para sua unidade de contenção para uma refeição deliciosa.</specialTip>
+      <specialTip openLevel="4" key="4">Quando o contador Qliphoth de "$0" chegar a zero, cada funcionário que entrar em sua unidade de contenção será seduzido pela seda macia da aranha, deitada na teia e poderá ser comida por "$0".</specialTip>
+
+    </specialTipSize>
+  </observe>
+</creature>

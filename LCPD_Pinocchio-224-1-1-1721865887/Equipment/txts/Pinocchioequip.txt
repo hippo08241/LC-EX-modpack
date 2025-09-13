@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list> 
+<equipment id="110521" type="weapon">
+    <name>Pinocchio_weapon_name</name>
+    <desc>Pinocchio_weapon_desc</desc>
+    <specialDesc>Pinocchio_weapon_sp_Desc</specialDesc>
+
+
+    <weaponClassType>special</weaponClassType>
+
+    <sprite>DangoCreature_PinocchioWeapon</sprite>
+    <specialWeaponAnim>BossBirdWeapon_Pinocchio</specialWeaponAnim>
+    <animation>Attack_01</animation>
+    <animation>Attack_02</animation>
+
+    <require type="R">3</require>
+    <require type="P">3</require>
+
+     <damage type="R" min="7" max="8">
+    </damage>
+   <damage type="R" min="15" max="20">
+    </damage>
+    <range>4</range>
+
+
+    <script>PinocchioWeapon</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>4</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+<equipment id="110522" type="armor">
+    <name>Pinocchio_weapon_name</name>
+    <desc>Pinocchio_armor_desc</desc>
+    <specialDesc>Pinocchio_armor_sp_Desc</specialDesc>
+
+    <require type="R">3</require>
+    <require type="P">3</require>
+
+    <armorId>110522</armorId>
+
+    <defense>
+        <defenseElement type="R">1</defenseElement>
+        <defenseElement type="W">1</defenseElement>
+        <defenseElement type="B">1</defenseElement>
+        <defenseElement type="P">1</defenseElement>
+    </defense>
+    <script>PinocchioArmor</script>
+    <grade>3</grade>
+    <maxNum>1</maxNum>
+</equipment>
+
+ <equipment id="110523" type="special"> 
+    <name>Pinocchio_weapon_name</name>
+    <desc>Pinocchio_hat_desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>3</hp>
+      <cubeSpeed>2</cubeSpeed>
+    </bonus>
+    <sprite>Pinocchio_hat</sprite>
+  </equipment>
+</equipment_list>

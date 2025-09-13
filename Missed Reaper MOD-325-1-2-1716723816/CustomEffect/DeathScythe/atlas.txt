@@ -1,0 +1,41 @@
+
+skeleton.png
+size: 1869,1869
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/기프트 ㅎㅎ
+  rotate: true
+  xy: 860, 944
+  size: 65, 70
+  orig: 71, 77
+  offset: 3, 3
+  index: -1
+무기1
+  rotate: false
+  xy: 2, 860
+  size: 856, 1007
+  orig: 1500, 1500
+  offset: 166, 232
+  index: -1
+무기2
+  rotate: true
+  xy: 2, 2
+  size: 856, 1007
+  orig: 1500, 1500
+  offset: 166, 232
+  index: -1
+무기3
+  rotate: true
+  xy: 860, 1011
+  size: 856, 1007
+  orig: 1500, 1500
+  offset: 166, 232
+  index: -1
+무기4
+  rotate: false
+  xy: 1011, 2
+  size: 856, 1007
+  orig: 1500, 1500
+  offset: 166, 232
+  index: -1

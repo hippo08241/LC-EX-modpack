@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Hookah</script>
+  <stat>
+    <riskLevel>6</riskLevel>
+    <maxWorkCount>24</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <qliphoth>1</qliphoth>
+    <workCooltime>16</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>16</cube>
+      <cube>24</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="P" min="4" max="6" />
+    <workSpeed>0.3</workSpeed>
+   
+    <hp>900</hp>
+    <speed>2</speed>
+     <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="5" />
+      <observeElement name="care_1" cost="5" />
+      <observeElement name="care_2" cost="5" />
+      <observeElement name="care_3" cost="5" />
+      <observeElement name="care_4" cost="5" />
+      <observeElement name="care_5" cost="5" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+     <escapeable>true</escapeable>
+    <equipment level="4" cost="60" equipId="200410" />
+    <equipment level="4" cost="60" equipId="300410" />
+    <equipment level="3" prob="0.02" equipId="400410" />
+    <defense id="1">
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">0.3</defenseElement>
+    </defense>
+
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/HookahAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="default" src="creature/Yggdrasil/Tree_Default" />
+  <sound action="count" src="creature/nullthing/alertTick" />
+  <sound action="reload" src="creature/nullthing/SnipeReload" />
+  <sound action="shot" src="creature/nullthing/SnipeShot" />
+  <sound action="special" src="creature/AuthorNote/NoteBook_Start" />
+  <sound action="fin" src="creature/AuthorNote/NoteBook_Finish" />
+</creature>

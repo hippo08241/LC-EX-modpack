@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="819411" type="armor">
+    <name>SFZW_ArmorName_H</name>
+    <no>armor_no</no>
+    <desc>SFZW_ArmorDesc_H</desc>
+    <specialDesc>SFZW_ArmorSpeDesc_H</specialDesc>
+
+    <armorId>819411</armorId>
+
+    <defense>
+      <defenseElement type="R">1.0</defenseElement>
+      <defenseElement type="W">1.0</defenseElement>
+      <defenseElement type="B">1.5</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    
+    <script>SFZW_Armor_H</script>
+
+    <maxNum>3</maxNum>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="819412" type="armor">
+    <name>SFZW_ArmorName_W</name>
+    <no>armor_no</no>
+    <desc>SFZW_ArmorDesc_W</desc>
+    <specialDesc>SFZW_ArmorSpeDesc_W</specialDesc>
+
+    <armorId>819412</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    
+    <script>SFZW_Armor_W</script>
+
+    <maxNum>1</maxNum>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="819413" type="armor">
+    <name>SFZW_ArmorName_A</name>
+    <no>armor_no</no>
+    <desc>SFZW_ArmorDesc_A</desc>
+    <specialDesc>SFZW_ArmorSpeDesc_A</specialDesc>
+
+    <armorId>819413</armorId>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    
+    <script>SFZW_Armor_A</script>
+
+    <maxNum>1</maxNum>
+    <grade>5</grade>
+  </equipment>
+
+
+
+  <equipment id="819421" type="weapon">
+    <name>SFZW_WeaponName_Chui</name>
+    <desc>SFZW_WeaponDesc_Chui</desc>
+    <specialDesc>SFZW_WeaponSpeDesc_Chui</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_SFZWweaponAnim</specialWeaponAnim>
+    <sprite>Censored_SFZW_Chui</sprite>
+
+    <damage type="B" min="4" max="12">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <damage type="B" min="3" max="10">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <range>5</range>
+
+    <splash type="penetration"/>
+
+    <script>SFZW_Weapon_Chui</script>
+
+    <maxNum>1</maxNum>
+    <attackSpeed>1</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+  <equipment id="819422" type="weapon">
+    <name>SFZW_WeaponName_Dao</name>
+    <desc>SFZW_WeaponDesc_Dao</desc>
+    <specialDesc>SFZW_WeaponSpeDesc_Dao</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_SFZWweaponAnim</specialWeaponAnim>
+    <sprite>Censored_SFZW_Dao</sprite>
+
+    <damage type="B" min="4" max="15">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+    
+    <damage type="B" min="3" max="9">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+    
+    <damage type="B" min="5" max="18">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <range>5</range>
+
+    <script>SFZW_Weapon_Dao</script>
+
+    <maxNum>1</maxNum>
+    <attackSpeed>1</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+
+
+  <equipment id="819431" type="special"> 
+    <name>SFZW_GiftNameBodyUp</name>
+    <desc>SFZW_GiftDescBodyUp</desc> 
+    <attachPos>body_up</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_body_up</sprite>
+  </equipment>
+
+  <equipment id="819432" type="special"> 
+    <name>SFZW_GiftNameEye</name>
+    <desc>SFZW_GiftDescEye</desc> 
+    <attachPos>eye</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_eye</sprite>
+  </equipment>
+
+  <equipment id="819433" type="special"> 
+    <name>SFZW_GiftNameFace</name>
+    <desc>SFZW_GiftDescFace</desc> 
+    <attachPos>face</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_face</sprite>
+  </equipment>
+
+  <equipment id="819434" type="special"> 
+    <name>SFZW_GiftNameHair</name>
+    <desc>SFZW_GiftDescHair</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_hair</sprite>
+  </equipment>
+
+  <equipment id="819435" type="special"> 
+    <name>SFZW_GiftNameRibborn</name>
+    <desc>SFZW_GiftDescRibborn</desc> 
+    <attachPos>ribborn</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_ribborn</sprite>
+  </equipment>
+
+  <equipment id="819436" type="special"> 
+    <name>SFZW_GiftNameRightCheek</name>
+    <desc>SFZW_GiftDescRightCheek</desc> 
+    <attachPos>right_cheek</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_right_cheek</sprite>
+  </equipment>
+
+  <equipment id="819437" type="special"> 
+    <name>SFZW_GiftNameRightHand</name>
+    <desc>SFZW_GiftDescRightHand</desc> 
+    <attachPos>right_hand</attachPos> 
+    <attachType>replace</attachType>
+    <bonus>
+      <movement>-10</movement>
+    </bonus>
+    <sprite>theking_right_hand</sprite>
+  </equipment>
+
+  <equipment id="819438" type="special"> 
+    <name>SFZW_GiftNameHead</name>
+    <desc>SFZW_GiftDescHead</desc> 
+    <attachPos>head</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>8</hp>
+      <workProb>5</workProb>
+      <movement>-5</movement>
+    </bonus>
+    <sprite>theking_head</sprite>
+  </equipment>
+
+
+</equipment_list>

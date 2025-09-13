@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122222">
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+    <narration action="start">
+      [
+      {#0正在往透明的瓶子里看}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0被充满收容单元的香甜气味引起了食欲。},
+      {“$0”只是一瓶盐水，它没有任何反应。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-07-25</codeNo>
+      <portrait openLevel ="1">Custom/TearsBottle</portrait>
+
+      <name openLevel ="1">
+        泪水之瓶
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+      <openText>你会淹死在自己的眼泪里。</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {这是个被蛋糕堵住的透明瓶子，里面装满了盐水。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {员工芬恩咬了一口“$0”的蛋糕，“$0”破碎了，收容单元被水填满了。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {芬恩的身体一遍又一遍地变大变小。
+片刻后，收容单元的水全部消失，员工芬恩从收容单元里走了出来。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {离开收容单元的芬恩的心脏上依附着一颗破碎的心。
+贪恋“$0”的人会淹死在自己的眼泪里。}
+      ]
+    </desc>
+    
+     <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">对“$0”完成沟通工作后，PE-BOX的生产效率增加了。</specialTip>
+      <specialTip openLevel="2" key="2">对“$0”完成本能工作后，瓶子碎了，水突然填满了收容单元。</specialTip>
+      <specialTip openLevel="3" key="3">如果对“$0”进行本能工作的员工持有“$0”的饰品，那么“$0”将不会生产PE-BOX。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

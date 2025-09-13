@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="532460" type="special"> 
+    <name>FairyGentleman_gift_name</name>
+    <desc>FairyGentleman_gift_desc</desc> 
+    <attachPos>head</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>3</workProb>
+      <cubeSpeed>3</cubeSpeed>
+    </bonus>
+    <sprite>532460</sprite>
+  </equipment>
+  
+    <equipment id="532461" type="armor">
+    <name>FairyGentleman_weapon_name</name>
+    <desc>FairyGentleman_armor_desc</desc>
+
+    <armorId>532461</armorId>
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.9</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+
+  <equipment id="532462" type="weapon">
+
+    <name>FairyGentleman_weapon_name</name>
+    <desc>FairyGentleman_weapon_desc</desc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>532462</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="4" max="7">
+      <soundInfo type="damage">Weapons/slime</soundInfo>
+    </damage>
+
+    <range>4</range>
+
+    <maxNum>4</maxNum>
+
+    <attackSpeed>1</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+</equipment_list>

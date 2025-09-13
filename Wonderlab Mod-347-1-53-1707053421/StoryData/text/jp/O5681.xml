@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="joe_name">ジョー</text>
+  <text id="wonderlab_1_dialog_1">ああ…聞こえますか？</text>
+  <text id="wonderlab_1_dialog_2">こんにちは! 私はO-5681支部指揮チームのジョーと言う者です。</text>
+  <text id="wonderlab_1_dialog_3">事前に連絡させていただいたとおり、O-5681支部の管理者が死亡しました。</text>
+  <text id="wonderlab_1_dialog_4">O-5681支部で管理者を今すぐ採用できる環境ではありません、ですが現在、O-5681支部には管理室の支援がない招待では危険度の高いアブノーマリティがたくさん集まっています。</text>
+  <text id="wonderlab_1_dialog_5">よって、O-5681支部を運営する最小限のものを除く、全てのアブノーマリティを本部に移送する決定をすることになりました。</text>
+  <text id="wonderlab_1_dialog_6">手続きに倣い、アブノーマリティの識別コードをメールしましたので、確認してください。</text>
+  <text id="wonderlab_1_dialog_angelica">(O-5681支部との通信がとだえた)</text>
+  <text id="wonderlab_1_dialog_7">不思議そうな表情をしていますね？</text>
+  <text id="wonderlab_1_selection_1">本当に大丈夫なのか</text>
+  <text id="wonderlab_1_dialog_8">O-5681支部から来たアブノーマリティは、いずれも高いPE-Box生産量と強力なE.G.Oを生成できます。</text>
+  <text id="wonderlab_1_dialog_9">エネルギー生産量の効率は高まるばかりでしょう。</text>
+  <text id="wonderlab_1_dialog_10">その分、危険度も高くなります。あなたの予想通り、仕事が忙しくなる事は確実です。</text>
+  <text id="wonderlab_1_dialog_11">ですが……美しい花には棘がある、と言うでしょう？</text>
+  <text id="wonderlab_1_dialog_12">この言葉を肯定的に見ると、いばらの多い花は美しいと言えるでしょう。</text>
+  <text id="wonderlab_1_dialog_13">…サボテンに花が咲いたら、本当にきれいだと思いますよ。</text>
+</localize>

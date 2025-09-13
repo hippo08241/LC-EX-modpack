@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="233107" type="special"> 
+    <name>GirlInRain_gift_name</name>
+    <desc>GirlInRain_gift_desc</desc> 
+    <attachPos>head</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <sp>-4</sp>
+      <attackSpeed>8</attackSpeed>
+    </bonus>
+    <sprite>nvlangmaozi</sprite>
+  </equipment> 
+<equipment id="233109" type="special"> 
+    <name>GirlInRain_gift_name</name>
+    <desc>GirlInRain_gift_desc_2</desc> 
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <sp>4</sp>
+      <attackSpeed>2</attackSpeed>
+    </bonus>
+    <sprite>girMask</sprite>
+  </equipment> 
+
+
+    <equipment id="233101" type="armor">
+    <name>GirlInRain_weapon_nameA</name>
+    <desc>GirlInRain_armor_descA</desc>
+    <specialDesc>GirlInRain_armor_specialDescA</specialDesc>
+
+    <armorId>233101</armorId>
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+    <require type="B">4</require>
+    <require type="level">3</require>
+    <script>GirlInRainArmor</script>
+  </equipment>
+
+ <equipment id="233105" type="weapon">
+    <name>GirlInRain_weapon_nameA</name>
+    <desc>GirlInRain_weapon_descA</desc>
+    <specialDesc>GirlInRain_weapon_specialDescA</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_GirlInRainWeapon</specialWeaponAnim>
+    <sprite>FengYun_GirlInRainWeapon</sprite>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Attack3</animation>
+
+    <require type="B">4</require>
+    <require type="level">3</require>
+
+    <damage type="B" min="7" max="8">
+    </damage>
+    <damage type="B" min="7" max="8">
+    </damage>
+    <damage type="B" min="7" max="8">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+
+    <range>5</range>
+    <script>GirlInRainWeapon</script>
+    <maxNum>2</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+</equipment_list>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="210004" type="weapon"> 
+    <name>AdultTellLie_equip_name</name>
+    <no>Weapon_no</no>
+    <desc>AdultTellLie_weapon_desc</desc>
+    <specialDesc>AdultTellLie_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_AdultTellLie</specialWeaponAnim>
+    <sprite>Nothing_AdultTellLie</sprite>
+
+	<require type="R">5</require>
+	<require type="W">5</require>
+	<require type="B">5</require>
+	<require type="P">5</require>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="B" min="14" max="18">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+     <range>6</range>
+    <script>AdultTellLieWeapon</script> 
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.3</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+  <equipment id="310004" type="armor"> 
+    <name>AdultTellLie_equip_name</name>
+    <no>Armor_no</no>
+    <desc>AdultTellLie_armor_desc</desc>
+    <specialDesc>AdultTellLie_armor_specialDesc</specialDesc>
+    <armorId>1310004</armorId>
+	<require type="R">5</require>
+	<require type="W">5</require>
+	<require type="B">5</require>
+	<require type="P">5</require>
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <script>AdultTellLieArmor</script> 
+    <grade>5</grade> 
+    <maxNum>1</maxNum>
+  </equipment>
+  <equipment id="410004" type="special">
+    <name>AdultTellLie_equip_name</name>
+    <desc>AdultTellLie_gift_desc</desc> 
+    <attachPos>body_up</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>9</hp>
+      <mental>9</mental>
+      <cubeSpeed>9</cubeSpeed>
+      <workProb>9</workProb>
+      <movement>-5</movement>
+      <attackSpeed>-5</attackSpeed>
+    </bonus>
+    <sprite>AdultTellLie</sprite>
+  </equipment>
+</equipment_list>

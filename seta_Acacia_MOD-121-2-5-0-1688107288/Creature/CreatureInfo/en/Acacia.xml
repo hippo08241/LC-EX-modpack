@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101103">
+
+
+
+    <narration action="move">
+      #0 is on their way to $0’s Containment Unit to begin the work process.
+    </narration>
+    <narration action="start">
+      [
+      {$0 remember positive things, such as the sparks of love or the joy of doing a good deed, but she is too exhausted to do so.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {The price for loving the devil was too cruel.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {The bullet could hit anything, except for herself.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {he inverted cross around 0$'s neck was once the correct cross before.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0 says. "#0, do you believe in god? please do so. And don't be like me."}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-69-1</codeNo>
+      <portrait openLevel ="1">Custom/Acacia</portrait>
+
+      <name openLevel ="1">
+       Die Jägerbraut
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+      <openText>do you believe in god?</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {The Devil ultimately wished for despair.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Those who have reached the end meet nothing but the abyss named as Hell - like a gunman did.
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {There was one person. The one who was always positive with a bright smile. The devil saw despair from her deep inside and wanted to see her falling in despair, struggling. So he faked his love like human and ended up loving her sincerely - although it is doubtful to call it as love. The pure white Acacia flower, who fell in love with the devil, gradually lost her mind and eventually turned into black, being broken down by him.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Staring at her in his hand with a satisfied smile, the devil whispered to the blackened flower, "I shall give you a bullet that can hit anything". She shot herself in the head with the bullets she obtained from the contract with the devil, but in return, she had already fallen to hell and became herself as a devil. Unable to die for eternity, she now wanders through hell and delivers her faith in God to prevent the same fate of her from elsewhere. With the devil who made her to fall into the abyss. forever.}
+      ]
+    </desc>
+
+    
+    
+  <specialTipSize size="2">
+      <specialTip openLevel="1" key="1">With this Abnormality in the facility, the requesting cost of F-01-69 was reduced by half.</specialTip>
+      <specialTip openLevel="1" key="2">The Qliphoth Counter lowered when #0, whose Justice was lower than Level 3, completed work with $0.</specialTip>
+      <specialTip openLevel="1" key="3">When the work result was Bad, the Qliphoth Counter lowered with a high probability.</specialTip>
+      <specialTip openLevel="1" key="4">When the F-01-69 Abnormality is in the facility, the $0 Clipport counter becomes 0, F-01-69 willfully fired a bullet towards a random location.</specialTip>
+  </specialTipSize>
+
+  </observe>
+</creature>

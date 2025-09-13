@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="120001">
+
+    <narration action="move">
+       #0 Is on their way to “$0”s Containment Unit to begin the work process.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-10-06</codeNo>
+
+      <portrait openLevel ="1">Custom/ToyFactory</portrait>
+
+      <name openLevel ="1">
+        Toy Factory
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>A group of strangely dressed people came out of the containment box. &#13;&#10; They have tin cans on their heads and plastic bodies...</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {This is a shipping container that can undergo remodeling surgery.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {This container can safely and effectively strengthen the human body.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Although materials such as plastic and tin were mixed in for some reason after the transformation,&#13;&#10;But those who underwent surgery did not complain of discomfort.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Do you love your city?&#13;&#10;For those who answered "love", they are lucky.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {After five operations, the employee's body was completely crushed. &#13;&#10; They become more and more perfect, and the internal structure will continue to be repaired.&#13;&#10;They become real fighting machines!}
+      ]
+    </desc>
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Employees who enter this machine can increase all ability values.</specialTip>
+      <specialTip openLevel="2" key="2">The more time you use the machine, the higher the increase in ability value will be.</specialTip>
+      <specialTip openLevel="3" key="3">After five uses, the agent will be completely transformed.</specialTip>
+      <specialTip openLevel="4" key="4">Maybe that agent wasn't him anymore.&#13;&#10;If possible, please tell this factory: Do you love your city?</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>You Want To Get Beat? Hurtily?</name>
+    <codeId>T-04-10-06-A</codeId>
+  </child>
+
+</creature>

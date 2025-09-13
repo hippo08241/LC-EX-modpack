@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+    <text id="SFZW_ArmorName_H">孤王近侍</text>
+    <text id="SFZW_ArmorDesc_H">血红色的灯光辉映的大厅中，受王恩宠的侍者们来来往往……</text>
+    <text id="SFZW_ArmorSpeDesc_H">穿戴者每拥有一个“绷带”饰品，此护甲抗性提升0.1。</text>
+    <text id="SFZW_ArmorName_W">束缚王座</text>
+    <text id="SFZW_ArmorDesc_W">象征着权威与力量的王座一如既往。&#13;&#10;而王座之上的，是统御八方的无上君王，还是一个受尽约束的可怜虫？</text>
+    <text id="SFZW_ArmorSpeDesc_W">周期性为与自身处于同一区域的员工提供可以抵御侵蚀伤害的护盾，目标每&#13;&#10;拥有一个“绷带”饰品，获得的护盾值提高5%。
+当ego护甲“受缚者”的穿戴者坐上王座时，自身所有抗性将变为2.0&#13;&#10;且受到束缚，同时失去特殊效果。&#13;&#10;
+束缚：无法移动</text>
+    <text id="SFZW_ArmorName_A">受缚者</text>
+    <text id="SFZW_ArmorDesc_A">这些绳子既是绷带，也是枷锁……到底何时才能让我解放！！！</text>
+    <text id="SFZW_ArmorSpeDesc_A">穿戴本护甲并装配任意一件ego武器“束缚”时，若ego护甲 “束缚&#13;&#10;王座”的穿戴者与自身处于同一区域，则可以选择坐上王座。&#13;&#10;
+坐上王座的员工无法移动，攻击范围扩大到整个设施且仅使用特殊攻击，员&#13;&#10;工无法主动选择攻击目标。&#13;&#10;
+处于王座上的员工将周期性获得全属性护盾，每拥有一个“绷带”饰品，护&#13;&#10;盾值提高10%。&#13;&#10;
+员工可以通过损失一定生命值主动脱离王座，每次脱离王座后需经过60秒&#13;&#10;方可再次登上王座。</text>
+
+    <text id="SFZW_WeaponName_Chui">束缚</text>
+    <text id="SFZW_WeaponDesc_Chui">我注定被束缚在这王座之上，独自统治……</text>
+    <text id="SFZW_WeaponSpeDesc_Chui">攻击造成范围伤害。&#13;&#10;
+有20%的概率使用特殊攻击。特殊攻击伤害范围扩大，命中时有使目标移&#13;&#10;动速度降低50％，持续5秒，同时有20%的概率将减速效果改为束缚。&#13;&#10;使用者每拥有一个“绷带”饰品，此概率提高10%。&#13;&#10;
+束缚：无法移动</text>
+    <text id="SFZW_WeaponName_Dao">束缚</text>
+    <text id="SFZW_WeaponDesc_Dao">你竟敢……挑战我的权威？！</text>
+    <text id="SFZW_WeaponSpeDesc_Dao">攻击无视目标0.1点抗性数值，使用者每拥有一个“绷带”饰品，此数值&#13;&#10;提高0.1。&#13;&#10;
+有20%的概率使用特殊攻击，特殊攻击命中时束缚目标一秒。&#13;&#10;
+束缚：无法移动</text>
+
+    <text id="SFZW_GiftNameBodyUp">绷带</text>
+    <text id="SFZW_GiftDescBodyUp">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameEye">绷带</text>
+    <text id="SFZW_GiftDescEye">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameFace">绷带</text>
+    <text id="SFZW_GiftDescFace">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameHair">绷带</text>
+    <text id="SFZW_GiftDescHair">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameRibborn">绷带</text>
+    <text id="SFZW_GiftDescRibborn">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameRightCheek">绷带</text>
+    <text id="SFZW_GiftDescRightCheek">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameRightHand">绷带</text>
+    <text id="SFZW_GiftDescRightHand">移动速度-10，受到受缚之王提供的护盾值大幅提升。</text>
+    <text id="SFZW_GiftNameHead">束缚王座</text>
+    <text id="SFZW_GiftDescHead">移动速度-5，生命值+8，工作成功率+5</text>
+
+</localize>

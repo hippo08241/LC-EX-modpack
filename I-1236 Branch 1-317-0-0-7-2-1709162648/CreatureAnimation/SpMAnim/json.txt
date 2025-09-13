@@ -1,0 +1,1392 @@
+{
+"skeleton": {
+	"hash": "l1t32E1bSlCo5Otnqgd+jx6lO6Y",
+	"spine": "3.8.75",
+	"x": -175.79,
+	"y": -22.66,
+	"width": 380.8,
+	"height": 308.8,
+	"images": "C:/Users/Amir/Documents/Tencent Files/519676794/FileRecv/MobileFile/images/",
+	"audio": "C:/Users/Amir/Documents/Tencent Files/519676794/FileRecv/MobileFile"
+},
+"bones": [
+	{ "name": "root", "x": 1.8, "y": 7.52, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "bone", "parent": "root", "x": 86.2, "y": 150.58 },
+	{ "name": "bone2", "parent": "root", "x": 74.67, "y": 287.57 },
+	{ "name": "bone3", "parent": "root", "x": 30.85, "y": 211 },
+	{ "name": "bone4", "parent": "root", "x": 0.41, "y": 261.74 },
+	{ "name": "bone5", "parent": "root", "x": -96.45, "y": 229.92 },
+	{ "name": "bone6", "parent": "root", "x": -111.67, "y": 155.19 },
+	{ "name": "bone7", "parent": "root", "x": 4.39, "y": 84.27 },
+	{ "name": "bone8", "parent": "root", "x": 19.15, "y": 53.65, "scaleX": 0.9654, "scaleY": 0.4534 },
+	{ "name": "bone9", "parent": "root", "x": 21.73, "y": 84.27, "scaleX": 0.4268, "scaleY": 0.4534 },
+	{ "name": "bone10", "parent": "root", "x": 11.44, "y": 76.09, "scaleX": 0.4268, "scaleY": 0.4534 },
+	{ "name": "bone11", "parent": "root", "x": -28, "y": 12.01 },
+	{ "name": "bone12", "parent": "root", "x": -52.96, "y": 20.47, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone13", "parent": "root", "x": 41.83, "y": 16.24, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone14", "parent": "root", "x": 48.87, "y": 22.08, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone15", "parent": "root", "x": 31.57, "y": 12.42, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone16", "parent": "root", "x": -21.19, "y": 9.1, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone17", "parent": "root", "x": -38.07, "y": 14.83, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone18", "parent": "root", "x": -36.02, "y": 93.51 },
+	{ "name": "bone19", "parent": "root", "x": 84.48, "y": 104.9 },
+	{ "name": "bone20", "parent": "root", "rotation": 4.51, "x": 31.36, "y": 91.31 },
+	{
+		"name": "bone21",
+		"parent": "root",
+		"rotation": 4.51,
+		"x": -6.58,
+		"y": 89.63,
+		"scaleX": 0.5559,
+		"scaleY": 0.594
+	},
+	{
+		"name": "bone22",
+		"parent": "root",
+		"rotation": 4.51,
+		"x": 39.66,
+		"y": 88.67,
+		"scaleX": 0.5559,
+		"scaleY": 0.594
+	},
+	{
+		"name": "bone23",
+		"parent": "root",
+		"rotation": 4.51,
+		"x": -47.86,
+		"y": 92.11,
+		"scaleX": 0.5559,
+		"scaleY": 0.594
+	},
+	{ "name": "bone24", "parent": "root", "x": -32.86, "y": 12.67, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone25", "parent": "root", "x": 47.06, "y": 18.45, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone26", "parent": "root", "x": -13.31, "y": 7.59, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone27", "parent": "root", "x": -43.62, "y": 14.31, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "bone28", "parent": "root", "x": -6, "y": 13.08, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "bone29", "parent": "root", "length": 120.97, "rotation": 178.67, "x": 57.46, "y": 17.02 },
+	{ "name": "bone30", "parent": "bone29", "length": 29.93, "rotation": -173.95, "x": 121.91, "y": -67.77 },
+	{ "name": "bone31", "parent": "bone29", "length": 25.49, "rotation": 175.79, "x": 85.23, "y": -70.93 },
+	{ "name": "bone32", "parent": "bone31", "x": 61.82, "y": -67.22 },
+	{ "name": "bone33", "parent": "bone32", "length": 32.77, "rotation": 7.42, "x": -31.6, "y": 67.84 },
+	{ "name": "bone34", "parent": "bone29", "length": 20.86, "rotation": 149.28, "x": 13.93, "y": -73.66 },
+	{ "name": "bone35", "parent": "bone29", "length": 76.49, "rotation": -78.08, "x": 120.72, "y": -0.9 },
+	{ "name": "bone36", "parent": "bone29", "length": 80.47, "rotation": -94.34, "x": 1.34, "y": -3.07 }
+],
+"slots": [
+	{ "name": "瓶子", "bone": "root", "attachment": "瓶子" },
+	{ "name": "内部液体", "bone": "bone29", "attachment": "内部液体" },
+	{ "name": "瓶子高光", "bone": "root", "attachment": "瓶子高光" },
+	{ "name": "液体", "bone": "root", "attachment": "液体" },
+	{ "name": "沸腾气泡", "bone": "bone18", "attachment": "沸腾气泡" },
+	{ "name": "沸腾气泡2", "bone": "bone20", "attachment": "沸腾气泡" },
+	{ "name": "沸腾气泡3", "bone": "bone21", "attachment": "沸腾气泡" },
+	{ "name": "沸腾气泡4", "bone": "bone22", "attachment": "沸腾气泡" },
+	{ "name": "沸腾气泡5", "bone": "bone23", "attachment": "沸腾气泡" },
+	{ "name": "气泡破裂", "bone": "bone18", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂3", "bone": "bone20", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂5", "bone": "bone21", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂7", "bone": "bone22", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂9", "bone": "bone23", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂2", "bone": "bone18", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂4", "bone": "bone20", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂6", "bone": "bone21", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂8", "bone": "bone22", "attachment": "气泡破裂" },
+	{ "name": "气泡破裂10", "bone": "bone23", "attachment": "气泡破裂" },
+	{ "name": "喷溅液体", "bone": "bone19", "attachment": "喷溅液体" },
+	{ "name": "气泡", "bone": "bone11", "attachment": "气泡2" },
+	{ "name": "气泡2", "bone": "bone12", "attachment": "气泡2" },
+	{ "name": "气泡8", "bone": "bone24", "attachment": "气泡2" },
+	{ "name": "气泡11", "bone": "bone27", "attachment": "气泡2" },
+	{ "name": "气泡3", "bone": "bone13", "attachment": "气泡2" },
+	{ "name": "气泡4", "bone": "bone14", "attachment": "气泡2" },
+	{ "name": "气泡10", "bone": "bone26", "attachment": "气泡2" },
+	{ "name": "气泡7", "bone": "bone17", "attachment": "气泡2" },
+	{ "name": "气泡6", "bone": "bone16", "attachment": "气泡2" },
+	{ "name": "气泡12", "bone": "bone28", "attachment": "气泡2" },
+	{ "name": "气泡9", "bone": "bone25", "attachment": "气泡2" },
+	{ "name": "气泡5", "bone": "bone15", "attachment": "气泡2" },
+	{ "name": "高光", "bone": "bone7", "attachment": "高光" },
+	{ "name": "高光2", "bone": "bone8", "attachment": "高光" },
+	{ "name": "高光4", "bone": "bone10", "attachment": "高光" },
+	{ "name": "高光3", "bone": "bone9", "attachment": "高光" },
+	{ "name": "玻璃碎片", "bone": "bone6", "attachment": "玻璃碎片" },
+	{ "name": "图层 5", "bone": "bone", "attachment": "图层 5" },
+	{ "name": "图层 4", "bone": "bone3", "attachment": "图层 4" },
+	{ "name": "图层 3", "bone": "bone5", "attachment": "图层 3" },
+	{ "name": "图层 2", "bone": "bone4", "attachment": "图层 2" },
+	{ "name": "图层 1", "bone": "bone2", "attachment": "图层 1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"沸腾气泡3": {
+				"沸腾气泡": { "x": -0.47, "y": -3.74, "width": 25, "height": 25 }
+			},
+			"沸腾气泡4": {
+				"沸腾气泡": { "x": -0.47, "y": -3.74, "width": 25, "height": 25 }
+			},
+			"沸腾气泡5": {
+				"沸腾气泡": { "x": -0.47, "y": -3.74, "width": 25, "height": 25 }
+			},
+			"气泡2": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡3": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡4": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡5": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡6": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡7": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"瓶子高光": {
+				"瓶子高光": { "x": 16.01, "y": 155.27, "width": 476, "height": 386 }
+			},
+			"气泡9": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"喷溅液体": {
+				"喷溅液体": { "x": -0.97, "y": -0.63, "width": 13, "height": 8 }
+			},
+			"沸腾气泡": {
+				"沸腾气泡": { "x": -0.47, "y": -3.74, "width": 25, "height": 25 }
+			},
+			"图层 1": {
+				"图层 1": { "x": 5.34, "y": 6.2, "width": 66, "height": 65 }
+			},
+			"图层 2": {
+				"图层 2": { "x": -5.9, "y": 5.03, "width": 45, "height": 53 }
+			},
+			"瓶子": {
+				"瓶子": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 254.01, -37.73, -221.99, -37.73, -221.99, 348.27, 254.01, 348.27 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 476,
+					"height": 386
+				}
+			},
+			"图层 4": {
+				"图层 4": { "x": -1.84, "y": 2.77, "width": 28, "height": 57 }
+			},
+			"图层 5": {
+				"图层 5": { "x": -1.19, "y": -1.31, "width": 66, "height": 62 }
+			},
+			"气泡破裂10": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡破裂": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"液体": {
+				"液体": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 254.01, -37.73, -221.99, -37.73, -221.99, 348.27, 254.01, 348.27 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 476,
+					"height": 386
+				}
+			},
+			"高光3": {
+				"高光": { "x": 0.12, "y": -0.5, "width": 5, "height": 7 }
+			},
+			"高光4": {
+				"高光": { "x": 0.12, "y": -0.5, "width": 5, "height": 7 }
+			},
+			"内部液体": {
+				"内部液体": {
+					"type": "mesh",
+					"uvs": [ 0.3687, 0.66057, 0.40185, 0.67022, 0.45845, 0.67352, 0.53572, 0.65943, 0.57382, 0.66066, 0.5954, 0.66734, 0.59884, 0.67678, 0.59877, 0.69983, 0.60261, 0.70862, 0.58917, 0.80525, 0.58832, 0.80905, 0.58831, 0.83674, 0.57908, 0.85379, 0.5693, 0.86502, 0.54213, 0.88383, 0.49223, 0.89643, 0.41328, 0.89642, 0.37967, 0.88608, 0.3332, 0.85566, 0.32863, 0.84457, 0.3201, 0.80148, 0.31874, 0.74312, 0.31135, 0.67566, 0.31929, 0.66555, 0.33408, 0.66053 ],
+					"triangles": [ 3, 8, 9, 8, 3, 7, 6, 7, 4, 4, 7, 3, 6, 4, 5, 10, 14, 15, 13, 14, 10, 12, 13, 10, 2, 3, 10, 11, 12, 10, 10, 3, 9, 2, 15, 16, 2, 16, 17, 10, 15, 2, 2, 17, 1, 1, 17, 20, 19, 20, 17, 0, 1, 21, 0, 21, 24, 1, 20, 21, 18, 19, 17, 23, 24, 22, 24, 21, 22 ],
+					"vertices": [ 1, 30, 16.76, 4.32, 1, 2, 30, 32.19, -0.68, 0.99891, 31, -4.56, -0.79, 0.00109, 1, 31, 22.38, 0.54, 1, 2, 33, 29.16, 5.17, 0.9864, 34, -11.83, -4.17, 0.0136, 2, 34, 3.8, 5.05, 0.88646, 36, 72.28, 12.24, 0.11354, 2, 34, 13.88, 8.32, 0.10071, 36, 70.73, 1.76, 0.89929, 1, 36, 67.26, -0.22, 1, 2, 34, 21.89, -1.46, 0.94406, 36, 58.41, -1.07, 0.05594, 2, 34, 25.23, -3.36, 0.42199, 36, 55.21, -3.22, 0.57801, 1, 36, 17.46, -0.54, 1, 1, 36, 15.96, -0.28, 1, 1, 36, 5.33, -1.34, 1, 4, 31, 86.25, -63.17, 0.00612, 33, 47.32, -70.49, 0.00434, 35, -23.47, -114.5, 0.00981, 36, -1.66, 2.39, 0.97974, 4, 31, 82.03, -67.94, 0.01706, 33, 42.53, -74.67, 0.0127, 35, -26.88, -109.12, 0.02757, 36, -6.43, 6.59, 0.94266, 4, 31, 69.86, -76.41, 0.05392, 33, 29.36, -81.5, 0.03821, 35, -31.63, -95.07, 0.09275, 36, -14.93, 18.75, 0.81512, 4, 31, 46.69, -83.55, 0.11887, 33, 5.46, -85.58, 0.06261, 35, -32.05, -70.83, 0.25758, 36, -22.12, 41.9, 0.56095, 4, 31, 9.28, -87.17, 0.12264, 33, -32.1, -84.34, 0.02932, 35, -25.14, -33.89, 0.63758, 36, -25.82, 79.3, 0.21045, 5, 30, 14.81, -82.86, 4.0E-5, 31, -7.03, -84.74, 0.07857, 33, -47.95, -79.83, 0.01265, 35, -18.27, -18.9, 0.80202, 36, -23.43, 95.61, 0.10672, 4, 31, -30.18, -75.18, 0.0014, 33, -69.68, -67.36, 1.1E-4, 35, -2.66, 0.68, 0.9969, 36, -13.93, 118.78, 0.00159, 1, 35, 1.94, 2.03, 1, 1, 35, 19.04, 2.97, 1, 2, 30, -9.55, -25.48, 0.06092, 35, 41.3, -0.54, 0.93908, 2, 30, -10.92, 0.76, 0.96134, 35, 67.54, -1.86, 0.03866, 2, 30, -6.83, 4.34, 0.99178, 35, 70.68, -6.3, 0.00822, 1, 30, 0.34, 5.69, 1 ],
+					"hull": 25,
+					"edges": [ 0, 48, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 38, 38, 40, 40, 42, 42, 44, 44, 46, 46, 48 ],
+					"width": 476,
+					"height": 386
+				}
+			},
+			"玻璃碎片": {
+				"玻璃碎片": { "x": 74.18, "y": -12.42, "width": 173, "height": 59 }
+			},
+			"气泡10": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡11": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡12": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡破裂7": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"高光": {
+				"高光": { "x": 0.12, "y": -0.5, "width": 5, "height": 7 }
+			},
+			"高光2": {
+				"高光": { "x": 0.12, "y": -0.5, "width": 5, "height": 7 }
+			},
+			"图层 3": {
+				"图层 3": { "x": 10.46, "y": 7.35, "width": 56, "height": 52 }
+			},
+			"气泡破裂2": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡破裂3": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡破裂4": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡破裂5": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡破裂6": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡8": {
+				"气泡": { "x": -0.99, "y": 0.26, "scaleX": 1.0012, "scaleY": 1.0012, "width": 12, "height": 12 },
+				"气泡2": {
+					"path": "气泡",
+					"x": -0.99,
+					"y": 0.26,
+					"scaleX": 1.0012,
+					"scaleY": 1.0012,
+					"width": 12,
+					"height": 12
+				}
+			},
+			"气泡破裂8": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"气泡破裂9": {
+				"气泡破裂": { "x": -0.15, "y": -1.74, "width": 38, "height": 25 }
+			},
+			"沸腾气泡2": {
+				"沸腾气泡": { "x": -0.47, "y": -3.74, "width": 25, "height": 25 }
+			}
+		}
+	}
+],
+"animations": {
+	"default": {
+		"slots": {
+			"瓶子高光": {
+				"color": [
+					{ "color": "ffffff74", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "color": "ffffff74" }
+				]
+			},
+			"气泡破裂7": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡破裂": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡破裂4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡12": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"高光": {
+				"color": [
+					{ "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂6": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡5": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 2.1667, "color": "ffffff00" }
+				]
+			},
+			"气泡5": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡破裂10": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡7": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				]
+			},
+			"气泡10": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8667, "color": "ffffff00" },
+					{ "time": 1.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.2, "color": "ffffffff" },
+					{ "time": 2.5333, "color": "ffffff00" }
+				]
+			},
+			"高光3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "color": "ffffff9c", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂8": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6333, "color": "ffffffff" },
+					{ "time": 1.9667, "color": "ffffff00" }
+				]
+			},
+			"气泡9": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"高光4": {
+				"color": [
+					{ "color": "ffffff9c", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1333, "color": "ffffff00" }
+				]
+			},
+			"气泡6": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂9": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"气泡4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8667, "color": "ffffff00" },
+					{ "time": 1.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.2, "color": "ffffffff" },
+					{ "time": 2.5333, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂5": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"高光2": {
+				"color": [
+					{ "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"气泡8": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6333, "color": "ffffffff" },
+					{ "time": 1.9667, "color": "ffffff00" }
+				]
+			},
+			"气泡11": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6333, "color": "ffffffff" },
+					{ "time": 1.9667, "color": "ffffff00" }
+				]
+			},
+			"喷溅液体": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "y": 21.81, "curve": 0.377, "c2": 0.61, "c3": 0.72 },
+					{ "time": 0.3, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6333, "curve": 0.242, "c3": 0.673, "c4": 0.69 },
+					{ "time": 2.6667, "y": 21.81 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "y": 16.36, "curve": 0.363, "c2": 0.44, "c3": 0.755 },
+					{ "time": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1333, "y": 25.89, "curve": 0.258, "c3": 0.619, "c4": 0.45 },
+					{ "time": 2.6667, "y": 16.36 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "y": 8.69, "curve": 0.359, "c2": 0.43, "c3": 0.756 },
+					{ "time": 0.8333, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.1667, "curve": 0.26, "c3": 0.618, "c4": 0.44 },
+					{ "time": 2.6667, "y": 8.69 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "y": 25.44, "curve": 0.348, "c2": 0.66, "c3": 0.682 },
+					{ "time": 0.0667, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4, "curve": 0.247, "c3": 0.729, "c4": 0.91 },
+					{ "time": 2.6667, "y": 25.44 }
+				]
+			},
+			"bone7": {
+				"translate": [
+					{},
+					{ "time": 1.3333, "y": -67.15 },
+					{ "time": 2.6667, "y": -81.66 }
+				]
+			},
+			"bone8": {
+				"translate": [
+					{},
+					{ "time": 1.3333, "y": -67.15 },
+					{ "time": 2.6667, "y": -81.66 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "time": 0.8333 },
+					{ "time": 2.1667, "y": -67.15 },
+					{ "time": 2.6667, "y": -81.66 }
+				]
+			},
+			"bone10": {
+				"translate": [
+					{},
+					{ "time": 1.3333, "y": -67.15 },
+					{ "time": 2.6667, "y": -81.66 }
+				]
+			},
+			"bone11": {
+				"translate": [
+					{ "time": 0.5, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.1667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.1667 }
+				]
+			},
+			"bone12": {
+				"translate": [
+					{ "time": 0.3, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.9667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.9667 }
+				]
+			},
+			"bone13": {
+				"translate": [
+					{ "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.6667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.6667 }
+				]
+			},
+			"bone14": {
+				"translate": [
+					{ "time": 0.8667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.5333, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.5333 }
+				]
+			},
+			"bone15": {
+				"translate": [
+					{ "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.6667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.6667 }
+				]
+			},
+			"bone16": {
+				"translate": [
+					{ "time": 1, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.6667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.6667 }
+				]
+			},
+			"bone17": {
+				"translate": [
+					{ "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.6667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.6667 }
+				]
+			},
+			"bone24": {
+				"translate": [
+					{ "time": 0.3, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.9667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.9667 }
+				]
+			},
+			"bone25": {
+				"translate": [
+					{ "time": 1, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.6667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.6667 }
+				]
+			},
+			"bone26": {
+				"translate": [
+					{ "time": 0.8667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.5333, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.5333 }
+				]
+			},
+			"bone27": {
+				"translate": [
+					{ "time": 0.3, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.9667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.9667 }
+				]
+			},
+			"bone28": {
+				"translate": [
+					{ "time": 1, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.6667, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 2.6667 }
+				]
+			}
+		}
+	},
+	"over": {
+		"slots": {
+			"瓶子高光": {
+				"color": [
+					{ "color": "ffffff74", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffff74" }
+				]
+			},
+			"气泡破裂": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.0667, "color": "ffffff00" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			},
+			"气泡12": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"高光": {
+				"color": [
+					{ "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡2": {
+				"color": [
+					{ "time": 1.0667, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡3": {
+				"color": [
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00" }
+				]
+			},
+			"气泡3": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂6": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡5": {
+				"color": [
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"气泡": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.4667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.0333, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00" }
+				]
+			},
+			"气泡7": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.0667, "color": "ffffff00" },
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1667, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂7": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂10": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.0667, "color": "ffffff00" }
+				]
+			},
+			"气泡10": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"高光3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0333, "color": "ffffff9c", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂8": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"气泡2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff00" }
+				]
+			},
+			"气泡5": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"气泡9": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"高光4": {
+				"color": [
+					{ "color": "ffffff9c", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "color": "ffffff00" }
+				]
+			},
+			"气泡6": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂9": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.0667, "color": "ffffff00" }
+				]
+			},
+			"气泡4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"气泡破裂5": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffff00" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				]
+			},
+			"沸腾气泡4": {
+				"color": [
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"高光2": {
+				"color": [
+					{ "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"气泡8": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"气泡11": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"喷溅液体": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "y": 21.81, "curve": 0.377, "c2": 0.61, "c3": 0.72 },
+					{ "time": 0.1667, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "curve": 0.242, "c3": 0.673, "c4": 0.69 },
+					{ "time": 1.5, "y": 21.81 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "y": 16.36, "curve": 0.363, "c2": 0.44, "c3": 0.755 },
+					{ "time": 0.4333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "y": 25.89, "curve": 0.258, "c3": 0.619, "c4": 0.45 },
+					{ "time": 1.5, "y": 16.36 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "y": 8.69, "curve": 0.359, "c2": 0.43, "c3": 0.756 },
+					{ "time": 0.4667, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "curve": 0.26, "c3": 0.618, "c4": 0.44 },
+					{ "time": 1.5, "y": 8.69 }
+				]
+			},
+			"bone5": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone6": {
+				"translate": [
+					{ "y": 25.44, "curve": 0.348, "c2": 0.66, "c3": 0.682 },
+					{ "time": 0.0333, "y": 25.89, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "curve": 0.247, "c3": 0.729, "c4": 0.91 },
+					{ "time": 1.5, "y": 25.44 }
+				]
+			},
+			"bone7": {
+				"translate": [
+					{},
+					{ "time": 0.7333, "y": -67.15 },
+					{ "time": 1.5, "y": -81.66 }
+				]
+			},
+			"bone8": {
+				"translate": [
+					{},
+					{ "time": 0.7333, "y": -67.15 },
+					{ "time": 1.5, "y": -81.66 }
+				]
+			},
+			"bone9": {
+				"translate": [
+					{ "time": 0.4667 },
+					{ "time": 1.2, "y": -67.15 },
+					{ "time": 1.5, "y": -81.66 }
+				]
+			},
+			"bone10": {
+				"translate": [
+					{},
+					{ "time": 0.7333, "y": -67.15 },
+					{ "time": 1.5, "y": -81.66 }
+				]
+			},
+			"bone11": {
+				"translate": [
+					{ "time": 0.2667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.2, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.2 }
+				]
+			},
+			"bone12": {
+				"translate": [
+					{ "time": 0.1667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.1, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.1 }
+				]
+			},
+			"bone13": {
+				"translate": [
+					{ "curve": 0.58, "c3": 0.501 },
+					{ "time": 0.9333, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 0.9333 }
+				]
+			},
+			"bone14": {
+				"translate": [
+					{ "time": 0.4667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4 }
+				]
+			},
+			"bone15": {
+				"translate": [
+					{ "curve": 0.58, "c3": 0.501 },
+					{ "time": 0.9333, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 0.9333 }
+				]
+			},
+			"bone16": {
+				"translate": [
+					{ "time": 0.5667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.5, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone17": {
+				"translate": [
+					{ "curve": 0.58, "c3": 0.501 },
+					{ "time": 0.9333, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 0.9333 }
+				]
+			},
+			"bone18": {
+				"translate": [
+					{ "time": 0.0333, "y": -4.24 },
+					{ "time": 0.5, "y": -0.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "x": 1.678, "y": 1.14 },
+					{ "time": 0.5667, "x": 1.678, "y": 0.478 }
+				]
+			},
+			"bone20": {
+				"translate": [
+					{ "time": 0.6, "y": -4.24 },
+					{ "time": 1.0667, "y": -0.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0, "y": 0 },
+					{ "time": 0.9 },
+					{ "time": 1.0667, "x": 1.678, "y": 1.14 },
+					{ "time": 1.1333, "x": 1.678, "y": 0.478 }
+				]
+			},
+			"bone21": {
+				"translate": [
+					{ "time": 0.3, "y": -4.24 },
+					{ "time": 0.7667, "y": -0.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 },
+					{ "time": 0.6 },
+					{ "time": 0.7667, "x": 1.678, "y": 1.14 },
+					{ "time": 0.8333, "x": 1.678, "y": 0.478 }
+				]
+			},
+			"bone22": {
+				"translate": [
+					{ "time": 0.8333, "y": -4.24 },
+					{ "time": 1.3, "y": -0.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 },
+					{ "time": 1.1333 },
+					{ "time": 1.3, "x": 1.678, "y": 1.14 },
+					{ "time": 1.3667, "x": 1.678, "y": 0.478 }
+				]
+			},
+			"bone23": {
+				"translate": [
+					{ "time": 0.5, "y": -4.24 },
+					{ "time": 0.9667, "y": -0.85 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4667, "x": 0, "y": 0 },
+					{ "time": 0.8 },
+					{ "time": 0.9667, "x": 1.678, "y": 1.14 },
+					{ "time": 1.0333, "x": 1.678, "y": 0.478 }
+				]
+			},
+			"bone24": {
+				"translate": [
+					{ "time": 0.4667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4 }
+				]
+			},
+			"bone25": {
+				"translate": [
+					{ "time": 0.5667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.5, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone26": {
+				"translate": [
+					{ "time": 0.4667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4 }
+				]
+			},
+			"bone27": {
+				"translate": [
+					{ "time": 0.4667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.4 }
+				]
+			},
+			"bone28": {
+				"translate": [
+					{ "time": 0.5667, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.5, "y": 73.36 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0, "y": 0, "curve": 0.58, "c3": 0.501 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone33": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": -0.92, "y": 7.04, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -1.45, "y": 11.16, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				]
+			},
+			"bone31": {
+				"translate": [
+					{ "x": -0.93, "y": -3.64, "curve": 0.368, "c2": 0.47, "c3": 0.753 },
+					{ "time": 0.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "x": -0.2, "y": -6.46, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9667, "curve": 0.25, "c3": 0.75 },
+					{
+						"time": 1.3,
+						"x": -1.56,
+						"y": -6.09,
+						"curve": 0.277,
+						"c2": 0.12,
+						"c3": 0.633,
+						"c4": 0.54
+					},
+					{ "time": 1.5, "x": -0.93, "y": -3.64 }
+				]
+			},
+			"bone30": {
+				"translate": [
+					{ "x": -0.19, "y": 1.45, "curve": 0.375, "c2": 0.62, "c3": 0.716 },
+					{ "time": 0.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333, "x": -0.92, "y": 7.04, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1, "x": -1.45, "y": 11.16, "curve": 0.243, "c3": 0.68, "c4": 0.71 },
+					{ "time": 1.5, "x": -0.19, "y": 1.45 }
+				]
+			},
+			"bone34": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": -2.51, "y": -6.3, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": -3.13, "y": -18.82, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

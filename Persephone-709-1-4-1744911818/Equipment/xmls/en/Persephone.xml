@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Persephone_Name">Controlled Aroma</text>
+
+<text id="Persephone_Weapon_Desc">It is as if the flowers bloom and the heart dies with them. &#13;&#10;Shedding flower petals in place of tears, you spoke to me.&#13;&#10;You told me that the flowers that bloom over the body will be transformed into the ultimate salvation. &#13;&#10;And yet, we only stay in this world for a fleeting moment. &#13;&#10;These flowers bloom without an end, and not one of them would wither.</text>
+<text id="Persephone_Weapon_Special_Desc">Attacks inflict Aroma on the target. While wearing the full E.G.O. set, WHITE damage is inflicted based on the amount of Aroma as well.&#13;&#10;Aroma: At 5 stacks, inflict WHITE damage on all hostile units in the same room and heal SP for all friendly units.&#13;&#10;After Aroma triggers, a stack of Aroma is inflicted on all units except for the unit that triggered this effect. Only one trigger of Aroma can happen at a given time.&#13;&#10;The damage of this effect boost further if the full set of E.G.O. is used.</text>
+
+<text id="Persephone_Armor_Desc">I was born from earth, so now I yearn to return to it.&#13;&#10;The aroma of bursting petals will invite me to a gentle world. &#13;&#10;The seasons have faded, and among the fissures, the flowers still bloom. &#13;&#10;Can I be forgiven again for my accumulated sins on that spring day? &#13;&#10;No, please do not think of this as our last moment; even if I return to the dust, I still yearn for the light. &#13;&#10;As always.</text>
+<text id="Persephone_Armor_Special_Desc">When the wearer would lose SP, lose HP instead. The wearer gains Aroma each they take damage.&#13;&#10;Aroma: At 5 stacks, inflict WHITE damage on all hostile units in the same room and heal SP for all friendly units.&#13;&#10;After Aroma triggers, a stack of Aroma is inflicted on all units except for the unit that triggered this effect. Only one trigger of Aroma can happen at a given time.&#13;&#10;The damage of this effect boost further if the full set of E.G.O. is used.</text>
+
+<text id="Persephone_Gift_Desc">Work Speed +5, SP +6</text>
+</localize>
+
+
+
+
+

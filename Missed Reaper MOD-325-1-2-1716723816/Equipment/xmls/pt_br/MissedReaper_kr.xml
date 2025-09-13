@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">Anseio</text>
+  <text id="MissedReaper_weapon_desc">“Mais uma vez, se eu pudesse ver o rosto daquela criança, se eu pudesse segurar a mão daquela criança…”</text>
+  <text id="MissedReaper_weapon_specialDesc">Requisitos de equipamento: Presente E.G.O. Anseio &#13;&#10;Ataca automaticamente quando há objetos hostis nas instalações.</text>
+  <text id="MissedReaper_armor_name">Anseio</text>
+  <text id="MissedReaper_armor_desc">“Aqueles que já partiram não voltarão.&#13;&#10;Eu deveria ter dito algo então&#13;&#10;&#13;&#10;Eu deveria ter dito que sinto muito por ter perdido sua mão ou até mesmo um pedido de desculpas sem sentido.”</text>
+  <text id="Reaper_gift">Anseio</text>
+  <text id="Reaper_desc">PS +6&#13;&#10;Estou com saudades de você</text>
+</localize>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="wonderlab_3_dialog_1">主管，您了解血魔吗？</text>
+  <text id="wonderlab_3_dialog_2">当然，您肯定对此有所耳闻。但是您还记得，您也有过因为血液而被“重置”的经历吗？</text>
+  <text id="wonderlab_3_dialog_3">啊，我还记得那时候，每个员工都变成了怪物，在走廊里飘荡。您绝望地对我说……</text>
+  <text id="wonderlab_3_dialog_4">我在开玩笑吗？呵呵，如果您愿意的话，我可以公开我的“绝望系列”之一。</text>
+
+  <text id="wonderlab_3_selection_1">接受</text>
+  <text id="wonderlab_3_selection_2">谢绝</text>
+
+  <text id="wonderlab_3_dialog_5">每个人都有不想公开的小秘密。</text>
+  <text id="wonderlab_3_dialog_6">虽然分享您的爱好让人欣喜，但此刻并非最佳时刻。</text>
+  <text id="wonderlab_3_dialog_7">那么，让我告诉您另一个完全不同的故事吧。</text>
+
+  <text id="wonderlab_3_dialog_8">您害怕吗？还是说这个回答缘于自满？</text>
+  <text id="wonderlab_3_dialog_9">这两种可能都不应当发生。希望下面这个消息能加速您的崩溃。</text>
+
+  <text id="wonderlab_3_dialog_10">我们再次提取了O-01-34。据推测，这种异常是上述血魔的起源。</text>
+  <text id="wonderlab_3_dialog_11">人类内心无限的可能性中，偶尔也会出现重复的值。</text>
+  <text id="wonderlab_3_dialog_12">重复值通常并不稳定，在适合度审查中，它们往往会被淘汰。</text>
+  <text id="wonderlab_3_dialog_13">O-01-34是稍微不同的情况。</text>
+  <text id="wonderlab_3_dialog_14">虽然被判定为不符合安全要求，但由于能源生产率高，它一直有资格作为复核对象。</text>
+  <text id="wonderlab_3_dialog_15">复核将由现任主管，也就是由您进行。决定它们是否将被收容进本部。</text>
+  <text id="wonderlab_3_dialog_16">简而言之，就是重新管理失控的废弃异想体。</text>
+
+  <text id="wonderlab_3_dialog_17">为什么露出这种表情，不开心吗？</text>
+  <text id="wonderlab_3_dialog_18">既然已经走到了这一步，您应当不会失败。至少现在的您，和之前的主管差别甚远。</text>
+  <text id="wonderlab_3_dialog_19">然而，如果您真的崩溃了……</text>
+  <text id="wonderlab_3_dialog_20">我希望那时，您的脸上会有不同的表情。</text>
+</localize>

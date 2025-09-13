@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 3033,1073
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hand1
+  rotate: true
+  xy: 2573, 513
+  size: 143, 368
+  orig: 143, 368
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 2896, 688
+  size: 116, 383
+  orig: 116, 383
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 2042, 2
+  size: 540, 467
+  orig: 540, 467
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 1260, 291
+  size: 780, 780
+  orig: 780, 780
+  offset: 0, 0
+  index: -1
+拨按
+  rotate: true
+  xy: 1260, 5
+  size: 49, 79
+  orig: 49, 79
+  offset: 0, 0
+  index: -1
+拨盘
+  rotate: false
+  xy: 1791, 38
+  size: 242, 251
+  orig: 242, 251
+  offset: 0, 0
+  index: -1
+支撑
+  rotate: false
+  xy: 2584, 3
+  size: 194, 119
+  orig: 194, 119
+  offset: 0, 0
+  index: -1
+数字盘
+  rotate: true
+  xy: 2795, 251
+  size: 260, 236
+  orig: 260, 236
+  offset: 0, 0
+  index: -1
+桌子
+  rotate: true
+  xy: 2, 10
+  size: 1061, 1256
+  orig: 1061, 1256
+  offset: 0, 0
+  index: -1
+电话壳
+  rotate: true
+  xy: 2042, 471
+  size: 600, 529
+  orig: 600, 529
+  offset: 0, 0
+  index: -1
+电话线
+  rotate: false
+  xy: 2584, 124
+  size: 209, 387
+  orig: 209, 387
+  offset: 0, 0
+  index: -1
+电话线-话筒链接
+  rotate: true
+  xy: 2573, 658
+  size: 413, 321
+  orig: 413, 321
+  offset: 0, 0
+  index: -1
+话筒
+  rotate: false
+  xy: 1260, 56
+  size: 529, 233
+  orig: 529, 233
+  offset: 0, 0
+  index: -1

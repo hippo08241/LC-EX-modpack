@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 1181,993
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 651, 479
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+TiedAppearance
+  rotate: false
+  xy: 651, 2
+  size: 148, 475
+  orig: 148, 475
+  offset: 0, 0
+  index: -1
+dead 2232
+  rotate: false
+  xy: 2, 2
+  size: 559, 317
+  orig: 559, 317
+  offset: 0, 0
+  index: -1
+dead 2323
+  rotate: true
+  xy: 801, 23
+  size: 454, 248
+  orig: 454, 248
+  offset: 0, 0
+  index: -1
+shangdian20
+  rotate: true
+  xy: 1051, 221
+  size: 256, 122
+  orig: 256, 122
+  offset: 0, 0
+  index: -1
+star661
+  rotate: false
+  xy: 1051, 91
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+丁达尔光线1
+  rotate: false
+  xy: 2, 321
+  size: 647, 670
+  orig: 647, 670
+  offset: 0, 0
+  index: -1

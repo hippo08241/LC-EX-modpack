@@ -1,0 +1,20 @@
+
+1.png
+size: 1004,584
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+weapon
+  rotate: true
+  xy: 728, 66
+  size: 516, 274
+  orig: 516, 274
+  offset: 0, 0
+  index: -1
+撩3
+  rotate: true
+  xy: 2, 2
+  size: 580, 724
+  orig: 580, 724
+  offset: 0, 0
+  index: -1

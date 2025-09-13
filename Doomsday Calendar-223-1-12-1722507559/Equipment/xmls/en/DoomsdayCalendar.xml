@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DoomsdayCalendar_weapon_name">Impending Day</text>
+<text id="DoomsdayCalendar_armor_name">Impending Day</text>
+<text id="DoomsdayCalendar_gift_name">Impending Day</text>
+<text id="DoomsdayCalendar_gift_desc">SP +8, HP -4, Work Success Rate +5%</text>
+<text id="DoomsdayCalendar_armor_desc">The skull on the chest of this ego appears hollow, yet it seems to be filled with a profound fear of the Impending Day.&#13;&#10;But can endless reverence and sacrifice truly avert calamity?&#13;&#10;How calamity bring about peace and tranquility?</text>
+<text id="DoomsdayCalendar_weapon_desc">A chilling face with bloodstains, whose blood it is remains unknown.&#13;&#10;It is said that being scratched by the thorns on it allows one to see the world's demise in hallucinations.
+"I will crush you..."</text>
+<text id="DoomsdayCalendar_weapon_specialDesc">If an attack successfully kills a target, it will restore the health of all agents in the room.&#13;&#10;The amount of health restored is 12% of each agent's maximum health.</text>
+</localize>

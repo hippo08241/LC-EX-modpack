@@ -1,0 +1,13 @@
+
+WayLeft.png
+size: 505,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+길
+  rotate: false
+  xy: 2, 2
+  size: 501, 132
+  orig: 501, 132
+  offset: 0, 0
+  index: -1

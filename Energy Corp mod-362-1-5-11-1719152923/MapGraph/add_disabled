@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map_graph>
+  <node_list>
+    <area name="5" sub="1">
+      <passage x="0" y="-78.03" passageGroup="1" rabbitTeamGroup="T1" src="" passageType="dept" scale="0.7">
+        <ground height="-0.7" />
+        <height>6.2</height>
+        <node id="sefira-tiphereth1-el" x="-5.2" y="-71.83" />
+        <node id="dept-tiphereth1-el" x="4.8" y="-78.73" />
+        <node id="sefira-tiphereth2-el" x="-4.8" y="-87.43" />
+        <node id="dept-tiphereth2-el" x="4.8" y="-96.02999" />
+      </passage>
+    </area>
+  </node_list>
+  <edge_list>
+    <edge node1="sefira-tiphereth1-5" node2="sefira-tiphereth1-el" type="door"/>
+    <edge node1="dept-tiphereth1-7" node2="dept-tiphereth1-el" type="door" />
+    <edge node1="sefira-tiphereth2-5" node2="sefira-tiphereth2-el" type="door" />
+    <edge node1="dept-tiphereth2-7" node2="dept-tiphereth2-el" type="door" />
+
+    <edge node1="sefira-tiphereth1-el" node2="dept-tiphereth1-el" type="road"/>
+    <edge node1="dept-tiphereth1-el" node2="sefira-tiphereth2-el" type="road" />
+    <edge node1="sefira-tiphereth2-el" node2="dept-tiphereth2-el" type="road" />
+
+<!--
+    <edge node1="sefira-tiphereth1-6" node2="dept-tiphereth1-6" type="road"/>
+    <edge node1="dept-tiphereth1-6" node2="sefira-tiphereth2-6" type="road" />
+    <edge node1="sefira-tiphereth2-6" node2="dept-tiphereth2-6" type="road" />-->
+    <!--<edge node1="sefira-tiphereth1-11" node2="Tiphereth1-right-upper-way1" type="door" cost="1.0"/>-->
+  </edge_list>
+</map_graph>

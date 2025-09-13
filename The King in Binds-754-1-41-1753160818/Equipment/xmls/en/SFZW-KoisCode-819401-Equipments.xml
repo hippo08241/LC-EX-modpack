@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+    <text id="SFZW_ArmorName_H">The Lone King's Attendant</text>
+    <text id="SFZW_ArmorDesc_H">In the hall illuminated by blood red lights, attendants fonded by the King came and went……</text>
+    <text id="SFZW_ArmorSpeDesc_H">For every "Bandages" E.G.O gift posessed by the wearer, increase this E.G.O suit's resistances by 0.1.</text>
+    <text id="SFZW_ArmorName_W">The Binding Throne</text>
+    <text id="SFZW_ArmorDesc_W">The throne, a symbol of authority and power, remains solitary and unchanged. &#13;&#10;  As for the one who sits on the throne, is it the supreme king who rules over all, or a pitiful creature who was restrained overall?</text>
+    <text id="SFZW_ArmorSpeDesc_W">Periodically grant BLACK damage shields to employees in the same area as the wearer, For every "Bandages" E.G.O gift possessed by the shielded employee, increase the shield value by 5%.
+When the wearer of E.G.O suit "The Bound One" sits on the throne, all of this E.G.O suit's resistances will become 2.0, &#13;&#10; losing all special effects and be "Bound".
+(Bound: Unable to move)</text>
+    <text id="SFZW_ArmorName_A">The Bound One</text>
+    <text id="SFZW_ArmorDesc_A">These strands bandage and shackle me… When shall I be released?!!</text>
+    <text id="SFZW_ArmorSpeDesc_A">If the wearer of this E.G.O suit equips any E.G.O weapon "Binds", and the wearer of "The Binding &#13;&#10; Throne" E.G.O suit is in the same area, The wearer of "The Bound One" gain access to sitting on the throne.&#13;&#10;
+When the wearer sits on the throne, they can no longer move, and their attack range is extended to the whole facility. They will only perform special attacks, &#13;&#10; and cannot choose their attack target. &#13;&#10;
+They will periodically recieve shield to all types of damage. For every "Bandages" E.G.O gift possessed by the wearer, increase &#13;&#10; the shield value by 10%. &#13;&#10;
+The wearer can leave the throne at the cost of some HP, after leaving the throne, it takes 60 seconds for the wearer &#13;&#10; able to sit on the throne again.</text>
+
+    <text id="SFZW_WeaponName_Chui">Binds</text>
+    <text id="SFZW_WeaponDesc_Chui">I am bound to reign alone atop this solitary throne…</text>
+    <text id="SFZW_WeaponSpeDesc_Chui">Attacks deal damage to all enemies in range.&#13;&#10;
+20% chance to perform a special attack. The special attack has a larger attack range, and will decrease the movement speed of &#13;&#10; the attack target by 50% for 5 seconds. There's a 20% chance to "Bound" the target. &#13;&#10; For every "Bandages" E.G.O gift possessed by the wielder, increase the Bound chance by 10%. &#13;&#10;
+(Bound: Unable to move)</text>
+    <text id="SFZW_WeaponName_Dao">Binds</text>
+    <text id="SFZW_WeaponDesc_Dao">You dare…challenge my authority?!</text>
+    <text id="SFZW_WeaponSpeDesc_Dao">When attacking, ignore 0.1 damage resistance of the target. For every "Bandages" E.G.O gift possessed by the wielder, increase the value &#13;&#10; by 0.1。&#13;&#10;
+20% chance to perform a special attack. The special attack will "Bound" the target for 1 second when attacking.&#13;&#10;
+(Bound: Unable to move)</text>
+
+    <text id="SFZW_GiftNameBodyUp">Bandages</text>
+    <text id="SFZW_GiftDescBodyUp">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameEye">Bandages</text>
+    <text id="SFZW_GiftDescEye">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameFace">Bandages</text>
+    <text id="SFZW_GiftDescFace">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameHair">Bandages</text>
+    <text id="SFZW_GiftDescHair">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameRibborn">Bandages</text>
+    <text id="SFZW_GiftDescRibborn">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameRightCheek">Bandages</text>
+    <text id="SFZW_GiftDescRightCheek">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameRightHand">Bandages</text>
+    <text id="SFZW_GiftDescRightHand">Movement Speed-10, Tremendously increase the shield value recieved from The King in Binds.</text>
+    <text id="SFZW_GiftNameHead">The Binding Throne</text>
+    <text id="SFZW_GiftDescHead">Movement Speed-5, HP+8, Success Rate+5</text>
+
+</localize>

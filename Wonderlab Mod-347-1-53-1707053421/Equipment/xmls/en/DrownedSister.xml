@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DrownedSister_equip_name">Grief</text>
+<text id="DrownedSister_weapon_desc">“Ahh, woe is us. We have become sinners."</text>
+<text id="DrownedSister_gift_desc">SP -4. Movement Speed + 6. Attack Speed + 6</text>
+<text id="DrownedSister_weapon_specialDesc">Once a day, when commanded to move during suppression, move to the specified location with all entities within vicinity.</text>
+<text id="DrownedSister_armor_desc">“Please her us,
+hear of our sins that we do not know we've committed...
+and absolve us of our grief"</text>
+</localize>

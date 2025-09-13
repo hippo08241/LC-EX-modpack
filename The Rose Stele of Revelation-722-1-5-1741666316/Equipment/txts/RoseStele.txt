@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="8192611" type="weapon"> 
+    <name>RoseStele_Name</name>
+    <desc>RoseStele_Weapon_Desc</desc> 
+    <specialDesc>RoseStele_Weapon_Special_Desc</specialDesc>
+
+    <require type="level">3</require>
+    <require type="R">4</require>
+
+    <weaponClassType>special</weaponClassType>
+    
+    <specialWeaponAnim>DeathAngelWeapon_RoseSteleWeaponAnim_48271</specialWeaponAnim>
+
+    <sprite>Censored_RoseSteleWeapon</sprite>
+
+    <damage type="R" min="7" max="12">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+    <range>5</range>
+    
+    <script>RoseSteleWeapon</script>
+
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="8192612" type="armor">
+    <name>RoseStele_Name</name>
+    <no>armor_no</no>
+    <desc>RoseStele_Armor_Desc</desc>
+    <specialDesc>RoseStele_Armor_Special_Desc</specialDesc>
+    
+    <require type="R">5</require>
+
+    <script>RoseSteleArmor</script>
+    <armorId>8192612</armorId>
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">1.0</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1.8</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="8192613" type="special"> 
+    <name>RoseStele_Name</name>
+    <desc>RoseStele_Gift_Desc1</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>15</hp>
+      <mental>-6</mental>
+    </bonus>
+    <sprite>RoseSteleGiftHair1</sprite>
+  </equipment>
+
+  <equipment id="8192614" type="special"> 
+    <name>RoseStele_SecGiftName</name>
+    <desc>RoseStele_Gift_Desc2</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>40</hp>
+      <mental>-20</mental>
+    </bonus>
+    <sprite>RoseSteleGiftHair2</sprite>
+  </equipment>
+  
+</equipment_list>

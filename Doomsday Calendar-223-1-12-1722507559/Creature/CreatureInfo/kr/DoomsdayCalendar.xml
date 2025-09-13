@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="156514">
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0은 마치 근육 다발로 이루어진 것만 같은 나무 기둥 위에, 커다란 돌 원판이 매달려 있습니다.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0에게 조금 접근하자, 그것은 각기 나누어진 벽돌을 부들부들 떨어대기 시작했습니다.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0의 벽돌에는 많은 고대 언어의 문자가 조각되어 있습니다.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-04-04-05</codeNo>
+      <portrait openLevel ="1">Custom/DoomsdayCalendar_portrait</portrait>
+
+      <name openLevel ="1">
+        종말달력
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>사람과 하늘과 땅이 수천 갈래로 찢어질 것</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {눈을 떴다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="0">
+      [
+      {그것은 오래된 산이다. 어느 날 갑자기 사람들이 이곳을 채석장으로 사용했다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="0">
+      [
+      {사람들은 구불구불한 덩굴을 베어내고 돌을 캤다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="1">
+      [
+      {눈을 감았다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="1">
+      [
+      {조각칼이 그의 몸에 내는 소리만이 들려오고, 본래의 모습을 드러내려 했다.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="2">
+      [
+      {눈을 떴다.}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="2">
+      [
+      {그것은 자신이 아름다운 나무 기둥에 씌여진 채 광장에 놓여진 것을 보았고, 노예와 포로들은 생지옥으로 내몰려 도망치고, 빻아지고, 잡아먹히고 있었다.}
+      ]
+    </desc>
+
+    <desc id="8" openLevel="2">
+      [
+      {제사장은 만족스럽게 고개를 끄덕이고 군중을 향해 그의 권능을 보여주는 것을 잊지 않았다.}
+      ]
+    </desc>
+
+    <desc id="9" openLevel="3">
+      [
+      {눈을 감았다.}
+      ]
+    </desc>
+
+    <desc id="10" openLevel="3">
+      [
+      {그것은 눈깜짝할 새 만물의 종말을 보았다. 전 세계가 먼저 용암에 싸여 있다가 홍수로 잠기고 마침내 수천 갈래로 찢어져 창세 초기의 혼돈으로 되돌아갔다.}
+      ]
+    </desc>
+
+    <desc id="11" openLevel="3">
+      [
+      {눈을 떴다.}
+      ]
+    </desc>
+
+    <desc id="12" openLevel="3">
+      [
+      {그것은 많은 사람들이 전쟁의 불길에 휩쓸려 도망치거나 목숨을 걸고 싸우는 등, 종말달력에 자신의 마지막 경건함과 두려움을 바치는 것을 보았다.}
+      ]
+    </desc>
+
+    <desc id="13" openLevel="4">
+      [
+      {눈을 감았다.}
+      ]
+    </desc>
+
+    <desc id="14" openLevel="4">
+      [
+      {말라붙은 피와 살이 마치 덩굴처럼 뭉쳐 달력 내부의 공허함을 채우고 팔을 뻗었다.}
+      ]
+    </desc>
+
+    <desc id="15" openLevel="4">
+      [
+      {죽은 사람들은 종말 토우가 되어 그 지휘 아래 흙을 파헤치고 나와서 지옥의 불을 가지고 군중에게 달려들었다. 사람과 하늘과 땅이 수천 갈래로 찢어질 것이다.}
+      ]
+    </desc>
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">클리포트 폭주가 일어날 때마다 $0의 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="1" key="1">제물 작업을 수행하면 클리포트 카운터가 상승하였고 제물이 된 직원에게 일정량의 피해를 입혔다. 제물 작업 이후에도 해당 직원이 살아있으면 억압작업을 그대로 진행하였다.</specialTip>
+      <specialTip openLevel="2" key="2">클리포트 카운터가 낮을수록 제물 작업으로 인한 피해량이 더 커졌다.</specialTip>
+      <specialTip openLevel="4" key="4">클리포트 카운터가 0이된 후 120초 동안 온도가 상승하면서 제물 작업만 할 수 있게 되었다. 시간이 다 되어도 클리포트 카운터가 최대가 아니라면, 일정 범위 내 모든 개체에게 높은 B 피해를 줬다.</specialTip>
+      <specialTip openLevel="3" key="3">클리포트 카운터가 0이된 후 60초마다 종말 토우를 3개씩 생성하고 클리포트 카운터가 즉시 감소하였다.</specialTip>
+      <specialTip openLevel="5" key="5">종말 토우를 제압하면 클리포트 카운터가 상승하지만 60초마다 가능하다.</specialTip>
+    </specialTipSize>
+  </observe>
+
+  <child>
+    <name>종말 토우</name>
+    <codeId>M-04-04-05-A</codeId>
+  </child>
+</creature>

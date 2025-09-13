@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<equipment_list>
+
+  <equipment id="200121" type="weapon">
+    <name>DingleDangle_weapon_name</name>
+    <desc>DingleDangle_weapon_desc</desc>
+    <sprite>Censored_200121</sprite>
+    <script>DingleDangleWeapon</script>
+
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>YinWeapon_DingleDangleWeapon</specialWeaponAnim>
+    <animation>Attack1</animation>
+    <damage type="W" min="2" max="4">
+      <soundInfo type="damage">Weapons/YinYang1</soundInfo>
+    </damage>
+    <range>6</range>
+    <attackSpeed>1</attackSpeed>
+  </equipment>
+
+  <equipment id="300121" type="armor">
+    <name>DingleDangle_weapon_name</name>
+    <desc>DingleDangle_armor_desc</desc>
+    <armorId>300121</armorId>
+
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">1.4</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+  </equipment>
+
+  <equipment id="400121" type="special">
+    <name>DingleDangle_weapon_name</name>
+    <desc>DingleDangle_gift_desc</desc>
+    <sprite>400121</sprite>
+
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>6</mental>
+      <workProb>-4</workProb>
+      <cubeSpeed>-4</cubeSpeed>
+    </bonus>
+  </equipment>
+
+</equipment_list>

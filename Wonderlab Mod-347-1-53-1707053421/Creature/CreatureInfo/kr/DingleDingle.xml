@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="103121">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {누구나 견딜 수 없는 상황은 오기 마련입니다.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {상황이 왔을 때 당신은 그 상황을 이겨낼 수 있을까요?}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-121</codeNo>
+      <portrait openLevel ="1">Custom/DingleDingle</portrait>
+
+      <name openLevel ="1">
+        대롱대롱
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>모두 같이 열매가 되어 매달리자. 너의 절망, 슬픔…길게 매달리자.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {사람이 매달리는 자살나무. 해당 환상체는 비 탈출 개체임을 망각시키고 사람들을 유혹한다. 알 수 있는 사실은 한가지. 정신력이 높은 사람도 무너지는 것은 한순간이라는 것. 대롱대롱 열리자. 기쁨 슬픔 절망 길게 매달리자.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {나무에는 새로운 자살자들의 열매가 대롱대롱 열릴 것이다.
+모두 열매가 되어 매달리자. 다 같이 매달리자.}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">대롱대롱은 40초 주기로 시설 내의 지혜가 3등급 이상인 직원에게 정신착란을 시도했다. 이때 용기, 절제, 정의 중 하나라도 3등급 이상이라면 정신착란 상태가 되지 않았다.</specialTip>
+      <specialTip openLevel="2" key="2">대롱대롱에게 정신착란을 당한 IC 직원은 대롱대롱의 격리실로 걸어갔다. (해당 상태를 ‘매혹 상태’라 명명한다) 직원이 격리실에 도착하자, 이내 머리부터 분해되어 사망하였다. 해당 직원이 사망하자 격리실에 ‘열매’가 생성되었다.</specialTip>
+      <specialTip openLevel="3" key="3">‘열매’가 생성되었을 때 대롱대롱의 PE-Box 생산량이 증가하였다.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

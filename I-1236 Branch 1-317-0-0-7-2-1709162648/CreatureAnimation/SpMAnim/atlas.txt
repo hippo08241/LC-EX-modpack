@@ -1,0 +1,111 @@
+
+pingzi.png
+size: 1028,955
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+内部液体
+  rotate: false
+  xy: 2, 2
+  size: 238, 193
+  orig: 238, 193
+  offset: 0, 0
+  index: -1
+喷溅液体
+  rotate: false
+  xy: 983, 94
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+图层 1
+  rotate: false
+  xy: 962, 58
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+图层 2
+  rotate: true
+  xy: 994, 109
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+图层 3
+  rotate: false
+  xy: 994, 134
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+图层 4
+  rotate: true
+  xy: 994, 93
+  size: 14, 29
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+图层 5
+  rotate: true
+  xy: 994, 162
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+气泡
+  rotate: false
+  xy: 983, 100
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+气泡破裂
+  rotate: false
+  xy: 962, 93
+  size: 19, 13
+  orig: 19, 13
+  offset: 0, 0
+  index: -1
+沸腾气泡
+  rotate: false
+  xy: 997, 78
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+液体
+  rotate: false
+  xy: 242, 2
+  size: 238, 193
+  orig: 238, 193
+  offset: 0, 0
+  index: -1
+玻璃碎片
+  rotate: true
+  xy: 962, 108
+  size: 87, 30
+  orig: 87, 30
+  offset: 0, 0
+  index: -1
+瓶子
+  rotate: false
+  xy: 482, 2
+  size: 238, 193
+  orig: 238, 193
+  offset: 0, 0
+  index: -1
+瓶子高光
+  rotate: false
+  xy: 722, 2
+  size: 238, 193
+  orig: 238, 193
+  offset: 0, 0
+  index: -1
+高光
+  rotate: false
+  xy: 1023, 128
+  size: 3, 4
+  orig: 3, 4
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156523">
+
+
+
+    <narration action="move">
+      #0 has been assigned to containment unit of “$0”
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is gasping for air.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {The head in $0 looks very painful, and it keeps screaming.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 feels a hot steam coming towards #0's face.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-01-11-07</codeNo>
+      <portrait openLevel ="1">Custom/BronzeBull_portrait</portrait>
+
+      <name openLevel ="1">
+        Bronze Bull
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+
+      <openText>The copper bull is on fire, and it is difficult to close the enemy's mouth.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {The Bronze Bull is a bronze metal statue that takes on the appearance of a bull. It was covered in rust and heat marks, and observations recorded the metal being described as an alloy of copper and zinc. Steam can be seen emanating from the cow's nostrils. The cow's mouth opens wide, revealing a human head inside.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {It was shown during the battle that the humanoid figure was able to emerge from the mouth of the cow, at least up to its belly. Its skin is red and covered with scars, and its face seems to have a permanent look of pain.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {The man trapped in the mouth of the cow cried out to the world for help with his wails and shouts. His face always showed pain and endless torment. Researchers tried to talk to him, but his words were full of mysterious prophecies and warnings.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {A young researcher, Emily, becomes curious about the Brass Bull. She digs deep and attempts to free the trapped heads among the cattle. However, every contact made her feel an unspeakable fear and pressure.
+
+As time passed, Emily's mind was gradually haunted by the Brass Bull. She begins to have nightmares and hallucinations that plague her daily life. Whenever she gets close to the cow, she feels the penetration of an evil force, putting her soul at risk.
+
+Other researchers also began to feel the strange influence of the Brass Bull. Nightmares, hallucinations and fears envelope every corner of the institute. Emily tries to leave, but finds herself imprisoned by the brass bull, unable to escape.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {The final moment has come. Emily placed herself in front of the brass bull, trying to communicate with the trapped head within. However, the voice from that person was full of pain and despair, making her heart shake.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {In desperation, Emily chose an extreme way of escape. She willingly trapped herself in the mouth of the brass bull and shared an eternity of pain with the trapped human head.
+
+When other researchers finally found Emily, they saw only the brass bull standing silently, and Emily had become the companion of the trapped head.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="1">
+      <specialTip openLevel="0" key="0">When there is red on the agent's appearance, the "$0" Qliphoth counter has a high probability of decreasing after the countdown.</specialTip>
+      <specialTip openLevel="1" key="1">Warm reminder: "$0" cannot see the EGO weapon, so the red color EGO weapon can be safely brought into its containment unit in case of emergency</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="120001">
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-10-06</codeNo>
+
+      <portrait openLevel ="1">Custom/ToyFactory</portrait>
+
+      <name openLevel ="1">
+        玩具工厂
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>一群穿着怪异的人从那收容箱中走了出来。&#13;&#10;它们头上是锡制的罐头，而躯体则是塑料……</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {这是一间可以进行改造手术的集装箱。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {这间集装箱能够安全有效地让人的身体变得强壮。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {虽然经过改造后的人体内不知为何会参杂塑料和锡之类的材料，&#13;&#10;但是经过手术的人没有抱怨异常。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {你爱你的都市吗？&#13;&#10;对于那些回答“爱”的人而言，他们是幸运的。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {做过五次手术之后，员工的身体彻底被碾碎了。&#13;&#10;他们变得更加完美，内部构造将不断被修复。&#13;&#10;他们成为了成为真正的战斗机器！}
+      ]
+    </desc>
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">进入这台机器的员工能够提升所有的能力数值。</specialTip>
+      <specialTip openLevel="2" key="2">使用机器的时间越多次，能力数值的提升幅度就越高。</specialTip>
+      <specialTip openLevel="3" key="3">使用五次之后，员工将被彻底改造。</specialTip>
+      <specialTip openLevel="4" key="4">也许那个员工已经不是他了。&#13;&#10;如果可能，请告诉这个工厂:你爱你的都市吗？</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>你想挨打吗?很想？</name>
+    <codeId>T-04-10-06-A</codeId>
+  </child>
+
+</creature>

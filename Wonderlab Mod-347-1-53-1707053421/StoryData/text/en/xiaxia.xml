@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="sha_name">Shasha</text>
+  <text id="wonderlab_2_dialog_1">...Do you copy.</text>
+  <text id="wonderlab_2_dialog_2">Greetings. I'm Shasha, Chief of the Disciplinary Team of Branch O-5681.</text>
+  <text id="wonderlab_2_dialog_3">Though you've already experienced it by now, Management procedures for Aberrations are somewhat similar, yet different.</text>
+  <text id="wonderlab_2_dialog_4">As such, it's recommended that you put all employees through a thorough training process for Aberration Abnormalities. Do also check up on E.G.O equipment used by the employees.</text>
+  <text id="wonderlab_2_dialog_5">Shasha out.</text>
+  <text id="wonderlab_2_dialog_angelica">(Transmission terminated with branch O-5681)</text>
+
+  <text id="wonderlab_2_dialog_6">Branch O-5681 not only has Aberrations, but also contains the Abnormalities' counterparts.</text>
+  <text id="wonderlab_2_dialog_7">Though the death of the Manager in that branch was certainly unexpected, there's no need to question their abilities.</text>
+  <text id="wonderlab_2_dialog_8">As such, I propose taking some employees from the O-5681 branch.</text>
+
+  <text id="wonderlab_2_selection_1">Question the request.</text>
+  <text id="wonderlab_2_selection_2">Allow.</text>
+
+  <text id="wonderlab_2_dialog_9">It's for the prosperity of the company.</text>
+  <text id="wonderlab_2_dialog_10">Placing employees in situations they are most suited to, which has gained me the title of the most advanced AI.</text>
+  <text id="wonderlab_2_dialog_11">Though, it is amusing that I'm making such a claim in front of the Manager.</text>
+  <text id="wonderlab_2_dialog_12">If you still doubt my decision, I'll make sure to get a communication system in place for the visitors.</text>
+
+  <text id="wonderlab_2_dialog_13">Their previous Manager has failed, but I have no doubts you'll be able to make the most out of them.</text>
+  <text id="wonderlab_2_dialog_14">Placing employees in situations they are most suited to, which has gained me the title of the most advanced AI.</text>
+  <text id="wonderlab_2_dialog_15">Titled the most advanced AI, I'm here to assist you.</text>
+  <text id="wonderlab_2_dialog_16">Though you may decline whenever you feel uncomfortable.</text>
+  <text id="wonderlab_2_dialog_17">As always, the decision is up to you.</text>
+</localize>

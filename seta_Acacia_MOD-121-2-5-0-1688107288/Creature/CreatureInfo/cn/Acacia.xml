@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101103">
+
+
+
+    <narration action="move">
+      #0被分配到 “$0”的收容单元中
+    </narration>
+    <narration action="start">
+      [
+      {“要牢记那些积极的事情，像是帮助他人、纯粹的快乐、还有被爱着的感受……”$0告诉自己，但在永无止尽的折磨中，这些记忆已经几乎模糊到无法辨认。}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {爱上恶魔的代价实在是太过残酷了。}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {除了她自己以外，子弹可以击中任何事物。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0胸前挂着的逆十字架曾经只是一枚普通的十字架。}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0告诉"#0：“#0，你是否相信世上有神祇存在？有？太好了，请坚信这一点，千万别像我一样失去信仰。”}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-69-1</codeNo>
+      <portrait openLevel ="1">Custom/Acacia</portrait>
+
+      <name openLevel ="1">
+       猎手的新娘
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+      <openText>你是否相信世上有神祇存在？</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {一个恶魔最终想要的，就是“绝望”。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {那些抵达终点的人会发现前路无光，只会通往名为地狱的深渊——就像猎人所经历的那样。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {在很久很久以前，恶魔发现了一位少女，她是那样的热情开朗，脸上总是挂着明亮的笑容，如同一朵热烈盛开的合欢花。而恶魔一眼识破了她内心深处的暗面，他想要看见少女无论多么努力与其斗争，最后仍然沉沦进绝望。于是他决定假装自己如人类般深爱上了这位少女，但不可思议的是，他最终地真正爱上了她——尽管那份感情未必能够被称之为爱。而纯洁无瑕的合欢花啊，她也一样深深爱上了恶魔，并因此逐渐失去了自我臣服于黑暗，恶魔最终还是毁掉了那如阳光般热烈的花朵。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {恶魔心满意足地露出微笑，凝望着他手中的少女，对变作黑色的花朵悄声低语：“我将赠与你一颗能够击中任何事物的子弹。”少女将这颗因与恶魔达成契约而得到的子弹送进了自己的头颅，但她的灵魂堕入了地狱，成为了一名新的恶魔。而作为永生不死的存在，她如今终日于地狱中漫步，一边在内心悄悄向神明祷告——仁慈的、善良的、无所不能的主啊，请护佑您的子民，不要让任何人遭受像我一样不幸的命运。而让她堕入地狱的恶魔会永远伴随在她身侧。永远，永远。}
+      ]
+    </desc>
+
+    
+    
+  <specialTipSize size="2">
+      <specialTip openLevel="1" key="1">收容此异想体会让F-01-69请求工作所需的能源减半。</specialTip>
+      <specialTip openLevel="1" key="2">正义等级低于3级的员工完成了对“$0”的工作后，“$0”的逆卡巴拉计数器会在倒计时结束后减少。</specialTip>
+      <specialTip openLevel="1" key="3">当工作结果为差时，“$0”的逆卡巴拉计数器有大概率在倒计时结束后减少。</specialTip>
+      <specialTip openLevel="1" key="4">当设施中收容了F-01-69时，如果“$0”的逆卡巴拉计数器归零，F-01-69会在设施内的随机位置进行一次射击。</specialTip>
+  </specialTipSize>
+
+  </observe>
+</creature>

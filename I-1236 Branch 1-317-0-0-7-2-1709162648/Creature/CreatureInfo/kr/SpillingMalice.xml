@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142018">
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0가 바닥에 쏟아집니다.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {$0가 기포를 뿜어내고 있습니다.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {$0는 언제든지 도망칠 수 있습니다.}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {$0는 #0 직원에게 어떤 기억을 떠올리게 만들 수 있습니다.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-06-237-SP</codeNo>
+      <portrait openLevel="1">Custom/SpM</portrait>
+
+      <name openLevel="1">흘러넘치는 악의</name>
+      
+      <riskLevel openLevel="1">WAW</riskLevel>
+
+      <openText>그래서 그렇게 생겼답니다.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {숨었다. 얼굴을 가렸다. 떠보지 마라. 생각을 드러내지 마라.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {(알아보기 어려운 필적이다.)}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">일반적인 환상체와 다르게, 해당 환상체의 작업이 끝날 때 생산되는 에너지는 NE-BOX의 양에 따라 달라진다. 생성된 NE-BOX는 저장되었고, PE-BOX는 폐기되었다.</specialTip>
+      <specialTip openLevel="2" key="2">작업 결과가 좋음일 경우, 클리포트 카운터가 증가하였고, 작업을 진행했던 직원이 어떠한 영향을 받았다. 해당 직원을 T-06-237-SP-1이라고 명명하였다.</specialTip>
+      <specialTip openLevel="2" key="3">T-06-237-SP-1은 지혜와 절제가 상승되었다. 같은 방에 다른 직원이 있을 시 시간이 지나면서 그 효과가 약해졌다.</specialTip>
+      <specialTip openLevel="2" key="4">작업 결과가 나쁨인 경우, 작업을 진행했던 직원이 B 피해를 입었고, 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="2" key="5">$0의 클리포트 카운터가 0이 되자, 모든 T-06-237-SP-1는 ████████가 되었다.</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

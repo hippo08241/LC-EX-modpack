@@ -1,0 +1,20 @@
+
+Home.png
+size: 1367,963
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+그림자
+  rotate: true
+  xy: 1328, 830
+  size: 131, 37
+  orig: 148, 44
+  offset: 12, 3
+  index: -1
+집
+  rotate: false
+  xy: 2, 2
+  size: 1324, 959
+  orig: 1327, 959
+  offset: 2, 0
+  index: -1

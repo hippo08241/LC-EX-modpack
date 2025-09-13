@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+<creature name="MissedReaper" src="MissedReaper" id="123444">
+    <stat>MissedReaper_stat</stat>
+  </creature>
+</creature_list>

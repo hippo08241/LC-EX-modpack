@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="TearsBottle_weapon_name">Глазное яблоко</text>
+  <text id="TearsBottle_weapon_desc">Всё, что она могла сделать - это, лёжа на боку, смотреть одним глазом в дверь. Проникнуть туда было ещё безнадёжнее. Она села и снова зарыдала, говоря себе: "Прекрати! Сейчас же перестань!". Но она продолжала плакать, пока вокруг неё не образовалось большое озеро.</text>
+  <text id="TearsBottle_weapon_specialDesc">Увеличивает урон на 4 при экипированном Э.П.О.С. даре Аномалии.</text>
+  <text id="TearsBottle_gift_Desc">SP+8.</text>
+  <text id="Titania_weapon_name">Летнее Солнцестояние</text>
+  <text id="Titania_weapon_desc">“Я избавлю тебя от твоих страданий. Возродись в виде цветка.”</text>
+  <text id="Titania_weapon_specialDesc">Увеличивает урон с каждой новой Феей. +1&#13;&#10;Получите дополнительную Фею, убив агента.</text>
+  <text id="Titania_armor_desc">“Оберон... это ты? Ты тот, по кому я так отчаянно тоскую?”</text>
+  <text id="Titania_armor_specialDesc">Вокруг их тела появляются Феи, которые наносят дополнительный урон при атаке на одну цель.</text>
+  <text id="Titania_gift_Desc">Скорость передвижения +6 Скорость передвижения +6</text>
+</localize>

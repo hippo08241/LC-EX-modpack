@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="BronzeBull_weapon_name">Капоте</text>
+<text id="BronzeBull_gift_name">Капоте</text>
+<text id="BronzeBull_gift_desc">HP +8</text>
+<text id="BronzeBull_armor_desc">"Я впервые в жизни смотрел корриду вживую, и, наверное, в последний раз. Я не знал раньше, что коррида - это не просто представление, а настоящий бой! Умри! Бык! Я был слишком наивен."</text>
+<text id="BronzeBull_weapon_desc">Обычные атаки имеют шанс нанести Белый урон.</text>
+</localize>

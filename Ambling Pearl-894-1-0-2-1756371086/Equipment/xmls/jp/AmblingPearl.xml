@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AmblingPearl_weapon1_name">沸き立つ腐食</text>
+<text id="AmblingPearl_weapon1_desc">結構粘っこいからね…絶対避けられないよ！</text>
+<text id="AmblingPearl_weapon1_specialDesc">与ダメージ時、確率で同じ空間にいる敵対存在に、ダメージを与える。</text>
+<text id="AmblingPearl_weapon2_desc">結構いたいと思いますよ～。一度切ったら、傷から取れないはずなので。</text>
+<text id="AmblingPearl_weapon2_specialDesc">与ダメージ時、装着者の体力を回復する。
+装着者の体力が50%以下の場合、与ダメージ時に同じ空間にいる職員（オフィサーは含めない）以外の存在に、ダメージを与える。</text>
+<text id="AmblingPearl_armor_desc">うーん…ゲッ、マズっ。真珠にする価値もないね！</text>
+<text id="AmblingPearl_armor_specialDesc">特定のEGO武器を装備時、装着者のそばにO-02-21-11が出現し、装着者の行動を支援した。</text>
+<text id="AmblingPearl_gift_desc">体力+2、精神力+3、作業成功率・作業速度+5</text>
+</localize>

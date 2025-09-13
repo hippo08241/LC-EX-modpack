@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="200410" type="weapon">
+
+    <name>Hookah_weapon_name</name>
+    <desc>Hookah_weapon_Desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FireBirdWeapon_WayGoHomeWeapon</specialWeaponAnim>
+    <sprite>Firebird_HookahWeapon</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="P">4</require>
+    <damage type="P" min="1" max="3">
+      <soundInfo type="damage">Weapons/Firebird</soundInfo>
+
+      <effectInfo type="damage">
+        <src>FireBirdWeaponHit</src>
+        <pos>
+          <x>0</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>3</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <range>7</range>
+    <script>HookahWeapon</script>
+    <maxNum>5</maxNum>
+
+    <splash type="penetration"/>
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+  <equipment id="300410" type="armor">
+    <name>Hookah_weapon_name</name>
+    <desc>Hookah_armor_Desc</desc>
+
+    <armorId>100410</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.9</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">0.6</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+  <equipment id="400410" type="special">
+    <name>Hookah_weapon_name</name>
+    <desc>Hookah_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <attackSpeed>4</attackSpeed>
+      <movement>4</movement>
+    </bonus>
+    <sprite>Helmet_0_9</sprite>
+  </equipment>
+  <equipment id="200539" type="weapon">
+
+    <name>Mermaid_weapon_name</name>
+    <desc>Mermaid_weapon_Desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_MermaidWeapon</specialWeaponAnim>
+    <sprite>LongBird_MermaidWeapon</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="R">4</require>
+    <require type="B">4</require>
+    <damage type="R" min="5" max="8">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+
+    <range>9</range>
+    <script>MermaidWeapon</script>
+    <maxNum>2</maxNum>
+
+    <splash type="splash" range="9"/>
+    <attackSpeed>0.5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+  <equipment id="300539" type="armor">
+    <name>Mermaid_weapon_name</name>
+    <desc>Mermaid_armor_Desc</desc>
+
+    <require type="R">4</require>
+    <require type="B">4</require>
+    <armorId>100539</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>4</grade>
+    <script>MermaidArmor</script>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="400539" type="special">
+    <name>Mermaid_weapon_name</name>
+    <desc>Mermaid_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <cubeSpeed>8</cubeSpeed>
+      <workProb>8</workProb>
+    </bonus>
+    <sprite>Mermaid_Gift</sprite>
+  </equipment>
+  <equipment id="202113" type="weapon">
+
+    <name>RedQueen_weapon_name</name>
+    <desc>RedQueen_weapon_Desc</desc>
+    <sprite>RedQueenWeapon</sprite>
+    <weaponClassType>hammer</weaponClassType>
+
+    <animation>Attack1</animation>
+    <damage type="B" min="5" max="8">
+      <soundInfo type="damage">Weapons/silent1</soundInfo>
+    </damage>
+
+    <range>4</range>
+    <maxNum>2</maxNum>
+    <attackSpeed>1.5</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="302113" type="armor">
+    <name>RedQueen_weapon_name</name>
+    <desc>RedQueen_armor_Desc</desc>
+    <armorId>102113</armorId>
+
+    <defense>
+      <defenseElement type="R">1.1</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+  <equipment id="402113" type="special">
+    <name>RedQueen_weapon_name</name>
+    <desc>RedQueen_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>RedQueen_Gift</sprite>
+  </equipment>
+  <equipment id="200134" type="weapon">
+
+    <name>Nosferatu_weapon_name</name>
+    <desc>Nosferatu_weapon_Desc</desc>
+    <specialDesc>Nosferatu_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>GreedWeapon_NosferatuEgo</specialWeaponAnim>
+    <sprite>KingOfGreed_NosferatuEgo</sprite>
+
+    <require type="R">5</require>
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <animation>Attack1</animation>
+    <damage type="R" min="11" max="14">
+      <soundInfo type="damage">Weapons/silent1</soundInfo>
+    </damage>
+    <damage type="R" min="5" max="8">
+      <soundInfo type="damage">Weapons/silent1</soundInfo>
+    </damage>
+
+    <script>NosferatuWeapon</script>
+    <range>4</range>
+    <maxNum>1</maxNum>
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+  <equipment id="300134" type="armor">
+    <name>Nosferatu_weapon_name</name>
+    <desc>Nosferatu_armor_Desc</desc>
+    <specialDesc>Nosferatu_armor_specialDesc</specialDesc>
+    <armorId>100134</armorId>
+
+    <require type="R">5</require>
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">0.8</defenseElement>
+    </defense>
+
+    <script>NosferatuArmor</script>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+  <equipment id="400134" type="special">
+    <name>Nosferatu_weapon_name</name>
+    <desc>Nosferatu_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>+8</hp>
+      <mental>-3</mental>
+    </bonus>
+    <sprite>Nosferatu_Gift</sprite>
+  </equipment>
+  <equipment id="201118" type="weapon">
+
+    <name>Tangle_weapon_name</name>
+    <desc>Tangle_weapon_Desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_TangleWeapon</specialWeaponAnim>
+    <sprite>SlimeGirl_TangleWeapon</sprite>
+
+    <require type="R">3</require>
+
+    <animation>Attack1</animation>
+    <script>TangleWeapon</script>
+    <damage type="R" min="3" max="5">
+      <soundInfo type="damage">Weapons/silent1</soundInfo>
+    </damage>
+
+
+    <range>4</range>
+    <maxNum>1</maxNum>
+    <attackSpeed>1.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="301118" type="armor">
+    <name>Tangle_weapon_name</name>
+    <desc>Tangle_armor_Desc</desc>
+    <armorId>101118</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+  <equipment id="401118" type="special">
+    <name>Tangle_weapon_name</name>
+    <desc>Tangle_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>+4</hp>
+    </bonus>
+    <sprite>Tangle_Gift</sprite>
+  </equipment>
+</equipment_list>

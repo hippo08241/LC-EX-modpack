@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="819231">
+
+
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+    <narration action="start">
+      [
+      {A rich floral scent lingers around $0.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {As the seasons pass, $0 waits quietly for her redemption.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {The flowers bloom without control. As fall turns to winter, the flowers continue to vibrantly blossom.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {"There is no need for doubt, #0. If you can smell the scent that will never go away, you must be standing in the same forest as I.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {"Let us return to dust with all that breathes."},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-04-144</codeNo>
+      <portrait openLevel ="1">Custom/Persephone_portrait</portrait>
+
+      <name openLevel ="1">
+        Persephone
+      </name>
+
+      <riskLevel openLevel ="1">
+        ALEPH
+      </riskLevel>
+
+      <openText>I was born from earth, so now I yearn to return to it.&#13;&#10;My atonement ended in coldness, gasping for breath.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Why were you born when the snow was falling?
+You should have come to the cuckoo’s calling,
+Or when grapes are green in the cluster,
+Or, at least, when lithe swallows muster
+For their far off flying
+From summer dying.
+
+Why did you die when the lambs were cropping?
+You should have died at the apples’ dropping,
+When the grasshopper comes to trouble,
+And the wheat-fields are sodden stubble,
+And all winds go sighing
+For sweet things dying.
+
+--A Dirge, by Christina Rossetti}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Her memories began with a bitter cold wind. 
+The snow flew, everything withered, and she was born in the darkness of the earth.
+“...... Child of the dark earth ...... Calamity from the underworld ...... She will bring eternal winter... ...”
+
+She heard a hoarse-voiced old man say as such.
+“Banish her! Banish her!”    “This child must atone for her evil!”    “She shall return to the dust.”
+
+And so Persephone, the child born from the cold earth, set out on the path of atonement.
+With each step, the seasons changed.
+She made the flowers bloom and plants revive, she made the trees green and the insects chirp, she made the harvest land fruitful and the depths of hell frozen forever.
+
+She savors the fragrance of spring flowers, she listens to the whispers of summer insects, she loves the golden yellow of autumn, the rice that fills the barn.
+She loves the silver of winter and the pear blossoms. When she sleeps, the winter wind is cold and everything is silent; when she wakes up, the flowers bloom and the new buds are exposed.
+    
+For a time, people revered, marveled at the greatness of the earth. People prayed and sang the praises of the goddess from afar.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Persephone, the goddess favored by the seasons, walks across the vastness of the earth.
+She is the god of life, who brings spring, and the god of death, who brings winter.
+She brings bitter cold, which withers the green leaves, or searing heat, which spreads disease.
+
+She longs to return to dust, and all that she passes becomes as such.
+The people tremble, fearing the wrath of the god, whispering of her good and evil. With lame ceremonies they show reverence and pray for the disaster to go away.
+Persephone, listening to the praise or fear of the people, walks the path of atonement.
+
+Eventually, she came to a cold, snowy land, where the seasons were unchanging, as was the dark earth where she was born.
+She saw dust-covered forests where countless shells stood, their bodies turned to dust, their souls sealed in the dead of time, leaving behind a porcelain skeleton.
+Persephone, the god who longs to return to the dust, has found her place of redemption.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {She saw two porcelain figures, which held flower crowns in their unchanging hands.
+The blooming flowers were like her face, never fading.
+She held up the crown of flowers, and as she wore the fragrance, the seasons seemed to move in rhythm with her hands.
+As she stood on top of the dust, her body transformed into porcelain tiles. In a flash, flowers sprouted from her body and covered the entire forest.
+The cold dispersed and the dust flew.    
+Seeds sprouted and gave birth to new shoots.    
+Flowers bloomed and spread their fragrance.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Spring had arrived.
+She heard the cuckoo chirping.
+
+Persephone, a god who longed to return to dust, died in the season when lambs graze.
+Persephone, a porcelain man who prayed to be born in the earth, was born in the springtime when flowers bloomed.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="7">
+      <specialTip openLevel="0" key="0">The containment unit changes "seasons" every once in a while, and its preferred work varies between them.&#13;&#10;Spring, Summer, Fall, and Winter corresponds to Attachment, Instinct, Insight, and Repression respectively.</specialTip>
+      <specialTip openLevel="1" key="1">Working on a non-preferred type results in the Qliphoth Counter lowering by 1. If T-04-53 is in the facility, its Qliphoth Counter will also lower.</specialTip>
+      <specialTip openLevel="2" key="2">For every 8 points incremented on the Qliphoth Meltdown counter, a special meltdown will occur in the containment unit of this Abnormality. Failing to work in accordance with its preferences will cause the Qliphoth Counter to immediately drop to 0.</specialTip>
+      <specialTip openLevel="3" key="3">Employees who work in accordance with the Abnormality's preferences will receive the 'Crown of Atonement' after the work. Only one employee may have the 'Crown of Atonement' at any given time, henceforth referred to as T-04-144-1. T-04-144-1's success rate on T-04-144 will greatly increase. The 'Crown of Atonement' will dissappear each time the Meltdown Level increases.</specialTip>
+      <specialTip openLevel="4" key="4">If T-04-144-1 works on any Abnormality that isn't $0, the Qliphoth Counter will immediately drop to 0. Only T-04-144-1 can damage $0 after it breaks out of containment.</specialTip>
+      <specialTip openLevel="5" key="5">While escaping, $0 deals WHITE damage to all employees in the same room. Any employees thrown into a panic by her will outright die and be transformed into "One Born of Dust"</specialTip>
+      <specialTip openLevel="6" key="6">$0 does not move, and randomly teleports throughout the facility at random intervals. At the beginning and end of each teleportation, she deals WHITE damage to all units in the same room. After 5 teleportations, she will deal a massive amount of WHITE damage to all creatures in the same department as her, destroy any "One Born of Dust" still alive, and return to her containment unit.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>One Born of Dust</name>
+    <codeId>T-04-144-1</codeId>
+  </child>
+</creature>

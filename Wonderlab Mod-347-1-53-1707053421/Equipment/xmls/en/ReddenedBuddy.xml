@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ReddenedBuddy_equip_name">Hide and Seek</text>
+<text id="ReddenedBuddy_weapon_desc">“Please call me again...I'll wait for you, as ever...”</text>
+<text id="ReddenedBuddy_gift_desc">Health +6</text>
+<text id="ReddenedBuddy_weapon_specialDesc">Very slow attack speed. Takes reduced RED damage when winding up.</text>
+<text id="ReddenedBuddy_armor_desc">“My heart for my master...left only red scars.”</text>
+</localize>

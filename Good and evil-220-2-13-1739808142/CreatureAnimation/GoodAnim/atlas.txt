@@ -1,0 +1,55 @@
+
+goodandevil.png
+size: 955,3983
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+白
+  rotate: true
+  xy: 2, 1463
+  size: 625, 541
+  orig: 625, 541
+  offset: 0, 0
+  index: -1
+血手
+  rotate: true
+  xy: 2, 3352
+  size: 629, 545
+  orig: 629, 545
+  offset: 0, 0
+  index: -1
+血龙
+  rotate: true
+  xy: 2, 2721
+  size: 629, 545
+  orig: 629, 545
+  offset: 0, 0
+  index: -1
+金龙
+  rotate: true
+  xy: 2, 2
+  size: 205, 396
+  orig: 205, 396
+  offset: 0, 0
+  index: -1
+金龙爪
+  rotate: true
+  xy: 2, 2090
+  size: 629, 545
+  orig: 629, 545
+  offset: 0, 0
+  index: -1
+黄金手
+  rotate: true
+  xy: 2, 836
+  size: 625, 541
+  orig: 625, 541
+  offset: 0, 0
+  index: -1
+黑
+  rotate: true
+  xy: 2, 209
+  size: 625, 541
+  orig: 625, 541
+  offset: 0, 0
+  index: -1

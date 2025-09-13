@@ -1,0 +1,34 @@
+
+燃烧火焰.png
+size: 466,546
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+火焰 (1)
+  rotate: false
+  xy: 293, 336
+  size: 162, 208
+  orig: 196, 239
+  offset: 18, 16
+  index: -1
+火焰 (2)
+  rotate: false
+  xy: 286, 2
+  size: 178, 208
+  orig: 221, 260
+  offset: 24, 16
+  index: -1
+火焰 (3)
+  rotate: true
+  xy: 2, 2
+  size: 208, 282
+  orig: 244, 317
+  offset: 16, 16
+  index: -1
+火焰 (4)
+  rotate: false
+  xy: 2, 212
+  size: 289, 332
+  orig: 375, 417
+  offset: 29, 41
+  index: -1

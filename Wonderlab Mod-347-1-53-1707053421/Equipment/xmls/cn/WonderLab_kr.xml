@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Hookah_weapon_name">记事簿</text>
+  <text id="Hookah_weapon_Desc">“你是谁？”幼虫问道。</text>
+  <text id="Hookah_armor_Desc">“你想要多大的尺寸？”</text>
+  <text id="Hookah_gift_Desc">攻击速度+4 移动速度+4</text>
+  <text id="Mermaid_weapon_name">塞壬</text>
+  <text id="Mermaid_weapon_Desc">“刺穿王子的心脏，这样你才能活下去。”</text>
+  <text id="Mermaid_armor_Desc">“女巫给了她人类的腿，拿走了她美丽的声音，并割掉了她的舌头。”</text>
+  <text id="Mermaid_gift_Desc">工作速度+8 成功率+8</text>
+  <text id="RedQueen_weapon_name">彩纸</text>
+  <text id="RedQueen_weapon_Desc">“现在，玫瑰是红色的了。”</text>
+  <text id="RedQueen_armor_Desc">“宽宏大量的女王殿下！我犯了死罪！求您饶了——”</text>
+  <text id="RedQueen_gift_Desc">最大精神值+4</text>
+  <text id="Nosferatu_weapon_name">渴血</text>
+  <text id="Nosferatu_weapon_Desc">“只要有一滴血，就会度过狂乱的一夜。”</text>
+  <text id="Nosferatu_weapon_specialDesc">每次攻击都会受到红色的物理伤害&#13;&#10;对目标造成伤害时，恢复伤害量40%的体力。</text>
+  <text id="Nosferatu_armor_Desc">“……饥渴，永不满足。”</text>
+  <text id="Nosferatu_armor_specialDesc">将因“渴血”恢复的部分生命值转化为护盾。</text>
+  <text id="Nosferatu_gift_Desc">最大生命值+8 最大精神值-3</text>
+  <text id="Tangle_weapon_name">囚禁</text>
+  <text id="Tangle_weapon_Desc">“解开我的头发吧，解开我的头发吧。”</text>
+  <text id="Tangle_armor_Desc">“解开我的头发吧，这样我就能逃离这个地狱了。”</text>
+  <text id="Tangle_gift_Desc">最大生命值+4</text>
+</localize>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskLevelConfig>
+ <preventRandomExtraction>
+
+ </preventRandomExtraction>
+ <weight>
+Qquickness_EnergyCo, 178802, 0.7
+Qquickness_EnergyCo, 178803, 0.7
+Qquickness_EnergyCo, 178805, 0.7
+Qquickness_EnergyCo, 178804, 0.7
+Qquickness_EnergyCo, 178806, 0.7
+Qquickness_EnergyCo, 178807, 0.7
+Qquickness_EnergyCo, 178808, 0.7
+ </weight>
+</riskLevelConfig>

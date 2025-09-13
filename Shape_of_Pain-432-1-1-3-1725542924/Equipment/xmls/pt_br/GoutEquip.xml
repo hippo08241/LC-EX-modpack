@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Gout_equip_name">Cristais Espinhosos</text>
+
+<!--Weapon-->
+<text id="Gout_weapon_desc">Os funcionários ficam, naturalmente, bem chateados quando recebem essa arma para usar. Ela gruda nas mãos de quem a usa...</text>
+<text id="GoutWeaponSpecial_desc">10% de chance de infligir 10 segundos de gota em alvos atingidos.
+Cada ataque que o funcionário faz causa um leve dano Vermelho e Branco ao funcionário equipado.</text>
+
+</localize>

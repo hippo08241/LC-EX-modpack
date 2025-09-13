@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskLevelConfig>
+ <preventRandomExtraction>
+100000
+100007
+100008
+100009
+100014
+100015
+100020
+100032
+100033
+100034
+100038
+100104
+ </preventRandomExtraction>
+ <weight>
+100001, 0.2
+100018, 0.2
+100022, 0.2
+100036, 0.2
+100011, 0.2
+100016, 0.2
+100017, 0.2
+ </weight>
+</riskLevelConfig>

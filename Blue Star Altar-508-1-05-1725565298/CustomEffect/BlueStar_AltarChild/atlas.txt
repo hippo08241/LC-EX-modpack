@@ -1,0 +1,48 @@
+
+1.png
+size: 2816,1636
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 1635, 240
+  size: 665, 669
+  orig: 665, 669
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1635, 911
+  size: 723, 723
+  orig: 723, 723
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2360, 1122
+  size: 512, 450
+  orig: 512, 450
+  offset: 0, 0
+  index: -1
+body1
+  rotate: true
+  xy: 2360, 608
+  size: 512, 450
+  orig: 512, 450
+  offset: 0, 0
+  index: -1
+gliter-1
+  rotate: false
+  xy: 2302, 94
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+碧蓝新星背景
+  rotate: false
+  xy: 2, 2
+  size: 1631, 1632
+  orig: 1631, 1632
+  offset: 0, 0
+  index: -1

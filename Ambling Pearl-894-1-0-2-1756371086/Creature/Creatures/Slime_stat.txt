@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>GrenSlime</script>
+  <stat>
+    <hp>300</hp>
+    <riskLevel>4</riskLevel>
+    <speed>1</speed>
+
+    <defense id="1">
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1.2</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="" x="-1" y="-2"/>
+
+  <sound action="birth0" src="creature/queenbee/QueenBee_Birth_01"/>
+  <sound action="birth1" src="creature/queenbee/QueenBee_Birth_02"/>
+  <sound action="attack0" src="creature/queenbee/QueenBee_Attack_01"/>
+  <sound action="attack1" src="creature/DangoCreature/Danggo_Lv1_Atk1"/>
+  <sound action="kill" src="creature/queenbee/QueenBee_Finish"/>
+  <sound action="death0" src="creature/queenbee/QueenBee_Dead_01"/>
+  <sound action="death1" src="creature/queenbee/QueenBee_Dead_02"/>
+
+  <attackType openLevel="1">RED</attackType>
+  <riskLevel openLevel="1">WAW</riskLevel>
+
+</creature>

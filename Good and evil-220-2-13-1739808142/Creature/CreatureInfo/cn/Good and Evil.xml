@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="647140">
+
+
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中。。。看来今天是个不一般的一天
+    </narration>
+
+    <narration action="start">
+      [
+      {“$0”不停地旋转着，仿佛要把人吸进去或者弹开}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0觉得“$0”和某两个异想体很像。}
+      {这里的氛围时而舒适，时而压抑。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {一股奇怪的力量不让#0离开。}
+      {“$0”感到很困惑，善恶是什么？还是我们本身就是善恶？}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">X-06-104-62</codeNo>
+      <name openLevel ="1">血肉与黄金</name>
+      <name openLevel ="4">善与恶</name>
+      <portrait openLevel ="1">Custom/Good and Evil</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>善恶之间的鸿沟宛如天才与疯狂的交织，一场哲思的舞蹈，展现出人性的边界。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {这个异想体是来自分部X-7209，它的样貌和O-05-102和O-07-103相似。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {我们曾以为，X-06-104-62的黑暗之处才是罪恶之源，&#13;&#10;然而我们未曾意识到，那被视作光明的黄金才是恶的真谛所在。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {三级员工夏洛特在对X-06-104-62进行多次工作时突然死亡。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {实验一：&#13;&#10;工作提取的PE-BOX在12-16之间时，员工贾斯丁精神污染指数归0。&#13;&#10;这一切似乎是X-06-104-62黑色那部分造成的。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {实验二：&#13;&#10;当对X-06-104-62完成工作后，员工夏洛特受到了物理伤害，&#13;&#10;完成多次工作后员工夏洛特死亡。这一切似乎是X-06-104-62金色那部分造成的。&#13;&#10;在幻觉中，夏洛特看到了X-06-104-62的真实形态。它并非单纯的异常，而是一个复杂的存在。血肉代表着它对生的渴望，纯真的本性隐藏其中。而金色的部分，那看似纯净的善良，实则是它的诡计和诱惑。}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">对“$0”的工作结果为优时，“$0”的逆卡巴拉计数器会▇▇。</specialTip>
+      <specialTip openLevel="2" key="2">对“$0”的工作结果为差时，“$0”的逆卡巴拉计数器会减少。</specialTip>
+      <specialTip openLevel="3" key="3">当工作提取的PE-BOX在12-16之间时，员工会恢复些许精神。</specialTip>
+     <specialTip openLevel="4" key="4">工作结果为优或差时，会触发“$0”的特殊能力。</specialTip>
+     <specialTip openLevel="5" key="5">当“$0”的逆卡巴拉计数器为0时，O-05-102将会出逃。</specialTip>
+     <specialTip openLevel="6" key="6">$0-1的特殊能力会让员工的生命和精神值变成200但是受到恢复效果将会消失。$0-2的特殊能力会让员工受到物理伤害。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

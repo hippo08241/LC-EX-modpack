@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Tianhuo_weapon_name1">天火大剣</text>
+<text id="Tianhuo_weapon_desc1">破壊の鍵「天火聖裁」の力が完全に解放されると、双銃は剣の柄に姿を変え、
+金をも溶かすほどの烈焔が天に向かい伸びて剣身と化す。その名の通り、天火聖裁は平等に万物に破滅をもたらす。</text>
+<text id="Tianhuo_weapon_specialDesc1">20%の確率で、40ポイントのREDダメージを与える特殊攻撃を発動する。
+この武器を装備している職員のHPが100%の時、次の斬撃で自身のHPを50%消費し、その分を特殊攻撃に加算する</text>
+
+<text id="Tianhuo_weapon_name2">劫滅</text>
+<text id="Tianhuo_weapon_desc2">無数の星々にその炎を刻むかのように、大剣はその破壊力を見せた。
+巨大な炎は空を吞み込み、その剣によって失った魂は微かな灰燼も残らない。これこそが——終焉を乗り越えた剣である。</text>
+<text id="Tianhuo_weapon_specialDesc2">特殊攻撃の突進は、幻想体に対して10ポイントのREDダメージを与える。
+斬撃は、HPが50%以上の場合、自身のHPを10ポイント消費して80ポイントのREDダメージを与えるが、HPが50%以下の場合はHPを消費せず、斬撃のダメージは40ポイントになる</text>
+
+<text id="Tianhuo_weapon_name3">天火聖裁</text>
+<text id="Tianhuo_weapon_desc3">前の文明の第七律者のコアで作られた神の鍵。双銃形態の天火聖裁。「炎」の力を司る。
+最強の破壊力を誇るが、その真の力は封印されているようだ……</text>
+<text id="Tianhuo_weapon_specialDesc3">幻想体を攻撃すると、20%の確率で爆風が発生し、5ポイントのREDダメージを与える</text>
+
+</localize>

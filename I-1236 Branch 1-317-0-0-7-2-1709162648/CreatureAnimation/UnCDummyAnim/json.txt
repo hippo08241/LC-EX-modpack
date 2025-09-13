@@ -1,0 +1,45 @@
+{
+"skeleton": {
+	"hash": "gW0vYe8BMjBERKBHf/rjcW4BLfI",
+	"spine": "3.8.75",
+	"x": -256,
+	"y": -59,
+	"width": 512,
+	"height": 512,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "lgr", "bone": "root", "attachment": "lgr" },
+	{ "name": "wtf", "bone": "root", "attachment": "wtf" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"lgr": {
+				"lgr": { "x": -20.5, "y": 193, "width": 133, "height": 130 }
+			},
+			"wtf": {
+				"wtf": { "y": 197, "width": 512, "height": 512 }
+			}
+		}
+	}
+],
+"animations": {
+	"Standing": {
+		"slots": {
+			"lgr": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff7e" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

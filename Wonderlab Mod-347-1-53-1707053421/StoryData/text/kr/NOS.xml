@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="wonderlab_3_dialog_1">당신은 혈귀에 대해 알고 있나요?</text>
+  <text id="wonderlab_3_dialog_2">물론 알고 있겠죠. 그런데 혹시 당신이 혈귀로 인해 리셋 당한 경험이 있다는 사실도 알고 계신가요?</text>
+  <text id="wonderlab_3_dialog_3">아, 그때를 기억해요. 모든 직원들이 괴물이 되어 복도를 헤집고, 당신은 절망하여 제게...</text>
+  <text id="wonderlab_3_dialog_4">농담이냐고요? 글쎄요, 당신이 원한다면 제 '절망 시리즈' 중 하나를 공개해드릴 순 있는데.</text>
+
+  <text id="wonderlab_3_selection_1">보고 싶다.</text>
+  <text id="wonderlab_3_selection_2">보고 싶지 않다.</text>
+
+  <text id="wonderlab_3_dialog_5">누구나 공개하고 싶지 않은 작은 비밀이 있는 법이죠.</text>
+  <text id="wonderlab_3_dialog_6">취미를 공유하는 건 기쁜 일이지만, 당신과 나누고 싶지는 않네요.</text>
+  <text id="wonderlab_3_dialog_7">대신 다른 이야기를 해드리죠.</text>
+
+  <text id="wonderlab_3_dialog_8">두려우신 건가요? 아니면 자만에서 오는 대답인가요?</text>
+  <text id="wonderlab_3_dialog_9">어느 쪽이건 마음에 들지 않네요. 이 소식이 당신을 무너트리는데 도움이 되면 좋겠군요.</text>
+
+  <text id="wonderlab_3_dialog_10">추출팀에서 0-01-34를 또 다시 추출해냈어요. 혈귀의 근본이라 추측되는 존재죠.</text>
+  <text id="wonderlab_3_dialog_11">인간 내면에 있는 무한한 가능성도 아주 가끔은 중복되는 값을 도출해내곤 한답니다.</text>
+  <text id="wonderlab_3_dialog_12">그리고 그 중복 값은 때론 너무나 불안정해 적합도 심사에서 탈락하기도 하죠.</text>
+  <text id="wonderlab_3_dialog_13">0-01-34는 조금 다른 경우에요.</text>
+  <text id="wonderlab_3_dialog_14">비록 안전 부적합 판정을 받긴 했지만 에너지 생산 효율이 뛰어나 언제나 재심사 대상이죠.</text>
+  <text id="wonderlab_3_dialog_15">재심사는 현역 관리자, 즉 당신에 의해 이루어지고 성공 여부에 따라 합류가 결정 됩니다.</text>
+  <text id="wonderlab_3_dialog_16">그러니까 쉽게 말하자면, 제어에 실패한 폐기된 환상체를 다시 관리하라는 이야기에요.</text>
+
+  <text id="wonderlab_3_dialog_17">어때요, 즐겁지 않나요?</text>
+  <text id="wonderlab_3_dialog_18">물론 여기까지 왔으니 실패하진 않겠죠. 적어도 지금의 당신은 이전의 관리자들과는 다른 존재니까.</text>
+  <text id="wonderlab_3_dialog_19">하지만 그럼에도 무너진다면...</text>
+  <text id="wonderlab_3_dialog_20">그때는 조금 다른 표정을 지어주길 부탁드릴게요.</text>
+</localize>

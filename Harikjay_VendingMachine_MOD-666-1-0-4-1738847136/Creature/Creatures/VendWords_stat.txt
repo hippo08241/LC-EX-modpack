@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<creature>
+  <script>VendWords</script>
+  <workAnim>
+  </workAnim>
+  <stat>
+    <riskLevel>0</riskLevel>
+    <maxWorkCount>1</maxWorkCount>
+    <workType>kit</workType>
+    <kitType>oneshot</kitType>
+    <observeInfo>
+      <observeElement name="stat" cost="3" />
+      <observeElement name="care_0" cost="1" />
+      <observeElement name="care_1" cost="3" />
+      <observeElement name="care_2" cost="4" />
+      <observeElement name="care_3" cost="6" />
+      <observeElement name="care_4" cost="8" />
+    </observeInfo>
+    <escapeable>false</escapeable>
+    <qliphoth>0</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.0" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/VendWordsAnim" />
+  <portrait src="Unit/creature/magicalGirl" />
+</creature>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="819401">
+
+
+
+    <narration action="move">
+    </narration>
+    <narration action="start">
+      [
+      {\}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {\},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {\},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {\},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {\},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-20-12</codeNo>
+      <portrait openLevel ="1">Custom/SFZW-KoisCode-819401-portrait</portrait>
+
+      <name openLevel ="1">
+        The King in Binds
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>The banquet has concluded, but the king haven't had enough fun yet……</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {An empty banquet hall, wreathed in ambient crimson light.
+
+The solitary king, bound to his throne, raises his arm in an unhurried motion.
+
+Your feet grow drenched in the cold mist of a vague tune.
+
+The lone king gently points to a platform near you with an inviting cadence.
+
+On it are masks, each depicting different spectrum of emotions.
+
+There is a mask of joy. A mask of sorrow. A mask of wrath.
+
+I know not the reason for which this mask embodies such expression of euphoria; yet, shan’t it be enough that it shall share the selfsame joy with others?
+
+Two birds with one stone; solace shared, sorrow shrouded, the twain under a blanket of elation.
+
+I wear the mask and feel my thoughts grow clear as an autumn sky.
+
+Upon my approach, the king tensed his shoulders for a moment so brief that it was nigh unnoticed.
+
+Perhaps it was a gesture borne not out of thought but of instinct, shaped by the cloth-suppressed will to express.
+
+We had but a moment to regard it before those akin in appearance to us appeared.
+
+Though their forms were opaque and their shapes half-shrouded in shadow, they held certain similitudes to our own forms.
+
+The monarch, with certain torpidity, tipped his head to the side in a show of intent to behold our battle.
+
+The long years spent in binds have filled the void left behind by your long-gone interests with tedium, have they not?
+
+A terribly tragic tale. Yet we battle in hopes that our clashes may bring this king in binds the smallest revelry.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {What those Peccatula lack is the will to make decisions of their own.
+
+Like cards to be played with and discarded at the king’s whim.
+
+Kings, both of eld and new it seems, enjoy plays of puppets, a musical of manikins.
+
+Wielding men as cold tools, brandishing and flourishing them with abandon, breaking them. And upon their inevitable shattering, the king shall fill their spot with another puppet, its absence unnoticed.
+
+Yet, this king may be quite fond of his own.
+
+To shower his retinue with ceaseless blessings while leaving naught for the rest of us.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Passion grows hotter as the banquet slowly reaches a crescendo.
+
+The King in Binds motions for the battle to pause.
+
+Giving the actors enough time to leave their broken masks and don new ones for themselves.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Donning the mask once again summons the ardent emotions that slowly simmer into the actors' hearts.
+
+The sorrow rises through the fog of heated battle; its dense weight pierces deep, deep into their emotions.
+
+Yet, the banquet continues still......
+
+The actors repress their sorrows and step forward.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Thus concluded it seemed the banquet.
+
+Yet the King's tedium was yet to be sated; the bound monarch rose from his throne, tearing free his corpus from the bandage-chains.
+
+The long time spent in confinement has rusted his joints, yet his imposing presence and grace have only grown to touch the formidable grandeur of his sublimity.
+
+His resolute resolve roused awe in the hearts of those who beheld his emergence.
+
+Yet awe was not the only sense it roused; a question arose as well.
+
+For what did the king remain tethered to his throne, when he had the might to rise on his own?
+
+I… know not why the king remained in sedentary silence, bound not by the threads but by his own will.
+
+I write a few words here still, for I cannot very well put to sleep the simmering ruminations…
+
+It appears that the king has aught to convey.
+
+A monarch fettered to this spot, ere the hail of those who may discern his fathoms. A wraithlike state the sovereign has taken.
+
+This somber musing heaps and heaps with every blade-clash unto a mound of sorrow as sympathy falls sunken.
+
+Whyever does he hold one such banquet, his corpus bound to the throne, only to revel in such bizarre festivity?
+
+It is but a pitiful tragedy, for this abyss is deep and wreathed in inexplicability.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="7">
+      <specialTip openLevel="0" key="0">$0 have a major difference compared to other Abnormalities, it was contained in the department main room instead of a containment unit. When in calm state, $0 will grant extra HP&amp;SP recovery to employees in the main room, and attack any enemy unit in the main room.</specialTip>
+      <specialTip openLevel="1" key="1">When the employees are suppressing other enemies in the main room where $0 resides, $0 will grant shield for combatants on both sides, the side which deals more damage will be granted more shield.</specialTip>
+      <specialTip openLevel="2" key="2">$0's emotion can be measured in the scale of "satisfaction", When the work result is good, "satisfaction" will increase; When the work result is bad, "satisfaction" will decrease; When $0 was attacked, "satisfaction" will significantly decrease. If Repression work was performed on $0, the employee performing the work will be instantly executed.</specialTip>
+      <specialTip openLevel="3" key="3">Instinct work is replaced by Performance work. When Performance work begins, all employees located in the main room where $0 resides will become "actors", $0 will summon Peccatulum Inividiae equal to the number of the employees for them to combat.</specialTip>
+      <specialTip openLevel="4" key="4">When Performance work was being performed, $0's "satisfaction" will gradually increase. If the Performance work took more than 30 seconds to complete, $0's "satisfaction" will further increase; If the Performance work took less than 20 seconds to complete, $0's "satisfaction" will decrease, if the actors quit during performance, $0's "satisfaction" will decrease significantly.</specialTip>
+      <specialTip openLevel="5" key="5">When $0's "satisfaction" increases, all employees in the main room will recover HP&amp;SP; When $0's "satisfactioni" decreases, all employees in the main room will recieve BLACK damage. 上升时The greater the magnitude of "satisfaction" change, the stronger the recovery or damage.</specialTip>
+      <specialTip openLevel="6" key="6">When $0's "satisfaction" is too low, $0 will enter enraged state, teleporting all employees of this department to the main room, then sealing the main room and begin a performance. $0's wrath can only be quenched when its "satisfaction" rises to a certain threshold or its HP was brought to 0.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>The King in Binds</name>
+    <codeId>O-01-20-12</codeId>
+  </child>
+</creature>

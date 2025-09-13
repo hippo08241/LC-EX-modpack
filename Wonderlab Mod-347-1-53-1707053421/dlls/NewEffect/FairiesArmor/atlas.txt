@@ -1,0 +1,69 @@
+
+LongBirdWeapon.png
+size: 1567,3072
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+탈출요정A날개
+  rotate: true
+  xy: 683, 134
+  size: 565, 531
+  orig: 1500, 1500
+  offset: 197, 625
+  index: -1
+탈출요정A몸통
+  rotate: true
+  xy: 2, 701
+  size: 867, 1216
+  orig: 1500, 1500
+  offset: 200, 120
+  index: -1
+탈출요정A오른팔
+  rotate: false
+  xy: 1220, 480
+  size: 321, 383
+  orig: 1500, 1500
+  offset: 744, 713
+  index: -1
+탈출요정A왼팔
+  rotate: true
+  xy: 1216, 10
+  size: 205, 349
+  orig: 1500, 1500
+  offset: 890, 735
+  index: -1
+탈출요정B날개1
+  rotate: true
+  xy: 2, 2
+  size: 697, 679
+  orig: 1500, 1500
+  offset: 689, 635
+  index: -1
+탈출요정B날개2
+  rotate: false
+  xy: 1220, 865
+  size: 341, 703
+  orig: 1500, 1500
+  offset: 380, 704
+  index: -1
+탈출요정B몸통
+  rotate: false
+  xy: 2, 1570
+  size: 1500, 1500
+  orig: 1500, 1500
+  offset: 0, 0
+  index: -1
+탈출요정B오른팔
+  rotate: true
+  xy: 683, 23
+  size: 109, 292
+  orig: 1500, 1500
+  offset: 409, 320
+  index: -1
+탈출요정B왼팔
+  rotate: false
+  xy: 1216, 217
+  size: 331, 261
+  orig: 1500, 1500
+  offset: 440, 316
+  index: -1

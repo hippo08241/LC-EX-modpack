@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="125004" type="special"> 
+    <name>Good and Evil_gift_name</name>
+    <desc>Good and Evil_gift_desc</desc> 
+    <attachPos>headback</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>10</workProb>
+    </bonus>
+    <sprite>Good and Evil</sprite>
+  </equipment>
+  
+    <equipment id="125002" type="armor">
+    <name>Good and Evil_weapon_name</name>
+    <desc>Good and Evil_armor_desc</desc>
+
+    <armorId>125002</armorId>
+    <defense>
+      <defenseElement type="R">1.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+    <require type="W">4</require>
+  </equipment>
+
+  <equipment id="125003" type="weapon">
+
+    <name>Good and Evil_weapon_name</name>
+    <desc>Good and Evil_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FireBirdWeapon_GoodWeapon</specialWeaponAnim>
+    <sprite>Firebird_Good</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="B">4</require>
+
+    <damage type="B" min="7" max="16">
+      <soundInfo type="damage">Weapons/dagger1</soundInfo>
+    </damage>
+    <damage type="R" min="15" max="15">
+      <soundInfo type="damage">Weapons/dagger1</soundInfo>
+    </damage>
+
+    <range>3</range>
+
+    <script>Good1</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+</equipment_list>

@@ -1,0 +1,2 @@
+Cannot cast from source type to destination type.
+  at OzCreature_MOD.WayGoHome.OnViewInit (.CreatureUnit unit) [0x00000] in <filename unknown>:0 

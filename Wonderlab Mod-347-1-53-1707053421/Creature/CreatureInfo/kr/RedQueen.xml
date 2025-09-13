@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="102113">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0은 슬슬 이 작업이 따분해지기 시작합니다.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {여왕을 만족시키는 것은 꽤나 힘든 일입니다.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {$0은 이번 광대 놀이의 점수를 매기고 있습니다.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-02-113</codeNo>
+      <portrait openLevel ="1">Custom/RedQueen</portrait>
+
+      <name openLevel ="1">
+        레드 퀸
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>정원에 장미가 피었을 때 붉기를 기도했다.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {정원 입구엔 커다란 장미 나무 한 그루가 서있다. 어느 날, 세 명의 정원사가 흰 장미가 핀 나무를 빨갛게 칠하고 있었는데, 이를 이상히 여긴 소녀가 그들을 살피려 가까이 다가갔다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {소녀가 조심스레 물었다. “저, 왜 흰 장미를 빨갛게 물들이는지 말해줄래요?”
+다섯과 일곱은 아무 말없이 둘을 쳐다보았고, 둘은 작은 목소리로 이야기를 시작했다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {“이곳은 빨간 장미 정원입니다. 그런데 어느 날 저희의 실수로 흰 장미 나무 한 그루를 심었죠. 만일 여왕께서 이를 알게 되시면 우리 모두의 목을 베실 거에요. 그래서 장미를 빨갛게 칠하는 겁니다.”}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {이때, 둘의 뒤로 빨간 하트 왕관을 쓴 여왕이 나타났다. “여왕님이다! 여왕님!” 
+열심히 장미를 칠하던 정원사가 말했다.
+“관대하신 여왕님! 죽을 죄를 지었습니다! 제발 한 번만 용서를…”
+말을 끝마치기도 전에 정원사이 목이 댕겅 - 날아갔다. 정원사의 피로 하얗던 장미가 물들자, 여왕이 말했다. “이미 장미는 빨간색이지 않니?”}
+      ]
+    </desc>
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">작업 결과가 나쁨일 때 도끼가 날아와 해당 작업을 하던 우사밍 직원의 목이 참수당했다.</specialTip>
+      <specialTip openLevel="2" key="2">같은 작업을 3회 연속 실시하자 도끼가 날아와 해당 작업을 하던 루호 직원의 목이 참수당했다.</specialTip>
+      <specialTip openLevel="3" key="3">3등급 이상 직원이 작업을 시작하자 작업 성공률이 소폭 상승했다.</specialTip>
+      <specialTip openLevel="4" key="4">4등급 이상 직원이 작업을 시작하자 작업 성공률이 상승했다.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

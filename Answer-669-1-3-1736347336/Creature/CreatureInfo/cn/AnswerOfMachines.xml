@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="316011">
+
+
+
+    <narration action="move">
+      #0进入了“$0”的收容单元准备开始工作。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {源于某日在脑中迸发的疑问，他们如今终于沦落至此。},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {“欲理解$0的起源与意图，则需抽丝剥茧地了解他们的历史。”},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {哪怕应许之地坐落于遥远的彼方，“$0”依然选择了匍匐前进。},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {答案果真藏于螺旋的终末吗？},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-05-98</codeNo>
+      <portrait openLevel ="1">Custom/AnswerOfMachines</portrait>
+
+      <name openLevel ="1">
+        解
+      </name>
+      <name openLevel ="3">
+        局部解
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>为了守护得到的“答案”，他们使硕大无朋的铠甲包裹了身躯。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {我们为求得答案而彷徨于世。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {某一瞬间，一部分我们发现了某种可疑的方程。 
+这条方程成了或能引领我们触及答案的蛛丝马迹。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {我们为解开那条方程而花费了悠久的年月。
+其结果，我们终于得到了答案。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {我们很快就意识到，我们为之彷徨的“答案”实质并非我们真正理当追寻的事物。失望笼罩在我们的心头。我们留下那些坚持于“答案”的个体，就此遗弃了“答案”。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {=================}
+      ]
+    </desc>  
+
+    <desc id="6" openLevel="4">
+      [
+      {为了守护得到的“答案”，他们使硕大无朋的铠甲包裹了身躯，尽管心里明白他们防守得越是坚固，他们行动得就越是迟缓。}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="1">
+      <specialTip openLevel="0" key="0">当工作结果为差时，“$0”的逆卡巴拉计数器将会减少。</specialTip>
+      <specialTip openLevel="1" key="1">当工作结果为优时，“$0”的逆卡巴拉计数器有极小概率增加。</specialTip>
+      <specialTip openLevel="2" key="2">发生特定考验时，“$0”的逆卡巴拉计数器将会减少。</specialTip>
+      <specialTip openLevel="3" key="3">突破收容后，“$0”有时会使用连接至████的加农炮。加农炮的杀伤力极高，受攻击波及的员工大多都会当场死亡。但是，身体能力较强或采取特定行动的员工的生存率相对较高。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

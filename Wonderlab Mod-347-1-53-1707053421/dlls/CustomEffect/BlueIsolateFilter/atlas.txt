@@ -1,0 +1,48 @@
+
+Filter.png
+size: 2956,652
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+레이어 26
+  rotate: false
+  xy: 2846, 3
+  size: 53, 647
+  orig: 56, 649
+  offset: 1, 1
+  index: -1
+레이어 26 복사
+  rotate: false
+  xy: 2901, 3
+  size: 53, 647
+  orig: 56, 649
+  offset: 2, 1
+  index: -1
+레이어 27
+  rotate: false
+  xy: 950, 4
+  size: 942, 646
+  orig: 944, 648
+  offset: 1, 1
+  index: -1
+레이어 28
+  rotate: false
+  xy: 1894, 14
+  size: 474, 636
+  orig: 477, 639
+  offset: 1, 1
+  index: -1
+레이어 28 복사
+  rotate: false
+  xy: 2370, 14
+  size: 474, 636
+  orig: 477, 639
+  offset: 2, 1
+  index: -1
+용지
+  rotate: false
+  xy: 2, 2
+  size: 946, 648
+  orig: 948, 650
+  offset: 1, 1
+  index: -1

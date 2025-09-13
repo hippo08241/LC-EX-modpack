@@ -1,0 +1,146 @@
+
+妖精绅士.png
+size: 4840,2414
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+中指
+  rotate: true
+  xy: 2, 671
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+右垂耳
+  rotate: true
+  xy: 752, 671
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+右手
+  rotate: true
+  xy: 838, 1583
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+右翅膀
+  rotate: true
+  xy: 1502, 752
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+图层 2
+  rotate: false
+  xy: 1516, 2
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+头
+  rotate: true
+  xy: 1588, 1583
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+小桌子
+  rotate: true
+  xy: 4502, 1206
+  size: 375, 314
+  orig: 375, 314
+  offset: 0, 0
+  index: -1
+左垂耳
+  rotate: true
+  xy: 2252, 752
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+左手
+  rotate: false
+  xy: 2347, 2
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+左翅膀
+  rotate: true
+  xy: 2338, 1583
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+帽子
+  rotate: true
+  xy: 3002, 752
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+液体
+  rotate: true
+  xy: 4502, 1051
+  size: 153, 193
+  orig: 153, 193
+  offset: 0, 0
+  index: -1
+烟1
+  rotate: true
+  xy: 2, 76
+  size: 593, 755
+  orig: 593, 755
+  offset: 0, 0
+  index: -1
+烟2
+  rotate: true
+  xy: 759, 76
+  size: 593, 755
+  orig: 593, 755
+  offset: 0, 0
+  index: -1
+烟3
+  rotate: false
+  xy: 2, 1502
+  size: 834, 910
+  orig: 834, 910
+  offset: 0, 0
+  index: -1
+粘液
+  rotate: false
+  xy: 3178, 2
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+舌头
+  rotate: true
+  xy: 3088, 1583
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+身体
+  rotate: true
+  xy: 3752, 752
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+酒杯
+  rotate: false
+  xy: 4009, 2
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1
+领带
+  rotate: true
+  xy: 3838, 1583
+  size: 829, 748
+  orig: 829, 748
+  offset: 0, 0
+  index: -1

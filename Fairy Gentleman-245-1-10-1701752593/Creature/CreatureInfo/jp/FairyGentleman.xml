@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156725">
+
+
+
+    <narration action="move">
+	  #0は、作業をするために$0の収容室に入ります。
+	</narration>
+
+    <narration action="start">
+      [
+      {$0の収容室はいつも悪臭を放っている。}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0は$0を恐ろしいとは思わない。}
+      ]
+    </narration>
+    <narration action="mid2">
+		[
+		{$0はしゃっくりをしている}
+		{「うぅ…すごく臭い。でも、すごく甘い。」}
+		]
+	</narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-01-11-12</codeNo>
+      <name openLevel ="1">紳士妖精</name>
+      <portrait openLevel ="1">Custom/FairyGentleman</portrait>
+      <riskLevel openLevel ="1">TETH</riskLevel>
+      <openText>妖精酒でも飲むかい？</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {＜職員のメモと音声記録からの抜粋＞
+ここにいる他のやつらよりはフレンドリーだが、そこに立って、臭い泡を立てて挨拶し、席に誘う。彼は私にグラスを手渡した。腐った抹茶ゼリーのようなものに多分…目玉が浮いているような…。私は躊躇った。（なんでそんなに詳しく説明するかって？このクソッタレが喉に入ってきたからだ！）
+いや、騙されたんじゃない。これが私の仕事だ。なんで飲んだかっていうと…。このカビの生えた緑色の抹茶ケーキが、あのソーダマシンの紫色のソーダのように、私をここから解放して幸せにしてくれると思った。そして、これは美味しい…冗談じゃない、自分の舌をチェックしなければ…。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+		[
+		{おかわりだぁ…？
+		————ふざけんな…。
+		本当に最悪だ…あの紳士といい…。えーっちくしょう…。
+		ああ、でもそうだな、ただ変な味がするだけじゃない。正確に言うと…甘ったるい！鼻がもう限界だ！！
+		本当になんて変な味なんだ。}
+		]
+	</desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {考えを改めよう。飲んだ後、嫌な感じはしなかったな、むしろ最高の気分だ。多くのエナジードリンクを飲んだみたいに、他の奴らがゆらゆら揺れているのを見ると、エネルギーが漲ってく(ゲップ)…もう一杯！！
+    </desc>
+
+    <desc id="4" openLevel="3">
+		[
+		{クソ…やっちまっ(ゲップ)…今、飲みもろを買いに行っへ…グラスを倒しちらった。あーぁ…オエッ（ゲロまみれのノート）&#13;&#10;注意：この従業員は「優秀従業員」の選考リストから除外されました。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {過度の飲酒は健康を害します。--アンジェラ、ロボトミー社のA.I.}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">作業結果が良い場合、$0の仕事を最初に終えた職員は高い「高揚」を得た。「高揚」が高まるほど職員は自制を失い、正義に酔うだろう。</specialTip>
+      <specialTip openLevel="1" key="1">作業が終了すると職員の体力が回復し、作業結果に応じて「高揚」を得た。</specialTip>
+      <specialTip openLevel="2" key="2">作業結果が悪い、もしくは自制ランク2以下の職員が作業を行うとグラスを割ってしまい、「高揚」が「酔い」に変化した。「酔い」の深さに応じて職員は、業務に関わる全てのステータスが一時的に低下した。</specialTip>
+      <specialTip openLevel="3" key="3">$0が妖精酒を用意していた場合、収容室に入った職員はそれを飲み、深い「酔い」を得た。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142018">
+
+    <narration action="move">
+      Сотрудник #0 направляется в камеру содержания $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" рухнул на землю.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {"$0" пузыриться.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {"$0" может выплеснуться в любой момент.}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {"$0" напоминает #0 о прошлом.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-06-237-SP</codeNo>
+      <portrait openLevel="1">Custom/SpM</portrait>
+
+      <name openLevel="1">Переполняющая злоба</name>
+      <name openLevel="3">Выливающаяся злоба</name>
+      
+      <riskLevel openLevel="1">WAW</riskLevel>
+
+      <openText>И затем он был создан.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Спрячься. Не выставляй напоказ свои мысли.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {(Неразборчивый подчерк)}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">$0, в отличае от других аномалий, производит энергию исходя из количества NE-Ячеек, при одновременной трате сгенерированных NE-Ячеек и списывании PE-Ячеек.</specialTip>
+      <specialTip openLevel="2" key="2">Когда результат работы хороший, счетчик Клипота увеличился, затем на сотрудника проводившего работу подействует $0. (С этого момента сотрудника наиминуют как O-01-73-1.)</specialTip>
+      <specialTip openLevel="2" key="3">T-06-237-SP-1 получит примущество от повышенного SP и показателей Выдержки. Но, прирост характеристик пропадет если в той же комнате будут другие сотрудники.</specialTip>
+      <specialTip openLevel="2" key="4">Когда результат работы Плохой, счетчик Клипота уменьшился, и сотрудник пролучил БЕЛЫЙ урон.</specialTip>
+      <specialTip openLevel="2" key="5">Как только счетчик Клипота опуститься до 0, каждый T-06-237-SP-1 почувствует себя как ████████。</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

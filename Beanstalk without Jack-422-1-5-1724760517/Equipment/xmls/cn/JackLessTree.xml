@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="JackLessTree_weapon_name">魔法竖琴</text>
+<text id="JackLessTree_weapon_desc">一把朴素的古琴。琴身上缠绕着青翠的豆藤。&#10;长吧，豆藤，长吧。这样，我就能再次前往那个天上的国度了。&#10;静静聆听这把琴所奏出的音乐，再怎么寂寞的人都会感到一丝慰藉。&#10;我相信，总有一天，我还能再爬上那高耸入云的豆藤……</text>
+<text id="JackLessTree_armor_desc">名叫杰克的孩子曾穿过的衣服。他是一个愚蠢的孩子，和一个老人交换了魔豆和一匹母马......咦，杰克去哪儿了？</text>
+<text id="JackLessTree_gift_name">500年前的礼物</text>
+<text id="JackLessTree_gift_desc">生命值+2
+来自500年前的豆藤的礼物。</text>
+
+</localize>

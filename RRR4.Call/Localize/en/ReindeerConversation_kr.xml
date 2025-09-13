@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Reindeer_Captain_Start_0">Reindeer, let’s sweep them down with haste.</text>
+  <text id="Reindeer_Captain_Start_1">Reindeer, fight with your minds fully engaged.</text>
+  <text id="Reindeer_Captain_Start_2">Allow me to demonstrate what the Reindeer can do.</text>
+  <text id="Reindeer_Captain_Start_Geburah">I wasn't aware such a person was here... Reindeer, keep your wits about you.</text>
+  <text id="Reindeer_Captain_Start_Binah">...Manager, if that's a real Arbiter, it's a violation of the contract.</text>
+  
+  <text id="Reindeer_Captain_Half_0">Half the Reindeer are dead.</text>
+  <text id="Reindeer_Captain_Half_1">Half of the Reindeer are wiped out. Hurry it up! We’ll be at a disadvantage if this goes on for too long.</text>
+  <text id="Reindeer_Captain_Half_2">Half the Reindeer have been defeated. This shouldn't be causing us such a problem.</text>
+  <text id="Reindeer_Captain_Half_Geburah">Half the Reindeer are dead. I suppose that Rabbit was bragging for a reason.</text>
+  <text id="Reindeer_Captain_Half_Binah">Perhaps she has the power of a real Arbiter... Half of the Reindeer are dead. This is a formidable opponent.</text>
+
+  <text id="Reindeer_Captain_Almost_0">80% dead. It's getting dangerous. The Reindeer are not in their right minds.</text>
+  <text id="Reindeer_Captain_Almost_1">80% of the Reindeer are gone. The herd is being driven mad.</text>
+  <text id="Reindeer_Captain_Almost_Geburah">80% dead. Is the Red Mist really human? I've only seen this kind of power in the ruins...</text>
+  <text id="Reindeer_Captain_Almost_Binah">Fairies, and Keys... if a fake is this powerful, then how powerful is the true version?</text>
+  
+  <text id="Reindeer_Captain_Eliminated_0">All the Reindeer have been wiped out. You'll have to take care of the rest. I apologize.</text>
+  <text id="Reindeer_Captain_Eliminated_1">All the Reindeer are dead. Mission failed.</text>
+  <text id="Reindeer_Captain_Eliminated_2">Annihilation. Being in charge of this place must be a logistical nightmare...</text>
+  <text id="Reindeer_Captain_Eliminated_Geburah">I guess they call her the strongest for a reason... Meeting someone like that in person would be horrible.</text>
+  <text id="Reindeer_Captain_Eliminated_Binah">Calling on us to defeat her is insane. Don't drag us into this any further.</text>
+  
+  <text id="Reindeer_Captain_End_0">It's done. Even monsters like these have their weaknesses.</text>
+  <text id="Reindeer_Captain_End_1">Feel free to call me again. We're much more useful than the Rabbits.</text>
+  <text id="Reindeer_Captain_End_2">Reindeer, come back.</text>
+  <text id="Reindeer_Captain_End_3">Mission accomplished. Well, we're off to get our memories erased.</text>
+  <text id="Reindeer_Captain_End_Geburah">She was as strong as rumored. Though, perhaps that Rabbit would have something different to say.</text>
+  <text id="Reindeer_Captain_End_Binah">...I sincerely hope you never have to come in conflict with an Arbiter. Not even a fake one.</text>
+
+  <!--Rabbit Units
+      
+      Rabbit_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Reindeer_Unit_Name">Reindeer</text>
+  
+  <text id="Reindeer_Unit_Start_0">Another day, another mission. Let's go, guys.</text>
+  <text id="Reindeer_Unit_Start_1">Let's wrap this up quickly.</text>
+  <text id="Reindeer_Unit_Start_2">Well, live and let live.</text>
+  <text id="Reindeer_Unit_Start_3">Make sure you snap the lot of them.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Officer_0">Poor guys.</text>
+  <text id="Reindeer_Unit_Encounter_Officer_1">Go away.</text>
+  <text id="Reindeer_Unit_Encounter_Officer_2">Purification!</text>
+  
+  <text id="Reindeer_Unit_Encounter_Agent_0">A weapon is only as good as its wielder.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_1">I can't afford to look the other way.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_2">You've got something useful.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_3">Clear the out!</text>
+  <text id="Reindeer_Unit_Encounter_Agent_4">You've got some good equipment.</text>
+
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_0">Low risk.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_1">Quickly, remove it.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_2">Seems simple enough.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_HE_0">Medium risk.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_1">This will be worth it.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_2">What a strange thing.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_3">I think they're common monsters in ruins.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_4">So far, so good, let's keep fighting.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_0">High risk.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_1">This place is full of monsters...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_2">There's no point in being anxious, it's inevitable.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_3">Do they use these things in patent wars...?</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_4">This is unexpected...</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_0">Very high risk.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_1">We must hold on... We have to hold on.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_2">The power of... I've only seen it in the ruins.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_3">It's getting unbearable. I need to hurry up and finish...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_4">What the... I feel like I'm suffocating...</text>
+  
+  <text id="Reindeer_Unit_Panic_0">Die! All of you, die, die, die!</text>
+  <text id="Reindeer_Unit_Panic_1">I'll destroy everything here. I'll erase it. It must be erased!</text>
+
+  <text id="Reindeer_Unit_SectorClear_0">Mission accomplished.</text>
+  <text id="Reindeer_Unit_SectorClear_1">Rudolph, are we going back now?</text>
+  <text id="Reindeer_Unit_SectorClear_2">Any more time and it would have been dangerous.</text>
+  <text id="Reindeer_Unit_SectorClear_3">Ugh... done, on to the next location...</text>
+  
+</localize>

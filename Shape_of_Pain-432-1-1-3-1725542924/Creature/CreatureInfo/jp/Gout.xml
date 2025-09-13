@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+ 
+  <info id ="126775">
+
+
+
+    <narration action="move">
+      #0職員が作業を始めに$0の収容室に向かっていきます。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0は視界に痛みを感じてくる},
+      {「うわっ！」}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {見ているだけで痛々しい…},
+      {こんな尖ったものが身体の中にあったら痛いのも当然であろう。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {何故こんなものが生まれてしまったのか…},
+      {#0は$0を見ているだけで痛風にならないか心配になってきた。}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0は後で診察を受けに行こうか迷っている。},
+      {食生活には気を付けよう},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-267</codeNo>
+      <portrait openLevel ="1">Custom/GoutPain</portrait>
+
+      <name openLevel ="1">
+        痛みの形
+      </name>
+
+      <riskLevel openLevel ="1">
+       HE 
+      </riskLevel>
+
+      <openText>まさかこんなものが身体の中で生成されるなんて！！！！！</openText>
+
+    </collection>
+
+
+    <desc id="1" openLevel="0">
+      [
+      {「なんて痛々しい形をしてるんだ！！！まさかこんなものが身体の中で生成されるなんて信じられねえ！！！」}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {今の都市の技術では痛風は簡単に治せるでしょう。しかし、治療費が十分にない貧困層であれば…残念ながら苦しみ続けることになってしまいます…}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {治せるとはいっても発症時は痛いだろう。なりたくないけど、いつかなる可能性はあるんだよね。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {$0が発生させる痛風は普通のものより強力で、全身にそれが出来ているようだ、経験した職員は語っていた。}
+      ]
+    </desc>
+
+    <specialTipSize size="2">
+      <specialTip openLevel="0" key="0">作業結果が悪い場合、職員は痛風になった。作業結果が普通だった場合、中確率で職員は痛風になった。</specialTip>
+      <specialTip openLevel="1" key="1">抑圧作業の結果がよかった場合、職員の痛風が治った。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

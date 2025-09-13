@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="ConfessedSin_equip_name">原罪</text>
+	<text id="ConfessedSin_weapon_desc">“谁知祂是因我们的过犯而被刺透， 因我们的罪恶而被压伤。 我们因祂所受的刑罚而得到平安， 因祂所受的鞭伤而得到医治。”</text>
+	<text id="ConfessedSin_weapon_specialDesc">攻击时，移动速度-50%；&#13;&#10;每次攻击恢复2点精神值；&#13;&#10; 若持有饰品“忏悔”将触发以下效果:当进行特殊攻击时，免疫精神伤害。</text>
+
+	<text id="ConfessedSin_armor_name">原罪</text>
+	<text id="ConfessedSin_armor_desc">“荆棘深深地嵌入，仿佛无法清除；原罪亦无法洗刷，仿佛任何罪恶感都须分担。整个过程中，它将与你同在。”</text>
+	<text id="ConfessedSin_armor_specialDesc">免疫2及以下的精神伤害；&#13;&#10;免疫恐慌，当精神值为0时恢复所有精神值，但会进入30秒的被控制状态；&#13;&#10;处于上述的被控制状态时，若精神值低于10则立即死亡；&#13;&#10;若持有饰品“忏悔”，该护甲将获得强化(0.3 0.3 0.3 0.2).&#13;&#10;将处于同一房间内的员工受到的伤害替换为精神伤害，但自身将受到等量伤害。</text>
+	
+	<text id="ConfessedSin_gift">原罪</text>
+	<text id="ConfessedSin_desc"> “我父啊！如果可以，求你撤去此杯。然而，愿你的旨意成就，而非我的意愿。”&#13;&#10;&#13;&#10;精神值+15</text>
+
+
+</localize>

@@ -1,0 +1,104 @@
+
+skeleton.png
+size: 3375,3099
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+격리실요정
+  rotate: true
+  xy: 2, 4
+  size: 179, 315
+  orig: 179, 315
+  offset: 0, 0
+  index: -1
+머리
+  rotate: true
+  xy: 319, 8
+  size: 175, 234
+  orig: 804, 1120
+  offset: 312, 883
+  index: -1
+바닥돌맹이
+  rotate: true
+  xy: 1385, 164
+  size: 1293, 442
+  orig: 1315, 458
+  offset: 1, 15
+  index: -1
+오베론1
+  rotate: true
+  xy: 1343, 1685
+  size: 1412, 1237
+  orig: 1500, 1500
+  offset: 47, 194
+  index: -1
+오베론2
+  rotate: true
+  xy: 2005, 1230
+  size: 453, 480
+  orig: 1500, 1500
+  offset: 527, 988
+  index: -1
+오베론3
+  rotate: true
+  xy: 2, 1641
+  size: 1456, 1339
+  orig: 1500, 1500
+  offset: 26, 110
+  index: -1
+오베론4
+  rotate: true
+  xy: 2, 185
+  size: 1454, 1381
+  orig: 1500, 1500
+  offset: 28, 28
+  index: -1
+오베론5
+  rotate: false
+  xy: 1829, 2
+  size: 1226, 1226
+  orig: 1500, 1500
+  offset: 144, 168
+  index: -1
+티타니아
+  rotate: false
+  xy: 2582, 2167
+  size: 791, 930
+  orig: 804, 1120
+  offset: 12, 1
+  index: -1
+티타니아가슴비늘
+  rotate: false
+  xy: 1699, 1485
+  size: 304, 198
+  orig: 329, 205
+  offset: 23, 6
+  index: -1
+티타니아가슴비늘2
+  rotate: true
+  xy: 555, 21
+  size: 162, 276
+  orig: 164, 278
+  offset: 1, 1
+  index: -1
+티타니아눈썹1
+  rotate: false
+  xy: 1385, 1470
+  size: 312, 213
+  orig: 359, 277
+  offset: 0, 64
+  index: -1
+티타니아눈썹2
+  rotate: true
+  xy: 833, 45
+  size: 138, 281
+  orig: 138, 281
+  offset: 0, 0
+  index: -1
+티타니아속치마
+  rotate: false
+  xy: 2582, 1459
+  size: 735, 706
+  orig: 737, 709
+  offset: 1, 2
+  index: -1

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="29003">
+
+    <narration action="move">
+      職員#0は作業を開始するために$0の収容室へと向かう
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-09-326</codeNo>
+
+      <portrait openLevel ="1">Custom/CallFromThePostDeathWorld</portrait>
+
+      <name openLevel ="1">
+        彼岸より来たる電話
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>受話器を取れば、あなたはあの世からの声を聞く。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {古びた固定電話。どれほどの歳月が経ったのか分からないが、白い外装は既に黄ばんでいる。
+検査の結果、内部の配線は完全に破損しており、多くの部品が欠けていることが確認された。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {誰かが通り過ぎるたびに、この電話の内部から乾いた鈴の音が響く。
+この電話がどこから来たのか、そしてなぜ今でも使えるのか、誰も知らない。
+それはまるで、魔力によって人の心を惹きつけるかのようだ。
+受話器を取れば、あなたはあの世からの声を聞く。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {死後の世界はどのようなものだろう？私はこの問いをよく考えていた。
+その答えを知るきっかけは、同僚が自殺したという知らせだった。
+人々が彼の遺体を発見したのは、既に数日経った後のことだった。
+今でも、彼の微笑んだ表情を覚えている……きっと、彼はあの世の姿を目にしたのだろう。
+羨ましい限りだ。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {電話を繋げば、私は本当にあの世の声を聞けるのだろうか？
+震える手で受話器を持ち上げ、衝動的に、同僚の電話番号に電話をかけた。
+“絶対に！絶対にあの世に来るな！”
+悲痛な叫び声の中、私はあの同僚の胸を引き裂くような声を聞いた。
+数秒後、電話の向こうは再び静寂に包まれた。}
+      ]
+    </desc>
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">$0を使用した職員は、SPが持続的に減少した。</specialTip>
+      <specialTip openLevel="2" key="2">職員が$0を使用している間、その部門の全ての職員の作業成功率と
+作業速度が徐々に上昇し、一定時間ごとにわずかにHPが回復した。</specialTip>
+      <specialTip openLevel="3" key="3">長時間$0の使用を続けると、その職員はあの世へと引きずり込まれた。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

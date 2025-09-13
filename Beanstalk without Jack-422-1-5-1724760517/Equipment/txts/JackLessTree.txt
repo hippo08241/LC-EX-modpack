@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+    <equipment id="361464" type="armor">
+    <name>JackLessTree_weapon_name</name>
+    <desc>JackLessTree_armor_desc</desc>
+
+    <armorId>361464</armorId>
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">1.0</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+ <equipment id="261464" type="weapon">
+    <name>JackLessTree_weapon_name</name>
+    <desc>JackLessTree_weapon_desc</desc>
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_JackLessTreeWeapon</specialWeaponAnim>
+    <sprite>Sakura_JackLessTreeWeapon</sprite>
+    <animation>Attack1</animation>
+
+    <require type="R">4</require>
+    <require type="level">3</require>
+
+    <damage type="W" min="1" max="1">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="W" min="1" max="1">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <range>6</range>
+    <splash type="penetration" />
+    <script>JackLessTreeWeapon</script>
+    <maxNum>2</maxNum>
+    <attackSpeed>1</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="461464" type="special"> 
+    <name>JackLessTree_gift_name</name>
+    <desc>JackLessTree_gift_desc</desc> 
+    <attachPos>body_up</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+    </bonus>
+    <sprite>JackLessTreeGift</sprite>
+  </equipment>
+</equipment_list>

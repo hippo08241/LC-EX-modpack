@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyGentleman_weapon_name">Sloshing</text>
+<text id="FairyGentleman_gift_name">Fairy Wine</text>
+<text id="FairyGentleman_gift_desc">Success Rate+3 Work Speed+3</text>
+<text id="FairyGentleman_armor_desc">This E.G.O armor similar to Wingbeat, but has an additional wing.</text>
+<text id="FairyGentleman_weapon_desc">Gather the power of the fairies and destroy the spirit of the enemy.</text>
+</localize>

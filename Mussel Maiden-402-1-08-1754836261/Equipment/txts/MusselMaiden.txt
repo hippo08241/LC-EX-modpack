@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="299958" type="armor">
+    <name>MusselMaiden_Name</name>
+    <desc>MusselMaiden_Armor_Desc</desc>
+    <specialDesc>MusselMaiden_Armor_SpecialDesc</specialDesc>
+
+    <require type="P">2</require>
+
+    <armorId>299958</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <script>MusselGirlArmor</script>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="299956" type="weapon">
+    <name>MusselMaiden_Name</name>
+    <desc>MusselMaiden_Weapon_Desc</desc>
+    <specialDesc>MusselMaiden_Weapon_SpecialDesc</specialDesc>
+
+    <require type="P">2</require>
+
+    <weaponClassType>spear</weaponClassType>
+    <sprite>299956</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="8" max="12">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <range>4</range>
+
+    <maxNum>2</maxNum>
+    <script>MusselGirlWeapon</script>
+
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="299959" type="special">
+    <name>MusselMaiden_Name</name>
+    <desc>MusselMaiden_Gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>4</hp>
+      <mental>3</mental>
+    </bonus>
+    <sprite>299959</sprite>
+  </equipment>
+</equipment_list>

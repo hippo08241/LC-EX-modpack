@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="316011">
+
+
+
+    <narration action="move">
+      #0 Staff enters the $0 room to begin work.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {Starting from a doubt born one day, I ultimately fell to this place.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {To understand the origin and meaning of $0, numerous processes of unraveling their history are required.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Even if $0 could see where they were meant to reach far ahead, they chose to crawl on the ground.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {At the end of the helix, will there truly be an answer?},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-05-98</codeNo>
+      <portrait openLevel ="1">Custom/AnswerOfMachines</portrait>
+
+      <name openLevel ="1">
+        Answer
+      </name>
+      <name openLevel ="3">
+        The Dead Answer
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>To protect the 'answer' they had reached, they clad themselves in heavy armor.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {We were wandering in search of an answer.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {At one point, some of us discovered a suspicious equation. 
+      It was a clue that might lead us to an answer.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {We spent time solving that equation.
+      And finally, we reached it...the answer.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {After a while, we came to realize that the 'answer' we had sought was not what we truly should have been searching for. We were deeply disheartened.
+       Leaving behind those who clung to the 'answer', we decided to abandon it.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {=================}
+      ]
+    </desc>  
+
+    <desc id="6" openLevel="4">
+      [
+      {To protect the 'answer', that person clad themselves in heavy armor.  The more they reinforced their defenses, the less they were able to move.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="1">
+      <specialTip openLevel="0" key="0">When the work results were poor, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="1" key="1">When the work results were good, the Qliphoth Counter increased with a very low probability.</specialTip>
+      <specialTip openLevel="2" key="2">Each time a specific ordeal occurred, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="3" key="3">During $0's escape, $0 occasionally used a cannon connected to &lt;Redacted&gt;. The cannon was extremely lethal, and employees targeted by it often died in many cases. However, employees with high physical abilities or those who took specific actions had a relatively higher survival rate.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

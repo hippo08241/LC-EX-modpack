@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156523">
+
+
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0喘息着。},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0里的人头看上去很痛苦，它在不断惨叫。},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0感觉到一股灼热的蒸汽扑面而来},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-01-11-07</codeNo>
+      <portrait openLevel ="1">Custom/BronzeBull_portrait</portrait>
+
+      <name openLevel ="1">
+        黄铜公牛
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+
+      <openText>铜牛火燃，敌口难闭。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {黄铜公牛是一座铜制的金属雕像，呈现出一头公牛的外观。它被覆盖着锈迹和热痕，根据观察记录，金属被描述为铜和锌的合金。从牛的鼻孔中可以看到蒸汽的喷出。牛的嘴巴张得很大，露出内部的一个人头。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {战斗中展示出，这个人形体能够从牛的口中露出，至少到腹部为止。它的皮肤是红色的，布满伤痕，脸上似乎永远带着痛苦的神情。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {那个被困在牛的口中的人，以哀嚎和呐喊向世界发出求助的声音。他的脸上永远流露着痛苦和无尽的折磨。研究人员们尝试与他对话，但他的话语充满了神秘的预言和警示。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {一位年轻的研究员，艾米丽，对黄铜公牛充满了好奇心。她深入研究，并试图解放牛中的被困人头。然而，每一次接触都让她感受到一种无法言喻的恐惧和压力。
+
+随着时间的推移，艾米丽的心灵逐渐被黄铜公牛所困扰。她开始做恶梦，幻觉纠缠着她的日常生活。每当她接近牛时，她感受到一股邪恶力量的渗透，让她的心灵岌岌可危。
+
+其他研究员也开始感受到了黄铜公牛的诡异影响。噩梦、幻觉和恐惧笼罩在研究所的每个角落。艾米丽试图离开，但发现自己被黄铜公牛所禁锢，无法逃脱。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {最后的时刻来临了。艾米丽置身于黄铜公牛的面前，试图与其中的被困人头交流。然而，那个人头发出的声音充满了痛苦和绝望，让她的心灵摇摇欲坠。}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {在绝望中，艾米丽选择了一种极端的逃避方式。她自愿将自己困在黄铜公牛的口中，与那个被困的人头共同度过永恒的痛苦。
+
+当其他研究员最终找到艾米丽时，他们只看到黄铜公牛无声地屹立着，而艾米丽已经成为了那个被困人头的伴随者。}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="1">
+      <specialTip openLevel="0" key="0">当员工的外貌上有红色时，“$0”的逆卡巴拉计数器大概率在倒计时后减少</specialTip>
+      <specialTip openLevel="1" key="1">温馨提示：“$0”无法看见EGO武器，因此红色的EGO武器可以放心地带入其收容单元，以备不时之需</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

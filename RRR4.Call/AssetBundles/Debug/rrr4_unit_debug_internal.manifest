@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 220458745
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7991ca06a9f24101e21dcf39243c7c43
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c2bdabd68c118aabc18c59eaf5951821
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RRR4.Unit.Debug/__include/RRR4-Debug-AlphaBlend.shader
+- Assets/RRR4.Unit.Debug/__include/RRR4-Debug-AlphaBlend.mat
+Dependencies: []

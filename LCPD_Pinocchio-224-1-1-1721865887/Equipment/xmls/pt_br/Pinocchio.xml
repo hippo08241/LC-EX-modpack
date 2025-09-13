@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+   <text id="Pinocchio_weapon_name">Marionette</text>
+   <text id="Pinocchio_weapon_desc">Um machado velho e desgastado, ao pegá-lo você sentirá seu peso oscilando entre pesado e leve, como se estivesse imitando o peso que você conhece.&#13;&#10;&#13;&#10;Na cidade, para sobreviver, todo morador urbano imita constantemente aqueles que têm sucesso, tentando se tornar mais um indivíduo de sucesso. No entanto... a imitação ainda é imitação, incapaz de replicar perfeitamente o sucesso, e esses pobres imitadores acabarão por ser consumidos pela cidade.</text>
+   <text id="Pinocchio_weapon_sp_Desc">Aprendizagem imitativa: Quando equipado com um conjunto completo de EGO, ele imitará aleatoriamente o tipo de dano do inimigo.&#13;&#10;Mestre da imitação: Cada ataque irá inflingir dano adicional</text>
+   <text id="Pinocchio_armor_desc">Um conjunto de roupas requintadas que contrasta com sua arma, ao vesti-la você inconscientemente imita os outros.&#13;&#10;&#13;&#10;Para se adaptar melhor a um novo ambiente, é preciso imitar o grupo. Fazer o que o grupo faz, comer as mesmas coisas que o grupo – esta afirmação aplica-se a todo o lado, especialmente na cidade...</text>
+   <text id="Pinocchio_armor_sp_Desc">Engano: As resistencias irão mudar aleatóriamente.&#13;&#10;Aprendizagem por Imitação: Quando equipado com o conjunto completo de Ego, há uma chance de imitar a resistência da armadura de um colega de departamento. Este efeito desaparecerá após um certo período de tempo.</text>
+   <text id="Pinocchio_hat_desc">PV +3, velocidade de trabalho +2.&#13;&#10;&#13;&#10;Humanos não são criaturas que constantemente imitam?</text>
+</localize>

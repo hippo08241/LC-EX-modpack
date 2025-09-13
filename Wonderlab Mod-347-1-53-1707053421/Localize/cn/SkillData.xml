@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<localize>
+  <text id="SoulUnlockWork">赦免</text>
+
+  <text id="SoulUnlockWork_name">赦免</text>
+  <text id="SoulUnlockWork_called">赦免工作</text>
+
+</localize>

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<creature>
+  <script>Shark</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0.25</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.35</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>5</cube>
+      <cube>10</cube>
+      <cube>16</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="3" max="5" />
+    <workSpeed>0.25</workSpeed>
+    <defense id="1">
+      <defenseElement type="R">1.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <hp>200</hp>
+    <speed>3</speed>
+    <observeInfo total="70">
+      <observeElement name="stat" cost="16"/>
+      <observeElement name="defense" cost="16"/>
+      <observeElement name="work_r" cost="5"/>
+      <observeElement name="work_w" cost="5"/>
+      <observeElement name="work_b" cost="5"/>
+      <observeElement name="work_p" cost="5"/>
+      <observeElement name="care_0" cost="6"/>
+      <observeElement name="care_1" cost="6"/>
+      <observeElement name="care_2" cost="6"/>
+    </observeInfo>
+    <equipment level="4" cost="60" equipId="200047" /><!--추가-->
+    <equipment level="3" cost="30" equipId="300047" />
+    <equipment level="3" prob="0.03" equipId="400047" /><!--추가-->
+    <observeBonus level="1" type="prob">3</observeBonus>
+    <observeBonus level="2" type="speed">5</observeBonus>
+    <observeBonus level="3" type="speed">5</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature"/>
+    <node id="workspace" x="1.9" y="-1.8" type="workspace"/>
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor"/>
+    <node id="inner" x="2" y="-1.8" type="innerDoor"/>
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/Shark" x="-1" y="-2"/>
+  <returnImg src=""/>
+  <portrait src="Unit/creature/MagicalGirl_2_Portrait"/>
+  <sound action="cast" src="creature/Shark/Shark_Cast"/>
+  <sound action="dash_start" src="creature/Shark/Shark_DashStart"/>
+  <sound action="dash" src="creature/Shark/Shark_Dash"/>
+  <sound action="delay" src="creature/Shark/Shark_Delay"/>
+  <sound action="dead" src="creature/Shark/Shark_Dead"/>
+  <sound action="default" src="creature/Shark/Shark_Default"/>
+  <sound action="attack" src="creature/Shark/Shark_Attack"/>
+</creature>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="310012" type="armor"> 
+    <name>DrownedSister_equip_name</name>
+    <no>Armor_no</no>
+    <desc>DrownedSister_armor_desc</desc>
+
+    <armorId>310012</armorId>
+
+	<require type="W">5</require>
+
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.4</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+
+    <grade>4</grade> 
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="210012" type="weapon"> 
+    <name>DrownedSister_equip_name</name>
+    <no>Weapon_no</no>
+    <desc>DrownedSister_weapon_desc</desc>
+    <specialDesc>DrownedSister_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SharkWeapon_DrownedSister</specialWeaponAnim>
+    <sprite>Shark_DrownedSister</sprite>
+
+    <require type="W">5</require>
+
+	
+    <animation>Attack1</animation>
+
+    <damage type="B" min="5" max="8">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+
+     <range>15</range>
+
+
+    <script>DrownedSisterWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>7</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+<equipment id="410012" type="special">
+    <name>DrownedSister_equip_name</name>
+    <desc>DrownedSister_gift_desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <mental>-4</mental>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+    <sprite>DrownedSister</sprite>
+    <script></script> //
+  </equipment>
+</equipment_list>

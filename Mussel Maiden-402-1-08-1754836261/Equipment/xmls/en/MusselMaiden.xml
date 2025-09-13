@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="MusselMaiden_Name">Clam's Heart</text>
+<text id="MusselMaiden_Weapon_SpecialDesc">When attacking, if the target's weakest resistance is RED, the attack speed of the employee is drastically increased.</text>
+<text id="MusselMaiden_Weapon_Desc">The weapon looks like it was crafted with nothing but blue silk and clam shells.&#10;Why do clams make their shells so tough?</text>
+<text id="MusselMaiden_Armor_SpecialDesc">At the start of the work day, employees in the same department as the wielder gain a full-resistance shield of 10% of their maximum HP.</text>
+<text id="MusselMaiden_Armor_Desc">Armor that looks as if it was made from hard clam shells.&#10;What lies beneath the hardened shell?</text>
+<text id="MusselMaiden_Gift_Desc">HP+4, SP+3&#10;What are such beautiful pearls made of?</text>
+</localize>

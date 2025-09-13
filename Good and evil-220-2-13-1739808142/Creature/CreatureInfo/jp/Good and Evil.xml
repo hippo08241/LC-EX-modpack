@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="647140">
+
+
+
+    <narration action="move">
+#0は「$0」の作業に割り当てられました... 今日は特別な日のようです。
+    </narration>
+
+    <narration action="start">
+      [
+      {「$0」は人を引き寄せるか、追い払うかのように、容赦なく回転し続ける。}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0は、「$0」が他の2つのアブノーマリティに特定の点で似ていると感じています。}
+      {ここの雰囲気は快適さと圧迫感の間で揺れ動いています。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {不可解な力が＃0の出発を妨げます。}
+      {「$0」は善悪の本質に疑問を抱き困惑する。私たち自身は本質的に善なのでしょうか、それとも悪なのでしょうか？}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">X-06-104-62</codeNo>
+      <name openLevel ="1">肉体と金</name>
+      <name openLevel ="4">善悪</name>
+      <portrait openLevel ="1">Custom/Good and Evil</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>善と悪の溝が天才と狂気のダンスのように絡み合い、人間性の境界を哲学的なスペクタクルの中で明らかにする。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {このアブノーマリティーは枝X-7209に由来しており、その外観はO-05-102およびO-07-103と類似しています。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {私たちはかつて、X-06-104-62の闇が悪の根源であると信じていました。 しかし、私たちは、悪の本質は、一見黄金のように光り輝くものの中にあることに気がつきませんでした。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {レベル3エージェントのエージェントシャーロットは、X-06-104-62との複数回の交戦中に悲劇的に亡くなりました。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {実験 1:&#13;&#10;PE-BOX の抽出レベルを12から16の間に設定すると、エージェントジャスティンの精神汚染指数はゼロに戻ります。&#13;&#10;これはすべて問題であるようです。X-06-104-62の黒い部分が原因です。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {実験 2:&#13;&#10;X-06-104-62のタスクを完了した後、エージェントシャーロットは身体に損傷を負いました。&#13;&#10;完了複数のタスクの後、エージェントシャーロットは死亡しました。X-06-104-62 の黄金の部分がすべての原因だったようです。シャーロットは幻覚の中で X-06-104-62 の本当の姿を見ました。それは単なる異常ではなく、複雑な存在でした。肉体は生命への憧れを表しており、その中に純真な性質が隠されています。黄金の部分、一見純粋な善良さのように見えますが、実際にはそれが用いた策略と誘惑でした。}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">「$0」の作業結果が良いと、「$0」のクリフォトカウンターが▇▇します。</specialTip>
+      <specialTip openLevel="2" key="2">「$0」の作業結果が悪い場合、「$0」のクリフォトカウンターが減少します。</specialTip>
+      <specialTip openLevel="3" key="3">作業中のPE-BOXの抽出が12から16の間に行われると、エージェントの精神状態がわずかに回復します。</specialTip>
+     <specialTip openLevel="4" key="4">仕事の結果が良くても悪くても「$0」の特殊能力が発動します。</specialTip>
+     <specialTip openLevel="5" key="5">「$0」のクリフォトカウンターが0になると、O-05-102は脱走します。</specialTip>
+     <specialTip openLevel="6" key="6">$0-1の特殊能力は従業員のライフとSP（精神）値を200に設定しますが、回復の効果は削除されます。 $0-2の特殊能力は従業員に物理ダメージを与えます。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

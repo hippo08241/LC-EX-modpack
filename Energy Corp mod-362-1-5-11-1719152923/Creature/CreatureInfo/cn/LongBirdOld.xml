@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="178809">
+<narration action="move">
+      #0被分配到“$0”的收容单元中，以对“$0”进行工作。
+    </narration>
+    <narration action="start">
+      [
+      {在我们那些古老的谚语当中，有一句说的是：“永远不要忘记审判之鸟。它迟早会出现在你的面前，无论这要花上多久的时间。”},
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {“$0”从不着急。},
+      {也许，“$0”此刻已经到了你的家中。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {我们生活在一个没有宽恕的世界之中，希望着奉献灵魂以得到救赎。},
+      {人类生来就是狡诈的，他们无法救赎自己的灵魂。这就是为什么“$0”来到了我们的身边}
+      {很少有人能意识到自己的过错，不过“$0”的天平会帮你们理解的。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {虽然，“$0”曾是森林的守望者。可它守护森林的意愿过于强烈，以至于忽视了最为重要的东西。},
+      {之后，漆黑无比的夜晚就一直持续着...}
+      ]
+    </narration>
+  </info>
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-02-62</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/LongBird</portrait>
+      <name openLevel ="1">高鸟</name>
+      <name openLevel="2">折射的高鸟</name>
+      <name openLevel="3">折射的审判鸟</name>
+      <name openLevel="4">过去的审判鸟</name>
+      <!--<riskLevel openLevel ="0">ZAYIN</riskLevel>-->
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>它的天平能够绝对公正地衡量任何&#13;&#10;罪恶。</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {它就是那只拿着失衡的天平，在黑森林中审判众生的鸟。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {这只鸟拿着失衡的天平在黑森林中审判着生灵。天平总是偏向一边，可它并不知情，因为它的眼睛被绷带遮住了。&#13;&#10;又或许它再清楚不过，只是它一直在回避罢了。}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {事实上，很久很久以前，高鸟曾是一名公正的审判者。它的天平能够绝对公正地衡量任何罪恶。}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {为了维护森林的和平，高鸟制作了这杆能够衡量罪恶的天平。}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {曾经，高鸟的眼睛能看透一切事物。它的眼睛总是炯炯有神，如同夜空中燃烧着的明星。但为了守护森林，它把自己的眼睛赠予了大鸟。现在，它的眼框中只剩下无尽的虚空。}
+      ]
+    </desc>
+    <desc id="6" openLevel="3">
+      [
+      {脆弱的绷带随风飘动，仿佛随时都有可能开裂。过去，它曾拥有一身光彩夺目的羽毛，但由于长期缺少阳光的照射，那些羽毛也不起眼地脱落了。}
+      ]
+    </desc>
+    <desc id="7" openLevel="4">
+      [
+      {如今，它只剩下那杆失衡的天平了。即便如此，高鸟的裁决也从未停止过，永远都不会...}
+      ]
+    </desc>
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="MoodZero">当所处部门内有异想体的工作结果为差时, 逆卡巴拉计数器会立即减少。</specialTip>
+      <specialTip openLevel="1" key="escape">当员工被出逃中的该异想体攻击时，他们会被秒杀。蓝色抗性越低，被秒杀的概率越高。</specialTip>
+      <specialTip openLevel="1" key="MoodZero1">当工作结果为良时，逆卡巴拉计数器有中等概率减少。</specialTip>
+      <specialTip openLevel="1" key="MoodZero2">当工作结果为差时，逆卡巴拉计数器有大概率减少。</specialTip>
+      <specialTip openLevel="2" key="escape2">$0对O-02-40和O-02-56的出逃无动于衷。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

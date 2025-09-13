@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="BronzeBull_weapon_name">Capote</text>
+<text id="BronzeBull_gift_name">Capote</text>
+<text id="BronzeBull_gift_desc">HP +8</text>
+<text id="BronzeBull_armor_desc">"This is the first time in my life that I have watched a bullfight live, and it should also be the last time. I didn't know before that bullfighting is not just a performance, but a real fight! Die! Bull! I'm too naive."</text>
+<text id="BronzeBull_weapon_desc">Normal attacks have a chance to cause soul damage.</text>
+</localize>

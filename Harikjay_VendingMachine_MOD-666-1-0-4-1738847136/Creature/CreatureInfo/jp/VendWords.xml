@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="509122">
+
+    <narration action="move">
+      作業開始...
+    </narration>
+
+  </info>
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-05-222</codeNo>
+      <portrait openLevel ="1">Custom/VendWords</portrait>
+
+      <name openLevel ="2">
+        言葉自販機
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>
+        その機械はソーダやスナックを出すことはなかったが、最も雄弁な音を出した。
+      </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {その機械はソーダやスナックを出すことはなかったが、最も雄弁な音を出した。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {言葉自販機から出る音を聞いた者は、自身が深く啓発されていることに気づいた。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="2">
+      [
+      {その知恵に浸りたいと願い、彼は何度も何度も足を運び、
+ついにはその全ての知識が彼に授けられた。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="3">
+      [
+      {しかし、あまりにも神聖な言葉は共有されるべきではない。
+他の者たちがやってきて、彼の知恵を奪い去った時、全ては無駄になった。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {全てのものには代償が伴う。
+これが最終的に彼らが学んだ唯一のことだった。}
+      ]
+    </desc>
+
+     <specialTipSize size="5">
+      <specialTip openLevel="0" key="Hubris1">$0を使用した職員は、自制に関わる能力値が上昇した。</specialTip>
+      <specialTip openLevel="1" key="Hubris2">影響下の職員は、洞察作業の成功率が上昇していることが判明した。</specialTip>
+      <specialTip openLevel="1" key="Hubris3">最大3回まで、連続して使用するごとに効果が上昇した。</specialTip>
+      <specialTip openLevel="2" key="Hubris4">影響下の職員とは別の職員が$0を使用すると、影響下の職員は効果を失い、
+その日の内に再び効果を受けることは無かった。</specialTip>
+      <specialTip openLevel="3" key="Hubris5">影響下の職員が蓄積したエネルギーの一部が$0に支払われた。</specialTip>
+      </specialTipSize>
+  </observe>
+</creature>

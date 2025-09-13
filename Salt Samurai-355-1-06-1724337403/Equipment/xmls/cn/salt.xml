@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="salt_weapon_name">毗沙门天</text>
+<text id="salt_weapon_desc">武士的刀，不应该收在刀鞘里，而应该收在灵魂中。</text>
+<text id="salt_weapon_specialDesc">当攻击目标的等级为4/Waw以上时，额外追加一次四种属性的伤害各1点。&#13;&#10;&#13;&#10;如果目标为5/Aleph级，再追加一次。&#13;&#10;&#13;&#10;该武器的追加伤害可以享受盐晶武士的祝福加成。</text>
+<text id="salt_gift_name">毗沙门天</text>
+<text id="salt_gift_desc">移动速度+2，攻击速度+2</text>
+<text id="salt_armor_name">毗沙门天</text>
+<text id="salt_armor_desc">所谓武士道，就是看透死亡。于生死两难之际，当机立断，从容赴死。</text>
+<text id="salt_armor_specialDesc">当在攻击时如果生命值低于20%，下次攻击会改为对攻击者和自身造成100点物理伤害。</text>
+</localize>

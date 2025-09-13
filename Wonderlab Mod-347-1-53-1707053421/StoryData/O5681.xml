@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="WonderLab_1">
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="no" name="no_name" color="FFBBFF" sprite="" />
+    <character id="joe" name="wonderlab/joe_name" color="4263a0" sprite="wonderlab/Joe" />
+    <character id="joe_closeeyes" name="wonderlab/joe_name" color="4263a0" sprite="wonderlab/Joe_CloseEyes" />
+    <character id="joe_nomouse" name="wonderlab/joe_name" color="4263a0" sprite="wonderlab/Joe_NoMouse" />
+    <background src="wonderlab/bgwnd" effect="none"/>
+
+    <bgm src="wonderlab/WONDER" />
+
+    <position character="joe" to="center" fast="true"/>
+    
+    <speak speaker="joe" anim="Gald3">custom/wonderlab_1_dialog_1</speak>
+    
+    <speak speaker="joe">custom/wonderlab_1_dialog_2</speak>
+    
+    <disappear character="joe" fast="true"/>
+    <position character="joe_closeeyes" to="center" fast="true"/>
+    <speak speaker="joe_closeeyes" anim="Gald3">custom/wonderlab_1_dialog_3</speak>
+    <disappear character="joe_closeeyes" fast="true"/>
+    <position character="joe_nomouse" to="center" fast="true" />
+    <speak speaker="joe_nomouse" anim="Gald3">custom/wonderlab_1_dialog_4</speak>
+    <disappear character="joe_nomouse" fast="true"/>
+    <position character="joe_closeeyes" to="center" fast="true"/>
+    <speak speaker="joe_closeeyes" anim="Gald3">custom/wonderlab_1_dialog_5</speak>
+    <disappear character="joe_closeeyes" fast="true"/>
+    <position character="joe_nomouse" to="center" fast="true" />
+    <speak speaker="joe_nomouse" anim="Gald3">custom/wonderlab_1_dialog_6</speak>
+    <bgm src="SFX_radio_broken_01" />
+    <speak speaker="no">custom/wonderlab_1_dialog_angelica</speak>
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <disappear character="joe_nomouse" fast="true"/>
+    <bgm src=""/>
+    <remove_cg effect="fade" />
+
+    <background src="AngelaBackground" effect="none"/>
+    <bgm src="story-02_ogg" />
+    <position character="angela" to="right" />
+    <speak speaker="angela" anim="Glad2">custom/wonderlab_1_dialog_7</speak>
+    <select>
+      <option text="wonderlab/wonderlab_1_selection_1">
+        <speak speaker="angela" anim="Glad4">custom/wonderlab_1_dialog_8</speak>
+        <speak speaker="angela">custom/wonderlab_1_dialog_9</speak>
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_1_dialog_10</speak>
+        <speak speaker="angela" anim="Default2">custom/wonderlab_1_dialog_11</speak>
+        <speak speaker="angela">custom/wonderlab_1_dialog_12</speak>
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_1_dialog_13</speak>
+      </option>
+    </select>
+  </scene> 
+</root>

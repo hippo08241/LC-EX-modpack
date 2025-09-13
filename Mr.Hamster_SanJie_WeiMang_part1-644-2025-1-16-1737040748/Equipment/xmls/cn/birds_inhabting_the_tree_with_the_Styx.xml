@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="sanchez_weapon_name">&lt;color=#A45864&gt;望川&lt;/color&gt;</text>
+  <text id="sanchez_weapon_specialDesc">&lt;color=#5A9D8B&gt;命中目标时，使其受到的物理伤害加深。每次攻击有20%的概率发动特殊攻击。&#13;&#10;装备“囚河”时，造成的伤害将会有30%被转化为生命值。&lt;/color&gt;</text>
+  <text id="sanchez_weapon_desc">这是一把打捞自冥河的武器。&#13;&#10;这把镰刀上似乎燃烧着永不熄灭的青蓝色火焰。&#13;&#10;只消割裂皮肉，便可勾出灵魂。&#13;&#10;只有不惧死亡的员工才能驾驭这把镰刀。&#13;&#10;&lt;color=#A45864&gt;望眼忘川，望穿忘湮。三生石动，彼岸花开，身作河囚，枝末无明…… &lt;/color&gt;</text>
+
+  <text id="sanchez_armor_name">&lt;color=#A45864&gt;囚河&lt;/color&gt;</text>
+  <text id="sanchez_armor_specialDesc">&lt;color=#5A9D8B&gt;装备这件护甲的员工每日精神值首次低于20%时将会回复生命与精神&#13;&#10;触发恢复效果后，当天造成的伤害将会提高。&lt;/color&gt;</text>
+  <text id="sanchez_armor_desc">这是一件打捞自冥河的护甲。&#13;&#10;这件护甲上似乎燃烧着永不熄灭的青绿色火焰。&#13;&#10;穿戴这件护甲的员工将会对灵魂的声音更加敏感。&#13;&#10;&lt;color=#A45864&gt;何囚于河，于河何求？了前尘梦，断今生果，望川千年，心念不灭……&lt;/color&gt;</text>
+
+  <text id="sanchez_gift_name">&lt;color=#A45864&gt;不归&lt;/color&gt;</text>
+  <text id="sanchez_gift_Desc">&lt;color=#5A9D8B&gt;最大生命值+7 最大精神值+3 移动速度+5 攻击速度+5&lt;/color&gt; &#13;&#10;&lt;color=#A45864&gt;归去来兮，南柯一梦。&lt;/color&gt;</text>
+
+  <text id="villa_weapon_name">&lt;color=#5682BB&gt;折翼&lt;/color&gt;</text>
+  <text id="villa_weapon_specialDesc">&lt;color=#FDD47E&gt;命中目标时，使其受到的灵魂伤害加深。每次攻击有20%的概率发动特殊攻击。&#13;&#10;装备这把武器的员工将会根据精神值修正伤害。&lt;/color&gt;</text>
+   //具体修正方式为：&#13;&#10;精神值大于等于80%时伤害+5.&#13;&#10;精神值大于等于50%小于80%时伤害+3&#13;&#10;精神值大于等于20%小于50%时伤害+1&#13;&#10;精神值低于20%时伤害-5.
+  <text id="villa_weapon_desc">这把武器受赠于三只要好的鸟儿。&#13;&#10;这支羽毛笔色彩绚丽，仿佛有灵魂寄宿其中。&#13;&#10;持有这支羽毛笔的人将会更加重视自身的同伴。&#13;&#10;只有充满勇气和责任感的员工能够自如地使用这支笔。&#13;&#10;&lt;color=#5682BB&gt;鸿羽映虹彩，兰翼载岚空。&lt;/color&gt;</text>
+
+  <text id="villa_armor_name">&lt;color=#5682BB&gt;百鸟&lt;/color&gt;</text>
+  <text id="villa_armor_specialDesc">&lt;color=#FDD47E&gt;装备这件护甲的员工每隔10秒会为同一区域内的其他员工恢复20点精神值。&#13;&#10;溢出的回复量将被转化为反精神力场护盾。&#13;&#10;受到精神值恢复的员工的勇气和正义相关属性将会在50秒内提高3点。&lt;/color&gt;</text>
+  <text id="villa_armor_desc">这件护甲提炼于林间百鸟。&#13;&#10;这件护甲上缀满了轻盈柔软的羽毛，仿佛不属于人间。&#13;&#10;穿戴这件护甲的员工将会在困境中重燃勇气。&#13;&#10;&lt;color=#5682BB&gt;轻羽透青云，裳翼破长风。&lt;/color&gt;</text>
+
+  <text id="villa_gift_name">&lt;color=#5682BB&gt;不惧&lt;/color&gt;</text>
+  <text id="villa_gift_Desc">&lt;color=#FDD47E&gt;最大精神值+10 成功率+5 工作速度+5&lt;/color&gt; &#13;&#10;&lt;color=#5682BB&gt;雨落轻飞燕，洛羽灼绯烟。&lt;/color&gt;</text>
+
+  <text id="bella_weapon_name">&lt;color=#B48662&gt;沉沙&lt;/color&gt;</text>
+  <text id="bella_weapon_specialDesc">&lt;color=#8F9F54&gt;命中目标时，使其受到的精神伤害加深。每次攻击有20%的概率发动特殊攻击。&#13;&#10;每次攻击命中的目标将会受到减速，若其物理抗性不大于0则转而对其造成侵蚀伤害。&lt;/color&gt;</text>
+  <text id="bella_weapon_desc">这是一把在沙漠中生长的武器。&#13;&#10;这把大剑上的根系或许牵制着能够吞噬万物的黄沙。&#13;&#10;被这把大剑正面击中的人将会精神昏沉，动作萎靡。&#13;&#10;只有能够精确衡量敌我分界的员工可以挥动这把大剑。&#13;&#10;&lt;color=#B48662&gt;折羽沉沙溟水尽，叹君去兮不复还。 &lt;/color&gt;</text>
+
+  <text id="bella_armor_name">&lt;color=#B48662&gt;甘棠&lt;/color&gt;</text>
+  <text id="bella_armor_specialDesc">&lt;color=#8F9F54&gt;穿戴这件护甲的员工将会根据已损生命值获得伤害减免。&#13;&#10;携带“沉沙”时，特殊攻击将会为与自身处于同一区域的员工施加反侵蚀力场护盾。&lt;/color&gt;</text>
+//具体修正方式为：生命值高于50%时获得20%伤害减免，生命值介于20%和50%之间时获得50%伤害减免，生命值低于20%时获得70%伤害减免。
+  <text id="bella_armor_desc">这是一件在沙漠中生长的护甲。&#13;&#10;这件护甲充满了旺盛的生命力，或许也会庇护着不适应沙漠环境的生灵。&#13;&#10;穿戴这件护甲的员工将会得到一片用以庇护他人的“树荫”。&#13;&#10;&lt;color=#B48662&gt;蔽芾苍翠护百物，繁枝栩然作故园。&lt;/color&gt;</text>
+
+  <text id="bella_gift_name">&lt;color=#B48662&gt;不离&lt;/color&gt;</text>
+  <text id="bella_gift_Desc">&lt;color=#8F9F54&gt;最大生命值+10 成功率-2 工作速度+7 移动速度+5 &lt;/color&gt;&#13;&#10;&lt;color=#B48662&gt;倚树笑歌零落雨，醉沙卧看满天星&lt;/color&gt;</text>
+
+  <text id="voidream_gift_name">&lt;color=#A45482&gt;迷魂梦境？&lt;/color&gt;</text>
+  <text id="voidream_gift_Desc">&lt;color=#A486BB&gt;最大精神值+4 &lt;/color&gt; &#13;&#10;&lt;color=#A45482&gt;某位员工对梦境的强烈渴望导致此饰品发生了巨大化现象。&lt;/color&gt;</text>
+
+  <text id="svb_gift_name">&lt;color=#977E7C&gt;不悔&lt;/color&gt;</text>
+  <text id="svb_gift_Desc">&lt;color=#8F9F54&gt;最大生命值+12 &lt;/color&gt; &lt;color=#FDD47E&gt;最大精神值+5 &lt;/color&gt; &lt;color=#5A9D8B&gt;移动速度+7 攻击速度+7 &lt;/color&gt; &#13;&#10;&lt;color=#A45864&gt;如果员工装备了望川与囚河，则在精神受到伤害时恢复伤害量30%的精神。&lt;/color&gt;&#13;&#10;&lt;color=#5682BB&gt;如果员工装备了折翼与百鸟，则在恢复精神值时同时回复恢复量一半的生命值。&lt;/color&gt;&#13;&#10;&lt;color=#B48662&gt;如果员工装备了沉沙与甘棠，则每次攻击追加5点侵蚀伤害。&lt;/color&gt;&#13;&#10;&lt;color=#977E7C&gt;若集齐了不归、不惧、不离，则在每日第一次受到致命伤害时免除此伤害并获得护盾。&#13;&#10;能够遇到你们这样的朋友，我此生无悔。&lt;/color&gt; </text>
+
+  <text id="picky_gift_name">小拾的鼻子？？</text>
+  <text id="picky_gift_Desc">最大精神值+1 &#13;&#10;什么？这是哪里来的ego饰品？</text>
+
+  <text id="picky_armor_name">仓鼠跑轮</text>
+  <text id="picky_armor_desc">不知从何而来的睡衣。&#13;&#10;触感非常舒适蓬松，但不管是谁穿了这件衣服都会看起来胖嘟嘟的。&#13;&#10;穿戴者会试图用不明食材制成的点心投喂同事。&#13;&#10;谁家的正经后巷小孩会穿这个啊！</text>
+  <text id="picky_armor_specialDesc">每隔10秒，为同一区域的其他员工回复10点生命值并降低他们的5点精神值。&#13;&#10;若拥有培根，则改为回复15点生命值和5点精神值。</text>
+
+  <text id="picky_weapon_name">只进油盐</text>
+  <text id="picky_weapon_desc">用不明肉类制成的培根。&#13;&#10;散发着诱人的油香，会在战斗中越吃越短。&#13;&#10;就是有点咸！可能会把对手咸死……吧。&#13;&#10;怎么会有这么贪吃的小孩！</text>
+  <text id="picky_weapon_specialDesc">镇压过程中使用者会尝试食用培根，恢复生命并降低武器的攻击范围与威力。&#13;&#10;累积造成30次伤害后，对目标追加30点精神伤害。&#13;&#10;携带这块培根的员工在经过尸体时将摧毁尸体并恢复培根。</text>
+</localize>

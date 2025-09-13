@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110001">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0 is still smiling brightly.},
+      {$0 is looking forward to #0's story.
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0's silver shoes sparkles in the light.},
+      {$0's clothes are nice and tidy.}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {The road home was one sparkling gold.},
+      {The road home was a long, long road.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-01-25</codeNo>
+      <name openLevel ="1">Way Go Home</name>
+      <portrait openLevel ="1">Custom/WayGoHome</portrait>
+      <riskLevel openLevel ="2">HE</riskLevel>
+      <openText>Let's walk together. To a wonderful land… The world of dreams.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A humanoid Abnormality in a black dress and a red ribbon. Though it lacks arms, it smiles away without a care in the world.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Dorothy lived in a small cottage in the countryside before being swept away by a cyclone. Having landed on a shack and hearing about the Great Wizard of Oz, she put on a pair of silver shoes she found amongst the rubble and headed towards the Emerald City.&#13;&#10;&#13;&#10;‘The Great Wizard can surely send me back home!‘}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Dorothy met three friends on her adventure to the Emerald City. With a Scarecrow in search of a brain, a Tin Woodsman looking to regain his heart, and a Cowardly Lion wishing for courage, she finally found herself looking at the great Wizard herself.&#13;&#10;&#13;&#10;‘I want to go back home. Please, grant me my wish.’&#13;&#10;&#13;&#10; The one they had thought to be the great, all-powerful Wizard instead gave them directions.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {‘You have those wonderful silver shoes, no? If you follow the yellow brick road with those, you'll eventually reach your home. But you'll have to make haste, for it's quite a long journey. When you get there, make sure to say it was the Great Wizard who granted your wish.' And so, Dorothy said her goodbyes and started on her journey home. The road was extremely long, enveloped by darkness once out of the brilliant glamour of the Emerald City. After a long time, she spotted her house in the distance - but when she arrived, all she found was a sad pile of destroyed rubble. The silver-shoed girl headed back to the Emerald City. .}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {The Emerald City still shone vibrantly, but the Great Wizard Oz was nowhere to be seen.  She had first sent the clever human girl away, then played tricks and deceived the rest of the girl's friends, who had killed Oz in a rage.&#13;&#10;&#13;&#10;‘Y-you wicked Wizard! My friends, you've stripped me of my friends!’&#13;&#10;&#13;&#10; Dorothy, unable to reach her home after days and months of walking, decided to call all her friends and return home together.&#13;&#10;&#13;&#10; Four friends, who had started on a journey with a feeble hope dependant on a a swindler. The only ones who they could trust and rely on were each other.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {‘Gather around, everyone. Dance with me!’&#13;&#10; A scarecrow with hay for brains, an emotionless woosman of tin, and a lion without courage all soon gathered around her.&#13;&#10;&#13;&#10;‘Friends! Let us proceed! Let's all go home together!’&#13;&#10; Together, on their way home, they all obtained what they wished for&#13;&#10;&#13;&#10;‘Let's all go together. A road long and harsh.’&#13;&#10; And so, their endless march began.&#13;&#10;&#13;&#10;Let's all march onward. To a beautiful land, to a world of dreams.}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">"When an employee with Fortitude Level 4 or higher began work, the Qliphoth Counter lowered.</specialTip>
+      <specialTip openLevel="2" key="2">When Instinct work was done, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="3" key="3">When an employee enters the unit while the Qliphoth Counter is at 0, they will immediately die. Then, the Abnormality will escape.</specialTip>
+      <specialTip openLevel="4" key="4">When $0 breached, a 'Home' fell somewhere within the Facility.</specialTip>
+      <specialTip openLevel="5" key="5">$0 called upon F-05-32 and F-01-87 within the Facility, and started a march.</specialTip>
+      <specialTip openLevel="6" key="6">The parade homeward continues forever. Unable to ever go back home, they embark on an endless journey.</specialTip>
+  </specialTipSize>
+
+  </observe>
+
+  <child>
+    <name>Home</name>
+    <codeId>F-01-25-1</codeId>
+  </child>
+
+  <etc>
+
+    <!-- 탈출 후 대사 -->
+    <param key="Escape_Story_0" index="0">My endless journey started with a furious cyclone.</param>
+    <param key="Escape_Story_1" index="1">Ah-That wizard! That wicked wizard!</param>
+    <param key="Escape_Story_2" index="2">My friends! Let's go, together!</param>
+
+    <!-- 호요요 -->
+    <param key="Escape_Hoyoyo_0" index="3">Hoyoyo~</param>
+  </etc>
+</creature>

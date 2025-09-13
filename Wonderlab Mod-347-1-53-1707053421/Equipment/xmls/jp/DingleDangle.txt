@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="DingleDangle_weapon_name">ハングドマン</text>
+  <text id="DingleDangle_weapon_desc">みんなで実ってしがみつこう。 みんなで一緒にしがみつこう。</text>
+  <text id="DingleDangle_armor_desc">君の絶望、悲しみ... 共にしがみつこう。</text>
+  <text id="DingleDangle_gift_desc">精神力+6。作業成功率、作業速度-4。</text>
+</localize>

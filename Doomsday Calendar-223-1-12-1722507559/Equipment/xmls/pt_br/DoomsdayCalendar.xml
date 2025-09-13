@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DoomsdayCalendar_weapon_name">Dia Iminente</text>
+<text id="DoomsdayCalendar_armor_name">Dia Iminente</text>
+<text id="DoomsdayCalendar_gift_name">Dia Iminente</text>
+<text id="DoomsdayCalendar_gift_desc">SP +8, HP -4, Taxa de Sucesso no Trabalho +5%</text>
+<text id="DoomsdayCalendar_armor_desc">O crânio no peito desse ego parece oco, mas parece estar cheio de um profundo medo do Dia Iminente.&#13;&#10;Mas será que a reverência e o sacrifício sem fim podem realmente evitar a calamidade?&#13;&#13;&#10; Como a calamidade traz paz e tranquilidade?</text>
+<text id="DoomsdayCalendar_weapon_desc">Um rosto arrepiante com manchas de sangue, cujo sangue é desconhecido. &#13;&#10;Diz-se que ser arranhado pelos espinhos permite ver o fim do mundo em alucinações.
+ "Eu vou te esmagar..."</text>
+<text id="DoomsdayCalendar_weapon_specialDesc">Se um ataque matar um alvo com sucesso, ele restaurará o HP de todos os agentes na sala.&#13;&#10;A quantidade de HP restaurado é 12% da vida máxima de cada agente.</text>
+</localize>

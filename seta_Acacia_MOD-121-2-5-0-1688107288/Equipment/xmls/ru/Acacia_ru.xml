@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Acacia_weapon_name">Бездна</text>
+  <text id="Acacia_weapon_Desc">Пули греха летят по коридору вдоль горизонта.</text>
+  <text id="Acacia_armor_Desc">Чистая белая одежда покрывает только самые темные грехи.</text>
+  <text id="Acacia_armor_specialDesc">Не получает урона от магических пуль, когда экипирован костюм Аномалии.</text>
+  <text id="Acacia_gift_Desc">SP +3 Скорость атаки +10 Вероятность успеха работы на Подавление увеличена на 3% </text>
+</localize>

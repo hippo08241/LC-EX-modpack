@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="FlW_weapon_name">Bloated</text>
+  <text id="FlW_weapon_desc">The repulsive odor of the disgusting substance emanated from the behemoth-like body.&#13;&#10;The repugnant matter drew in both flies and intrigued youngsters.</text>
+  <text id="FlW_weapon_specialDesc">If an employee with less than 70% HP and a level greater than or equal to the wielder's own is present in the same room while attacking, gain an equivalent amount damage (max 8).</text>
+
+  <text id="FlW_armor_name">Bloated</text>
+  <text id="FlW_armor_desc">The unpleasant odor of decomposition permeated the behemoth-like body.&#13;&#10;No one dared to remain in the vicinity, and its very identity was rotting away with time.&#13;&#10;Inevitably, we will also crumble and rot away with the passing of time. Truly a nightmarish thought.</text>
+  <text id="FlW_armor_specialDesc">Deals a small amount of white damage to abnormalities in the same room at regular intervals.</text>
+  
+  <text id="FlW_gift_name">Bloated</text>
+  <text id="FlW_gift_desc">HP +2, Work Success Rate -2, Work Speed +2</text>
+</localize>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122222">
+    <narration action="move">
+      #0 заходит в камеру содержания Аномалии $0.
+    </narration>
+    <narration action="start">
+      [
+      {Сотрудник #0 смотрит на прозрачную бутылку.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {Сладкий аромат, заполняющий камеру содержания, заставляет живот Сотрудника #0 урчать.},
+      {Аномалия $0 не реагирует, выплёскивая соляной раствор.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-07-25</codeNo>
+      <portrait openLevel ="1">Custom/TearsBottle</portrait>
+
+      <name openLevel ="1">
+       Бутылка слёз
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+      <openText>Ты утонешь в собственных слезах.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Бутылка, наполненная солёными слезами и закупоренная тортиком.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Когда сотрудник Финн съел торт, бутылка разбилась, заполняя камеру содержания водой.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Тело сотрудника Финна всё время расширялось и сжималось.
+Спустя время вода исчезла и сотрудник Финн вышел из камеры содержания.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {Разбитое сердце прицепилось к сердцу Финна.
+Те, кто жаждут Бутылку Слёз утонут в собственных слезах.}
+      ]
+    </desc>
+    
+     <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">После выполнение работы на Привязанность Аномалия $0 показала наилучшие энергетические результаты.</specialTip>
+      <specialTip openLevel="2" key="2">В результате Хорошей работы на Инстинкт, бутылка разбилась и заполнила камеру содержания водой.</specialTip>
+      <specialTip openLevel="3" key="3">Если у сотрудника имеется Э.П.О.С. Дар Аномалии, то во время работы на Инстинкт Аномалия $0 не будет производить энергии.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

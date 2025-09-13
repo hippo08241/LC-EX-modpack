@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="STARname">星の音</text>
+<text id="star1desc">精神力+5</text>
+<text id="star2desc">移動速度+5</text>
+<text id="STARdesc">星降る川を見よ、軽やかに求道者を呼ぶ。 あなたと私は星々の中の塵、帰る場所を見つけるのは難しい。 なぜ触れ合えないのか？ なぜ私たちは離れなければならないのか？ 夜は静まり返り、星が嘆く。</text>
+<text id="STARweaponstory">涙のしずくが滑り落ち、思いはいつも拭い去れない。 私の心は響き、星は高く垂れ下がる。 互いが見えづらくても、星の光は私を照らす。 この先の道も怖くない。 使命を果たさなければ、また会える。</text>
+</localize>

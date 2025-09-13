@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+<text id="Tooltip_GameStatus@Pause">0.5倍の速度でゲームをプレイする
+スペースバーを押して一時停止することもできる</text>
+<text id="Tooltip_GameStatus@SpeedLv1">通常の速度でゲームをプレイする
+E:加速する</text>
+<text id="Tooltip_GameStatus@SpeedLv2">1.5倍の速度でゲームをプレイする
+Q:減速する / E:加速する</text>
+<text id="Tooltip_GameStatus@SpeedLv3">2倍の速度でゲームをプレイする
+Q:減速する</text>
+</localize>

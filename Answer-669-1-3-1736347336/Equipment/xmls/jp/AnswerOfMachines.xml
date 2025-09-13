@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Dead End Answer_armor_name">デッドエンド</text>
+<text id="Dead End Answer_armor_desc">大きな鎧は、「答え」を守るために非常に強固な作りとなっている。
+その「答え」に固執した者には、先の未来は存在しないだろう。</text>
+<text id="Dead End Answer_armor_specialDesc">移動速度と攻撃速度が大きく減少する
+局所解のE.G.Oギフトを装着している場合、耐性が向上する</text>
+<text id="Dead End Answer_weapon_name">デッドエンド</text>
+<text id="Dead End Answer_weapon_desc">彼らにとって、それは確かに答えであったのだろう。しかし、完全なものではなかった。
+ただそれだけのことなのだ。</text>
+<text id="Dead End Answer_weapon_specialDesc">装備者が受けるダメージを60％軽減する
+また、鎮圧時に装備者のすぐ後ろにいる他の職員やアブノーマリティが受けるダメージを30％軽減する
+<!-- (ただし、軽減する前のダメージが10より大きい場合、軽減後のダメージは10以下にはならない) -->
+
+局所解のE.G.Oをすべて装着している場合、R耐性が更に向上する
+</text>
+<text id="Dead End Answer_gift_name">デッドエンド</text>
+<text id="Dead End Answer_gift_desc">勇気+14、慎重+14、移動速度-10、攻撃速度-10</text>
+</localize>

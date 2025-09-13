@@ -1,0 +1,104 @@
+
+hama.png
+size: 1330,985
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hama/尾巴
+  rotate: false
+  xy: 310, 310
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/前脚
+  rotate: false
+  xy: 310, 1
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/右神经
+  rotate: false
+  xy: 1, 928
+  size: 84, 55
+  orig: 84, 55
+  offset: 0, 0
+  index: -1
+hama/右眼球
+  rotate: false
+  xy: 928, 619
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+身子
+  rotate: false
+  xy: 310, 619
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/后脚
+  rotate: false
+  xy: 619, 619
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/前脚2
+  rotate: false
+  xy: 928, 1
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/口水
+  rotate: false
+  xy: 928, 310
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/眼泪
+  rotate: false
+  xy: 1, 310
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/右瞳孔
+  rotate: false
+  xy: 1, 1
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/左神经
+  rotate: false
+  xy: 619, 1
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/左眼球
+  rotate: false
+  xy: 1237, 1
+  size: 91, 46
+  orig: 91, 46
+  offset: 0, 0
+  index: -1
+hama/左瞳孔
+  rotate: false
+  xy: 1, 619
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1
+hama/高光
+  rotate: false
+  xy: 619, 310
+  size: 307, 307
+  orig: 307, 307
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AdultTellLie_equip_name">False Throne</text>
+<text id="AdultTellLie_weapon_desc">“It is said that all adults who met the great wizard had their wishes fulfilled.”</text>
+<text id="AdultTellLie_weapon_specialDesc">Enemies hit by this weapon has their movement speed decreased by 50% for 3 seconds
+Periodically unleash a special attack
+If this E.G.O. weapon is equipped, the Emerald Palace does not appear</text>
+<text id="AdultTellLie_gift_desc">Attack Speed -5 Movement Speed -5 HP +9 SP +9 Success Rate +9 Work Speed +9
+
+Well done.</text>
+<text id="AdultTellLie_armor_desc">“No adult actually had their wishes granted.
+They were also but liars.”</text>
+<text id="AdultTellLie_armor_specialDesc">Become invulnerable for 3 seconds after using False Throne's special attack
+Take 25% less damage from enemies with impaired movement speed
+If this E.G.O. suit is eqipped, the Emerald Palace does not appear</text>
+
+</localize>

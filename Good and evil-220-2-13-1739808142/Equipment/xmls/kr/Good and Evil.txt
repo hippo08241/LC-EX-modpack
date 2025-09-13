@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Good and Evil_weapon_name">선악구별</text>
+<text id="Good and Evil_gift_name">선악구별</text>
+<text id="Good and Evil_gift_desc">작업 성공률 +10</text>
+<text id="Good and Evil_armor_desc">네가 왜 이 회사에 오든 간에 "나"의 선택을 존중해야 할 거야.</text>
+<text id="Good and Evil_weapon_desc">타인을 해하는 자는 자기 자신을 해하게 된다.</text>
+</localize>

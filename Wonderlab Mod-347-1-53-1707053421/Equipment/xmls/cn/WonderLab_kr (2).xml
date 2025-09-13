@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="TearsBottle_weapon_name">挖眼器</text>
+  <text id="TearsBottle_weapon_desc">能做的事只有侧身躺着，用一只眼睛往门缝里窥伺。不敢再经过那里了，她踌躇不前，又哭了起来。“竟然哭成这样。停！我说了停！”但那时流下的眼泪已经充满了房间。</text>
+  <text id="TearsBottle_weapon_specialDesc">持有E.G.O饰品时，增加4点伤害。</text>
+  <text id="TearsBottle_gift_Desc">最大精神值+8</text>
+  <text id="Titania_weapon_name">仲夏</text>
+  <text id="Titania_weapon_desc">“我将抹去你的痛苦，作为花朵重生吧。”</text>
+  <text id="Titania_weapon_specialDesc">持有者穿戴护甲“仲夏”时，精灵造成的额外伤害+1。&#13;&#10;镇压职员后，精灵的数量+1。</text>
+  <text id="Titania_armor_desc">“是你吗，奥伯隆？是那个被我苦苦思念的你吗？”</text>
+  <text id="Titania_armor_specialDesc">穿戴者的身边漂浮着精灵，每当镇压单个目标时，精灵都将对目标造成额外伤害。</text>
+  <text id="Titania_gift_Desc">移动速度+6 攻击速度+6</text>
+</localize>

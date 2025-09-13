@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="FlW_weapon_name">肥大化</text>
+  <text id="FlW_weapon_desc">その巨体のような体からは、不快な物質の臭いが漂っていた。&#13;&#10;その忌まわしい事柄は、ハエと興味をそそられた若者の両方を引き寄せた。</text>
+  <text id="FlW_weapon_specialDesc">攻撃中、同じ部屋に体力が70％以下で、使用者のランク以上の職員がいた場合、同等のダメージ（最大8）を与える。</text>
+
+  <text id="FlW_armor_name">肥大化</text>
+  <text id="FlW_armor_desc">腐敗臭が充満していた。&#13;&#10;誰もその周辺に留まる勇気はなく、そのアイデンティティは時間とともに朽ち果てていった。&#13;&#10;必然的に、私たちも時間の経過とともに崩れ去り、朽ち果てていく。本当に悪夢のような考えだ。</text>
+  <text id="FlW_armor_specialDesc">一定時間ごとに、同じ部屋にいるアブノーマリティーに少量のWHITEダメージを与える。</text>
+  
+  <text id="FlW_gift_name">肥大化</text>
+  <text id="FlW_gift_desc">体力+2、作業成功率-2、作業速度+2</text>
+</localize>

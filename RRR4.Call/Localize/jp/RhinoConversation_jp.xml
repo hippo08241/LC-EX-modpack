@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Rhino_Captain_Start_0">サイ出動！力仕事には自信がある！</text>
+  <text id="Rhino_Captain_Start_1">力いっぱい潰して、力いっぱい防げ！</text>
+  <text id="Rhino_Captain_Start_2">施設のことは気にするな！今は暴れることが俺たちの任務だ！</text>
+  <text id="Rhino_Captain_Start_Geburah">赤い霧と力を競えるだなんて、光栄だな！</text>
+  <text id="Rhino_Captain_Start_Binah">おい、管理者！調律者と戦うのは契約違反だ！</text>
+  
+  <text id="Rhino_Captain_Half_0">半分のサイが踏み潰されたか。</text>
+  <text id="Rhino_Captain_Half_1">あと何匹だ？半分くらいか？</text>
+  <text id="Rhino_Captain_Half_2">半分が死亡！もっと暴れろ！突進すれば勝手に道が開かれるからな！</text>
+  <text id="Rhino_Captain_Half_Geburah">サイの半分が踏み潰された。しかし、力比べは終わっていない！</text>
+  <text id="Rhino_Captain_Half_Binah">本物の調律者でなくても、厳しいことには変わりないな！</text>
+
+  <text id="Rhino_Captain_Almost_0">80%が踏みつぶされた。結構厄介な相手だな。</text>
+  <text id="Rhino_Captain_Almost_1">80％のサイが死んだ。 ここで死ぬか生きるかは自分の選択にかかっている！</text>
+  <text id="Rhino_Captain_Almost_Geburah">80%が死んだな！ウサギが言っていた通り、すごい奴だ。</text>
+  <text id="Rhino_Captain_Almost_Binah">劣化した力がこれほどとは…本物の調律者とは遭遇したくないなぁ。</text>
+  
+  <text id="Rhino_Captain_Eliminated_0">サイ全滅！おっとぉ！まともに踏み潰されたか。</text>
+  <text id="Rhino_Captain_Eliminated_1">すべてのサイが死んだ。全然暴れまわれないまま……こんな風に負けるとか……。</text>
+  <text id="Rhino_Captain_Eliminated_2">サイ全滅！ 困ったもんだ。</text>
+  <text id="Rhino_Captain_Eliminated_Geburah">力で押されて屈服するだとか……。.</text>
+  <text id="Rhino_Captain_Eliminated_Binah">やっぱり厄介なやつだな。自分でうまくやれよ！</text>
+  
+  <text id="Rhino_Captain_End_0">サイの角のように独りで征け！</text>
+  <text id="Rhino_Captain_End_1">遺跡に居るやつらよりも手応えあったな！</text>
+  <text id="Rhino_Captain_End_2">思ったより大したことないな、だろ！</text>
+  <text id="Rhino_Captain_End_3">任務完了！サイたちはここで起きたことを全部忘れて帰ってこい！</text>
+  <text id="Rhino_Captain_End_Geburah">ははっ！俺たちの力がこんなに強かったのか？</text>
+  <text id="Rhino_Captain_End_Binah">調律者でも力で潰せば技術も何も役に立たない！！</text>
+
+  <!--Rhino Units
+      
+      Rhino_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Rhino_Unit_Name">サイ</text>
+  
+  <text id="Rhino_Unit_Start_0">迷わず果敢に！</text>
+  <text id="Rhino_Unit_Start_1">どんな敵であれ、サイの足に押しつぶされるだけだ！</text>
+  <text id="Rhino_Unit_Start_2">サイの前を塞げるものは何もない！</text>
+  <text id="Rhino_Unit_Start_3">隊長。今すぐ始めれば良いんですか？</text>
+  
+  <text id="Rhino_Unit_Encounter_Officer_0">面白いやつらだな！</text>
+  <text id="Rhino_Unit_Encounter_Officer_1">捨てられた奴らは処分する！</text>
+  <text id="Rhino_Unit_Encounter_Officer_2">浄化する！</text>
+  
+  <text id="Rhino_Unit_Encounter_Agent_0">前に立ちはだかるとは……愚かだな！ははっ！</text>
+  <text id="Rhino_Unit_Encounter_Agent_1">お前らも捨てられたんだ！</text>
+  <text id="Rhino_Unit_Encounter_Agent_2">武器がもったいないな。</text>
+  <text id="Rhino_Unit_Encounter_Agent_3">排除する！</text>
+  <text id="Rhino_Unit_Encounter_Agent_4">使えそうな装備を持っているな。</text>
+
+  <text id="Rhino_Unit_Encounter_Creature_TETH_0">危険レベル：中</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_1">誰から潰そうか！</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_2">身体が凄くか弱いな、だろ！</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_HE_0">危険レベル：中</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_1">そんな攻撃は無駄だ！</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_2">新しい遺跡の怪物か？</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_3">遺跡散策に出てきたようだな！</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_4">少しは体を温めることができそうだ</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_WAW_0">危険レベル：高</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_1">これくらいでないと戦う気がしない！</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_2">外郭の怪物を絞ってエネルギーを作るのか？</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_3">煙戦争の時にこんなものを使っていたら、私たちまで巻き込まれたかもしれないな。</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_4">こんな怪物どもが前に立ち塞がっても気にしない！やるべきことがあるから！</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_0">危険レベル：測定不能</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_1">群れの全滅に繋がらないと良いな！</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_2">怪物相手にこれくらいで折れたりはしない……！</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_3">こんな奴らと戦えだなんて、もうちょっとズレてたらこっちが殺られてしまうぞ。</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_4">まるで遺跡の深層に入ったような感覚だ。</text>
+  
+  <text id="Rhino_Unit_Panic_0">精神汚染最大値。 自動処分を実地する。</text>
+  <text id="Rhino_Unit_Panic_1">自動処分で リスクを排除する。</text>
+
+  <text id="Rhino_Unit_SectorClear_0">任務完了！</text>
+  <text id="Rhino_Unit_SectorClear_1">勝利だ！</text>
+  <text id="Rhino_Unit_SectorClear_2">久々の本気で戦える相手だったな！</text>
+  <text id="Rhino_Unit_SectorClear_3">勝てると思ったか？惜しいな！</text>
+  
+</localize>

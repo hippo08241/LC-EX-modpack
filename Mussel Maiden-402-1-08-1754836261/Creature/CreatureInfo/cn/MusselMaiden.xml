@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="199957">
+
+
+
+    <narration action="move">
+      #0进入$0的收容单元开始工作。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0就静静的在那坐着，静闭着双眼，不知道在想什么。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0看着$0如丝绸般的长发不禁入了迷。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {蚌中的泥沙……是人的骸骨？#0吓了一跳。}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {“蚌”中之珠为谁而生？#0不知道。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-01-216</codeNo>
+      <portrait openLevel ="1">Custom/MusselGirl</portrait>
+
+      <name openLevel ="1">
+        蚌女
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>你知道“蚌珠”是怎么做成的吗？</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {“你知道基因型和表现型吗？就算多个生物个体基因型完全一致，它们表现出的形态也可能并不相同。”&#13;&#10;“反之亦然，即使基因型组合不同，在一定条件下，它们的表型也可能几乎完全相同。”&#13;&#10;“这就是被基因重组眷顾的灵魂，万中无一的超级个体。很美吧？”}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {面前的个体甚至称不上是“生物”。这是纯粹由基因叠加而成的，与人类表现出同样外貌的生命体，世界上独一无二的个体。与它同胞诞生的兄弟姐们，都只是被剔除了的一众杂合子与隐性个体，甚至不及这完美造物的一丝一毫。&#13;&#10;“纯白的火。”&#13;&#10;“纯白的竹。”&#13;&#10;“纯白的婚礼。”}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {——无论是什么基因型的组合都无所谓。我们想要的，只有能表现出最完美性状的超级个体。&#13;&#10;——“单薄。”舍弃。&#13;&#10;——“坚硬。”舍弃。&#13;&#10;——“平整。”舍弃。&#13;&#10;——“粗糙。”舍弃。&#13;&#10;我们不需要考虑那些被无情的概率学愚弄了的丑陋个体。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {将繁育出的完美商品展示在橱窗里；用绸缎装饰，用宝光点缀；精心呵护那颗原初的基因宝石，用上好的饲料将它喂养，用层层爱意包裹得再也喘不出一口气；用丑陋同胞的骨衬托它的稀罕珍贵；把被遗弃的表现型踩在脚下，喝骂溅在它脚尖的污点；将它捧上神坛，享尽夸赞荣耀；待到下一轮美的狂潮再把它砸碎重新创造美的篇章——}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {于是，那个物种死了。化作人造的珍珠，在你我的赞叹声中熠熠生辉。}
+      ]
+    </desc>
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">每天第一次工作结果为优时， $0会给那名员工“蚌女的爱意”。</specialTip>
+      <specialTip openLevel="2" key="2">携带“蚌女的爱意”的员工的能力得到了提高。</specialTip>
+      <specialTip openLevel="3" key="3">工作结果为良或差时，逆卡巴拉计数器有中等概率减少。</specialTip>
+      <specialTip openLevel="4" key="4">携带“蚌女的爱意”的员工对蚌女进行多次工作后，$0将吞噬那名员工并且立刻出逃。吞噬完员工后的$0，出逃时比平常出逃更加凶狠。</specialTip>
+   </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+<info id="178800">
+<narration action="move">
+#0は作業プロセスを開始するために$0の収容室に向かっています。
+</narration>
+<narration action="start">
+[
+{$0の容姿はまさに人間そのもの。しかし、鋭い目を持つ職員は違和感に気づくだろう。},
+{$0は通常のアブノーマリティとは異なります。両者の最大の違いは、一度も本性を現したことがないことだ。},
+{「殻」と「皮」の違いをご存知ですか？}
+]
+</narration>
+<narration action="mid1">
+[
+{$0は#0を見つめながら意味もなく歯ぎしりをする。},
+{$0の肋骨と思われる骨がバリバリと音を立てます。},
+{$0は#0を見つめ、その甲羅のねじれた首が折れて不自然に回転します。},
+{$0に属する口のような器官からは、かつては人間のものだったと思われる腸が時折滴り落ちます。}
+]
+</narration>
+<narration action="mid2">
+[
+{#0は$0の未知の分泌物を踏まないように最善を尽くします。},
+{$0は#0に対して何一つ脅迫的な行動をとらないのに、恐怖に全身が震える。},
+{#0はアブノーマリティがすぐに彼らを攻撃しないことを知っていますが、それでも封じ込められることに極度の恐怖を感じています。}
+]
+</narration>
+<narration action="mid3">
+[
+{#0は機能しますが、彼らは$0に奇妙な意味で親しみを感じます。},
+{#0は$0から何かを見つけます。}
+]
+</narration>
+<narration action="mid4">
+[
+{「彼女」は#0の先輩だった。彼らはお互いに一言も話したことはありませんでしたが、良い同僚だったのかもしれません。},
+{#0は「彼女」の職員プロフィールを見ていました。#0が「彼女」を覚えていた理由は、彼女の顔に特徴的なほくろがあったからです。}
+]
+</narration>
+<narration action="special_ability1">
+[
+{$0が#0に付けました。}
+]
+</narration>
+<narration action="special_ability2">
+[
+{#0を着ている間に、彼らの骨は床に散乱しました。}
+]
+</narration>
+<narration action="special_ability3">
+[
+{$0は#0の形をとり、一歩踏み出すたびに、ずれたままの骨から音を立てます。}
+]
+</narration>
+<narration action="panic">
+[
+{#0は$0から来るどうしようもない嫌悪感と恐怖を感じます。 $0からにじみ出る生来の憎しみが、#0の芯を攻撃します。}
+]
+</narration>
+<narration action="dead">
+[
+{これで#0が$0の新しい皮になりました。おそらく、脱皮したばかりの「殻」$0 のように、彼らが適切に埋葬される日が来るかもしれません。},
+{#0が$0の新しい皮になりました。施設内の職員全員がそれらを覚えているでしょう。そうしたくないとしても、そうしなければならないでしょう。}
+]
+</narration>
+</info>
+
+<observe level ="4">
+<collection>
+<codeNo openLevel ="0">O-06-20</codeNo>
+<portrait openLevel ="1">Sprites/Unit/creature/NotThing</portrait>
+<name openLevel ="1">何もない</name>
+<name openLevel ="2">屈折した何もない</name>
+<name openLevel ="4">ミラーリングされた何もない</name>
+<riskLevel openLevel ="1">ZAYIN</riskLevel>
+<openText>そして、多くの皮が「管理人」という一言を叫びました。</openText>
+</collection>
+<desc id="1" openLevel="0">
+[
+{このアブノーマリティーはEnergy Corp modのデバッグアブノーマリティーです。通常のゲームプレイ中にこのアブノーマリティーに近づいた場合、risklevel.xml のリスクレベルノードに問題がある可能性があります。ノードが空であるか、LcIdにmodブラックリストに含まれるmodidがあるか、オプションで無効にしている間にノードにサポーターの異常がないかを確認してください。}
+]
+</desc>
+<specialTipSize size="7">
+<specialTip openLevel="1" key="needKill">作業する職員の勇気ランクが低いほど、成功率は低くなり、作業は不安定になる。</specialTip>
+<specialTip openLevel="2" key="justice">正義レベル4未満の職員が作業を完了するとクリフォトカウンターが減少した。</specialTip>
+<specialTip openLevel="2" key="killUp">収容室にいた#0は$0によって殺された。突然、$0が#0に変わった。別の職員がパニックに陥ったときにも同じことが起こった。</specialTip>
+<specialTip openLevel="2" key="panicUp">作業結果が悪い場合、#0が攻撃を受け$0の抜け殻と化した。</specialTip>
+<specialTip openLevel="3" key="makePanic">勇気ランク3以下の職員は、$0の部屋に入るとすぐにパニックになった。勇気ランク4未満の職員は、決して$0へ作業させないことをお勧めする。</specialTip>
+<specialTip openLevel="3" key="backMonster">$0の人間の姿を目撃した#0がパニックに陥ると、彼らは$0の新たな抜け殻となった。同時にクリフォトカウンターも減少した。</specialTip>
+<specialTip openLevel="4" key="needGun">クリフォトカウンターが0になると、$0は死んだ#0の姿をとって収容室から消えた。管理人は$0の変装した姿をすぐに見つけて殺さなければならない。</specialTip>
+</specialTipSize>
+</observe>
+</creature>

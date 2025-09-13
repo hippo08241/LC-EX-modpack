@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="641301" type="special"> 
+    <name>salt_gift_name</name>
+    <desc>salt_gift_desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <attackSpeed>2</attackSpeed>
+	  <movement>2</movement>
+    </bonus>
+    <sprite>641301</sprite>
+  </equipment>
+  
+    <equipment id="641302" type="armor">
+    <name>salt_weapon_name</name>
+    <no>salt_armor_no</no>
+    <desc>salt_armor_desc</desc>
+    <specialDesc>salt_armor_specialDesc</specialDesc>
+    <script>saltArmor</script>
+
+    <armorId>641302</armorId>
+    <defense>
+      <defenseElement type="R">0.9</defenseElement>
+      <defenseElement type="W">1.0</defenseElement>
+      <defenseElement type="B">1.0</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <script>saltArmor</script>
+    <grade>1</grade>
+    <maxNum>5</maxNum>
+  </equipment>
+  
+  <equipment id="641303" type="weapon">
+
+    <name>salt_weapon_name</name>
+    <desc>salt_weapon_desc</desc>
+    <script>saltWeapon</script>
+    <specialDesc>salt_weapon_specialDesc</specialDesc>
+<sprite>641303</sprite>
+
+<animation>Attack1</animation>
+    <damage type="R" min="3" max="3">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+<weaponClassType>hammer</weaponClassType>
+    <range>5</range>
+<attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+</equipment_list>

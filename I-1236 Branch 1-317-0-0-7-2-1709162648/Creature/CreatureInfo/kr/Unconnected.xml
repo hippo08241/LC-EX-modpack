@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142019">
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {$0는 그저 여기에 서 있을 뿐, 아무런 움직임도 보이지 않습니다.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {$0는 반응이 없습니다.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {$0의 불빛이 은은하게 빛납니다.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-240</codeNo>
+      <portrait openLevel="1">Custom/UnChild</portrait>
+
+      <name openLevel="1">연결된 아이</name>
+      <specialName openLevel="1">‰ø°Âè∑‰∏¢Â§±</specialName>
+      
+      <riskLevel openLevel="1">ZAYIN</riskLevel>
+
+      <openText>Hello, World!</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {연결됨.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {이 도시에 사로잡힌 빈 껍데기가 여기에서 생명을 되찾았다.&#13;&#10;재미있는 건, 비슷한 영혼들이 이 곳에 모여서 영혼의 세계와 함께 일어섰다는 점이다.&#13;&#10;그리고 그들은, 연결되었다.&#13;&#10;&#13;&#10;"안녕하세요, 저는......"}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {그 아이는 이 곳에 도착했다. 텅 빈 상태였다. 그러자 그 아이는 하나의 창문을 만들었다.&#13;&#10;하나의 창에는, 사상의 기류가 서로 통한다. 창을 열면, 그 아이는 황야에서 잠시 휴식을 취할 수 있겠지.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {장벽이 깨졌다. 순식간에.&#13;&#10;이 세상은 연약하고 기묘하다.&#13;&#10;이 모든 것은 그저, 일정량의 흩어지고 쓰러지고 부서지는 악의에 지나지 않는다.&#13;&#10;하늘이 산산조각이 났다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {우리 중 한 명은 버려진 화실을 발견했다. 벽에 걸린 셀 수 없이 많은 그림들이 잿빛으로 검게 그을린 노란색과 함께 유리 기둥을 둘러싸고 있었다.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {고개를 들었다. 아름다운 색채가 천장에 칠해져 있었다. 한 폭의 그림은 기이한 광경을 묘사하고 있지만, 우리는 그것을 본 적이 없다.&#13;&#10;한때는 어떤 세상이었을까?}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">애착 작업으로 작업 결과가 좋음일 때, $0는 해당 직원과 다른 직원을 서로 '연결'시켜 주었다. 이렇게 형성된 연결고리 안에서 직원 한 명이 피해를 입었다면, 해당 연결고리의 다른 직원들은 소량의 피해를 분담해서 받게 되었다.</specialTip>
+      <specialTip openLevel="2" key="2">서로 다른 연결고리 안의 직원들이 서로 연결이 되었다면, 해당 연결고리들은 합쳐진다.</specialTip>
+      <specialTip openLevel="2" key="3">억압 작업을 완료하자 이전에 설정되어 있었던 연결이 해제되었다. 하지만, 연결된 직원이 사망했다면, 이전의 모든 연결을 해제할 수 없었다.</specialTip>
+      <specialTip openLevel="2" key="4">$0가 연결해줄 수 있는 양은 한정되어 있다. 지나치게 연결을 많이 하려고 하자, 모든 연결이 해제되었다. 이 때, $0에게 억압 작업을 완료하자 연결되었던 모든 직원이 패닉에 빠졌다.</specialTip>
+      <specialTip openLevel="2" key="5">이 환상체는 클리포트 폭주의 영향을 받지 않았다.</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

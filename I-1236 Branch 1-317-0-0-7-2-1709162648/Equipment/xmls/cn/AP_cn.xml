@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="ChP_weapon_name">技术之美</text>
+  <text id="ChP_weapon_desc">孩子们摸索着取出世界。</text>
+  <text id="ChP_weapon_specialDesc">累积创伤。推迟造成伤害。</text>
+  <text id="ChP_armor_desc">孩子们探求着建立世界。</text>
+  <text id="ChP_armor_specialDesc">我有一个极其精妙的特殊效果，可惜这里空间太小，我写不下。</text>
+
+  <text id="SpMa_armor_name">漆黑流体</text>
+  <text id="SpMa_armor_desc">我周围的瓶子——灵魂——随时可能破碎，流出黑色的液体。</text>
+  <text id="SpMa_armor_specialDesc">同区域内员工数量越少，精神抗性越高。</text>
+
+  <text id="UnC_weapon_name">心神链接</text>
+  <text id="UnC_weapon_desc">“天空从未存在。”</text>
+
+</localize>

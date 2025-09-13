@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Tianhuo_weapon_name1">Lâmina de Chama Celestial</text>
+<text id="Tianhuo_weapon_desc1">A forma que aparece quando a Chave da Destruição, "Julgamento de Shamash", liberou completamente seu poder. As lanças gêmeas se estendem para formar os punhos das espadas.
+Uma chama quente como ouro derretido sobe para o céu e se funde no corpo da espada. Como o nome sugere, ela traz destruição absoluta a todas as coisas.</text>
+<text id="Tianhuo_weapon_specialDesc1">Há 20% de chance de um ataque especial ser acionado para infligir 40 pontos de dano RED.
+Quando o portador desta arma tem 100% PV, seu próximo ataque drenará 50% de seu PV e o adicionará como dano ao próximo ataque especial feito.</text>
+
+<text id="Tianhuo_weapon_name2">Aniquilação da Alma</text>
+<text id="Tianhuo_weapon_desc2">Conforme cada uma das milhares de estrelas esculpia suas próprias chamas, uma delas exibia seu poder supremo sobre todas.
+As chamas consumiam os céus, e nem mesmo pó restava das almas derrubadas por esta lâmina. Esta é a Espada do Fim.</text>
+<text id="Tianhuo_weapon_specialDesc2">Ocasionalmente, os ataques criarão um avanço que causa 10 pontos de dano VERMELHO.
+Este ataque drena 10 PV do usuário quando seu PV está acima de 50% e aumentará o dano para 80 pontos de dano VERMELHO. Quando o PV do portador estiver abaixo de 50%, o dano será reduzido para 40.</text>
+
+<text id="Tianhuo_weapon_name3">Julgamento de Shamash</text>
+<text id="Tianhuo_weapon_desc3">A Chave da Destruição, feita do núcleo do Sétimo Governante do mundo antigo, é uma arma de duas armas que possui grande poder destrutivo nascido do poder do "calor".
+No entanto, seu verdadeiro poder parece ter sido selado.</text>
+<text id="Tianhuo_weapon_specialDesc3">Os ataques têm 20% de chance de gerar uma explosão de fogo, causando 5 pontos de dano VERMELHO.</text>
+
+</localize>

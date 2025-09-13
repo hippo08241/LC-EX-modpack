@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="138002" type="special"> 
+    <name>Amiroji_gift_name</name>
+    <desc>Amiroji_gift_desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>6</hp>
+	  <mental>-3</mental>
+    </bonus>
+    <sprite>Helmet_0_138002</sprite>
+  </equipment>
+  
+    <equipment id="138001" type="armor">
+    <name>Amiroji_weapon_name</name>
+    <no>Amiroji_armor_no</no>
+    <desc>Amiroji_armor_desc</desc>
+
+    <armorId>138001</armorId>
+    <defense>
+      <defenseElement type="R">0.9</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.9</defenseElement>
+      <defenseElement type="P">4</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+  
+  <equipment id="138003" type="weapon">
+
+    <name>Amiroji_weapon_name</name>
+    <desc>Amiroji_weapon_desc</desc>
+    <specialDesc>AmirHammer_weapon_specialDesc</specialDesc>
+<sprite>AmirHammer_Big</sprite>
+
+<animation>Attack1</animation>
+    <damage type="W" min="14" max="19">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+<weaponClassType>hammer</weaponClassType>
+    <range>5</range>
+<attackSpeed>3</attackSpeed>
+    <grade>1</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+</equipment_list>

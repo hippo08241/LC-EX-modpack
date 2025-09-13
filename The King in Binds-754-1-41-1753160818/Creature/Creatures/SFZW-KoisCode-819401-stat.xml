@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<creature>
+  <script>SFZW_Creature_KoisCode</script>
+  <stat>
+    <!-- 恐惧等级？ -->
+    <riskLevel>4</riskLevel>
+    <!-- ？？？ -->
+    <maxWorkCount>1</maxWorkCount>
+    <!-- 工作偏好 -->
+    <workProb type="R">
+      <prob level="1">0.50</prob>
+      <prob level="2">0.50</prob>
+      <prob level="3">0.50</prob>
+      <prob level="4">0.50</prob>
+      <prob level="5">0.50</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.40</prob>
+      <prob level="2">0.40</prob>
+      <prob level="3">0.50</prob>
+      <prob level="4">0.50</prob>
+      <prob level="5">0.60</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.40</prob>
+      <prob level="2">0.40</prob>
+      <prob level="3">0.50</prob>
+      <prob level="4">0.50</prob>
+      <prob level="5">0.60</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.75</prob>
+      <prob level="2">0.75</prob>
+      <prob level="3">0.75</prob>
+      <prob level="4">0.75</prob>
+      <prob level="5">0.75</prob>
+    </workProb>
+    <!-- 逆卡巴拉计数器极值 -->
+    <qliphoth>0</qliphoth>
+    <!-- 工作冷却 -->
+    <workCooltime>0</workCooltime>
+    <!-- 是否出逃 -->
+    <escapeable>false</escapeable>
+    <!-- PEbox产量 -->
+    <feelingStateCubeBounds>
+      <cube>15</cube>
+      <cube>21</cube>
+      <cube>25</cube>
+    </feelingStateCubeBounds>
+    <!-- 工作伤害RWBP -->
+    <workDamage type="B" min="3" max="6" />
+    <!-- 工作速度 -->
+    <workSpeed>0.33</workSpeed>
+    <!-- 观察信息 -->
+    <observeInfo total="120">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="8" />
+      <observeElement name="work_w" cost="8" />
+      <observeElement name="work_b" cost="8" />
+      <observeElement name="work_p" cost="8" />
+      <observeElement name="care_0" cost="7" />
+      <observeElement name="care_1" cost="7" />
+      <observeElement name="care_2" cost="7" />
+      <observeElement name="care_3" cost="7" />
+      <observeElement name="care_4" cost="7" />
+      <observeElement name="care_5" cost="7" />
+      <observeElement name="care_6" cost="7" />
+    </observeInfo>
+    <!-- 观察增益 -->
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">5</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">5</observeBonus>
+    <!-- 装备 -->
+    <equipment level="3" prob="0.05" equipId="819438"/>
+  </stat>
+  <!-- 地图点信息 -->
+  <graph>
+    <node id="creature" x="-1.8" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <!-- 动画文件 -->
+  <anim prefab="Custom/NullAnimForSFZW_33128" x="-1" y="-2" />
+  <!-- 无用？ -->
+  <portrait src="Unit/creature/magicalGirl" />
+
+  <child>SFZW-Child-819401-stat</child>
+</creature>

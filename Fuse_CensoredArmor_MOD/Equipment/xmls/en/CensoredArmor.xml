@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Censored_armor_name">CENSORED</text>
+<text id="Censored_armor_desc">(CENSORED) is not effective only for the Agents. Looking at the E.G.O for more than 3 seconds will make you sick. </text>
+<text id="Censored_armor_specialDesc">No damage to low-level attacks of more than 2 levels</text>
+</localize>

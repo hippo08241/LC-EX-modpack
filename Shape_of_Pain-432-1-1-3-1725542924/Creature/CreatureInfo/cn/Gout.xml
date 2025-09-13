@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+ 
+  <info id ="126775">
+
+
+
+    <narration action="move">
+      #0员工前往$0的收容单元开始工作。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0的视野逐渐渗入了痛苦。},
+      {「哇！」}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {光是看着就会让人感到疼了…},
+      {身体里有这么尖锐的东西，疼也是理所当然的了。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {为什么会产生这样的东西呢…},
+      {#0只是看着$0也不禁担心自己会不会得痛风。}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0在犹豫以后要不要去体检一下。},
+      {要注意饮食啊。},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-267</codeNo>
+      <portrait openLevel ="1">Custom/GoutPain</portrait>
+
+      <name openLevel ="1">
+        痛苦之形
+      </name>
+
+      <riskLevel openLevel ="1">
+       HE 
+      </riskLevel>
+
+      <openText>我从没想过身体里居然会产生这样的东西！！！！！</openText>
+
+    </collection>
+
+
+    <desc id="1" openLevel="0">
+      [
+      {「多么痛苦的形态！！！我真不敢相信这种东西会在人体内产生！！！」}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {凭借当今的都市技术，痛风很容易治愈。但是，如果你穷得叮当响而无力承担治疗费用.....你将不幸地继续忍受痛苦…}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {尽管能治，但发作时一定很痛苦吧。我不想它发作，但是不排除这样的可能性。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {一名经历过痛风的员工说，$0引起的痛风比一般的痛风更猛烈，好像全身都要被尖锐的东西捅破了。}
+      ]
+    </desc>
+
+    <specialTipSize size="2">
+      <specialTip openLevel="0" key="0">如果工作结果为差，员工会患上痛风。如果工作结果为良，员工有中等概率患上痛风。</specialTip>
+      <specialTip openLevel="1" key="1">如果压迫工作结果为优，员工的痛风就治好了。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

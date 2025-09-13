@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="773488" type="armor">
+    <name>Dead End Answer_armor_name</name>
+    <desc>Dead End Answer_armor_desc</desc>
+    <specialDesc>Dead End Answer_armor_specialDesc</specialDesc>
+    <armorId>773488</armorId>
+    <require type="level">5</require>
+    <require type="R">4</require>
+    <require type="W">4</require>
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+    <script>AnswerArmor</script>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+
+  <equipment id="706743" type="weapon">
+    <name>Dead End Answer_weapon_name</name>
+    <desc>Dead End Answer_weapon_desc</desc>
+    <specialDesc>Dead End Answer_weapon_specialDesc</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_Answer</specialWeaponAnim>
+
+    <sprite>Censored_Answer</sprite>
+
+    <require type="level">4</require>
+    <require type="R">3</require>
+    <animation>Attack_1</animation>
+    <damage type="R" min="4" max="8">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+    <range>2</range>
+    <script>AnswerWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>5</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+
+  <equipment id="968328" type="special">
+    <name>Dead End Answer_gift_name</name> 
+    <desc>Dead End Answer_gift_desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType> 
+    <bonus>
+      <hp>14</hp>
+      <mental>14</mental>
+      <movement>-10</movement>
+      <attackSpeed>-10</attackSpeed>
+    </bonus>
+    <sprite>968328</sprite>
+  </equipment>
+
+</equipment_list>

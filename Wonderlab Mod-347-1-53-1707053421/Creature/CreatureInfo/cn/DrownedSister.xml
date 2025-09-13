@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110012">
+
+
+
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0感到筋疲力尽。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {“$0”的恨意深不见底。},
+      {“$0”希望它们的悲伤能够得到解脱。},
+
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0感到疼痛，好像他的头和心脏在被什么压迫。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-05-33</codeNo>
+      <portrait openLevel ="1">Custom/DrownedSister</portrait>
+
+      <name openLevel ="1">
+        溺亡姐妹
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <specialName openLevel ="1">
+        悲伤
+      </specialName>
+      <openText>“你为什么要那么恨我们？”</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {你为什么要那么恨我们？你难道已经恨到希望我们死了吗？}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {哪怕你曾经说过一句话，哪怕你曾经说出过对我们的恨意……}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {啊啊，原来我们即是苦难啊。我们已然成为罪人了吗。请倾听我们，倾听那连我们自己都未曾意识到却早已犯下的罪过。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {使我们从恨意中解脱……}
+      ]
+    </desc>
+
+
+    
+  <specialTipSize size="5">
+      <specialTip openLevel="0" key="nope">当“$0”的收容单元内没有员工时，每完成一个异想体的工作，“$0”的逆卡巴拉计数器都会立刻减少。</specialTip>
+      <specialTip openLevel="0" key="nope">对“$0”完成洞察工作后，若工作结果为优，“$0”的逆卡巴拉计数器会立刻增加。</specialTip>
+      <specialTip openLevel="0" key="nope">对“$0”完成压迫工作后，“$0”的逆卡巴拉计数器会立刻归零。</specialTip>
+      <specialTip openLevel="0" key="nope">当“$0”的逆卡巴拉计数器归零后，收容单元所在的走廊会被洪水淹没，试图穿过的员工受到了严重的白色精神伤害。</specialTip>
+      <specialTip openLevel="0" key="nope">通过赦免工作聆听“$0”的痛苦将使“$0”的逆卡巴拉计数器恢复至满。然而，完成赦免工作的员工在当天谨慎会减半。</specialTip>
+     </specialTipSize>
+    
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {舞台已经开始很久了，这里有一个人导致了许多人死亡。}
+        {巧合的是，你正好拿着枪。}
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="开枪打死他！" target="1" isAnswer="true"  message="帷幕拉开了" />
+        <node desc="注视" target="2" isAnswer="true" message="帷幕拉开了" />
+        <node desc="射击别人" target="3" isAnswer="true" message="帷幕拉开了" />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {你决定向那个人开枪。}
+        {最终，帷幕落下}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {枪在那一刻失灵了。}
+        {舞台以悲剧告终。}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {舞台以喜剧结尾。}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {“犯罪者在观赏戏剧时，被舞台上的奇妙表现深深打动，当场坦白了自己的罪行。戏剧一定能揭示其背后的真实计划。”}
+        ]
+      </angela>
+    </max>
+    
+  </observe>
+
+  <etc>
+    <param key="attack1" index="0"> <!-- 더미데이터였던...카핰 -->
+      A : (叙述) 他只是一个只为自己着想的傲慢者。（抚摸面具）我从一开始就知道这件事，灾难接踵而至。
+    </param>
+    <param key="attack2" index="1">
+      A : (叙述) 被遗弃者，我将代替你的死亡，因为我有这种资格。一种尚未平息的渴望即将来临。
+    </param>
+    <param key="attack3" index="2">
+      A : (叙述) 他的绝望已经深入骨髓，从里到外蛀蚀着他。虽然他总是面带微笑，却发自内心地厌恶自己。
+    </param>
+    <param key="attack4" index="3">
+      A : (叙述) 他只是个懦夫，逃避着自己的失败。我不能原谅他，我是一个和你一起漫步于天堂或地狱的人！
+    </param>
+
+    <param key="kill1" index="4"> <!-- 각각 죽이고 나서 대사 으안안ㅁ아앜앜어안ㄴ앜 -->
+      (失败者倒下了)
+    </param>
+    <param key="kill2" index="5">
+      (被遗弃者倒下了)
+    </param>
+    <param key="kill3" index="6">
+      (绝望者倒下了)
+    </param>
+    <param key="kill4" index="7">
+      (逃避者倒下了)
+    </param>
+
+
+    <param key="finale1" index="8"> <!-- 쥔공한테 총 쏠때-->
+      A :  死亡就是沉睡，别无他物。(第三人称)
+    </param>
+
+    <param key="finale2" index="9"><!--총 안쏠때-->
+      A :  在我的对话中，罪恶被揭露了吗？ (灯熄灭了)
+    </param>
+
+    <param key="finale3" index="10"> <!-- 다른 사람한테 쏠때-->
+      A :  上帝啊，不，救救我。求你把我从痛苦中解救出来。 (压倒性的沉默)
+    </param>
+    
+    
+
+    <param key="special" index="11"> <!-- 특수공격 발동 되기 시작할때-->
+      您现在无法控制#0，他所有的注意力都集中在那本书上，舞台剧开始了。
+    </param>
+
+
+    <param key="end" index="12"> <!-- 연출없이 끝날때-->
+      你，迷失在黑暗中，被寂静包围之人。虽然黎明曾经破晓，但现在却是一个永恒的夜晚。如果我能找到你，我将带领你走出这令人厌恶的黑暗，进入那明亮耀眼的光芒。
+    </param>
+
+
+
+
+  </etc>
+  
+
+</creature>

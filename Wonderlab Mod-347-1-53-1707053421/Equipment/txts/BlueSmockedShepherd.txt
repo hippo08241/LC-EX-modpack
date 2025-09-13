@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="310014" type="armor"> 
+    <name>BlueSmockedShepherd_equip_name</name>
+    <no>Armor_no</no>
+    <desc>BlueSmockedShepherd_armor_desc</desc>
+
+    <armorId>310014</armorId>
+
+	<require type="P">4</require>
+
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+
+    <grade>4</grade> 
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="210014" type="weapon"> 
+    <name>BlueSmockedShepherd_equip_name</name>
+    <no>Weapon_no</no>
+    <desc>BlueSmockedShepherd_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SamuraiWeapon_BlueSmockedShepherd</specialWeaponAnim>
+    <sprite>Samurai_BlueSmockedShepherd</sprite>
+
+	<require type="P">4</require>
+
+	
+    <animation>Attack1</animation>
+
+    <damage type="B" min="8" max="10">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+
+     <range>4</range>
+
+    <script>BlueSmockedShepherdWeapon</script> 
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.3</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+
+<equipment id="410014" type="special">
+    <name>BlueSmockedShepherd_equip_name</name>
+    <desc>BlueSmockedShepherd_gift_desc</desc> 
+    <attachPos>face</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <movement>5</movement>
+      <attackSpeed>5</attackSpeed>
+    </bonus>
+    <sprite>BlueSmockedShepherd</sprite>
+    <script></script> 
+  </equipment>
+</equipment_list>

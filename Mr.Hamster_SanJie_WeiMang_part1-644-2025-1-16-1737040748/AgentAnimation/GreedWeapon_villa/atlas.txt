@@ -1,0 +1,209 @@
+
+Villa.png
+size: 4332,1033
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BP
+  rotate: false
+  xy: 3877, 34
+  size: 400, 113
+  orig: 400, 113
+  offset: 0, 0
+  index: -1
+BS1
+  rotate: false
+  xy: 3877, 34
+  size: 400, 113
+  orig: 400, 113
+  offset: 0, 0
+  index: -1
+BPE
+  rotate: false
+  xy: 3613, 624
+  size: 696, 407
+  orig: 696, 407
+  offset: 0, 0
+  index: -1
+BPEGEP
+  rotate: false
+  xy: 2, 5
+  size: 2010, 1026
+  orig: 2010, 1026
+  offset: 0, 0
+  index: -1
+BPG
+  rotate: false
+  xy: 2756, 65
+  size: 512, 172
+  orig: 512, 172
+  offset: 0, 0
+  index: -1
+BSE
+  rotate: false
+  xy: 2014, 239
+  size: 1159, 792
+  orig: 1159, 792
+  offset: 0, 0
+  index: -1
+Bee
+  rotate: true
+  xy: 3959, 222
+  size: 400, 113
+  orig: 400, 113
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 4074, 366
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: true
+  xy: 3317, 133
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 3361, 3
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 3619, 19
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: true
+  xy: 3270, 120
+  size: 139, 45
+  orig: 139, 45
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 2572, 17
+  size: 119, 11
+  orig: 119, 11
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: true
+  xy: 2271, 9
+  size: 228, 288
+  orig: 228, 288
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 2014, 4
+  size: 255, 233
+  orig: 255, 233
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2561, 30
+  size: 193, 207
+  orig: 193, 207
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: true
+  xy: 2756, 2
+  size: 61, 109
+  orig: 61, 109
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: true
+  xy: 2867, 3
+  size: 60, 91
+  orig: 60, 91
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: true
+  xy: 3307, 263
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: true
+  xy: 3229, 10
+  size: 53, 96
+  orig: 53, 96
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: true
+  xy: 3175, 260
+  size: 52, 82
+  orig: 52, 82
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 2561, 10
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: true
+  xy: 3270, 70
+  size: 48, 89
+  orig: 48, 89
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: true
+  xy: 2960, 4
+  size: 59, 92
+  orig: 59, 92
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 3259, 261
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: true
+  xy: 3128, 10
+  size: 53, 99
+  orig: 53, 99
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: true
+  xy: 3054, 6
+  size: 57, 72
+  orig: 57, 72
+  offset: 0, 0
+  index: -1
+bpge
+  rotate: true
+  xy: 3175, 314
+  size: 717, 436
+  orig: 717, 436
+  offset: 0, 0
+  index: -1
+bw
+  rotate: true
+  xy: 3613, 149
+  size: 473, 344
+  orig: 473, 344
+  offset: 0, 0
+  index: -1

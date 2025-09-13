@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="JackLessTree_weapon_name">魔法のハープ</text>
+<text id="JackLessTree_weapon_desc">素朴な古琴。琴の身には豆の木の蔓が巻きついています。
+豆の木よ、成長せよ。 そうすれば、私は再び、あの天上の世界へ旅立てるだろう。
+この楽器で奏でられる音楽を静かに聴いていると、どんなに孤独な人でも安らぎを感じるだろう。
+いつかまた、あのそびえ立つ豆の木に登れる日が来ると信じている。</text>
+<text id="JackLessTree_armor_desc">ジャックという子供が着ていた服。
+老人と魔法の豆と牝牛を交換してしまう愚かな子供でした…。
+ジャックはどこに行ったのでしょうか?</text>
+<text id="JackLessTree_gift_name">500年前の贈り物</text>
+<text id="JackLessTree_gift_desc">体力+2
+豆の木にあった500年前の贈り物</text>
+
+</localize>

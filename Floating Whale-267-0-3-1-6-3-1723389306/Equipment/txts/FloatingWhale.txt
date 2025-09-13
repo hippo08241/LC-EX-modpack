@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="201168" type="weapon">
+    <name>FlW_weapon_name</name>
+    <no>FlW_weapon_no</no>
+    <desc>FlW_weapon_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <sprite>201168</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="11" max="20">
+      <soundInfo type="damage">Weapons/Slime</soundInfo>
+    </damage>
+    <range>5</range>
+
+    <maxNum>3</maxNum>
+
+    <attackSpeed>3</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+
+
+  <equipment id="301168" type="armor">
+
+    <name>FlW_armor_name</name>
+    <no>FlW_armor_no</no>
+    <desc>FlW_armor_desc</desc>
+
+    <armorId>301168</armorId>
+
+    <defense>
+      <defenseElement type="R">1.1</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="401168" type="special">
+    <name>FlW_gift_name</name>
+    <desc>FlW_gift_desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>8</hp>
+      <workProb>-2</workProb>
+      <workSpeed>-2</workSpeed>
+    </bonus>
+    <sprite>FloatingWhaleGift</sprite>
+  </equipment>
+
+</equipment_list>

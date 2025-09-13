@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Hookah_weapon_name">일기장</text>
+  <text id="Hookah_weapon_Desc">"넌 누구지?"하고 애벌레가 물었다."</text>
+  <text id="Hookah_armor_Desc">"넌 얼마만한 크기가 되고 싶은데?"</text>
+  <text id="Hookah_gift_Desc">공격 속도 +4, 이동 속도 +4</text>
+  <text id="Mermaid_weapon_name">세이렌</text>
+  <text id="Mermaid_weapon_Desc">"왕자의 심장을 찔러. 그래야 네가 살 수 있어."</text>
+  <text id="Mermaid_armor_Desc">"마녀는 인간의 다리를 주는 조건으로 그녀의 아름다운 목소리를 가져가기로 하고, 그녀의 혀를 잘라버렸다."</text>
+  <text id="Mermaid_gift_Desc">작업 속도, 작업 성공률 +8</text>
+  <text id="RedQueen_weapon_name">색종이</text>
+  <text id="RedQueen_weapon_Desc">모래반지</text>
+  <text id="RedQueen_armor_Desc">빵야빵야</text>
+  <text id="RedQueen_gift_Desc">정신력 +4</text>
+  <text id="Nosferatu_weapon_name">갈증</text>
+  <text id="Nosferatu_weapon_Desc">"한 방울의 피만 있어도&#13;&#10;광란의 밤을 보낼 수 있을 거다."</text>
+  <text id="Nosferatu_weapon_specialDesc">공격할 때마다 RED피해를 입음&#13;&#10;공격 대상에게 준 피해의 40% 만큼 체력 회복</text>
+  <text id="Nosferatu_armor_Desc">"그리고 그 갈증이 없어지는 날은 없겠지."</text>
+  <text id="Nosferatu_armor_specialDesc">갈증으로 회복하는 체력의 일부를 보호막으로 전환</text>
+  <text id="Nosferatu_gift_Desc">체력 +8, 정신력 -3</text>
+  <text id="Tangle_weapon_name">감금</text>
+  <text id="Tangle_weapon_Desc">“머리를 내려줘. 머리를 내려줘.”</text>
+  <text id="Tangle_armor_Desc">“머리를 내려줘. 이 지옥에서 탈출할 수 있게.”</text>
+  <text id="Tangle_gift_Desc">체력 +4</text>
+</localize>

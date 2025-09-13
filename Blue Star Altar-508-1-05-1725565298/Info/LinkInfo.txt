@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Link_list>
+   <ego id="123012" costomOnly="false">1240713</ego>
+</Link_list>

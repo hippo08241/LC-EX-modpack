@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Depression</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+   <workProb type="R">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.9</prob>
+      <prob level="2">0.9</prob>
+      <prob level="3">0.8</prob>
+      <prob level="4">0.8</prob>
+      <prob level="5">0.7</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.9</prob>
+      <prob level="2">0.9</prob>
+      <prob level="3">0.9</prob>
+      <prob level="4">0.9</prob>
+      <prob level="5">0.9</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <qliphoth>4</qliphoth>
+    <workCooltime>9</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>8</cube>
+      <cube>16</cube>
+      <cube>25</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="5" max="7" />
+    <workSpeed>0.3</workSpeed>
+    <observeInfo total="140">
+      <observeElement name="stat" cost="24" />
+      <observeElement name="defense" cost="24" />
+      <observeElement name="work_r" cost="8" />
+      <observeElement name="work_w" cost="8" />
+      <observeElement name="work_b" cost="8" />
+      <observeElement name="work_p" cost="8" />
+      <observeElement name="care_0" cost="8" />
+      <observeElement name="care_1" cost="8" />
+      <observeElement name="care_2" cost="8" />
+      <observeElement name="care_3" cost="8" />
+    </observeInfo>
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">4</observeBonus>
+    <observeBonus level="3" type="prob">4</observeBonus>
+    <observeBonus level="4" type="speed">4</observeBonus>
+     <escapeable>false</escapeable>
+    <equipment level="4" cost="222" equipId="2138010" />
+    <equipment level="4" cost="80" equipId="2138014" />
+    <equipment level="4" prob="0.01" equipId="0" />
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/DepressionAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+</creature>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Hookah_weapon_name">日記帳</text>
+  <text id="Hookah_weapon_Desc">"「あなたは誰？」と毛虫は尋ねた。"</text>
+  <text id="Hookah_armor_Desc">"あなたはどれくらいの大きさになりたいの？"</text>
+  <text id="Hookah_gift_Desc">攻撃速度 +4,移動速度 +4</text>
+  <text id="Mermaid_weapon_name">セイレーン</text>
+  <text id="Mermaid_weapon_Desc">"王子の心臓を刺しなさい。 そうしてようやく君は変われる。"</text>
+  <text id="Mermaid_armor_Desc">"魔女は人間の足を与える条件で彼女の美しい声を持っていくことにし、彼女の舌を切ってしまった。"</text>
+  <text id="Mermaid_gift_Desc">作業速度と作業成功率+8</text>
+  <text id="RedQueen_weapon_name">色紙</text>
+  <text id="RedQueen_weapon_Desc">砂の指輪</text>
+  <text id="RedQueen_armor_Desc">パンヤパンヤ</text>
+  <text id="RedQueen_gift_Desc">精神力+4</text>
+  <text id="Nosferatu_weapon_name">渇き</text>
+  <text id="Nosferatu_weapon_Desc">"一滴の血だけでも&#13;&#10;狂乱の夜を過ごせるだろう。"</text>
+  <text id="Nosferatu_weapon_specialDesc">攻撃するたびにREDダメージを受ける&#13;&#10;攻撃対象に与えたダメージの40%分、体力回復する</text>
+  <text id="Nosferatu_armor_Desc">"そして、その渇きがなくなる日は来ないだろう。"</text>
+  <text id="Nosferatu_armor_specialDesc">喉の渇きで回復する体力の一部をシールドに転換</text>
+  <text id="Nosferatu_gift_Desc">体力+8、精神力-3</text>
+  <text id="Tangle_weapon_name">監禁</text>
+  <text id="Tangle_weapon_Desc">“髪を下ろして。 髪を下ろして。”</text>
+  <text id="Tangle_armor_Desc">“髪を下ろして。 この地獄から脱出できるように。”</text>
+  <text id="Tangle_gift_Desc">体力+4</text>
+</localize>

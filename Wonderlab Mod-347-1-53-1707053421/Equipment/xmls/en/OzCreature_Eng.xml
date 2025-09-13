@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="WayGoHome_weapon_name">The Homing Instinct</text>
+  <text id="WayGoHome_weapon_desc">An endless road of adventure.&#13;&#10;&#13;&#10;The brilliant shine stays shimmering no matter how much time passes.&#13;&#10;This weapon can be extracted forever, the endless road of our journey.</text>
+  <text id="WayGoHome_armor_desc">Clothing for a journey neverending.&#13;&#10;&#13;&#10;The simple mix of Black and White gives this a tidy vibe.&#13;&#10;Wearing this suit makes you feel as if you'll be able to journey forever.</text>
+  <text id="ScareyCat_weapon_name">Dependence</text>
+  <text id="ScareyCat_weapon_desc">Looks like a toy knife at first glance, but has lethal capabilites.&#13;&#10;The eyes etched on the handle is shaking as if in fear.</text>
+  <text id="ScareyCat_armor_desc">Evil cowards relying on someone to do various misdeeds, but shrinking back when there's no one to depend on.&#13;&#10;That's us.</text>
+  <text id="Oz_weapon_name">False Throne</text>
+  <text id="Oz_weapon_desc">You poor pile of hay, I'll give you wisdom like no other.&#13;&#10;You cold, emotionless Tin Woodsman, I'll give you a heart that can forgive and love anyone.&#13;&#10;Drink the liquid, and you'll be cowardly no more.&#13;&#10;And lastly, for you, endlessly wandering, I'll send you back home.&#13;&#10;&#13;&#10;Oz soon came to be called a Wizard by the people.</text>
+  <text id="Oz_armor_desc">Come here. I'll help you forget all concerns and worries.&#13;&#10;You're a machine, no? A machine has no need for a heart.&#13;&#10;Cowardly lion, I'll give you courage to stand up and fight against anything.&#13;&#10;Put on these shoes and go, to your home you so desperately want to reach.&#13;&#10;&#13;&#10;The poor children. They didn't know that lying adults don't approach others without reason.</text>
+  <text id="Oz_weapon_specialDesc">Can only be equipped by agents with over 110 in Fortitude, Insight, and Temperance.</text>
+  <text id="Oz_Special_gift_name">False Present</text>
+  <text id="Oz_Special_gift_Desc">HP +5 SP +5 Work Success Rate  +10 Work Speed +10&#13;&#10;The Emerald Road still shines as vibrant as ever.</text>
+</localize>

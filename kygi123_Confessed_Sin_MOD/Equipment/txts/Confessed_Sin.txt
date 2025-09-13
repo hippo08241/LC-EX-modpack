@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+<equipment id="666668" type="special">
+    <name>ConfessedSin_gift</name>
+    <desc>ConfessedSin_desc</desc> 
+    <attachPos>headback</attachPos>
+    <attachType>special_add</attachType>
+    <bonus>
+      <mental>15</mental>
+    </bonus>
+    <sprite>ConfessedSin_halo</sprite>
+  </equipment>
+
+  <equipment id="666666" type="weapon"> 
+    <name>ConfessedSin_equip_name</name>
+    <desc>ConfessedSin_weapon_desc</desc>
+    <specialDesc>ConfessedSin_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_ConfessedSin</specialWeaponAnim>
+    <sprite>Censored_ConfessedSin</sprite>
+
+	<require type="W">5</require>
+	<require type="P">5</require>
+      <require type="level">5</require>
+	
+    <animation>Attack_JudeSword_01</animation><!---->
+    <animation>Attack_JudgeSword_02</animation><!---->
+    <animation>Attack1</animation><!---->
+    <animation>Attack2</animation><!---->
+
+    <!--평균 대미지 표기용 실제 대미지와 무관-->
+    <damage type="P" min="24" max="30">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+
+    <!--평타-->
+    <damage type="P" min="26" max="35">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+
+    <damage type="P" min="26" max="35">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+
+    <!--고해-->
+    <damage type="P" min="13" max="13">
+      <soundInfo type="damage">Weapons/katana</soundInfo>
+    </damage>
+
+    <range>3</range>
+    <script>ConfessedSinWeapon</script>
+    <!--ConfessedSinWeapon-->
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="666667" type="armor">
+    <name>ConfessedSin_armor_name</name>
+    <no>Armor_no</no>
+    <desc>ConfessedSin_armor_desc</desc>
+    <specialDesc>ConfessedSin_armor_specialDesc</specialDesc>
+
+
+    <armorId>666</armorId>
+
+	<require type="W">5</require>
+	<require type="P">5</require>
+      <require type="level">5</require>
+    
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">0.2</defenseElement>
+    </defense>
+
+    <script>ConfessedSinArmor</script>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+</equipment_list>

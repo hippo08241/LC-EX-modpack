@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100134">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="start">
+      [
+      {뱀파이어의 붉은 눈은 사람을 현혹시킨다는 속설이 있습니다.}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {붉은 눈을 마주한 #0은 자신도 모르게 목덜미를 매만집니다.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {그의 눈동자 속에서 피가 찰랑입니다.}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {$0의 갈증이 채워지는 날은 없을 겁니다.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {모든 것이 피로 물들 밤, $0는 괴물을 몰고 올 것입니다.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-34</codeNo>
+      <portrait openLevel ="1">Custom/Nosferatu</portrait>
+
+      <name openLevel ="1">
+        노스페라투
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>그리고 그 갈증이 없어지는 날은 없겠지.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {수백년 전 아니, 어쩌면 수천년 전부터 인간과 함께 혈귀가 존재했다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {그들은 평소 인간의 모습을 유지하고 있지만, 한 방울의 피만 있어도 흉포한 괴물처럼 변해 광란의 밤을 보낼 수 있을 거다. 괴물이 된 그들은 방황하는 것 같은 모습. 무언가를 찾고 있는 것 같긴 한데, 그게 뭔지 모르는 모습이었다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {끊임없는 갈증과 피에 대한 갈망은 그들을 괴물로 만들었다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {끊임없는 갈증과 피에 대한 갈망은 그들을 괴물로 만들었다.선명하고 붉은 피를 아무리 마시고 몸에 부워도 결국 그 갈증이 없어지는 날은 없겠지. 품위 있는 식사를 마친 표정이지만 아무리 양식을 먹어 치워도 갈증을 채울 수 없다는 것을 혈귀들은 그 사실을 알 길이 없었다.}
+      ]
+    </desc>
+    
+  <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">시설 내에서 직원이 6명 사망할 때마다 클리포트 카운터가 감소하였다. 단, 처분 탄환으로 처분된 직원의 사망은 인지하지 못하였다.</specialTip>
+      <specialTip openLevel="2" key="2">본능과 애착 작업의 결과가 나쁨일 경우 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="3" key="3">애착 작업 결과가 좋음일 경우 클리포트 카운터가 상승하였다.</specialTip>
+      <specialTip openLevel="4" key="4">용기가 3등급 이하인 직원이 본능 작업을 할 때 PE-Box의 생산량이 증가하였다. 이때 노스페라투는 해당 직원(이하 O-01-34-1)에게 ‘흡혈’을 했다. ‘흡혈’당한 직원은 하루 동안 이동 속도와 공격 속도가 상승하였다</specialTip>
+      <specialTip openLevel="5" key="5">용기가 4등급 이상인 직원이 4단계 이상의 애착 작업을 할 때 PE-Box의 생산량이 증가했다. 이때 노스페라투는 O-01-34-1에게 ‘흡혈’을 했다</specialTip>
+      <specialTip openLevel="6" key="6">노스페라투는 하루가 시작될 때 ‘피’를 3 가지고 시작했다. 노스페라투가 ‘흡혈’을 할 때마다 ‘피’가 상승했다. ‘피’는 1분이 지날 때마다 감소했다. 피가 0으로 떨어지자 노스페라투의 클리포트 카운터가 0이 되었다. 피가 5가 되자 노스페라투의 클리포트 카운터가 0이 되었다. 이때 ‘피’ 수치에 따라 노스페라투의 잔이 변화하였다.</specialTip>
+      <specialTip openLevel="7" key="7">노스페라투의 클리포트 카운터가 0이 되자 O-01-34-1의 형태가 ████████로 변화했다. 노스페라투 혹은 ████████에게 사망한 직원은 ████로 변화했다.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

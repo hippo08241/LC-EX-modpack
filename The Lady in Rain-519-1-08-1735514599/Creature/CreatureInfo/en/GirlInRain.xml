@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="121045">
+
+
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {The containment unit is humid, carrying the smell of fish and rain.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {The black clad $0 sits quietly in front of the easel.}
+
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 listens to the sound of falling rain.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 sees something within the eyes of $0. They can't tell what it means.}
+      ]
+    </narration>
+    <narration action="mid5">
+      [
+      {"Would you like to be my muse? Hahahaha..."}
+      ]
+    </narration>
+
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-665</codeNo>
+      <portrait openLevel ="1">Custom/ladyinrain</portrait>
+
+      <name openLevel ="1">
+        Lady in the Rain
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>&lt;color=#9cba5a&gt;"The shining moon adorns your window, while you adorn the dreams of other people..."&lt;/color&gt;</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {This Abnormality looks eerily similar to a human, with pale skin and a long black dress, giving off the aura of an ancient aristocrat.
+She usually sits in a stoic posture within the containment unit, occasionally moving in a way to suggest that she is “praying”.
+She is surrounded by a number of items that resemble regular painting implements but are fundamentally different; We have yet to understand their construction.
+She will offer her picture frame, a special tool with powerful effects, to employees who perform work with her and meet certain conditions.
+When the frame is used to attack an Abnormality of HE rank or below, they will be pulled into the picture frame, transforming them into "artwork" that hangs on the walls of the containment unit.
+The girl's frames are seemingly endless, and even if they are constantly being taken and destroyed, she can still provide new frames when employees meet the conditions.
+If we make good use of the frames, we can greatly improve our work efficiency.
+}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Subsequent research experiments have found that employees with picture frames are not harmed by some of the special abilities of the Lady in the Rain.
+The Lady will provide a certain level of convenience and protection to the employee who holds the picture frame.
+After several experiments, it can be proven that she is indeed showing favoritism and helping employees with her frames.
+This is presumably because she assumes the employee carrying the frame has value and can get more "artwork" for her.
+Though the Abnormality is usually calm and mild-mannered, this is merely her disguise.
+If she is not supplied with a certain amount of "artwork" on a regular basis, or if one tries to destroy her "artwork" hanging on the walls of the containment unit, the Abnormality will immediately reveal her true colors.
+&lt;color=#9cbc59&gt;A greedy, twisted, deranged, and malevolent monster.&lt;/color&gt;
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Every once in a while, she sets up several unfinished "artwork" in the facility, which constantly try to pull nearby individuals into the paintings.
+In the unfortunate event that an employee is dragged into a painting, a team is to immediately be organized to destroy the unfinished "artwork" in order to free the captured employee.
+Provided quick action is taken, employees can be rescued without any issue.
+Employees who are not rescued in time will completely merge with the unfinished artwork and become slaves to the Abnormalitiy’s desire.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {&lt;color=#FF0000&gt;NOTICE! If the Abnormality does not receive a new piece of artwork regularly, it will enter a state of madness where she will remove all pretenses and strive to obtain artwork in a more proactive and aggressive manner.&lt;/color&gt;
+
+
+When the Abnormality no longer conceals her true personality, and there are frames or unfinished works of art in the facility that she has set up, she will begin to paint within her room while laughing, unleashing her power through these objects and blocking off space in an attempt to turn all life trapped within them into her own "artwork".
+If she is not stabilized by providing her with artwork in time, thus convincing her to stop painting, the consequences will be disastrous.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {[Addendum]
+Occasionally, the Lady in the Rain will appear to change her appearance and cause the camera monitoring her room to become covered with water.
+Such transformations do not bring about substantial changes to her behavior, and should only be external changes brought about by the disruption of the Qliphoth’s energy.
+There is no need to be alarmed.
+
+---
+
+"...I understand, but, Miss Painter, I really can't take it anymore. That woman in the painting has somehow been following me! Take the broken thing back! It’s driving me mad!" The man growled, roaring into the other end of his cell phone.
+"But..." the voice hesitated as the man rudely interrupted the explanation of the person known as Miss Painter:
+"There's no buts, this painting is just bad luck to have hanging in your house! If you don't come and take it back, I'll get the Öufi Association to sue you for cheating your customers!"
+"Alright... I'll come to take it back, soon." The voice on the other end of the phone said helplessly.
+(5 days later)
+"Miss, you need to come get it now! Immediately! Get this damned thing out of my house! She's getting closer and closer to me, even if I shove that shit in the closet, pack it up and throw it out the window, or even if I smash it... it always returns back to that wall, and that woman never disappears... Just yesterday I saw her standing in front of my house looking at me, God, she was even taller than the door frame of my house, and her face was as white as a sheet of paper." The man was horrified, his hands trembling. But no matter what he said, there was only that eerie silence on the phone.
+"......" the man began to growl, waving the phone hysterically, "Hello! Are you listening to me! I'm telling you to hurry! Or I'll make you pay out the ass, you hear me!" Rather than Miss Painter, what responded to him was a calm, eerie voice:
+"...Good... Good... Heheheh.... "
+Wha-
+The phone was hung up.
+The man was completely furious, the cell phone flung on the rain-stained ground, the screen flashing a few times, before breaking completely..... The rain was getting heavier and heavier, and the noisy sound of the rain overshadowed the man's curses.
+"Fuck! Son of a bitch! Not coming to get it... I’ll bring you there myself... See how you deal with this thing!"
+The man carried the painting that had been bothering him for a week and walked into the rain. As the rain poured down, the scenery gradually blurred and reformed into a rotting sickly green. Black, tall figures floated in the hazy rain. The man's steps grew faster and messier, as he muttered under his breath. "She's coming... She's coming...” 
+He Snapped.
+“ARRRRGHHHHHHHH!”
+Dashing, the man recklessly rushed to the painter's door, having arrived at last. "You stupid bitch... take your shit and fuck off!" Hands slammed on the door, splashing, as he forced the old wooden door open. It slowly creaked as it swung inward... Revealing the tall woman that sat in the middle of the house, holding a paintbrush. She slowly lifted her head, a strange smile on her miserable paper-white face... "Oh good... my new piece finally arrived."
+"Ahhhhhhhhhhhh!!!" The man sank to his knees, his legs trembling. At some point, the painting in his hands, which was wrapped thickly in a blanket, began to ooze cold, sticky rainwater. The woman in black stood up, gripped the frame, and tore it out of his shaking hands. She held up the unfinished painting in her hands - it was an oil painting of the very scene in front of the artist's house... The reason why it was an unfinished work, however, was because there was still a blank space in the center of the canvas- enough to fit a human figure. The woman slowly raised the frame, and the man's screams came to an abrupt end. The artwork was finally complete. As the raindrops fell, she hung her new portrait on the wall, surrounded by countless others, and everything returned to a haze.
+
+[Two articles, found in a newspaper completely soaked by rain]
+"...On April 1, Miss Svetlana, a little-known painter in District 5, was found dead in her home, laying in a pool of coagulated blood, oil, and rainwater. Judging from the scene, the deceased attempted to destroy something using a short sword. However, it was the painter's own neck that the blade eventually cut through. A woman's figure, over two meters tall, is said to have been witnessed at the scene, and the circumstances are being investigated..."
+
+"...On May 4, Mr. Terez, a jeweler, disappeared for more than five days, as if he had vanished from the world. At his home, a very strange painting was found, in which Mr. Terez was sitting in front of the door, face filled with fear, of the house of Miss Svetlana. The painting was found covered with sticky rainwater, and no matter how much analysts attempted to dry it, it was always wet. The Seven Association released an official notice on the matter, declaring that..."
+
+[A soaked investigation report by Seven Association Fixer Harold Fendall (Deceased)]
+...Most of the contents of the diary found in Miss Svetlana's home were soaked with rain and illegible. The following is what is still legible.
+
+......
+
+March 18th - Light Rain.   
+Lately, I can’t find the inspiration to paint. I have been overcome with indecisiveness, for I must paint the most perfect work, but what should the most perfect work look like? What do I have to do to make my paintings truly come to life? No matter how I think of it, I can’t come up with anything. My head hurts from it all.
+
+
+March 19th - Heavy Rain
+How long has it been raining? The humidity is so heavy, it feels like the air itself is sticking to my lungs. Through the window, I saw a woman standing on the creaky wooden bridge downstairs. Despite the horrid weather, she… seemed to be in a good mood. 
+
+...I’ve found some inspiration.
+
+
+March 20th - Thunderstorm
+The thunder is really loud, but it doesn’t bother me much... I don't know why, but I just can’t get that woman out of my mind. I didn’t see the frontside of her, as she was facing away, yet her face is always floating in my mind. A while ago, I picked up my brush without thinking, and before I could react, I had already finished painting. This is my most perfect work! It was as if the scene had been brought to life itself. It’s amazing… With it, I'm sure I'll be able to make a name for myself.
+
+.....
+
+March 24th - Heavy Rain
+I saw the woman from the other day. She seemed to be following me... As I went about my errands, I felt her gaze on me each step of the way. Wherever I looked, it felt like she was always somewhere staring at me, and it was a horrible feeling. What IS she? Why do I feel so inexplicably panicked when I look at her? I think she might be getting closer, but it’s hard to tell. To be safe, I’m barricading my door tonight.
+
+March 25th - Light Rain
+I was right, she is getting closer. At first she was just looking at me from far away, but now, she’s been appearing right next to me, sometimes no less than a few steps behind me. Worse yet, she’s followed me home, and has taken vigil outside my house. Once, I saw her outside the window, her pale face just staring at me, while she wore this horrid smile…
+
+.....
+
+March 28th - Moderate rain
+I figured it out! It’s the painting! It came to life, somehow! She’s alive…!
+
+
+March 29th - Heavy Rain
+She's been smashing the door at odd intervals. She’s going to break through. She's still nearby... I have to do something. ...This painting... Maybe I could... Give it away to...
+
+
+March 30th - Heavy Rain
+&lt;color=#FF0000&gt;一&lt;/color&gt;   &lt;color=#FF0000&gt;The&lt;/color&gt;   &lt;color=#FF0000&gt;painting's&lt;/color&gt;   &lt;color=#FF0000&gt;finally&lt;/color&gt;   &lt;color=#FF0000&gt;done.&lt;/color&gt;
+
+
+The journal ends here with the initial suspicion that Svetlana may be experiencing some degree of mental trauma. Additional information is pending further investigation.
+
+
+There was a slip of paper stuck in the journal. It was the only thing that wasn't soaked in rain. A small poem was written on the paper:
+&lt;color=#9cba5a&gt;You are standing on the bridge admiring the landscape,&lt;/color&gt;
+&lt;color=#9cba5a&gt;People looking at the landscape from upstairs admire you.&lt;/color&gt;
+&lt;color=#9cba5a&gt;The shining moon adorns your window,&lt;/color&gt;
+&lt;color=#9cba5a&gt;While you adorn the dreams of other people.&lt;/color&gt;
+}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">$0 would periodically create several frames in the facility. To be safe, we recommend destroying the frames as soon as they are located.</specialTip>
+      <specialTip openLevel="2" key="2">Employees with a Prudence Rank lower than 3, or an Abnormality of &lt;color=#ffff01&gt;HE&lt;/color&gt; rank or lower, upon entering a room where a picture frame was, were pulled into the frame. The frame then began to ooze rainwater, dealing BLACK damage to all units in the room. If the frame is not destroyed within a certain period of time, the unit pulled into the frame transforms into an art piece.</specialTip>
+      <specialTip openLevel="3" key="3">When an employee completes attachment work on $0 and the result is not "Bad", the employee was given a picture frame. Employees carrying the picture frame will not be affected by the frames of $0. If the employee supresses a unit that is not of a higher rank of them, it is drawn into the frame and becomes an "Artwork". If it is &lt;color=#ffff01&gt;HE&lt;/color&gt; rank or lower, the target will be pulled into the frame upon reaching it.</specialTip>
+      <specialTip openLevel="4" key="4">$0 will hang "Artwork" on the walls of her containment unit. The maximum value of the Qliphoth Counter will increase each time she acquires a piece of "Artwork". The Qliphoth Counter would raise by 1 each time "Artwork" was acquired, and will decrease by 1 if a period of time passes without $0 gaining any "Artwork".</specialTip>
+      <specialTip openLevel="5" key="5">When the work result is bad, the employee will destroy $0's "Artwork" and the Qliphoth Counter immediately reduces. The employee takes a small amount of BLACK damage, increased if they are carrying a picture frame. Likewise, if they are carrying a picture frame, it is destroyed and the employee cannot get a new one for the rest of the day.</specialTip>
+      <specialTip openLevel="6" key="6">When the counter lowers to 0, $0 will begin painting, locking several rooms and hallways in the facility and turning them into canvases. Units trying to leave these rooms will take BLACK damage. If this damage would kill them, they will become a piece of art. &lt;color=#ffff01&gt;HE&lt;/color&gt; rank or lower Abnormalities will simply become "Artwork" when trying to leave these rooms.</specialTip>
+      <specialTip openLevel="7" key="7">When $0 finishes painting, all Employees in a canvas, as well as Abnormalities below &lt;color=#773cdd&gt;WAW&lt;/color&gt; rank, become artwork, and units &lt;color=#773cdd&gt;WAW&lt;/color&gt; rank and above will take a certain amount of damage. When the Qliphoth Counter returns to maximum, will stop painting.</specialTip>
+   </specialTipSize>
+
+  </observe>
+  <child>
+    <name>Unfinished "Artwork"</name>
+    <codeId>???</codeId>
+  </child>
+</creature>

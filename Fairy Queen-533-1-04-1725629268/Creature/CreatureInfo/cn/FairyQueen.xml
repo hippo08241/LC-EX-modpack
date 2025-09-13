@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="191987">
+
+
+
+    <narration action="move">
+      #0员工进入$0的收容单元开始工作。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0看上去很温和，三只小精灵在她身边时隐时现。},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {“朕想吃新鲜的东西……”$0的声音很虚弱。},
+      {“兴许是饿了太久，这实在令朕难以忍受……”},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0全身沾满了血渍:“到朕这儿来……是时候回报，这呵护的代价了……”},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-83-01</codeNo>
+      <portrait openLevel ="1">Custom/FairyQueen</portrait>
+
+      <name openLevel ="1">
+        精灵女王
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>朕会亲自照料汝等……&#13;&#10;汝等……会永远守护朕……</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {在很久很久以前，精灵们建立了一个国度。在那里，所有精灵都将得到女王无微不至的呵护。小精灵围绕着他们的女王， 向她献上颂歌与佳肴。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {然而，一场饥荒改变了这一切。国度中的精灵所剩无几，小精灵们不再有食物可以献给他们的女王。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {食物越来越少，女王一天天消瘦下去……她再也无法忍受饥饿了。于是，她将目光投向了原本的同胞……}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {精灵的数量越来越少，女王依旧呵护着他们，只是这种呵护早已不是出于对臣民的关爱，女王依旧悉心呵护着她的食物，但这种呵护的代价又是什么呢……}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {“朕会亲自照料汝等……&#13;&#10;汝等……会永远守护朕……”}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">$0会持续积累饥饿，每有一层饥饿，其移动速度与攻击伤害提升5%），饥饿层数达到10层时，$0的计数器会立刻归零。</specialTip>
+      <specialTip openLevel="1" key="1">对$0完成本能工作时，将根据工作结果降低饥饿层数。对$0完成任意工作的员工将在一段时间内持续恢复生命值，并成为她的储备粮。</specialTip>
+      <specialTip openLevel="2" key="2">储备粮对$0进行超过两次工作时将被其吃掉，同时$0的饥饿层数归零。若储备粮因其他原因死亡，$0的计数器将立刻归零。</specialTip>
+      <specialTip openLevel="3" key="3">突破收容后，三个精灵畸块会跟随$0，$0会为其持续恢复生命值。</specialTip>
+      <specialTip openLevel="4" key="4">每损失30%生命值，$0会吃掉一个精灵畸块，此行为将清空其饥饿层数并使其在一段时间内陷入虚弱状态。当场上不存在精灵畸块时，$0将进入狂暴状态。</specialTip>
+
+    </specialTipSize>
+  </observe>
+   <child>
+    <name>精灵畸块</name>
+    <codeId>F-04-83-01-1</codeId>
+  </child>
+</creature>

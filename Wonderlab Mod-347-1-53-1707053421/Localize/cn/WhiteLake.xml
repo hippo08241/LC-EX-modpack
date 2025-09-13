@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="WhiteLakeGiftDesc0">这是只为你准备的礼物！</text>
+  <text id="WhiteLakeGiftDesc1">这是我的心意！</text>
+  <text id="WhiteLakeGiftDesc2">收下吧，我的小勇士。</text>
+  <text id="WhiteLakeGiftDesc3">你不知道，有你在有多好~</text>
+
+  <text id="WhiteLakeSaveDesc0">我的勇士，请救救我！！</text>
+  <text id="WhiteLakeSaveDesc1">勇士！守护你亲爱的湖！！</text>
+  <text id="WhiteLakeSaveDesc2">女巫！女巫在折磨我！！</text>
+  <text id="WhiteLakeSaveDesc3">退后！你这个女巫！！</text>
+  <text id="WhiteLakeSaveDesc4">勇士！救救你亲爱的湖！！</text>
+</localize>

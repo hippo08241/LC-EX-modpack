@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110012">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 feels as if their body is drained of energy.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0's woes are unfathomably deep.},
+      {$0 wishes for their grief to be absolved.},
+
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 feels pain, as if their head and chest were being crushed.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-05-33</codeNo>
+      <portrait openLevel ="1">Custom/DrownedSister</portrait>
+
+      <name openLevel ="1">
+       The Drowned Sisters
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <specialName openLevel ="1">
+       Sorrow
+      </specialName>
+      <openText>"Why did you despise us so?"</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Why did you despise us so? Why did you bear so much hatred that you wished for our demise?}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Had you spoken a single word, had you spoken that you loathed us so much...}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Ahh, woe is us. We have become sinners. Please hear us, hear of our sins that we do not know we've committed...}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Absolve us of our grief...}
+      ]
+    </desc>
+
+
+    
+  <specialTipSize size="5">
+      <specialTip openLevel="0" key="nope">When an employee finished work with another Abnormality, $0's Qilphoth counter decreased.</specialTip>
+      <specialTip openLevel="0" key="nope">When the Insight work result was good, its Qliphoth counter increased.</specialTip>
+      <specialTip openLevel="0" key="nope">Upon finishing Repression work, the Qliphoth counter dropped to 0.</specialTip>
+      <specialTip openLevel="0" key="nope">When the Qliphoth Counter reached 0, the hallway the Abnormality was in flooded with water. Employees attempting to traverse the flooded hallway was dealt heavy WHITE damage.</specialTip>
+      <specialTip openLevel="0" key="nope">Listening to $0's woes through Absolve work set $0's Qliphoth counter back to full. However, Prudence of the employee who undertook the work was halved for the rest of the day.</specialTip>
+     </specialTipSize>
+    
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The stage was set a long time ago, and here's a man who caused many to die.}
+        {Coincidentally, you have a gun.}
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Shoot him." target="1" isAnswer="true"  message="The curtains open." />
+        <node desc="Watch." target="2" isAnswer="true" message="The curtains open." />
+        <node desc="Shoot someone else." target="3" isAnswer="true" message="The curtains open." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {You decide to shoot the man.}
+        {Finally, the curtain falls.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {The barrel of the gun lost its aim.}
+        {The stage ends in a tragedy.}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {The stage ends in a comedy.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {"A sinner spectating a play, moved by its eccentric ways of expressing things confesses their sins on the spot. A play is sure to reveal the true scheme underneath."}
+        ]
+      </angela>
+    </max>
+    
+  </observe>
+
+  <etc>
+    <param key="attack1" index="0"> <!-- 더미데이터였던...카핰 -->
+      A : (Narrating) He was but a self-centered, arrogant character. (Stroking mask) I knew so from the start. Disaster follows disaster.
+    </param>
+    <param key="attack2" index="1">
+      A : (Narrating) One abadoned by the world, I shall serve with death, for I am qualified so. A thirst yet to be quenched approaches.
+    </param>
+    <param key="attack3" index="2">
+      A : (Narrating) His despair had already seeped deep within his bones, eating at him from the inside out. Though he was always smiling, he loathed himself on the inside.
+    </param>
+    <param key="attack4" index="3">
+      A: (Narrating) He is but a coward, avoiding his own failures. I cannot forgive him. I'm one who strolls through Heaven or Hell on my own accord with you!
+    </param>
+
+    <param key="kill1" index="4"> <!-- 각각 죽이고 나서 대사 으안안ㅁ아앜앜어안ㄴ앜 -->
+      (The one who failed falls)
+    </param>
+    <param key="kill2" index="5">
+      (The one who was abandoned falls)
+    </param>
+    <param key="kill3" index="6">
+      (The one who despaired falls)
+    </param>
+    <param key="kill4" index="7">
+      (The one who avoided it all falls)
+    </param>
+
+
+    <param key="finale1" index="8"> <!-- 쥔공한테 총 쏠때-->
+     A :  To die is to fall into slumber, nothing else. (Falls)
+    </param>
+
+    <param key="finale2" index="9"><!--총 안쏠때-->
+      A : Were sins revealed in my dialogue? (The lights go out)
+    </param>
+
+    <param key="finale3" index="10"> <!-- 다른 사람한테 쏠때-->
+      A :  Lord above, no. Help me. Please, deliver me from this pain. (Crushing silence)
+    </param>
+    
+    
+
+    <param key="special" index="11"> <!-- 특수공격 발동 되기 시작할때-->
+      You are now incapable of controlling Agent #0. All his focus is on that book. The stageplay starts.
+    </param>
+
+
+    <param key="end" index="12"> <!-- 연출없이 끝날때-->
+      You, lost in the dark and surrounded by silence. Though dawn used to break, it's now but an eternal night. If I could reach you, I would lead you out of this sickening darkness into the radiant light.
+    </param>
+
+
+
+
+  </etc>
+  
+
+</creature>

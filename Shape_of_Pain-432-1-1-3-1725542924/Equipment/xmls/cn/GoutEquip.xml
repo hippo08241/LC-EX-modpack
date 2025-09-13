@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Gout_equip_name">刺刺结晶</text>
+
+<!--Weapon-->
+<text id="Gout_weapon_desc">如果给员工发这东西，员工多半会露出嫌弃的表情。这东西真扎手…</text>
+<text id="GoutWeaponSpecial_desc">有10%的概率使目标患上10秒的痛风。
+使用者每次攻击时都会受到少量的红色和白色伤害。</text>
+
+</localize>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="AuthorNote_armor_name">시나리오</text>
+  <text id="AuthorNote_armor_desc">가난한 각본가의 수첩은 모든 것이 자신의 시나리오대로 진행되는 것을 선호한다. 이것 또한 예외는 아닐 것이다.&#13;&#10;&#13;&#10;깔끔하게 정돈된 검은 정장이다. 겉보기엔 평범하지만, 시나리오대로 진행될때 진정한 힘이 드러나리라.</text>
+  <text id="AuthorNote_armor_specialDesc">일정 주기마다 한 임의의 속성에 면역이 됨.</text>
+  <text id="AuthorNote_weapon_name">시나리오</text>
+  <text id="AuthorNote_weapon_desc">가난한 각본가의 수첩은 모든 것이 자신의 시나리오대로 진행되는 것을 선호한다. 이것 또한 예외는 아닐 것이다.&#13;&#10;&#13;&#10;연극용 소품으로 쓰일 법한 작은 단검이다. 날카롭지는 않지만, 그럼에도 모든 것을 관통할 수 있으리라.</text>
+  <text id="AuthorNote_weapon_specialDesc">대상이 가장 취약한 속성의 피해를 입힘</text>
+</localize>

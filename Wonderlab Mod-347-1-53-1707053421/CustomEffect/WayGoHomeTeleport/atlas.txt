@@ -1,0 +1,41 @@
+
+WayGoHomeTeleport.png
+size: 189,299
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: false
+  xy: 2, 30
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+111
+  rotate: true
+  xy: 92, 2
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 75, 169
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+이펙트용 선
+  rotate: false
+  xy: 2, 120
+  size: 71, 177
+  orig: 71, 177
+  offset: 0, 0
+  index: -1
+텔레포트
+  rotate: false
+  xy: 92, 81
+  size: 84, 86
+  orig: 115, 115
+  offset: 16, 15
+  index: -1

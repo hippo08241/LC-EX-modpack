@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2771495377
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3769f269438053d2ab7530411626a90d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RRR4.Art/Export/art/UIReindeer_45.png
+- Assets/RRR4.Art/Export/art/ReindeerField.png
+- Assets/RRR4.Art/Export/art/UIRhinoCorner.png
+- Assets/RRR4.Art/Export/art/RhinoField.png
+- Assets/RRR4.Art/Export/art/RRRField.png
+- Assets/RRR4.Art/Export/art/UIReindeerCorner.png
+- Assets/RRR4.Art/Export/art/UI4th_45.png
+- Assets/RRR4.Art/Export/art/UI4thCorner.png
+- Assets/RRR4.Art/Export/art/UIRhino_45.png
+- Assets/RRR4.Art/Export/art/RRR4_Protocol.png
+Dependencies: []

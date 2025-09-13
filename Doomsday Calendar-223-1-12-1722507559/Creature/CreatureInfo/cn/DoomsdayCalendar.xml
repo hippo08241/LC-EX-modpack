@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="156514">
+    <narration action="move">
+      #0被分配到“$0”的收容单元中.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0是一块巨大的石板，它的底座是红色的肌肉纤维},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0的砖块开始嘎嘎作响},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0的砖块上雕刻着许多古老语言的字母},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-04-04-05</codeNo>
+      <portrait openLevel ="1">Custom/DoomsdayCalendar_portrait</portrait>
+
+      <name openLevel ="1">
+        终末日历
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>人类、天空和地球将一同被献祭</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {睁眼}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="0">
+      [
+      {它是一座山，看惯了沧海桑田的山。突然有一天，人们将这里当作采石场。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="0">
+      [
+      {蜿蜒的藤蔓被剥去，人们将石头成块切下。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="1">
+      [
+      {闭眼}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="1">
+      [
+      {唯有凿子刻刀一声声砸在它身上，试图将它本来的形象暴露出来。}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="2">
+      [
+      {睁眼}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="2">
+      [
+      {它看到自己被套上一个精美的木制底座，放置在了一座广场上，奴隶和俘虏正被驱赶着走向活地狱，逃跑、被碾碎、随后被吃掉。}
+      ]
+    </desc>
+
+    <desc id="8" openLevel="2">
+      [
+      {祭祀满意地点着头，不忘向人群展示他的威能。}
+      ]
+    </desc>
+
+    <desc id="9" openLevel="3">
+      [
+      {闭眼}
+      ]
+    </desc>
+
+    <desc id="10" openLevel="3">
+      [
+      {它在恍惚中看到了万物的终结：整个世界先是被熔岩包裹，又被洪水侵蚀，最终裂成了成千上万块碎片，重新回到了创世之初的那番混沌。}
+      ]
+    </desc>
+
+    <desc id="11" openLevel="3">
+      [
+      {睁眼}
+      ]
+    </desc>
+
+    <desc id="12" openLevel="3">
+      [
+      {它看到很多很多人——被卷入战火中的人，或四处逃窜，或拼死一搏，或向这终末日历献出自己最后的虔诚与恐惧。}
+      ]
+    </desc>
+
+    <desc id="13" openLevel="4">
+      [
+      {闭眼}
+      ]
+    </desc>
+
+    <desc id="14" openLevel="4">
+      [
+      {干涸的血肉凝结成藤蔓，填充了日历内部的空虚，并延伸出了手臂。}
+      ]
+    </desc>
+
+    <desc id="15" openLevel="4">
+      [
+      {死去的人们化作土偶，在它的指挥下破土而出，带着地狱之火扑向人群。人类、天空和地球将一同被献祭。}
+      ]
+    </desc>
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">$0的逆卡巴拉计数器将随每次逆卡巴拉能量熔毁融毁周期性减少。</specialTip>
+      <specialTip openLevel="1" key="1">对$0进行献祭工作后，$0的逆卡巴拉计数器将立即增加并对这名员工造成一定伤害。若献祭后该员工依然存活将进行压迫工作。</specialTip>
+      <specialTip openLevel="2" key="2">$0的逆卡巴拉计数器越低，工作时对员工造成的伤害越高。</specialTip>
+      <specialTip openLevel="4" key="4">$0的逆卡巴拉计数器归零后120秒内将持续升温且只能进行献祭工作，结束时若计数未满则对一定范围内所有单位造成高额的侵蚀伤害。</specialTip>
+      <specialTip openLevel="3" key="3">$0的逆卡巴拉计数器归零后，每60秒将生成3个“终末土偶”并使逆卡巴拉计数器立即减少</specialTip>
+      <specialTip openLevel="5" key="5">“终末土偶”死亡时将使$0的逆卡巴拉计数器立即增加，每60秒只触发一次</specialTip>
+    </specialTipSize>
+  </observe>
+
+  <child>
+    <name>终末土偶</name>
+    <codeId>M-04-04-05-A</codeId>
+  </child>
+</creature>

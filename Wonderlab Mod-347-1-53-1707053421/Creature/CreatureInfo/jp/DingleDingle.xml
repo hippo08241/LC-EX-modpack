@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 観察レベルとは関係のない情報 ex)ダメージ, id, イメージソースなど
+
+    observe - 観察の程度によって提供される情報
+              各情報には情報が提供されるレベルを表記
+              ex) <desc id="1" openLevel="1">"openLevelが1の場合、この情報が提供される"</desc>
+
+              observe ノード内の level は観察段階の本数を示す。
+  -->
+  <info id ="103121">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の収容室へ入ります。
+    </narration>
+
+    <narration action="start">
+      [
+      {誰にでも耐えられない状況は来るものです。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {そのような状況が来た時、あなたは乗り越えることができるでしょうか？}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-121</codeNo>
+      <portrait openLevel ="1">Custom/DingleDingle</portrait>
+
+      <name openLevel ="1">
+        でろんでろん
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>みんな一緒に実になろう みんなぶら下がろう あなたの絶望、悲しみ......。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {人すがるいばらの木 当該アブノーマリティは非脱出個体であることを忘却させて人々を誘惑する。知られている事実は一つ、「気高い人も崩れるのは一瞬」ということ。ぶらりぶらり。喜び 悲しみ 絶望 長く 長く。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {木には新たな自殺者の実が鈴なりになるだろう。
+        みな実になってすがろう。みんな一緒にしがみつこう。}
+      ]
+    </desc>
+
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">でろんでろんは40秒周期で施設内の勇気がランク3以上の職員に誘惑を試みた。 この時、勇気や自制、正義のうち一つでもランク3以上なら、誘惑の状態にはならなかった。</specialTip>
+      <specialTip openLevel="2" key="2">でろんでろんに精神錯乱にあった職員は、でろんでろんの収容質に歩いて行った。 （当該状態を「魅惑状態」と呼称する。）職員が死亡すると収容質に「果実」が生成された。</specialTip>
+      <specialTip openLevel="3" key="3">「実」が生成された時、でろんでろんのPE-Box生産量が増加した。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156511">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0는 울고 있습니다.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0의 배가 불룩해지고, #0 직원은 놀랐습니다.},
+      {하지만 아무 일도 일어나지 않았습니다.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 직원은 $0의 울음소리를 듣고 슬퍼졌습니다.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-01-23-04</codeNo>
+      <portrait openLevel ="1">Custom/Amiroji_portrait</portrait>
+
+      <name openLevel ="1">
+        울음 두꺼비
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>어떻게 해야 울음을 그치게 만들지?</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {이 이야기는 울음 두꺼비라는 괴물에 대한 설화다. 그 두꺼비의 눈알이 부서지면 기묘한 일들이 일어난다고 한다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {어느 날, 한 용사가 울음 두꺼비의 동굴을 찾았다. 그는 이 설화를 듣고 그 신비한 생물에게 도전을 하기로 결정한 것이었다. 치열한 전투 끝에 용사는 울음 두꺼비의 두 눈을 부수는 데 성공했다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {갑자기 두꺼비의 배가 불룩해지기 시작했고 이는 마치 숨을 들이마시는 것 같았다. 그 커다란 방울같은 눈동자 속에서 푸른 눈물이 흐르고 있었다. 두꺼비가 입을 벌리면 동굴 전체가 우울한 감정에 휩싸이는 것 같았다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {용사는 그 설화 속 기묘한 일이 일어났다는 것을 깨달았다. 그리고 무슨 일이 일어날지 몰라 공포를 느끼고 이 사태가 무사히 지나가길 묵묵히 기도했다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {울음 두꺼비는 울기 시작했다. 눈물이 비오듯 쏟아지고 동굴 전체가 슬픔과 우울에 빠졌다. 용사는 이 광경을 보고 심적으로 괴로워했다.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {"어떻게 해야 울음을 그치게 만들지?"}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">작업 결과가 나쁨일 경우 작업 대기시간이 끝나자 클리포트 카운터가 감소하였고, 보통일 경우 낮은 확률로 감소했다.</specialTip>
+      <specialTip openLevel="1" key="1">$0는 본능과 억압 작업을 싫어하며, $0의 작업을 끝낸 직원은 에고 기프트를 받았다. 작업 결과가 좋음일 경우 시설 내 모든 직원의 정신력이 회복되었다.</specialTip>
+      <specialTip openLevel="2" key="2">클리포트 카운터가 0이 되어도 아무 일도 일어나지 않고 격리실에서 울기만 했다.</specialTip>
+      <specialTip openLevel="3" key="3">$0는 P 피해를 제외한 모든 피해에 대한 내성이 높다.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

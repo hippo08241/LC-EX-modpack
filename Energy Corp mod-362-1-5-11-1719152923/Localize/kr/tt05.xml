@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="Tooltip_GameStatus@Pause">0.5배속으로 진행&#13;&#10;SPACE 키로도 가능</text>
+  <text id="Tooltip_GameStatus@SpeedLv1">기본 속도로 진행&#13;&#10;E: 가속</text>
+  <text id="Tooltip_GameStatus@SpeedLv2">1.5배속으로 진행&#13;&#10;Q:감속 / E:가속</text>
+  <text id="Tooltip_GameStatus@SpeedLv3">2배속으로 진행&#13;&#10;Q: 감속</text>
+</localize>

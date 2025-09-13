@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="161464">
+
+
+
+    <narration action="move">
+      #0 进入 $0收容室开始工作。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0不由得在想如果爬上去之后会遇到什么呢?},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0考虑是否能登上$0。},
+      {在$0上爬到尽头的职员又怎么样了呢?？},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0上真的有终点么？},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-16</codeNo>
+      <portrait openLevel ="1">Custom/JackLessTree</portrait>
+
+      <name openLevel ="1">
+        魔豆
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAIYN
+      </riskLevel>
+
+      <openText>听起来有点疯狂，但据说有位员工下决心要登上这颗魔豆树的顶端，并且还成功了…… </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {记录
+F-03-16外型上是一种巨型豆茎，高度无法测量。
+有员工开玩笑认为这就像童话故事中杰克与魔豆中的生长起来的魔豆。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {据说有一名员工认为F-03-16一定是有终点的，他在准备万全后开始攀登，然而据通讯记录中最后的留言来看...他似乎真的登上了F-03-16的终点。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {但从那之后那名员工便失去了联系，到现在也没有找到。
+也有其他员工也曾试图登上F-03-16，但并没有找到所谓的"终点"，也没有消失。
+唯一的猜测大概也只可能是因为员工的职位不同吧。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {员工之间流传着登顶员工的传闻。
+以下是其中之一。
+听起来有点疯狂，但据说有位员工下决心要登上这颗魔豆树的顶端，并且还成功了……
+如果魔豆树确实有“顶峰”的话，他大概就住在那里吧。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {若是再次攀登的话，会不会得到500年前的礼物呢?}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">本能工作结束时，若工作结果为优，工作的员工会获得饰品。</specialTip>
+      <specialTip openLevel="1" key="1">本能工作结束时，若工作结果为差，工作的员工会立刻死亡。</specialTip>
+      <specialTip openLevel="2" key="2">洞察工作结束时，生产的PE-Box量增加了。</specialTip>
+      <specialTip openLevel="3" key="3">压迫工作结束时，工作员工受到了少量物理伤害。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

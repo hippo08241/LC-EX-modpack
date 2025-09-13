@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 1344252019
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5db1f9d7b667fc39fb805a3de13d9eaf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e95b206e706e364e207bfe2cbef2c3aa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RRR4.Unit/_AssetBundles/__include/ManagementUI.png
+- Assets/RRR4.Unit/_AssetBundles/__include/Icons_2.png
+- Assets/RRR4.Unit/_AssetBundles/__include/HelperSprite.png
+- Assets/RRR4.Unit/_AssetBundles/__include/AgentUIAnimCTRL.controller
+- Assets/RRR4.Unit/_AssetBundles/__include/Icons_7.png
+- Assets/RRR4.Unit/_AssetBundles/__include/NANUMSQUAREB.otf
+- Assets/RRR4.Unit/_AssetBundles/__include/Railway.otf
+- Assets/RRR4.Unit/_AssetBundles/__include/AgentUIIDle.anim
+- Assets/RRR4.Unit/_AssetBundles/__include/Icons_4.png
+- Assets/RRR4.Unit/_AssetBundles/__include/BMDOHYEON.ttf
+- Assets/RRR4.Unit/_AssetBundles/__include/UI_2.png
+- Assets/RRR4.Unit/_AssetBundles/__include/AgentDamage.anim
+Dependencies: []

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="191987">
+
+
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 looks peaceful, with three fairys appearing and disappearing around her.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {"I need something fresh..." $0's voice is weak.},
+      {"I've starved for so long, I can hardly ressit myself..."},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 leans over #0. "Come to me... It's time to pay for my care..."},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-83-01</codeNo>
+      <portrait openLevel ="1">Custom/FairyQueen</portrait>
+
+      <name openLevel ="1">
+        Fairy Queen
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>I'll give you the pleasure of receiving my care...&#13;&#10;Sit still and be gentle...</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A long, long time ago, the fairies founded a kingdom. There, all the fairies would be cared for by their queen. The fairies surrounded their queen, offering her songs and delicacies in her honor.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {However, a famine changed all that. There were few fairies left in the kingdom, and the ones who remained no longer had food to offer their queen.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Food became scarcer and scarcer, and the queen wasted away day by day... She could no longer endure the hunger. So she turned her attention to her loyal companions...}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {The number of fairies dwindles each day, but the queen still cares for them. Not out of love for her subjects, though. Rather, she cares for them to preserve the meat...}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {"I'll give you the pleasure of receiving my care...&#13;&#10;Sit still and be gentle..."}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">Over time, $0 will gain stacks of hunger, with its movement speed and attack damage increasing by 5% for each stack of hunger. When $0 has 10 stacks of hunger, the Qliphoth Counter will lower to 0.</specialTip>
+      <specialTip openLevel="1" key="1">After completing Instinct work on $0, she will lose stacks of hunger based on the result. Employees who comeplete any work on $0 will recover HP for a period of time and be labeled as "Prepared Meat".</specialTip>
+      <specialTip openLevel="2" key="2">When Prepared Meat works on $0 more than twice, They will be consumed and stacks of hunger will drop to 0. If Prepared Meat dies in any other manner, the Qliphoth Counter will lower to 0.</specialTip>
+      <specialTip openLevel="3" key="3">After escaping, three Fairy Mass will begin to follow $0. $0 will regain HP constantly while they're nearby.</specialTip>
+      <specialTip openLevel="4" key="4">For every 30% HP lost, $0 will eat a Fairy Mass, which will reset its hunger stacks and weaken it for a period of time. When there are no Fairy Mass present, $0 will become enraged.</specialTip>
+
+    </specialTipSize>
+  </observe>
+   <child>
+    <name>Fairy Mass</name>
+    <codeId>F-04-83-01-1</codeId>
+  </child>
+</creature>

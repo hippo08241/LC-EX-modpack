@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="joe_name">Joe</text>
+  <text id="wonderlab_1_dialog_1">Testing, testing... Do you copy, Manager?</text>
+  <text id="wonderlab_1_dialog_2">Greetings! This is Joe, Chief of the Control Team of branch O-5681.</text>
+  <text id="wonderlab_1_dialog_3">As noted prior, the Manager of branch O-5681's has perished.</text>
+  <text id="wonderlab_1_dialog_4">We are unable to pick a replacement Manager at this time, yet there are many Abnormalities in this branch that are highly difficult to handle without the support of a Manager.</text>
+  <text id="wonderlab_1_dialog_5">As such, the decision to transport all Abnormalities saves for the bare minimum needed to keep this branch functional to Headquarters was made.</text>
+  <text id="wonderlab_1_dialog_6">Following the procedure for the transportation of Abnormalities, you have been given the Identification codes for each of them.</text>
+  <text id="wonderlab_1_dialog_angelica">(Transmission terminated with branch O-5681)</text>
+  <text id="wonderlab_1_dialog_7">What's with your expression? Manager.</text>
+  <text id="wonderlab_1_selection_1">It's rather worrying.</text>
+  <text id="wonderlab_1_dialog_8">The Abnormalities sent from branch O-5681 possesses great PE Box production and powerful E.G.O Equipment.</text>
+  <text id="wonderlab_1_dialog_9">It will certainly help with our Energy Production.</text>
+  <text id="wonderlab_1_dialog_10">However, it's all but certain that these new Abnormalities will be dangerous. As expected, you'll have more work on your hands.</text>
+  <text id="wonderlab_1_dialog_11">Though, like they say, every rose has its thorn.</text>
+  <text id="wonderlab_1_dialog_12">When viewing that idiom positively, this could mean every thorn has its own rose.</text>
+  <text id="wonderlab_1_dialog_13">...the bloom of a cactus must be a sight to behold.</text>
+</localize>

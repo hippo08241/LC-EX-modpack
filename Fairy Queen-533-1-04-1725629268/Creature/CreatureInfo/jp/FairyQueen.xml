@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="191987">
+
+
+
+    <narration action="move">
+      #0職員が作業を始めるために、$0の収容室に入る。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0は温厚そうで、周囲に3匹の妖精が現れては消える。},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {「新鮮なものが必要よ…。」$0の声は弱々しかった。},
+      {「長い間空腹だったせいか、耐え難いわね……。」},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0の全身には血痕で覆われている。「私のもとへおいで……。世話の対価を支払わねばならない時が来た……。」},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-83-01</codeNo>
+      <portrait openLevel ="1">Custom/FairyQueen</portrait>
+
+      <name openLevel ="1">
+        女王妖精
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>私が手ずから貴方たちの面倒を見てあげるから……。&#13;&#10;疾く私を守らねばならないだろう……。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {遠い遠い昔、妖精たちは王国を建国した。 そこでは、すべての妖精たちは女王に甘やかされた。 妖精たちは女王を取り囲み、歌とごちそうを捧げた。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {しかし、飢饉がすべてを変えた。王国には妖精がほとんどいなくなり、妖精たちは女王に捧げる食料がなくなった。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {食べ物はますます少なくなり、女王は日に日に衰弱していった……。彼女はもはや飢えに耐えられなかった。そこで、彼女は元同胞に目を向けた……。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {妖精の数はどんどん少なくなっている。女王は今でも妖精の世話をしているが、その世話は臣民への愛からではない。女王は今でも食べ物の世話をしているが、その代償は何なのか……。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {「私が手ずから貴方たちの面倒を見てあげるから……。&#13;&#10;疾く私を守らねばならないだろう……。」}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">（$0は空腹を溜め続け、空腹の数値が１増えるごとに移動速度と攻撃速度が５％ずつ増加する。）空腹の数値が１０になると、クリフォトカウンターが即座に０になる。</specialTip>
+      <specialTip openLevel="1" key="1">本能作業を完了すると、作業結果に応じて空腹の数値が減少する。作業を完了した職員は、一定時間体力を回復し続け、$0の予備食となる。</specialTip>
+      <specialTip openLevel="2" key="2">$0の予備食が２回以上作業をすると$0に食われ、$0の空腹度は０になる。管理方法３以外の理由で予備食の職員が死亡した場合、クリフォトカウンターが即座に０になる。</specialTip>
+      <specialTip openLevel="3" key="3">脱走後、３体の妖精の塊は$0を追いかけ、$0は体力を回復し続ける。</specialTip>
+      <specialTip openLevel="4" key="4">体力が３０％失われるごとに、$0は妖精の塊を食べ、空腹状態を解除し、一定時間弱体状態になる。同じ場に妖精の塊がいない場合、$0は凶暴な飢え状態になる。</specialTip>
+
+    </specialTipSize>
+  </observe>
+   <child>
+    <name>妖精の塊</name>
+    <codeId>F-04-83-01-1</codeId>
+  </child>
+</creature>

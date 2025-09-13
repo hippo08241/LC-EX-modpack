@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AdultTellLie_equip_name">거짓왕좌</text>
+<text id="AdultTellLie_weapon_desc">“위대한 마법사를 만난 어른들은 모두 소원을 이뤘다고 한다”</text>
+<text id="AdultTellLie_weapon_specialDesc">해당 무기에 공격받은 적의 이동속도가 3초간 50% 감소
+일정 시간마다 특수 공격
+해당 장비 장착 시 에메랄드 성이 등장하지 않음</text>
+<text id="AdultTellLie_gift_desc">공격 속도 -5 이동 속도 -5 체력 +9 정신력 +9 작업 성공률 +9 작업 속도 +9
+
+참 잘했습니다.</text>
+<text id="AdultTellLie_armor_desc">“사실 소원을 이룬 어른은 없다.
+그들 또한 거짓말쟁이에 불과했으니까”</text>
+<text id="AdultTellLie_armor_specialDesc">거짓왕좌의 특수 공격을 사용한 후 3초간 피해를 입지 않음
+이동속도가 느려진 적에게 받는 피해 25% 감소
+해당 장비 장착 시 에메랄드 성이 등장하지 않음</text>
+
+</localize>

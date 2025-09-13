@@ -1,0 +1,181 @@
+
+GreedWeapon.png
+size: 1251,389
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 289, 131
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 419, 131
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 549, 131
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 679, 131
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 1070, 94
+  size: 139, 42
+  orig: 256, 128
+  offset: 58, 40
+  index: -1
+EyeBrow
+  rotate: true
+  xy: 941, 13
+  size: 118, 6
+  orig: 256, 128
+  offset: 65, 61
+  index: -1
+HairBack
+  rotate: false
+  xy: 60, 100
+  size: 227, 287
+  orig: 256, 512
+  offset: 14, 113
+  index: -1
+HairFront
+  rotate: true
+  xy: 809, 133
+  size: 254, 232
+  orig: 256, 256
+  offset: 2, 8
+  index: -1
+Head
+  rotate: true
+  xy: 1043, 196
+  size: 191, 205
+  orig: 256, 256
+  offset: 35, 27
+  index: -1
+L arm 1
+  rotate: false
+  xy: 1070, 4
+  size: 48, 88
+  orig: 128, 128
+  offset: 37, 20
+  index: -1
+L arm 2
+  rotate: false
+  xy: 949, 41
+  size: 59, 90
+  orig: 128, 128
+  offset: 32, 20
+  index: -1
+L hand
+  rotate: true
+  xy: 1161, 145
+  size: 49, 43
+  orig: 64, 64
+  offset: 7, 11
+  index: -1
+L leg 1
+  rotate: false
+  xy: 113, 4
+  size: 51, 94
+  orig: 128, 128
+  offset: 40, 13
+  index: -1
+L leg 2
+  rotate: true
+  xy: 1170, 42
+  size: 50, 79
+  orig: 128, 128
+  offset: 39, 29
+  index: -1
+Mouth
+  rotate: true
+  xy: 289, 111
+  size: 18, 7
+  orig: 128, 128
+  offset: 56, 59
+  index: -1
+Nosferatuweapon1
+  rotate: false
+  xy: 828, 3
+  size: 111, 128
+  orig: 466, 160
+  offset: 325, 18
+  index: -1
+Nosferatuweapon2a
+  rotate: true
+  xy: 2, 5
+  size: 382, 56
+  orig: 466, 137
+  offset: 3, 54
+  index: -1
+Note
+  rotate: false
+  xy: 237, 7
+  size: 106, 91
+  orig: 256, 256
+  offset: 69, 76
+  index: -1
+R arm 1
+  rotate: false
+  xy: 1120, 4
+  size: 48, 88
+  orig: 128, 128
+  offset: 40, 21
+  index: -1
+R arm 2
+  rotate: false
+  xy: 1010, 41
+  size: 58, 90
+  orig: 128, 128
+  offset: 35, 19
+  index: -1
+R hand
+  rotate: false
+  xy: 1115, 144
+  size: 44, 50
+  orig: 64, 64
+  offset: 10, 8
+  index: -1
+R leg 1
+  rotate: false
+  xy: 60, 2
+  size: 51, 96
+  orig: 128, 128
+  offset: 35, 8
+  index: -1
+R leg 2
+  rotate: true
+  xy: 1043, 138
+  size: 56, 70
+  orig: 128, 128
+  offset: 35, 30
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 166, 6
+  size: 69, 92
+  orig: 256, 256
+  offset: 93, 135
+  index: -1
+Weapon_GreatSword
+  rotate: false
+  xy: 345, 7
+  size: 481, 122
+  orig: 481, 122
+  offset: 0, 0
+  index: -1

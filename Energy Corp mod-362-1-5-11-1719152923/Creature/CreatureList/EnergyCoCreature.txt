@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+  <creature name="NullThingMir" src="NullThingMir" id="178800">
+    <stat>NullThingMir_stat</stat>
+  </creature>
+  <creature name="ButtonBug" src="ButtonBug" id="178801">
+    <stat>ButtonBug_stat</stat>
+  </creature>
+  <creature name="MatchGirlOld" src="MatchGirlOld" id="178802">
+    <stat>MatchGirlOld_stat</stat>
+  </creature>
+  <creature name="StraitJacketOld" src="StraitJacketOld" id="178803">
+    <stat>StraitJacketOld_stat</stat>
+  </creature>
+  <creature name="CosmosOld" src="CosmosOld" id="178804">
+    <stat>CosmosOld_stat</stat>
+  </creature>
+  <creature name="LadyLookingAtWallOld" src="LadyLookingAtWallOld" id="178805">
+    <stat>LadyLookingAtWallOld_stat</stat>
+  </creature>
+  <creature name="HelperOld" src="HelperOld" id="178806">
+    <stat>HelperOld_stat</stat>
+  </creature>
+  <creature name="RudolphOld" src="RudolphOld" id="178807">
+    <stat>RudolphOld_stat</stat>
+  </creature>
+  <creature name="NamelessFetusMir" src="NamelessFetusMir" id="178808">
+    <stat>NamelessFetusMir_stat</stat>
+  </creature>
+  <creature name="LongBirdOld" src="LongBirdOld" id="178809">
+    <stat>LongBirdOld_stat</stat>
+  </creature>
+  <creature name="SharkOld" src="SharkOld" id="178810">
+    <stat>SharkOld_stat</stat>
+  </creature>
+  <creature name="HelperMir" src="HelperMir" id="178811">
+    <stat>HelperMir_stat</stat>
+  </creature>
+  <creature name="BunnyStr" src="BunnyStr" id="178812">
+    <stat>BunnyStr_stat</stat>
+  </creature>
+  <creature name="StraitJacketStr" src="StraitJacketStr" id="178813">
+    <stat>StraitJacketStr_stat</stat>
+  </creature>
+</creature_list>

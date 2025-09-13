@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+   <text id="Pinocchio_weapon_name">提线木偶</text>
+   <text id="Pinocchio_weapon_desc">一把老旧的斧子，拿起它时，你会感觉其重量时常沉重时常轻盈，似乎它在模仿你所认识中的重量？&#13;&#10;&#13;&#10;在都市中，为了活下去，每个都市人都会不断的模仿那些成功之人，从而尝试另一个成功之人。可是。。。模仿终究还是模仿，无法完美复制成功，那些拙劣的模仿者终究会被都市所吞噬。</text>
+   <text id="Pinocchio_weapon_sp_Desc">模仿学习：装备全套ego时会随机模仿伤害类型。&#13;&#10;精通模仿：每次攻击会追加伤害</text>
+   <text id="Pinocchio_armor_desc">一套华丽的衣服，这与它的武器看起来格格不入，穿上它时，你会不经意间的模仿别人。&#13;&#10;&#13;&#10;来到新的环境中，为了更好的融入环境，就要模仿群体。做着群体一同做的事，吃着群体一样的东西，这句话在哪里都是适用的，特别是在都市。。。</text>
+   <text id="Pinocchio_armor_sp_Desc">谎言：会随机变化抗性。&#13;&#10;模仿学习：装备全套ego时会有概率模仿同部门员工的护甲抗性，过一段时间后消失</text>
+   <text id="Pinocchio_hat_desc">生命值+3，工作速度+2 ，&#13;&#10;&#13;&#10;人类不就是一直在模仿的生物吗？</text>
+</localize>

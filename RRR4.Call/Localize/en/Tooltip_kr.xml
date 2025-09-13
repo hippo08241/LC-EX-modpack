@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <!-- Management Part : Rabbit UI -->
+  <text id="Tooltip_Rabbit@RabbitProtocol">Call R Corp's 4th Pack</text>
+</localize>

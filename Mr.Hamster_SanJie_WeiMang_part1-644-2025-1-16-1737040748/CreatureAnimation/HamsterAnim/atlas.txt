@@ -1,0 +1,83 @@
+
+hamster.png
+size: 4352,383
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+仓鼠先生-前脚
+  rotate: false
+  xy: 2, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-后脚
+  rotate: false
+  xy: 398, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-嘴
+  rotate: false
+  xy: 794, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-头
+  rotate: false
+  xy: 1190, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-手
+  rotate: false
+  xy: 1586, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-手指1
+  rotate: false
+  xy: 1982, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-手指2
+  rotate: false
+  xy: 2378, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-整体
+  rotate: false
+  xy: 2774, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-眼珠
+  rotate: false
+  xy: 3170, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1
+仓鼠先生-草图
+  rotate: true
+  xy: 3962, 4
+  size: 377, 388
+  orig: 377, 388
+  offset: 0, 0
+  index: -1
+仓鼠先生-身体
+  rotate: false
+  xy: 3566, 2
+  size: 394, 379
+  orig: 394, 379
+  offset: 0, 0
+  index: -1

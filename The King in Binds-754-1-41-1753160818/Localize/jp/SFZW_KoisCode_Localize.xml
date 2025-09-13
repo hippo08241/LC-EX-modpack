@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+    <text id="SFZW_IsolateDisplay">「無効になっている収容室」</text>
+    <text id="SFZW_WorkType">演技</text>
+    <text id="SFZW_WorkType_called">演技作業</text>
+</localize>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AdultTellLie_equip_name">偽りの王座</text>
+<text id="AdultTellLie_weapon_desc">“偉大な魔法使いに出会った大人たちは皆願いをかなえたと言う”</text>
+<text id="AdultTellLie_weapon_specialDesc">攻撃された敵の移動速度が3秒間50%減少
+一定時間ごとに特殊攻撃
+装着時、エメラルドの城が出現しない</text>
+<text id="AdultTellLie_gift_desc">공격 속도 -5 이동 속도 -5 체력 +9 정신력 +9 작업 성공률 +9 작업 속도 +9
+
+素晴らしい</text>
+<text id="AdultTellLie_armor_desc">“実際、願いを叶えた大人は誰一人としていない。
+彼らもまた嘘つきに過ぎなかったから”</text>
+<text id="AdultTellLie_armor_specialDesc">偽りの王座の特殊攻撃を使用した後3秒間はダメージを受けない。
+移動速度が遅くなった敵から受けるダメージ25%減少
+装着時、エメラルドの城が出現しない</text>
+
+</localize>

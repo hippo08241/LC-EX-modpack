@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="EnergyCo_energyTimer_Left">Energy refine work </text>
+  <text id="EnergyCo_energyTimer_Right">% complete!</text>
+</localize>

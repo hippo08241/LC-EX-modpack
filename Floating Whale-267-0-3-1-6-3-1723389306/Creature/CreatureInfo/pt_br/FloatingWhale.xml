@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="101168">
+
+    <narration action="move">
+      #0 vai para a unidade de contenção “$0” para começar o trabalho.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" é essencialmente um cadáver normal, exceto que está suspenso no ar.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {#0 está prestes a vomitar o café da manhã por causa do fedor.}
+      {#0 se preocupa quando o corpo na frente deles explode sem aviso prévio.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {Boa noite, Sr. Baleia.}
+      {O fedor da decomposição ficará mais forte com o passar do tempo...}
+      ]
+    </narration>
+    
+    <narration action="dead">
+      [
+      {A pressão foi demais para “$0” aguentar e, com um estrondo, a unidade ficou coberta de carne podre.}
+      ]
+    </narration>
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-168</codeNo>
+      <portrait openLevel="1">Custom/FloatingWhale</portrait>
+
+      <name openLevel="1">Baleia Flutuante</name>
+      
+      <riskLevel openLevel="1">TETH</riskLevel>
+
+      <openText>As crianças afirmam ter visto uma baleia verde na praia...</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {A "explosão de baleia" é um fenômeno natural raro que normalmente ocorre quando uma baleia encalha ou morre.  A combinação da pressão externa do ar e do gás interno gerado pela decomposição faz com que o corpo exploda, criando uma explosão repentina de carne, sangue e órgãos.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="2">
+      [
+      {...&#13;&#10;Acho que nunca mais irei àquela praia.&#13;&#10;Você provavelmente sabe por quê. Mas permita-me explicar.&#13;&#10;Era uma manhã de sol, eu tinha ido à praia com um casal de crianças da vizinhança, éramos só nós, e pensei que tínhamos tudo o que precisávamos, "o que poderia dar errado?".&#13;&#10;Nós nos divertimos muito, realmente.&#13;&#10;Como único adulto ali, eu tinha que cuidar das crianças, então optei por segui-las e encontrei um bando de baleias verdes imóveis à beira-mar... já sem vida.&#13;&#10;Você sabe que é normal que as baleias estourem nesses casos, certo?  Rapidamente tentei afastar os jovens do local;  Ainda não consigo esquecer o mau cheiro que pairava na atmosfera quando um dos cadáveres de baleia explodiu inesperadamente.&#13;&#10;Eu fiz o meu melhor...}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="3">
+      [
+      {&lt;Excerpted data from an encyclopedia&gt;&#13;&#10;Sempre que uma pessoa morre e o corpo não é embalsamado dentro de 5 a 8 dias, ele sofre um alto grau de decomposição.  Este processo produz uma grande quantidade de gases pútridos que preenchem os tecidos moles por todo o corpo, resultando em inchaço grave, incluindo rosto extremamente inchado e globos oculares salientes, lábios grossos e virados para fora, língua esticada, expansão abdominal, pele verde, tecido subcutâneo e  enfisema muscular, espessamento dos membros, o corpo inteiro inchado até virar um gigante, fica difícil adivinhar como era na vida, esse fenômeno é conhecido como estágio liquefativo de decomposição.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {Várias crianças foram levadas de suas casas por um homem desconhecido.&#13;&#10;Seus pais nos imploraram para encontrá-los oferecendo uma recompensa generosa, e nossa equipe acabou descobrindo-os em uma piscina contaminada em uma instalação industrial.  A maioria das crianças foi gravemente afetada pela radiação e algumas foram confirmadas como mortas.  Não muito longe de onde as crianças estavam, encontramos muitos corpos em decomposição em estado Liquefativo.  Com um homem estranho.&#13;&#10;Mais tarde, uma investigação revelou que o homem sofria de intensa paranóia.  Ele usou sua descrição do oceano para atrair algumas crianças, que nunca haviam sido expostas ao oceano, para uma piscina de resíduos.&#13;&#10;Não sabemos o que os pais daquelas crianças fizeram com ele. No entanto, encontramos seu corpo uma semana depois.}
+      ]
+    </desc>
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">O contador Qliphoth de $0 diminuiu quando o resultado do trabalho for ruim. </specialTip>
+      <specialTip openLevel="2" key="2">$0 gera quantidades significativas de energia durante o trabalho de repressão. No entanto, se for reprimido novamente no mesmo dia, seu corpo explodirá, resultando em dano Preto graves ao funcionário que trabalha com ele.</specialTip>
+      <specialTip openLevel="2" key="3">Depois da explosão, $0 se estabiliza e não poderá mais explodir durante o dia, mas sua produção de energia cairá drasticamente.</specialTip>
+      <specialTip openLevel="3" key="4">A supressão ou explosão de $0 pode desencadear outras anormalidades.</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

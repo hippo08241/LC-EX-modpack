@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="sanchez_weapon_name">&lt;color=#A45864&gt;川に望む&lt;/color&gt;</text>
+  <text id="sanchez_weapon_specialDesc">&lt;color=#5A9D8B&gt;対象に攻撃が命中した際、RED弱体デバフを付与する。攻撃ごとに20%の確率で特殊攻撃を使用する。&#13;&#10;防護服“囚われの川”を装備している場合、与えたダメージの30%分のHPを回復する。&lt;/color&gt;</text>
+  <text id="sanchez_weapon_desc">三途の川から引き揚げられた武器。&#13;&#10;この大鎌は、決して消えることのない青藍色の炎が燃え盛っているように見える。&#13;&#10;ただ肉を切るだけで、魂を引き寄せる。&#13;&#10;死を恐れない職員だけが、この大鎌を扱うことができる。&#13;&#10;&lt;color=#A45864&gt; 遥かに忘川を見つめ、見通した先にも忘却は訪れず。三生石は動き、彼岸花が咲き誇る。身は川に囚われて、枝の末には無明が宿る……&lt;/color&gt;</text>
+
+  <text id="sanchez_armor_name">&lt;color=#A45864&gt;囚われの川&lt;/color&gt;</text>
+  <text id="sanchez_armor_specialDesc">&lt;color=#5A9D8B&gt;この防護服を着用した職員は、1日に1度、SPが20%を下回るとHPとSPが回復する。&#13;&#10;回復効果が発動すると、その日に与えるダメージが増加する。&lt;/color&gt;</text>
+  <text id="sanchez_armor_desc">三途の川から引き揚げられた防護服。&#13;&#10;この防護服は、決して消えることのない青緑色の炎が燃え盛っているように見える。&#13;&#10;この防護服を身に着けた職員は、魂の声に対してより敏感になる。&#13;&#10;&lt;color=#A45864&gt;何故川に囚われて、川に何を求むるか？前世の夢を終え、今生の果を断ち、千年川を望むも、想い消え去らず……&lt;/color&gt;</text>
+
+  <text id="sanchez_gift_name">&lt;color=#A45864&gt;帰らず&lt;/color&gt;</text>
+  <text id="sanchez_gift_Desc">&lt;color=#5A9D8B&gt;HP+7 SP+3 移動速度+5 攻撃速度+5&lt;/color&gt; &#13;&#10;&lt;color=#5A9D8B&gt;職員が「川に望む」と「囚われの川」を装備している場合、SPにダメージを受けた時、受けたダメージの30%分のSPが回復する。&lt;/color&gt;&#13;&#10;&lt;color=#A45864&gt;さあ帰ろう、儚い夢だから。&lt;/color&gt;</text>
+
+  <text id="villa_weapon_name">&lt;color=#5682BB&gt;折れた翼&lt;/color&gt;</text>
+  <text id="villa_weapon_specialDesc">&lt;color=#FDD47E&gt;対象に攻撃が命中した際、PALE弱体デバフを付与する。攻撃ごとに20%の確率で特殊攻撃を使用する。&#13;&#10;この武器を装備した職員は、自身のSPが最大値の「80%以上」「50%以上80%未満」「20%以上50%未満」「20%未満」の時に&#13;&#10;「+5ポイント」「+3ポイント」「+1ポイント」「-5ポイント」のダメージ修正を受ける。&lt;/color&gt;</text>
+   //具体的な改正点は以下の通り：&#13;&#10;精神力が８０％以上のときダメージ+５。&#13;&#10;精神力が５０％以上８０％以下のときダメージ+３。&#13;&#10;精神力が20%以上５０％以下の場合、ダメージ+１。&#13;&#10;精神力が20%以下のとき、ダメージ－５。
+  <text id="villa_weapon_desc">仲の良い三羽の鳥から贈られた武器。&#13;&#10;この羽ペンは色鮮やかで、まるでその中に魂が宿っているかのようだ。&#13;&#10;この羽ペンを持つ者は、仲間をより大切にするようになる。&#13;&#10;勇気と責任感に満ちた職員だけが、このペンを使いこなすことができる。&#13;&#10;&lt;color=#5682BB&gt;鴻羽が虹彩に映え、蘭翼が霧空を運ぶ。&lt;/color&gt;</text>
+
+  <text id="villa_armor_name">&lt;color=#5682BB&gt;百羽の鳥&lt;/color&gt;</text>
+  <text id="villa_armor_specialDesc">&lt;color=#FDD47E&gt;この防護服を着用した職員は、10秒ごとに同じエリア内の全職員の精神力を20ポイント回復させる。&#13;&#10;回復量がSP上限を超えた場合、超過分はWHITEシールドに変換される。&#13;&#10;SPを回復した職員の勇気と正義に関するステータスを、50秒間3ポイント上昇させる。&lt;/color&gt;</text>
+  <text id="villa_armor_desc">森の数多の鳥から抽出された防護服。&#13;&#10;この防護服は軽やかで柔らかな羽毛が散りばめられており、まるで人間のものではないかのようだ。&#13;&#10;この防護服を身に着けた職員は、困難な状況の中で再び勇気を燃やすだろう。&#13;&#10;&lt;color=#5682BB&gt;軽羽は青雲を透し、衣翼は長風を破る。&lt;/color&gt;</text>
+
+  <text id="villa_gift_name">&lt;color=#5682BB&gt;恐れず&lt;/color&gt;</text>
+  <text id="villa_gift_Desc">&lt;color=#FDD47E&gt;SP+10 作業成功率+5 作業速度+5&lt;/color&gt; &#13;&#10;&lt;color=#FDD47E&gt;職員が「折れた翼」と「百羽の鳥」を装備している場合、100ポイントを超える単発ダメージを受けた時に100ポイントに軽減し、10秒毎にHPを10ポイント回復する。&lt;/color&gt;&#13;&#10;&lt;color=#5682BB&gt;雨が降り飛燕軽やか、洛の羽緋煙のように明るく。&lt;/color&gt;</text>
+
+  <text id="bella_weapon_name">&lt;color=#B48662&gt;沈む砂&lt;/color&gt;</text>
+  <text id="bella_weapon_specialDesc">&lt;color=#8F9F54&gt;対象に攻撃が命中した際、WHITE弱体デバフを付与する。攻撃ごとに20%の確率で特殊攻撃を使用する。&#13;&#10;攻撃を受けた対象はそれぞれ鈍足状態になり、RED耐性が0以上でなければ代わりにBLACKダメージを与える。&lt;/color&gt;</text>
+  <text id="bella_weapon_desc">砂漠で育った武器。&#13;&#10;この大剣の根は、万物を飲み込む黄砂を制御しているかもしれない。&#13;&#10;この大剣に正面から打たれた者は、精神が沈み、動きが鈍くなる。&#13;&#10;敵と味方の境界を正確に測ることができる職員だけが、この大剣を振るうことができる。&#13;&#10;&lt;color=#B48662&gt;羽を折り、砂に沈み、深い水に消ゆ、君が去り、二度と戻らぬことを嘆く。&lt;/color&gt;</text>
+
+  <text id="bella_armor_name">&lt;color=#B48662&gt;甘棠の木&lt;/color&gt;</text>
+  <text id="bella_armor_specialDesc">&lt;color=#8F9F54&gt;この防護服を着用している職員は、自身のHPが最大値の「50%以上」「20%以上50%未満」「20%未満」の時に&#13;&#10;「20%」「50%」「70%」のダメージ軽減を得る。&#13;&#10;「沈む砂」を装備している場合、特殊攻撃で自分と同じエリアにいる職員にBLACKシールドを展開する。&lt;/color&gt;</text>
+//具体的な改正点は以下の通り：体力が50%以上で20%、20%以上50%未満で50%、20%未満で70%のダメージを軽減する。
+  <text id="bella_armor_desc">砂漠で育った防護服。&#13;&#10;この防護服は旺盛な生命力に満ちており、恐らく砂漠の環境に適応していない生物たちをも保護しているのだろう。&#13;&#10;この防護服を着用した職員は、他者を守るための「木陰」を得る。&#13;&#10;&lt;color=#B48662&gt;あらゆるものを守るのは、鬱蒼とした緑、生き生きと繁る枝、故郷の庭のように。&lt;/color&gt;</text>
+
+  <text id="bella_gift_name">&lt;color=#B48662&gt;離れず&lt;/color&gt;</text>
+  <text id="bella_gift_Desc">&lt;color=#8F9F54&gt;HP+10 作業成功率-2 作業速度+7 移動速度+5&lt;/color&gt;&#13;&#10;&lt;color=#8F9F54&gt;職員が「沈む砂」と「甘棠の木」を装備している場合、攻撃ごとに5ポイントのBLACKダメージが追加される。&lt;/color&gt;&#13;&#10;&lt;color=#B48662&gt;木に寄りかかり、降りしきる雨に笑い歌い、酔いて砂に寝転がり、満天の星を眺める。&lt;/color&gt;</text>
+
+  <text id="voidream_gift_name">&lt;color=#A45482&gt;魂を迷わせる夢の境？&lt;/color&gt;</text>
+  <text id="voidream_gift_Desc">&lt;color=#A486BB&gt;SP+4&lt;/color&gt; &#13;&#10;&lt;color=#A45482&gt;ある職員の夢への強い願望が、このギフトの巨大化という現象を引き起こした。&lt;/color&gt;</text>
+
+  <text id="svb_gift_name">&lt;color=#977E7C&gt;悔いず&lt;/color&gt;</text>
+  <text id="svb_gift_Desc">&lt;color=#8F9F54&gt;HP+12 &lt;/color&gt; &lt;color=#FDD47E&gt;SP+5 &lt;/color&gt; &lt;color=#5A9D8B&gt;移動速度+7 攻撃速度+7&lt;/color&gt; &#13;&#10;&lt;color=#977E7C&gt;職員が「帰らず」「恐れず」「離れず」を所有し、三芥微茫の開花E.G.Oをフルセット装備している場合、&#13;&#10;毎日の最初に受ける致死ダメージを免れ、シールドを獲得する。&#13;&#10;君たちのような友人に出会えて、私の人生に後悔はない。&lt;/color&gt; </text>
+
+  <text id="picky_gift_name">ピッキーの鼻？？</text>
+  <text id="picky_gift_Desc">SP+4&#13;&#10;え？このEGOギフトはどこから？</text>
+
+  <text id="picky_armor_name">回し車</text>
+  <text id="picky_armor_desc">どこからともなくやってきたパジャマ。&#13;&#10;とても肌触りがよく、ふわふわしているが、誰が着てもぽっちゃりして見える。&#13;&#10;着用者は未知の材料で作られたおやつを同僚に食べさせようとする。&#13;&#10;おいおい、どんな裏路地の人間がこれを着るんだ！</text>
+  <text id="picky_armor_specialDesc">10秒ごとに、同じエリアにいる他の職員のHPを10ポイント回復させるが、SPを5ポイント減少させる。&#13;&#10;ベーコンを所有している場合、15ポイントのHPと5ポイントのSPが回復するように効果が変更される。</text>
+
+  <text id="picky_weapon_name">油と塩だけ</text>
+  <text id="picky_weapon_desc">正体不明の肉を使ったベーコン。&#13;&#10;食欲をそそる油の香りを放ち、戦いの中で食べるほどどんどん短くなる。&#13;&#10;ただ、ちょっと塩辛い！ 相手を「塩漬け」してしまう……かも。&#13;&#10;この子、本当に食いしん坊だな！</text>
+  <text id="picky_weapon_specialDesc">鎮圧中、装備者はベーコンを食べようとし、HPを回復させる代わりに武器の射程距離と威力を低下させる。&#13;&#10;累積で30回ダメージを与えると、対象に追加で30ポイントのWHITEダメージを与える。&#13;&#10;このベーコンを所持している職員は、死体のそばを通る際に、死体を破壊しベーコンを補充する。</text>
+</localize>

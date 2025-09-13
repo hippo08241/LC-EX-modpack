@@ -1,0 +1,12 @@
+Your audio files must be converted to proper .wav format first. If you don't already, use programs like Audacity.
+
+Name your .wav music files based on the emergency level you want them to play for:
+- Neutral: NORMAL.wav
+- First Warning: LEVEL1.wav
+- Second Warning: LEVEL2.wav
+- Third Warning: LEVEL3.wav
+- Fourth Warning: LEVEL4.wav
+If the game didn't found any custom music for the emergency level, it will use the default one.
+
+If you had issues, make sure the music you want to play is a proper .wav file (like, not just renaming from mp3 to wav)
+and a correct name based on the format I've given above.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+    <equipment id="2138010" type="armor">
+
+    <name>Depression_Weapon_Name</name>
+    <no>BloodBath_armor_no</no>
+    <desc>Depression_Armor_Desc</desc>
+    <specialDesc>Depression_Armor_spDesc</specialDesc>
+
+    <armorId>1800018</armorId>
+
+    <defense>
+      <defenseElement type="R">2</defenseElement>
+      <defenseElement type="W">0</defenseElement>
+      <defenseElement type="B">2</defenseElement>
+      <defenseElement type="P">2</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>DepressionArmor</script>
+  </equipment>
+<equipment id="2138014" type="weapon">
+    <name>Depression_Weapon_Name</name>
+    <no>Depression_weapon_no</no>
+    <desc>Depression_Weapon_desc</desc>
+    <specialDesc>Depression_Weapon_spDesc</specialDesc>
+
+    <weaponClassType>knife</weaponClassType>
+    <sprite>Covered</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="9" max="10">
+      <soundInfo type="damage">Weapons/dagger1</soundInfo>
+    </damage>
+
+    <range>2</range>
+
+    <script>DepressionWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+</equipment_list>

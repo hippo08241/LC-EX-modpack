@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="wonderlab_3_dialog_1">あなたは血鬼についてご存じでしょうか？</text>
+  <text id="wonderlab_3_dialog_2">まぁ、ご存じでしょうね。では血鬼に壊滅させられた経験は？</text>
+  <text id="wonderlab_3_dialog_3">私は覚えています。全職員が怪物となって廊下をさまよい、あなたは絶望して私に……</text>
+  <text id="wonderlab_3_dialog_4">冗談ですと？そうですか、あなたが望むのであれば私の「絶望記録帳」の中のもう一つを教えて差し上げてもかまいませんが。</text>
+
+  <text id="wonderlab_3_selection_1">見たい。</text>
+  <text id="wonderlab_3_selection_2">見たくない。</text>
+
+  <text id="wonderlab_3_dialog_5">ですが誰にも話したくない秘密というものはあるものです。</text>
+  <text id="wonderlab_3_dialog_6">趣味の共有ができるのは喜ばしいことですが、あなたとはそうありたくないですね。</text>
+  <text id="wonderlab_3_dialog_7">代わりに他の話を致しましょうか。</text>
+
+  <text id="wonderlab_3_dialog_8">おや？恐れましたか？それとも必要ないとでも？</text>
+  <text id="wonderlab_3_dialog_9">どちらにせよ気に入りませんね、この情報があなたの余裕を崩すのに役立てばいいのですが。</text>
+
+  <text id="wonderlab_3_dialog_10">抽出チームで0-01-34をまた抽出しました。 血鬼の根源と推測される存在です。</text>
+  <text id="wonderlab_3_dialog_11">人間の内面にある無限の可能性もたまには重複する値を導き出したりします。</text>
+  <text id="wonderlab_3_dialog_12">そして、それは時にはあまりにも不安定で、適合度審査で脱落することもあります。</text>
+  <text id="wonderlab_3_dialog_13">ですが0-01-34は事情が少々異なります。</text>
+  <text id="wonderlab_3_dialog_14">安全性で不適合判定を受けましたが、エネルギー生産効率が非常に優れていたため、このアブノーマリティーは再審査の常連です。</text>
+  <text id="wonderlab_3_dialog_15">再審査は現役管理者、つまりあなたによって行われ、管理の成功の可否によって判定が決まります。</text>
+  <text id="wonderlab_3_dialog_16">つまり、制御に失敗し、廃棄されたアブノーマリティをもう一度管理しろ、ということです。</text>
+
+  <text id="wonderlab_3_dialog_17">どうです？楽しくなってきましたか？</text>
+  <text id="wonderlab_3_dialog_18">勿論ここまで来たのだから失敗はしないでしょう。 少なくとも今のあなたは、前のあなた共とは違う存在ですので。</text>
+  <text id="wonderlab_3_dialog_19">ですが、崩壊した場合は...</text>
+  <text id="wonderlab_3_dialog_20">その時は、これまでと違う表情をしてくださるようお願い致しますよ。</text>
+</localize>

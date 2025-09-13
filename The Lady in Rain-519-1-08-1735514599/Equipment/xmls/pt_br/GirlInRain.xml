@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ladyinrain_weapon_nameA">Sonho sem Adornos</text>
+<text id="ladyinrain_armor_descA">Um casaco preto encharcado de chuva. Água pegajosa da chuva pinga dos cantos do casaco. Os funcionários notaram que o casaco parece dar uma sensação de malícia. "É como se... houvesse alguém me encarando de um beco escuro. Me perseguindo. Não é uma sensação agradável..." A maioria dos funcionários não estava disposta a usar este casaco, e os que estavam foram notados como tendo problemas mentais graves. Para pecar pelo excesso de cautela, garanta que funcionários inexperientes não toquem neste E.G.O.
+"A figura emoldurada na chuva torrencial... É ela ou... Sou eu...?"</text>
+<text id="ladyinrain_weapon_descA">Um guarda-chuva preto como breu que emite o mesmo cheiro intenso de chuva que a Anormalidade. O guarda-chuva inteiro, incluindo o cabo, está encharcado com água da chuva. Quando segurado, um forte sentimento de melancolia e loucura atinge o portador em seu coração.
+"Ela ainda está por perto... Eu tenho que fazer alguma coisa. ...Esta pintura... Talvez eu pudesse..."</text>
+<text id="ladyinrain_armor_specialDescA">Ao receber dano, há 20% de chance de reduzir ou aumentar o dano recebido em 1 a 10 pontos.&#13;&#10;Ao usar o conjunto completo de Sonho sem Adornos, o usuário se teletransportará para o local alvo ao receber um comando de movimento.&#13;&#10;Este efeito tem um tempo de recarga de 30 segundos, reduzido pela metade ao carregar o porta-retrato.</text>
+<text id="ladyinrain_weapon_specialDescA">O modo de ataque muda com base na distância do alvo.&#13;&#10;Ataques à distância reduzem a velocidade de movimento do alvo e do portador em 10% cada vez que um ataque é feito, acumulando até 9 vezes.&#13;&#10;O efeito dura 10 segundos, sendo renovado sempre que o efeito é reaplicado.&#13;&#10;Ao usar o conjunto completo E.G.O.,&#13;&#10;Um ataque especial será usado contra alvos com menos de 20% PV.&#13;&#10;O ataque causa mais dano e tem um tempo de recarga de 30 segundos, reduzido pela metade ao segurar a moldura.
+</text>
+
+<text id="ladyinrain_gift_name">Sonho sem Adornos</text>
+<text id="ladyinrain_gift_desc">PS -4, Velocidade de Ataque +8&#13;&#10;O efeito é duplicado ao segurar a moldura da imagem (tanto positiva quanto negativa)</text>
+</localize>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Tianhuo_weapon_name1">Heavenly Flame Blade</text>
+<text id="Tianhuo_weapon_desc1">The form that appears when the Key of Destruction, "Judgement of Shamash", has fully liberated its power. The twin spears stretch out to form the hilts of the swords.
+A hot flame like molten gold rises up to the sky and coalesces into the sword's body. As its name suggests, it brings absolute destruction to all things.</text>
+<text id="Tianhuo_weapon_specialDesc1">There is a 20% chance a special attack will be triggered to inflict 40 points of RED damage.
+When the wielder of this weapon has 100% HP, their next attack will drain 50% of their HP and add it as damage to the next special attack made.</text>
+
+<text id="Tianhuo_weapon_name2">Soul Annihilation</text>
+<text id="Tianhuo_weapon_desc2">As each of the thousands stars carved their own flames, one displayed their supreme power over all.
+The flames consumed the heavens, and not even dust remains of the souls felled by this blade. This is the Sword of the End.</text>
+<text id="Tianhuo_weapon_specialDesc2">On occasion, attacks will create a dash that deals 10 points of RED damage.
+This attack drains 10 HP from the wielder when their HP is above 50%, and will increase the damage to 80 points of RED damage. When the wielder's HP is below 50%, the damage is reduced to 40.</text>
+
+<text id="Tianhuo_weapon_name3">Judgement of Shamash</text>
+<text id="Tianhuo_weapon_desc3">The Key of Destruction, made from the core of the Seventh Ruler of the ancient world, is a twin-gun weapon that possesses great destructive power born from the power of "heat".
+However, its true power seems to have been sealed away.</text>
+<text id="Tianhuo_weapon_specialDesc3">Attacks have a 20% chance of generating a blast of fire, dealing 5 points of RED damage.</text>
+
+</localize>

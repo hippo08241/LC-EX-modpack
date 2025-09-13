@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<creature>
+  <script>ButtonBug</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>4</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.6</prob>
+      <prob level="2">0.6</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.6</prob>
+      <prob level="5">0.6</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.35</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.3</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.35</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.2</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workCooltime>10</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>6</cube>
+      <cube>9</cube>
+      <cube>12</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="W" min="2" max="4" />
+    <workSpeed>0.25</workSpeed>
+    <specialDamage>
+      <damage id="1" type="R" min="15" max="25" />
+    </specialDamage>
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.75</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <escapeable>true</escapeable>
+    <hp>240</hp>
+    <speed>1</speed>
+    <observeInfo total="54">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="2" />
+      <observeElement name="care_1" cost="2" />
+      <observeElement name="care_2" cost="2" />
+      <observeElement name="care_3" cost="2" />
+      <observeElement name="care_4" cost="2" />
+      <observeElement name="care_5" cost="2" />
+      <observeElement name="care_6" cost="2" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">4</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">4</observeBonus>
+    <qliphoth>1</qliphoth>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Unit/CreatureAnimator/DontTouchMe" x="-1" y="-2" />
+  <returnImg src="" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="dead1" src="creature/dont_touch_me/touch_dead1" />
+  <sound action="dead2" src="creature/dont_touch_me/touch_dead2" />
+  <sound action="moodDown" src="creature/dont_touch_me/touch_moodDown" />
+  <sound action="off" src="creature/dont_touch_me/touch_off" />
+  <sound action="panic" src="creature/dont_touch_me/touch_panic" />
+  <sound action="shout" src="creature/dont_touch_me/touch_shout" />
+  <sound action="glass" src="creature/dont_touch_me/touch_glass" />
+  <sound action="move" src="RandomEvent/HordeOfBugs/Bug1_Move" />
+</creature>

@@ -1,0 +1,216 @@
+
+WayGoHome_defalut_to_die.png
+size: 825,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 229, 265
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 258, 7
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 359, 265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 388, 7
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 681, 392
+  size: 138, 42
+  orig: 256, 128
+  offset: 58, 40
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 518, 258
+  size: 116, 5
+  orig: 256, 128
+  offset: 66, 61
+  index: -1
+EyeBrow_eg
+  rotate: true
+  xy: 518, 2
+  size: 132, 33
+  orig: 256, 128
+  offset: 60, 55
+  index: -1
+EyeBrow_umm
+  rotate: true
+  xy: 614, 109
+  size: 128, 20
+  orig: 256, 128
+  offset: 62, 53
+  index: -1
+Eye_oh
+  rotate: false
+  xy: 681, 436
+  size: 139, 85
+  orig: 256, 128
+  offset: 57, 22
+  index: -1
+Eye_oh_1
+  rotate: false
+  xy: 489, 265
+  size: 146, 50
+  orig: 256, 128
+  offset: 55, 59
+  index: -1
+Eye_pupil
+  rotate: false
+  xy: 518, 239
+  size: 98, 17
+  orig: 123, 28
+  offset: 8, 6
+  index: -1
+Eye_x
+  rotate: false
+  xy: 672, 130
+  size: 146, 63
+  orig: 256, 128
+  offset: 55, 24
+  index: -1
+HairBack
+  rotate: false
+  xy: 2, 235
+  size: 225, 286
+  orig: 256, 512
+  offset: 15, 114
+  index: -1
+HairFront
+  rotate: false
+  xy: 2, 2
+  size: 254, 231
+  orig: 256, 256
+  offset: 2, 9
+  index: -1
+Head
+  rotate: false
+  xy: 489, 317
+  size: 190, 204
+  orig: 256, 256
+  offset: 36, 27
+  index: -1
+L arm 1
+  rotate: false
+  xy: 672, 41
+  size: 47, 87
+  orig: 128, 128
+  offset: 37, 21
+  index: -1
+L arm 2
+  rotate: false
+  xy: 613, 11
+  size: 57, 88
+  orig: 128, 128
+  offset: 33, 21
+  index: -1
+L hand
+  rotate: false
+  xy: 766, 35
+  size: 47, 42
+  orig: 64, 64
+  offset: 8, 12
+  index: -1
+L leg 1
+  rotate: true
+  xy: 518, 136
+  size: 49, 91
+  orig: 128, 128
+  offset: 41, 14
+  index: -1
+L leg 2
+  rotate: true
+  xy: 721, 79
+  size: 49, 77
+  orig: 128, 128
+  offset: 40, 30
+  index: -1
+Mouth
+  rotate: false
+  xy: 229, 258
+  size: 17, 5
+  orig: 128, 128
+  offset: 57, 60
+  index: -1
+Mouth_aaa
+  rotate: false
+  xy: 553, 101
+  size: 59, 33
+  orig: 128, 128
+  offset: 37, 45
+  index: -1
+Mouth_umm
+  rotate: false
+  xy: 738, 325
+  size: 40, 16
+  orig: 128, 128
+  offset: 40, 51
+  index: -1
+R arm 1
+  rotate: true
+  xy: 738, 343
+  size: 47, 85
+  orig: 128, 128
+  offset: 40, 23
+  index: -1
+R arm 2
+  rotate: false
+  xy: 553, 10
+  size: 58, 89
+  orig: 128, 128
+  offset: 35, 20
+  index: -1
+R hand
+  rotate: false
+  xy: 721, 29
+  size: 43, 48
+  orig: 64, 64
+  offset: 11, 9
+  index: -1
+R leg 1
+  rotate: true
+  xy: 518, 187
+  size: 50, 94
+  orig: 128, 128
+  offset: 36, 9
+  index: -1
+R leg 2
+  rotate: false
+  xy: 681, 320
+  size: 55, 70
+  orig: 128, 128
+  offset: 36, 30
+  index: -1
+eh
+  rotate: true
+  xy: 636, 134
+  size: 59, 32
+  orig: 128, 128
+  offset: 33, 50
+  index: -1
+rope
+  rotate: true
+  xy: 637, 195
+  size: 120, 176
+  orig: 120, 176
+  offset: 0, 0
+  index: -1

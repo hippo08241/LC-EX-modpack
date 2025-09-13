@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Gout_equip_name">刺々しい結晶</text>
+
+<!--Weapon-->
+<text id="Gout_weapon_desc">職員にこれを支給すると大抵嫌な顔をされる。なんか持つと手に刺さるし…</text>
+<text id="GoutWeaponSpecial_desc">10%の確率で相手に10秒の痛風を与える。
+攻撃する度に装備者は僅かなRとWのダメージを受ける。</text>
+
+</localize>

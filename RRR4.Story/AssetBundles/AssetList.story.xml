@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assetlist>
+	<assetbundle name="rrr4_portrait">
+		<!-- portrait -->
+		<asset key="ReindeerPortrait" name="ReindeerPortrait" type="Sprite"/>
+		<asset key="RhinoPortrait" name="RhinoPortrait" type="Sprite"/>
+		<asset key="R4thPackPortrait" name="RRRPortrait" type="Sprite"/>
+	</assetbundle>
+
+	<assetbundle name="rrr4_story">
+		<!-- standing -->
+		<asset key="Standing_Reindeer" name="Reindeer"/>
+		<asset key="Standing_ReindeerHelmet" name="ReindeerHelmet"/>
+		<asset key="Standing_Rhino" name="Rhino"/>
+		<asset key="Standing_RhinoHelmet" name="RhinoHelmet"/>
+		<asset key="Standing_Nikolai" name="R4Captain"/>
+
+		<!-- background -->
+		<asset key="CG1" name="CG(1920x1080)" type="Sprite" auto="False"/>
+	</assetbundle>
+</assetlist>

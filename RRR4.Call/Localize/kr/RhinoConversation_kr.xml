@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Rhino_Captain_Start_0">코뿔소 출동! 힘쓰는 건 자신있지!</text>
+  <text id="Rhino_Captain_Start_1">힘껏 내려찍고, 힘껏 막자고!</text>
+  <text id="Rhino_Captain_Start_2">시설은 신경 쓰지 않아도 돼! 지금은 날뛰는 게 우리 임무다!</text>
+  <text id="Rhino_Captain_Start_Geburah">붉은안개와 힘을 겨룰 수 있다니, 영광이군!</text>
+  <text id="Rhino_Captain_Start_Binah">이봐, 관리자! 조율자와 싸우는건 계약 위반이라고!</text>
+  
+  <text id="Rhino_Captain_Half_0">절반의 코뿔소가 짓밟혔군.</text>
+  <text id="Rhino_Captain_Half_1">몇 마리 남았지?반정도 남았나?</text>
+  <text id="Rhino_Captain_Half_2">절반 사망 !좀더 날뛰어라! 돌진하면 저절로 길이 열릴 테니!</text>
+  <text id="Rhino_Captain_Half_Geburah">코뿔소 절반이 짓밟혔어. 하지만 힘싸움은 끝나지 않았어!</text>
+  <text id="Rhino_Captain_Half_Binah">진짜 조율자가 아니라도 빡센건 어쩔수없네!</text>
+
+  <text id="Rhino_Captain_Almost_0">80%가 짓밟혔어. 제법 골치 아픈 상대를 만났군.</text>
+  <text id="Rhino_Captain_Almost_1">80%의 코뿔소가 죽었어. 여기서 죽느냐 사느냐는 자신의 선택에 달렸지!</text>
+  <text id="Rhino_Captain_Almost_Geburah">80%가 뒤졌군! 토끼가 말한 것처럼 엄청난 놈이구만.</text>
+  <text id="Rhino_Captain_Almost_Binah">열화 된 힘이 이 정도라니.... 진짜 조율자와는 마주치고 싶지도 않군.</text>
+  
+  <text id="Rhino_Captain_Eliminated_0">코뿔소 전멸! 이런! 제대로 짓밟혔군.</text>
+  <text id="Rhino_Captain_Eliminated_1">모든 코뿔소가 죽었어. 제대로 날뛰어보지도 못하고 이렇게 지다니….</text>
+  <text id="Rhino_Captain_Eliminated_2">코뿔소 전멸! 골치아파 죽겠구만.</text>
+  <text id="Rhino_Captain_Eliminated_Geburah">힘으로 밀려서 굴복하다니...</text>
+  <text id="Rhino_Captain_Eliminated_Binah">제법 골치 아픈 상대를 만났군. 알아서 잘 해보던가!</text>
+  
+  <text id="Rhino_Captain_End_0">무소의 뿔처럼 혼자서 가라!</text>
+  <text id="Rhino_Captain_End_1">유적에 있는 녀석들보다 할만 한데!</text>
+  <text id="Rhino_Captain_End_2">생각보다 별 거 없군 그래!</text>
+  <text id="Rhino_Captain_End_3">임무완료! 코뿔소들은 여기서 있었던 일 모두 싹 잊고 돌아와!</text>
+  <text id="Rhino_Captain_End_Geburah">하하! 우리의 힘이 이정도로 강한 건가?</text>
+  <text id="Rhino_Captain_End_Binah">조율자라고 해도 힘으로 찍어누르면 기술이고 뭐고 소용없지!!</text>
+
+  <!--Rhino Units
+      
+      Rhino_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Rhino_Unit_Name">코뿔소</text>
+  
+  <text id="Rhino_Unit_Start_0">망설임 없이 과감하게!</text>
+  <text id="Rhino_Unit_Start_1">어떤 적이든 코뿔소들의 발에 짓눌릴 뿐이지!</text>
+  <text id="Rhino_Unit_Start_2">그 무엇도 코뿔소의 앞을 막지는 못하지!</text>
+  <text id="Rhino_Unit_Start_3">대장. 바로 시작하면 되는 겁니까?</text>
+  
+  <text id="Rhino_Unit_Encounter_Officer_0">불쌍한 놈들 같으니!</text>
+  <text id="Rhino_Unit_Encounter_Officer_1">버림 받은 놈들은 처리해야지!</text>
+  <text id="Rhino_Unit_Encounter_Officer_2">정화한다!</text>
+  
+  <text id="Rhino_Unit_Encounter_Agent_0">내 앞을 막다니… 어리석구나! 하하!</text>
+  <text id="Rhino_Unit_Encounter_Agent_1">너희들도 버림받은 거다!</text>
+  <text id="Rhino_Unit_Encounter_Agent_2">무기가 아깝군 그래.</text>
+  <text id="Rhino_Unit_Encounter_Agent_3">소거한다!</text>
+  <text id="Rhino_Unit_Encounter_Agent_4">쓸만한 장비들을 들고 있군.</text>
+
+  <text id="Rhino_Unit_Encounter_Creature_TETH_0">위험도 낮음.</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_1">어느 놈부터 굳히는 게 좋을까!</text>
+  <text id="Rhino_Unit_Encounter_Creature_TETH_2">몸이 굉장히 연약하군 그래!</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_HE_0">위험도 중간.</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_1">그런 공격은 소용없지!</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_2">새로운 유적 괴물인가?</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_3">유적 산책을 나온 거 같군!</text>
+  <text id="Rhino_Unit_Encounter_Creature_HE_4">몸 좀 풀 수 있겠군</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_WAW_0">위험도 높음</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_1">이 정도는 되야 제대로 싸울 맛이 나지!</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_2">외곽 괴물을 쥐어짜서 에너지를 만드는 건가?</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_3">연기전쟁 때 이런 걸 썼으면  우리까지 휘말렸겠는걸?</text>
+  <text id="Rhino_Unit_Encounter_Creature_WAW_4">이런 괴물 놈들이 앞을 가로막아도 신경 쓰지 않는다! 해야 할 일이 있으니!</text>
+  
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_0">위험도 매우 높음.</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_1">무리의 전멸로 이어지지만 않았으면 좋겠군!</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_2">괴물놈들 상대로 우리는 이 정도로 꺾이지 않는다…!</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_3">이런 놈들을 상대하라니 조금만 어긋난다면 내가 죽겠는걸?</text>
+  <text id="Rhino_Unit_Encounter_Creature_ALEPH_4">마치 유적심층에 들어온 느낌이야.</text>
+  
+  <text id="Rhino_Unit_Panic_0">정신오염도 최대치. 자동처분 실시</text>
+  <text id="Rhino_Unit_Panic_1">자동처분을 통한 위험요소 제거</text>
+
+  <text id="Rhino_Unit_SectorClear_0">임무완료!</text>
+  <text id="Rhino_Unit_SectorClear_1">우리의 승리다!</text>
+  <text id="Rhino_Unit_SectorClear_2">오랜만에 제대로 된 상대들이었지!</text>
+  <text id="Rhino_Unit_SectorClear_3">이길 수 있다고 생각했나? 아쉽군!</text>
+  
+</localize>

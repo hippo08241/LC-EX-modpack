@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="102113">
+
+
+
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {“$0”已经对这项工作不感兴趣了。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {让女王满意是件相当困难的事。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {“$0”正在给这次的弄臣表演打分。}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-02-113</codeNo>
+      <portrait openLevel ="1">Custom/RedQueen</portrait>
+
+      <name openLevel ="1">
+        红皇后
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>当玫瑰在花园里盛开时，他们祈求
+玫瑰变红。</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {花园的入口处有一棵大玫瑰树。一天，三个园丁正在把白玫瑰涂成红色，对此感到好奇的少女走近他们。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {少女小心翼翼地问：“你们能告诉我，为什么要把白玫瑰涂成红色吗？”
+
+他们互相瞥了一眼，开始对她低声说道。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {“这里是红玫瑰园，但有一天，由于我们的失误种下了一棵白玫瑰树，如果女王知道了这个，就会砍掉我们所有人的脑袋。所以要赶紧把玫瑰涂成红色。”}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {就在这时，一位戴着红心王冠的女王出现在两人身后。“是她！是女王！”
+	  
+忙着涂玫瑰的园丁开始说话。
+
+“宽宏大量的女王殿下！我犯了死罪！求您饶了——”
+
+园丁还没来得及说完，他的脑袋就嗖地飞到了院子里，当白玫瑰被园丁的鲜血染红时，女王开口了：“现在，玫瑰是红色的了。”}
+      ]
+    </desc>
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">工作结果为差时，纸片飞了过来，员工被斩首。</specialTip>
+      <specialTip openLevel="2" key="2">对该异想体重复进行三次同样的工作后，员工被斩首。</specialTip>
+      <specialTip openLevel="3" key="3">3级及以上的员工开始工作时，工作成功率会略有增加。</specialTip>
+      <specialTip openLevel="4" key="4">4级及以上的员工开始工作时，工作成功率会大幅增加。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

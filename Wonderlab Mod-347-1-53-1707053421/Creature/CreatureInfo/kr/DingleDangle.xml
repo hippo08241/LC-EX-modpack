@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100121">
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [ {누구나 한번은 견딜 수 없는 상황과 마주합니다.} ]
+    </narration>
+    <narration action="mid4">
+      [ {당신은 그 상황을 이겨낼 수 있을까요?} ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+   <collection>
+    <codeNo openLevel ="0">F-03-121</codeNo>
+    <portrait openLevel ="1">Custom/DingleDangle</portrait>
+    <name openLevel ="1">대롱대롱</name>
+    <riskLevel openLevel ="1">TETH</riskLevel>
+    <openText>모두 함께 열매가 되어 매달리자.</openText>    
+   </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {대롱대롱 리본들이 매달린 나무다.
+언뜻 보기엔 심심하게 생겼으나 종종 사람이 매달려 죽는다는 소문이 들린다.]
+      ]
+   </desc>
+
+   <desc id="2" openLevel="1">
+      [
+      {나무에 새로운 열매가 맺힌다.
+모두 열매가 되어 매달리자. 다 같이 매달리자.}
+      ]
+   </desc>
+    
+   <specialTipSize size="3">
+    <specialTip openLevel="1" key="1">$0은 40초 주기로 시설 내 지혜 3등급 이상인 직원에게 정신착란을 시도했다. 용기, 절제, 정의 중 하나라도 3등급 이상이라면 정신착란 상태가 되지 않았다.</specialTip>
+    <specialTip openLevel="2" key="2">대롱대롱에게 정신착란을 당한 IC 직원은 대롱대롱의 격리실로 걸어갔다. (해당 상태를 ‘매혹 상태’라 명명한다) 직원이 격리실에 도착하자, 이내 머리부터 분해되어 사망하였다. 해당 직원이 사망하자 격리실에 ‘열매’가 생성되었다.</specialTip>
+    <specialTip openLevel="3" key="3">'열매'가 생성되었을 때 $0의 PE-Box 생산량이 증가하였다.</specialTip>
+   </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {천장에 매달려 있는 열매들은 펄럭 펄럭 휘날리며 눈 앞에 움직인다.}
+{한 열매가 당신을 확인하자 모든 열매들이 당신을 가리키며 달려든다.}
+{당신은 날려오는 열매들을}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="가로 막는다." target="1" isAnswer="false"/>
+        <node desc="눈을 감는다." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {휘날리는 열매들을 손으로 가로 막는다.}
+{하지만 당신의 손을 뚫고 파고든다.}
+{알지 못했다면, 알지 못했던 고통.}
+{열매가 하나 더 매달리기 시작한다.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {아무런 신경도 안 쓰는듯이 눈을 감는다.}
+{아무런 충격도 없자, 당신은 조금씩 눈을 뜬다.}
+{움직이던 열매도, 천도 없이 언제나 같은 상황이다.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {귀여운 모습과 달리 정신착란을 시도하는 환상체라,},
+        {관리자님은 자신이 생각하는게 진실이라 생각하시나요?}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

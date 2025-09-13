@@ -1,0 +1,55 @@
+
+DingleDangle.png
+size: 2070,333
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+대롱대롱리본
+  rotate: true
+  xy: 1201, 34
+  size: 115, 118
+  orig: 200, 200
+  offset: 44, 42
+  index: -1
+대롱대롱몸통
+  rotate: true
+  xy: 1413, 2
+  size: 329, 655
+  orig: 500, 770
+  offset: 94, 49
+  index: -1
+대롱대롱뿌리
+  rotate: false
+  xy: 2, 151
+  size: 1409, 180
+  orig: 1500, 250
+  offset: 38, 11
+  index: -1
+천1
+  rotate: true
+  xy: 521, 83
+  size: 66, 339
+  orig: 200, 500
+  offset: 67, 83
+  index: -1
+천2
+  rotate: true
+  xy: 862, 83
+  size: 66, 337
+  orig: 200, 500
+  offset: 68, 84
+  index: -1
+천3
+  rotate: true
+  xy: 2, 7
+  size: 70, 513
+  orig: 200, 700
+  offset: 65, 94
+  index: -1
+천4
+  rotate: true
+  xy: 2, 79
+  size: 70, 517
+  orig: 200, 700
+  offset: 65, 93
+  index: -1

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Reindeer_Captain_Start_0">Олени, разберёмся с этим как можно быстрее.</text>
+  <text id="Reindeer_Captain_Start_1">Олени, следите за рассудком во время битвы.</text>
+  <text id="Reindeer_Captain_Start_2">Покажем им, на что способна команда Оленей.</text>
+  <text id="Reindeer_Captain_Start_Geburah">Я даже не предполагал, сколь уникальным окажется это место… Соберитесь, Олени!..</text>
+  <text id="Reindeer_Captain_Start_Binah">Управляющий, вы нарушаете контракт, если перед нами настоящий Арбитр.</text>
+  
+  <text id="Reindeer_Captain_Half_0">Половина Оленей мертвы.</text>
+  <text id="Reindeer_Captain_Half_1">Половина уничтожена. Поторопимся! Мы окажемся в передряге, если будем и дальше тянуть.</text>
+  <text id="Reindeer_Captain_Half_2">Уже половина Оленей мертвы. Перед нами нелёгкий противник. Соберитесь.</text>
+  <text id="Reindeer_Captain_Half_Geburah">Половина Оленей уничтожены. Крольчиха не зря хвастала о её силе.</text>
+  <text id="Reindeer_Captain_Half_Binah">Это силы ослабленного Арбитра… Мы потеряли уже половину Оленей. Это тяжёлый оппонент.</text>
+
+  <text id="Reindeer_Captain_Almost_0">Восемьдесят процентов мертвы. Здесь слишком опасно. Разум Оленей уже трещит по швам.</text>
+  <text id="Reindeer_Captain_Almost_1">Восемьдесят процентов Оленей уже ушли в мир иной. Говорили — Крыло, а внутри ничем не лучше Руин.</text>
+  <text id="Reindeer_Captain_Almost_Geburah">Восемьдесят процентов мертвы. А Красный туман вообще человек? Такую мощь я видел лишь в глубинах глубоко под Городом.</text>
+  <text id="Reindeer_Captain_Almost_Binah">Феи и Ключи… Если это — ослабленный Арбитр, страшно представить, каким будет настоящий.</text>
+  
+  <text id="Reindeer_Captain_Eliminated_0">Все Олени уничтожены. Разбирайтесь с остальным сами.</text>
+  <text id="Reindeer_Captain_Eliminated_1">Все олени Мертвы. Миссия провалена.</text>
+  <text id="Reindeer_Captain_Eliminated_2">Все уничтожены. Будь у нас дела получше, я бы сюда больше и носа не сунул...</text>
+  <text id="Reindeer_Captain_Eliminated_Geburah">Она считалась сильнейшей… Не хочу встречаться с таким чудовищем лицом к лицу.</text>
+  <text id="Reindeer_Captain_Eliminated_Binah">Даже управляющий корпорации L безумен. Больше никогда не ввязывайте нас в это.</text>
+  
+  <text id="Reindeer_Captain_End_0">Мы выполнили задачу. Хотя эти твари позорные и похожи на чудовищ, читаются они как открытая книга.</text>
+  <text id="Reindeer_Captain_End_1">Прошу вызвать нас и в следующий раз. Мы будем полезней Кроликов.</text>
+  <text id="Reindeer_Captain_End_2">Олени, возвращаемся.</text>
+  <text id="Reindeer_Captain_End_3">Миссия выполнена. Мы сотрём воспоминания Оленей.</text>
+  <text id="Reindeer_Captain_End_Geburah">Её хвалёная сила была лишь слухами. Видели бы нас Кролики, они бы уже все волосы на голове выдрали от обиды, эта травка досталась нам.</text>
+  <text id="Reindeer_Captain_End_Binah">Никогда в жизни не хочу идти против Арбитра, даже если они такие, как она.</text>
+
+  <!--Rabbit Units
+      
+      Rabbit_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Reindeer_Unit_Name">Олень</text>
+  
+  <text id="Reindeer_Unit_Start_0">Выдвигаемся. Выше нос, ребята.</text>
+  <text id="Reindeer_Unit_Start_1">Давайте поскорее покончим с этим.</text>
+  <text id="Reindeer_Unit_Start_2">Что же, выше нос, если хотим жить.</text>
+  <text id="Reindeer_Unit_Start_3">Нам надо поднажать.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Officer_0">Сколь же жалкие бедолаги.</text>
+  <text id="Reindeer_Unit_Encounter_Officer_1">Уйди с дороги.</text>
+  <text id="Reindeer_Unit_Encounter_Officer_2">Очищение.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Agent_0">Вы понятия не имеете, как пользоваться хорошим оружием.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_1">Нам некогда присматривать за вами.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_2">У тебя полезные вещички.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_3">Стираем.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_4">Хорошее же у тебя снаряжение.</text>
+
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_0">Низкий уровень опасности.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_1">Быстренько его уничтожим.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_2">Как два пальца.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_HE_0">Средний уровень опасности.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_1">Достойный противник.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_2">Выглядит необычно.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_3">Напоминает самых частых монстров в Руинах.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_4">Пока проблем не предвидится, так что продолжу натиск.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_0">Высокий уровень опасности.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_1">И здесь собрание чудовищ...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_2">Нет смысла переживать. Это было неизбежно.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_3">Вы же не для войны Крыльев их держите?..</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_4">Ох, это неожиданно...</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_0">Очень высокий уровень опасности.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_1">Держимся... Ребята, вы только держитесь.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_2">Эта мощь... Мы встречали такое только в глубинах.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_3">Мы долго не протянем. Разберёмся с этой тварью поскорее...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_4">Мы словно в глубину Руин попали... Тяжело дышать...</text>
+  
+  <text id="Reindeer_Unit_Panic_0">Умри! Все, умрите, и умру я.</text>
+  <text id="Reindeer_Unit_Panic_1">Я покончу с ними. Мы и так все покойники. Никакого резона существовать этому месту.</text>
+
+  <text id="Reindeer_Unit_SectorClear_0">Миссия выполнена.</text>
+  <text id="Reindeer_Unit_SectorClear_1">Капитан Рудольф, мы возвращаемся?</text>
+  <text id="Reindeer_Unit_SectorClear_2">Было бы худо, протяни мы чуть дольше.</text>
+  <text id="Reindeer_Unit_SectorClear_3">Давай...те, идём на следующее задание...</text>
+  
+</localize>

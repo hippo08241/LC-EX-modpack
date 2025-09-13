@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>직원 말소 모드</name>
+<descs>
+<desc>직원을 임의로 '말소'할 수 있게 하는 모드</desc>
+<desc>배치창에서 직원을 선택하면 우측 하단에 말소 버튼이 생기며, 해당 버튼을 누르면 선택한 직원이 사라진다.</desc>
+</descs>
+</info>

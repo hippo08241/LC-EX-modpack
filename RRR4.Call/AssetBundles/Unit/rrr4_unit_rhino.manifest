@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 2485739920
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c270adfc789dd35502d54956650f33c4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ca1442bc09bf4fa82c7f1c253b969609
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b6927a3bc0885c458916691ace35478, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62d84745e47f86948808b7948195a8d8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f9db98c60740638449864eb028fbe7ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5a096992adb47f41bc3775ce3c8a99a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4db9757a65d98984c94136327e390eb5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a1fd8daaed7b64148a34acb96ba14ce1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 65e5fa7bac28da9439af2222b8e7836b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 210d33bbe596a26429fda40bce127609, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ddf249ddb198095459551cff658ca320, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e2d7add1872ab146abcbf0e2b321bff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ce61e7e7f36bb843ab2c24b1c0ec4dd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b9951ced6e993d4f86f37eefd1dd6ba, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69ce4b2ff03604f40be0b6af8395354c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/RRR4.Unit/_AssetBundles/Export/Rhino/RhinoUnit.prefab
+Dependencies:
+- C:/Users/hanji/Desktop/Git/RRR4/Project/AssetBundles/RRR4.Unit/AssetBundles/rrr4_unit_rhino_spine
+- C:/Users/hanji/Desktop/Git/RRR4/Project/AssetBundles/RRR4.Unit/AssetBundles/rrr4_unit

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="178801">
+    <narration action="move">
+      #0被分配到“$0”的收容单元中，以对“$0”进行工作。
+    </narration>
+    <narration action="start">
+      [
+      {没人知道这个按钮被摁下时会发生什么。}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {无论收容单元内发生什么事情，这个按钮都不该被摁下。}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {主管，手下留情！想想那些可怜的职员。你就对他们一点怜悯之心都没有吗？}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {哦，不，请别去碰那个按钮…}
+      ]
+    </narration>
+    
+    <narration action="mid4">
+      [
+      {你都按了么多次了，你的好奇心到底还有完没完了？？？}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-05-47-1</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/DontTouchMe</portrait>
+
+      <name openLevel ="1">
+        别碰我
+      </name>
+      
+      <name openLevel="3">
+        报错按钮
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>你都按了么多次了，你的好奇心到底还有完没完了？？？</openText>
+    </collection>
+<desc id="1" openLevel="0">
+      [
+      {该异想体的外貌为一台箱子形状的机器，机器上只有一个让人看着就忍不住想按下去的大红按钮。机器的四周画满了老旧的涂鸦，其中最显眼的一句是“不要按下那个按钮”。}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {许多员工都反应说，他们感到了内心有一种极为强烈的，促使他们去按下那个按钮的冲动。 想要按下按钮的欲望甚至强到让他们辗转难眠。这些描述虽然被认为是员工们过于夸大的说词，然而，自从抱怨说自己因这种后遗症影响而苦恼的员工数量越来越多，公司正在努力制定对于该异想体影响的预防措施和对策。}
+      ]
+    </desc>
+    <desc id="3" openLevel="1">
+      [
+      {定义一个物体到底是不是异想体所需考虑的因素有很多，但其中最重要的是 “自由意志”。我们已确认这台机器拥有一种强烈的意志，能使周遭的人产生强烈的“按下那个按钮”的想法。因此，这玩意儿毫无疑义地被归入了异想体的范畴。}
+      ]
+    </desc>
+    <desc id="4" openLevel="2">
+      [
+      {当按钮被按下后，某些本不该发生的事情将会发生。灾难将会降下：比如设施里会出现四射的彩虹色光芒，又比如独角兽将会降临，再比如“按下按钮后，埋在设施底下的超大号炸弹会被引爆，把设施里的一切都给炸的稀巴烂”，等等等等...各种传言正在不断扩散，但我们并没有方法去确认这些传言的真假。}
+      ]
+    </desc>
+    <desc id="5" openLevel="3">
+      [
+      {此异想体不仅能时时刻刻让人产生按下按钮的好奇心，有时还会以一种巧妙且狡猾的方式改变自己的外在形状，这会让人一不小心就把手伸向那个按钮。因此，时刻对该异想体保持谨慎是非常有必要的。}
+      ]
+    </desc>
+    <desc id="6" openLevel="4">
+      [
+      {以下内容摘录自某职员的证词：&#13;&#10;“当我猛然回神时，我就要走到那个异想体的收容单元前，甚至差点就要按下那个按钮了。如果周围的职员没能及时把我拉出来的话，我可能已经按下它了...”（该员工后续接受了许多的检查，并在诊断结果均显示完全正常后再次回到了工作岗位上。然而，我们后续仍安排了她去进行心理咨询，因为她仍会莫名其妙地因没有“按下那个按钮”而露出遗憾的表情。)}
+      ]
+    </desc>
+    <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">当勇气或自律等级为1级的员工完成工作后，逆卡巴拉计数器立即减少。</specialTip>
+      <specialTip openLevel="1" key="2">当对$0执行工作时，逆卡巴拉计数器有小概率减少。</specialTip>
+      <specialTip openLevel="1" key="3">当工作结果为差时，逆卡巴拉计数器有小概率减少。</specialTip>
+      <specialTip openLevel="1" key="4">当员工#0在工作中恐慌时，逆卡巴拉计数器立即减少。</specialTip>
+      <specialTip openLevel="1" key="5">一段时间后，$0会自行回到收容单元。</specialTip>
+      <specialTip openLevel="1" key="6">#0被指派去镇压$0。当他们试图攻击它时，该异想体发出了不祥的机械声。不久，在设施内探测到了异想体。</specialTip>
+      <specialTip openLevel="1" key="7">这个异想体不受逆卡巴拉熔毁的影响。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

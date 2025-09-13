@@ -1,0 +1,265 @@
+
+skeleton.png
+size: 4031,1798
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 2, 2
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+111122234
+  rotate: true
+  xy: 2, 516
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+111122234 (2)
+  rotate: true
+  xy: 724, 516
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+124
+  rotate: false
+  xy: 2916, 81
+  size: 923, 631
+  orig: 923, 631
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 3511, 1540
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: true
+  xy: 1446, 546
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 1704, 546
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 1962, 546
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+EGO_BloodBath_Slash
+  rotate: false
+  xy: 2916, 13
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 2570, 714
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 2828, 714
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: false
+  xy: 1030, 2
+  size: 256, 512
+  orig: 256, 512
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 3511, 1282
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 3511, 1024
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head--p
+  rotate: false
+  xy: 3769, 1540
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 3344, 714
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 3474, 714
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 2981, 15
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 3511, 894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 3604, 764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 3641, 894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Note
+  rotate: false
+  xy: 3769, 1282
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Pluto_Default
+  rotate: false
+  xy: 3113, 19
+  size: 54, 60
+  orig: 54, 60
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 3734, 764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 3771, 894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 3047, 15
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 3841, 634
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 3864, 764
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 3769, 1024
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+blood
+  rotate: false
+  xy: 516, 2
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+chui
+  rotate: true
+  xy: 1446, 676
+  size: 1120, 560
+  orig: 1120, 560
+  offset: 0, 0
+  index: -1
+dao
+  rotate: true
+  xy: 2008, 676
+  size: 1120, 560
+  orig: 1120, 560
+  offset: 0, 0
+  index: -1
+daoguang_30
+  rotate: true
+  xy: 3086, 714
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+star_66_1
+  rotate: false
+  xy: 3901, 894
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+丁达尔光线1
+  rotate: false
+  xy: 2267, 4
+  size: 647, 670
+  orig: 647, 670
+  offset: 0, 0
+  index: -1
+图层 1
+  rotate: false
+  xy: 2570, 844
+  size: 939, 952
+  orig: 939, 952
+  offset: 0, 0
+  index: -1
+图层 1 拷贝
+  rotate: true
+  xy: 1288, 27
+  size: 487, 977
+  orig: 487, 977
+  offset: 0, 0
+  index: -1

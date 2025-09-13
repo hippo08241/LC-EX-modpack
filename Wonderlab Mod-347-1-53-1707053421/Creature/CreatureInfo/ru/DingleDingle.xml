@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="103121">
+
+
+
+    <narration action="move">
+      #0 заходит в камеру содержания Аномалии $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {Everyone tends to come across a situation that they cannot tolerate.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {Will you be able to stand your ground in said situation?}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-121</codeNo>
+      <portrait openLevel ="1">Custom/DingleDingle</portrait>
+
+      <name openLevel ="1">
+        Круть-Верть
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>Станем же фруктами. Повиснем вместе. Твоё отчаяние, печаль... Зависнем же, крутясь.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A suicide tree where people hang. Causes Agents to forget about its inability to breach and attempts to lure them into the containment chamber. Even those with high Prudence falls in an instant. Let's hang together. Your happiness, despair, sadness, let's all dangle down. 사람이 매달리는 자살나무. 해당 환상체는 비 탈출 개체임을 망각시키고 사람들을 유혹한다. 알 수 있는 사실은 한가지. 정신력이 높은 사람도 무너지는 것은 한순간이라는 것. 대롱대롱 열리자. 기쁨 슬픔 절망 길게 매달리자.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {The tree will bear yet more fruit of those suicidal.
+Let's all become fruits. Let's all dangle down.}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Каждые 40 секунд, Аномалия $0 гиптотизирует сотрудника с Мудростью 3 и выше. Однако, если у Сотрудника любой из трёх других характеристик равен 3 или больше, то он не гиптотизируется.</specialTip>
+      <specialTip openLevel="2" key="2">Загипнотизированный #0 войдя в камеру содержания Аномалии мгновенно умер. После смерти сотрудника, в камере содержания появился 'фрукт'.</specialTip>
+      <specialTip openLevel="3" key="3">Фрукты' Аномалии вырабатывают больше PE-ячеек. Больше 'фруктов' означает больше PE-ячеек.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

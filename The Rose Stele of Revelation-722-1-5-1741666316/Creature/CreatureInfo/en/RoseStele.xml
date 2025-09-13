@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="819261">
+
+
+
+    <narration action="move">
+      #0 is on their way to $0’s Containment Unit to begin the work process.
+    </narration>
+    <narration action="start">
+      [
+      {#0 feels a strong shock the moment he steps into the Containment Unit.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {The sweet smell of blood fills the Containment Unit. But why is blood sweet?},
+      {The thorns and prickly roses wrapped around $0. It hurts just looking at it.},
+      {$0 stares at #0.},
+      {"... Slay him, slay him! ..."},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 realizes the heavy sin that they had been carrying, and at the same time they understood that they had been freed from that sin.},
+      {Does $0 hate #0?},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {One day, the punishment will eat up $0. Then, who will bear the the sin for them?},
+      {#0 racked their brains to think about how to obtain $0's blessing.},
+      {We should assume that $0 is happy.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 despairs at the bleak prospect: their sins can never be atoned for, and $0's suffering will never end.},
+      {$0 must be the happiest man in the world.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-03-152</codeNo>
+      <portrait openLevel ="1">Custom/RoseStele_portrait</portrait>
+
+      <name openLevel ="1">
+        The Rose Stele of Revelation
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>The thorns have taken root and crowned thee, 
+the roses press close within thy embrace. </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {&lt;b&gt;Slay him, slay him! Slay the man, the sinner who hangeth upside down upon the cross!&lt;/b&gt;}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Let the knife tear open his breast; 
+Let the cannons shatter his skull; 
+Let the poison pierce his bowels; 
+Let the spittle defile his dignity; 
+Let the words trample upon his soul!
+Strip his sinews! Break his bones! Flay his skin! Let the most grievous and dreadful torments be heaped upon his flesh and spirit, till his body loseth the likeness of man, and his soul is robbed of its honor!
+
+Let him suffer all these things, that we may not. 
+Let the purest soul offer up its purity, for without it, sin cannot be atoned for, and we cannot be saved.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="1">
+      [
+      {Behold him, behold him! Behold the man, the sinner who hangeth upside down upon the cross.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="1">
+      [
+      {His blood crawleth upward along the beams of the cross. The earth is soaked with his blood, the roses grown from the soil are stained with crimson, and the thorns flourish ever more. 
+For whom doth his blood flow, and whose lips shall be nourished thereby? Against whom do the instruments of his torment point, and who holdeth them in his hand? Who hath driven him to the cross, and who through his agony hath gained salvation?
+Let his suffering be inscribed upon the revelation. Let us remember that there was such a man, let us remember that we once bore such sin, and that we shall still have it in days to come.
+...}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="1">
+      [
+      {The man is beloved by sufferings. The thorns cling to the cross and crown him as their king. The roses nestle in his embrace, and their lovely thorns, though they pierce his flesh, do cleanse his heart. The blood that floweth from his wounds is as sweet red wine, and the living wood boweth before his feet, drinking deeply of that delightful dew.
+
+The red rose that proclaimeth redemption riseth up, while the devils that sow disease and sin are cast down.
+
+Those who are roses love him; those who are thorns understand him. The apostles gather around the man, healing his wounds with their knives and tending his sickness with their poison. Lips tainted with venom kiss his face, and hands covered with sores caress his body.
+How blessed, how beloved he is!}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="1">
+      [
+      {&lt;i&gt;Lo, the apostle cometh before thee.&lt;/i&gt;}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="1">
+      [
+      {— Yea, it is thou, thou art come unto us!}
+      ]
+    </desc>
+
+    <desc id="8" openLevel="1">
+      [
+      {— Verily, I know thy face. From the days of my youth have I seen it many times, more than I can count. And when I see thy countenance, it is as though I have beheld the visage of my dearest kin and friend. For I perceive it thus: "Behold, here is one whose heart is burdened with cares unending, crushed beneath a weight too grievous to bear, the very sinews of their back nigh unto breaking." Yea, in thy face, all this is made plain to me.}
+      ]
+    </desc>
+
+    <desc id="9" openLevel="1">
+      [
+      {— Nay, speak not, for there is no need of thy words. Dost thou not already know wherefore thou art come? Yea, it is known to thee, and thus speech is not required. For even shouldst thou speak, the thing thou seekest will not draw nigh unto thee by thy words alone. To have it, thou must incline thine ear and hearken.}
+      ]
+    </desc>
+
+    <desc id="10" openLevel="1">
+      [
+      {— Draw near, then, and approach the Cross, whereon the blood of the righteous hath been spilt. Stand upon the ground saturated with that sacred blood. Bow thy head, incline thine ear, and hearken unto the words of the rose and the thorn. And when thou hast heard, lo, that which thou seekest shall be made manifest before thee.}
+      ]
+    </desc>
+
+    <desc id="11" openLevel="2">
+      [
+      {&lt;i&gt;Hearken now to the whispers of the rose.&lt;/i&gt;}
+      ]
+    </desc>
+
+    <desc id="12" openLevel="2">
+      [
+      {— Thou art as a candle within a darkened chamber. Thy flame is bright, so bright that those who fear the shadows come unto thee, seeking light. Yet thy flame is also fierce, so fierce that the wax of thy being doth melt and drip away, and thy stature groweth smaller with every passing moment. But behold (if thou canst see it): thy little flame, though it burneth away thy life, doth shine all the warmer and brighter in the shadow of thy fading.}
+      ]
+    </desc>
+
+    <desc id="13" openLevel="2">
+      [
+      {— Thou art as the poker in the hand of the flame-bound. The Father doth guide unto thee those who, bruised and battered, have tumbled through the filth of this world. And thou, with hands made strong like iron, dost reach into the fire, scattering ash and wood, drawing forth souls blackened and weary. Look upon them now (if thou hast eyes to see): they are cleansed, as white as linen dried in the noonday sun, gathered about thee, and oh, how holy they appear.}
+      ]
+    </desc>
+
+    <desc id="14" openLevel="2">
+      [
+      {— Dost thou know thyself? What art thou but noble beyond compare? Surely there is none upon this earth purer than thee. How many have drawn breath because of thee? How many have perished in thy stead? Yea, thou knowest it not, yet dost thou care? Recall, then, thy days upon the pasture. Thou wast a shepherd, tending a flock not of sheep, but of unsullied souls.}
+      ]
+    </desc>
+
+    <desc id="15" openLevel="2">
+      [
+      {— Dost thou remember it still? How thou didst stoop to lift a soiled heart from the earth, cradling it as though it were treasure? How the stains of sin marred thy garments and wounded thy flesh, yet thou didst not recoil? For thus it was that thou didst bear their guilt and pay their price.}
+      ]
+    </desc>
+
+    <desc id="16" openLevel="3">
+      [
+      {&lt;i&gt;Listen now to the voice of the thorn.&lt;/i&gt;}
+      ]
+    </desc>
+
+    <desc id="17" openLevel="3">
+      [
+      {— The lamb, my beloved lamb. Thou hast wool white as snow, skin dark as the earth, and a heart beautiful beyond words.}
+      ]
+    </desc>
+
+    <desc id="18" openLevel="3">
+      [
+      {— Judgment hath come, to chastise thee for thy sin. The grass thou hast grazed, the air thou hast breathed, the thoughts thou hast pondered—all have turned to sin and come to claim thee. It is the original sin thou wert born with, the sin so heavy it would be the worst nightmare of angels who never stray. It is a sin thou canst not atone for, not through thy life nor through thy death. Such is the weight of this sin.}
+      ]
+    </desc>
+
+    <desc id="19" openLevel="3">
+      [
+      {— Yet the punishment shall not come upon thee. Through the plains pass the tall, gaunt figures with the heads of goats, gathering beneath the cross. .
+Their long arms stretch forth, as if drawing back a curtain, and they part the thorns that embrace him. Their tongues, barbed and cruel, lick his body, stripping his flesh. Their sharp molars grind his bones to dust. And when they depart, the cross is left bare. He hath taken upon himself thy sin, and he hath borne its weight in thy stead.}
+      ]
+    </desc>
+
+    <desc id="20" openLevel="3">
+      [
+      {— Once there was such a noble scapegoat. It was the leader of the flock. Foolish and gentle sheep followed where it led—if it went to the highlands, they went to the highlands; if it descended into hell, they followed it into hell. This goat had wool white as snow, skin dark as the earth, and a heart beautiful beyond words.}
+      ]
+    </desc>
+
+    <desc id="21" openLevel="4">
+      [
+      {&lt;i&gt;Await the prayer's end.&lt;/i&gt;}
+      ]
+    </desc>
+
+    <desc id="22" openLevel="4">
+      [
+      {&lt;color=#6B0000&gt;&lt;b&gt;Oh, how blessed, how beloved thou art!&lt;/b&gt;&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="23" openLevel="4">
+      [
+      {&lt;color=#B23C12&gt;&lt;b&gt;Oh, how blessed, how beloved thou art!&lt;/b&gt;&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="24" openLevel="4">
+      [
+      {&lt;b&gt;Oh, how blessed, how beloved thou art!&lt;/b&gt;}
+      ]
+    </desc>
+
+    <desc id="25" openLevel="4">
+      [
+      {&lt;color=#6B0000&gt;Thy apostles kneel upon the sky and lift their prayers unto thee, who liest now upon the earth. Thy blood floweth freely from thy wounds, climbing upward along the beams of the cross toward the heavens. Tears creep across thy brow. The joyous angels dance upon the edge of thy mind—or is it but a vision wrought by the loss of thy blood? Thou wouldst tell thy disciples of the joy within thee, yet thy lips shall never part again. But what doth it matter? To the most joyful soul in all the world, what need is there for words?&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="26" openLevel="4">
+      [
+      {&lt;color=#B23C12&gt;Thy apostles kneel upon the sky and lift their prayers unto thee, who liest now upon the earth. Thy blood floweth freely from thy wounds, climbing upward along the beams of the cross toward the heavens. Tears creep across thy brow. The joyous angels dance upon the edge of thy mind—or is it but a vision wrought by the loss of thy blood? Thou wouldst tell thy disciples of the joy within thee, yet thy lips shall never part again. But what doth it matter? To the most joyful soul in all the world, what need is there for words?&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="27" openLevel="4">
+      [
+      {Thy apostles kneel upon the sky and lift their prayers unto thee, who liest now upon the earth. Thy blood floweth freely from thy wounds, climbing upward along the beams of the cross toward the heavens. Tears creep across thy brow. The joyous angels dance upon the edge of thy mind—or is it but a vision wrought by the loss of thy blood? Thou wouldst tell thy disciples of the joy within thee, yet thy lips shall never part again. But what doth it matter? To the most joyful soul in all the world, what need is there for words?}
+      ]
+    </desc>
+
+    <desc id="28" openLevel="4">
+      [
+      {&lt;color=#6B0000&gt;Thou art beloved by sufferings. The thorns have taken root and crowned thee, the roses press close within thy embrace. The heavens have become the earth, and the earth hath risen to take the place of the heavens.&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="29" openLevel="4">
+      [
+      {&lt;color=#B23C12&gt;Thou art beloved by sufferings. The thorns have taken root and crowned thee, the roses press close within thy embrace. The heavens have become the earth, and the earth hath risen to take the place of the heavens.&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="30" openLevel="4">
+      [
+      {Thou art beloved by sufferings. The thorns have taken root and crowned thee, the roses press close within thy embrace. The heavens have become the earth, and the earth hath risen to take the place of the heavens.}
+      ]
+    </desc>
+
+    <desc id="31" openLevel="4">
+      [
+      {&lt;color=#6B0000&gt;Look upon the fair meadows, upon the gentle flocks, upon the pure souls that kneel before the cross. Sin is no more; all have been saved. The world hath been redeemed by thee—though for what cause it hath turned upside down, none can say.&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="32" openLevel="4">
+      [
+      {&lt;color=#B23C12&gt;Look upon the fair meadows, upon the gentle flocks, upon the pure souls that kneel before the cross. Sin is no more; all have been saved. The world hath been redeemed by thee—though for what cause it hath turned upside down, none can say.&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="33" openLevel="4">
+      [
+      {Look upon the fair meadows, upon the gentle flocks, upon the pure souls that kneel before the cross. Sin is no more; all have been saved. The world hath been redeemed by thee—though for what cause it hath turned upside down, none can say.}
+      ]
+    </desc>
+
+    <desc id="34" openLevel="4">
+      [
+      {&lt;color=#6B0000&gt;Open thine eyes, and behold the world.&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="35" openLevel="4">
+      [
+      {&lt;color=#B23C12&gt;Open thine eyes, and behold the world.&lt;/color&gt;}
+      ]
+    </desc>
+
+    <desc id="36" openLevel="4">
+      [
+      {Open thine eyes, and behold the world.}
+      ]
+    </desc>
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">When the work result is Good, the employee will become a Lamb.</specialTip>
+      <specialTip openLevel="1" key="1">When the Lamb takes damage, the damage's 80% will be taken by $0.</specialTip>
+      <specialTip openLevel="2" key="2">Every time a certain amount of damage is taken, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="3" key="3">The Qliphoth Counter decreases every time an Abnormality escapes.</specialTip>
+      <specialTip openLevel="4" key="4">When escaping, when any Abnormality in the facility takes damage, the damage is also taken by $0. When other Abnormalities takes damage, $0's attack movement will be interrupted.</specialTip>
+      <specialTip openLevel="5" key="5">When there are no employees in the room, $0 will constantly recover HP by 2% per second.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

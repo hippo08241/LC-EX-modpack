@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="salt_weapon_name">Vishvamitra</text>
+<text id="salt_weapon_desc">A espada de um samurai não deve ser guardada em uma bainha, mas na alma.</text>
+<text id="salt_weapon_specialDesc">Quando o alvo do ataque é de nível WAW ou superior, 1 ponto de dano de cada um dos quatro atributos é adicionado ao ataque.&#13;&#10;&#13;&#10;Um ponto adicional de dano é adicionado se o alvo estiver no nível ALEPH.&#13;&#10;&#13;&#10;O dano adicional desta arma pode se beneficiar da bênção do Samurai de Sal.</text>
+<text id="salt_gift_name">Vishvamitra</text>
+<text id="salt_gift_desc">Velocidade de movimento+2，Velocidade de ataque+2</text>
+<text id="salt_armor_name">Vishvamitra</text>
+<text id="salt_armor_desc">Bushido trata de enfrentar a morte com honra. Diante da crise, é preciso tomar a decisão certa e morrer com orgulho.</text>
+<text id="salt_armor_specialDesc">Durante o ataque, se o HP do usuário estiver abaixo de 20%, seu próximo ataque causará 100 pontos de dano VERMELHO ao inimigo e a si mesmo.</text>
+</localize>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modConfig>
+ <addIsolate>
+  <randomExtraction>false</randomExtraction>
+ </addIsolate>
+
+ <tt05>
+  <pause>0.5</pause>
+  <speedLv1>1</speedLv1>
+  <speedLv2>1.5</speedLv2>
+  <speedLv3>2</speedLv3>
+ </tt05>
+
+ <energyRefine>
+  <maxLobPenalty>8</maxLobPenalty>
+  <refineEfficiency>15</refineEfficiency>
+  <ignoreBossFight>false</ignoreBossFight>
+ </energyRefine>
+
+ <overloadPlus>
+  <zayin>4</zayin>
+  <teth>5</teth>
+  <he>6</he>
+  <waw>7</waw>
+  <aleph>8</aleph>
+ </overloadPlus>
+
+ <aberration>
+  <selectable>true</selectable>
+  <transformBlacklist>
+100019
+100022
+100024
+Qquickness_EnergyCo, 178801
+Qquickness_EnergyCo, 178805
+  </transformBlacklist>
+ </aberration>
+</modConfig>

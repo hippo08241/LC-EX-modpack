@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="102177">
+    <narration action="move">
+      #0 職員が作業の為に$0の収容室へ向かいます
+    </narration>
+    <narration action="start">
+      [{$0は誰もを魅惑させるほど美しい姿を誇っています。}]
+    </narration>
+    <narration action="mid1">
+      [{月の宮殿には選ばれた勇士だけが入ることができます}]
+    </narration>
+    <narration action="mid2">
+      [{勇者だけが$0を満足させることができます。}]
+    </narration>
+    <narration action="mid4">
+      [{$0は勇者を探しています。}]
+    </narration>
+  </info>
+
+  <observe level ="4">
+   <collection>
+    <codeNo openLevel ="0">O-02-177</codeNo>
+    <portrait openLevel ="1">Custom/WhiteLake</portrait>
+    <name openLevel ="1">白い湖</name>
+    <riskLevel openLevel ="1">HE</riskLevel>
+    <openText>月の宮殿には選ばれた勇士だけが入ることができます</openText>
+   </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {湖の波は穏やかだ、不浄な侵入者が入ってくるまでは。}
+      ]
+   </desc>
+
+   <desc id="2" openLevel="1">
+      [
+      {白い湖の王女は誰よりも美しい。 彼女の宮殿には、彼女が望むすべてのものがあり、そのきらびやかな姿は、誰もが羨ましく思わざるを得なかった。 ただ一つ、自分を救ってくれる勇士がいないことを除けば、姫に足りないことはなかった。}
+      ]
+   </desc>
+
+   <desc id="3" openLevel="2">
+      [
+      {勇者がいなければ姫は意味がない。 赤い血を含んだバラも、月明かりで輝く鏡も、勇者がいなければ何の意味もなかった。 彼女はすでに勇者以外のすべてを持っているので、宝物がいくら自分の体を磨いておしゃれを自慢しても、彼女には飽きて退屈なガラクタに過ぎなかった。}
+      ]
+   </desc>
+
+   <desc id="4" openLevel="3">
+      [
+      {姫は待った、自分だけを見てくれる小さくて愛らしい勇士を。
+しかし、姫が望む勇士たちは彼女を選ばず、姫は考えた。
+
+勇者に選ばれなかったのであれば、自分が勇者を選ぼう。 }
+      ]
+   </desc>
+
+   <specialTipSize size="4">
+    <specialTip openLevel="1" key="1">勇気ランクがⅡ以下の職員が抑圧以外の作業を開始すると、作業成功率が大幅に上昇した。作業結果が良いとき、$0は外套職員にギフトを付与した。</specialTip>
+    <specialTip openLevel="2" key="2">勇気ランクがⅢ以上の職員が作業を開始すると、作業成功率が減少した。愛着作業を行うとクリフォトカウンターが1減少した。</specialTip>
+    <specialTip openLevel="3" key="3">作業結果が悪いとクリフォトカウンターが減少した。</specialTip>
+    <specialTip openLevel="4" key="4">$0のクリフォトカウンターが0になると、ギフトを付与された職員の姿が勇士へと変貌した。勇士となった職員はパニック状態の職員と同様な方法で鎮圧、または回復を行うことができた。
+勇士が鎮圧、もしくは回復した場合、$0のクリフォトカウンターが最大まで回復した。
+クリフォトカウンターが0の時、ギフトを付与された職員がいない場合、最初に入室した職員が勇士へと変貌した。
+    </specialTip>
+   </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="" target="1" isAnswer="false"/>
+        <node desc="" target="2" isAnswer="true"/>
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {}
+{}
+{}
+{}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {}
+{}
+{}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {},
+        {}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

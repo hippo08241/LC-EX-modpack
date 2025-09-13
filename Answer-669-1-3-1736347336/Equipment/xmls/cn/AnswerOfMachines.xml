@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Dead End Answer_armor_name">死亡命运</text>
+<text id="Dead End Answer_armor_desc">为了守护“答案”，这件巨大的铠甲被打造得坚不可摧。
+对于固守于那“答案”的他们来说，想必不存在所谓未来吧。</text>
+<text id="Dead End Answer_armor_specialDesc">穿戴者的移动速度和攻击速度会大幅减少。
+如果同时装备“局部解”的E.G.O饰品，穿戴者的抗性会有所上升。</text>
+<text id="Dead End Answer_weapon_name">死亡命运</text>
+<text id="Dead End Answer_weapon_desc">对他们来说，那应该就是确凿的答案吧。但它并不完善。
+仅此而已。</text>
+<text id="Dead End Answer_weapon_specialDesc">持有者受到的伤害会减免60%。
+持有者处于镇压状态时，紧随持有者后方的其他职员和异想体受到的伤害会减免30%。
+<!-- (但对于大于10点的伤害，最多减免至10点伤害。) -->
+
+如果同时装备“局部解”的所有E.G.O装备，持有者的物理抗性会有所上升。
+</text>
+<text id="Dead End Answer_gift_name">死亡命运</text>
+<text id="Dead End Answer_gift_desc">最大生命值+14 最大精神值+14 移动速度-10 攻击速度-10</text>
+</localize>

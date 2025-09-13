@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="123444">
+
+
+	  <narration action="move">
+		  O funcionário #0 entra na unidade de contenção de $0 para começar a trabalhar.
+	  </narration>
+	  <narration action="start">
+		  [
+		  {As emoções aumentam quando #0 entra na cela de contenção.},
+                  {#0 olha para a criança próxima a $0 com olhos afetuosos},
+                  {#0 para de se mover em direção à criança.},
+		  ]
+	  </narration>
+
+	  <narration action="mid1">
+		  [
+		  {A felicidade e a dor de uma criança são a salvação e o choro do funcionário #0.},
+                  {No entanto, #0 não tem escolha a não ser cuidar da criança},
+                  {Uma criança é apenas uma isca para uma caçada de $0.},
+		  ]
+	  </narration>
+	  <narration action="mid2">
+		  [
+		  {O funcionário #0 luta para conter a saudade daquela criança.},
+                  {Quanto mais a criança sofre, a vontade do funcionário #0 é quebrada.},
+                  {O Funcionário #0 sentirá ainda mais falta dela quando terminar o trabalho.},
+		  ]
+	  </narration>
+	  <narration action="mid3">
+		  [
+		  {Quando se é caçado por $0, apenas uma alma forte pode escapar de suas garras.},
+                  {Mesmo que o Agente #0 seja caçado, se tiver uma alma forte, ficará com a criança para sempre.},
+		  ]
+	  </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-13</codeNo>
+      <portrait openLevel ="1">Custom/MissedReaper</portrait>
+	  <portrait openLevel ="4">Custom/MissedReaper2</portrait>
+
+      <name openLevel ="1">
+      Criança Perdida
+      </name>
+
+	  <name openLevel ="4">
+	  Ceifador Perdido
+	  </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>Com licença, mas você pode me levar para a unidade de contenção mais uma vez?</openText>
+    
+    </collection>
+
+<desc id="1" openLevel="0">
+      [
+      {Uma Anormalidade na forma de uma lâmpada gigante que emite luz fraca.  Sob a lâmpada há algo misterioso na forma de uma criança.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Todos os funcionários que entraram na sala de contenção contaram histórias diferentes. O cabelo da criança é loiro ou preto, é menina ou menino, quantos anos tem, é assim ou aquilo. Nenhum deles combinou. Mas seus tons e emoções eram todos iguais. Anseio. Um desejo que não podia ser escondido estava profundamente enraizado em todas essas histórias.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+	[
+	{&lt;Trecho do Registro de Aconselhamento sobre 01-13-7&gt;&#13;&#10;&#13;&#10;"Você já perdeu alguma coisa, gerente? Eu já perdi. &#13;&#10;&#13;&#10;Eu tive um filho. Demorou muito até eu aceitar.  &#13;&#10;&#13;&#10;(omitido)&#13;&#10;&#13;&#10; Eu estava fora de controle na época. É uma história comum. Há tantas histórias de pais que perderam seus filhos nesta cidade”.}
+        ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {"Havia aquela criança perto de mim. Claro que sei. Meu filho morreu naquele dia.&#13;&#10;&#13;&#10;Mas gerente, compreender e aceitar são duas coisas diferentes. É tão diferente.  &#13;&#10;&#13;&#10;Um funcionário da equipe da Yumeka me disse que meu nível de contaminação mental estava próximo do limite. Portanto, entendo sua decisão.&#13;&#10;&#13;&#10;Eu sei. Se eu for lá novamente, ficarei louco e serei vítima disso, como tantos funcionários antes de mim.&#13;&#10;&#13;&#10;No entanto, eu disse isso antes. Há uma diferença entre compreender e aceitar.  &#13;&#10;&#13;&#10;Desde aquele dia, penso nisso a cada momento. O que dizer, tipo 'sinto muito por ter perdido minha mão'. Eu faria até um pedido de desculpas sem sentido como esse.  &#13;&#10;&#13;&#10;Então, &#13;&#10;&#13;&#10; você pode me levar para a unidade de contenção mais uma vez?"}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Ela entrou na sala de contenção. E nunca mais saiu. &#13;&#10;&#13;&#10;Até que a mão do deus da morte a agarrou, ela apenas olhou para a criança. &#13;&#10;&#13;&#10;no último momento ela abriu a boca e disse:&#13;&#10;&#13;&#10;"Estou sentindo sua falta." }
+      ]
+    </desc>
+    
+  <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Quando um funcionário com Nível de Temperança igual ou inferior a 3 entrava na unidade de contenção, ele era atacado por $0. O funcionário foi morto por $0.</specialTip>
+      <specialTip openLevel="2" key="2">Quando a sanidade do funcionário sob gestão atingiu 0, ele correu para $0. O funcionário foi morto por $0.</specialTip>
+      <specialTip openLevel="3" key="3">$0 favoreceu apenas operações de supressão.  (Obs.: não se preocupe com o formato da criança próximo a $0 (Daqui em diante chamada de $0-1), pois isso não afeta a produção de  Caixas-PE)</specialTip>
+	  <specialTip openLevel="4" key="4">Ao prosseguir com a operação de supressão, $0-1 reclamou de muita dor. Os funcionários da equipe de Gustav que viram isso, sofreram graves danos mentais toda vez que criaram uma Caixa-PE.</specialTip>
+	  <specialTip openLevel="5" key="5">Sempre que $0 criava uma Caixa-NE executando uma tarefa diferente de supressão, $0-1 mostrava uma aparência feliz, e o funcionário da equipe de Gustav que o via mostrava uma recuperação da força mental. (Mais uma vez, $0-1 não tem nada a ver com a produção de Caixas-PE.)</specialTip>
+  </specialTipSize>
+	  <max>
+		  <!--최종관찰-->
+		  <desc id ="0" select="1">
+			  {Uma criança que não conheço está ao lado do deus da morte.}
+                          {Apesar de ser uma criança que nunca viu antes, sua respiração parou no momento em que o viu.}
+                          {Porque estou com saudades de você... sinto tanto a sua falta que o motivo de minha garganta estar tão apertada é...}
+                          {Só não me lembro, deve significar que senti falta daquele garoto.}
+                          {A voz daquela criança deve ter sido cheia de sabedoria e seu sorriso deve ser o mais lindo do mundo. Acho que é inconscientemente.}
+                          {Eu disse àquela criança...}
+			  <!--계속-->
+		  </desc>
+
+		  <select id ="1">
+			  <node desc ="Aproximando" target="1" isAnswer="true"/>
+			  <node desc ="Não se Aproxime" target="2" isAnswer="fales"/>
+		  </select>
+		  <desc id="1" select="0">
+			  {Já tinha esquecido os cuidados que vinha pedindo desde que entrei neste lugar.}
+                          {Os alto-falantes dentro da sala de gerenciamento atrás de mim estavam altos, mas não consegui ouvi-los.}
+                          {Estendi a mão para a criança.}
+                          {A criança vira a cabeça para longe de mim e se afasta.}
+                          {Até o deus da morte continua a me ignorar, como se não valesse a pena caçar.}
+                          {Você está feliz por estar vivo? Porém, o desrespeito da criança perfurará seu coração com mais dor do que morte.}
+		  </desc>
+
+		  <desc id ="2" select="0">
+			  [
+			  {Tenho o direito de estender a mão para essa criança?}
+                          {Parecia que agora não era a hora.}
+                          {Essa criança está sentindo o mesmo que eu?}
+                          {Eu estava com bastante medo de que ele cuspisse ódio e ressentimento contra mim.}
+                          {Ainda é hora de lavar mais dos meus pecados.}
+                          {O suficiente para poder sorrir e estender a mão na frente daquela criança em um futuro distante.}
+			  ]
+		  </desc>
+
+		  <!--스토리 파트에서 출력될 부분-->
+		  <angela>
+			  [
+			  {Qual foi a criança que você sentiu falta?}
+                          {Por que aquela criança se afastou de você?}
+                          {Eu acho que sei. Provavelmente pelo mesmo motivo que eu.}
+                          {Você conseguiu a observação final do deus da morte que deseja ver.}
+			  ]
+		  </angela>
+	  </max>
+  </observe>
+</creature>

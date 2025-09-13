@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyGentleman_weapon_name">荡漾</text>
+<text id="FairyGentleman_gift_name">精灵酒</text>
+<text id="FairyGentleman_gift_desc">工作成功率+3 工作速度+3</text>
+<text id="FairyGentleman_armor_desc">这个护甲很像翅振，但多了一个翅膀</text>
+<text id="FairyGentleman_weapon_desc">凝聚精灵的力量，伤害敌人的精神</text>
+</localize>

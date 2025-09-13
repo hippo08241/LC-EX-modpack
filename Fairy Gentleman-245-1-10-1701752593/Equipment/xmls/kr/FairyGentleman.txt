@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyGentleman_weapon_name">출렁임</text>
+<text id="FairyGentleman_gift_name">요정주</text>
+<text id="FairyGentleman_gift_desc">작업 성공률 +3 작업 속도 +3</text>
+<text id="FairyGentleman_armor_desc">이 E.G.O 슈트는 날갯짓과 비슷하지만, 날개가 하나 더 달려있다.</text>
+<text id="FairyGentleman_weapon_desc">요정의 힘을 모아서 적의 영혼을 무찌른다.</text>
+</localize>

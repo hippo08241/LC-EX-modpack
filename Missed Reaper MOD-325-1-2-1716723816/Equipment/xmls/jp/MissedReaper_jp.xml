@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="MissedReaper_equip_name">懐かしさ</text>
+  <text id="MissedReaper_weapon_desc">「もう一度、あの子の顔を見ることができたら、あの子の手を握ることができたら...。」</text>
+  <text id="MissedReaper_weapon_specialDesc">装着条件:懐かしさE.G.Oギフトの着用&#13;&#10;施設内に敵対するアブノーマリティが存在する場合、自動的に攻撃をする。</text>
+  <text id="MissedReaper_armor_name">懐かしさ</text>
+  <text id="MissedReaper_armor_desc">「すでに去った者は戻ってこない。&#13;&#10;なんとか言えば良かった。&#13;&#10;&#13;&#10;あの時、手を離してしまってすまない、とか、意味の無い謝罪でもしたら良かった。」</text>
+  <text id="Reaper_gift">懐かしさ</text>
+  <text id="Reaper_desc">精神力+6&#13;&#10;I’m Missin’U</text>
+</localize>

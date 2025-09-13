@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="WhiteLakeGiftDesc0">It's a gift, just for you!</text>
+  <text id="WhiteLakeGiftDesc1">My heart goes out to you!</text>
+  <text id="WhiteLakeGiftDesc2">Take it, my own little knight.</text>
+  <text id="WhiteLakeGiftDesc3">I'm blessed to have someone like you~</text>
+
+  <text id="WhiteLakeSaveDesc0">Help me, my knight!</text>
+  <text id="WhiteLakeSaveDesc1">Sir Knight! Protect your dear lake!!</text>
+  <text id="WhiteLakeSaveDesc2">A witch! A witch is bullying me!!</text>
+  <text id="WhiteLakeSaveDesc3">Stay back, you witch!</text>
+  <text id="WhiteLakeSaveDesc4">Knight!! Please, save your dearest lake!!</text>
+</localize>

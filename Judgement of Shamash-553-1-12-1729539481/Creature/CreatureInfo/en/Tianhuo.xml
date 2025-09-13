@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="720000">
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-09-314</codeNo>
+
+      <portrait openLevel ="1">Custom/th</portrait>
+
+      <name openLevel ="1">
+        Judgement of Shamash
+      </name>
+
+      <riskLevel openLevel ="1">WAW</riskLevel>
+
+      <openText>I made a promise to her, to everyone, that no matter what the cost, humanity would triumph over the Collapse!</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {The Abnormality was discovered in a meteorite after the company deciphered
+the name of the Abnormality and discovered that it came from a world that had collapsed.
+It is the Key of Destruction, made from the core of the Seventh Ruler of the ancient world,
+It is a twin-gun weapon that possesses great destructive power born from the power of "heat"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {It has a black and white barrel, while the Ruler's core is crimson.
+The core has a safety mechanism in place. To limit its power, the core of the Ruler
+was split into two pieces and placed in the twin guns.
+It isn't very powerful, as this mechanism caused the twin gun barrels to
+stretch and morph to form the hilts of the sword, and a hot flame, like molten gold, rises up to the sky and coalesces into the sword's body.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {The method of use is called the Sheath of Heavenly Fire, and as the name suggests,
+it brings absolute destruction to all things.
+The storm of flames created by the Great Sword is capable of destroying even the most powerful of creatures,
+but this power comes at a heavy price, as those who dare use it are burned to ashes when unleashing the Sheath of Heavenly Fire.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {When the weapon has reached its full power, it will remove the safety
+and transform into a devestatingly powerful weapon. 
+It could be considered an incarnation of death itself, and only the light that erupts from a supernova could compete with it.
+This is the origin of the name "Kabuto". Only one who can surpass the limits of mortality can withstand it.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {By the time the company deciphered all information about it, they found a single sentance visable on the scorched earth where the meteor fell:
+I made a promise to her, to everyone, that no matter what the cost, humanity would triumph over the Collapse!}
+      ]
+    </desc>
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">This Abnormality contains great power. It can be wielded by employees.</specialTip>
+      <specialTip openLevel="2" key="2">It causes those who use it to lose HP in order to deal exponentially increased damage.</specialTip>
+      <specialTip openLevel="3" key="3">When it is used twice by the same employee in a single day, they will die a strange and unprescedented death.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

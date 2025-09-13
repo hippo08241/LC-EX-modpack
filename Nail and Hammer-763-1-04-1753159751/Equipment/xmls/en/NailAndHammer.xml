@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="NailAndHammer_weapon_name">Crime and Punishment</text>
+
+<text id="NailAndHammer_weapon_desc">A nail can fasten many things.
+For instance, a heart. For instance, a life. For instance, a crime.
+Wield the nail and the hammer and pronounce judgment upon others.
+There is no justice in it, only judgment and punishment.
+Punishment. Does it truly require anything else?</text>
+<text id="NailAndHammer_weapon_specialDesc">Upon the target enters the vision, jumps to the target and deals damage
+Upon attacks, loses 5 SP. Cannot deal damage when the SP is lower than 10
+Upon attacks multiple times a same target, increases the damage by 1 per attack, stackable. Reset upon stops fighting or attacks another target</text>
+
+<text id="NailAndHammer_armor_desc">Before chains are fastened to man’s body, before burdens are tied to his back, crime has already done so in his heart.
+Hands grasp at your collar, your ankles. Tighter and tighter, until you can no longer move.
+By the time you come to your senses, you are already a nail, fixed firmly in place.
+Crime. Perhaps that is all it truly is.</text>
+<text id="NailAndHammer_armor_specialDesc">Upon being attacked, deals 5 W damage to the damage source and leaves mark. The mark can last 5 seconds at most
+Upon attacked the marked target, deals an additional equivalent amount of W damage to the target, 10 at most
+If the Justice level is lower than 3, decreases the Movement Speed by 30%</text>
+
+<text id="NailAndHammer_gift_Desc">SP -4 Success Rate -6 Attack Speed +8 Movement Speed +8</text>
+</localize>

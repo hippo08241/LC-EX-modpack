@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="Tooltip_GameStatus@Pause">以0.5倍速游玩游戏&#13;&#10;您也可以按空格键暂停</text>
+  <text id="Tooltip_GameStatus@SpeedLv1">以正常速度游玩游戏&#13;&#10;E：加速</text>
+  <text id="Tooltip_GameStatus@SpeedLv2">以1.5倍速游玩游戏&#13;&#10;Q: 减速 / E:加速</text>
+  <text id="Tooltip_GameStatus@SpeedLv3">以2倍速游玩游戏&#13;&#10;Q: 减速 </text>
+</localize>

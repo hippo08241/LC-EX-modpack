@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="MusselMaiden_Name">진주</text>
+<text id="MusselMaiden_Weapon_SpecialDesc">공격 시 대상의 가장 취약한 속성이 R일 경우, 공격 속도가 크게 향상됨</text>
+<text id="MusselMaiden_Weapon_Desc">단단한 조개 껍데기 조각들이 푸른 실로 이어져 있다.&#10;조개 껍데기는 어째서 이렇게나 단단한 걸까?</text>
+<text id="MusselMaiden_Armor_SpecialDesc">작업 시작 시 같은 부서 소속 직원들이 최대 체력의 10% 만큼 보호막을 얻음</text>
+<text id="MusselMaiden_Armor_Desc">단단한 조개 껍데기를 조립해서 만들어졌다.&#10;이 단단한 조개 껍데기 아래에는 무엇이 있는 걸까?</text>
+<text id="MusselMaiden_Gift_Desc">체력 +4, 정신력 +3&#10;이렇게 아름다운 진주는 무엇으로 만들어진 걸까?</text>
+</localize>

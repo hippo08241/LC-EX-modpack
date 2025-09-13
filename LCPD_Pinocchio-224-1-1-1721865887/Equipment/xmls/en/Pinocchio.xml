@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+   <text id="Pinocchio_weapon_name">Marionette</text>
+   <text id="Pinocchio_weapon_desc">An old, worn-out axe, when you pick it up, you will feel its weight fluctuating between heavy and light, as if it is imitating the weight you are familiar with.&#13;&#10;&#13;&#10;In the city, in order to survive, every urban dweller constantly imitates those who are successful, attempting to become another successful individual. However... imitation is still imitation, unable to perfectly replicate success, and those poor imitators will ultimately be consumed by the city.</text>
+   <text id="Pinocchio_weapon_sp_Desc">Imitative Learning: When equipped with a full set of EGO, it will randomly mimic the damage type of the enemy.&#13;&#10;Master of Mimicry: Each attack will inflict additional damage.</text>
+   <text id="Pinocchio_armor_desc">A set of exquisite clothing that contrasts with its weapon, when you put it on, you unconsciously mimic others.&#13;&#10;&#13;&#10;In order to better fit into a new environment, one needs to mimic the group. Doing what the group does, eating the same things as the group – this statement applies everywhere, especially in the city...</text>
+   <text id="Pinocchio_armor_sp_Desc">Deception: Resistances will randomly change.&#13;&#10;Imitation Learning: When equipped with the full set of Ego, there is a chance to mimic the armor resistance of a fellow department member. This effect will fade after a certain period of time.</text>
+   <text id="Pinocchio_hat_desc">HP +3, Work speed +2.&#13;&#10;&#13;&#10;Are humans not creatures that constantly imitate?</text>
+</localize>

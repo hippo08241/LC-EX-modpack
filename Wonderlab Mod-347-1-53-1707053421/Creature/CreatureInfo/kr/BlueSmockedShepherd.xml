@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110014">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+   <narration action="mid1">
+      [
+      {푸른 목동의 특기는 거짓과 진실을 교묘히 섞어 말하는 것입니다.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {푸른 목동은 곧 닿을 수 없는 집으로 가는 행진이 있을 거라 이야기 합니다.},
+      {푸른 목동은 늑대를 막을 수 있는 건 오로지 자신 뿐이라 이야기 합니다.},
+{푸른 목동은 F-01-57를 악몽에나 시달리는 멍청이라 이야기 합니다.},
+{푸른 목동은 곧 늑대가 나타난다 이야기 합니다.},
+{푸른 목동은 O-01-28이 형편없는 계집이라 이야기 합니다.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {괜히 기분이 나빠진 #0 직원은 푸른 목동에게 욕을 합니다.}
+      ]
+    </narration>
+ 
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-35</codeNo>
+      <portrait openLevel ="1">Custom/BlueSmockedShepherd</portrait>
+
+      <name openLevel ="1">
+       푸른 목동
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <specialName openLevel ="1">
+       늑대가 낙타낳다!
+      </specialName>
+      <openText>“늑대가 나타났다. 늑대가 나타났다!”</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {사람이란 존재는 정말 이상합니다.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {완벽한 관계라는 것은 없는데, 완전한 애정이라는 것도 없는데, 그것을 갈구합니다.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {보세요. 세상 모든 것에는 내구도라는 게 있습니다. 녹이 슬고 더러워진 칼을 닦는다고 끝나지 않아요.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {칼은 언젠가 수명을 다합니다. 우리의 관계도 그런 것뿐입니다. 삭아버리고 늙어서 끝나거나, 가끔은 병과 사고로 훨씬 일찍 끝나지요.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {그런데 왜 당신은 계속 노력하지요? 호의, 애정, 사랑, 동정 그 모든 것들 전부 비굴한 아첨일 뿐인데. 발 밑에 바짝 엎드린 당신이 너무너무 웃겨요. 당신의 쇼에 박수갈채!}
+      ]
+    </desc>
+
+
+
+
+
+      <specialTipSize size="7">
+      <specialTip openLevel="0" key="nope">억압을 제외한 작업 결과가 좋음이자 보통 확률로 $0의 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="0" key="nope">1분동안 관리를 하지 않을 경우 $0의 클리포트 카운터가 감소했다.</specialTip>
+      <specialTip openLevel="0" key="nope">억압을 제외한 작업 결과가 보통이자 낮은 확률로 $0의 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="0" key="nope">억압 작업을 진행하자 $0의 클리포트 카운터가 증가하였다.</specialTip>
+      <specialTip openLevel="0" key="nope">작업을 진행할 때, 시설 내에 있는 환상체 중 하나를 '언급'했다. $0이 F-04-36를 '언급'할 때마다 F-04-36의 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="0" key="nope">$0의 클리포트 카운터가 0이 되었을 때, F-04-36의 클리포트 카운터가 20초에 1씩 감소하였다. 이때, 억압 작업을 진행하여 $0과 결투할 수 있다. 결투에서 승리했을 시 F-04-36이 제압되었다. 결투에서 패배했을 시 $0은 격리실을 탈출하였다.</specialTip>
+      <specialTip openLevel="0" key="nope">$0이 탈출했다면 F-04-36의 클리포트 카운터가 0이 되었다. F-01-57는 $0과 F-04-36에게 적대적이었다.</specialTip>
+     </specialTipSize>
+
+    
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {무대는 시작 된지 오래고 여기 많은 사람들을 죽게 만든 한 남자가 있다. }
+        {그리고 당신에겐 때마침 총이 들려 있다.  }
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="그를 쏜다" target="1" isAnswer="true"  message="커튼이 열린다." />
+        <node desc="지켜본다." target="2" isAnswer="true" message="커튼이 열린다." />
+        <node desc="다른 사람을 쏜다." target="3" isAnswer="true" message="커튼이 열린다." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {당신은 그를 쏘기로 결심했다. }
+        {비로소 막이 내린다.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {총구가 갈 길을 잃었다. }
+        {무대는 비극으로 끝난다.}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {무대는 희극으로 끝난다.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {“죄를 지은 자가 연극을 구경하다가 무대의 기묘한 표현에 마음 속 깊이 뒤흔들려 그 자리에서 자기의 죄를 고백했다. 연극이야 말로 본심을 들쳐낼 수 있을거야.”}
+        ]
+      </angela>
+    </max>
+    
+  </observe>
+  
+
+</creature>

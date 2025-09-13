@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="NailAndHammer_weapon_name">罪与罚</text>
+
+<text id="NailAndHammer_weapon_desc">钉子可以钉住许多东西。
+比如，心脏。比如，生命。比如，罪孽。
+挥舞钉与锤，定下别人的罪吧。
+其中没有公义，只有审判和惩戒。
+所谓罚，难道还需要其他东西吗？</text>
+<text id="NailAndHammer_weapon_specialDesc">目标进入持有者的视野后，持有者会跳跃至目标附近并造成伤害。
+这把武器每次攻击都会使持有者损失5点精神值。当持有者的精神值低于10点时，这把武器将无法造成伤害。
+持有者在连续攻击同一目标时，每次攻击都会使下次攻击造成的伤害增加1，可叠加。持有者脱离战斗或攻击不同目标时重置。</text>
+
+<text id="NailAndHammer_armor_desc">在人在人的身上拷上锁链、系上负重之前，罪已在人的心里那么做了。
+一只只手抓着你的衣襟、你的脚腕，逐渐使你动弹不得。
+回过神来，你已是颗固定好的钉子了。
+所谓罪，大抵就是这样的事情。</text>
+<text id="NailAndHammer_armor_specialDesc">穿戴者受到攻击时，对攻击来源造成5点精神伤害并标记。标记最多存在5秒。
+穿戴者攻击标记目标时，额外造成等量的精神伤害，最高不超过10点。
+如果穿戴者的正义等级低于3级，其移动速度会下降30%。</text>
+
+<text id="NailAndHammer_gift_Desc">最大精神值-4 成功率-6
+攻击速度+8 移动速度+8</text>
+</localize>

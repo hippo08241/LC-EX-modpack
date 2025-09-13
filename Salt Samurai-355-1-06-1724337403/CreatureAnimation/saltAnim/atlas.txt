@@ -1,0 +1,48 @@
+
+salt.png
+size: 1055,955
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+整体盐
+  rotate: true
+  xy: 937, 282
+  size: 161, 116
+  orig: 161, 116
+  offset: 0, 0
+  index: -1
+盐
+  rotate: false
+  xy: 2, 2
+  size: 933, 441
+  orig: 933, 441
+  offset: 0, 0
+  index: -1
+盐颗粒
+  rotate: true
+  xy: 937, 271
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+盐颗粒 - 副本
+  rotate: true
+  xy: 937, 271
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+盐颗粒 - 副本 (2)
+  rotate: true
+  xy: 937, 271
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+盐颗粒 - 副本 (3)
+  rotate: true
+  xy: 937, 271
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1

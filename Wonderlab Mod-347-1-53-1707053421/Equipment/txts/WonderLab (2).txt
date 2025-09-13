@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="222222" type="weapon">
+    <name>TearsBottle_weapon_name</name>
+    <desc>TearsBottle_weapon_desc</desc>
+    <specialDesc>TearsBottle_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_TearsBottleWeapon</specialWeaponAnim>
+    <sprite>LongBird_TearsBottleWeapon</sprite>
+
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="B" min="6" max="8">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+
+
+    <damage type="B" min="2" max="6">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="B" min="6" max="8">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="7" max="10">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+
+    <damage type="B" min="2" max="4">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+
+    <range>4</range>
+    <script>TearsBottleWeapon</script>
+    <splash type="penetration" />
+
+    <maxNum>2</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="422222" type="special">
+    <name>TearsBottle_weapon_name</name>
+    <desc>TearsBottle_gift_Desc</desc>
+    <attachPos>ribborn</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>+8</mental>
+    </bonus>
+    <sprite>TearsBottle_gift</sprite>
+  </equipment>
+
+  <equipment id="222223" type="weapon">
+    <name>Titania_weapon_name</name>
+    <desc>Titania_weapon_desc</desc>
+    <specialDesc>Titania_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_TitaniaWeapon</specialWeaponAnim>
+    <sprite>Nothing_TitaniaWeapon</sprite>
+
+
+    <animation>Attack1</animation>
+
+    <require type="level">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <damage type="P" min="2" max="2">
+      <soundInfo type="damage">Weapons/katana</soundInfo>
+    </damage>
+
+    <range>4</range>
+    <script>TitaniaWeapon</script>
+
+    <maxNum>1</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="322223" type="armor">
+
+    <name>Titania_weapon_name</name>
+    <desc>Titania_armor_desc</desc>
+    <specialDesc>Titania_armor_specialDesc</specialDesc>
+
+    <armorId>122223</armorId>
+
+    <require type="level">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">0.6</defenseElement>
+    </defense>
+
+    <script>TitaniaArmor</script>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+  </equipment>
+
+  <equipment id="422223" type="special">
+    <name>Titania_weapon_name</name>
+    <desc>Titania_gift_Desc</desc>
+    <attachPos>headback</attachPos>
+    <attachType>special_add</attachType>
+    <bonus>
+      <movement>6</movement>
+      <attackSpeed>6</attackSpeed>
+    </bonus>
+    <sprite>Titania_gift</sprite>
+  </equipment>
+</equipment_list>

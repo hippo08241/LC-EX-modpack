@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100539">
+
+
+
+    <narration action="move">
+      #0  職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="start">
+      [
+      {$0は#0に愛をささやきます}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0はどこか後ろめたい気がします。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0は#0に愛されることを願っています。}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {#0は ざぶん と音を立てる収容室を見つめます。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {$0は愛を通じて救われることを願います。}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-05-39</codeNo>
+      <portrait openLevel ="1">Custom/Mermaid</portrait>
+
+      <name openLevel ="1">
+        人魚の肉
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>私の話は…永遠に。愛してあげるから私に魂を….</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {腕も足も何も残っていない肉}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {愛は魂を作り出す.
+魂は不滅だ。
+人魚はそれがあまりにも羨ましくて切実に望んだ。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {どれだけ大きな心なら、そんなことができるだろうか。
+どれだけ美しい心なら、そうすることができるだろうか。
+魂のない魚にも救いは訪れるのだろうか?
+そんな思いに耽りながら永遠に喜びと悲しむ半端な存在。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {愛してください、どうか。
+半分しかない魂でも何でも全部差し上げます。
+あなたのキスなら、その半分もまた完璧になるはずだから。
+愛してください、この塩水から私を救ってください。}
+      ]
+    </desc>
+
+  <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">慎重ランク3以下の職員が作業を終えると、$0のクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="2" key="2">作業結果が2回連続して良好だった場合に，$0のクリフォトカウンターが減少した.</specialTip>
+      <specialTip openLevel="3" key="3">$0のクリフォトカウンターが0になった時に作業を終えた職員に永遠の愛を約束するギフトを提供した。</specialTip>
+      <specialTip openLevel="4" key="4">永遠の愛を約束した人魚の肉は、職員を飲み込んだまま、収容室から脱出した。</specialTip>
+      <specialTip openLevel="5" key="5">人魚の肉が水泡に帰しても、人魚の愛は永遠に続くだろう。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

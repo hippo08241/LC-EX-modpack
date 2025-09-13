@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110015">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+   <narration action="mid1">
+      [
+      {There's no place like home.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 talks about their exhausting day.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Everyone is happy in My Sweet Home.}
+      ]
+    </narration>
+ 
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-223</codeNo>
+      <portrait openLevel ="1">Custom/SweetMyHome</portrait>
+
+      <name openLevel ="1">
+       My Sweet Home
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+
+      <specialName openLevel ="1">
+       스파이더맨 : 홈커밍
+      </specialName>
+      <openText>“Evenone has a place they want to return to, right?”</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A pink house that feels strangely nostalgic.
+A familiar scent drifts from it.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Consulation Record X-XX-52
+Counselor: Hello Galia, how was today?
+Galia: Like always, I just want to get home and take a break.
+Counselor: Got yourself a significant other?
+Galia: I guess you could call my television a sigificant other. I have an entire drama to catch up on, you see.
+Counselor: (Chuckles) I'm sorry for taking your time. Nothing more on your mind?
+Galia: A bit worried about being fired, I guess. I found a good listener here
+Counselor: Could you tell me who that is?
+Galia: I will, once I catch up on all these drama episodes.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Consulation Record X-XX-54
+Counselor: I heard of the news. Are you alright, Galia? Can you talk about it?
+Galia: …I want to go home.
+Counselor: I understand. Many people die here. It's normal to feel that way.
+Galia: I...I killed someone. He, him...he tried to...
+Counselor: That was self-defense, Galia. Think rationally. It wasn't your fault.
+Galia: ...I want to go home.
+Counselor: I'll give you some tranquilizers along with your sleeping pills. Rest up for the next few days, and take care of yourself. Feel free to visit whenever you need me.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {Consulation Record X-XX-55
+Galia did not return.
+Rumor has it that she fused with a houselike Abnormality.
+I don't know what happened in detail. Not that I want to know.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {}
+      ]
+    </desc>
+
+
+
+
+
+      <specialTipSize size="3">
+      <specialTip openLevel="0" key="nope">When the work result was Bad, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="0" key="nope">When employees of Temperance Level 2 or lower started working on $0, the Qlihphoth Counter decreased.</specialTip>
+      <specialTip openLevel="0" key="nope">When the Qliphoth Counter reached 0, $0 breached Containment while fused with an employee.</specialTip>
+     </specialTipSize>
+
+    
+    <max>
+      <!--푸른 목동과 빨간친구 파일과 같은상황-->
+      <desc id="0" select="1">
+        [
+        {무대는 시작 된지 오래고 여기 많은 사람들을 죽게 만든 한 남자가 있다. }
+        {그리고 당신에겐 때마침 총이 들려 있다.  }
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="그를 쏜다" target="1" isAnswer="true"  message="커튼이 열린다." />
+        <node desc="지켜본다." target="2" isAnswer="true" message="커튼이 열린다." />
+        <node desc="다른 사람을 쏜다." target="3" isAnswer="true" message="커튼이 열린다." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {당신은 그를 쏘기로 결심했다. }
+        {비로소 막이 내린다.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {총구가 갈 길을 잃었다. }
+        {무대는 비극으로 끝난다.}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {무대는 희극으로 끝난다.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {“죄를 지은 자가 연극을 구경하다가 무대의 기묘한 표현에 마음 속 깊이 뒤흔들려 그 자리에서 자기의 죄를 고백했다. 연극이야 말로 본심을 들쳐낼 수 있을거야.”}
+        ]
+      </angela>
+    </max>
+    
+  </observe>
+  
+
+</creature>

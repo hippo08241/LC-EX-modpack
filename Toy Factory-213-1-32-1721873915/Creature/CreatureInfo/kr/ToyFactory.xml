@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="120001">
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-10-06</codeNo>
+
+      <portrait openLevel ="1">Custom/ToyFactory</portrait>
+
+      <name openLevel ="1">
+        당신은 강해졌나요
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>그 컨테이너에서 이상한 놈들이 나왔어요.&#13;&#10;깡통 같은 걸 머리에 쓰고, 몸통도 플라스틱 같은 재질에...</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {이것은 마치 장난감 조각들을 어디서 찾아와서 제멋대로 이어 붙인 것 같이 생긴, 개조 수술이 가능한 컨테이너이다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {이 컨테이너는 안전하고 효과적인 방법으로 사람의 몸을 튼튼하게 만들 수 있다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {인체를 이어 붙인 부위 중간중간엔 살점 끼인 자국, 말라붙은 피가 보이지만,&#13;&#10;시술받은 사람들은 이상하다고 느끼지 못했다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {당신은 당신이 서 있는 도시를 사랑합니까?&#13;&#10;사랑한다고 대답한 사람들은 운이 좋다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {시술을 다섯 번 받은 직원의 몸은 완전히 부서졌다.&#13;&#10;그들은 더더욱 강해졌고, 내부는 계속해서 수복될 것이다.&#13;&#10;그들은 되살아날 때마다 점점 강해져서, 진정한 살인 기계가 될 것이다!}
+      ]
+    </desc>
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">이 기계에 들어간 직원의 모든 능력치가 상승하였다.</specialTip>
+      <specialTip openLevel="2" key="2">기계를 더 많이 사용하면, 능력치도 더 높아졌다.</specialTip>
+      <specialTip openLevel="3" key="3">다섯 번 사용된다면, 그 직원은 완전히 개조될 것이다.</specialTip>
+      <specialTip openLevel="4" key="4">그 직원은 더 이상 이전의 그 사람이 아니다.&#13;&#10;가능하다면, 이 공장에게 말해주세요. "당신은 당신이 서 있는 도시를 사랑합니까?"</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>너 맞아볼래? 매우?</name>
+    <codeId>T-04-10-06-A</codeId>
+  </child>
+
+</creature>

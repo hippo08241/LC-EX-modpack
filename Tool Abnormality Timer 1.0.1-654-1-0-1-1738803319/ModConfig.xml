@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <!--Position X offset of Timer UI. Default=0-->
+  <!--计时器UI的X轴方向偏移量。默认值为0-->
+  <offsetX>0</offsetX>
+  <!--Position Y offset of Timer UI. Default=0-->
+  <!--计时器UI的Y轴方向偏移量。默认值为0-->
+  <offsetY>0</offsetY>
+  <!--Scale of Timer UI. Default=1.0-->
+  <!--计时器UI的缩放比例。默认值为1.0-->
+  <scale>1</scale>
+  <!--UI Timer Background opacity. Value from 0 to 1. Default=1.0-->
+  <!--计时器UI背景的不透明度。取值范围为0到1。默认值为1.0-->
+  <backgroundAlpha>1</backgroundAlpha>
+  <!--UI Timer Text opacity. Value from 0 to 1. Default=1.0-->
+  <!--计时器UI文字的不透明度。取值范围为0到1。默认值为1.0-->
+  <textAlpha>1</textAlpha>
+</settings>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+    <text id="SFZW_ArmorName_H">외로운 왕의 수행원</text>
+    <text id="SFZW_ArmorDesc_H">붉은 빛이 드리운 텅 빈 연회장. 왕의 은총을 받은 시종들이 분주히 오가고 있다.</text>
+    <text id="SFZW_ArmorSpeDesc_H">착용 중인 '붕대' 기프트 하나당 방어 내성이 0.1 씩 강화됨.</text>
+    <text id="SFZW_ArmorName_W">묶인 왕좌</text>
+    <text id="SFZW_ArmorDesc_W">권위와 힘을 상징하는 왕좌는 언제나 그 자리에 있다.&#13;&#10;그 왕좌 위에 앉은 이는 모든 것을 다스리는 지고한 군주인가, 아니면 온갖 속박에 얽매인 그저 불쌍한 벌레일 뿐인가?</text>
+    <text id="SFZW_ArmorSpeDesc_W">주기적으로 같은 방에 있는 다른 직원들에게 B 보호장을 부여. 대상이 보유하고 있는 '붕대' 기프트 하나당 보호막 수치가 5% 증가.
+E.G.O 방어구 '묶인 자'가 왕좌에 앉으면, 자신의 방어 내성이 2.0으로 변하고 구속되며, 동시에 특수 효과를 상실함.&#13;&#10;
+구속 : 움직일 수 없음.</text>
+    <text id="SFZW_ArmorName_A">묶인 자</text>
+    <text id="SFZW_ArmorDesc_A">이 끈은 붕대이자 족쇄… 대체 언제 나를 놓아줄 셈인 거냐!!</text>
+    <text id="SFZW_ArmorSpeDesc_A">E.G.O 무기 '구속' 착용 시, E.G.O 슈트 '묶인 왕좌'를 착용한 직원이 같은 방에 있는 경우, 왕좌에 앉을 수 있다.&#13;&#10;
+왕좌에 앉은 직원은 이동할 수 없으며, 공격 범위가 시설 전체로 확대되고 특수 공격만을 사용함. 단, 공격 대상을 스스로 선택할 수 없음.&#13;&#10;
+왕좌에 앉은 상태에서는 모든 공격 유형의 피해를 막아주는 보호막 생성. 보유하고 있는 '붕대' 기프트 하나당 보호막 수치가 10% 증가.&#13;&#10;
+일정 체력을 소모하여 왕좌에서 내려올 수 있고, 내려오면 60초 후에 다시 왕좌에 오를 수 있음.</text>
+
+    <text id="SFZW_WeaponName_Chui">구속</text>
+    <text id="SFZW_WeaponDesc_Chui">나는 이 왕좌에 묶여 홀로 통치하는 자일지니…</text>
+    <text id="SFZW_WeaponSpeDesc_Chui">범위 공격 가능.&#13;&#10;
+20% 확률로 특수 공격. 특수 공격 시 공격 범위가 확대, 피격 대상의 이동 속도를 50% 감소시킴 (지속 시간 5초), 20% 확률로 이동 속도 감소 대신 구속 효과 부여.&#13;&#10;보유하고 있는 '붕대' 기프트 하나당 특수 공격 발동 확률이 10%씩 증가.&#13;&#10;
+구속 : 움직일 수 없음.</text>
+    <text id="SFZW_WeaponName_Dao">구속</text>
+    <text id="SFZW_WeaponDesc_Dao">감히… 권위에 도전하는가?!</text>
+    <text id="SFZW_WeaponSpeDesc_Dao">공격 시 대상의 내성 0.1 무시. 보유하고 있는 '붕대' 기프트 하나당 무시하는 내성 값이 0.1씩 증가.&#13;&#10;
+20% 확률로 특수 공격. 특수 공격 시 대상을 1초 동안 구속.&#13;&#10;
+구속 : 움직일 수 없음.</text>
+
+    <text id="SFZW_GiftNameBodyUp">붕대</text>
+    <text id="SFZW_GiftDescBodyUp">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameEye">붕대</text>
+    <text id="SFZW_GiftDescEye">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameFace">붕대</text>
+    <text id="SFZW_GiftDescFace">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameHair">붕대</text>
+    <text id="SFZW_GiftDescHair">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameRibborn">붕대</text>
+    <text id="SFZW_GiftDescRibborn">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameRightCheek">붕대</text>
+    <text id="SFZW_GiftDescRightCheek">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameRightHand">붕대</text>
+    <text id="SFZW_GiftDescRightHand">이동 속도 -10, 묶인 왕이 부여하는 보호막 수치가 크게 상승.</text>
+    <text id="SFZW_GiftNameHead">묶인 왕좌</text>
+    <text id="SFZW_GiftDescHead">체력 +8, 작업 성공률 +5, 이동 속도 -5</text>
+
+</localize>

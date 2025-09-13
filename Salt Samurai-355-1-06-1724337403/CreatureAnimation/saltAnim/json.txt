@@ -1,0 +1,546 @@
+{
+"skeleton": {
+	"hash": "CumPNlCosh0bCK9J5Imjde52C6w",
+	"spine": "3.8.75",
+	"x": -704.9,
+	"y": -77.13,
+	"width": 1491.08,
+	"height": 1185.7,
+	"fps": 24,
+	"images": "E:/Steam/steamapps/common/LobotomyCorp/LobotomyCorp_Data/BaseMods/致命化学品/盐碎图",
+	"audio": "C:\\Users\\GIGABYTE\\Desktop\\新建文件夹\\素材\\脑叶mod\\氯化钠\\dh"
+},
+"bones": [
+	{ "name": "root", "scaleX": 2.7912, "scaleY": 2.7777 },
+	{
+		"name": "整体盐",
+		"parent": "root",
+		"length": 75,
+		"rotation": 88.82,
+		"x": -0.5,
+		"y": 3.05,
+		"scaleX": 1.7177,
+		"scaleY": 1.6581
+	},
+	{ "name": "盐颗粒 - 副本 (2)", "parent": "整体盐", "length": 11, "rotation": -66.53, "x": 66.04, "y": 9.23 },
+	{ "name": "盐颗粒 - 副本 (3)", "parent": "整体盐", "length": 9, "rotation": -79.1, "x": 70.78, "y": -5.96 },
+	{ "name": "盐颗粒 - 副本", "parent": "整体盐", "length": 7, "rotation": 46.18, "x": 84.39, "y": 1.73 },
+	{ "name": "盐颗粒", "parent": "整体盐", "length": 9, "rotation": 88.2, "x": 78.49, "y": -3.89 }
+],
+"slots": [
+	{ "name": "整体盐", "bone": "整体盐", "attachment": "整体盐" },
+	{ "name": "盐颗粒 - 副本 (2)", "bone": "盐颗粒 - 副本 (2)", "attachment": "盐颗粒 - 副本 (2)" },
+	{ "name": "盐颗粒 - 副本 (3)", "bone": "盐颗粒 - 副本 (3)", "attachment": "盐颗粒 - 副本 (3)" },
+	{ "name": "盐颗粒 - 副本", "bone": "盐颗粒 - 副本", "attachment": "盐颗粒 - 副本" },
+	{ "name": "盐颗粒", "bone": "盐颗粒", "attachment": "盐颗粒" },
+	{ "name": "盐", "bone": "root", "attachment": "盐" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"盐颗粒 - 副本 (2)": {
+				"盐颗粒 - 副本 (2)": { "x": 4.79, "y": 0.49, "rotation": -22.29, "width": 17, "height": 12 }
+			},
+			"盐颗粒 - 副本": {
+				"盐颗粒 - 副本": { "x": 2.52, "y": -2.09, "rotation": -135, "width": 17, "height": 12 }
+			},
+			"盐": {
+				"盐": { "x": -4.6, "y": 60.43, "scaleX": 0.2, "scaleY": 0.2, "width": 1865, "height": 882 }
+			},
+			"整体盐": {
+				"整体盐": { "x": 114.61, "y": -6.64, "rotation": -88.82, "width": 322, "height": 232 }
+			},
+			"盐颗粒 - 副本 (3)": {
+				"盐颗粒 - 副本 (3)": { "x": 3.99, "y": 1.11, "rotation": -9.72, "width": 17, "height": 12 }
+			},
+			"盐颗粒": {
+				"盐颗粒": { "x": 6.39, "y": -0.92, "rotation": -177.02, "width": 17, "height": 12 }
+			}
+		}
+	}
+],
+"animations": {
+	"Dead": {
+		"slots": {
+			"整体盐": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.5833, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.0417, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.5833, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (3)": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 1.0833, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"盐颗粒 - 副本 (3)": {
+				"translate": [
+					{ "time": 1.0417 },
+					{ "time": 1.1667, "x": 1.17, "y": -25.39 },
+					{ "time": 1.25, "x": -20.04, "y": -36.81 },
+					{ "time": 1.2917, "x": -25.82, "y": -40.15 },
+					{ "time": 1.3333, "x": -30.6, "y": -45.46 },
+					{ "time": 1.375, "x": -38.6, "y": -52.45 },
+					{ "time": 1.4167, "x": -47.38, "y": -59.88 },
+					{ "time": 1.4583, "x": -52.91, "y": -60 },
+					{ "time": 1.5833, "x": -65.35, "y": -88.92 }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"translate": [
+					{ "time": 0.125 },
+					{ "time": 0.3333, "x": -10.15, "y": -21.64 },
+					{ "time": 0.4167, "x": -16.88, "y": -21.05 },
+					{ "time": 0.7917, "x": -48.05, "y": -38.79 },
+					{ "time": 1.0833, "x": -79.06, "y": -99.62 }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"translate": [
+					{ "x": 0.72, "y": -1.71 },
+					{ "time": 0.1667, "x": 0.56, "y": 5.77 },
+					{ "time": 0.5, "x": -41.8, "y": 45.57 }
+				]
+			},
+			"盐颗粒": {
+				"translate": [
+					{ "time": 0.2917 },
+					{ "time": 0.375, "x": 40.8, "y": 1.98 },
+					{ "time": 0.4583, "x": 1.09, "y": 9.95 },
+					{ "time": 0.5833, "x": -11.03, "y": 14.22 },
+					{ "time": 0.8333, "x": -47.18, "y": 45.27 },
+					{ "time": 0.9167, "x": -8.57, "y": 99.33 },
+					{ "time": 1.0833, "x": -78.74, "y": 159.88 }
+				]
+			}
+		}
+	},
+	"default": {
+		"slots": {
+			"盐颗粒": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2917, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.0417, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2083, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4583, "color": "ffffffff" },
+					{ "time": 0.625, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (3)": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.0417, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.125, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2083, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9167, "color": "ffffffff" },
+					{ "time": 1.0833, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"盐颗粒 - 副本 (3)": {
+				"translate": [
+					{ "time": 1.0417 },
+					{ "time": 1.1667, "x": 1.17, "y": -25.39 },
+					{ "time": 1.25, "x": -20.04, "y": -36.81 },
+					{ "time": 1.2917, "x": -25.82, "y": -40.15 },
+					{ "time": 1.3333, "x": -30.6, "y": -45.46 },
+					{ "time": 1.375, "x": -38.6, "y": -52.45 },
+					{ "time": 1.4167, "x": -47.38, "y": -59.88 },
+					{ "time": 1.4583, "x": -52.91, "y": -60 },
+					{ "time": 1.5833, "x": -65.35, "y": -88.92 }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"translate": [
+					{ "time": 0.125 },
+					{ "time": 0.3333, "x": -10.15, "y": -21.64 },
+					{ "time": 0.4167, "x": -16.88, "y": -21.05 },
+					{ "time": 0.7917, "x": -48.05, "y": -38.79 },
+					{ "time": 1.0833, "x": -79.06, "y": -99.62 }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"translate": [
+					{ "x": 0.72, "y": -1.71 },
+					{ "time": 0.1667, "x": 0.56, "y": 5.77 },
+					{ "time": 0.5, "x": -41.8, "y": 45.57 }
+				]
+			},
+			"盐颗粒": {
+				"translate": [
+					{ "time": 0.2917 },
+					{ "time": 0.375, "x": 40.8, "y": 1.98 },
+					{ "time": 0.4583, "x": 1.09, "y": 9.95 },
+					{ "time": 0.5833, "x": -11.03, "y": 14.22 },
+					{ "time": 0.8333, "x": -47.18, "y": 45.27 },
+					{ "time": 0.9167, "x": -8.57, "y": 99.33 },
+					{ "time": 1.0833, "x": -78.74, "y": 159.88 }
+				]
+			}
+		}
+	},
+	"escaped": {
+		"slots": {
+			"盐颗粒": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2917, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.0417, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2083, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4583, "color": "ffffffff" },
+					{ "time": 0.625, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (3)": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.0417, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.125, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2083, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9167, "color": "ffffffff" },
+					{ "time": 1.0833, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"盐颗粒 - 副本 (3)": {
+				"translate": [
+					{ "time": 1.0417 },
+					{ "time": 1.1667, "x": 1.17, "y": -25.39 },
+					{ "time": 1.25, "x": -20.04, "y": -36.81 },
+					{ "time": 1.2917, "x": -25.82, "y": -40.15 },
+					{ "time": 1.3333, "x": -30.6, "y": -45.46 },
+					{ "time": 1.375, "x": -38.6, "y": -52.45 },
+					{ "time": 1.4167, "x": -47.38, "y": -59.88 },
+					{ "time": 1.4583, "x": -52.91, "y": -60 },
+					{ "time": 1.5833, "x": -65.35, "y": -88.92 }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"translate": [
+					{ "time": 0.125 },
+					{ "time": 0.3333, "x": -10.15, "y": -21.64 },
+					{ "time": 0.4167, "x": -16.88, "y": -21.05 },
+					{ "time": 0.7917, "x": -48.05, "y": -38.79 },
+					{ "time": 1.0833, "x": -79.06, "y": -99.62 }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"translate": [
+					{ "x": 0.72, "y": -1.71 },
+					{ "time": 0.1667, "x": 0.56, "y": 5.77 },
+					{ "time": 0.5, "x": -41.8, "y": 45.57 }
+				]
+			},
+			"盐颗粒": {
+				"translate": [
+					{ "time": 0.2917 },
+					{ "time": 0.375, "x": 40.8, "y": 1.98 },
+					{ "time": 0.4583, "x": 1.09, "y": 9.95 },
+					{ "time": 0.5833, "x": -11.03, "y": 14.22 },
+					{ "time": 0.8333, "x": -47.18, "y": 45.27 },
+					{ "time": 0.9167, "x": -8.57, "y": 99.33 },
+					{ "time": 1.0833, "x": -78.74, "y": 159.88 }
+				]
+			}
+		}
+	},
+	"work": {
+		"slots": {
+			"盐颗粒": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2917, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.0417, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2083, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4583, "color": "ffffffff" },
+					{ "time": 0.625, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (3)": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.0417, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.125, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2083, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9167, "color": "ffffffff" },
+					{ "time": 1.0833, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"盐颗粒 - 副本 (3)": {
+				"translate": [
+					{ "time": 1.0417 },
+					{ "time": 1.1667, "x": 1.17, "y": -25.39 },
+					{ "time": 1.25, "x": -20.04, "y": -36.81 },
+					{ "time": 1.2917, "x": -25.82, "y": -40.15 },
+					{ "time": 1.3333, "x": -30.6, "y": -45.46 },
+					{ "time": 1.375, "x": -38.6, "y": -52.45 },
+					{ "time": 1.4167, "x": -47.38, "y": -59.88 },
+					{ "time": 1.4583, "x": -52.91, "y": -60 },
+					{ "time": 1.5833, "x": -65.35, "y": -88.92 }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"translate": [
+					{ "time": 0.125 },
+					{ "time": 0.3333, "x": -10.15, "y": -21.64 },
+					{ "time": 0.4167, "x": -16.88, "y": -21.05 },
+					{ "time": 0.7917, "x": -48.05, "y": -38.79 },
+					{ "time": 1.0833, "x": -79.06, "y": -99.62 }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"translate": [
+					{ "x": 0.72, "y": -1.71 },
+					{ "time": 0.1667, "x": 0.56, "y": 5.77 },
+					{ "time": 0.5, "x": -41.8, "y": 45.57 }
+				]
+			},
+			"盐颗粒": {
+				"translate": [
+					{ "time": 0.2917 },
+					{ "time": 0.375, "x": 40.8, "y": 1.98 },
+					{ "time": 0.4583, "x": 1.09, "y": 9.95 },
+					{ "time": 0.5833, "x": -11.03, "y": 14.22 },
+					{ "time": 0.8333, "x": -47.18, "y": 45.27 },
+					{ "time": 0.9167, "x": -8.57, "y": 99.33 },
+					{ "time": 1.0833, "x": -78.74, "y": 159.88 }
+				]
+			}
+		}
+	},
+	"work_bad_end": {
+		"slots": {
+			"盐颗粒": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2917, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.0417, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2083, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4583, "color": "ffffffff" },
+					{ "time": 0.625, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (3)": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.0417, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.125, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2083, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9167, "color": "ffffffff" },
+					{ "time": 1.0833, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"盐颗粒 - 副本 (3)": {
+				"translate": [
+					{ "time": 1.0417 },
+					{ "time": 1.1667, "x": 1.17, "y": -25.39 },
+					{ "time": 1.25, "x": -20.04, "y": -36.81 },
+					{ "time": 1.2917, "x": -25.82, "y": -40.15 },
+					{ "time": 1.3333, "x": -30.6, "y": -45.46 },
+					{ "time": 1.375, "x": -38.6, "y": -52.45 },
+					{ "time": 1.4167, "x": -47.38, "y": -59.88 },
+					{ "time": 1.4583, "x": -52.91, "y": -60 },
+					{ "time": 1.5833, "x": -65.35, "y": -88.92 }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"translate": [
+					{ "time": 0.125 },
+					{ "time": 0.3333, "x": -10.15, "y": -21.64 },
+					{ "time": 0.4167, "x": -16.88, "y": -21.05 },
+					{ "time": 0.7917, "x": -48.05, "y": -38.79 },
+					{ "time": 1.0833, "x": -79.06, "y": -99.62 }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"translate": [
+					{ "x": 0.72, "y": -1.71 },
+					{ "time": 0.1667, "x": 0.56, "y": 5.77 },
+					{ "time": 0.5, "x": -41.8, "y": 45.57 }
+				]
+			},
+			"盐颗粒": {
+				"translate": [
+					{ "time": 0.2917 },
+					{ "time": 0.375, "x": 40.8, "y": 1.98 },
+					{ "time": 0.4583, "x": 1.09, "y": 9.95 },
+					{ "time": 0.5833, "x": -11.03, "y": 14.22 },
+					{ "time": 0.8333, "x": -47.18, "y": 45.27 },
+					{ "time": 0.9167, "x": -8.57, "y": 99.33 },
+					{ "time": 1.0833, "x": -78.74, "y": 159.88 }
+				]
+			}
+		}
+	},
+	"work_end": {
+		"slots": {
+			"盐颗粒": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2917, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0417, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2083, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4583, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.625, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本 (3)": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0417, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.125, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2083, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9167, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0833, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"盐颗粒 - 副本 (3)": {
+				"translate": [
+					{ "time": 1.0417, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1667, "x": 1.17, "y": -25.39, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.25, "x": -20.04, "y": -36.81, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2917, "x": -25.82, "y": -40.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "x": -30.6, "y": -45.46, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.375, "x": -38.6, "y": -52.45, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4167, "x": -47.38, "y": -59.88, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4583, "x": -52.91, "y": -60, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5833, "x": -65.35, "y": -88.92 }
+				]
+			},
+			"盐颗粒 - 副本": {
+				"translate": [
+					{ "time": 0.125, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": -10.15, "y": -21.64, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4167, "x": -16.88, "y": -21.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7917, "x": -48.05, "y": -38.79, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0833, "x": -79.06, "y": -99.62 }
+				]
+			},
+			"盐颗粒 - 副本 (2)": {
+				"translate": [
+					{ "x": 0.72, "y": -1.71, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": 0.56, "y": 5.77, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": -41.8, "y": 45.57 }
+				]
+			},
+			"盐颗粒": {
+				"translate": [
+					{ "time": 0.2917, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.375, "x": 9.82, "y": 2.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4583, "x": 1.09, "y": 9.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5833, "x": -11.03, "y": 14.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8333, "x": -47.18, "y": 45.27, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9167, "x": -63.72, "y": 85.54, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0833, "x": -79.61, "y": 87.46 }
+				]
+			}
+		}
+	}
+}
+}

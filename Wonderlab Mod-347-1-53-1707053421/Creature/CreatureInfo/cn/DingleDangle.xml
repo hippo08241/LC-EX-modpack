@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100121">
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+
+    <narration action="mid1">
+      [ {每个人都会遇到难以忍受的状况。} ]
+    </narration>
+    <narration action="mid4">
+      [ {你能克服这种状况吗？} ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+   <collection>
+    <codeNo openLevel ="0">F-03-121</codeNo>
+    <portrait openLevel ="1">Custom/DingleDangle</portrait>
+    <name openLevel ="1">叮当悬摆</name>
+    <riskLevel openLevel ="1">TETH</riskLevel>
+    <openText>一起成为果实吧。一同悬挂摇摆吧。</openText>    
+   </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {一棵挂着花花绿绿缎带的树。
+	  
+乍一看好像普普通通，但经常听到有人被吊死的传闻。]
+      ]
+   </desc>
+
+   <desc id="2" openLevel="1">
+      [
+      {树上结出了新的果实。
+	  
+一起成为果实吧。一同悬挂摇摆吧。}
+      ]
+   </desc>
+    
+   <specialTipSize size="3">
+    <specialTip openLevel="1" key="1">每隔40秒，设施内谨慎等级不低于3级的员工会对“$0”着魔。但如果该员工勇气、自律、正义任一属性不低于3级，则不会进入着魔状态。</specialTip>
+    <specialTip openLevel="2" key="2">对“$0”着魔的IC员工将会尝试进入其收容单元（这种现象被称为“谵妄”）。该员工到达收容单元后，将会立刻因为头部解体而死。随后，收容单元里生成了一颗“果实”。</specialTip>
+    <specialTip openLevel="3" key="3">“果实”生成后，“$0”的PE-BOX的生产效率也将增加。</specialTip>
+   </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {悬挂在天花板上的果实在你眼前来回摇摆。}
+{一颗果实注意到了你，所有的它们都疯狂地向你冲来。}
+{你的选择是……}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="保护自己" target="1" isAnswer="false"/>
+        <node desc="闭上眼睛" target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {你试图用双手保护自己。}
+{它们穿过了你的手掌，穿透血肉。}
+{这是你从未感受过的疼痛。}
+{新的果实开始生长。}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {就像什么都不在乎一般，你闭上了眼睛。}
+{预期的结果并未到来，你缓慢地睁开了眼睛。}
+{没有果实，没有缎带，没有任何变化。}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {一个拥有可爱外表，但试图让观众陷入谵妄的异想体。},
+        {您相信您所认为的是真实吗？主管？}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

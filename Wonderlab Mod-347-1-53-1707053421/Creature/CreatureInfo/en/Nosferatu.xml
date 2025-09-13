@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100134">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {They say that the eyes of a vampire can hypnotize people.}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 instinctively rubs their neck, having met $0's red eyes.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Blood swirls behind Nosferatu's pupils.}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {$0's thirst will never truly be quenched.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {On the night when everything is to be painted red by blood, $0 will come with horde of beasts.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-34</codeNo>
+      <portrait openLevel ="1">Custom/Nosferatu</portrait>
+
+      <name openLevel ="1">
+        Nosferatu
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>...And the thirst would never truly be quenched.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Bloodfiends have coexisted with humans for centuries, perhaps even millennia.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {They maintain a human form, but a single drop of blood should be enough for them to shapeshift into a ferocious monster and spend the night in a rampage. They seemed lost. They were looking for something, but didn’t appear to know what they wanted to find.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Their endless thirst and lust for blood turned them into monsters.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {No matter how much fresh blood they drink and pour over themselves, their thirst will never truly be quenched. Though they put on a smile of contempt as if they've just finished a fine meal, they had no way of knowing that their bloodlust is insatiable.}
+      ]
+    </desc>
+    
+  <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">When 6 employees die inside the facility, the Qliphoth Counter will lower. However, deaths caused by Execution Bullets were not recognized.</specialTip>
+      <specialTip openLevel="2" key="2">When the work result of Instinct or Attachment was bad, the Qliphoth Counter decreased.</specialTip>
+      <specialTip openLevel="3" key="3">When the work result of Attachment was good, the Qliphoth Counter increased.애착 작업 결과가 좋음일 경우 클리포트 카운터가 상승하였다.</specialTip>
+      <specialTip openLevel="4" key="4">Committing work with an employee with less than 3 Fortitude increased the amount of PE-Boxes produced. Doing this results in $0 "feeding" off of the employee(Referred to as O-01-34-1), increasing their Movement Speed and Attack Speed for the day.</specialTip>
+      <specialTip openLevel="5" key="5">Committing Attachment work higher than rank 4 with an employee with more than 4 Fortitude increased the amount of PE-Boxes produced. $0 fed off of these employees as well.</specialTip>
+      <specialTip openLevel="6" key="6">$0 starts with 3 'Blood' at the start of the day. 1 'Blood' is gained when $0 fed off of an employee, and 1 'Blood' is lost every minute. When 'Blood' fell to 0, the Qliphoth Counter dropped to 0. The same happened when 'Blood' reached 5. The wine glass it holds changes appearance depending on how much 'Blood' it has.</specialTip>
+      <specialTip openLevel="7" key="7">When the Qliphoth Counter reached 0, O-01-34-1 changed into ████████ Those killed by $0 or ████████ turned into ████.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

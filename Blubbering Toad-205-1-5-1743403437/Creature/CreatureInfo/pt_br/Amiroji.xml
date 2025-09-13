@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156511">
+
+
+
+    <narration action="move">
+      #0 está a caminho para a Unidade de Contenção de "$0" para começar o processo de trabalho.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 está chorando.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {O estômago do $0 começou a crescer ,  #0 se assustou um pouco.},
+      {Mas nada aconteceu.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 foi atingido por tristeza após ouvir $0 chorar.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-01-23-04</codeNo>
+      <portrait openLevel ="1">Custom/Amiroji_portrait</portrait>
+
+      <name openLevel ="1">
+        Sapo Choroso
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>"Como posso fazer pra que pare de chorar?"</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Existe um conto sobre a "lendária" criatura conhecida como o sapo choroso, é dito que estourar seus olhos fará alguma coisa bizarra acontecer.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Um dia, um guerreiro ouviu do conto e foi para a caverna do Sapo Choroso para desafiar essa criatura misteriosa. Depois de uma luta feroz, o guerreiro finalmente conseguiu estourar os olhos do sapo choroso.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {De repente, o estômago do sapo começou a pulsar como se sugasse o ar. Seus grandes olhos encharcados com lágrimas azuis. Então o sapo abriu sua boca, envolvendo toda a caverna com uma aura obscura.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {O guerreiro percebeu que acabou iniciando o "evento bizarro" o conto mencionou. Ele é atingindo por um sentimento de pânico repentinamente, e rezou em silêncio para que qualquer coisa que fosse acontecer pra terminar em segurança.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {O Sapo Choroso começou a chorar, suas lágrimas caíram como chuva, e toda a caverna era preenchida com tristeza e mágoa. O guerreiro que presenciou esta cena sentiu imensa tristeza em seu coração.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {“Como posso fazer pra que pare de chorar?”}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">Contador Qliphoth de "$0" reduz quando o trabalho era ruim, o contador de "$0" também tinha uma pequena chance de reduzir após um resultado normal.</specialTip>
+      <specialTip openLevel="1" key="1">"$0" Odeia trabalhos de instinto e repressão. Depois de terminar um trabalho com "$0", o funcionário recebe seu presente. Quando o resultado de trabalho era "excelente", "$0" restaurava PS de todo mundo na instalação.</specialTip>
+      <specialTip openLevel="2" key="2">"$0" irá "escapar" se seu contador chegar a zero. No entanto, o sapo só permanecerá em sua unidade de contenção chorando.</specialTip>
+      <specialTip openLevel="3" key="3">"$0" é extremamente resistente a todos os danos, exceto pálido.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

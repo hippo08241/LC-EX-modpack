@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="TearsBottle_weapon_name">Eyegouger</text>
+  <text id="TearsBottle_weapon_desc">All she could do was lie on the ground and peer below the door with one eye. She couldn't bear passing by that place. She fell to her knees and starting sobbing again. "Dear, crying again? Stop! Quit crying!" but by then, the tears had already formed a pool at her feet.</text>
+  <text id="TearsBottle_weapon_specialDesc">Damage increases by 4 if employee has E.G.O GIFT</text>
+  <text id="TearsBottle_gift_Desc">SP+8</text>
+  <text id="Titania_weapon_name">Midsummer</text>
+  <text id="Titania_weapon_desc">“I shall rid you of your pains. Be reborn as a flower.”</text>
+  <text id="Titania_weapon_specialDesc">Increases damage of Fairies. +1&#13;&#10;Gain an additional Fairy upon killing an Agent</text>
+  <text id="Titania_armor_desc">“Oberon...is it you? You who I long for so desperately?”</text>
+  <text id="Titania_armor_specialDesc">Fairies appear around their body, which deals additional damage when attacking a single target.</text>
+  <text id="Titania_gift_Desc">Movement Speed +6 Attack Speed +6</text>
+</localize>

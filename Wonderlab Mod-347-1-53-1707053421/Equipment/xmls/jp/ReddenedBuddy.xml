@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ReddenedBuddy_equip_name">隠れんぼ</text>
+<text id="ReddenedBuddy_weapon_desc">“また私を呼んでください……いつでも待っています。”</text>
+<text id="ReddenedBuddy_gift_desc">体力 + 6</text>
+<text id="ReddenedBuddy_weapon_specialDesc">攻撃速度:遅。 攻撃準備中に受けるREDダメージを減少</text>
+<text id="ReddenedBuddy_armor_desc">“ご主人様への私の心は…ただ赤い傷として残る。”</text>
+</localize>

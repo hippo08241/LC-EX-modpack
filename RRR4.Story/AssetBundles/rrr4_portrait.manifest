@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 4244637894
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a12ea4ae8f3fd56d9be15eb95ae82d84
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RRR4.Art/Export/portrait/RRRPortrait.png
+- Assets/RRR4.Art/Export/portrait/ReindeerPortrait.png
+- Assets/RRR4.Art/Export/portrait/RhinoPortrait.png
+Dependencies: []

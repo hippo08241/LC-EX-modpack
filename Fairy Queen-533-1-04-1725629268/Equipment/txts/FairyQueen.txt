@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="191988" type="weapon">
+    <name>FairyQueenWeapon_name</name>
+    <desc>FairyQueenWeapon_desc</desc>
+    <specialDesc>FairyQueenWeapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_FairyQueenWeapon</specialWeaponAnim>
+    <sprite>Censored_FairyQueenWeapon</sprite>
+
+	<require type="W">4</require>
+	
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+	
+    <damage type="R" min="1" max="1">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+
+    <range>5</range>
+
+    <script>FairyQueenWeapon</script> 
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.3</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="191990" type="armor">
+    <name>FairyQueenWeapon_name</name>
+    <desc>FairyQueenarmor_desc</desc>
+    <specialDesc>FairyQueenArmor_specialDesc</specialDesc>
+
+    <armorId>191990</armorId>
+	<require type="B">4</require>
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <script>FairyQueenArmor</script> 
+    <grade>4</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+ <equipment id="191989" type="special"> 
+    <name>FairyQueenWeapon_name</name>
+    <desc>FairyQueen_gift_desc</desc> 
+    <attachPos>head</attachPos> 
+    <attachType>add</attachType>
+    <bonus>
+      <hp>3</hp>
+      <sp>3</sp>
+      <movement>2</movement>
+    </bonus>
+    <sprite>FairyQueenGift</sprite>
+  </equipment>
+</equipment_list>

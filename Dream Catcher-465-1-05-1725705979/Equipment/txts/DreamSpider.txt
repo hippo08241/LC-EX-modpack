@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="676010" type="special"> 
+    <name>DreamSpider_gift_name</name>
+    <desc>DreamSpider_gift_desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>DreamSpider_gift</sprite>
+</equipment>
+
+<equipment id="676001" type="weapon">
+    <require type="B">3</require>
+    <name>DreamSpider_weapon_name</name>
+    <desc>DreamSpider_weapon_desc</desc>
+    <specialDesc>DreamSpider_weapon_specialDesc</specialDesc>
+    <weaponClassType>rifle</weaponClassType>
+    <sprite>DreamSpider_sprite</sprite>
+    <animation>Attack1</animation>
+    <damage type="W" min="5" max="9">
+      <soundInfo type="damage">Weapons/rifle</soundInfo>
+    </damage>
+    <range>25</range>
+    <script>DreamSpiderWeapon</script>
+    <maxNum>2</maxNum>
+    <attackSpeed>1</attackSpeed>
+    <grade>4</grade>
+</equipment>
+
+<equipment id="676011" type="armor">
+    <name>DreamSpider_weapon_name</name>
+    <no>DreamSpider_armor_no</no>
+    <desc>DreamSpider_armor_desc</desc>
+    <specialDesc>DreamSpider_armor_specialDesc</specialDesc>
+    <armorId>676011</armorId>
+    <require type="B">3</require>
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <script>DreamSpiderArmor</script>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+</equipment>
+
+</equipment_list>

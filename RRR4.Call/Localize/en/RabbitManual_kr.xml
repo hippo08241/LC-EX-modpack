@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>
+  <!--UI-->
+  <text id="Rabbit_Manual_Title">- R Corp. 4th Pack Usage Manual -</text>
+  <text id="Rabbit_Manual_Day">1. R Corp's 4th Pack can be called once per day.</text>
+  <text id="Rabbit_Manual_MaxSefira">2. R Corp's 4th Pack can be called to a maximum of 4 departments at once.</text>
+  <text id="Rabbit_Manual_MaxCount">3. A maximum of 32 Rabbits and Reindeer, and a maximum of 16 Rhinos will be called.</text>
+  <text id="Rabbit_Manual_Cost">4. The facility must provide a percentage of its current energy in increments of 25% for each department designated. If all 3 teams are designated, then 30% of energy will be paid.</text>
+  <text id="Rabbit_Manual_Command">5. In whichever departments R Corp's 4th Pack are called, R Corps's 4th Pack captains will assume all command, not the manager.</text>
+  <text id="Rabbit_Manual_Clear">6. R Corp's 4th Pack will automatically withdraw when no hostile entities remain in the department.</text>
+  <text id="Rabbit_Manual_Panic">- The department to which R Corp's 4th Pack is called will be completely sealed and blocked off; all employees currently in the department will immediately panic.</text>
+</localize>

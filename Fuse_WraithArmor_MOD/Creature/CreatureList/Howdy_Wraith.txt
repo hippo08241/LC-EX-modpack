@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+ <creature name="Wraith" src="Wraith" id="100055">
+    <stat>Wraith_stat</stat>
+  </creature>
+
+</creature_list>

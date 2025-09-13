@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Dead End Answer_armor_name">Тупик</text>
+<text id="Dead End Answer_armor_desc">Тяжелые доспехи сделаны чрезвычайно прочными, чтобы защитить «ответ».
+Те, кто цепляется за этот «ответ», скорее всего, окажутся в тупике.</text>
+<text id="Dead End Answer_armor_specialDesc">Скорость передвижения и атаки значительно уменьшается.
+при ношении Э.П.О.С. дара от аномалии "Мертвый ответ", сопротивления повышаются.</text>
+<text id="Dead End Answer_weapon_name">Тупик</text>
+<text id="Dead End Answer_weapon_desc">Для них это, несомненно, был ответ. Однако он не был полным.
+Вот и все.</text>
+<text id="Dead End Answer_weapon_specialDesc">Понижает получваемый носителем урон на 60%.
+Также, вовремя подавления, понижает получаемый урон сотрудниками и аномалиями находящимися за спиной владельца на 30%.
+
+При ношении полного Э.П.О.С. комплекта, сопротивления Красному урну повышаются.
+</text>
+<text id="Dead End Answer_gift_name">Тупик</text>
+<text id="Dead End Answer_gift_desc">Hp +14, Sp +14, Скорость передвижения -10, Скорость атаки -10</text>
+</localize>

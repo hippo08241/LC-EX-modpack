@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101118">
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="start">
+      [
+      {$0が数字を数えます。 一, 二, 三, 四…}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 は鼻歌を歌いながらタングルの髪をとかします。}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0 職員は $0の髪を結ぶか、編むか悩みます。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {$0 は #0 と過ごした時間を覚えています。}
+      ]
+    </narration>
+
+    <narration action="Bald_code_start">
+      [
+      {$0の表情から悲しみがにじみ出ています…}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid1">
+      [
+      {#0 職員は $0を慰めてみようと試みます。}
+      ]
+    </narration>
+    
+    <narration action="Bald_code_mid2">
+      [
+      {$0を見ていると、 #0 職員には髪の毛が無いので冬は寒そうだと思います}
+      ]
+    </narration>
+
+    <narration action="Bald_code_mid4">
+      [
+      {特異点でも解決できない問題があると #0 職員は考えます}
+      ]
+    </narration>
+
+    <narration action="Bald_start">
+      [
+      {なめらかな表情からは悲しみがにじみ出ています}
+      ]
+    </narration>
+
+    <narration action="Bald_mid1">
+      [
+      {#0 職員はつるつるを慰めようと試みます}
+      ]
+    </narration>
+    
+    <narration action="Bald_mid2">
+      [
+      {つるつるを見ながら #0 職員は、髪の毛がないので冬は寒そうだと思います}
+      ]
+    </narration>
+
+    <narration action="Bald_mid4">
+      [
+      {特異点でも解決できない問題があると #0 職員は考えます}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-118</codeNo>
+      <portrait openLevel ="1">Custom/Tangle</portrait>
+
+      <name openLevel ="1">
+        タングル
+      </name>
+      
+      <specialName openLevel ="1">
+        つるつる
+      </specialName>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>その長い髪を下ろして。 この地獄から脱出できるように。</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {きらびやかな黄金色の髪を持つアブノーマリティ、一見するとボールのように見える。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {観察の結果、F-01-118は職員と一緒に過ごした時間を計ることが確認された。 ただ、何のための時間なのか具体的に確認されていない。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {観察の結果、F-01-118は自分の頭を大切にしているようだ。 丁寧に髪を整えるほど管理効率が高いことを確認することができた。 また、自分を親切に思う職員に友好的な態度を見せ、反対に近付かなかったり、行動を制限したりする職員には攻撃的な態度を見せた。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {観察の結果、F-01-118の友好的な態度は脱出のための工作であったことが確認された。 F-01-118が脱出を頼んだ職員に制圧されると、F-01-118は最初からまた時間を計り始めた。&#13;&#10;しかし、職員がタングルの制圧に失敗した場合にも、タングルはついに脱出できなかった。}
+      ]
+    </desc>
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">愛着作業の結果が良好で、非常に低い確率でクリフォトカウンターが減少した</specialTip>
+      <specialTip openLevel="2" key="2">本能作業の結果が良好で、極めて低い確率でクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="3" key="3">抑圧作業を行うと、$0のクリフォトカウンターが減少した.</specialTip>
+      <specialTip openLevel="4" key="4">$0のクリフォトカウンターが0になると、収容室の職員を攻撃して脱出を試みた。 しかし、職員の勝敗とは関係なく、$0は脱出しなかった。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

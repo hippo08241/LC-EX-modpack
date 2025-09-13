@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="27003">
+
+
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {啊啊啊……终于……！终于呼唤我们了！！！},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-93-01</codeNo>
+      <portrait openLevel ="1">Custom/BlueStar_Altar</portrait>
+
+      <name openLevel ="1">
+        蓝星祭坛
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>终有一日，我们会回归那个地方，这是我们与生俱来的本能。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {这是一个通体灰暗的古老石雕像，其外观与记录在案的异想体O-03-93&#13;&#10;十分相似。经过研究，它曾被用于祭祀用途。}
+      ]
+    </desc>
+   <desc id="2" openLevel="2">
+      [
+      {接触过这个异想体的员工都听到了古怪的，遥远的呼唤。}
+      ]
+    </desc>
+   <desc id="3" openLevel="3">
+      [
+      {“收容单元里静得可怕，祭坛不停地闪烁蓝光，我听到了......&#13;&#10;听到了无尽的......充满思念的呼唤......”}
+      ]
+    </desc>
+   <desc id="4" openLevel="4">
+      [
+      {精神强度较低的员工会受到这种声音的影响，表现出异常的行为模式，&#13;&#10;受到影响较深的员工甚至会改变外在的体征。}
+      ]
+    </desc>
+  <desc id="5" openLevel="5">
+      [
+      {！！！警告：不应让精神评估结果较差的员工接触该异想体！！！}
+      ]
+    </desc>
+
+
+
+
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">该异想体会持续吸收使用员工的精神值作为祭品，同时为设施内所有精神值不足70%的职员恢复精神，
+设施内收容O-03-93时恢复量翻倍。</specialTip>
+      <specialTip openLevel="0" key="0">如果使用时间低于20秒或超过40秒，该异想体会直接吸收使用员工的全部精神值，
+并为本部门内的员工恢复50点精神值，自律或谨慎等级四级以下的员工使用时将会立刻恐慌。</specialTip>
+      <specialTip openLevel="0" key="0">该异想体每吸收50点精神，O-03-93的计数器将会加一。</specialTip>
+      <specialTip openLevel="0" key="0">同一融毁等级内受该异想体恢复超过80点精神值的员工将会恐慌。</specialTip>
+      <specialTip openLevel="0" key="0">超过130秒未使用或因该异想体陷入恐慌的职员累计超过5名时，O-03-93将会降临。
+当此情况发生时，可以选择一名员工进行献祭。成功进行5次献祭后，O-03-93将会离开。</specialTip>
+    </specialTipSize>
+  </observe>
+	
+  <child>
+    <name>新星之影</name>
+    <codeId>O-03-93-01-1</codeId>
+  </child>
+
+</creature>

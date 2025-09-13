@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="Depression_Weapon_Name">満身創痍</text>
+  <text id="Depression_Armor_Desc">この防護服はすべての精神攻撃を防ぐ······願わくば。</text>
+  <text id="Depression_Armor_spDesc">受けたダメージはすべてWHITEダメージに変換される。受けたWHITEダメージが200に達すると死亡する。</text>
+  <text id="Depression_Weapon_Name">手首断ち</text>
+  <text id="Depression_Weapon_desc">手首を切るためのナイフ······鋭いので、あなたの動脈に当てて、切ってください</text>
+  <text id="Depression_Weapon_spDesc">攻撃時、自身に3ポイントのWHITEダメージを与える</text>
+</localize>

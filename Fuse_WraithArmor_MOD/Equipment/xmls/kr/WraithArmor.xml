@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Wraith_armor_name">회절</text>
+<text id="Wraith_armor_desc">이 E.G.O를 보기 위해서는 강한 집중력이 요구된다.&#13;&#10;마음의 눈으로 봐야 한다는 말도 안 되는 조언 따윈 무시해도 좋다.&#13;&#10;안 보이는 만큼 주의를 요해야 하는 것은 당연할 것이다.&#13;&#10;&#13;&#10;꽤 적지 않은 직원들이 착용자를 보고 기절하는 경우가 많았다.</text>
+<text id="Wraith_armor_specialDesc">WAW 등급 이하의 적대 개체에게 공격받을 시 10% 확률로 데미지 회피</text>
+</localize>

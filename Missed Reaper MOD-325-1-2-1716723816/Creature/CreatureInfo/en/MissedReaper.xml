@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="123444">
+
+
+	  <narration action="move">
+		  #0 enters $0's containment unit to begin work.
+	  </narration>
+	  <narration action="start">
+		  [
+		  {#0 feels a sense of bliss as they enter the containment room.},
+		  {#0 is looking at the child next to $0 with great affection.},
+		  {#0 hardly keeps themselves from walking towards the child.},
+		  ]
+	  </narration>
+
+	  <narration action="mid1">
+		  [
+		  {The joy and pain of the child will be the bliss and sorrow of #0.},
+		  {Even then #0 can do nothing but watch.},
+		  {The child is merely a lure used by $0 to hunt.},
+		  ]
+	  </narration>
+	  <narration action="mid2">
+		  [
+		  {#0 struggles to contain the longing they feel for the Child.},
+		  {The more the child suffers, the more #0's will weakens.},
+		  {#0 will miss the child after finishing their work.},
+		  ]
+	  </narration>
+	  <narration action="mid3">
+		  [
+		  {Only the hardiest of souls can escape the clutches of $0 after being hunted.},
+		  {#0 has a strong soul, but they would love to stay by this child's side forever.},
+		  ]
+	  </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-13</codeNo>
+      <portrait openLevel ="1">Custom/MissedReaper</portrait>
+	  <portrait openLevel ="4">Custom/MissedReaper2</portrait>
+
+      <name openLevel ="1">
+      Missing Child
+      </name>
+
+	  <name openLevel ="4">
+	  Missed Reaper
+	  </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>"I’m sorry to ask this but… Can you take me to that room again, please?"</openText>
+    
+    </collection>
+
+<desc id="1" openLevel="0">
+      [
+      {An abnormality in the shape of a giant lamp emitting a hazy light. Beneath the lamp is an unidentified entity in the form of a child.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Each employee who entered the containment unit recounted a different story. The child's hair could be either blonde or black. Some claimed the child was a girl while others said it was a boy. There were varying opinions on the child's age and appearance. However, what was consistent across all recounts was the same tone of longing. This longing was so palpable that it could not be concealed and was evident in every story.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+		[
+		{
+		&lt;Excerpt from «Counseling Transcript 01-13-7»: &gt;&#13;&#10;&#13;&#10;"Have you ever missed something, Manager? I have.&#13;&#10;&#13;&#10;Long before joining the company I had a child. &#13;&#10;&#13;&#10;(interruption)&#13;&#10;&#13;&#10;One day, I was holding their hand while running through the streets, but when I turned to look at them, they were gone, I had unconsciously let go of their hand.  Unfortunately, this is a common occurrence in this city, countless stories of parents losing their children."}
+        ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {"I know the child inside that unit is not mine, because they died the day I let go of their hand."&#13;&#10;&#13;&#10;"However, Sir, knowing and accepting are two distinct things, very distinct things."&#13;&#10;&#13;&#10;"A welfare employee informed me that my mental distress was approaching the threshold, so I comprehend your decision. If I were to return there, I would become overwhelmed and susceptible to the same fate as countless employees before me."&#13;&#10;&#13;&#10;"But like I said, knowing is not the same as accepting."&#13;&#10;&#13;&#10;"Ever since that day, I couldn't stop thinking about it, I should’ve said, ‘I’m sorry that I let go of your hand’ and apologized, even if it didn’t mean anything."&#13;&#10;&#13;&#10;&#13;&#10;"I’m sorry to ask this but… Can you take me to that room again, please?"}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {She went into the containment room to never come back.&#13;&#10;&#13;&#10;She could only gaze at the child before her, until the reaper's hand grabbed her.&#13;&#10;&#13;&#10;And in her last moments she opened her mouth to say:&#13;&#10;&#13;&#10;"I’m Missin’ U."}
+      ]
+    </desc>
+    
+  <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">If the employee temperance is level 3 or lower, they will rush towards $0 as soon as they enter the room, then $0 will kill them.</specialTip>
+      <specialTip openLevel="2" key="2">If the SP points of the employee are depleted during work, they will rush towards $0 and then $0 will kill them.</specialTip>
+      <specialTip openLevel="3" key="3">$0 only likes repression work. (P. S, don't worry about the child-like figure next to $0 (known as $0-1), they don't affect the PE-BOX output).</specialTip>
+	  <specialTip openLevel="4" key="4">During repression work, $0-1 seemed to suffer great pain. This sight brought great sorrow to Gustav, making him receive excesive amounts of white damage on every PE-Box produced.</specialTip>
+	  <specialTip openLevel="5" key="5">Every time $0 produced a NE-Box during any work that was not repression, $0-1 seemed happy, and this sight restored Gustav sanity (Once again, $0-1 has nothing to do with the output of PE-Boxes).</specialTip>
+  </specialTipSize>
+	  <max>
+		  <!--최종관찰-->
+		  <desc id ="0" select="1">
+			  {Next to the reaper stands a child I don't recognize.}
+			  {Even though I've never seen them before, my breath caught in my throat the moment I saw them.}
+			  {I miss you... I miss you so much it makes my throat feel so tight...}
+			  {I don't recall, but I'm certain I missed him.}
+			  {Their words will brim with wisdom, and their smile will be the most beautiful on earth. I know it will be so, even subconsciously.}
+			  {I'm going to...}
+			  <!--계속-->
+		  </desc>
+
+		  <select id ="1">
+			  <node desc ="Reach out to them" target="1" isAnswer="true"/>
+			  <node desc ="Not reach out to them" target="2" isAnswer="false"/>
+		  </select>
+		  <desc id="1" select="0">
+			  {I had forgotten about the warnings by the time I walked in.}
+			  {The speakers in the management room behind me are loud, but not deafening.}
+			  {I reached out to the child.}
+			  {But the child turned their head away, averting their gaze from me.}
+			  {Even the Reaper is consistently ignoring me, as if I'm not even worth to hunt.}
+			  {"You're lucky to be alive, but the sight of them will cause you more pain than death."}
+		  </desc>
+
+		  <desc id ="2" select="0">
+			  [
+			  {Do I even deserve to reach out to them?}
+			  {It just didn't feel like the right time.}
+			  {Do they feel the same way?}
+			  {I was afraid that they would spew hatred and resentment towards me.}
+			  {There is still time to wash away my sins.}
+			  {So that I can smile and hold out my hand in front of them one day.}
+			  ]
+		  </desc>
+
+		  <!--스토리 파트에서 출력될 부분-->
+		  <angela>
+			  [
+			  {What did the child look like to you?}
+			  {And why did the child turn their face away from you?}
+			  {I think I understand, it's probably for the same reason I do.}
+			  {You have successfully completed the final observation of the Missed Reaper.}
+			  ]
+		  </angela>
+	  </max>
+  </observe>
+</creature>

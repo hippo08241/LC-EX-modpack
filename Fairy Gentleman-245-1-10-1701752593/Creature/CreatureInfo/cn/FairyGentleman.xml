@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156725">
+
+
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中。
+    </narration>
+
+    <narration action="start">
+      [
+      {“$0”的收容单元里总是散发着一股奇怪的味道。}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0觉得“$0”并不可怕。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {“$0”打着嗝。}
+      {“呕，真是熏得不行，但似乎又有点甜味。”}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-01-11-12</codeNo>
+      <name openLevel ="1">妖精绅士</name>
+      <portrait openLevel ="1">Custom/FairyGentleman</portrait>
+      <riskLevel openLevel ="1">TETH</riskLevel>
+      <openText>要来喝一杯妖精酒吗？</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {以下内容来源于某员工的笔记和语音记录
+尽管它比在这里的大部分家伙友善的多，甚至还站在那里冒着臭气泡泡打招呼，又招呼着人坐下，但当它递出那个像腐烂的绿茶果冻里面也许还浮着几个人眼珠的的不可名状物体时我还是犹豫了。（为什么我描述的如此仔细？因为这天杀的东西进过我的嘴里。）
+不，这并不是员工聚会上的恶作剧，这是我日常工作中的一个小插曲。至于我是如何喝下这堆东西的……我曾幻想过这坨发霉的绿色抹茶蛋糕也许会和那个汽水机里面的紫色汽水一样能把我带离（粗口）的公司和巢让我活得更自在一些，但是，我说但是，真的就什么都没发生——除了身上的伤愈合了之外，以及那东西的味道居然还不错。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {——你不会还想喝那东西吧。
+——滚…
+讲真不管是那个东西还是那个……“绅士”都实在是臭得……呕，不行了。
+啊，但是回想一下的话，那也不完全是奇怪的味道。
+应该说那是……甜到过分的味道？我的鼻子都要被熏坏了。
+总之，就是很奇怪的感觉。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {也许我应该换个方面了……喝下“妖精酒”之后并没有想象中的翻江倒海……反而……很兴奋？呃，大概就是喝了许多能量饮料那种，别人的动作都出现虚影了。我本来体力很差的但是今天几个部门来回跑都没大喘气……咕……再来一杯！}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {这次搞砸了……嗝……刚才又去收……收蓉见喝九的时候……给打翻在地上了……好可惜……呕……（笔记内容被呕吐物覆盖）
+另注：该员工已从“最佳员工”评选榜单中移除，望各位引以为戒。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {过量饮酒有害健康。——脑叶公司A.I.Angela宣}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">每日首个完成对“$0”的工作且结果为优的员工，工作结束后将获得5层“鼓舞”。</specialTip>
+      <specialTip openLevel="1" key="1">工作结束时，根据工作结果的不同使员工获得不同层数的“鼓舞”，同时恢复生命值。</specialTip>
+      <specialTip openLevel="2" key="2">若自律低于3级或工作结果为差时，员工打碎了杯子，同时所有的“鼓舞”转化为“沉醉”。</specialTip>
+      <specialTip openLevel="3" key="3">若“$0”准备好了一份妖精酒，员工进入收容单元工作时会喝掉妖精酒并获得5层“沉醉”。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

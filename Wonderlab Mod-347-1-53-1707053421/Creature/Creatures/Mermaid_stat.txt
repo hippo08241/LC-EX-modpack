@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<creature>
+  <script>Mermaid</script>
+  <stat>
+    <riskLevel>6</riskLevel>
+    <maxWorkCount>21</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.45</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.55</prob>
+      <prob level="4">0.55</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.35</prob>
+      <prob level="2">0.35</prob>
+      <prob level="3">0.35</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.7</prob>
+      <prob level="2">0.75</prob>
+      <prob level="3">0.8</prob>
+      <prob level="4">0.95</prob>
+      <prob level="5">0.95</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.3</prob>
+      <prob level="3">0.1</prob>
+      <prob level="4">0.1</prob>
+      <prob level="5">0.1</prob>
+    </workProb>
+    <qliphoth>1</qliphoth>
+    <workCooltime>16</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>9</cube>
+      <cube>16</cube>
+      <cube>21</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="3" max="8" />
+    <workSpeed>0.3</workSpeed>
+   
+    <hp>1100</hp>
+    <speed>9</speed>
+     <observeInfo total="98">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="7" />
+      <observeElement name="work_w" cost="7" />
+      <observeElement name="work_b" cost="7" />
+      <observeElement name="work_p" cost="7" />
+      <observeElement name="care_0" cost="6" />
+      <observeElement name="care_1" cost="6" />
+      <observeElement name="care_2" cost="6" />
+      <observeElement name="care_3" cost="6" />
+      <observeElement name="care_4" cost="6" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+    <equipment level="3" cost="60" equipId="200539" />
+    <equipment level="3" cost="50" equipId="300539" />
+    <equipment level="4" prob="0" equipId="400539" />
+     <escapeable>true</escapeable>
+    <defense id="1">
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">1.2</defenseElement>
+    </defense>
+
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+  <sound action="default" src="creature/Yggdrasil/Tree_Default" />
+  <sound action="count" src="creature/nullthing/alertTick" />
+  <sound action="reload" src="creature/nullthing/SnipeReload" />
+  <sound action="shot" src="creature/nullthing/SnipeShot" />
+  <sound action="special" src="creature/AuthorNote/NoteBook_Start" />
+  <sound action="Attack" src="creature/MagicalGirl_2/MagicalGirl2_Attack" />
+</creature>

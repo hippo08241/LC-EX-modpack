@@ -1,0 +1,41 @@
+
+ladyinrain.png
+size: 5738,2164
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00002
+  rotate: false
+  xy: 2, 2
+  size: 3840, 2160
+  orig: 3840, 2160
+  offset: 0, 0
+  index: -1
+00003
+  rotate: true
+  xy: 3844, 242
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+OIP-C (1)
+  rotate: false
+  xy: 4926, 454
+  size: 474, 266
+  orig: 474, 266
+  offset: 0, 0
+  index: -1
+OIP-C (2)
+  rotate: false
+  xy: 4926, 186
+  size: 474, 266
+  orig: 474, 266
+  offset: 0, 0
+  index: -1
+puzzle
+  rotate: true
+  xy: 4926, 722
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1

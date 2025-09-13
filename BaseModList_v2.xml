@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModListXml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list>
+    <ModInfoXml>
+      <modfoldername>skillslave_ReturnAll_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Fuse_CensoredArmor_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Fuse_WraithArmor_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_Agent_Delete_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>BrBl_IsBossStartable_Mod</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>IBul_ChesedSay_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>RRR4.Call</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>RRR4.Story</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>smario_OfficerEnforce_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Wonderlab Mod-347-1-53-1707053421</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Train Ego Mod-14-1-0-1567717665</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>kygi123_Twilight_Remake</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_FirstError_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Manager_Officer_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_CensoredArmor_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Shape_of_Pain-432-1-1-3-1725542924</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>seta_Acacia_MOD-121-2-5-0-1688107288</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Harikjay_VendingMachine_MOD-666-1-0-4-1738847136</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>GmdMc01_ZivonosWarmMother_Translated_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Dream Catcher-465-1-05-1725705979</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Doomsday Calendar-223-1-12-1722507559</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Depression-468-1-08-1742573506</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>BronzeBull-262-1-2-1723371589</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Blubbering Toad-205-1-5-1743403437</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>A Call From the Hell-708-1-5-1740563697</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_WeaponErrorFix_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_LessEffect_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_EnforcePatch_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_DetailCheck_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_CheckBarrier_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_AgentList_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>BlacklightsC_GiftChanceBoost_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>kygi123_Sound_of_a_Star_Remake_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>IBul_WellcheersWeapon_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>kygi123_Confessed_Sin_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Fairy Queen-533-1-04-1725629268</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Toy Factory-213-1-32-1721873915</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Fairy Gentleman-245-1-10-1701752593</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>LCPD_Pinocchio-224-1-1-1721865887</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Beanstalk without Jack-422-1-5-1724760517</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_SilentPrice_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_LightsHammer_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_AuthorNote_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Missed Reaper MOD-325-1-2-1716723816</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Notify When Agent Receives Gift-487-1-1-1-1731465004</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Tool Abnormality Timer 1.0.1-654-1-0-1-1738803319</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>TBV_FourthTrumpetRestoration_MOD-439-v1-2-1733758667</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Answer-669-1-3-1736347336</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Judgement of Shamash-553-1-12-1729539481</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>IBul_Night_Work_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>OBMG Retexture-54-1-0-0-1579253789</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Meltdown And Hostiles Counter v1.0-582-1-0-1727492598</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>HP Heal Text Display 1.0.1-707-1-0-1-1737450688</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>IBul_OzCreature_MOD_BETA</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Department Captain Assigner 1.0.0-638-1-0-0-1732864303</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Salt Samurai-355-1-06-1724337403</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>I-1236 Branch 1-317-0-0-7-2-1709162648</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Floating Whale-267-0-3-1-6-3-1723389306</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>The Lady in Rain-519-1-08-1735514599</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Nail and Hammer-763-1-04-1753159751</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>MoreCodex-624-1-0-0-1732083768</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Main File-365-1-0-1707710717</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Dice Is Right-655-1-1-1-1735127179</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>abcdcode_ExtendConsole_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>NULL_ComfortableConsole_MOD_V11</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Triple abnormalities-545-1-0-1724335565</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Blue Star Altar-508-1-05-1725565298</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Persephone-709-1-4-1744911818</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>The Rose Stele of Revelation-722-1-5-1741666316</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Mussel Maiden-402-1-08-1754836261</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>The King in Binds-754-1-41-1753160818</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Good and evil-220-2-13-1739808142</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Energy Corp mod-362-1-5-11-1719152923</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Ambling Pearl-894-1-0-2-1756371086</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>HPBarStacking_MOD</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Mr.Hamster_SanJie_WeiMang_part1-644-2025-1-16-1737040748</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>AssemblyCSharp-294-1-0-1699608495</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>egogiftoptionsmod-865-1-0-1753018532</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Story Skip Button Add-912-1-0-1755829912</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+  </list>
+</ModListXml>

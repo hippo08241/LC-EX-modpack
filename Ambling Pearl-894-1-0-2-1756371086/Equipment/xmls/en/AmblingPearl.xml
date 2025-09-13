@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AmblingPearl_weapon1_name">Effervescent Corrosion</text>
+<text id="AmblingPearl_weapon1_desc">It's pretty sticky... You won't dodge this!</text>
+<text id="AmblingPearl_weapon1_specialDesc">When damage is inflicted, it inflicts damage to all hostile entities in the same space with a probability.</text>
+<text id="AmblingPearl_weapon2_desc">It'll sting~ It won't come off once you're cut.</text>
+<text id="AmblingPearl_weapon2_specialDesc">When inflicting damage, the wearer's HP is restored.
+If the wearer's HP is less than 50%, it damages any entities other than staff (not including clerks) in the same space at the time of the inflicted damage.</text>
+<text id="AmblingPearl_armor_desc">Hmm... Ach, yuck. Not even worth turning into a pearl!	</text>
+<text id="AmblingPearl_armor_specialDesc">When equipped with certain EGO weapons, O-02-21-11 appeared near the wearer and assisted the wearer's actions.</text>
+<text id="AmblingPearl_gift_desc">HP +2; SP +3; Success Rate +5; Work Speed +5</text>
+</localize>

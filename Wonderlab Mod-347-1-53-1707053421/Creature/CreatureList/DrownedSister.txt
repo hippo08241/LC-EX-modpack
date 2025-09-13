@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+<creature name="DrownedSister" src="DrownedSister" id="110012">
+    <stat>DrownedSister_stat</stat>
+  </creature>
+<creature name="ReddenedBuddy" src="ReddenedBuddy" id="110013">
+    <stat>ReddenedBuddy_stat</stat>
+  </creature>
+<creature name="BlueSmockedShepherd" src="BlueSmockedShepherd" id="110014">
+    <stat>BlueSmockedShepherd_stat</stat>
+  </creature>
+</creature_list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="BronzeBull_weapon_name">カポーテ</text>
+<text id="BronzeBull_gift_name">カポーテ</text>
+<text id="BronzeBull_gift_desc">体力+8</text>
+<text id="BronzeBull_armor_desc">「闘牛を生で見るのは人生で初めてで、これが最後になるはずだ。闘牛が単なるパフォーマンスではなく、本物の戦いだということを今まで知らなかった！死ね！牛！ナイーブすぎるよ。」</text>
+<text id="BronzeBull_weapon_desc">特殊攻撃時にペールダメージを与える。</text>
+</localize>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+<!--Weapon-->
+    <equipment id="226775" type="weapon">
+    <name>Gout_equip_name</name>
+    <!--<no>LongBird_weapon_no</no>-->
+    <desc>Gout_weapon_desc</desc>
+  <specialDesc>GoutWeaponSpecial_desc</specialDesc>
+
+    <weaponClassType>mace</weaponClassType>
+    <sprite>GoutW</sprite>
+
+    <require type="R">3</require>
+
+    <animation>Attack</animation>
+
+    <damage type="B" min="7" max="12">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+
+    <range>3.5</range>
+
+    <script>GoutWeapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+
+
+</equipment_list>

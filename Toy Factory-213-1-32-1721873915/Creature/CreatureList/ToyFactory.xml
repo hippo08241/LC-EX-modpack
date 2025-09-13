@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<creature_list>
+	<creature name="ToyFactory" src="ToyFactory" id="120001">
+		<stat>ToyFactory_stat</stat>
+	</creature>
+</creature_list>

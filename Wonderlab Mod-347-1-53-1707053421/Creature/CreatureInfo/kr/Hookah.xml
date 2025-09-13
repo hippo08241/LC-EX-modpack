@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100410">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 직원은 작업을 하며 몇번이나 정신을 차리려고 노력합니다.},
+      {$0는 펄럭펄럭 휘날리며 #0 직원을 관찰합니다. }
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0의 근처에 새로운 열매가 자라나고 있습니다.}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {#0 직원은 $0의 앞까지 가지만 결국 정신을 차리며 다시 돌아옵니다.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {열매는 이번에도 고통의 소리가 울려퍼집니다.},
+      {열매는 이번에도 절망의 소리가 울려퍼집니다.},
+      {열매는 이번에도 슬픔의 소리가 울려퍼집니다.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-10</codeNo>
+      <portrait openLevel ="1">Custom/Hookah</portrait>
+
+      <name openLevel ="1">
+        담배 벌레
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW	
+      </riskLevel>
+      <openText>너를 태워 나를 취하게 하고 날개를 피게 만드리.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {천장에 몇개의 열매가 매달려 있는 환상체.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {달려있는 열매는 누군가의 절망, 희생, 고통, 슬픔.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {생각이 많을 수록 더 아파하며, 기억하는게 많을 수록 더 슬퍼하며, 아는게 더 많을 수록 절망한다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {생각하지도, 기억하지도, 알지도 않았다면, 더 낫지 않았을까.}
+      ]
+    </desc>
+    
+  <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">유다 직원이 작업을 끝내자 우화 카운터 (이하 F-04-10-1)가 생기기 시작했다.</specialTip>
+      <specialTip openLevel="2" key="2">우화 카운터는 높은 단계의 억압 작업을 진행할 때는 쌓이지 않았다.</specialTip>
+      <specialTip openLevel="3" key="3">우화 카운터 (F-04-10-01) 가 있는 직원이 작업을 끝내자 우화 카운터의 모습이 변했다. 이를 (F-04-10-02)라고 정의했다.</specialTip>
+      <specialTip openLevel="4" key="4">우화 카운터(F-04-10-02)가 있는 직원이 작업을 끝내자 $0의 클리포트 카운터가 감소하였다</specialTip>
+      <specialTip openLevel="5" key="5">$0는 저등급 직원이 작업을 시작했을 때, 더 많은 PEBox를 생산하였다.</specialTip>
+      <specialTip openLevel="6" key="6">작업 중인 직원이 사망하자 $0의 클리포트 카운터가 감소하였다</specialTip>
+     </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {천장에 매달려 있는 열매들은 펄럭 펄럭 휘날리며 눈 앞에 움직인다.}
+{한 열매가 당신을 확인하자 모든 열매들이 당신을 가리키며 달려든다.}
+{당신은 날려오는 열매들을}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="가로 막는다." target="1" isAnswer="false"/>
+        <node desc="눈을 감는다." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {휘날리는 열매들을 손으로 가로 막는다.}
+{하지만 당신의 손을 뚫고 파고든다.}
+{알지 못했다면, 알지 못했던 고통.}
+{열매가 하나 더 매달리기 시작한다.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {아무런 신경도 안 쓰는듯이 눈을 감는다.}
+{아무런 충격도 없자, 당신은 조금씩 눈을 뜬다.}
+{움직이던 열매도, 천도 없이 언제나 같은 상황이다.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {귀여운 모습과 달리 정신착란을 시도하는 환상체라,},
+        {관리자님은 자신이 생각하는게 진실이라 생각하시나요?}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

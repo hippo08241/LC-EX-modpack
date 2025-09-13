@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="WhiteLake_weapon_name">Отброшенные Крылья</text>
+  <text id="WhiteLake_weapon_desc">Пара рваных крыльев, растёрзанные и разорванные чем-то</text>
+  <text id="WhiteLakeKnight_weapon_name">Меч Воина</text>
+  <text id="WhiteLakeKnight_weapon_desc"></text>
+  <text id="WhiteLake_armor_desc">Хоть крылья мои могут быть и разорваны,
+Но у меня всё ещё есть ноги и я продолжу идти дальше.</text>
+  <text id="WhiteLake_gift_desc">Шанс успеха +5, Скорость работы +5.</text>
+</localize>

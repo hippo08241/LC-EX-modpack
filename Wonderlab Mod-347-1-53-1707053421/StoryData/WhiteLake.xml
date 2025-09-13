@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+  <scene id="C_102177">
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/WhiteLake_1</speak>
+    <speak speaker="angela">custom/WhiteLake_2</speak>
+    <speak>custom/WhiteLake_3</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

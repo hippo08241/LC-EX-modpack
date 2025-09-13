@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142019">
+
+    <narration action="move">
+      #0 は収容室「$0」に割り当てられます
+    </narration>
+
+    <narration action="start">
+      [
+      {「$0」はここにあるだけで、何も動きません。}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {「$0」は応答しませんでした。}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {「$0」の背面にある表示灯が柔らかく光りました。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-240</codeNo>
+      <portrait openLevel="1">Custom/UnChild</portrait>
+
+      <name openLevel="1">「つながる」子どもたち</name>
+      <specialName openLevel="1">‰ø°Âè∑‰∏¢Â§±</specialName>
+      
+      <riskLevel openLevel="1">ZAYIN</riskLevel>
+
+      <openText>新しい世界への扉が開きます。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {接続する。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {この街に閉じ込められていた抜け殻が、ここで再び生命を取り戻す。 &#13;&#10;興味深く同じような魂がここに集まり、世界が現れます。 &#13;&#10;そして、接続します。 &#13;&#10;&#13;&#10;「皆さんこんにちは、私は...」}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {その子がここに到着します。空に。すぐに説明文を作成しました。 &#13;&#10;想いの流れを伝える窓。開ける。そして子供は短い休息を得ました。荒野で。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {障壁は打ち砕かれた。一瞬で崩壊した。 &#13;&#10;この世界は壊れやすく、とても奇妙です。 &#13;&#10;ほんの一定量の悪意が散らばり、打ち倒され、砕け散る。これらすべて。 &#13;&#10;—空が砕け散りました。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {私たちの一人が、廃墟となった絵画スタジオ、またはそれ以上のものを発見しました。壁にはガラスの柱を囲み、灰色、黒、焦げた色などの無数の絵画が掛けられています。}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {——しかし、上を向いてください。華やかな色彩が天井を彩る、見たこともない不思議な光景を描いた絵画。 &#13;&#10;ここはどんな世界だったのでしょうか？}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">「$0」は、作業結果が良好な場合、職員間のつながりを構築します。職員が損害を受けた場合、その損害の一部は、その職員と関係がある職員の間で共有されます。</specialTip>
+      <specialTip openLevel="2" key="2">異なる接続に属する 2 人の職員間で接続が確立されると、2 つの接続セットがマージされます。</specialTip>
+      <specialTip openLevel="2" key="3">「$0」の抑圧作業が完了すると、前回確立した接続は解除されます。連絡先を確立した「職員」が死亡した場合、それまでの接続先をすべて撤回することはできません。</specialTip>
+      <specialTip openLevel="2" key="4">「$0」では、限られた数の接続を作成できます。過剰な接続を確立しようとすると、接続されていたすべての職員が「切断」されます。このとき、「$0」の作業が完了すると、接続を確立した職員全員が即座にパニックとなり、接続状態がリセットされます。</specialTip>
+      <specialTip openLevel="2" key="5">「$0」はクリフォト暴走の影響を受けません。</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

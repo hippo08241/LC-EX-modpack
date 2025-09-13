@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122222">
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+    <narration action="start">
+      [
+      {Employee #0 stares into the transparent bottle.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {The sweet scent filling the Containment Cell makes employee #0's stomach rumble.},
+      {$0 reacts not, sloshing with Saline.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-07-25</codeNo>
+      <portrait openLevel ="1">Custom/TearsBottle</portrait>
+
+      <name openLevel ="1">
+       Bottle of Tears
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+      <openText>Drown in the tears of your own.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {A bottle filled with a saline solution, corked with cake.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {When Employee Finn consumed the cake, the bottle shattered, filling the Containment Cell with water.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Employee Finn's body continously expanded and shrak.
+After a short period, the water disappeared and Employee Finn exited the Containment Cell.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {A broken heart was pinned on employee Finn's heart.
+Those who covet the Bottle of Tears shall drown in tears of their own.}
+      ]
+    </desc>
+    
+     <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">Committing Attachmeent work with the Bottle of Tears showed the best energy results.</specialTip>
+      <specialTip openLevel="2" key="2">When the result of Instinct work was Good, the bottle shattered and filled the Containment Cell with water.</specialTip>
+      <specialTip openLevel="3" key="3">If an employee has its E.G.O. Gift, $0 did not produce any energy during Instinct work.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

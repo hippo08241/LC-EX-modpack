@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="500101">
+
+
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 makes the whole room smell like salt...},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 gets a taste of $0. Disgusting! It's overwealmingly salty!},
+      {#0 heard that $0's salt can also cure more than meat.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 sits on his knees and doesn't move a muscle.},
+      {#0 is getting dehydrated.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-05-61</codeNo>
+      <portrait openLevel ="1">Custom/salt_portrait</portrait>
+
+      <name openLevel ="1"> Salt Samurai</name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>Salt crystals, weak but indestructible, are used to bring souls to peace during the time of war.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Once upon a time, there was a warrior known as the Salt Samurai. The story begins on the battlefield, a place where brave men are honed by blood and fire. The ancient motto, "Death before dishonor", has been passed down for thousands of years and resonates through the clouds and skies. Every soldier, before enlisting in the army, is familiar with it, vowing to spill their blood and win the glory only found on the battlefield.
+However, victory is expensive. A victory often requires the corpses of countless warriors, and the reward for those lucky enough to survive is nothing more than a ticket to a new battlefield. And so people have always wondered, what is the key to victory? Is it impenetrable armor, or a sharp sword?}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {However, the real miracle does not come from the sharpness and sturdiness of the equipment, but from crystallized fine salt. In the vast land of the battlefield, wounded and disabled soldiers are sterilized and treated with salt, and this care and warmth is as precious a reward as victory.
+During the war, soldiers charge bravely on the blood-soaked battlefield without having to think of alternatives. The courage of a man will eventually lead to destruction on this bloody battlefield. This seems to have become a predestined fate, as human beings continue to pursue victory while planting the seeds of destruction in the midst of victory.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {However, it was really at this point that the Salt Samurai came into their own. From time to time, the general and his soldiers pondered a way to break out of an enemy blockade. However, thanks to the gift of friends, the salt crystal warriors brought a way out of the blockade. They no longer have to rack their brains to break through the enemy blockade, because the bridge of friendship and care, salt, has opened the way for them.
+The existence of the Salt Warriors became a miracle, and the generals and soldiers felt the beauty of humanity. They learned that in war there is not only the grimness of life and death, but also the presence of warmth and care. Courage is not the only path, the warmth of friendship and camaraderie may be the only hope on the cold battlefield.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {However, truly under the leadership of the Salt Warriors, the soldiers rediscovered the meaning of the battlefield. They no longer chased after a single glory, but felt the value of life under the protection of friendship. This transmission of care even turned the bitter conflict between enemy and enemy into a state of friendship.
+However, the wheel of history does not always roll forward. In war, victory is always accompanied by great sacrifices, and friendship and warmth seem so fragile behind such. It is hard to escape the destiny of destruction that all soldiers one day meet.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {However, in the midst of a great battle, the generals and soldiers belonging to the Salt Samurai were caught under a heavy enemy blockade. Despite the friendship and gifts that had once brought them much help, at that moment, the enemy's siege had put them in a predicament where they were unable to break out.
+At this moment, the Salt Samurai felt so small, without his warriors at his side. Their friendship, warmth and care were made insignificant in an instant. The courage of a man is like a drop in the ocean in front of the war; even if there is a lot of love and care it can not change the cruel reality of war, nor could it change the blood executions that followed their capture.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {The general and his soldiers tried their best to break through the enemy's blockade. However, they were never able to break through, and in the end, were captured by the enemy. The courage of the enemy pikemen was not something to be overcome through camaraderie alone.
+In this battle, the light of friendship represented by the Salt Warriors was extinguished at the last moment. Their efforts had brought some warmth to the soldiers, but the warmth seemed so fragile in front of the gigantic machine of war.
+"Death before dishonor", this ancient dictum, was finally verified on the battlefield. The glory of victory is always accompanied by great sacrifices, and the sparks of friendship and care have burned away in the fire of war.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="nope">An employee who completes work on $0 received a blessing. That employee will be referred to as T-05-61-1.</specialTip>
+      <specialTip openLevel="1" key="nope">The blessing had an effect on T-05-61-1 when they were ordered to suppress an Abnormality two or more levels below their level.</specialTip>
+      <specialTip openLevel="2" key="nope">The bless also had an effect on T-05-61-1 when they were ordered to suppress an Abnormality two or more levels above their level.</specialTip>
+      <specialTip openLevel="3" key="nope">T-05-61-1 took a small amount of WHITE damage for each attack in combat due to the indignity of bullying an Abnormality whose danger level is two below their own.</specialTip>
+      <specialTip openLevel="4" key="nope">T-05-61-1 healed a small amount of SP for each attack in combat due to the heartiness of battle against an Abnormality whose danger level is two above their own.</specialTip>
+      <specialTip openLevel="5" key="nope">*Research Record* T-05-61-1, when attacking an Abnormality two levels above them, dealt extra damage with each attack when strengthened by $0, and gained a small amount of lifesteal.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

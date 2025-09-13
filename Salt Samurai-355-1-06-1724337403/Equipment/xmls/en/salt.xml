@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="salt_weapon_name">Vishvamitra</text>
+<text id="salt_weapon_desc">A samurai's sword should not be stowed away in a sheath, but in one's soul.</text>
+<text id="salt_weapon_specialDesc">When the target of the attack is WAW rank or higher, 1 point of damage from each of the four attributes is added to the attack.&#13;&#10;&#13;&#10;An additional point of damage is added if the target is ALEPH level.&#13;&#10;&#13;&#10;This weapon's additional damage can benefit from the Salt Samurai's blessing.</text>
+<text id="salt_gift_name">Vishvamitra</text>
+<text id="salt_gift_desc">Movement Speed+2，Attack Speed+2</text>
+<text id="salt_armor_name">Vishvamitra</text>
+<text id="salt_armor_desc">Bushido is about facing death with honor. In the face of crisis, one must make the right decision, and go to their death with pride.</text>
+<text id="salt_armor_specialDesc">While attacking, if the wearer's HP is below 20%, their next attack will deal 100 points of RED damage to the attacker and theirself.</text>
+</localize>

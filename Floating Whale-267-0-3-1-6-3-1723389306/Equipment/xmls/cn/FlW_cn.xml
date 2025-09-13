@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="FlW_weapon_name">巨人观</text>
+  <text id="FlW_weapon_desc">糜烂的腐臭充盈着庞然大物般的身体。&#13;&#10;那些肮脏的血肉吸引着苍蝇与好奇的孩子们。&#13;&#10;没人敢再此停留，他的身份随着时间正逐渐腐烂。</text>
+
+  <text id="FlW_armor_name">巨人观</text>
+  <text id="FlW_armor_desc">糜烂的腐臭充盈着庞然大物般的身体。&#13;&#10;染上迷幻色彩的大海逐渐传出无人听闻的悲鸣。&#13;&#10;我们终将随着时间一起溃败，这是来自工业之下的异化噩梦。</text>
+  
+  <text id="FlW_gift_name">巨人观</text>
+  <text id="FlW_gift_desc">最大生命值+8 工作成功率-2 工作速度-2</text>
+</localize>

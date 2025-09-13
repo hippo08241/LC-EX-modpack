@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="10654330" type="weapon">
+    <name>NailAndHammer_weapon_name</name>
+    <desc>NailAndHammer_weapon_desc</desc>
+    <specialDesc>NailAndHammer_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SamuraiWeapon_NailAndHammer</specialWeaponAnim>
+    <sprite>RedHood_NailAndHammer</sprite>
+
+    <require type="P">3</require>
+
+    <animation>Attack1</animation>
+    <animation>No_Attack</animation>
+
+    <damage type="R" min="4" max="6">
+    </damage>
+    <range>3</range>
+
+    <script>NailAndHammer_Weapon</script>
+    <maxNum>2</maxNum>
+
+    <attackSpeed>0.67</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+  <equipment id="10654331" type="armor">
+    <name>NailAndHammer_weapon_name</name>
+    <desc>NailAndHammer_armor_desc</desc>
+　　<specialDesc>NailAndHammer_armor_specialDesc</specialDesc>
+
+    <require type="P">2</require>
+	
+    <armorId>10654331</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+
+    <script>NailAndHammer_Armor</script>
+
+  </equipment>
+  <equipment id="10654332" type="special">
+    <name>NailAndHammer_weapon_name</name>
+    <desc>NailAndHammer_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <movement>8</movement>
+      <attackSpeed>8</attackSpeed>
+      <workProb>-6</workProb>
+      <mental>-4</mental>
+    </bonus>
+    <sprite>10654332</sprite>
+  </equipment>
+  
+</equipment_list>

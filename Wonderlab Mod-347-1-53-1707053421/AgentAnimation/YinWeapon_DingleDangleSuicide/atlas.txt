@@ -1,0 +1,251 @@
+
+Agent.png
+size: 1776,762
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 1363, 632
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 1224, 469
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 1330, 89
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 1460, 33
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 1454, 588
+  size: 138, 42
+  orig: 256, 128
+  offset: 58, 40
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 871, 4
+  size: 116, 5
+  orig: 256, 128
+  offset: 66, 61
+  index: -1
+EyeBrow_eg
+  rotate: false
+  xy: 1224, 727
+  size: 132, 33
+  orig: 256, 128
+  offset: 60, 55
+  index: -1
+EyeBrow_umm
+  rotate: false
+  xy: 989, 7
+  size: 128, 20
+  orig: 256, 128
+  offset: 62, 53
+  index: -1
+Eye_oh
+  rotate: true
+  xy: 1354, 470
+  size: 139, 85
+  orig: 256, 128
+  offset: 57, 22
+  index: -1
+Eye_oh_1
+  rotate: false
+  xy: 1119, 4
+  size: 146, 50
+  orig: 256, 128
+  offset: 55, 59
+  index: -1
+Eye_oh_2
+  rotate: false
+  xy: 1621, 676
+  size: 148, 84
+  orig: 256, 128
+  offset: 53, 25
+  index: -1
+Eye_pupil
+  rotate: false
+  xy: 1354, 613
+  size: 98, 17
+  orig: 123, 28
+  offset: 8, 6
+  index: -1
+Eye_x
+  rotate: false
+  xy: 1621, 611
+  size: 146, 63
+  orig: 256, 128
+  offset: 55, 24
+  index: -1
+HairBack
+  rotate: false
+  xy: 1103, 56
+  size: 225, 286
+  orig: 256, 512
+  offset: 15, 114
+  index: -1
+HairFront
+  rotate: false
+  xy: 1441, 355
+  size: 254, 231
+  orig: 256, 256
+  offset: 2, 9
+  index: -1
+Head
+  rotate: true
+  xy: 1460, 163
+  size: 190, 204
+  orig: 256, 256
+  offset: 36, 27
+  index: -1
+L arm 1
+  rotate: true
+  xy: 1666, 222
+  size: 47, 87
+  orig: 128, 128
+  offset: 37, 21
+  index: -1
+L arm 2
+  rotate: false
+  xy: 1697, 322
+  size: 57, 88
+  orig: 128, 128
+  offset: 33, 21
+  index: -1
+L hand
+  rotate: true
+  xy: 1666, 173
+  size: 47, 42
+  orig: 64, 64
+  offset: 8, 12
+  index: -1
+L leg 1
+  rotate: true
+  xy: 1666, 271
+  size: 49, 91
+  orig: 128, 128
+  offset: 41, 14
+  index: -1
+L leg 2
+  rotate: true
+  xy: 1697, 560
+  size: 49, 77
+  orig: 128, 128
+  offset: 40, 30
+  index: -1
+Mouth
+  rotate: true
+  xy: 1103, 37
+  size: 17, 5
+  orig: 128, 128
+  offset: 57, 60
+  index: -1
+Mouth_aaa
+  rotate: true
+  xy: 1402, 409
+  size: 59, 33
+  orig: 128, 128
+  offset: 37, 45
+  index: -1
+Mouth_umm
+  rotate: false
+  xy: 937, 11
+  size: 40, 16
+  orig: 128, 128
+  offset: 40, 51
+  index: -1
+R arm 1
+  rotate: false
+  xy: 1363, 2
+  size: 47, 85
+  orig: 128, 128
+  offset: 40, 23
+  index: -1
+R arm 2
+  rotate: false
+  xy: 1697, 412
+  size: 58, 89
+  orig: 128, 128
+  offset: 35, 20
+  index: -1
+R hand
+  rotate: false
+  xy: 1412, 39
+  size: 43, 48
+  orig: 64, 64
+  offset: 11, 9
+  index: -1
+R leg 1
+  rotate: true
+  xy: 1267, 4
+  size: 50, 94
+  orig: 128, 128
+  offset: 36, 9
+  index: -1
+R leg 2
+  rotate: true
+  xy: 1697, 503
+  size: 55, 70
+  orig: 128, 128
+  offset: 36, 30
+  index: -1
+eh
+  rotate: true
+  xy: 1402, 348
+  size: 59, 32
+  orig: 128, 128
+  offset: 33, 50
+  index: -1
+rope
+  rotate: true
+  xy: 1224, 347
+  size: 120, 176
+  orig: 120, 176
+  offset: 0, 0
+  index: -1
+testHeadone
+  rotate: false
+  xy: 937, 29
+  size: 164, 313
+  orig: 256, 862
+  offset: 48, 26
+  index: -1
+대롱대롱덩쿨
+  rotate: false
+  xy: 2, 2
+  size: 867, 758
+  orig: 1000, 1000
+  offset: 66, 179
+  index: -1
+묶이는천
+  rotate: false
+  xy: 871, 344
+  size: 351, 416
+  orig: 570, 630
+  offset: 123, 57
+  index: -1
+천1
+  rotate: false
+  xy: 871, 11
+  size: 64, 331
+  orig: 200, 500
+  offset: 68, 84
+  index: -1

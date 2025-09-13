@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="138021" type="special"> 
+    <name>DoomsdayCalendar_gift_name</name>
+    <desc>DoomsdayCalendar_gift_desc</desc> 
+    <attachPos>hair</attachPos> 
+    <attachType>add</attachType>
+
+    <bonus>
+      <hp>-4</hp>
+	  <mental>8</mental>
+    <epressionWork>+5%</epressionWork>
+    </bonus>
+    <sprite>138021</sprite>
+  </equipment>
+   <equipment id="138023" type="armor">
+    <name>DoomsdayCalendar_weapon_name</name>
+    <desc>DoomsdayCalendar_armor_desc</desc>
+
+    <require type="B">3</require>
+    <require type="P">3</require>
+
+    <armorId>138023</armorId>
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">1.2</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+  </equipment>
+
+  <equipment id="138022" type="weapon">
+
+    <name>DoomsdayCalendar_weapon_name</name>
+    <desc>DoomsdayCalendar_weapon_desc</desc>
+    <specialDesc>DoomsdayCalendar_weapon_specialDesc</specialDesc>
+    <sprite>DangoCreature_DoomsdayCalendar</sprite>
+
+
+    <weaponClassType>special</weaponClassType>
+
+    <specialWeaponAnim>DangoCreatureWeapon_DoomsdayCalendar</specialWeaponAnim>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+
+    <require type="B">3</require>
+    <require type="level">3</require>
+
+
+    <damage type="R" min="12" max="24">
+      <soundInfo type="damage">creature/NullthingSounds/Nullthing_Attack1</soundInfo>
+    </damage>
+     <effectInfo type="damage">
+        <src>DangoWeaponBlood</src>
+        <pos>
+          <x>2.1</x>
+          <y>0.2</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    <damage type="R" min="6" max="12">
+      <soundInfo type="damage">creature/DangoCreature/Danggo_Lv3_Atk</soundInfo>
+    </damage>
+    <damage type="R" min="12" max="18">
+      <soundInfo type="damage">creature/DangoCreature/Danggo_Lv3_Atk</soundInfo>
+    </damage>
+    <range>4</range>
+    <splash type="SPLASH"/>
+
+    <attackSpeed>5</attackSpeed>
+    <grade>3</grade>
+
+    <script>DoomsdayCalendarWeapon</script>
+    <maxNum>1</maxNum>
+  </equipment>
+
+</equipment_list>

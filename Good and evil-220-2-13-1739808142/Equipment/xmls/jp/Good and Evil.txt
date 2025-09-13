@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Good and Evil_weapon_name">善悪の相違</text>
+<text id="Good and Evil_gift_name">善悪は見えず</text>
+<text id="Good and Evil_gift_desc">作業成功率+10</text>
+<text id="Good and Evil_armor_desc">なぜこの会社に来たかは関係ないが、「私」の選択を尊重してほしい。</text>
+<text id="Good and Evil_weapon_desc">他人を攻撃することは自分を傷つけることになる。</text>
+</localize>

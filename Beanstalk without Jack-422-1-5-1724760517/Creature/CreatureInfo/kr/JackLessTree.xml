@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="161464">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0를 끝까지 올라가면, 거기엔 무엇이 기다리고 있을까요?},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 직원은 $0를 올라갈 수 있을지 고민해봅니다.},
+      {$0를 올라가던 직원은 어떻게 되었을까요?},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0에 끝이라는 개념이 존재할까요?},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-16</codeNo>
+      <portrait openLevel ="1">Custom/JackLessTree</portrait>
+
+      <name openLevel ="1">
+        잭이 없는 콩나무
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAIYN
+      </riskLevel>
+
+      <openText>터무니없는 이야기처럼 들릴 수 있겠지만, 우리 직원들 중에 그 나무의 끝에 도달한다 뭐한다 해서 결국엔 올라가버린 놈이 있다고 들었어요.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {기록
+F-03-16는 커다란 콩나무다.
+마치 동화 '잭과 콩나무'에 등장하는 그 콩나무처럼 생겼다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {한 직원이 F-03-16를 타고 올라가보기로 했다.
+그리고 결국 올라가버렸다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {이후 그 직원을 본 사람은 아무도 없었다.
+다른 직원이 F-03-16에 올라가려고 했지만, 곧바로 돌아왔다.
+아마도 직원의 특성에 따라 결과가 달라지는 것으로 보인다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {직원들 사이에서는, 먼저 콩나무를 탔던 그 직원에 대한 소문이 퍼졌다.
+내용은 아래와 같다.
+'터무니없는 이야기처럼 들릴 수 있겠지만, 우리 직원들 중에 그 나무의 끝에 도달한다 뭐한다 해서 결국엔 올라가버린 놈이 있다고 들었어요.
+…
+그 나무에 끝이라는 개념이 존재한다면, 뭐 잘 도착해서 살고 있겠죠.'}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {다시 올라가면, 500년 전의 선물을 얻을 수 있다고 한다.}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">본능 작업의 작업 결과가 좋음일 경우, 작업을 진행한 직원은 E.G.O 기프트를 받았다.</specialTip>
+      <specialTip openLevel="1" key="1">본능 작업의 작업 결과가 나쁨일 경우, 작업을 진행한 직원은 사망했다.</specialTip>
+      <specialTip openLevel="2" key="2">통찰 작업을 진행하자, 생산되는 PE-Box의 양이 증가하였다.</specialTip>
+      <specialTip openLevel="3" key="3">억압 작업을 진행하자, 작업을 진행한 직원은 R 피해를 입었다.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<creatureInfo_list>
+   <creature id="819401">
+           <ComEGOlist>
+               <ego type="weapon" cost="70" makeLevel="4">819421</ego>
+               <ego type="weapon" cost="70" makeLevel="4">819422</ego>
+               <ego type="armor" cost="60" makeLevel="4">819412</ego>
+           </ComEGOlist>
+    </creature>
+</creatureInfo_list>

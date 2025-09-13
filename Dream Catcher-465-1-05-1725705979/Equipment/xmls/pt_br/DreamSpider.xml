@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="DreamSpider_weapon_name">Sonhador</text>
+  <text id="DreamSpider_gift_name">Sonhador</text>
+  <text id="DreamSpider_gift_desc">PS+4&#13;&#10;Ao segurar "Sonhador", o poder de ataque máximo e mínimo são aumentados em 2 pontos
+</text>
+  <text id="DreamSpider_weapon_desc">As balas disparadas por esta arma são estruturadas como delicadas teias de aranha, e um acerto pode colocar o alvo em um breve sonho. &#13;&#10;Se você se entregar a essa obra-prima cuidadosamente tecida, as aranhas que se alimentam de sonhos logo invadirão sua mente. &#13;&#10;Durma, durma, meu querido, que você durma em paz para sempre.</text>
+<text id="DreamSpider_armor_desc">O tecido desta armadura é tão fino e ilusório quanto um sonho, fazendo você se sentir como se estivesse sonhando ao vesti-la.&#13;&#10;Se funcionários com pouca força de vontade puderem usá-lo, eles mergulharão em um sonho e nunca mais acordarão. &#13;&#10;O emaranhado da seda da aranha fica cada vez mais apertado. As pessoas presas na teia não conseguem escapar ou não estão dispostas a escapar?</text>
+<text id="DreamSpider_weapon_specialDesc">Quando esta arma atinge um alvo, ela reduzirá a velocidade de movimento e a velocidade de ataque do alvo em 35% por 2,5 segundos..</text>
+<text id="DreamSpider_armor_specialDesc">Os funcionários que usam esta armadura não poderão trabalhar no "T-02-676" e não ficarão encantados com o "T-02-676". &#13;&#10;Quando "T-02-676" consome energia mental, o usuário recuperará 2 a 3 pontos de sanidade por segundo.</text>
+</localize>

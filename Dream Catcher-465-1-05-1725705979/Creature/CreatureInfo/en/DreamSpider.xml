@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="200676">
+
+
+
+    <narration action="move">
+      #0 is assigned to containment unit "$0".
+    </narration>
+    <narration action="start">
+      [
+      {"$0" was born from a nightmare and needs to eat dreams to survive. Yuanzhong.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {"$0" waited quietly, showing no intention to attack.},
+      {"My dear, may you have sweet dreams on my web."},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {"$0"'s eight eyes looked at #0 gently, revealing a kind of motherly love.},
+      {If the dream is so beautiful, why bother waking up?},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 smelled the strange aroma emitted by the spider web, which made them feel drowsy.},
+      {Those who covet the beauty of the moment will be trapped in that gentle cobweb forever.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 couldn't control their sleepiness, lay down on the soft spider web and fell into a deep sleep.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-02-676</codeNo>
+      <portrait openLevel ="1">Custom/DreamSpider_portrait</portrait>
+
+      <name openLevel ="1">
+        Dreamcatcher
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>Come here, lie on my net, and have a good sleep</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {"Are you tired? How was your day? Did it go well?"
+
+This abnormality looks like a giant spider. It hangs from the ceiling, and its eight eyes are always watching the employees coming and going. There are pink cobwebs all around the containment unit. These cobwebs exude a light fragrance and seem to have a strong hypnotic effect. It is worth noting that although these spider webs are not very sticky, employees who have come into contact with the spider webs have expressed a strong dependence, which makes them unwilling to leave the spider webs they have come into contact with again.
+Most employees like this abnormality. For them, this abnormality can help them improve their insomnia caused by work fatigue and excessive coffee intake. At the same time, it has not shown any aggression. Although there are no recorded vocalizations of this abnormality, employees who completed the work claimed that they heard a gentle and kind female voice.
+“Change is a fact of life and this too shall pass.”}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {The following reports illustrate the hidden dangers of this abnormality. Judging from the conclusion alone, we should give up planning activities that rely on it to alleviate the mental state of employees. Managers in each department are asked to carefully review the audio file and its attachments:
+
+&lt;Audio Recording KM-2426&gt;
+Psychological counselor: Do you feel any discomfort now?
+Kenny: What's wrong? I feel very good now. It is the mildest abnormality I have ever encountered. Although it looks a little scary, as long as you really talk to it, you will find the difference between it and those monsters.
+Psychological Counselor: Do you still remember what you did in the holding unit?
+Kenny: Of course, I talked to it about a lot of things, mostly me saying that it was listening. Then I seemed a little sleepy, so it invited me to lie down on the net and sleep. You know, I was also panicked at the time, but After I woke up, it still looked at me tenderly, you know? That was simply the most peaceful dream I've had in weeks.
+Psychological counselor: Do you still remember what dreams you had?
+Kenny: I remember...it was like...Sorry, I can't remember.
+Psychological counselor: It doesn’t matter. If you feel something is wrong later, remember to report it for examination as soon as possible.
+Kenny: Okay, I hope we won’t meet again. Every time I see you being so serious, I get scared...
+
+"Give yourself more sunshine. You don't have to cater to others all the time." }
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {&lt;Audio Recording KM-2435&gt;
+Psychological counselor: It seems that your recent work status is not very good.
+Kenny: Yes? Sorry, I've been a little absent-minded recently, maybe due to some mental pollution.
+Psychological Counselor: According to the shift order, it seems that you have been working on "T-02-676" a bit frequently this week?
+Kenny: I'm sorry, but you should understand that compared to those abnormal objects that may kill you at any time, it is simply mild and ridiculous. I remember that besides me, there are many employees rushing to work on it. .
+Psychological counselor: I noticed that you have been yawning since you entered the door. Are you having trouble sleeping?
+Kenny: It's a little bit. I've been drinking a lot of coffee recently and haven't slept very well these days. That's why I applied for work on "T-02-676" many times, right? I want to treat my insomnia.
+Psychological counselor: If you just have insomnia, I can provide you with more effective solutions.
+Kenny: If you're asking me to work on that intelligence sheep...
+Psychological counselor: Employees are precious assets within the company. How can I let you do such risky things? I have a few bottles of medicine here. You should drink less coffee and don't touch alcohol anymore...
+
+"Don't worry, I will always be with you, so don't give up on yourself anymore, okay?"}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {&lt;Audio Recording KM-2443&gt;
+Kenny: I always feel...something's wrong...
+Psychologist: Are you okay?
+Kenny: I'm...ok...of course I'm fine...I'm just...a little sleepy...
+Psychological Counselor: Have you had a good rest? You look a lot thinner than before. The data shows that your working time on that spider is much longer than that of other Abnormalities...
+Kenny: So sleepy... I want to sleep... I want to dream...
+Counselor: Are you listening?
+Kenny: Let me sleep...let me sleep! Let me sleep!!
+
+The employee suddenly got violent and attacked the psychological counselor and smashed the monitor. It was found that his mental state was very fragile and his health level declined exponentially.
+
+"Come here, lie on my net, and have a good sleep."}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Attached to the file was a photo... It showed a corpse-like employee lying in a containment unit with a smile, a pink spider web, a huge spider hanging in the air, and eight eyes fixed on the direction of the surveillance.
+
+"Good night, my dear, may you have sweet dreams."}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="5">
+      <specialTip openLevel="0" key="0">"$0" will consume corresponding levels of sanity when the employee leaves the containment unit based on the work results.</specialTip>
+      <specialTip openLevel="1" key="1">If the amount of sanity consumed by "$0" reaches the threshold, its Qliphoth counter will be increased. </specialTip>
+      <specialTip openLevel="2" key="2">Employees whose fortitude level is lower than level 4 will lie on the Internet uncontrollably after entering the containment unit of "$0". Then "$0" will fall down and start eating the employee. </specialTip>
+      <specialTip openLevel="3" key="3">When "$0"'s Qliphoth counter reaches its max value, its Qliphoth counter will immediately reset to zero, subsequently attracting certain employees to its containment unit for a delicious meal.</specialTip>
+      <specialTip openLevel="4" key="4">When "$0"'s Qliphoth counter reaches zero, every employee who steps into its containment unit will be seduced by the soft spider silk, lying on the web and allowed to be eaten by "$0".</specialTip>
+
+    </specialTipSize>
+  </observe>
+</creature>

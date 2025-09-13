@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="18007">
+
+
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is always somewhere in the back of your mind.},
+      {#0 carefully watches the entity.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 felt their breath hitch.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {It's hard to say if $0 really is an Abnormality.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 was suprised by this thing.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">Depression</codeNo>
+      <portrait openLevel ="1">Custom/Depression</portrait>
+
+      <name openLevel ="1">
+                Depression
+      </name>
+      <riskLevel openLevel ="4">WAW</riskLevel>
+
+      <specialName openLevel ="1">Depression</specialName>
+      <openText>Death is the easel, and blood is the ink.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Depression}
+      ]
+    </desc>
+	
+	  <desc id="2" openLevel="1">
+      [
+      {I used to be a sunshine child. At least, that's what people think.
+I am a gloomy person, I never think things will turn out for the better, everything is pointless. Everything comes to nothing. My family pressures me to study and always rants when I don't succeed. Do you think it is just a rant? No, for a sensitive person like me, a flippant remark sticks in the mind like a knife. Then, slowly spinning around, suffocating with pain but not losing consciousness, I just take the pain and face it head on, until I am completely overcome by it.
+Seeing her, she is perfect, at least I think so. Which is more frustrating, not being with her or being with her? The two are the same, in my opinion. Just when I was at the bottom of my life, she showed up. Little by little, I became more alive and brighter. Then she irresponsibly abandoned me. She pushed me into the abyss. Yes, she is just leaving someone who doesn't matter, but I am keeping the most important person in my life away from her. I dropped out of school and deleted all my contacts.
+I lie alone in bed for a long, long night, imagining all the good things. And I face all the humiliation and despair alone.
+She was diagnosed with severe depression. Not a surprising result, everything is as it should be. "I'm moping," my mother told me. Oh, I'm just complaining. Can't I just pretend my life never happened? Oh… what a beautiful outcome. How on earth did I survive such a horrible love life, my hopeless academics, the suffocating home environment…? Every night, I held myself tightly, away from the window, from the knife. I realized that I didn't really want to die, but I was still longing for the last light in my life to extinguish.
+I suffered everything in silence, as I always do, telling myself that the capacity of my heart is infinite and that I can accept all the complaints and tears. Adults can numb themselves with alcohol, but I had to force myself to endure the unbearable. The curtains were slowly drawn and moonlight fell on the bed. It was wonderful, the wet pillows filled themselves with my pain.
+The room was filled with the faint scent of flowers… The scent of fruit was there, too… the white ceiling seemed low… the restrictive jacket felt nice… the scars on my wrists were shocking, too.
+"Why did you do that?"
+"It's simple, I don't want to live."
+"Isn't it nice to be alive?"
+"Until you put yourself in that person's shoes and walk in the path they have walked, you will never truly understand them, and when you can truly put yourself in their shoes, you will find that even breathing is painful."
+------
+My mind wants to kill me.
+Physically, I feel like I'm about to collapse.
+What things would need to happen to a person to make them want to die?
+I have experienced nothing traumatic or haunting, I am a normal human being.
+Why would I want to die?
+I don't know.
+}
+      ]
+    </desc>
+
+
+    <specialTipSize size="7">
+      <specialTip openLevel="0" key="paranoia">After entering the containment unit, employees whose SP was below 10% of its maximum committed suicide.</specialTip>
+      <specialTip openLevel="1" key="paranoia2">When the Qliphoth Counter reached zero, a random employee within the department committed suicide. All Qliphoth Counters recovered when this happened.</specialTip>
+      <specialTip openLevel="2" key="paranoia3">When the work results were good, the Qliphoth Counter increased.</specialTip>
+      <specialTip openLevel="3" key="paranoia4">When the work results were bad, the employee performing the work committed suicide.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>

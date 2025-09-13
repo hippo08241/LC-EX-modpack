@@ -1,0 +1,230 @@
+
+HamsterOutsideDead.png
+size: 648,3482
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 390, 692
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 502, 3224
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 502, 2966
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 502, 2708
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: true
+  xy: 502, 2450
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: true
+  xy: 502, 2192
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeClose
+  rotate: true
+  xy: 502, 1934
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+Eye_1
+  rotate: true
+  xy: 502, 1676
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+Eye_2
+  rotate: true
+  xy: 502, 1418
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: false
+  xy: 2, 648
+  size: 256, 512
+  orig: 256, 512
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 2, 390
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 390, 434
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 502, 1080
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 260, 1032
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 390, 1096
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 260, 902
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 456, 950
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 260, 772
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PanicEye_02
+  rotate: true
+  xy: 502, 1210
+  size: 206, 106
+  orig: 206, 106
+  offset: 0, 0
+  index: -1
+PanicMouth
+  rotate: true
+  xy: 132, 2
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 260, 642
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 260, 512
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 390, 1030
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 260, 382
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Weapon_Bacon
+  rotate: false
+  xy: 2, 132
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+bag
+  rotate: true
+  xy: 2, 3018
+  size: 462, 498
+  orig: 462, 498
+  offset: 0, 0
+  index: -1
+bagclose
+  rotate: true
+  xy: 2, 2554
+  size: 462, 498
+  orig: 462, 498
+  offset: 0, 0
+  index: -1
+bagclosed
+  rotate: true
+  xy: 2, 2090
+  size: 462, 498
+  orig: 462, 498
+  offset: 0, 0
+  index: -1
+bagclosing1
+  rotate: true
+  xy: 2, 1626
+  size: 462, 498
+  orig: 462, 498
+  offset: 0, 0
+  index: -1
+bagclosing2
+  rotate: true
+  xy: 2, 1162
+  size: 462, 498
+  orig: 462, 498
+  offset: 0, 0
+  index: -1
+hamster
+  rotate: false
+  xy: 260, 29
+  size: 356, 351
+  orig: 356, 351
+  offset: 0, 0
+  index: -1

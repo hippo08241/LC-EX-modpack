@@ -1,0 +1,684 @@
+
+ReddenedBuddy1.png
+size: 5986,5755
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dogo/귀1
+  rotate: true
+  xy: 2, 4977
+  size: 355, 609
+  orig: 359, 611
+  offset: 2, 1
+  index: -1
+dogo/귀2
+  rotate: true
+  xy: 2, 5645
+  size: 108, 231
+  orig: 110, 234
+  offset: 1, 1
+  index: -1
+dogo/귀상처
+  rotate: true
+  xy: 5507, 5467
+  size: 286, 346
+  orig: 289, 351
+  offset: 1, 3
+  index: -1
+dogo/꼬리
+  rotate: true
+  xy: 2969, 5201
+  size: 325, 476
+  orig: 325, 476
+  offset: 0, 0
+  index: -1
+dogo/눈
+  rotate: false
+  xy: 3413, 5528
+  size: 366, 225
+  orig: 368, 236
+  offset: 1, 10
+  index: -1
+dogo/눈동자
+  rotate: false
+  xy: 946, 5617
+  size: 294, 136
+  orig: 296, 138
+  offset: 1, 1
+  index: -1
+dogo/다리
+  rotate: true
+  xy: 5539, 4603
+  size: 479, 385
+  orig: 483, 387
+  offset: 3, 1
+  index: -1
+dogo/다리상처
+  rotate: true
+  xy: 4184, 5501
+  size: 252, 268
+  orig: 254, 270
+  offset: 1, 1
+  index: -1
+dogo/다친귀
+  rotate: true
+  xy: 613, 4941
+  size: 355, 609
+  orig: 359, 611
+  offset: 2, 1
+  index: -1
+dogo/다친다리
+  rotate: false
+  xy: 484, 4554
+  size: 479, 385
+  orig: 483, 387
+  offset: 3, 1
+  index: -1
+dogo/다친머가리
+  rotate: false
+  xy: 2912, 2664
+  size: 780, 634
+  orig: 782, 637
+  offset: 1, 1
+  index: -1
+dogo/다친머리
+  rotate: false
+  xy: 3694, 2570
+  size: 780, 634
+  orig: 782, 637
+  offset: 1, 1
+  index: -1
+dogo/다친몸통
+  rotate: false
+  xy: 4684, 1688
+  size: 1129, 734
+  orig: 1131, 736
+  offset: 1, 1
+  index: -1
+dogo/다친팔
+  rotate: true
+  xy: 427, 5334
+  size: 296, 340
+  orig: 298, 342
+  offset: 1, 1
+  index: -1
+dogo/더우는눈
+  rotate: false
+  xy: 1778, 5248
+  size: 367, 320
+  orig: 369, 322
+  offset: 1, 1
+  index: -1
+dogo/머가리
+  rotate: false
+  xy: 4476, 2570
+  size: 780, 634
+  orig: 782, 637
+  offset: 1, 1
+  index: -1
+dogo/머가리상처
+  rotate: true
+  xy: 4452, 3737
+  size: 538, 716
+  orig: 541, 718
+  offset: 1, 1
+  index: -1
+dogo/몸통
+  rotate: false
+  xy: 808, 1397
+  size: 1129, 734
+  orig: 1131, 736
+  offset: 1, 1
+  index: -1
+dogo/몸통상처
+  rotate: true
+  xy: 2760, 4815
+  size: 384, 511
+  orig: 386, 514
+  offset: 1, 2
+  index: -1
+dogo/우는눈
+  rotate: true
+  xy: 5483, 5084
+  size: 381, 410
+  orig: 383, 412
+  offset: 1, 1
+  index: -1
+dogo/죽은눈
+  rotate: false
+  xy: 2836, 5563
+  size: 323, 190
+  orig: 325, 192
+  offset: 1, 1
+  index: -1
+dogo/팔
+  rotate: true
+  xy: 769, 5319
+  size: 296, 340
+  orig: 298, 342
+  offset: 1, 1
+  index: -1
+dogo/팔상처
+  rotate: false
+  xy: 1431, 5596
+  size: 169, 157
+  orig: 171, 159
+  offset: 1, 1
+  index: -1
+dogo/피묻은귀
+  rotate: true
+  xy: 2149, 4886
+  size: 355, 609
+  orig: 359, 611
+  offset: 2, 1
+  index: -1
+dogo/피묻은다리
+  rotate: false
+  xy: 965, 4514
+  size: 479, 385
+  orig: 483, 387
+  offset: 3, 1
+  index: -1
+dogo/피묻은머가리
+  rotate: true
+  xy: 5258, 2424
+  size: 780, 634
+  orig: 782, 637
+  offset: 1, 1
+  index: -1
+dogo/피묻은몸통
+  rotate: false
+  xy: 1939, 1206
+  size: 1129, 734
+  orig: 1131, 736
+  offset: 1, 1
+  index: -1
+dogo/피묻은팔
+  rotate: true
+  xy: 1111, 5298
+  size: 296, 340
+  orig: 298, 342
+  offset: 1, 1
+  index: -1
+귀1
+  rotate: true
+  xy: 5170, 3696
+  size: 484, 814
+  orig: 487, 816
+  offset: 1, 1
+  index: -1
+귀2
+  rotate: true
+  xy: 235, 5634
+  size: 119, 277
+  orig: 121, 280
+  offset: 1, 1
+  index: -1
+귀상처
+  rotate: true
+  xy: 1981, 5570
+  size: 183, 503
+  orig: 195, 506
+  offset: 1, 2
+  index: -1
+꼬리
+  rotate: false
+  xy: 3964, 5166
+  size: 483, 333
+  orig: 484, 335
+  offset: 0, 1
+  index: -1
+눈
+  rotate: false
+  xy: 2, 5339
+  size: 423, 293
+  orig: 425, 296
+  offset: 1, 2
+  index: -1
+눈동자
+  rotate: false
+  xy: 2486, 5565
+  size: 348, 188
+  orig: 350, 190
+  offset: 1, 1
+  index: -1
+눈썹
+  rotate: false
+  xy: 514, 5632
+  size: 430, 121
+  orig: 432, 124
+  offset: 1, 1
+  index: -1
+다리1
+  rotate: false
+  xy: 1372, 4044
+  size: 571, 468
+  orig: 574, 470
+  offset: 1, 1
+  index: -1
+다리1상처
+  rotate: false
+  xy: 4454, 5491
+  size: 358, 262
+  orig: 360, 266
+  offset: 1, 1
+  index: -1
+다리2
+  rotate: true
+  xy: 2491, 4396
+  size: 417, 482
+  orig: 419, 484
+  offset: 1, 1
+  index: -1
+다리2상처
+  rotate: false
+  xy: 1242, 5605
+  size: 187, 148
+  orig: 190, 150
+  offset: 2, 1
+  index: -1
+다친귀
+  rotate: true
+  xy: 2, 3579
+  size: 484, 814
+  orig: 487, 816
+  offset: 1, 1
+  index: -1
+다친다리1
+  rotate: false
+  xy: 2699, 3911
+  size: 571, 468
+  orig: 574, 470
+  offset: 1, 1
+  index: -1
+다친다리2
+  rotate: true
+  xy: 2975, 4381
+  size: 417, 482
+  orig: 419, 484
+  offset: 1, 1
+  index: -1
+다친머가리
+  rotate: false
+  xy: 2, 1474
+  size: 804, 794
+  orig: 808, 798
+  offset: 2, 2
+  index: -1
+다친팔1
+  rotate: true
+  xy: 3943, 4356
+  size: 419, 555
+  orig: 421, 557
+  offset: 1, 1
+  index: -1
+다친팔2
+  rotate: true
+  xy: 3447, 5181
+  size: 331, 515
+  orig: 333, 517
+  offset: 1, 1
+  index: -1
+더 우는 눈
+  rotate: false
+  xy: 5006, 4698
+  size: 531, 384
+  orig: 533, 386
+  offset: 1, 1
+  index: -1
+머가리
+  rotate: false
+  xy: 2, 678
+  size: 804, 794
+  orig: 808, 798
+  offset: 2, 2
+  index: -1
+머가리상처
+  rotate: true
+  xy: 2091, 2786
+  size: 626, 819
+  orig: 628, 822
+  offset: 1, 2
+  index: -1
+멍멍이탈주/귀
+  rotate: false
+  xy: 4814, 5490
+  size: 284, 263
+  orig: 287, 268
+  offset: 1, 1
+  index: -1
+멍멍이탈주/꼬리
+  rotate: true
+  xy: 559, 4065
+  size: 447, 811
+  orig: 447, 811
+  offset: 0, 0
+  index: -1
+멍멍이탈주/눈
+  rotate: false
+  xy: 3161, 5543
+  size: 250, 210
+  orig: 253, 213
+  offset: 2, 2
+  index: -1
+멍멍이탈주/뒷다리2
+  rotate: true
+  xy: 932, 2133
+  size: 651, 1438
+  orig: 651, 1438
+  offset: 0, 0
+  index: -1
+멍멍이탈주/뒷다리4
+  rotate: true
+  xy: 4236, 3206
+  size: 488, 1448
+  orig: 488, 1448
+  offset: 0, 0
+  index: -1
+멍멍이탈주/목
+  rotate: false
+  xy: 3070, 1078
+  size: 1074, 758
+  orig: 1076, 761
+  offset: 1, 2
+  index: -1
+멍멍이탈주/아래턱
+  rotate: false
+  xy: 1945, 3928
+  size: 752, 466
+  orig: 755, 469
+  offset: 1, 1
+  index: -1
+멍멍이탈주/앞다리1
+  rotate: true
+  xy: 2372, 1942
+  size: 720, 1279
+  orig: 722, 1282
+  offset: 1, 2
+  index: -1
+멍멍이탈주/앞다리2
+  rotate: true
+  xy: 4146, 913
+  size: 773, 1118
+  orig: 773, 1118
+  offset: 0, 0
+  index: -1
+멍멍이탈주/앞다리3
+  rotate: true
+  xy: 2, 2993
+  size: 563, 1131
+  orig: 565, 1133
+  offset: 1, 1
+  index: -1
+멍멍이탈주/앞다리4
+  rotate: true
+  xy: 3934, 2
+  size: 909, 1083
+  orig: 910, 1083
+  offset: 0, 0
+  index: -1
+몸통상처
+  rotate: true
+  xy: 1962, 4489
+  size: 395, 527
+  orig: 397, 531
+  offset: 1, 3
+  index: -1
+사망/눕/멍멍이편안해짐/x눈
+  rotate: false
+  xy: 5100, 5487
+  size: 405, 266
+  orig: 407, 268
+  offset: 1, 1
+  index: -1
+사망/눕/멍멍이편안해짐/귀
+  rotate: true
+  xy: 1634, 3434
+  size: 492, 806
+  orig: 494, 808
+  offset: 1, 1
+  index: -1
+사망/눕/멍멍이편안해짐/꼬리
+  rotate: true
+  xy: 1446, 4514
+  size: 385, 514
+  orig: 385, 514
+  offset: 0, 0
+  index: -1
+사망/눕/멍멍이편안해짐/다리
+  rotate: false
+  xy: 3845, 3867
+  size: 605, 487
+  orig: 607, 489
+  offset: 1, 1
+  index: -1
+사망/눕/멍멍이편안해짐/머가리
+  rotate: false
+  xy: 3653, 1838
+  size: 1029, 730
+  orig: 1031, 732
+  offset: 1, 1
+  index: -1
+사망/눕/멍멍이편안해짐/몸통
+  rotate: false
+  xy: 2420, 220
+  size: 1512, 856
+  orig: 1515, 858
+  offset: 2, 1
+  index: -1
+사망/눕/멍멍이편안해짐/팔
+  rotate: false
+  xy: 3273, 4800
+  size: 714, 364
+  orig: 716, 366
+  offset: 1, 1
+  index: -1
+사망/눕/멍멍이편안해짐/편안한눈
+  rotate: false
+  xy: 1602, 5583
+  size: 377, 170
+  orig: 379, 172
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/귀
+  rotate: true
+  xy: 3406, 3300
+  size: 565, 828
+  orig: 567, 830
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/꼬리
+  rotate: false
+  xy: 2147, 5243
+  size: 820, 318
+  orig: 822, 321
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/다리
+  rotate: true
+  xy: 1135, 2840
+  size: 592, 954
+  orig: 594, 956
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/다리2
+  rotate: true
+  xy: 4500, 4277
+  size: 419, 718
+  orig: 421, 720
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/머가리
+  rotate: false
+  xy: 2, 2270
+  size: 928, 721
+  orig: 930, 723
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/팔
+  rotate: true
+  xy: 2442, 3414
+  size: 495, 962
+  orig: 497, 964
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/팔2
+  rotate: true
+  xy: 1224, 4901
+  size: 340, 923
+  orig: 342, 925
+  offset: 1, 1
+  index: -1
+우는눈
+  rotate: false
+  xy: 2, 4591
+  size: 480, 384
+  orig: 482, 386
+  offset: 1, 1
+  index: -1
+죽은눈
+  rotate: false
+  xy: 3781, 5514
+  size: 401, 239
+  orig: 440, 249
+  offset: 38, 9
+  index: -1
+팔1
+  rotate: true
+  xy: 5220, 4182
+  size: 419, 555
+  orig: 421, 557
+  offset: 1, 1
+  index: -1
+팔1상처
+  rotate: false
+  xy: 1453, 5271
+  size: 323, 310
+  orig: 325, 313
+  offset: 1, 2
+  index: -1
+팔2
+  rotate: true
+  xy: 4449, 5157
+  size: 331, 515
+  orig: 333, 517
+  offset: 1, 1
+  index: -1
+팔2상처
+  rotate: true
+  xy: 3989, 4777
+  size: 375, 1015
+  orig: 379, 1018
+  offset: 2, 2
+  index: -1
+피묻은귀
+  rotate: true
+  xy: 818, 3558
+  size: 484, 814
+  orig: 487, 816
+  offset: 1, 1
+  index: -1
+피묻은다리1
+  rotate: false
+  xy: 3272, 3911
+  size: 571, 468
+  orig: 574, 470
+  offset: 1, 1
+  index: -1
+피묻은다리2
+  rotate: true
+  xy: 3459, 4381
+  size: 417, 482
+  orig: 419, 484
+  offset: 1, 1
+  index: -1
+피묻은머가리
+  rotate: false
+  xy: 808, 601
+  size: 804, 794
+  orig: 808, 798
+  offset: 2, 2
+  index: -1
+피묻은머가리2
+  rotate: false
+  xy: 1614, 410
+  size: 804, 794
+  orig: 808, 798
+  offset: 2, 2
+  index: -1
+피묻은팔1
+  rotate: true
+  xy: 2, 4133
+  size: 419, 555
+  orig: 421, 557
+  offset: 1, 1
+  index: -1
+피묻은팔2
+  rotate: true
+  xy: 4966, 5154
+  size: 331, 515
+  orig: 333, 517
+  offset: 1, 1
+  index: -1
+
+ReddenedBuddy2.png
+size: 5915,2696
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+다친몸통
+  rotate: true
+  xy: 2, 51
+  size: 1013, 1218
+  orig: 1016, 1221
+  offset: 1, 1
+  index: -1
+멍멍이탈주/뒷다리1
+  rotate: false
+  xy: 3662, 2
+  size: 1189, 1449
+  orig: 1193, 1451
+  offset: 2, 1
+  index: -1
+멍멍이탈주/뒷다리3
+  rotate: false
+  xy: 4933, 1500
+  size: 980, 1194
+  orig: 982, 1196
+  offset: 1, 1
+  index: -1
+멍멍이탈주/머가리
+  rotate: true
+  xy: 4853, 354
+  size: 1097, 991
+  orig: 1100, 994
+  offset: 2, 2
+  index: -1
+멍멍이탈주/몸통
+  rotate: false
+  xy: 2, 1066
+  size: 3128, 1628
+  orig: 3130, 1631
+  offset: 1, 1
+  index: -1
+몸통
+  rotate: true
+  xy: 1222, 51
+  size: 1013, 1218
+  orig: 1016, 1221
+  offset: 1, 1
+  index: -1
+사망/멍멍이죽음/몸통
+  rotate: false
+  xy: 3132, 1453
+  size: 1799, 1241
+  orig: 1801, 1243
+  offset: 1, 1
+  index: -1
+피묻은몸통
+  rotate: true
+  xy: 2442, 51
+  size: 1013, 1218
+  orig: 1016, 1221
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<localize>
+  <text id="SoulUnlockWork">Освободить</text>
+
+  <text id="SoulUnlockWork_name">Освободить</text>
+  <text id="SoulUnlockWork_called">Работа на Освобождение</text>
+
+</localize>

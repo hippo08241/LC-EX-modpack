@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="29003">
+
+    <narration action="move">
+      #0 enters $0's containment unit to begin work.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-09-326</codeNo>
+
+      <portrait openLevel ="1">Custom/CallFromThePostDeathWorld</portrait>
+
+      <name openLevel ="1">
+        A Phone Call from Hell
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>Place the receiver to your ear, and you will hear voices from another world.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {An obsolete old landline telephone. It has laid abandoned for many years, causing the white shell to somewhat yellow.
+Investigation revealed that a large number of parts were missing, and the internal wiring had been ripped apart.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Whenever someone passes nearby, a hollow ringing sound will come from the phone.
+Investigation into the origins of the phone have not produced results on its origins. Some speculate that it operates on magic.
+Place the receiver to your ear, and you will hear voices from another world.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {What happens after we die? I couldn't stop thinking about it, after I heard about my coworker's suicide.
+It took a few days for people to find his body, but oddly enough, his face was still identifiable.
+I still remember his smiling expression. I wonder if he saw a glimpse of what happens after death.
+I wonder if it was beautiful.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {I heard a rumor that this phone connected to the afterlife. I don't know if it's true, but...
+Trembling and lifting the receiver, I dialed the phone number of that colleague. After a moment, someone responded.
+“Don't...! Don't come to this horrible place...!”
+Amidst the mournful screams, I heard my coworker's heartbreaking voice.
+A few seconds later, the other end of the phone fell silent.}
+      ]
+    </desc>
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Employees who answer the phone will continuously lose SP.</specialTip>
+      <specialTip openLevel="2" key="2">When an employee is answering $0, all employees in the department
+will gain work success rate and work speed over time. 
+They will also recover a small amount of HP at intervals.</specialTip>
+      <specialTip openLevel="3" key="3">Employees who stay on the line for too long will be dragged to hell.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

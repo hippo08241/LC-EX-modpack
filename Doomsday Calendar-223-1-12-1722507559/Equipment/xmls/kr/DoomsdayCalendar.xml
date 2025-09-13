@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="DoomsdayCalendar_weapon_name">다가올날</text>
+<text id="DoomsdayCalendar_armor_name">다가올날</text>
+<text id="DoomsdayCalendar_gift_name">다가올날</text>
+<text id="DoomsdayCalendar_gift_desc">체력 -4 정신력 +8 작업 성공률 +5%</text>
+<text id="DoomsdayCalendar_armor_desc">이 E.G.O의 가슴팍에 있는 해골의 눈은 공허해 보이고 다가올날에 대한 두려움으로 가득 찬 것 같다.&#13;&#10;그러나 끝없는 경외와 제사로 과연 재앙을 피할 수 있을까?&#13;&#10;화를 불러오는 행동은 또 어떻게 평안을 가져다 줄 수 있을까?</text>
+<text id="DoomsdayCalendar_weapon_desc">차가운 얼굴에 누군가의 피가 묻어있다.&#13;&#10;그 위의 가시에 긁히면 환각 속에서 세상의 종말을 볼 수 있다고 한다.</text>
+<text id="DoomsdayCalendar_weapon_specialDesc">대상을 처치할 시 같은 방에 있는 모든 직원의 체력이 회복된다.&#13;&#10;회복량은 각 직원의 최대 체력의 12%다.</text>
+</localize>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="120001">
+
+    <narration action="move">
+       #0 está a caminho da Unidade de Contenção “$0” para iniciar o processo de trabalho.
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-04-10-06</codeNo>
+
+      <portrait openLevel ="1">Custom/ToyFactory</portrait>
+
+      <name openLevel ="1">
+        Fábrica de Brinquedos
+      </name>
+
+      <riskLevel openLevel ="1">TETH</riskLevel>
+
+      <openText>Um grupo de pessoas estranhamente vestidas saiu da caixa de contenção. &#13;&#10; Eles têm latas na cabeça e corpos de plástico...</openText>
+
+    </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {Este é um contêiner de transporte que pode passar por cirurgia de remodelação.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Este recipiente pode fortalecer o corpo humano com segurança e eficácia.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Embora materiais como plástico e estanho tenham sido misturados por algum motivo após a transformação,&#13;&#10;Mas aqueles que passaram pela cirurgia não reclamaram de desconforto.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Você ama sua cidade?&#13;&#10;Para aqueles que responderam "amo", eles têm sorte. }
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Após cinco operações, o corpo do funcionário ficou completamente esmagado. &#13;&#10; Eles se tornam cada vez mais perfeitos, e a estrutura interna continuará a ser reparada.&#13;&#10;Eles se tornam verdadeiras máquinas de combate!}
+      ]
+    </desc>
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">Os funcionários que entram nesta máquina podem aumentar todos os valores de habilidade.</specialTip>
+      <specialTip openLevel="2" key="2">Quanto mais tempo você usar a máquina, maior será o aumento no valor da habilidade.</specialTip>
+      <specialTip openLevel="3" key="3">Após cinco usos, o agente estará completamente transformado.</specialTip>
+      <specialTip openLevel="4" key="4">Talvez aquele agente não fosse mais ele.&#13;&#10;Se possível, diga a esta fábrica: Você ama sua cidade?</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Você quer ser derrotado?Dolorosamente?</name>
+    <codeId>T-04-10-06-A</codeId>
+  </child>
+
+</creature>

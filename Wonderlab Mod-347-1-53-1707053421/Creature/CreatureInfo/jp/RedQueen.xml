@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="102113">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0はそろそろこの作業に味気なくなってきます。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {女王を満足させることはかなり大変なことです。}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {$0はピエロの道芸に点数をつけています。}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-02-113</codeNo>
+      <portrait openLevel ="1">Custom/RedQueen</portrait>
+
+      <name openLevel ="1">
+        レッドクイーン
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>庭にバラが咲いた時、赤のみを手折った。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {庭の入り口には大きなバラの木が一本立っている。 ある日、3人の庭師が白いバラが咲いた木を赤く塗っていたが、これを不思議に思った少女が彼らを見に近寄った。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {少女が注意深く聞いた。 「あのう、なぜ、白いバラを赤く染めるのか教えてくれますか？」　5と7は黙って2人を見つめ、2人は小さな声で話を始めた。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {「こちらは赤いバラ園です。 ある日、私たちのミスで白いバラの木を一本植えました。 もし女王がこれを知ったら私たち皆の首を斬ります。 それでバラを赤く塗るのです。」}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {二人の後ろに赤いハート王冠をかぶった女王が現れた。 「女王様だ！ 女王様！」
+一生懸命バラを塗っていた庭師が言った。
+「寛大な女王様！ 死に値する罪を犯しました! どうか一度だけ許しを…”
+話を終えもしないうちに庭の間に首ががんがんと飛んで行った. 庭師の血に白かったバラが染まると、女王がこう言った。 「これで赤くなった。」}
+      ]
+    </desc>
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">作業結果が悪いとき，斧が飛んできて作業をしていた職員の首が撥ねられた</specialTip>
+      <specialTip openLevel="2" key="2">同じ作業を3回連続で実施すると、斧が飛んできて作業をしていた職員の首が撥ねられた</specialTip>
+      <specialTip openLevel="3" key="3">ランク3以上の職員が作業を始めると、作業成功率が少し上昇した。</specialTip>
+      <specialTip openLevel="4" key="4">ランク4以上では更に上昇した。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Tianhuo_weapon_name1">天火大剑</text>
+<text id="Tianhuo_weapon_desc1">破坏之键「天火圣裁」完全解放力量后，所显现的形态。双枪伸展变形，构成剑柄。
+熔金般的高热烈焰冲天而起，凝聚成剑身。如其名所示，为万物带来平等的毁灭。</text>
+<text id="Tianhuo_weapon_specialDesc1">百分之二十概率触发特殊攻击挥砍造成40点红色伤害，
+当穿戴该装备的员工生命值为百分之百时下一次挥砍扣除自身百分之五十生命加注到特殊攻击中</text>
+
+<text id="Tianhuo_weapon_name2">劫灭</text>
+<text id="Tianhuo_weapon_desc2">宛如要使万千星辰刻上自己的炎火，大剑展现出了它无上的破坏力。
+巨炎吞噬穹宇，陨落于此剑下的亡魂，连尘烬都不将余下。这即是一跨越终焉之剑。</text>
+<text id="Tianhuo_weapon_specialDesc2">特殊攻击冲刺对异想体造成10点红色伤害，
+劈砍当血量高于百分之五十时扣自身十点生命值并造成80点红伤当血量低于百分之五十时不会扣血劈砍伤害为40</text>
+
+<text id="Tianhuo_weapon_name3">天火圣裁</text>
+<text id="Tianhuo_weapon_desc3">由旧文明第七律者核心制成的神之键，双枪形态的天火圣裁，主宰“炎”之力量拥有最强大的破坏力。
+不过其真正的力量似乎被封印了。</text>
+<text id="Tianhuo_weapon_specialDesc3">攻击异想体时有百分之二十的概率产生爆炸伤害为红伤5点</text>
+
+</localize>

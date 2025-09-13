@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 3340,1772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: true
+  xy: 2757, 769
+  size: 228, 172
+  orig: 228, 172
+  offset: 0, 0
+  index: -1
+212
+  rotate: false
+  xy: 2428, 94
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+GearsUnit_Default
+  rotate: true
+  xy: 2942, 108
+  size: 202, 248
+  orig: 202, 248
+  offset: 0, 0
+  index: -1
+QQ图片20241214234031
+  rotate: false
+  xy: 1792, 608
+  size: 963, 389
+  orig: 963, 389
+  offset: 0, 0
+  index: -1
+WhiteNight_ApostlePowerUp
+  rotate: false
+  xy: 566, 101
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Wizard_Ozma
+  rotate: false
+  xy: 2757, 639
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+sactx-1-2048x2048-Crunch-8556_RoseSign_RoseSign_SDAtlas-c9ddc14c
+  rotate: true
+  xy: 2938, 767
+  size: 453, 357
+  orig: 453, 357
+  offset: 0, 0
+  index: -1
+skeleton 213
+  rotate: true
+  xy: 2938, 1222
+  size: 548, 400
+  orig: 548, 400
+  offset: 0, 0
+  index: -1
+tx1
+  rotate: false
+  xy: 1792, 48
+  size: 634, 558
+  orig: 634, 558
+  offset: 0, 0
+  index: -1
+tx2
+  rotate: false
+  xy: 2, 231
+  size: 1024, 789
+  orig: 1024, 789
+  offset: 0, 0
+  index: -1
+tx3
+  rotate: false
+  xy: 1912, 999
+  size: 1024, 771
+  orig: 1024, 771
+  offset: 0, 0
+  index: -1
+十字架
+  rotate: false
+  xy: 1028, 54
+  size: 762, 966
+  orig: 762, 966
+  offset: 0, 0
+  index: -1
+太小
+  rotate: true
+  xy: 2942, 312
+  size: 453, 357
+  orig: 453, 357
+  offset: 0, 0
+  index: -1
+底盘
+  rotate: false
+  xy: 2, 1022
+  size: 1908, 748
+  orig: 1908, 748
+  offset: 0, 0
+  index: -1
+脚
+  rotate: false
+  xy: 353, 27
+  size: 211, 202
+  orig: 211, 202
+  offset: 0, 0
+  index: -1
+身体1
+  rotate: true
+  xy: 2, 2
+  size: 227, 349
+  orig: 227, 349
+  offset: 0, 0
+  index: -1

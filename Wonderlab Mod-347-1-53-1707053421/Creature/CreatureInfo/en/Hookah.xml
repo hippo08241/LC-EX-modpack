@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100410">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0 tries to pull themselves together multiple times during work.},
+      {$0 flutters away, observing Agent #0.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {A new fruit is growing near $0.}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {#0 approaches $0, but comes to their senses and backs off.}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {The sound of pain reverberates the fruit once again.},
+      {The sound of despair reverberates the fruit once again.},
+      {The sound of greif reverberates the fruit once again.}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-10</codeNo>
+      <portrait openLevel ="1">Custom/Hookah</portrait>
+
+      <name openLevel ="1">
+        Hookah Caterpillar
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW	
+      </riskLevel>
+      <openText>Burn, and I shall spread my wings.</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {An Abnormality with a few dozen fruits hanging from the ceiling.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {The fruits are someone's despair, sacrifice, pain, greif.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {The more thoughts someone has brings them greater pain, those who remember more are befallen with larger grief, and the more knowledge one has, the sharper the grief. 생각이 많을 수록 더 아파하며, 기억하는게 많을 수록 더 슬퍼하며, 아는게 더 많을 수록 절망한다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Would've it been better if you did none.}
+      ]
+    </desc>
+    
+  <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">When employee Yuda finished work, an Eclose Counter (Refered to as F-04-10-1) started to form.유다 직원이 작업을 끝내자 우화 카운터 (이하 F-04-10-1)가 생기기 시작했다.</specialTip>
+      <specialTip openLevel="2" key="2">The Eclose Counter did not increase when a high-level Repression work was done. 우화 카운터는 높은 단계의 억압 작업을 진행할 때는 쌓이지 않았다.</specialTip>
+      <specialTip openLevel="3" key="3">When an employee with the Eclose Counter finished work, the counter's form changed. This new form has been dubbed F-04-10-02.우화 카운터 (F-04-10-01) 가 있는 직원이 작업을 끝내자 우화 카운터의 모습이 변했다. 이를 (F-04-10-02)라고 정의했다.</specialTip>
+      <specialTip openLevel="4" key="4">When an employee with the changed Eclose Counter(F-04-10-02) finished work, $0's Qliphoth Counter decreased. 우화 카운터(F-04-10-02)가 있는 직원이 작업을 끝내자 $0의 클리포트 카운터가 감소하였다</specialTip>
+      <specialTip openLevel="5" key="5">$0 produced greater amounts of PE-Boxes when worked on by a lower-grade employee. $0는 저등급 직원이 작업을 시작했을 때, 더 많은 PEBox를 생산하였다.</specialTip>
+      <specialTip openLevel="6" key="6">When an employee died in the Containment Unit, the Qliphoth Counter lowered. 작업 중인 직원이 사망하자 $0의 클리포트 카운터가 감소하였다</specialTip>
+     </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The fruit hanging from the ceiling flutters wayward.}
+{As soon as one identifies you, they all rush towards you, fingers outstretched.}
+{You...}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Shield yourself." target="1" isAnswer="false"/>
+        <node desc="Close your eyes." target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {You attempt to block the fluttering fruit with your hands..}
+{But, they penetrate your hand and dig in your flesh..}
+{Pain as if you've never felt before.}
+{A new fruit begins to grow.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {You close your eyes, as if nothing is wrong.}
+{When the expected impact doesn't arrive, you slowly open your eyes.}
+{There are no moving fruits or fabric. Everything is the same as it always ways.}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {A rather adorable looking Abnormality that attempts to play with your mind.},
+        {Manager, do you believe what you think is the truth?}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

@@ -1,0 +1,71 @@
+Qquickness_EnergyCo_MOD
+Energy Corp mod
+
+v1.5.11 24.6.23.
+
+Included missing Chinese translations.
+
+v1.5.10 24.6.11.
+
+Added more Japanese translation.
+
+v1.5.9 24.6.6.
+
+Mod compatibility improvement
+- Changed this mod's method for distinguishing Tool Abnormalities.
+
+v1.5.8 24.5.4.
+
+Added more Chinese translation.
+
+v1.5.7 24.5.3.
+
+Added more Chinese translation.
+
+v1.5.6 24.5.3.
+
+1. Chinese translation added.
+- Thanks to 21474836(Lin), CreeperLin, adsdoajos, and Sonalisa for their translations!
+  感谢21474836(Lin)、CreeperLin、adsdoajos和Sonalisa为我们提供翻译！
+2. Language Compatibility mod improvements
+- The feature added in v1.5.4 is now called 'Language Compatibility mod'.
+- Modified for better compatibility to not affect other creature mods.
+- Can be disabled in applymod.xml.
+
+v1.5.5 24.4.9.
+
+Mod compatibility improvements
+- Fixed a bug that occurred when Abnormality mods have no English translations.
+- Enhanced the Tool Abnormalities selection generation method in the Additional Containment Unit mod.
+
+v1.5.4 24.3.30.
+
+This mod can now be run with languages that are not translated yet,
+such as Chinese, Portuguese, and others.
+
+v1.5.3 24.3.19.
+
+Japanese translation added.
+日本語翻訳を追加。
+- Thank you for the translation, hero8857!
+  hero8857さん、翻訳してくださってありがとうございます！
+
+v1.5.2 24.3.15.
+
+1. Improvements to the Additional Containment Unit mod
+- Fixed an issue where the json file was not being created
+- Moved the selection of Tool Abnormalities from Day 34 to Day 33
+2. Fixed an issue with the Random Additional Abnormality mod where risklevel.xml was not being properly read.
+
+v1.5.1 24.2.28.
+
+1. A new folder has been created in the Config folder for the Random Additional Abnormality mod.
+2. Now, when the Random Additional Abnormality mod is used, mod Abnormalities can appear without modifying the risklevel.xml.
+
+v1.5.0 24.2.27.
+
+Now Additional abnormalities are chosen by the player.
+
+v1.4.1 24.2.9.
+
+English translation added.

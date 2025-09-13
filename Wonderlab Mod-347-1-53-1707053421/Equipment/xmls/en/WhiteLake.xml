@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="WhiteLake_weapon_name">Torn Wings</text>
+  <text id="WhiteLake_weapon_desc">A pair of ragged wings, ripped and torn by something.</text>
+  <text id="WhiteLakeKnight_weapon_name">Sword of the Knight</text>
+  <text id="WhiteLakeKnight_weapon_desc"></text>
+  <text id="WhiteLake_armor_desc">Though these wings may be ruined,
+I still yet have my own two feet, and I shall push on.</text>
+  <text id="WhiteLake_gift_desc">Sucess Rate +5 Work Speed +5</text>
+</localize>

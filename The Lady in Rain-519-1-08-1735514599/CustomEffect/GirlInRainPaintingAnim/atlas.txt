@@ -1,0 +1,216 @@
+
+ladyinrain.png
+size: 1371,2971
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood
+  rotate: false
+  xy: 2, 348
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+hit1
+  rotate: false
+  xy: 1041, 2362
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+hit2
+  rotate: false
+  xy: 1037, 2117
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+hit3
+  rotate: false
+  xy: 1037, 1872
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+人物遮挡（呐喊）
+  rotate: false
+  xy: 627, 943
+  size: 114, 303
+  orig: 114, 303
+  offset: 0, 0
+  index: -1
+人物遮挡（掘墓人）
+  rotate: true
+  xy: 1002, 832
+  size: 412, 337
+  orig: 412, 337
+  offset: 0, 0
+  index: -1
+人物遮挡（珍珠）
+  rotate: false
+  xy: 516, 554
+  size: 203, 306
+  orig: 203, 306
+  offset: 0, 0
+  index: -1
+人物遮挡（蒙娜丽莎）
+  rotate: true
+  xy: 1037, 1665
+  size: 205, 318
+  orig: 205, 318
+  offset: 0, 0
+  index: -1
+呐喊
+  rotate: true
+  xy: 947, 80
+  size: 298, 422
+  orig: 298, 422
+  offset: 0, 0
+  index: -1
+图层 39
+  rotate: true
+  xy: 721, 506
+  size: 201, 229
+  orig: 201, 229
+  offset: 0, 0
+  index: -1
+图层 40
+  rotate: true
+  xy: 743, 709
+  size: 282, 229
+  orig: 282, 229
+  offset: 0, 0
+  index: -1
+图层 41
+  rotate: true
+  xy: 719, 58
+  size: 134, 165
+  orig: 134, 165
+  offset: 0, 0
+  index: -1
+图层 5
+  rotate: false
+  xy: 2, 2431
+  size: 779, 222
+  orig: 779, 222
+  offset: 0, 0
+  index: -1
+图层 5 拷贝
+  rotate: true
+  xy: 783, 1732
+  size: 775, 252
+  orig: 775, 252
+  offset: 0, 0
+  index: -1
+图层 5 拷贝 2
+  rotate: false
+  xy: 974, 676
+  size: 374, 154
+  orig: 374, 154
+  offset: 0, 0
+  index: -1
+大卫头像
+  rotate: true
+  xy: 743, 993
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+掘墓人
+  rotate: true
+  xy: 2, 1248
+  size: 547, 750
+  orig: 547, 750
+  offset: 0, 0
+  index: -1
+椅子
+  rotate: true
+  xy: 1006, 1246
+  size: 192, 346
+  orig: 192, 346
+  offset: 0, 0
+  index: -1
+水桶画具摆件
+  rotate: true
+  xy: 783, 2509
+  size: 144, 256
+  orig: 144, 256
+  offset: 0, 0
+  index: -1
+珍珠耳环
+  rotate: false
+  xy: 754, 1358
+  size: 250, 372
+  orig: 250, 372
+  offset: 0, 0
+  index: -1
+琴女头像
+  rotate: true
+  xy: 2, 58
+  size: 288, 402
+  orig: 288, 402
+  offset: 0, 0
+  index: -1
+画架整体
+  rotate: true
+  xy: 2, 2655
+  size: 314, 1049
+  orig: 314, 1049
+  offset: 0, 0
+  index: -1
+画框（掘墓人）
+  rotate: true
+  xy: 2, 1797
+  size: 632, 771
+  orig: 632, 771
+  offset: 0, 0
+  index: -1
+箱子上
+  rotate: false
+  xy: 754, 1143
+  size: 246, 213
+  orig: 246, 213
+  offset: 0, 0
+  index: -1
+箱子下
+  rotate: true
+  xy: 1053, 2607
+  size: 362, 311
+  orig: 362, 311
+  offset: 0, 0
+  index: -1
+老人头像
+  rotate: true
+  xy: 1006, 1440
+  size: 223, 353
+  orig: 223, 353
+  offset: 0, 0
+  index: -1
+蒙娜丽莎
+  rotate: true
+  xy: 516, 194
+  size: 310, 429
+  orig: 310, 429
+  offset: 0, 0
+  index: -1
+雨中女郎
+  rotate: true
+  xy: 952, 380
+  size: 294, 405
+  orig: 294, 405
+  offset: 0, 0
+  index: -1
+雨中女郎控制
+  rotate: true
+  xy: 406, 2
+  size: 190, 311
+  orig: 190, 311
+  offset: 0, 0
+  index: -1
+雨中女郎染色
+  rotate: true
+  xy: 2, 862
+  size: 384, 623
+  orig: 384, 623
+  offset: 0, 0
+  index: -1

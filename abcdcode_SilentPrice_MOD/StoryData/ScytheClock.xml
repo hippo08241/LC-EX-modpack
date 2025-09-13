@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="C_100101">
+     <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+     <cg src="BlackCG"/>
+     <bgm src="story-03-ogg" />
+    <speak speaker="angela">custom/ScytheClock_1</speak>
+    <speak>custom/ScytheClock_2</speak>
+    <remove_cg effect="fade" />
+  </scene>
+</root>

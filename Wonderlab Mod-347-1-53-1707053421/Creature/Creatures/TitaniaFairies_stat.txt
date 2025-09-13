@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <script>TitaniaFairies</script>
+  <stat>
+    <hp>30</hp>
+    <speed>6</speed>
+
+    <defense id="1">
+      <defenseElement type="R">2</defenseElement>
+      <defenseElement type="W">2</defenseElement>
+      <defenseElement type="B">0</defenseElement>
+      <defenseElement type="P">0</defenseElement>
+    </defense>
+
+  </stat>
+
+  <anim prefab="Custom/TitaniaFairiesAnim" x="-1" y="-2"/>
+
+  <riskLevel openLevel="1">ALEPH</riskLevel>
+
+</creature>

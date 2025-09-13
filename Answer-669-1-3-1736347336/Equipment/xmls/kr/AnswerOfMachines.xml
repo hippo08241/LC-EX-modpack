@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Dead End Answer_armor_name">막다른 길</text>
+<text id="Dead End Answer_armor_desc">큰 옷은 해답을 지키기 위해 매우 견고하게 만들어졌다.
+그 해답을 고집한 자에게는 미래가 없을 것이다.</text>
+<text id="Dead End Answer_armor_specialDesc">정의 능력치가 크게 감소.
+해당 환상체의 E.G.O 기프트를 착용 시 내성이 강화됨.</text>
+<text id="Dead End Answer_weapon_name">막다른 길</text>
+<text id="Dead End Answer_weapon_desc">그들에게 그것은 분명 해답이었을 것이다. 그러나 완전한, 일반적인 해답은 아니었다.
+단지 그것뿐인 것이었다.</text>
+<text id="Dead End Answer_weapon_specialDesc">착용자의 받는 피해량이 60% 감소.
+제압 작업 시 착용자 바로 뒤에 있는 직원 혹은 환상체의 받는 피해량이 30% 감소.
+단, 감소되기 전의 피해량이 10보다 큰 경우, 10 이하로 감소되지 않음.
+
+해당 환상체의 E.G.O를 전부 착용할 경우, R 내성이 더욱 강화됨.</text>
+<text id="Dead End Answer_gift_name">막다른 길</text>
+<text id="Dead End Answer_gift_desc">체력 +14, 정신력 +14, 공격 속도 -10, 이동 속도 -10</text>
+</localize>

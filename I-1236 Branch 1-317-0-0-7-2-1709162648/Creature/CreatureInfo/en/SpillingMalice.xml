@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142018">
+
+    <narration action="move">
+      #0 heads to $0's containment unit.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" was crashed to the ground.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {"$0" is bubbling.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {"$0" could spill out at any time.}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {"$0" reminds #0 of certain pasts.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-06-237-SP</codeNo>
+      <portrait openLevel="1">Custom/SpM</portrait>
+
+      <name openLevel="1">Overflowing Malice</name>
+      <name openLevel="3">Spilling Malice</name>
+      
+      <riskLevel openLevel="1">WAW</riskLevel>
+
+      <openText>And then it was generated.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Hide yourself. Do not expose your thoughts.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {(Some illegible handwriting)}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">$0, unlike other Abnormalities, produces energy depending on the amount of NE-Boxes, with simultaneously generated NE-Boxes being used and PE-Boxes being discarded.</specialTip>
+      <specialTip openLevel="2" key="2">When the work result was Good, the Qliphoth Counter increased, then the employee who completes the work will be influenced by $0. (From then on, the employee will be referred to as O-01-73-1.)</specialTip>
+      <specialTip openLevel="2" key="3">T-06-237-SP-1 will benefit from increased SP and Temperance stat. However, the increased value will reduce by time when there are other employees in the same area.</specialTip>
+      <specialTip openLevel="2" key="4">When the work result was Bad, the Qliphoth Counter decreased, then the employee will take a certain amount of B damage.</specialTip>
+      <specialTip openLevel="2" key="5">Once the Qliphoth Counter reaches 0, every T-06-237-SP-1 would feel like ████████。</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

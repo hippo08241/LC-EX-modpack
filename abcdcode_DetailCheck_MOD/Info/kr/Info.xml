@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>상세확인 모드</name>
+<descs>
+<desc>환상체 작업의 상세한 성공률을 %단위로 표시해주고, 일차 종료 시 상승할 직원 능력치를 미리 확인 가능하게 하는 모드</desc>
+<desc>추가로 관리 중에 직원들의 id가 표기된다.</desc>
+</descs>
+</info>

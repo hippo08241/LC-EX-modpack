@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="TearsBottle_weapon_name">アイ・クリップ</text>
+  <text id="TearsBottle_weapon_desc">私にできることは横になって、片目でドアの中を覗くのが精一杯だった。 それでそこを通ることは考えられなくなった。 彼女は座り込んでまた泣き出した。「こんなに泣くなんて。 トントン！そうだと言って！」 しかし、すでに流した涙が部屋の中に充満し、大きな水たまりになっていた。</text>
+  <text id="TearsBottle_weapon_specialDesc">E.G.O GIFTがあるならばダメージ量4増加</text>
+  <text id="TearsBottle_gift_Desc">精神力+8</text>
+  <text id="Titania_weapon_name">真夏の夜</text>
+  <text id="Titania_weapon_desc">“あなたの苦痛を収めましょう。花に生まれ変わりなさい。”</text>
+  <text id="Titania_weapon_specialDesc">妖精たちのダメージ量増加+1 &#13;&#10;職員を始末したときの妖精の数+1</text>
+  <text id="Titania_armor_desc">“オベロン…あなたですか？ 私が心の底から懐かしむオベロンで合っていますか？”</text>
+  <text id="Titania_armor_specialDesc">体の周りに妖精が出現し、単一の対象を攻撃する度に、対象へ妖精が追加でダメージを与える</text>
+  <text id="Titania_gift_Desc">移動速度 +6 攻撃速度 +6</text>
+</localize>

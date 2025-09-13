@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142017">
+
+    <narration action="move">
+      #0は$0の収容室へ向かいます。
+    </narration>
+
+    <narration action="start">
+      [
+      {$0がいつこの収容室内に現れたのかはわかりません。}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {$0は元正社員を名乗る。}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {「$0」は素晴らしいアイデアを思いつき、それを見せるために「#0」を招待しました。}
+      ]
+    </narration>
+    
+    <narration action="mid3">
+      [
+      {パンドラは魔法の箱を開けましたが、他に何人の「パンドラ」が存在するのでしょうか？}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">F-01-127</codeNo>
+      <portrait openLevel="1">Custom/AgentP</portrait>
+
+      <name openLevel="1">職員P</name>
+      
+      <riskLevel openLevel="1">TETH</riskLevel>
+
+      <openText>それは素晴らしいアイデアでした!...しかし、それにはどれくらいの費用がかかりましたか?</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="3">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="8" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="9" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <desc id="10" openLevel="4">
+      [
+      {Unfinished Text}
+      ]
+    </desc>
+
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">いずれかの属性のレベル3以上を持つ従業員は、作業を完了すると重大な浸食ダメージを受ける可能性があります。</specialTip>
+      <specialTip openLevel="2" key="2">仕事の結果が良いと、あるテクノロジーの影響で「$0」がその仕事を終えた職員の姿に変化します。</specialTip>
+      <specialTip openLevel="2" key="3">「$0」に似た従業員が入社すると、SPの最大値が徐々に増加します。</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

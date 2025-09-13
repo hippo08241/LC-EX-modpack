@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="FairyQueenWeapon_name">Ravening Hunger</text>
+<text id="FairyQueenWeapon_desc">I've starved for so long, I can hardly resist myself... I want meat... Unspoiled... And clean...</text>
+<text id="FairyQueenWeapon_specialDesc">All healing received while holding this weapon are reduced by 90%.
+There is a 20% chance to perform a special attack that restores a certain amount of HP with each hit.
+There is a 50% chance to immediately perform this special attack again at the cost of SP. This won't occur if the wielder has less than 40 SP.
+When the special attack is reused, the damage it deals is increased by 6%.
+The first reuse costs 10 SP. After, 5 SP is spent with each reuse of the attack.</text>
+<text id="FairyQueen_gift_desc">HP +3, SP +3&#13;&#10;Movement Speed +2</text>
+<text id="FairyQueenarmor_desc">Only soft and tender meat can fill this empty stomach...</text>
+<text id="FairyQueenArmor_specialDesc">When taking damage, a certain amount of HP is immediately restored.&#13;&#10;For every 5 points of damage taken, lose 15% of max HP.&#13;&#10;Additionally, increase the base damage of the wearer's weapon by 2.&#13;&#10;Additionally, Increase the wearer's HP recovery by 3% (stacks up to 3 times)&#13;&#10; While using the full set of [Ravening Hunger],&#13;&#10;the special attack deals 10 damage to all employees in the same room.&#13;&#10;After, HP is restored to the wearer for each employee damaged this way,&#13;&#10;The base damage of the weapon is increased by 3,&#13;&#10;and the wearer gains 30% increased movement speed for one minute.</text>
+
+</localize>

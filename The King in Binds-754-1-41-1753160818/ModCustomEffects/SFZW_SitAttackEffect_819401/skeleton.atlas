@@ -1,0 +1,69 @@
+
+skeleton.png
+size: 2760,1846
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 2246, 1332
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+111122234
+  rotate: true
+  xy: 2, 564
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+111122234 (2)
+  rotate: true
+  xy: 724, 564
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+124
+  rotate: true
+  xy: 1446, 921
+  size: 923, 631
+  orig: 923, 631
+  offset: 0, 0
+  index: -1
+chui
+  rotate: false
+  xy: 2, 2
+  size: 1120, 560
+  orig: 1120, 560
+  offset: 0, 0
+  index: -1
+dao
+  rotate: false
+  xy: 1124, 2
+  size: 1120, 560
+  orig: 1120, 560
+  offset: 0, 0
+  index: -1
+judge_xx_06
+  rotate: false
+  xy: 1446, 663
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+star_66_1
+  rotate: false
+  xy: 2079, 1716
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+丁达尔光线1
+  rotate: true
+  xy: 2079, 683
+  size: 647, 670
+  orig: 647, 670
+  offset: 0, 0
+  index: -1

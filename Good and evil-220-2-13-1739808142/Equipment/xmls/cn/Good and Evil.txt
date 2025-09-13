@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Good and Evil_weapon_name">善恶之分</text>
+<text id="Good and Evil_gift_name">善恶无形</text>
+<text id="Good and Evil_gift_desc">工作成功率+10</text>
+<text id="Good and Evil_armor_desc">不管你是为何来到这家公司但是你必须尊重“我”的选择。</text>
+<text id="Good and Evil_weapon_desc">攻击他人则会伤害自己。</text>
+</localize>

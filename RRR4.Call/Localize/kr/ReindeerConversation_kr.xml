@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Reindeer_Captain_Start_0">순록들, 빠르게 치고 나가자고.</text>
+  <text id="Reindeer_Captain_Start_1">순록들, 정신력을 충분히 신경 쓰면서 싸우도록.</text>
+  <text id="Reindeer_Captain_Start_2">순록팀의 저력을 보여드리겠습니다.</text>
+  <text id="Reindeer_Captain_Start_Geburah">이런 곳에 특색이 있을 줄이야…순록들은 정신 똑바로 차려라,</text>
+  <text id="Reindeer_Captain_Start_Binah">관리자, 만약 저게 진짜 조율자라면 이건 계약에 위배되는 사항이다.</text>
+  
+  <text id="Reindeer_Captain_Half_0">절반의 순록이 죽었습니다.</text>
+  <text id="Reindeer_Captain_Half_1">반정도 전멸했어. 서둘러! 길게 끌면 불리해지는 건 우리들이니까.</text>
+  <text id="Reindeer_Captain_Half_2">순록이 절반 정도 죽었군. 만만한 상대는 아닌 것 같아. 제대로 정신 차려.</text>
+  <text id="Reindeer_Captain_Half_Geburah">순록 절반이 전멸. 토끼 새끼가 그렇게 자랑할만한 힘을 가지고 있군.</text>
+  <text id="Reindeer_Captain_Half_Binah">열화된 조율자의 힘을 가진건가…. 순록 절반이 쓸려나갔어. 만만치 않은 상대야. </text>
+
+  <text id="Reindeer_Captain_Almost_0">80%가 죽었어. 슬슬 위험해. 순록들의 정신이 온전치 않아.</text>
+  <text id="Reindeer_Captain_Almost_1">80%의 순록이 사라졌습니다. 말이 날개지, 내부는 유적이나 다름없는 수준이군요.</text>
+  <text id="Reindeer_Captain_Almost_Geburah">80%가 죽었어. 붉은안개는 정말 인간이긴 한 건가? 이 정도 힘은 심층에서나 봤는데</text>
+  <text id="Reindeer_Captain_Almost_Binah">요정과 열쇠라…. 열화된 게 이 수준이면 진짜 조율자는 더 끔찍하겠군.</text>
+  
+  <text id="Reindeer_Captain_Eliminated_0">모든 순록이 전멸했습니다. 남은 일은 알아서 책임지시길.</text>
+  <text id="Reindeer_Captain_Eliminated_1">모든 순록이 죽었습니다. 임무 실패.</text>
+  <text id="Reindeer_Captain_Eliminated_2">전멸. 우리 사정이 좋았다면, 여기는 맡고 싶지 않을 수준이군...</text>
+  <text id="Reindeer_Captain_Eliminated_Geburah">역시 최강이라 불리던 특색인가…. 저런 괴물같은놈은 직접 만나고 싶지 않아.</text>
+  <text id="Reindeer_Captain_Eliminated_Binah">L사의 관리자도 미쳤군. 더는 이런 일에 우리를 끌어들이지 마.</text>
+  
+  <text id="Reindeer_Captain_End_0">처리완료했습니다. 괴물같은 놈들이라도 전투 방식이 뻔하군요.</text>
+  <text id="Reindeer_Captain_End_1">다음에도 불러주시길. 토끼보다 쓸만할 겁니다.</text>
+  <text id="Reindeer_Captain_End_2">순록들. 돌아와라.</text>
+  <text id="Reindeer_Captain_End_3">임무완료. 순록들의 기억을 소거하겠습니다.</text>
+  <text id="Reindeer_Captain_End_Geburah">소문처럼 강한 최강의 특색다운 모습이었어. 토끼가 봤으면 전성기급은 아니라고 길길이 날뛰었겠지만.</text>
+  <text id="Reindeer_Captain_End_Binah">조율자와 관련되는 일은 평생 없었으면 좋겠군. 저런 것이라도 말이지.</text>
+
+  <!--Rabbit Units
+      
+      Rabbit_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Reindeer_Unit_Name">순록</text>
+  
+  <text id="Reindeer_Unit_Start_0">오늘도 출격이네. 다들 힘내자고.</text>
+  <text id="Reindeer_Unit_Start_1">단숨에 마무리 짓자고.</text>
+  <text id="Reindeer_Unit_Start_2">뭐, 살기위해 힘내야지.</text>
+  <text id="Reindeer_Unit_Start_3">확실히 찍어눌러야지.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Officer_0">불쌍한 녀석들이네.</text>
+  <text id="Reindeer_Unit_Encounter_Officer_1">어서 사라져.</text>
+  <text id="Reindeer_Unit_Encounter_Officer_2">정화</text>
+  
+  <text id="Reindeer_Unit_Encounter_Agent_0">좋은 무기도 제대로 샤용하지 못하면 안 되는 거라고.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_1">너희들을 봐줄 만한 여유는 없어.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_2">쓸만한 걸 가지고 있긴 하네.</text>
+  <text id="Reindeer_Unit_Encounter_Agent_3">소거</text>
+  <text id="Reindeer_Unit_Encounter_Agent_4">좋은 장비들을 가지고 있군.</text>
+
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_0">위험도 낮음.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_1">빠르게 제거한다.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_TETH_2">간단하겠어.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_HE_0">위험도 중간.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_1">이정도는 상대할만해.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_2">특이하게 생겼네.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_3">유적에 흔한 괴물들 같아.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_HE_4">아직까지는 문제 없으니 계속 싸우도록 할게.</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_0">위험도 높음.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_1">여기도 괴물들만 모여있군...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_2">불안해도 소용없어. 어쩔 수 없는 일이니까.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_3">이런걸 날개 전쟁에 써먹지 않는 건가...?</text>
+  <text id="Reindeer_Unit_Encounter_Creature_WAW_4">이건 예상 밖의 상황인데...</text>
+  
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_0">위험도 매우 높음.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_1">버텨야 한다... 다들 버텨야 해.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_2">이런 힘은... 심층에서나 봤는데.</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_3">버티기 힘들어지고 있어. 서둘러 끝내야만...</text>
+  <text id="Reindeer_Unit_Encounter_Creature_ALEPH_4">유적 심층에 들어온 거 같아... 숨이 막히는군...</text>
+  
+  <text id="Reindeer_Unit_Panic_0">죽어! 다 죽여버리고 죽어버려.</text>
+  <text id="Reindeer_Unit_Panic_1">모두 죽여버릴 거야. 다 없어져버려. 이런 곳에 의미 따위는 없잖아.</text>
+
+  <text id="Reindeer_Unit_SectorClear_0">임무 완료했습니다.</text>
+  <text id="Reindeer_Unit_SectorClear_1">루돌프님, 이제 돌아갑니까?</text>
+  <text id="Reindeer_Unit_SectorClear_2">조금만 더 시간을 끌었어도 위험했어.</text>
+  <text id="Reindeer_Unit_SectorClear_3">으극...다, 다음 위치로...</text>
+  
+</localize>

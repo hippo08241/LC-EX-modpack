@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+<equipment id="123446" type="special">
+    <name>Reaper_gift</name>
+    <desc>Reaper_desc</desc> 
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>6</mental>
+    </bonus>
+    <sprite>Reaper's_flower</sprite>
+    <script>MissedReaperGift</script>
+  </equipment>
+
+  <equipment id="123444" type="weapon"> 
+    <name>MissedReaper_equip_name</name>
+    <desc>MissedReaper_weapon_desc</desc>
+    <specialDesc>MissedReaper_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_MissedReaper</specialWeaponAnim>
+    <sprite>Censored_MissedReaper</sprite>
+	
+    <animation>Attack_JudeSword_01</animation><!--1-->
+    <animation>Attack_JudgeSword_02</animation><!--2-->
+    <animation>Attack1</animation><!--dummy-->
+    <animation>Attack2</animation><!--dummy-->
+
+    <!--평균 대미지 표기용 실제 대미지와 무관-->
+    <damage type="P" min="18" max="26">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+
+    <!--기본 베기-->
+    <damage type="P" min="18" max="26">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <!--특수 베기-->
+    <damage type="P" min="6" max="6">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+
+    <range>6</range>
+    <script>MissedReaperWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+  <equipment id="123445" type="armor">
+    <name>MissedReaper_armor_name</name>
+    <no>Armor_no</no>
+    <desc>MissedReaper_armor_desc</desc>
+
+
+    <armorId>444</armorId>
+
+    <require type="B">5</require>
+    
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+
+    <script>MissedReaperArmor</script>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+</equipment_list>

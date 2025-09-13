@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>HP bar stacking</name>
+<descs>
+<desc>Stacks HP bars on top of each other whenever the agents are close to each other. Useful during suppressions with lots of agents.
+
+Author: infinilator</desc>
+</descs>
+</info>

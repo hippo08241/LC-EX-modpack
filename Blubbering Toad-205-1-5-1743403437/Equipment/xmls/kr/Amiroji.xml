@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="Amiroji_weapon_name">우울</text>
+<text id="Amiroji_gift_name">우울</text>
+<text id="Amiroji_gift_desc">체력 +6 정신력 -3</text>
+<text id="Amiroji_armor_desc">이 옷을 입기만 해도 저절로 슬퍼진다.</text>
+<text id="Amiroji_weapon_desc">이걸 맞으면 슬픈 기억들이 떠오른다.</text>
+</localize>

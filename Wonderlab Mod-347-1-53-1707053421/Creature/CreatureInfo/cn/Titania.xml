@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122223">
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+    <narration action="start">
+      [
+      {“$0”今天也在寻找丈夫——奥伯隆。}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {微弱的光点在#0的头顶盘旋。},
+      {“$0”在怀疑#0是不是奥伯隆。}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0的嘴里散发着芳香剂的味道。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-34</codeNo>
+      <portrait openLevel ="1">Custom/Titania</portrait>
+
+      <name openLevel ="1">
+        缇坦妮雅
+      </name>
+
+      <riskLevel openLevel ="1">
+        ALEPH
+      </riskLevel>
+      <openText>“作为花朵重生吧。”</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {被丈夫夺走孩子的仙后。当然，对于异想体来说，丈夫理应是不存在的。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {在水和阳光诞生之前，她有过孩子，也有过丈夫——“奥伯隆”。孩子们失踪后，女王试图找到偷走孩子的丈夫，但奥伯隆已然消失无踪。双目失明的她从未见过奥伯隆，即使奥伯隆就在面前，她也无法辨认，只能静静地一遍又一遍地询问：}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {“是你吗？奥伯隆？是那个在我眼里涂了毒草汁的你吗？”}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {花因种子而绽放。如果没有种子，那它就不是花，只是些错误的东西。}
+      ]
+    </desc>
+    
+     <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">当工作结果为优时，“$0”的逆卡巴拉计数器增加了。</specialTip>
+      <specialTip openLevel="2" key="2">当工作结果为差时，“$0”的逆卡巴拉计数器减少了。</specialTip>
+      <specialTip openLevel="3" key="3">自律等级为4或更低的员工开始工作时，该员工变成了巨大的花朵。</specialTip>
+      <specialTip openLevel="4" key="4">“$0”不定期派出精灵去寻找奥伯隆，员工被精灵杀死后，他们的尸体上长出了花，新的精灵也随之诞生。与此同时，“$0”的逆卡巴拉计数器减少了2。（被精灵杀死的员工不会生成相应的工作日志。）&#13;&#10;完成任意工作后，“$0”40秒内不会派出精灵。</specialTip>
+      <specialTip openLevel="5" key="5">员工被精灵附身后，如果承受一定的红色物理伤害或白色精神伤害，精灵将返回“$0”的收容单元。</specialTip>
+      <specialTip openLevel="6" key="6">3级及以下的员工遭遇“$0”后，变成了巨大的花朵。</specialTip>
+      <specialTip openLevel="7" key="7">当“$0”接触另一个异想体时，“$0”将其视为“奥伯隆”并与之同化。“奥伯隆”被镇压后，“$0”返回了收容单元。</specialTip>
+     </specialTipSize>
+  </observe>
+  
+  <child>
+    <name>精灵</name>
+    <codeId>O-03-34-1</codeId>
+  </child>
+  
+</creature>

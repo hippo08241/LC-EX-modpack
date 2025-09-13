@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id="142019">
+
+    <narration action="move">
+      Сотрудник #0 направляется в камеру содержания $0.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" просто находиться там, без какого либо движения.}
+      ]
+    </narration>
+    
+    <narration action="mid1">
+      [
+      {"$0" не отвечает.}
+      ]
+    </narration>
+    
+    <narration action="mid2">
+      [
+      {Лампы на спине "$0" слегка загараются.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-01-240</codeNo>
+      <portrait openLevel="1">Custom/UnChild</portrait>
+
+      <name openLevel="1">Ребенок Связи</name>
+      <specialName openLevel="1">U2lnbmFsIExvc3Q</specialName>
+      
+      <riskLevel openLevel="1">ZAYIN</riskLevel>
+
+      <openText>Дверь в новый мир целиком открыта.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Связь.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Untranslated Text}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Untranslated Text}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Untranslated Text}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Untranslated Text}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {Untranslated Text}
+      ]
+    </desc>
+
+    <specialTipSize size="5">
+      <specialTip openLevel="1" key="1">Когда работа на привязанность была завершина с хорошим результатотм, появиться связь между сотрудниками.Если сотрудник в связи получит урон, сотрудники в той же связи получат немного урона а также уменьшат урон сотрудника получающего урон в данный момент.</specialTip>
+      <specialTip openLevel="2" key="2">Если появиться связь между 2 сотрудниками из разных связей, обе связи будут совмещены.</specialTip>
+      <specialTip openLevel="2" key="3">Когда работа на подавление было завершена, последнее изменение между связями отмениться. Однако, когда сотрудник в связи умер, все предыдущие изменения в связях не могут быть отменены.</specialTip>
+      <specialTip openLevel="2" key="4">$0 не может создавать много связей. Любая попытка сделать больше связей привела к тому что все сотрудники в связях "вышли" из них. После этого, при проведении работы на подавление, все "вышедшие" сотрудники моментально запаникуют и положение связей сбросилось.</specialTip>
+      <specialTip openLevel="2" key="5">$0 не поддается перегреву Клипота.</specialTip>
+    </specialTipSize>
+
+  </observe>
+
+</creature>

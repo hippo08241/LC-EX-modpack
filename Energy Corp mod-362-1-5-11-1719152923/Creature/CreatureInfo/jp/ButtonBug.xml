@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+<info id="178801">
+<narration action="move">
+#0は作業プロセスを開始するために$0の収容室に向かっています。
+</narration>
+<narration action="start">
+[
+{このボタンを押すと何が起こるかは誰にも分かりません。}
+]
+</narration>
+
+<narration action="mid1">
+[
+{収容室内で何が起こっても、このボタンは押されるべきではありません。}
+]
+</narration>
+
+<narration action="mid2">
+[
+{停止！管理人！あの可哀想な職員のことを考えてみてください。彼らに対して同情心はないのですか？}
+]
+</narration>
+
+<narration action="mid3">
+[
+{ああ、いや、そのボタンには触らないでください。}
+]
+</narration>
+
+<narration action="mid4">
+[
+{何度も押しましたが、まだそれについて知りたいことがありますか?}
+]
+</narration>
+</info>
+
+<observe level ="4">
+<collection>
+<codeNo openLevel ="0">O-05-47-1</codeNo>
+<portrait openLevel ="1">Sprites/Unit/creature/DontTouchMe</portrait>
+
+<name openLevel ="1">
+触れてはならない
+</name>
+
+<name openLevel="3">
+ボタンの虫
+</name>
+
+<riskLevel openLevel ="1">
+TETH
+</riskLevel>
+<openText>何度も押しましたが、まだそれについて知りたいことがありますか?</openText>
+</collection>
+<desc id="1" openLevel="0">
+[
+{魅力的な大きな赤いボタンが付いた箱の形をした機械。周りには古い落書きが書かれています。それらは主に、「ボタンを押さないでください」などの警告です。}
+]
+</desc>
+<desc id="2" openLevel="1">
+[
+{多くの職員は、ボタンを押す誘惑が強すぎて不眠症になると訴えています。ただし、この誘惑に悩まされていると主張する職員の数は非常に多いため、現在この問題の解決策に取り組んでいます。}
+]
+</desc>
+<desc id="3" openLevel="1">
+[
+{アブノーマリティーを定義する上で最も重要な側面の 1 つは「自由意志」です。このアブノーマリティは、周囲の者を押しのけようとする強い意志を持っていることが確認されています。したがって、それはアブノーマリティとして分類されます。}
+]
+</desc>
+<desc id="4" openLevel="2">
+[
+{ボタンを押すと、起こってはいけないことが起こります。黙示録が起こると言う人もいれば、虹色の光が降り注ぎ、ユニコーンが空から降りてくると言う人もいるし、施設の地下深くに埋められた爆弾が爆発してすべてがリセットされると言う人もいる。ただし、これらの噂はどれも確認されていません。}
+]
+</desc>
+<desc id="5" openLevel="3">
+[
+{<b>注意</b> このアブノーマリティには、人の好奇心を呼び起こして押しつける能力があるからです。時には、誤って押されようとして、その形状を変えることもあります。}
+]
+</desc>
+<desc id="6" openLevel="4">
+[
+{&lt;職員の証言からの抜粋&gt;
+「現実に戻ったとき、私は収容室の目の前に立っていて、まさにあのいまいましいボタンを押そうとしていました。他の職員が私をあの状況から引きずり出してくれなければ、そうしていたでしょう...」
+
+この職員はさまざまな検査を受け、異常がないと診断され、現在は勤務に復帰している。しかし、それでもボタンを押す機会を逃したことに明らかに不満を表明したため、私たちはその職員にカウンセリングに行くように指示しました。}
+]
+</desc>
+<specialTipSize size="7">
+<specialTip openLevel="1" key="1">慎重または自制ランク1の職員が作業を完了すると、クリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="1" key="2">作業を完了すると、低確率でクリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="1" key="3">作業結果が悪いと、低確率でクリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="1" key="4">職員#0が作業中にパニックになったとき、クリフォトカウンターが減少。</specialTip>
+<specialTip openLevel="1" key="5">$0は一定期間が経過した後、自発的に収容室に戻った。</specialTip>
+<specialTip openLevel="1" key="6">鎮圧しようとしたとき、アブノーマリティーは不気味な機械音を発した。その後、施設内に異常が発見された。</specialTip>
+<specialTip openLevel="1" key="7">このアブノーマリティはクリフォト暴走の影響を受けない。</specialTip>
+</specialTipSize>
+</observe>
+</creature>

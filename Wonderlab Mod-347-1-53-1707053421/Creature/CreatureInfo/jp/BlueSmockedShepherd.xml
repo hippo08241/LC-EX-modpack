@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110014">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+   <narration action="mid1">
+      [
+      {$0の特技は嘘と真実を巧みに織り交ぜて話すことです。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0は帰り道に脱走の気配があると言います},
+      {$0はオオカミを阻むことができるのはただ自分だけだと話します。},
+{$0はF-01-57を悪夢にさいなまれる阿保だと言います。},
+{$0はすぐオオカミが現れると話をしています。},
+{$0はO-01-28はとんでもない女だと言います。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {気分が悪くなった#0は青い牧童に悪口を言います。}
+      ]
+    </narration>
+
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-35</codeNo>
+      <portrait openLevel ="1">Custom/BlueSmockedShepherd</portrait>
+
+      <name openLevel ="1">
+        青い牧童
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <specialName openLevel ="1">
+        オオカミがやって来る!
+      </specialName>
+      <openText>“オオカミが現れた。 オオカミが現れた!”</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {人間は生物としておかしな存在です}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {完璧な関係、完全な愛情などというものなどないのに、それを求めます。}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {御覧なさい。世の中のすべてには限界というものがあります。 錆びて汚れた刀は拭くだけでは戻りません。}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {刀はいつか寿命を迎えます。私たちの関係も。朽ち果てて老いて終わるとか、たまには病気や事故なんかでずっと早く終わりますよ.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {だというのにあなたは努力するんですか? 好意, 愛情, 愛, 同情, そのすべて、全部卑屈なお世辞だとうのに。私の言うとおりに足元へ伏せたあなたの方がよっぽど見るに堪えますよ。あなたのショーに拍手喝采間違いなし!}
+      ]
+    </desc>
+
+
+
+
+
+      <specialTipSize size="7">
+      <specialTip openLevel="0" key="nope">抑圧を除いた作業結果が良い時、確率でクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="0" key="nope">1分間管理をしなかった場合、$0のクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="0" key="nope">抑圧を除いた作業結果が普通の時、低確率でクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="0" key="nope">抑圧作業を行うと、クリフォトカウンターが増加した。</specialTip>
+      <specialTip openLevel="0" key="nope">作業中、青い牧童がオオカミについて言及する度、$0のクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="0" key="nope">$0のクリフォトカウンタ―が0になると、F-04-36のクリフォトカウンターが20秒が経過するごとに1減少した。またこの間、抑圧作業を行うことで$0と決闘できる。決闘に勝つとF-04-36は制圧された。決闘で敗れたとき、青い牧童は隔離室から脱出した。</specialTip>
+      <specialTip openLevel="0" key="nope">青い牧童が脱出するとF-04-36のクリフォトカウンターが0になった。F-01-57は$0とF-04-36に敵対的だった。
+        </specialTip>
+     </specialTipSize>
+
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {舞台は始まって久しいく、ここには多くの人を死なせた男がいる。}
+        {そして、あなたはちょうど銃を持っている。}
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="彼を撃つ" target="1" isAnswer="true"  message="幕を開く." />
+        <node desc="見届ける" target="2" isAnswer="true" message="幕を開く." />
+        <node desc="他の者を撃つ" target="3" isAnswer="true" message="幕を開く." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {あなたは彼を撃つことに決めた。 }
+        {ようやく幕が下りる。}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {銃口は行き場を失った.}
+        {舞台は悲劇で終わる。}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {舞台は喜劇に終わる。}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {“罪を犯した者が演劇を見ているうちに舞台の奇妙な表現に心の底から揺さぶられ、その場で自分の罪を告白した。演劇こそ本音を暴き出せる。”}
+        ]
+      </angela>
+    </max>
+
+  </observe>
+
+
+</creature>

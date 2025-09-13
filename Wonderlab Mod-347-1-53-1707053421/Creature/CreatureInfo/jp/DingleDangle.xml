@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100121">
+    <narration action="move">
+      #0 職員が作業を始めるために $0 の収容室へ入ります。
+    </narration>
+
+    <narration action="mid1">
+      [ {誰もが一度は耐えられない状況と向き合います。} ]
+    </narration>
+    <narration action="mid4">
+      [ {あなたはその状況を乗り越えることができるでしょうか。} ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+   <collection>
+    <codeNo openLevel ="0">F-03-121</codeNo>
+    <portrait openLevel ="1">Custom/DingleDangle</portrait>
+    <name openLevel ="1">ぶらんぶらん</name>
+    <riskLevel openLevel ="1">TETH</riskLevel>
+    <openText>みんなで実ってしがみつこう。</openText>
+   </collection>
+
+   <desc id="1" openLevel="0">
+      [
+      {ぶらりぶらりと実がぶら下がった木だ
+一見普通そうだが、しばしば人がぶら下がって死ぬという噂がある。]
+      ]
+   </desc>
+
+   <desc id="2" openLevel="1">
+      [
+      {木に新しい実ができる.
+みんな実になってしがみつこう。 みんなで一緒にしがみつこう。}
+      ]
+   </desc>
+
+   <specialTipSize size="3">
+    <specialTip openLevel="1" key="1">$0は40秒周期で施設内の慎重ランク3以上の職員に精神錯乱を試みた。 勇気、自制、正義のいずれか一つでもランク3以上なら精神錯乱状態にならなかった。</specialTip>
+    <specialTip openLevel="2" key="2">精神錯乱にあった#0職員は$0の隔離室に歩いて行った。 （当該状態を「魅惑状態」と命名する。）#0職員は死亡すると、隔離室に「実」が生成された。</specialTip>
+    <specialTip openLevel="3" key="3">「実」が生成された時、$0のPE-Box生産量が増加した。</specialTip>
+   </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {天井にぶら下がっている果実はぶらんぶらんとゆらめきながら目の前まで動いてくる。}
+{一つの実があなたを確認すると、すべての実があなたを目指して飛びかかる。}
+{あなたは飛んでくる実を}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="遮る." target="1" isAnswer="false"/>
+        <node desc="目を閉じる." target="2" isAnswer="true"/>
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {なびく実を手で防ぐ}
+{しかし、果実はあなたの手をすり抜ける。}
+{知らない、知るはずもない苦痛。}
+{実がもう一つぶら下がった}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {何の気もしないように目を閉じる。}
+{何の衝撃もないと、あなたは少しずつ目を開ける。}
+{さっきまでの異変は幻覚だったのだろうか。}
+        ]
+      </desc>
+
+
+
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {かわいい姿と裏腹に精神錯乱を試みる幻想体です、},
+        {管理人は自分が考えることが真実だと思いますか。}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

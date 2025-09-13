@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="DreamSpider_weapon_name">몽상가</text>
+  <text id="DreamSpider_gift_name">몽상가</text>
+  <text id="DreamSpider_gift_desc">정신력 +4&#13;&#10;'몽상가' 착용 시 최소, 최대 공격력 +2</text>
+  <text id="DreamSpider_weapon_desc">이 무기의 탄환은 거미줄과 같이 정교하며, 이 탄환에 맞으면 대상은 짧은 꿈에 빠진다.&#13;&#10;그 꿈에 빠지면, 이윽고 꿈을 먹고 사는 거미들이 내려와 마음 속을 헤집을 것이다.&#13;&#10;자장 자장 우리 아가&#13;&#10;잘도 잔다 우리 아가</text>
+<text id="DreamSpider_armor_desc">이 옷은 꿈처럼 가벼우면서도 몽환적이기에, 입으면 꿈 속에 있는 듯한 느낌을 준다.&#13;&#10;의지가 약한 직원이 입으면 깨어날 수 없는 꿈에 빠진다.&#13;&#10;점점 더 사냥감을 강하게 포박하는 거미줄에 갇힌 사람들에게는 탈출할 수단이 없는 걸까? 아니면 탈출할 의지가 없는 걸까?</text>
+<text id="DreamSpider_weapon_specialDesc">공격 시 2.5초간 대상의 이동 속도를 35% 감소</text>
+<text id="DreamSpider_armor_specialDesc">착용 시 T-02-676에게 작업할 수 없지만, T-02-676의 매혹에 걸리지 않게 된다.&#13;&#10;T-02-676에게 정신력을 빼앗겼을 경우, 초당 2~3의 정신력을 회복</text>
+</localize>

@@ -1,0 +1,6 @@
+Object reference not set to an instance of an object
+  at CreatureModel.DeleteChildCreatureModel (Int64 instId) [0x00000] in <filename unknown>:0 
+  at CreatureBase.OnChildSuppressed (.ChildCreatureModel child) [0x00000] in <filename unknown>:0 
+  at ChildCreatureModel.Suppressed () [0x00000] in <filename unknown>:0 
+  at GirlInRain.GirlInRain.ClearCreatures () [0x00000] in <filename unknown>:0 
+  at GirlInRain.GirlInRain.OnFixedUpdate (.CreatureModel creature) [0x00000] in <filename unknown>:0 

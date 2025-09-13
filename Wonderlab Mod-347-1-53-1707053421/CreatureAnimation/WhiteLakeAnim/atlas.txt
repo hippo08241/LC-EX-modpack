@@ -1,0 +1,195 @@
+
+whitelake.png
+size: 5558,3106
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+x자 손
+  rotate: false
+  xy: 2, 1644
+  size: 2542, 1460
+  orig: 2542, 1460
+  offset: 0, 0
+  index: -1
+감은 눈
+  rotate: true
+  xy: 5460, 2660
+  size: 444, 87
+  orig: 447, 89
+  offset: 2, 1
+  index: -1
+구름머리
+  rotate: false
+  xy: 3975, 1730
+  size: 1049, 645
+  orig: 1052, 647
+  offset: 2, 1
+  index: -1
+다리
+  rotate: true
+  xy: 2, 2
+  size: 451, 2422
+  orig: 451, 2422
+  offset: 0, 0
+  index: -1
+레이어 2
+  rotate: false
+  xy: 3228, 29
+  size: 724, 392
+  orig: 726, 394
+  offset: 1, 1
+  index: -1
+레이어 21
+  rotate: false
+  xy: 2637, 1655
+  size: 44, 35
+  orig: 46, 37
+  offset: 1, 1
+  index: -1
+레이어 23
+  rotate: false
+  xy: 2593, 1652
+  size: 42, 38
+  orig: 44, 40
+  offset: 1, 1
+  index: -1
+레이어 24
+  rotate: false
+  xy: 5460, 2400
+  size: 71, 66
+  orig: 73, 68
+  offset: 1, 1
+  index: -1
+레이어 25
+  rotate: false
+  xy: 2546, 1651
+  size: 45, 39
+  orig: 47, 41
+  offset: 1, 1
+  index: -1
+레이어 4
+  rotate: false
+  xy: 3975, 2377
+  size: 1483, 727
+  orig: 1485, 730
+  offset: 1, 2
+  index: -1
+레이어 8
+  rotate: false
+  xy: 2683, 1656
+  size: 42, 34
+  orig: 44, 36
+  offset: 1, 1
+  index: -1
+레이어 9
+  rotate: false
+  xy: 5172, 1775
+  size: 99, 70
+  orig: 101, 72
+  offset: 1, 1
+  index: -1
+목
+  rotate: true
+  xy: 3954, 116
+  size: 305, 334
+  orig: 307, 336
+  offset: 1, 1
+  index: -1
+몸통
+  rotate: false
+  xy: 4786, 944
+  size: 729, 784
+  orig: 731, 786
+  offset: 1, 1
+  index: -1
+얼굴
+  rotate: false
+  xy: 4786, 169
+  size: 710, 773
+  orig: 712, 775
+  offset: 1, 1
+  index: -1
+오른 쪽 동공
+  rotate: true
+  xy: 5273, 1779
+  size: 66, 112
+  orig: 68, 114
+  offset: 1, 1
+  index: -1
+오른쪽 머리칼
+  rotate: true
+  xy: 2426, 24
+  size: 429, 604
+  orig: 431, 606
+  offset: 1, 1
+  index: -1
+오른쪽 팔
+  rotate: true
+  xy: 2546, 1692
+  size: 1412, 1427
+  orig: 1412, 1427
+  offset: 0, 0
+  index: -1
+오른쪽 흰자
+  rotate: true
+  xy: 3032, 49
+  size: 136, 157
+  orig: 138, 159
+  offset: 1, 1
+  index: -1
+왼쪽 동공
+  rotate: true
+  xy: 5026, 1744
+  size: 101, 144
+  orig: 103, 146
+  offset: 1, 1
+  index: -1
+왼쪽 머리칼
+  rotate: false
+  xy: 5026, 1847
+  size: 505, 528
+  orig: 507, 530
+  offset: 1, 1
+  index: -1
+왼쪽 팔
+  rotate: true
+  xy: 3235, 423
+  size: 1267, 1549
+  orig: 1267, 1549
+  offset: 0, 0
+  index: -1
+왼쪽 흰자
+  rotate: true
+  xy: 3032, 187
+  size: 266, 194
+  orig: 268, 196
+  offset: 1, 1
+  index: -1
+우는 입
+  rotate: true
+  xy: 5460, 2468
+  size: 190, 96
+  orig: 192, 98
+  offset: 1, 1
+  index: -1
+웃는 눈
+  rotate: false
+  xy: 4290, 340
+  size: 465, 81
+  orig: 467, 83
+  offset: 1, 1
+  index: -1
+치마
+  rotate: false
+  xy: 2, 455
+  size: 3231, 1187
+  orig: 3233, 1189
+  offset: 1, 1
+  index: -1
+평소 입
+  rotate: true
+  xy: 5498, 750
+  size: 192, 55
+  orig: 195, 57
+  offset: 1, 1
+  index: -1

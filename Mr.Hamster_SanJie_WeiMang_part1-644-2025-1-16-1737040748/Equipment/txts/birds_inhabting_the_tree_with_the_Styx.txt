@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="7162619" type="weapon">
+    <name>sanchez_weapon_name</name>
+    <no>sanchez_weapon_no</no>
+    <desc>sanchez_weapon_desc</desc>
+    <specialDesc>sanchez_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DangoCreatureWeapon_sanchez</specialWeaponAnim>
+    <sprite>DangoCreature_sanchez</sprite>
+
+    <animation>Attack5</animation>
+    <animation>Attack2</animation>
+    <animation>Attack7</animation>
+    <animation>Attack8</animation>
+
+    <require type="R">5</require>
+    <require type="W">4</require>
+    <require type="level">5</require>
+
+    <damage type="P" min="10" max="16">
+      <soundInfo type="damage">Weapons/silent2_3</soundInfo>
+    </damage>
+    <damage type="R" min="12" max="19">
+      <soundInfo type="damage">Weapons/silent2_1</soundInfo>
+    </damage>
+    <damage type="R" min="12" max="19">
+      <soundInfo type="damage">Weapons/silent2_1</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="25">
+      <soundInfo type="damage">Weapons/silent2_2</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="25">
+      <soundInfo type="damage">Weapons/silent2_2</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="15">
+      <soundInfo type="damage">Weapons/silent2_1</soundInfo>
+    </damage>
+    <damage type="P" min="7" max="15">
+      <soundInfo type="damage">Weapons/silent2_3</soundInfo>
+    </damage>
+    <damage type="P" min="10" max="24">
+      <soundInfo type="damage">Weapons/silent2_1</soundInfo>
+    </damage>
+    <damage type="R" min="22" max="55">
+      <soundInfo type="damage">Weapons/silent2_2</soundInfo>
+    </damage>
+    <damage type="P" min="18" max="72">
+      <soundInfo type="damage">Weapons/silent2_3</soundInfo>
+    </damage>
+    <range>7</range>
+    <splash type="penetration" iff ="true"/>
+    <script>WangChuan</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>2.8</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="7101012" type="armor">
+    <name>sanchez_armor_name</name>
+    <no>Armor_no</no>
+    <desc>sanchez_armor_desc</desc>
+    <specialDesc>sanchez_armor_specialDesc</specialDesc>
+
+    <require type="R">5</require>
+    <require type="P">5</require>
+
+    <armorId>7101012</armorId>
+
+    <defense>
+      <defenseElement type="R">0.2</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">0.3</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>QiuHe</script>
+
+  </equipment>
+
+  <equipment id="7102600" type="special">
+    <name>sanchez_gift_name</name>
+    <desc>sanchez_gift_Desc</desc>
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>7</hp>
+      <mental>3</mental>
+      <movement>5</movement>
+      <attackSpeed>5</attackSpeed>
+    </bonus>
+    <sprite>Helmet_7_6</sprite>
+  </equipment>
+
+  <equipment id="740006" type="special">
+    <name>voidream_gift_name</name>
+    <desc>voidream_gift_Desc</desc>
+    <attachPos>head</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>Hat_5_7</sprite>
+  </equipment>
+
+  <equipment id="5162619" type="weapon">
+    <name>villa_weapon_name</name>
+    <no>villa_weapon_no</no>
+    <desc>villa_weapon_desc</desc>
+    <specialDesc>villa_weapon_specialDesc</specialDesc>
+
+    <sprite>Firebird_villa</sprite>
+    <require type="R">5</require>
+    <require type="B">4</require>
+    <require type="level">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>GreedWeapon_villa</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <damage type="W" min="5" max="8">
+      <soundInfo type="damage">Weapons/spear2</soundInfo>
+    </damage>
+    <damage type="W" min="6" max="10">
+      <soundInfo type="damage">Weapons/spear2</soundInfo>
+    </damage>
+    <damage type="W" min="8" max="16">
+      <soundInfo type="damage">Weapons/DeathAngel2</soundInfo>
+    </damage>
+
+    <damage type="W" min="5" max="7">
+      <soundInfo type="damage">Weapons/DeathAngel2</soundInfo>
+    </damage>
+    <damage type="P" min="6" max="8">
+      <soundInfo type="damage">Weapons/spear2</soundInfo>
+    </damage>
+    <damage type="W" min="6" max="8">
+      <soundInfo type="damage">Weapons/DeathAngel2</soundInfo>
+    </damage>
+    <damage type="P" min="8" max="12">
+      <soundInfo type="damage">Weapons/spear2</soundInfo>
+    </damage>
+    <damage type="W" min="12" max="16">
+      <soundInfo type="damage">Weapons/DeathAngel2</soundInfo>
+    </damage>
+    <range>9</range>
+    <splash type="penetration" iff ="true"/>
+    <script>ZheYi</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="5101012" type="armor">
+    <name>villa_armor_name</name>
+    <no>Armor_no</no>
+    <desc>villa_armor_desc</desc>
+    <specialDesc>villa_armor_specialDesc</specialDesc>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+
+    <armorId>5101012</armorId>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">0.4</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>BaiNiao</script>
+
+  </equipment>
+
+  <equipment id="5101600" type="special">
+    <name>villa_gift_name</name>
+    <desc>villa_gift_Desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>10</mental>
+      <workProb>5</workProb>
+      <cubeSpeed>5</cubeSpeed>
+    </bonus>
+    <sprite>Brooch_5_6</sprite>
+  </equipment>
+
+
+  <equipment id="2162619" type="weapon">
+    <name>bella_weapon_name</name>
+    <no>bella_weapon_no</no>
+    <desc>bella_weapon_desc</desc>
+    <specialDesc>bella_weapon_specialDesc</specialDesc>
+
+    <sprite>Nothing_bella</sprite>
+    <require type="R">5</require>
+    <require type="B">4</require>
+    <require type="level">5</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_bella</specialWeaponAnim>
+
+    <animation>Attack1</animation>
+    <animation>Attack5</animation>
+
+    <damage type="R" min="15" max="18">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="B" min="16" max="18">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="R" min="18" max="22">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="R" min="18" max="22">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="B" min="20" max="24">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+    <range>6</range>
+    <splash type="penetration" iff ="true"/>
+    <script>ChenSha</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="2101012" type="armor">
+    <name>bella_armor_name</name>
+    <no>Armor_no</no>
+    <desc>bella_armor_desc</desc>
+    <specialDesc>bella_armor_specialDesc</specialDesc>
+
+    <require type="R">4</require>
+    <require type="W">4</require>
+    <require type="P">4</require>
+
+    <armorId>2101012</armorId>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">0.4</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>GanTang</script>
+
+  </equipment>
+
+  <equipment id="2121900" type="special">
+    <name>bella_gift_name</name>
+    <desc>bella_gift_Desc</desc>
+    <attachPos>eye</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>10</hp>
+      <workProb>-2</workProb>
+      <cubeSpeed>7</cubeSpeed>
+      <movement>5</movement>
+    </bonus>
+    <sprite>Mask_2_6</sprite>
+  </equipment>
+
+<equipment id="7520257" type="special">
+    <name>svb_gift_name</name>
+    <desc>svb_gift_Desc</desc>
+    <attachPos>right_hand</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>12</hp>
+      <mental>5</mental>
+      <workProb>1</workProb>
+      <cubeSpeed>1</cubeSpeed>
+      <movement>7</movement>
+      <attackSpeed>7</attackSpeed>
+    </bonus>
+    <sprite>Glove_2_5_7</sprite>
+    <script>SvbGift</script>
+  </equipment>
+
+  <equipment id="1010110" type="special">
+    <name>picky_gift_name</name>
+    <desc>picky_gift_Desc</desc>
+    <attachPos>face</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <mental>4</mental>
+    </bonus>
+    <sprite>pick_nose</sprite>
+  </equipment>
+
+
+
+  <equipment id="1101012" type="armor">
+    <name>picky_armor_name</name>
+    <no>Armor_no</no>
+    <desc>picky_armor_desc</desc>
+    <specialDesc>picky_armor_specialDesc</specialDesc>
+
+    <require type="R">4</require>
+
+    <armorId>1101012</armorId>
+
+    <defense>
+      <defenseElement type="R">0.7</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">0.7</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>3</grade>
+    <maxNum>2</maxNum>
+    <script>PaoLun</script>
+
+  </equipment>
+
+
+<equipment id="1162619" type="weapon">
+    <name>picky_weapon_name</name>
+    <no>picky_weapon_no</no>
+    <desc>picky_weapon_desc</desc>
+    <specialDesc>picky_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>SakuraWeapon_picky</specialWeaponAnim>
+    <sprite>Sakura_picky</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Attack3</animation>
+    <animation>Attack4</animation>
+    <animation>Attack5</animation>
+    <animation>Attack6</animation>
+    <animation>Attack7</animation>
+
+    <require type="R">4</require>
+
+    <damage type="R" min="4" max="6">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <damage type="R" min="2" max="2">
+      <soundInfo type="damage">Weapons/mace2</soundInfo>
+    </damage>
+    <damage type="R" min="2" max="2">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+    <damage type="R" min="6" max="8">
+      <soundInfo type="damage">Weapons/mace2</soundInfo>
+    </damage>
+    <damage type="R" min="6" max="8">
+      <soundInfo type="damage">Weapons/mace1</soundInfo>
+    </damage>
+
+    <range>5</range>
+    <script>RouGan</script>
+    <maxNum>2</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>3</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  </equipment_list>

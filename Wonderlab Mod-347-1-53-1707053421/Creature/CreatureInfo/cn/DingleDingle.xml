@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="103121">
+
+
+
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+
+    <narration action="start">
+      [
+      {每个人都会遇到难以忍受的状况。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {你能克服这种状况吗？}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-121</codeNo>
+      <portrait openLevel ="1">Custom/DingleDingle</portrait>
+
+      <name openLevel ="1">
+        叮当悬摆
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+      <openText>一起成为果实吧。一同悬挂摇摆吧。你们的绝望，悲伤……让一切一起垂下。</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {一棵将人悬挂的自杀树，会让员工忘记它无法突破收容，并试图让他们进入收容单元，即使是那些高度谨慎的人也会瞬间倒下。
+	  
+一起成为果实吧。一同悬挂摇摆吧。你们的绝望，悲伤……让一切一起垂下。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {这棵树将结出更多的自杀者的果实。
+	  
+一起成为果实吧。一同悬挂摇摆吧。}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">每隔40秒，设施内谨慎等级不低于3级的员工会对“$0”着魔。但如果该员工勇气、自律、正义任一属性不低于3级，则不会进入着魔状态。</specialTip>
+      <specialTip openLevel="2" key="2">对“$0”着魔的IC员工将会尝试进入其收容单元（这种现象被称为“谵妄”）。该员工到达收容单元后，将会立刻因为头部解体而死。随后，收容单元里生成了一颗“果实”。</specialTip>
+      <specialTip openLevel="3" key="3">“果实”生成后，“$0”的PE-BOX的生产效率也将增加。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

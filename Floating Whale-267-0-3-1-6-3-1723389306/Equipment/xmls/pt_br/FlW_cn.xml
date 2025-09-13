@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="FlW_weapon_name">Inchado</text>
+  <text id="FlW_weapon_desc">O odor repulsivo da substância nojenta emanava do corpo gigante.&#13;&#10;O assunto repugnante atraiu moscas e intrigou os jovens.</text>
+  <text id="FlW_weapon_specialDesc">Se um funcionário com menos de 70% de PV e um nível maior ou igual ao do portador estiver presente na mesma sala durante o ataque, receba uma quantidade de dano equivalente (máx. 8).</text>
+
+  <text id="FlW_armor_name">Inchado</text>
+  <text id="FlW_armor_desc">O odor desagradável da decomposição permeou o corpo gigante.&#13;&#10;Ninguém se atreveu a permanecer nas proximidades e sua própria identidade estava apodrecendo com o tempo.&#13;&#10;Inevitavelmente, também iremos desmoronar e apodrecer com o passar do tempo. Verdadeiramente um pensamento de pesadelo.</text>
+  <text id="FlW_armor_specialDesc">Causa uma pequena quantidade de dano Branco a anormalidades na mesma sala em intervalos regulares.</text>
+  
+  <text id="FlW_gift_name">Inchado</text>
+  <text id="FlW_gift_desc">PV +2, Taxa de Sucesso no Trabalho -2, Velocidade de Trabalho +2</text>
+</localize>

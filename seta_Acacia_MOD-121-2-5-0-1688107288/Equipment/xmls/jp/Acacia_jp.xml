@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Acacia_weapon_name">深淵</text>
+  <text id="Acacia_weapon_Desc">罪の弾丸は地平線に沿って廊下を横切る。</text>
+  <text id="Acacia_armor_Desc">純白のローブは最も暗い罪を覆います。</text>
+  <text id="Acacia_armor_specialDesc">該当防具を装備した職員は、魔法の弾丸によるダメージを受けません。</text>
+  <text id="Acacia_gift_Desc">精神力+3 攻撃速度+10 抑圧作業成功率3%向上 </text>
+</localize>

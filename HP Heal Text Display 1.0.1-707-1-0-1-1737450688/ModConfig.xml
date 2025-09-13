@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <!--If true, HP and SP Texts won't show when healed by regenerators. This is enabled by default to avoid visual clutter and lag spikes. Default=True-->
+  <ignoreDepartmentHeal>True</ignoreDepartmentHeal>
+  <!--Max UI Elements for HP and SP on screen. Default=200-->
+  <maxInstances>200</maxInstances>
+  <!--If true, will hide UI Elements for Abnormality heals and other healing sources. Enable this in case you experience mod compatibility issues. Requires game restart. Default=False-->
+  <ignoreAbnoPatches>True</ignoreAbnoPatches>
+</settings>

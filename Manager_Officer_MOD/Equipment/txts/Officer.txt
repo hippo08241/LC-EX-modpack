@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+<equipment id="409000" type="armor">
+
+    <name>Malkuth_team_name</name>
+    <no>Malkuth_team_no</no>
+    <desc>Malkuth_team_desc</desc>
+
+    <armorId>409000</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+<equipment id="409001" type="armor">
+
+    <name>Yesod_team_name</name>
+    <no>Yesod_team_no</no>
+    <desc>Yesod_team_desc</desc>
+
+    <armorId>409001</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+<equipment id="409002" type="armor">
+
+    <name>Hod_team_name</name>
+    <no>Hod_team_no</no>
+    <desc>Hod_team_desc</desc>
+
+    <armorId>409002</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+<equipment id="409003" type="armor">
+
+    <name>Netzach_team_name</name>
+    <no>Netzach_team_no</no>
+    <desc>Netzach_team_desc</desc>
+
+    <armorId>409003</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+<equipment id="409004" type="armor">
+
+    <name>Tipe_A_team_name</name>
+    <no>Tipe_A_team_no</no>
+    <desc>Tipe_A_team_desc</desc>
+
+    <armorId>409004</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+<equipment id="409005" type="armor">
+
+    <name>Tipe_B_team_name</name>
+    <no>Tipe_B_team_no</no>
+    <desc>Tipe_B_team_desc</desc>
+
+    <armorId>409005</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+<equipment id="409006" type="armor">
+
+    <name>Gebura_team_name</name>
+    <no>Gebura_team_no</no>
+    <desc>Gebura_team_desc</desc>
+
+    <armorId>409006</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+
+<equipment id="409007" type="armor">
+
+    <name>Chesed_team_name</name>
+    <no>Chesed_team_no</no>
+    <desc>Chesed_team_desc</desc>
+
+    <armorId>409007</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+
+<equipment id="409008" type="armor">
+
+    <name>Binah_team_name</name>
+    <no>Binah_team_no</no>
+    <desc>Binah_team_desc</desc>
+
+    <armorId>409008</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+
+<equipment id="409009" type="armor">
+
+    <name>Hokma_team_name</name>
+    <no>Hokma_team_no</no>
+    <desc>Hokma_team_desc</desc>
+
+    <armorId>409009</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+
+
+<equipment id="409010" type="armor">
+
+    <name>Keter_team_name</name>
+    <no>Keter_team_no</no>
+    <desc>Keter_team_desc</desc>
+
+    <armorId>409010</armorId>
+
+    <defense>
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+
+    <grade>2</grade>
+    <maxNum>5</maxNum>
+</equipment>
+</equipment_list>

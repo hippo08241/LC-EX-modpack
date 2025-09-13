@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="WarmMother_weapon_name">공허한 온기</text>
+<text id="WarmMother_gift_name">공허한 온기</text>
+<text id="WarmMother_gift_desc">체력 -4, 정신력 +5, 작업 성공률 +2</text>
+<text id="WarmMother_armor_desc">부드럽고 푹신한 테리천 조끼.
+주변에 열과 온기를 끊임없이 내뿜는다.
+이것을 입고 있는 모든 직원들은 이 온기에 위안을 느낄 것이라고 한다.</text>
+</localize>

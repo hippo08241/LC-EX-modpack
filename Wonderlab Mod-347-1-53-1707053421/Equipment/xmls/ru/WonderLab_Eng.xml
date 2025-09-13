@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Hookah_weapon_name">Дневник</text>
+  <text id="Hookah_weapon_Desc">Гусеница спросила - "Кто ты?"</text>
+  <text id="Hookah_armor_Desc">"Какого размера ты хочешь быть?"</text>
+  <text id="Hookah_gift_Desc">Скорость перемещения +4, Скорость атаки +4</text>
+  <text id="Mermaid_weapon_name">Сирена</text>
+  <text id="Mermaid_weapon_Desc">"Проткни сердце принца. Лишь только так ты сможешь жить."</text>
+  <text id="Mermaid_armor_Desc">"Ведьма согласилась забрать её прекрасный голос в обмен на человеческие ноги, отрезав ей язык."</text>
+  <text id="Mermaid_gift_Desc">Шанс успеха и Скорость работы +8.</text>
+  <text id="RedQueen_weapon_name">Цветная бумага</text>
+  <text id="RedQueen_weapon_Desc">"Разве розы уже не красные?"</text>
+  <text id="RedQueen_armor_Desc">"Ваше высочество! Мы совершили непростительный поступок! Прошу, смилуйте-"</text>
+  <text id="RedQueen_gift_Desc">SP +4.</text>
+  <text id="Nosferatu_weapon_name">Жажда</text>
+  <text id="Nosferatu_weapon_Desc">"Одной капли крови достаточно,&#13;&#10;чтобы провести всю ночь в неистовстве."</text>
+  <text id="Nosferatu_weapon_specialDesc">При каждой атаке сотрудник получает КРАСНЫЙ урон.&#13;&#10;Восстанавливает HP в виде 40-ка % от нанесённого урона.</text>
+  <text id="Nosferatu_armor_Desc">"...И жажда никогда не будет полностью утолена."</text>
+  <text id="Nosferatu_armor_specialDesc">Превращает часть здоровья, восстановленного оружием Аномалии, в щит.</text>
+  <text id="Nosferatu_gift_Desc">HP +8, SP -3.</text>
+  <text id="Tangle_weapon_name">Клетка</text>
+  <text id="Tangle_weapon_Desc">"Опусти мои волосы. Опусти мои волосы."</text>
+  <text id="Tangle_armor_Desc">"Опусти мои волосы, чтобы я могла сбежать из этого ада."</text>
+  <text id="Tangle_gift_Desc">HP +4</text>
+</localize>
+
+

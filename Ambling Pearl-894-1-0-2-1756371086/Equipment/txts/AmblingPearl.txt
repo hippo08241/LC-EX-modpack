@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="265880" type="weapon">
+    <name>AmblingPearl_weapon1_name</name>
+    <desc>AmblingPearl_weapon1_desc</desc>
+    <specialDesc>AmblingPearl_weapon1_specialDesc</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_AmblingPearlWeapon1</specialWeaponAnim>
+    <sprite>Censored_AmblingPearlWeapon1</sprite>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <require type="R">3</require>
+    <require type="level">3</require>
+
+    <damage type="B" min="20" max="22">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+    <damage type="B" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+
+    <range>3</range>
+    <script>AmblingPearlWeapon1</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+ <equipment id="265881" type="weapon">
+    <name>AmblingPearl_weapon1_name</name>
+    <desc>AmblingPearl_weapon2_desc</desc>
+    <specialDesc>AmblingPearl_weapon2_specialDesc</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_AmblingPearlWeapon2</specialWeaponAnim>
+    <sprite>Censored_AmblingPearlWeapon2</sprite>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Attack3</animation>
+    <require type="R">4</require>
+    <require type="W">4</require>
+    <require type="level">3</require>
+
+    <damage type="B" min="25" max="28">
+      <soundInfo type="damage">Weapons/spear1</soundInfo>
+    </damage>
+    <damage type="B" min="12" max="14">
+      <soundInfo type="damage">Weapons/axe1</soundInfo>
+    </damage>
+    <damage type="B" min="5" max="6">
+      <soundInfo type="damage">Weapons/spear2</soundInfo>
+    </damage>
+
+    <range>5</range>
+    <script>AmblingPearlWeapon2</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+  <equipment id="365881" type="armor">
+    <name>AmblingPearl_weapon1_name</name>
+    <desc>AmblingPearl_armor_desc</desc>
+    <specialDesc>AmblingPearl_armor_specialDesc</specialDesc>
+
+    <armorId>365881</armorId>
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.6</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.0</defenseElement>
+    </defense>
+    <grade>4</grade>
+    <maxNum>1</maxNum>
+    <require type="R">4</require>
+    <require type="level">4</require>
+    <script>AmblingPearlArmor</script>
+  </equipment>
+
+<equipment id="465881" type="special">
+    <name>AmblingPearl_weapon1_name</name>
+    <desc>AmblingPearl_gift_desc</desc>
+    <attachPos>body_up</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>2</hp>
+      <mental>3</mental>
+      <workProb>5</workProb>
+      <cubeSpeed>5</cubeSpeed>
+    </bonus>
+    <sprite>AmblingPearlGift</sprite>
+  </equipment>
+
+</equipment_list>

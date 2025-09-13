@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100134">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="start">
+      [
+      {ヴァンパイアの赤い目は人を惑わすという俗説があります。}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {赤い目を見た#0は自分も知らないうちに首筋を触ります。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {彼の瞳の中で血が廻っています。}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {$0の喉の渇きが満たされる日はないでしょう。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {すべてが血に染まった夜、$0は怪物を運んでくるでしょう。}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-01-34</codeNo>
+      <portrait openLevel ="1">Custom/Nosferatu</portrait>
+
+      <name openLevel ="1">
+        ノスフェラトゥ
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+      <openText>そして、その渇きが癒える日は来ないだろう。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {数百年前、いや、もしかしたら数千年前から人間とともに血鬼が存在した。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {彼らは普段、人間の姿を維持しているが、一滴の血があれば凶暴な怪物のように変わり、狂乱の夜を過ごす。 化け物になった彼らは彷徨うような姿で何かを探しているようだが、それが何だか分からない様子だった。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {渇きと血への渇望は怪物になった.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {鮮やかで赤い血をいくら飲んでも結局その渇きが消える日はないだろう。 上品な食事を終えた表情だが、いくら食物を摂取しようとも、喉の渇きを癒すことができないということを血鬼たちは知るすべがなかった。}
+      ]
+    </desc>
+
+  <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">施設内で職員が6名死亡するごとにクリフォトカウンターが減少した。ただし、処刑弾により処刑された職員の死亡は認知していなかった。</specialTip>
+      <specialTip openLevel="2" key="2">本能と愛着作業の結果が悪ければ、クリポートカウンターは減少した。</specialTip>
+      <specialTip openLevel="3" key="3">愛着作業の結果がよければクリフォトカウンターが上昇した。</specialTip>
+      <specialTip openLevel="4" key="4">勇気ランクが3以下の職員が本能作業をするとき、PE-Boxの生産量が増加した。この時、ノスフェラトゥは該当職員(以下O-01-34-1)に「吸血」を行った。「吸血」された職員は一日の間、移動速度と攻撃速度が上昇した。</specialTip>
+      <specialTip openLevel="5" key="5">勇気ランクが4以上の職員が、愛着作業を行う時、PE-Boxの生産量が増加した。この時、ノスフェラトゥはO-01-34-1に「吸血」を行った。</specialTip>
+      <specialTip openLevel="6" key="6">ノスフェラトゥは一日が始まると「血」を3つ持つ。ノスフェラトゥが吸血を行う度に「血」が上昇した。「血」が5になるとクリフォトカウンターは0になった。1分経つたびに「血」は1減少し、「血」が0になるとクリフォトカウンターは0になった。この時、「血」の数によってノスフェラトゥの杯が変化した</specialTip>
+      <specialTip openLevel="7" key="7">ノスフェラトゥのクリフォトカウンターが０になると、ノスフェラトゥは脱走し、O-01-34-1の姿が████████へと変化した。ノスフェラトゥ、あるいは ████████によって死亡した 職員(以下O-01-34-2)は ████に変化した</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

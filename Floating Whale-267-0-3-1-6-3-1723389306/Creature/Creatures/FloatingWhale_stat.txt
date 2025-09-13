@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<creature>
+  <script>FloatingWhale</script>
+  <stat>
+    <riskLevel>2</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.25</prob>
+      <prob level="4">0.3</prob>
+      <prob level="5">0.3</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.3</prob>
+      <prob level="2">0.4</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.55</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0.05</prob>
+      <prob level="4">0.1</prob>
+      <prob level="5">0.15</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.8</prob>
+      <prob level="2">0.8</prob>
+      <prob level="3">0.9</prob>
+      <prob level="4">0.95</prob>
+      <prob level="5">0.95</prob>
+    </workProb>
+    <escapeable>true</escapeable>
+    <qliphoth>1</qliphoth>
+    <workCooltime>10</workCooltime>
+    <hp>300</hp>
+    <speed>2</speed>
+    <feelingStateCubeBounds>
+      <cube>4</cube>
+      <cube>10</cube>
+      <cube>14</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="2" max="4" />
+    <specialDamage>
+      <damage id="1" type="B" min="15" max="20" />
+    </specialDamage>
+    <workSpeed>0.28</workSpeed>
+    <observeInfo total="56">
+      <observeElement name="stat" cost="12" />
+      <observeElement name="defense" cost="12" />
+      <observeElement name="work_r" cost="4" />
+      <observeElement name="work_w" cost="4" />
+      <observeElement name="work_b" cost="4" />
+      <observeElement name="work_p" cost="4" />
+      <observeElement name="care_0" cost="4" />
+      <observeElement name="care_1" cost="4" />
+      <observeElement name="care_2" cost="4" />
+      <observeElement name="care_3" cost="4" />
+    </observeInfo>
+    <observeBonus level="1" type="speed">4</observeBonus>
+    <observeBonus level="2" type="prob">6</observeBonus>
+    <observeBonus level="3" type="speed">4</observeBonus>
+    <observeBonus level="4" type="prob">6</observeBonus>
+    <equipment level="4" cost="25" equipId="201168" />
+    <equipment level="3" cost="25" equipId="301168" />
+    <equipment level="4" prob="0.05" equipId="401168" />
+    <defense id="1">
+      <defenseElement type="R">1.5</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/FloatingWhaleAnim" x="-1" y="-2" />
+  <portrait src="Custom/FloatingWhale" />
+  <sound action="Default" src="creature/wraith/Wraith_Default" />
+  <sound action="Kill" src="creature/wraith/Wraith_Kill" />
+</creature>

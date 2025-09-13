@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map_graph>
+
+  <node_list>
+    <area name="1" sub="0"><!--控制部-->
+      <passage x="-20.1" y="22.8" passageGroup="3" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="M-upper-way2-rightdoor" x="-9.83" y="21.7">
+          <door>MalkuthDoorRight</door>
+        </node>
+        <node id="M-upper-way2-1" x="-9.837" y="21.7" />
+        <node id="M-upper-way2-1-1" x="-10.83" y="21.7" />
+        <node id="M-upper-way2-2" x="-13.77" y="21.7" />
+        <node id="M-upper-way2-2-1" x="-14.77" y="21.7" />
+        <node id="M-upper-way2-3" x="-22.4" y="21.7" pos="center" />
+        <node id="M-upper-way2-4" x="-26.81" y="21.7" />
+        <node id="M-upper-way2-4-1" x="-27.81" y="21.7" />
+        <node id="M-upper-way2-6" x="-30.295" y="21.7" />
+        <node id="M-upper-way2-leftdoor" x="-30.35" y="21.7">
+          <door>MalkuthDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="-34.85" y="22.8" passageGroup="3" rabbitTeamGroup="M1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="M-leftdown2-1-elevator-hub" x="-34.85" y="21.8" pos="center" />
+        <node id="M-leftdown2-1-elevator-hub-door" x="-33.19" y="21.8">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+
+      <passage x="-34.85" y="13.98" passageGroup="3" src="Map/Passage/Malkuth/PassageMalkuthElevator" passageType="vertical" scale="0.35">
+        <node id="M-a-elevator" x="-34.85" y="12.48" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+      <passage x="34.85" y="13.98" passageGroup="4" src="Map/Passage/Malkuth/PassageMalkuthElevator" passageType="vertical" scale="0.35">
+        <node id="M-b-elevator" x="34.85" y="12.48" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+	  
+      <passage x="20" y="22.8" passageGroup="4" rabbitTeamGroup="M1" src="Map/Passage/Malkuth/PassageMalkuthHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="M-upper-way3-rightdoor" x="30.27" y="21.7">
+          <door>MalkuthDoorRight</door>
+        </node>
+        <node id="M-upper-way3-1" x="30.256" y="21.7" />
+        <node id="M-upper-way3-1-1" x="29.27" y="21.7" />
+        <node id="M-upper-way3-2" x="26" y="21.7" />
+        <node id="M-upper-way3-2-1" x="25" y="21.7" />
+        <node id="M-upper-way3-3" x="17.7" y="21.7" pos="center" />
+        <node id="M-upper-way3-4" x="13.29" y="21.7" />
+        <node id="M-upper-way3-4-1" x="12.29" y="21.7" />
+        <node id="M-upper-way3-6" x="9.764" y="21.7" />
+        <node id="M-upper-way3-leftdoor" x="9.75" y="21.7">
+          <door>MalkuthDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="34.75" y="22.7" passageGroup="4" rabbitTeamGroup="M1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="M-leftdown3-1-elevator-hub" x="34.75" y="21.7" pos="center" />
+        <node id="M-leftdown3-1-elevator-hub-door" x="33.09" y="21.7">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="0" y="24" passageGroup="5" rabbitTeamGroup="M1" src="Map/Passage/Dept/PassageRU_DEPT" passageType="horizontal">
+        <ground height="-10.5" />
+        <height>9.2</height>
+        <node id="M-4-1" x="-5.5" y="21">
+          <door>DoorLeft</door>
+        </node>
+        <node id="M-4-1-a" x="-5.48" y="21.3" />
+        <node id="M-4-1-b" x="-3.48" y="21.3" />
+        <node id="M-4" x="0" y="21.3" pos="center" />
+        <node id="M-4-2-b" x="3.48" y="21.3" />
+        <node id="M-4-2-a" x="5.48" y="21.3" />
+        <node id="M-4-2" x="5.5" y="21">
+          <door>DoorRight</door>
+	    </node>
+      </passage>
+    </area>
+  
+    <area name="2" sub="0"><!--安保部-->
+      <passage x="-80.1" y="-45" passageGroup="2" rabbitTeamGroup="N1" src="Map/Passage/Netzach/PassageNetzachHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-upper-way2-rightdoor" x="-69.83" y="-46.1">
+          <door>NetzachDoorRight</door>
+        </node>
+        <node id="N-upper-way2-1" x="-69.837" y="-46.1" />
+        <node id="N-upper-way2-1-1" x="-70.83" y="-46.1" />
+        <node id="N-upper-way2-2" x="-73.77" y="-46.1" />
+        <node id="N-upper-way2-3" x="-82.4" y="-46.1" pos="center" />
+        <node id="N-upper-way2-4" x="-86.81" y="-46.1" />
+        <node id="N-upper-way2-6" x="-90.295" y="-46.1" />
+        <node id="N-upper-way2-leftdoor" x="-90.35" y="-46.1">
+          <door>NetzachDoorLeft</door>
+        </node>
+      </passage> 
+      <passage x="-95.1" y="-45.83" passageGroup="2" rabbitTeamGroup="N1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-leftdown2-elevator-hub" x="-95.1" y="-46.83" pos="center" />
+        <node id="N-leftdown2-elevator-hub-door" x="-93.44" y="-46.83">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="-94.93" y="-38.32" passageGroup="2" src="Map/Passage/Netzach/PassageNetzachElevator" passageType="vertical" scale="0.35">
+        <node id="N-a-elevator" x="-94.93" y="-38.32" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+
+      <passage x="-80.1" y="-30" passageGroup="1" rabbitTeamGroup="N1" src="Map/Passage/Netzach/PassageNetzachHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-upper-way3-rightdoor" x="-69.83" y="-31.1">
+          <door>NetzachDoorRight</door>
+        </node>
+        <node id="N-upper-way3-1" x="-69.837" y="-31.1" />
+        <node id="N-upper-way3-1-1" x="-70.83" y="-31.1" />
+        <node id="N-upper-way3-2" x="-73.77" y="-31.1" />
+        <node id="N-upper-way3-2-1" x="-74.77" y="-31.1" />
+        <node id="N-upper-way3-3" x="-82.4" y="-31.1" pos="center" />
+        <node id="N-upper-way3-4" x="-86.81" y="-31.1" />
+        <node id="N-upper-way3-4-1" x="-87.81" y="-31.1" />
+        <node id="N-upper-way3-6" x="-90.295" y="-31.1" />
+        <node id="N-upper-way3-leftdoor" x="-90.35" y="-31.1">
+          <door>NetzachDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="-95.1" y="-30" passageGroup="2" rabbitTeamGroup="N1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="N-leftdown3-1-elevator-hub" x="-95.1" y="-31" pos="center" />
+        <node id="N-leftdown3-1-elevator-hub-door" x="-93.44" y="-31">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+	</area> 
+	
+    <area name="3" sub="0"><!--培训部-->
+      <passage x="80" y="-45" passageGroup="2" rabbitTeamGroup="H1" src="Map/Passage/Hod/PassageHodHallway" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-upper-way2-rightdoor" x="90.27" y="-46.1">
+          <door>HodDoorRight</door>
+        </node>
+        <node id="H-upper-way2-1" x="90.256" y="-46.1" />
+        <node id="H-upper-way2-1-1" x="89.27" y="-46.1" />
+        <node id="H-upper-way2-2" x="86" y="-46.1" />
+        <node id="H-upper-way2-3" x="77.7" y="-46.1" pos="center" />
+        <node id="H-upper-way2-4" x="73.29" y="-46.1" />
+        <node id="H-upper-way2-6" x="69.764" y="-46.1" />
+        <node id="H-upper-way2-leftdoor" x="69.75" y="-46.1">
+          <door>HodDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="95" y="-45.83" passageGroup="2" rabbitTeamGroup="H1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-leftdown2-elevator-hub" x="95" y="-46.83" pos="center" />
+        <node id="H-leftdown2-elevator-hub-door" x="93.42" y="-46.83">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="94.83" y="-38.32" passageGroup="2" src="Map/Passage/Hod/PassageHodElevator" passageType="vertical" scale="0.35">
+        <node id="H-a-elevator" x="-94.93" y="-38.32" elevator="Map/Passage/Elevator/ElevatorShort" />
+      </passage>
+	  
+      <passage x="80" y="-30" passageGroup="1" rabbitTeamGroup="H1" src="Map/Passage/Hod/PassageHodHallway" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-upper-way3-rightdoor" x="90.27" y="-31.1">
+          <door>HodDoorRight</door>
+        </node>
+        <node id="H-upper-way3-1" x="90.256" y="-31.1" />
+        <node id="H-upper-way3-1-1" x="89.27" y="-31.1" />
+        <node id="H-upper-way3-2" x="86" y="-31.1" />
+        <node id="H-upper-way3-2-1" x="87" y="-31.1" />
+        <node id="H-upper-way3-3" x="77.7" y="-31.1" pos="center" />
+        <node id="H-upper-way3-4" x="73.29" y="-31.1" />
+        <node id="H-upper-way3-4-1" x="74.29" y="-31.1" />
+        <node id="H-upper-way3-6" x="69.764" y="-31.1" />
+        <node id="H-upper-way3-leftdoor" x="69.75" y="-31.1">
+          <door>HodDoorLeft</door>
+        </node>
+      </passage>
+      <passage x="95" y="-30" passageGroup="2" rabbitTeamGroup="H1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>2</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="H-leftdown3-1-elevator-hub" x="95" y="-31" pos="center" />
+        <node id="H-leftdown3-1-elevator-hub-door" x="93.34" y="-31">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+    </area>
+	
+    <area name="5" sub="0"><!--中央本部-->
+      <passage x="12" y="-50.53" passageGroup="2" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethHallway1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="T1-left-way1-1" x="21.8" y="-51.63" />
+        <node id="T1-left-way2-1" x="20.5" y="-51.63" />
+        <node id="T1-left-way3-1" x="19.8" y="-51.63" />
+        <node id="T1-left-way4-1" x="17.2" y="-51.63" />
+        <node id="T1-left-way5-1" x="14.6" y="-51.63" />
+        <node id="T1-left-way6-1" x="12" y="-51.63" pos="center" />
+        <node id="T1-left-way7-1" x="9.4" y="-51.63" />
+        <node id="T1-left-way8-1" x="5.8" y="-51.63" />
+        <node id="T1-left-way9-1" x="3.2" y="-51.63" />
+        <node id="T1-left-way10-1" x="0.4" y="-51.63" />
+        <node id="T1-left-way11-1" x="0.08" y="-51.63" />
+        <node id="T1-left-way0" x="0" y="-51.63" />
+      </passage>
+      <passage x="-12" y="-50.53" passageGroup="2" rabbitTeamGroup="T1" src="Map/Passage/Tiphereth/PassageTipherethHallway1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="T1-left-way1" x="-0.08" y="-51.63" />
+        <node id="T1-left-way2" x="-0.4" y="-51.63" />
+        <node id="T1-left-way3" x="-3.2" y="-51.63" />
+        <node id="T1-left-way4" x="-5.8" y="-51.63" />
+        <node id="T1-left-way5" x="-9.4" y="-51.63" />
+        <node id="T1-left-way6" x="-12" y="-51.63" pos="center" />
+        <node id="T1-left-way7" x="-14.6" y="-51.63" />
+        <node id="T1-left-way8" x="-17.2" y="-51.63" />
+        <node id="T1-left-way9" x="-19.8" y="-51.63" />
+        <node id="T1-left-way10" x="-20.5" y="-51.63" />
+        <node id="T1-left-way11" x="-21.8" y="-51.63" />
+      </passage>
+    </area>
+	
+    <area name="7" sub="0"><!--惩戒部-->
+      <passage x="116.68" y="-95.3" passageGroup="2" rabbitTeamGroup="G1" src="Map/Passage/Geburah/PassageGeburahHallWay1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="G-a-way1" x="106.52" y="-96.4" />
+        <node id="G-a-way2" x="111.74" y="-96.4" />
+        <node id="G-a-way3" x="118.43" y="-96.4" pos="center" />
+        <node id="G-a-way4" x="123.18" y="-96.4" />
+        <node id="G-a-way5" x="125.29" y="-96.4" />
+        <node id="G-a-way6" x="127.01" y="-96.4" />
+      </passage>
+      <passage x="131.68" y="-95.3" passageGroup="4" rabbitTeamGroup="G1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="G-a-elevator-hub" x="131.68" y="-96.3" pos="center" />
+        <node id="G-a-elevator-hub-door" x="130.18" y="-96.3">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="116.68" y="-77.53" passageGroup="4" rabbitTeamGroup="G1" src="Map/Passage/Geburah/PassageGeburahHallWay2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="G-b-way1" x="106.52" y="-78.63" />
+        <node id="G-b-way2" x="111.74" y="-78.63" />
+        <node id="G-b-way3" x="118.43" y="-78.63" pos="center" />
+        <node id="G-b-way4" x="123.18" y="-78.63" />
+        <node id="G-b-way5" x="125.29" y="-78.63" />
+        <node id="G-b-way6" x="127.01" y="-78.63" />
+      </passage>
+      <passage x="131.68" y="-77.53" passageGroup="4" rabbitTeamGroup="G1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="G-b-elevator-hub" x="131.68" y="-78.53" pos="center" />
+        <node id="G-b-elevator-hub-door" x="130.18" y="-78.53">
+          <door>DoorLeftHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="131.59" y="-86.3" passageGroup="4" src="Map/Passage/Geburah/PassageGeburahElevator" passageType="vertical" scale="0.35">
+        <node id="G-elevator" x="131.59" y="-86.3" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+    </area>
+	
+    <area name="8" sub="0"><!--福利部-->
+      <passage x="-116.68" y="-95.3" passageGroup="2" rabbitTeamGroup="CH1" src="Map/Passage/Chesed/PassageChesedHallWay1" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="CH-a-way1" x="-106.52" y="-96.4" />
+        <node id="CH-a-way2" x="-111.74" y="-96.4" />
+        <node id="CH-a-way3" x="-118.43" y="-96.4" pos="center" />
+        <node id="CH-a-way4" x="-123.18" y="-96.4" />
+        <node id="CH-a-way5" x="-125.29" y="-96.4" />
+        <node id="CH-a-way6" x="-127.01" y="-96.4" />
+      </passage>
+      <passage x="-131.68" y="-95.3" passageGroup="4" rabbitTeamGroup="CH1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="CH-a-elevator-hub" x="-131.68" y="-96.3" pos="center" />
+        <node id="CH-a-elevator-hub-door" x="-130.18" y="-96.3">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="-116.68" y="-77.53" passageGroup="4" rabbitTeamGroup="CH1" src="Map/Passage/Chesed/PassageChesedHallWay2" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="CH-b-way1" x="-106.52" y="-78.63" />
+        <node id="CH-b-way2" x="-111.74" y="-78.63" />
+        <node id="CH-b-way3" x="-118.43" y="-78.63" pos="center" />
+        <node id="CH-b-way4" x="-123.18" y="-78.63" />
+        <node id="CH-b-way5" x="-125.29" y="-78.63" />
+        <node id="CH-b-way6" x="-127.01" y="-78.63" />
+      </passage>
+      <passage x="-131.68" y="-77.53" passageGroup="4" rabbitTeamGroup="CH1" src="Map/Passage/PassageHallwayHubSmall" passageType="horizontal" scale="0.5">
+        <connected>
+          <connect>3</connect>
+        </connected>
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="CH-b-elevator-hub" x="-131.68" y="-78.53" pos="center" />
+        <node id="CH-b-elevator-hub-door" x="-130.18" y="-78.53">
+          <door>DoorRightHub</door>
+        </node>
+      </passage>
+	  
+      <passage x="-131.59" y="-86.3" passageGroup="4" src="Map/Passage/Chesed/PassageChesedElevator" passageType="vertical" scale="0.35">
+        <node id="CH-elevator" x="-131.59" y="-86.3" elevator="Map/Passage/Elevator/ElevatorLong" />
+      </passage>
+    </area>
+	
+    <area name="9" sub="0"><!--研发部--> 
+      <passage x="127.62" y="-124.76" passageGroup="3" rabbitTeamGroup="B1" src="Map/Passage/Binah/PassageBinahHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="B-way1" x="105" y="-125.86" />
+        <node id="B-way2" x="106.54" y="-125.86" />
+        <node id="B-way3" x="113.59" y="-125.86" />
+        <node id="B-way4" x="122.52" y="-125.86" pos="center" />
+        <node id="B-way5" x="134.12" y="-125.86" />
+        <node id="B-way6" x="141.32" y="-125.86" />
+        <node id="B-way7" x="145.92" y="-125.86" />
+        <node id="B-way8" x="150.55" y="-125.86" />
+      </passage>
+    </area>
+	
+    <area name="10" sub="0"><!--记录部--> 
+      <passage x="-127.62" y="-124.58" passageGroup="3" rabbitTeamGroup="HOK1" src="Map/Passage/Chokhmah/PassageChokhmahHallWay" passageType="horizontal" scale="0.5">
+        <ground height="-0.9" />
+        <wall height="0" />
+        <node id="C-way1" x="-105.11" y="-125.68" />
+        <node id="C-way2" x="-106.65" y="-125.68" />
+        <node id="C-way3" x="-113.70" y="-125.68" />
+        <node id="C-way4" x="-122.63" y="-125.68" pos="center" />
+        <node id="C-way5" x="-134.23" y="-125.68" />
+        <node id="C-way6" x="-141.43" y="-125.68" />
+        <node id="C-way7" x="-146.03" y="-125.68" />
+        <node id="C-way8" x="-105.66" y="-125.68" />
+      </passage>
+    </area>
+	
+  </node_list>
+  <edge_list>
+   <!--控制部-->
+    <edge node1="M-upper-way2-1-1" node2="M-upper-way2-2" type="road" />
+    <edge node1="M-upper-way2-2-1" node2="M-upper-way2-2" type="road" />
+    <edge node1="M-upper-way2-3" node2="M-upper-way2-2-1" type="road" />
+    <edge node1="M-upper-way2-3" node2="M-upper-way2-4" type="road" />
+    <edge node1="M-upper-way2-4" node2="M-upper-way2-4-1" type="road" />
+    <edge node1="M-upper-way2-leftdoor" node2="M-upper-way2-6" type="road" />
+    <edge node1="M-upper-way2-4-1" node2="M-upper-way2-6" type="road" />
+    <edge node1="M-upper-way2-rightdoor" node2="M-upper-way2-1" type="road" />
+    <edge node1="M-upper-way2-1-1" node2="M-upper-way2-1" type="road" />
+	
+    <edge node1="M-upper-way2-rightdoor" node2="M-4-1" type="door" />
+    <edge node1="M-4-1" node2="M-4-1-a" type="road" />
+    <edge node1="M-4-1-a" node2="M-4-1-b" type="road" />
+    <edge node1="M-4-1-b" node2="M-4" type="road" />
+    <edge node1="M-4" node2="M-4-2-b" type="road" />
+    <edge node1="M-4-2-b" node2="M-4-2-a" type="road" />
+    <edge node1="M-4-2-a" node2="M-4-2" type="road" />
+    <edge node1="M-4-2" node2="M-upper-way3-leftdoor" type="door" />
+	
+    <edge node1="M-upper-way3-1-1" node2="M-upper-way3-2" type="road" />
+    <edge node1="M-upper-way3-2-1" node2="M-upper-way3-2" type="road" />
+    <edge node1="M-upper-way3-3" node2="M-upper-way3-2-1" type="road" />
+    <edge node1="M-upper-way3-3" node2="M-upper-way3-4" type="road" />
+    <edge node1="M-upper-way3-4" node2="M-upper-way3-4-1" type="road" />
+    <edge node1="M-upper-way3-leftdoor" node2="M-upper-way3-6" type="road" />
+    <edge node1="M-upper-way3-4-1" node2="M-upper-way3-6" type="road" />
+    <edge node1="M-upper-way3-rightdoor" node2="M-upper-way3-1" type="road" />
+    <edge node1="M-upper-way3-1-1" node2="M-upper-way3-1" type="road" />
+   <!--控制部-->
+   <!--安保部-->
+    <edge node1="N-upper-way2-rightdoor" node2="N-leftdown-elevator-hub" type="door" />
+    <edge node1="N-upper-way2-1-1" node2="N-upper-way2-2" type="road" />
+    <edge node1="N-upper-way2-3" node2="N-upper-way2-2" type="road" />
+    <edge node1="N-upper-way2-3" node2="N-upper-way2-4" type="road" />
+    <edge node1="N-upper-way2-leftdoor" node2="N-upper-way2-6" type="road" />
+    <edge node1="N-upper-way2-4" node2="N-upper-way2-6" type="road" />
+    <edge node1="N-upper-way2-rightdoor" node2="N-upper-way2-1" type="road" />
+    <edge node1="N-upper-way2-1-1" node2="N-upper-way2-1" type="road" />
+	
+    <edge node1="N-upper-way3-rightdoor" node2="N-left-elevator-hub" type="door" />
+    <edge node1="N-upper-way3-1-1" node2="N-upper-way3-2" type="road" />
+    <edge node1="N-upper-way3-3" node2="N-upper-way3-2" type="road" />
+    <edge node1="N-upper-way3-2-1" node2="N-upper-way3-2" type="road" />
+    <edge node1="N-upper-way3-3" node2="N-upper-way3-4" type="road" />
+    <edge node1="N-upper-way3-leftdoor" node2="N-upper-way3-6" type="road" />
+    <edge node1="N-upper-way3-4" node2="N-upper-way3-4-1" type="road" />
+    <edge node1="N-upper-way3-4" node2="N-upper-way3-6" type="road" />
+    <edge node1="N-upper-way3-rightdoor" node2="N-upper-way3-1" type="road" />
+    <edge node1="N-upper-way3-1-1" node2="N-upper-way3-1" type="road" />
+   <!--安保部-->
+   <!--培训部-->
+    <edge node1="H-upper-way2-leftdoor" node2="H-leftdown-elevator-hub" type="door" />
+    <edge node1="H-upper-way2-leftdoor" node2="H-upper-way2-6" type="road" />
+    <edge node1="H-upper-way2-3" node2="H-upper-way2-4" type="road" />
+    <edge node1="H-upper-way2-3" node2="H-upper-way2-2" type="road" />
+    <edge node1="H-upper-way2-2" node2="H-upper-way2-1-1" type="road" />
+    <edge node1="H-upper-way2-4" node2="H-upper-way2-6" type="road" />
+    <edge node1="H-upper-way2-rightdoor" node2="H-upper-way2-1" type="road" />
+    <edge node1="H-upper-way2-1-1" node2="H-upper-way2-1" type="road" />
+	
+    <edge node1="H-upper-way3-leftdoor" node2="H-left-elevator-hub" type="door" />
+    <edge node1="H-upper-way3-leftdoor" node2="H-upper-way3-6" type="road" />
+    <edge node1="H-upper-way3-1-1" node2="H-upper-way3-2" type="road" />
+    <edge node1="H-upper-way3-2-1" node2="H-upper-way3-2" type="road" />
+    <edge node1="H-upper-way3-3" node2="H-upper-way3-2-1" type="road" />
+    <edge node1="H-upper-way3-3" node2="H-upper-way3-4" type="road" />
+    <edge node1="H-upper-way3-4-1" node2="H-upper-way3-4" type="road" />
+    <edge node1="H-upper-way3-leftdoor" node2="H-upper-way3-6" type="road" />
+    <edge node1="H-upper-way3-4-1" node2="H-upper-way3-6" type="road" />
+    <edge node1="H-upper-way3-rightdoor" node2="H-upper-way3-1" type="road" />
+    <edge node1="H-upper-way3-1-1" node2="H-upper-way3-1" type="road" />
+   <!--培训部-->
+   <!--中央本部-->
+    <edge node1="T1-left-way1" node2="T1-left-way2" type="road" />
+    <edge node1="T1-left-way2" node2="T1-left-way3" type="road" />
+    <edge node1="T1-left-way3" node2="T1-left-way4" type="road" />
+    <edge node1="T1-left-way4" node2="T1-left-way5" type="road" />
+    <edge node1="T1-left-way5" node2="T1-left-way6" type="road" />
+    <edge node1="T1-left-way6" node2="T1-left-way7" type="road" />
+    <edge node1="T1-left-way7" node2="T1-left-way8" type="road" />
+    <edge node1="T1-left-way8" node2="T1-left-way9" type="road" />
+    <edge node1="T1-left-way9" node2="T1-left-way10" type="road" />
+    <edge node1="T1-left-way10" node2="T1-left-way11" type="road" />
+	
+    <edge node1="T1-left-way0" node2="T1-left-way1" type="road" />
+    <edge node1="T1-left-way0" node2="sefira-tiphereth1-5" type="door" />
+    <edge node1="T1-left-way0" node2="Tiphereth-elevator" type="door" />
+    <edge node1="T1-left-way0" node2="sefira-tiphereth1-7" type="door" />
+    <edge node1="T1-left-way0" node2="T1-left-way11-1" type="road" />
+	
+    <edge node1="T1-left-way1-1" node2="T1-left-way2-1" type="road" />
+    <edge node1="T1-left-way2-1" node2="T1-left-way3-1" type="road" />
+    <edge node1="T1-left-way3-1" node2="T1-left-way4-1" type="road" />
+    <edge node1="T1-left-way4-1" node2="T1-left-way5-1" type="road" />
+    <edge node1="T1-left-way5-1" node2="T1-left-way6-1" type="road" />
+    <edge node1="T1-left-way6-1" node2="T1-left-way7-1" type="road" />
+    <edge node1="T1-left-way7-1" node2="T1-left-way8-1" type="road" />
+    <edge node1="T1-left-way8-1" node2="T1-left-way9-1" type="road" />
+    <edge node1="T1-left-way9-1" node2="T1-left-way10-1" type="road" />
+    <edge node1="T1-left-way10-1" node2="T1-left-way11-1" type="road" />
+   <!--中央本部-->
+   <!--惩戒部-->
+    <edge node1="G-a-way1" node2="geburah-down-hub-door" type="door" />
+    <edge node1="G-a-way1" node2="G-a-way2" type="road" />
+    <edge node1="G-a-way2" node2="G-a-way3" type="road" />
+    <edge node1="G-a-way3" node2="G-a-way4" type="road" />
+    <edge node1="G-a-way4" node2="G-a-way5" type="road" />
+    <edge node1="G-a-way5" node2="G-a-way6" type="road" />
+	
+    <edge node1="G-b-way1" node2="geburah-up-hub-door" type="door" />
+    <edge node1="G-b-way1" node2="G-b-way2" type="road" />
+    <edge node1="G-b-way2" node2="G-b-way3" type="road" />
+    <edge node1="G-b-way3" node2="G-b-way4" type="road" />
+    <edge node1="G-b-way4" node2="G-b-way5" type="road" />
+    <edge node1="G-b-way5" node2="G-b-way6" type="road" />
+   <!--惩戒部-->
+   <!--福利部-->
+    <edge node1="CH-a-way1" node2="chesed-down-hub-door" type="door" />
+    <edge node1="CH-a-way1" node2="CH-a-way2" type="road" />
+    <edge node1="CH-a-way2" node2="CH-a-way3" type="road" />
+    <edge node1="CH-a-way3" node2="CH-a-way4" type="road" />
+    <edge node1="CH-a-way4" node2="CH-a-way5" type="road" />
+    <edge node1="CH-a-way5" node2="CH-a-way6" type="road" />
+	
+    <edge node1="CH-b-way1" node2="chesed-up-hub-door" type="door" />
+    <edge node1="CH-b-way1" node2="CH-b-way2" type="road" />
+    <edge node1="CH-b-way2" node2="CH-b-way3" type="road" />
+    <edge node1="CH-b-way3" node2="CH-b-way4" type="road" />
+    <edge node1="CH-b-way4" node2="CH-b-way5" type="road" />
+    <edge node1="CH-b-way5" node2="CH-b-way6" type="road" />
+   <!--福利部-->
+   <!--研发部-->
+    <edge node1="B-way1" node2="binah-hub" type="door" />
+    <edge node1="B-way1" node2="B-way2" type="road" />
+    <edge node1="B-way2" node2="B-way3" type="road" />
+    <edge node1="B-way3" node2="B-way4" type="road" />
+    <edge node1="B-way4" node2="B-way5" type="road" />
+    <edge node1="B-way5" node2="B-way6" type="road" />
+    <edge node1="B-way6" node2="B-way7" type="road" />
+    <edge node1="B-way7" node2="B-way8" type="road" />
+   <!--研发部-->
+   <!--记录部-->
+    <edge node1="C-way1" node2="chokhmah-hub" type="door" />
+    <edge node1="C-way1" node2="C-way2" type="road" />
+    <edge node1="C-way2" node2="C-way3" type="road" />
+    <edge node1="C-way3" node2="C-way4" type="road" />
+    <edge node1="C-way4" node2="C-way5" type="road" />
+    <edge node1="C-way5" node2="C-way6" type="road" />
+    <edge node1="C-way6" node2="C-way7" type="road" />
+    <edge node1="C-way7" node2="C-way8" type="road" />
+   <!--记录部-->
+   <!--电梯-->
+    <edge node1="N-leftdown2-elevator-hub" node2="chesed-down-hub(d)" type="door" />
+    <edge node1="H-leftdown2-elevator-hub" node2="geburah-up-hub" type="door" />
+	
+    <edge node1="H-leftdown2-elevator-hub-door" node2="H-upper-way2-rightdoor" type="door" />
+    <edge node1="H-leftdown2-elevator-hub-door" node2="H-leftdown2-elevator-hub" type="road" />
+    <edge node1="H-leftdown2-elevator-hub" node2="H-leftdown3-1-elevator-hub" type="door" />
+	
+    <edge node1="H-leftdown3-1-elevator-hub-door" node2="H-upper-way3-rightdoor" type="door" />
+    <edge node1="H-leftdown3-1-elevator-hub-door" node2="H-leftdown3-1-elevator-hub" type="road" />
+	
+    <edge node1="N-leftdown2-elevator-hub-door" node2="N-upper-way2-leftdoor" type="door" />
+    <edge node1="N-leftdown2-elevator-hub-door" node2="N-leftdown2-elevator-hub" type="road" />
+    <edge node1="N-leftdown2-elevator-hub" node2="N-leftdown3-1-elevator-hub" type="door" />
+	
+    <edge node1="N-leftdown3-1-elevator-hub-door" node2="N-upper-way3-leftdoor" type="door" />
+    <edge node1="N-leftdown3-1-elevator-hub-door" node2="N-leftdown3-1-elevator-hub" type="road" />
+	
+    <edge node1="M-leftdown3-1-elevator-hub" node2="right-elevator" type="door" />
+    <edge node1="M-leftdown3-1-elevator-hub-door" node2="M-leftdown3-1-elevator-hub" type="road" />
+    <edge node1="M-leftdown3-1-elevator-hub-door" node2="M-upper-way3-rightdoor" type="door" />
+	
+    <edge node1="M-leftdown2-1-elevator-hub" node2="left-elevator" type="door" />
+    <edge node1="M-leftdown2-1-elevator-hub-door" node2="M-leftdown2-1-elevator-hub" type="road" />
+    <edge node1="M-leftdown2-1-elevator-hub-door" node2="M-upper-way2-leftdoor" type="door" />
+	
+    <edge node1="G-a-elevator-hub-door" node2="G-a-elevator-hub" type="road" />
+    <edge node1="G-a-elevator-hub-door" node2="G-a-way6" type="door" />
+	
+    <edge node1="G-b-elevator-hub" node2="G-a-elevator-hub" type="door" />
+    <edge node1="G-b-elevator-hub-door" node2="G-b-elevator-hub" type="road" />
+    <edge node1="G-b-elevator-hub-door" node2="G-b-way6" type="door" />
+	
+    <edge node1="CH-a-elevator-hub-door" node2="CH-a-elevator-hub" type="road" />
+    <edge node1="CH-a-elevator-hub-door" node2="CH-a-way6" type="door" />
+	
+    <edge node1="CH-b-elevator-hub" node2="CH-a-elevator-hub" type="door" />
+    <edge node1="CH-b-elevator-hub-door" node2="CH-b-elevator-hub" type="road" />
+    <edge node1="CH-b-elevator-hub-door" node2="CH-b-way6" type="door" />
+   <!--电梯-->
+  </edge_list>
+  
+</map_graph>

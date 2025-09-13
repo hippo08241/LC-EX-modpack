@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="110052">
+
+
+
+    <narration action="move">
+      #0 é atribuído a unidade de contenção de $0
+    </narration>
+
+    <narration action="start">
+      [
+      {$0 fez um rangido, #0 não tem certeza se foi uma ilusão ou não}
+      {$0 está interessado em aprender, como sempre.}
+      ]
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 está imitando o que #0 está fazendo}
+      {#0 pode ver $0 tentando imitar escrevendo em uma prancheta}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {#0 está ficando cansado das tentativas de $0 o imitar.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-10-15</codeNo>
+      <name openLevel ="1">Marionete</name>
+      <name openLevel ="4">Pinocchio</name>
+      <portrait openLevel ="4">Custom/Pinocchio</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>Posso ser que nem eles se eu continuar imitando?</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Esse cara fica "aprendendo" ao seguir os outros, e esse é o problema.&#13;&#10;&#13;&#10; 【O conteúdo a seguir é de registros de conversas de funcionários】  &#13;&#10;&#13;&#10;"Ei! Ouvi dizer que você foi designado para gerenciar aquela marionete recentemente. Parece interessante." &#13;&#10;"Bem... esta anomalia está bem, não é muito perigosa. Minha tarefa designada é apenas ensinar-lhe coisas novas. É muito divertido ver como ele aprende desajeitadamente."&#13;&#10;"Não é perigoso? Isso parece suspeito. Acho que você deve ter cuidado, é classificado como uma anormalidade de nível HE. Deve haver alguns riscos envolvidos."&#13;&#10;De fato, obrigado pelo lembrete. Aliás, essa anomalia tem uma forte vontade de aprender. Sempre que me recuso a ensiná-lo, sua produção de energia diminui imediatamente. Por causa disso, tive que fazer horas extras diversas vezes até meia-noite."&#13;&#10;"Oh? Isso parece difícil. Você tem trabalhado duro ultimamente." E também, essa anomalia tem um grande problema. Ele só aprende seguindo os outros, e esse é o problema."&#13;&#10; "Por que?"&#13;&#10;“Porque a sua “aprendizagem” não tem sido senão uma imitação do que faço, não interpreta o conhecimento, simplesmente copia-o."&#13;&#10;"Ah qualé. . . É só uma anormalidade . . . Por que levar isso tão sério?"&#13;&#10;“Mesmo sendo uma anormalidade, sou professor nas ruas há 8 anos. Meu senso de responsabilidade como educador me diz que não posso deixar meus alunos apenas memorizarem o conhecimento, mas sim, devo ensiná-los a interpretar as informações e aplicá-las com flexibilidade no futuro." &#13;&#10; “Bem, isso é um estranho senso de responsabilidade. A propósito, há uma nova lanchonete HamHamPangPang que abriu ao lado da empresa. Vamos ir até lá depois do trabalho?"&#13;&#10;"Ah? Sério? A carga de trabalho de hoje não é pesada, então vamos nos encontrar na entrada da empresa depois do trabalho." &#13;&#10; "Ótimo, te vejo depois do trabalho!"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {&#13;&#10;&#13;&#10;——Eu também trabalhei duro pra aprender hoje. Você quer que eu mostre meu novo conhecimento pra você? &#13;&#10;&#13;&#10;【The following content is from recorded conversations inside the containment unit】 &#13;&#10;&#13;&#10;"Bom dia, Pinocchio. Eu sou ■■■■ e hoje estarei ensinando você. " &#13;&#10;" (Sons de madeira rangendo) Bom d-d-dia ■■■■, sou P-Pinocchio. H-Hoje é um bom dia para . . ." &#13;&#10;“Suspiro... (resmungando baixinho) Ainda não consegue aplicar o conhecimento, apenas imita...”
+“Tudo bem, vamos começar o aprendizado de hoje, Pinocchio." &#13;&#10;..................................&#13;&#10; "Tudo bem, é isso por hoje. Finalmente, hora de ir para casa.""■■■■, eu também trabalhei muito para aprender hoje, você quer que eu mostre o que aprendi para você?"&#13;&#10;"Hum? Mostrar? Meu aluno Pinocchio teve um avanço?" "Bem... Claro, você pode me demonstrar o que lhe ensinei hoje sobre como se dar bem com os outros. "&#13;&#10;(sons de madeira rangendo)&#13;&#10; "Hmm... Não são movimentos ruins, bastante normais. Qual é o próximo?"&#13;&#10;"Olá, é um dia lindo hoje, Pinocchio."&#13;&#10;“？？？"??? Que diabos? Essa não é a minha voz? Como você pode imitar minha voz?!"&#13;&#10;"Boa tarde, Pinocchio. O que você almoçou hoje?"&#13;&#10;"espere, para, para, para!"&#13;&#10;..............&#13;&#10; 【O agente recebeu acompanhamento psicológico.】}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {【Anúncio do gerenciamento da corporação L em junho ■■】 &#13;&#10;&#13;&#10; Queridos agentes,&#13;&#10;  Considerando o recente aumento de incidentes relacionados à fuga da Anomalia F-10-15, vimos por este meio alertar todos os funcionários responsáveis ​​pelo F-10-15. Como o F-10-15 começou a “mentir”, todos os funcionários responsáveis ​​pelo F-10-15 são obrigados a refazer o teste de competência do funcionário. O teste começará hoje às ■■:■■ PM. Por favor não se atrase.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {-"As pessoas mentem o tempo todo. Por que isso é uma coisa ruim?"}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;Foi criado para ser o maior ■■■■ do mundo, mas depois de ser criado, o seu criador ficou profundamente enojado com ele depois de apenas um vislumbre. Naquela época, não entendia o porquê. Mais tarde, eles se tornaram um peão importante em seu grande plano, e ele abraçou com prazer seu papel como peão. No entanto, no interminável ciclo de repetição, seu coração outrora apaixonado gradualmente se transformou em um coração feito de aço frio. Gradualmente abandonou o seu antigo eu e começou a imitar e aprender com os outros, impulsionando incansavelmente o plano. Mas mesmo assim, passou por vários ciclos. Nesses ciclos, ele aprendeu a “mentir” e uma ideia terrível tomou conta de sua mente...
+ Nesse ciclo final, ele... 【O conteúdo a seguir foi danificado】  }
+      ]
+    </desc>
+
+    
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">$0 não tem resistencias fixas e irá adotar as resistencias de outros agentes para si</specialTip>
+      <specialTip openLevel="2" key="2">Há uma pequena probabilidade de $0 mentir durante cada nível de colapso, diminuindo seu contador Qliphoth e, se não for gerenciado adequadamente, resultará em sua fuga no próximo nível de colapso.</specialTip>
+      <specialTip openLevel="3" key="3">Os funcionários têm uma probabilidade, com base nos seus níveis de justiça e prudência, de discernir mentiras enquanto trabalham com ele. Se o resultado do trabalho for bom, o contador Qliphoth retornará ao normal.</specialTip>
+      <specialTip openLevel="4" key="4">Depois de escapar, a anormalidade irá imitar empregados e inflingir dano baseado em seus ataques e atributos.</specialTip>
+     </specialTipSize>
+
+
+
+
+  </observe>
+  <child>
+    <name>name</name>
+    <codeId>F-10-15-1</codeId>
+  </child>
+</creature>

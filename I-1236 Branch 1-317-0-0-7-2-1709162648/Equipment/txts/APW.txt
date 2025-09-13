@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+
+  <equipment id="242017" type="weapon">
+    <name>ChP_weapon_name</name>
+    <no>ChP_weapon_no</no>
+    <desc>ChP_weapon_desc</desc>
+    <specialDesc>ChP_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>knife</weaponClassType>
+    <sprite>242017</sprite>
+
+    <animation>Attack1</animation>
+
+    <require type="W">3</require>
+    <require type="level">2</require>
+
+    <damage type="B" min="1" max="3">
+      <soundInfo type="damage">Weapons/dagger1</soundInfo>
+    </damage>
+    <damage type="B" min="7" max="13">
+      <soundInfo type="damage">Weapons/dagger1</soundInfo>
+    </damage>
+
+    <range>3</range>
+
+    <script>ChildPWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>3</grade>
+  </equipment>
+
+  <equipment id="342017" type="armor">
+
+    <name>ChP_weapon_name</name>
+    <no>ChP_armor_no</no>
+    <desc>ChP_armor_desc</desc>
+    <specialDesc>ChP_armor_specialDesc</specialDesc>
+
+    <armorId>342017</armorId>
+
+    <defense>
+      <defenseElement type="R">0.8</defenseElement>
+      <defenseElement type="W">0.7</defenseElement>
+      <defenseElement type="B">1.2</defenseElement>
+      <defenseElement type="P">2.0</defenseElement>
+    </defense>
+    <grade>2</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="342018" type="armor">
+
+    <name>SpMa_armor_name</name>
+    <no>SpMa_armor_no</no>
+    <desc>SpMa_armor_desc</desc>
+    <specialDesc>SpMa_armor_specialDesc</specialDesc>
+
+    <armorId>342018</armorId>
+
+    <require type="W">3</require>
+    <require type="level">3</require>
+
+    <defense>
+      <defenseElement type="R">0.4</defenseElement>
+      <defenseElement type="W">1.5</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <script>SpMaArmor</script>
+    <grade>4</grade>
+    <maxNum>2</maxNum>
+  </equipment>
+
+  <equipment id="242019" type="weapon">
+    <name>UnC_weapon_name</name>
+    <no>UnC_weapon_no</no>
+    <desc>UnC_weapon_desc</desc>
+
+    <weaponClassType>hammer</weaponClassType>
+    <!--<specialWeaponAnim>DangoCreatureWeapon_UnChildWeapon</specialWeaponAnim>-->
+    <sprite>242019</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+    <require type="W">2</require>
+
+    <damage type="P" min="7" max="7">
+    </damage>
+    <damage type="P" min="1" max="1">
+    </damage>
+    <damage type="P" min="2" max="2">
+    </damage>
+    <damage type="P" min="4" max="4">
+    </damage>
+    <damage type="P" min="7" max="7">
+    </damage>
+    <damage type="P" min="57" max="82">
+    </damage>
+
+    <range>80</range>
+
+    <script>UnChildWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>7</attackSpeed>
+    <grade>1</grade>
+  </equipment>
+
+</equipment_list>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="156514">
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 is a massive slab of stone with a base made of red muscular fibers},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {The bricks of $0 start creaking},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {The bricks of $0 are engraved with letters from ancient languages},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-04-04-05</codeNo>
+      <portrait openLevel ="1">Custom/DoomsdayCalendar_portrait</portrait>
+
+      <name openLevel ="1">
+        Doomsday Calendar
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>You, too, will be a live offering.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Placed on a wooden pedestal that seemed as though it was woven from fibers of muscles was a large stone slab}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {When agents approach it, its compartments of bricks began to rattle. Seized by curiosity, the agents attempt to get closer for a better observation.
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Based on the numerous letters carved on the bricks, it is highly likely that it is a tool used for predicting a certain date. The letters come from an ancient language, and that slab is almost certainly a calendar.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {"I had an opportunity to be offered to this. I took unwavering steps forward as the choice was reasonable."
+
+}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {"I had no reason to fear, for I would be brought back to life even if I were to perish.
+I did not feel the death, so to speak. Though I have experienced death many times in battle, I was not subjected to the sort of pain or flashing disarray that normally accompanies a demise that time. It simply felt as though I was being transported to a different location.
+It may be the universe or some other dimension."}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {"My own body and voice couldn't be perceived by my senses. Perhaps my eyes had gone and I became a part of that place.
+There, I may have seen the end. You could say it was a doomsday I witnessed.
+No perhaps I may have been the end and the doomsday I was present at the end but not existent and while it may be misleading to say that it was there but even still I witnessed man and sky and earth tear into thousands of pieces"}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">The Qliphoth Counter of $0 will decrease by 1 at the start of meltdown level.</specialTip>
+      <specialTip openLevel="1" key="1">After performing the sacrifice work on $0, its Qliphoth Counter will immediately increase, causing certain damage to the agent or clerk involved.</specialTip>
+      <specialTip openLevel="2" key="2">The lower the Qliphoth Counter, the higher the damage caused by the sacrifice work.</specialTip>
+      <specialTip openLevel="4" key="4">After the Qliphoth Counter of $0 reaches zero, it will enter a state of countdown for 120 seconds and only perform Sacrifice work will be avaliable. If the counter remains at zero for a whole 120 seconds, it will inflict high black damage on units within a certain range.</specialTip>
+      <specialTip openLevel="3" key="3">Once the counter reaches 0, it will generate 3 "Doomsday Clay Doll" every 60 seconds and also reduce its own counter further.</specialTip>
+      <specialTip openLevel="5" key="5">When a "Doomsday Clay Doll" dies, it will immediately increase the Qliphoth Counter of $0, however 60 seconds have to pass before you can increase the counter again killing a clay doll, this counter raise temporarily delays the massive black wave of damage.</specialTip>
+    </specialTipSize>
+  </observe>
+
+  <child>
+    <name>Doomsday Clay Doll</name>
+    <codeId>M-04-04-05-A</codeId>
+  </child>
+</creature>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="121045">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar a trabalhar.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {A unidade de contenção é úmida, com cheiro de peixe e chuva.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {O $0 vestido de preto está sentado silenciosamente em frente ao cavalete.}
+
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 ouve o som da chuva caindo.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 vê algo dentro dos olhos de $0. Eles não conseguem dizer o que isso significa.}
+      ]
+    </narration>
+    <narration action="mid5">
+      [
+      {"Would you like to be my muse? Hahahaha..."}
+      ]
+    </narration>
+
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-665</codeNo>
+      <portrait openLevel ="1">Custom/ladyinrain</portrait>
+
+      <name openLevel ="1">
+        A Dama na Chuva
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>&lt;color=#9cba5a&gt;"A lua brilhante adorna sua janela, enquanto você adorna os sonhos de outras pessoas..."&lt;/color&gt;</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Esta Anormalidade parece assustadoramente semelhante a um humano, com pele pálida e um longo vestido preto, emitindo a aura de uma aristocrata antiga.
+Ela geralmente se senta em uma postura estoica dentro da unidade de contenção, ocasionalmente se movendo de uma forma que sugere que ela está "rezando".
+Ela está cercada por uma série de itens que se assemelham a instrumentos de pintura comuns, mas são fundamentalmente diferentes; Ainda precisamos entender sua construção.
+Ela oferecerá sua moldura, uma ferramenta especial com efeitos poderosos, aos funcionários que realizam trabalho com ela e atendem a certas condições.
+Quando a moldura é usada para atacar uma Anormalidade de classificação HE ou inferior, eles serão puxados para dentro da moldura, transformando-os em "obras de arte" que ficam penduradas nas paredes da unidade de contenção.
+As molduras da garota são aparentemente infinitas e, mesmo que sejam constantemente tiradas e destruídas, ela ainda pode fornecer novas molduras quando os funcionários atendem às condições.
+Se fizermos bom uso das molduras, podemos melhorar muito nossa eficiência de trabalho.
+}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Experimentos de pesquisa subsequentes descobriram que funcionários com porta-retratos não são prejudicados por algumas das habilidades especiais da Dama na Chuva.
+A Dama fornecerá um certo nível de conveniência e proteção ao funcionário que segura o porta-retratos.
+Após vários experimentos, pode ser provado que ela está de fato mostrando favoritismo e ajudando funcionários com seus porta-retratos.
+Isso provavelmente ocorre porque ela assume que o funcionário que carrega o porta-retratos tem valor e pode obter mais "obras de arte" para ela.
+Embora a Anormalidade seja geralmente calma e bem-educada, este é apenas seu disfarce.
+Se ela não receber uma certa quantidade de "obras de arte" regularmente, ou se alguém tentar destruir sua "obra de arte" pendurada nas paredes da unidade de contenção, a Anormalidade revelará imediatamente suas verdadeiras cores.
+&lt;color=#9cbc59&gt;Um monstro ganancioso, pervertido, perturbado e malévolo.&lt;/color&gt;
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {De vez em quando, ela monta várias "obras de arte" inacabadas na instalação, que constantemente tentam puxar indivíduos próximos para as pinturas.
+No infeliz evento de um funcionário ser arrastado para uma pintura, uma equipe deve ser imediatamente organizada para destruir a "obra de arte" inacabada para libertar o funcionário capturado.
+Desde que uma ação rápida seja tomada, os funcionários podem ser resgatados sem nenhum problema.
+Os funcionários que não forem resgatados a tempo se fundirão completamente com a obra de arte inacabada e se tornarão escravos do desejo da Anormalidade.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {&lt;color=#FF0000&gt;AVISO! Se a Anormalidade não receber uma nova obra de arte regularmente, ela entrará em um estado de loucura em que removerá todas as pretensões e se esforçará para obter obras de arte de uma maneira mais proativa e agressiva.&lt;/color&gt;
+
+
+Quando a Anormalidade não mais oculta sua verdadeira personalidade, e há molduras ou obras de arte inacabadas na instalação que ela montou, ela começará a pintar dentro de seu quarto enquanto ri, liberando seu poder através desses objetos e bloqueando o espaço em uma tentativa de transformar toda a vida presa dentro deles em sua própria "obra de arte".
+Se ela não for estabilizada fornecendo-lhe obras de arte a tempo, convencendo-a a parar de pintar, as consequências serão desastrosas.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {[Adendo]
+Ocasionalmente, a Dama da Chuva parece mudar sua aparência e faz com que a câmera monitorando seu quarto fique coberta de água.
+Tais transformações não trazem mudanças substanciais em seu comportamento e devem ser apenas mudanças externas causadas pela interrupção da energia do Qliphoth.
+Não há necessidade de se alarmar.
+
+---
+
+"... Eu entendo, mas, Srta. Pintora, eu realmente não aguento mais. Aquela mulher na pintura de alguma forma está me seguindo! Pegue a coisa quebrada de volta! Isso está me deixando louco!" O homem rosnou, rugindo do outro lado do celular.
+"Mas..." a voz hesitou quando o homem interrompeu rudemente a explicação da pessoa conhecida como Srta. Pintora:
+"Não há mas, esta pintura é apenas azar para ter pendurada em sua casa! Se você não vier e pegá-la de volta, eu farei a Associação Öufi processá-la por enganar seus clientes!"
+"Tudo bem... Eu irei pegá-la de volta, em breve." A voz do outro lado da linha disse impotente.
+(5 dias depois)
+"Senhorita, você precisa vir buscá-la agora! Imediatamente! Tire essa maldita coisa da minha casa! Ela está se aproximando cada vez mais de mim, mesmo que eu enfie essa merda no armário, empacote e jogue pela janela, ou mesmo que eu a quebre... ela sempre volta para aquela parede, e aquela mulher nunca desaparece... Ontem mesmo eu a vi parada na frente da minha casa olhando para mim, Deus, ela era ainda mais alta que o batente da porta da minha casa, e seu rosto estava branco como uma folha de papel." O homem ficou horrorizado, suas mãos tremendo. Mas não importava o que ele dissesse, havia apenas aquele silêncio assustador no telefone.
+"......" o homem começou a rosnar, balançando o telefone histericamente, "Alô! Você está me ouvindo! Estou dizendo para você se apressar! Ou eu vou fazer você pagar o rabo, você me ouviu!" Em vez da Srta. Painter, o que respondeu a ele foi uma voz calma e assustadora:
+"...Bom... Bom... Heheheh...."
+O que-
+O telefone foi desligado.
+O homem estava completamente furioso, o celular foi jogado no chão manchado de chuva, a tela piscou algumas vezes, antes de quebrar completamente... A chuva estava ficando cada vez mais forte, e o som barulhento da chuva ofuscou os xingamentos do homem.
+"Porra! Filho da puta! Não vou pegar... Eu mesmo te levo lá... Veja como você lida com essa coisa!"
+O homem carregou a pintura que o incomodava há uma semana e caminhou na chuva. Conforme a chuva caía, o cenário gradualmente ficou turvo e se transformou em um verde doentio e podre. Figuras altas e pretas flutuavam na chuva nebulosa. Os passos do homem ficaram mais rápidos e confusos, enquanto ele murmurava baixinho. "Ela está vindo... Ela está vindo..."
+Ele estalou.
+"ARRRRGHHHHHHHHH!"
+Apressado, o homem correu imprudentemente para a porta do pintor, tendo finalmente chegado. "Sua vadia estúpida... pegue sua merda e vá se foder!" Mãos bateram na porta, espirrando, enquanto ele forçava a velha porta de madeira a abrir. Ela rangia lentamente ao balançar para dentro... Revelando a mulher alta que estava sentada no meio da casa, segurando um pincel. Ela levantou a cabeça lentamente, um sorriso estranho em seu rosto miserável e branco como papel... "Oh, bom... minha nova peça finalmente chegou."
+"Ahhhhhhhhhhhh!!!" O homem caiu de joelhos, suas pernas tremendo. Em algum momento, a pintura em suas mãos, que estava enrolada em um cobertor grosso, começou a escorrer água da chuva fria e pegajosa. A mulher de preto se levantou, agarrou a moldura e a arrancou de suas mãos trêmulas. Ela segurou a pintura inacabada em suas mãos - era uma pintura a óleo da mesma cena em frente à casa do artista... A razão pela qual era uma obra inacabada, no entanto, era porque ainda havia um espaço em branco no centro da tela - o suficiente para caber uma figura humana. A mulher levantou lentamente a moldura, e os gritos do homem chegaram a um fim abrupto. A obra de arte estava finalmente completa. Enquanto as gotas de chuva caíam, ela pendurou seu novo retrato na parede, cercada por inúmeros outros, e tudo voltou a ser uma névoa.
+
+[Dois artigos, encontrados em um jornal completamente encharcado pela chuva]
+"...Em 1º de abril, a Srta. Svetlana, uma pintora pouco conhecida no Distrito 5, foi encontrada morta em sua casa, deitada em uma poça de sangue coagulado, óleo e água da chuva. A julgar pela cena, a falecida tentou destruir algo usando uma espada curta. No entanto, foi o próprio pescoço da pintora que a lâmina acabou cortando. Dizem que uma figura feminina, com mais de dois metros de altura, foi testemunhada na cena, e as circunstâncias estão sendo investigadas..."
+
+"...Em 4 de maio, o Sr. Terez, um joalheiro, desapareceu por mais de cinco dias, como se tivesse desaparecido do mundo. Em sua casa, uma pintura muito estranha foi encontrada, na qual o Sr. Terez estava sentado em frente à porta, o rosto cheio de medo, da casa da Srta. Svetlana. A pintura foi encontrada coberta com água da chuva pegajosa e, não importa o quanto os analistas tentassem secá-la, ela estava sempre molhada. A Seven Association divulgou um aviso oficial sobre o assunto, declarando que..."
+
+[Um relatório de investigação encharcado pelo Seven Association Fixer Harold Fendall (falecido)]
+...A maior parte do conteúdo do diário encontrado na casa da Srta. Svetlana estava encharcada de chuva e ilegível. O seguinte é o que ainda está legível.
+
+......
+
+18 de março - Chuva leve.
+Ultimamente, não consigo encontrar inspiração para pintar. Tenho sido tomada pela indecisão, pois devo pintar a obra mais perfeita, mas como deve ser a obra mais perfeita? O que preciso fazer para que minhas pinturas realmente ganhem vida? Não importa como eu pense nisso, não consigo pensar em nada. Minha cabeça dói de tudo isso.
+
+19 de março - Chuva forte
+Há quanto tempo está chovendo? A umidade é tão forte que parece que o próprio ar está grudando nos meus pulmões. Pela janela, vi uma mulher parada na ponte de madeira que rangia lá embaixo. Apesar do clima horrível, ela... parecia estar de bom humor.
+
+...Encontrei alguma inspiração.
+
+20 de março - Tempestade
+O trovão é muito alto, mas não me incomoda muito... Não sei por que, mas simplesmente não consigo tirar aquela mulher da minha mente. Não vi a parte frontal dela, pois ela estava de costas, mas seu rosto está sempre flutuando na minha mente. Há um tempo, peguei meu pincel sem pensar e, antes que pudesse reagir, já tinha terminado de pintar. Este é meu trabalho mais perfeito! Foi como se a cena tivesse ganhado vida. É incrível... Com isso, tenho certeza de que poderei fazer um nome para mim.
+
+.....
+
+24 de março - Chuva pesada
+Vi a mulher do outro dia. Ela parecia estar me seguindo... Enquanto eu fazia minhas tarefas, sentia seu olhar em mim a cada passo do caminho. Onde quer que eu olhasse, parecia que ela estava sempre em algum lugar me encarando, e era uma sensação horrível. O que É ela? Por que me sinto tão inexplicavelmente em pânico quando olho para ela? Acho que ela pode estar se aproximando, mas é difícil dizer. Para ficar segura, estou barricando minha porta hoje à noite.
+
+25 de março - Chuva leve
+Eu estava certa, ela está se aproximando. No começo, ela estava apenas me olhando de longe, mas agora, ela tem aparecido bem ao meu lado, às vezes não menos do que alguns passos atrás de mim. Pior ainda, ela me seguiu até em casa e ficou de vigília do lado de fora da minha casa. Uma vez, eu a vi do lado de fora da janela, seu rosto pálido apenas me encarando, enquanto ela exibia um sorriso horrível...
+
+.....
+
+28 de março - Chuva moderada
+Eu descobri! É a pintura! Ela ganhou vida, de alguma forma! Ela está viva...!
+
+29 de março - Chuva forte
+Ela tem quebrado a porta em intervalos estranhos. Ela vai passar. Ela ainda está por perto... Eu tenho que fazer alguma coisa. ...Esta pintura... Talvez eu pudesse... Doá-la para...
+
+30 de março - Chuva forte
+&lt;color=#FF0000&gt;一&lt;/color&gt;   &lt;color=#FF0000&gt;A&lt;/color&gt;   &lt;color=#FF0000&gt;pintura's&lt;/color&gt;   &lt;color=#FF0000&gt;finalmente&lt;/color&gt;   &lt;color=#FF0000&gt;feita.&lt;/color&gt;
+
+O diário termina aqui com a suspeita inicial de que Svetlana pode estar passando por algum grau de trauma mental. Informações adicionais estão pendentes de investigação posterior.
+
+Havia um pedaço de papel preso no diário. Era a única coisa que não estava encharcada de chuva. Um pequeno poema foi escrito no papel:
+&lt;color=#9cba5a&gt;Você está na ponte admirando a paisagem,&lt;/color&gt;
+&lt;color=#9cba5a&gt;As pessoas que olham a paisagem lá de cima admiram você.&lt;/color&gt;
+&lt;color=#9cba5a&gt;A lua brilhante adorna sua janela,&lt;/color&gt;
+&lt;color=#9cba5a&gt;Enquanto você enfeita os sonhos de outras pessoas.&lt;/color&gt;
+}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="7">
+      <specialTip openLevel="1" key="1">$0 criaria periodicamente vários frames na instalação. Para estar seguro, recomendamos destruir os frames assim que forem localizados.</specialTip>
+      <specialTip openLevel="2" key="2">Funcionários com um Nível de Prudência menor que 3, ou uma Anormalidade de&lt;color=#ffff01&gt;HE&lt;/color&gt; rank ou inferior, ao entrar em uma sala onde havia uma moldura, eram puxados para dentro da moldura. A moldura então começava a escorrer água da chuva, causando dano PRETO a todas as unidades na sala. Se a moldura não for destruída dentro de um certo período de tempo, a unidade puxada para dentro da moldura se transforma em uma obra de arte.</specialTip>
+      <specialTip openLevel="3" key="3">Quando um funcionário conclui o trabalho de anexo em $0 e o resultado não é "Ruim", o funcionário recebeu uma moldura de imagem. Funcionários carregando a moldura de imagem não serão afetados pelas molduras de $0. Se o funcionário suprimir uma unidade que não seja de uma classificação mais alta que a deles, ela é atraída para a moldura e se torna uma "Obra de Arte". Se for&lt;color=#ffff01&gt;HE&lt;/color&gt; classificação ou inferior, o alvo será puxado para dentro do quadro ao alcançá-lo.</specialTip>
+      <specialTip openLevel="4" key="4">$0 pendurará "Obra de arte" nas paredes de sua unidade de contenção. O valor máximo do Qliphoth Counter aumentará cada vez que ela adquirir uma peça de "Obra de arte". O Qliphoth Counter aumentaria em 1 cada vez que "Obra de arte" fosse adquirido, e diminuiria em 1 se um período de tempo passasse sem que $0 ganhasse qualquer "Obra de arte".</specialTip>
+      <specialTip openLevel="5" key="5">Quando o resultado do trabalho for ruim, o funcionário destruirá a "Arte" de $0 e o Contador Qliphoth será reduzido imediatamente. O funcionário recebe uma pequena quantidade de dano PRETO, aumentado se estiver carregando uma moldura. Da mesma forma, se estiver carregando uma moldura, ela será destruída e o funcionário não poderá obter uma nova pelo resto do dia.</specialTip>
+      <specialTip openLevel="6" key="6">Quando o contador baixar para 0, $0 começará a pintar, trancando várias salas e corredores na instalação e transformando-os em telas. Unidades que tentarem sair dessas salas receberão dano BLACK. Se esse dano as matar, elas se tornarão uma obra de arte. &lt;color=#ffff01&gt;HE&lt;/color&gt; Anormalidades desse nível ou inferior simplesmente se tornarão "Obras de Arte" ao tentar sair dessas salas.</specialTip>
+      <specialTip openLevel="7" key="7">Quando $0 termina de pintar, todos os funcionários em uma tela, bem como as anormalidades abaixo da classificação&lt;color=#773cdd&gt;WAW&lt;/color&gt; torne-se arte e unidades &lt;color=#773cdd&gt;WAW&lt;/color&gt; rank e acima sofrerão uma certa quantidade de dano. Quando o Qliphoth Counter retornar ao máximo, parará de pintar.</specialTip>
+   </specialTipSize>
+
+  </observe>
+  <child>
+    <name>"Obra de arte" inacabada</name>
+    <codeId>???</codeId>
+  </child>
+</creature>

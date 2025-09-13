@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+    <text id="SFZW_IsolateDisplay">*Недействительно*</text>
+    <text id="SFZW_WorkType">Выступление</text>
+    <text id="SFZW_WorkType_called">Работа на Выступление</text>
+</localize>

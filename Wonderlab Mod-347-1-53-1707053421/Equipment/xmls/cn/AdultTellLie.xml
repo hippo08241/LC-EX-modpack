@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="AdultTellLie_equip_name">虚伪王座</text>
+<text id="AdultTellLie_weapon_desc">“所有遇到这位伟大巫师的大人们，都声称自己的愿望被实现了。”</text>
+<text id="AdultTellLie_weapon_specialDesc">被该武器击中的敌人移动速度降低50%，持续3秒。
+这把武器每隔一段时间会发起一次特殊攻击。
+如果有员工持有这件E.G.O武器，“翡翠城”就不会出现。</text>
+<text id="AdultTellLie_gift_desc">攻击速度-5 移动速度-5 最大生命值+9 最大精神值+9 成功率+9 工作速度+9
+
+干得漂亮。</text>
+<text id="AdultTellLie_armor_desc">“实际上，没有一个大人实现了自己的愿望。”
+“他们也不过是骗子。”</text>
+<text id="AdultTellLie_armor_specialDesc">发起虚伪王座的特殊攻击后，3秒内不会受到伤害。
+从移动速度降低的敌人处受到的伤害减少25%。
+如果有员工穿戴这件E.G.O装备，“翡翠城”就不会出现。</text>
+
+</localize>

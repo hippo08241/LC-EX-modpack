@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+    <text id="SFZW_IsolateDisplay">*无效的收容单元*</text>
+    <text id="SFZW_WorkType">表演</text>
+    <text id="SFZW_WorkType_called">表演工作</text>
+</localize>

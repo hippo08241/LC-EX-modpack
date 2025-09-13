@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="509122">
+
+    <narration action="move">
+      #0被分配到“$0”的收容单元中
+    </narration>
+
+  </info>
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-05-222</codeNo>
+      <portrait openLevel ="1">Custom/VendWords</portrait>
+
+      <name openLevel ="2">
+        贩卖话语的自动售卖机
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>
+        这台机器不卖苏打或零食，而是售卖世上最优美动听的声音。
+      </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {这台机器不卖苏打或零食，而是售卖世上最优美动听的声音。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {他竖起耳朵仔细聆听从“贩卖文字的自动售卖机”的出货口中
+传出的声音，发现自己从中获得了深刻的启发。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="2">
+      [
+      {他无比渴望能再次沐浴在那智慧的洪流中。他一遍又一遍
+地来到机器前，直到所有知识都灌入了他的脑海中。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="3">
+      [
+      {但此等神圣的话语切不可与他人同享；当别人来到他跟前
+并窃走了他的智慧后，他的一切都化为了乌有。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {命运给一切都标上了价格。最后，他们都学到了这么一课。}
+      ]
+    </desc>
+
+     <specialTipSize size="5">
+      <specialTip openLevel="0" key="Hubris1">使用“$0”后，员工的自律相关属性会增加。</specialTip>
+      <specialTip openLevel="1" key="Hubris2">受影响员工的工作成功率也会在进行洞察工作时增加。</specialTip>
+      <specialTip openLevel="1" key="Hubris3">每当连续使用“$0”时，其增益效果都会
+随之提升，最多提升三次。</specialTip>
+      <specialTip openLevel="2" key="Hubris4">如果有其他员工使用了“$0”，原来的受影
+响员工会失去所有增益，且该员工在今日内将再也无法获
+得“$0”的增益。</specialTip>
+      <specialTip openLevel="3" key="Hubris5">一部分受影响员工工作所得的能源会支付给“$0”。</specialTip>
+      </specialTipSize>
+  </observe>
+</creature>

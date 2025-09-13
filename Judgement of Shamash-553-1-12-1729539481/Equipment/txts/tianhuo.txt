@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+  <equipment id="720001" type="weapon">
+    <name>Tianhuo_weapon_name1</name>
+    <desc>Tianhuo_weapon_desc1</desc>
+    <specialDesc>Tianhuo_weapon_specialDesc1</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <sprite>Nothing_Weapon1</sprite>
+    <specialWeaponAnim>BossBirdWeapon_Tianhuo1</specialWeaponAnim>
+    <animation>Attack1</animation>
+ 
+    <damage type="R" min="10" max="14">
+    </damage>
+    <range>5</range>
+    <splash type="SPLASH"/>
+   <script>tianhuoweapon1</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>1</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+  <equipment id="720002" type="weapon">
+    <name>Tianhuo_weapon_name2</name>
+    <desc>Tianhuo_weapon_desc2</desc>
+    <specialDesc>Tianhuo_weapon_specialDesc2</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <sprite>Nothing_Weapon2</sprite>
+    <specialWeaponAnim>BossBirdWeapon_Tianhuo2</specialWeaponAnim>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+
+
+    <damage type="R" min="18" max="24">
+    </damage>
+
+    <range>7</range>
+    <script>tianhuoweapon2</script>
+    <splash type="SPLASH"/>
+    <maxNum>1</maxNum>
+    <attackSpeed>0.8</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+  <equipment id="720003" type="weapon">
+    <name>Tianhuo_weapon_name3</name>
+    <desc>Tianhuo_weapon_desc3</desc>
+    <specialDesc>Tianhuo_weapon_specialDesc3</specialDesc>
+    <weaponClassType>special</weaponClassType>
+    <sprite>Nothing_Weapon3</sprite>
+    <specialWeaponAnim>BossBirdWeapon_Tianhuo3</specialWeaponAnim>
+    <animation>Attack1</animation>
+
+
+    <damage type="R" min="1" max="1">
+    </damage>
+   
+    <script>tianhuoweapon3</script>
+    <range>20</range>
+    <splash type="SPLASH"/>
+    <maxNum>1</maxNum>
+    <attackSpeed>0.8</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+</equipment_list>

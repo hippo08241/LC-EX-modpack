@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<creature_list>
+  <creature name="DingleDangle" src="DingleDangle" id="100121">
+    <stat>DingleDangle_stat</stat>
+  </creature>
+</creature_list>

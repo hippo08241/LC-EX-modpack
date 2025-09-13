@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<equipment_list>    
+  <equipment id="209001" type="weapon">
+    <name>Wellcheers_weapon_name</name>
+    <no>Wellcheers_weapon_no</no>
+    <desc>Wellcheers_weapon_desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_4</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="3" max="5">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+    <range>10</range>
+
+    <script>WellcheersWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>2</grade>
+  </equipment>
+  <equipment id="209002" type="weapon">
+    <name>Wellcheers_weapon_name</name>
+    <no>Wellcheers_weapon_no</no>
+    <desc>Wellcheers_weapon_desc</desc>
+
+    <weaponClassType>pistol</weaponClassType>
+    <sprite>Pistol_Set_01_4</sprite>
+
+    <animation>Attack1</animation>
+
+    <damage type="R" min="4" max="8">
+      <soundInfo type="damage">Weapons/gun</soundInfo>
+    </damage>
+    <range>10</range>
+
+    <script>WellcheersWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>0.667</attackSpeed>
+    <grade>4</grade>
+  </equipment>
+</equipment_list>

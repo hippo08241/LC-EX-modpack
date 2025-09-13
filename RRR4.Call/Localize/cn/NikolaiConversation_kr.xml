@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Nikolai_Captain_Start_0">太吵了，都给我闭嘴！集中精神！</text>
+  <text id="Nikolai_Captain_Start_1">第4集团军的各位。既然是为了生存而来，就该努力地活下去吧？</text>
+  <text id="Nikolai_Captain_Start_2">如果不想输，就正心诚意地去面对吧。</text>
+  <text id="Nikolai_Captain_Start_Geburah">…缪。不要无缘无故地打退堂鼓。</text>
+  <text id="Nikolai_Captain_Start_Binah">....主管。如果那是真正的调律者，R公司是要追究你的责任的。你不会不知道吧？</text>
+  
+  <text id="Nikolai_Captain_Half_0">半数被歼灭。逐渐老练了…再坚持一会儿。</text>
+  <text id="Nikolai_Captain_Half_1">还剩一半。你应该清楚你无暇顾及周围的人吧？</text>
+  <text id="Nikolai_Captain_Half_2">死了一半…打起精神来。</text>
+  <text id="Nikolai_Captain_Half_Geburah">第4集团军半数被歼灭。不要无缘无故地动摇。</text>
+  <text id="Nikolai_Captain_Half_Binah">就这种程度的话，说不定不是真正的调律者。 但是不能掉以轻心。 大家集中精神！</text>
+
+  <text id="Nikolai_Captain_Almost_0">80%的队员已被歼灭。要不是有能源供应，我看都不想看这里一眼。</text>
+  <text id="Nikolai_Captain_Almost_1">损失80%。 不要放松警惕! 这里和郊区没什么两样！</text>
+  <text id="Nikolai_Captain_Almost_Geburah">80%化为乌有。 既然对手如此棘手，只能采取强硬措施了。 全力发起总攻!</text>
+  <text id="Nikolai_Captain_Almost_Binah">...竟然让我对付这种家伙。 虽然用的是劣化的能力，但也就这家公司能想出让我们跟调律者打一架的疯狂主意了。</text>
+  
+  <text id="Nikolai_Captain_Eliminated_0">第4集团军全灭。作战报告以后再交吧。</text>
+  <text id="Nikolai_Captain_Eliminated_1">全军覆没。任务失败。</text>
+  <text id="Nikolai_Captain_Eliminated_2">相比这种程度的危险，探索遗迹都算小儿科了。 全都沦陷了..</text>
+  <text id="Nikolai_Captain_Eliminated_Geburah">殷红迷雾...下次见面…我不会有这么好欺负了。</text>
+  <text id="Nikolai_Captain_Eliminated_Binah">...没有比L公司更好的能源供应商了。谢谢你，主管。</text>
+  
+  <text id="Nikolai_Captain_End_0">任务完成。作战报告以后再交。</text>
+  <text id="Nikolai_Captain_End_1">以后也请多多关照，主管。</text>
+  <text id="Nikolai_Captain_End_2">回去之后要报告的东西堆积如山……</text>
+  <text id="Nikolai_Captain_End_3">任务完成。为队员们执行记忆清除程序。</text>
+  <text id="Nikolai_Captain_End_Geburah">……是时候回去了。</text>
+  <text id="Nikolai_Captain_End_Binah">不论这是模拟实验还是真正的调律者，我就当没发生了。主管，不要卷入无谓的事情啊。</text>
+</localize>

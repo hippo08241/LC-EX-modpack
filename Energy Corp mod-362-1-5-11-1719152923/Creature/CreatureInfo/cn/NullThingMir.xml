@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="178800">
+    <narration action="move">
+      #0被分配到“$0”的收容单元中，以对“$0”进行工作。
+    </narration>
+    <narration action="start">
+      [
+      {尽管$0有着酷似人类的外表，然而，聪明的职员能从它身上感到一丝不协调感。},
+      {$0不同于常规的异想体，最大的差异就是，$0没有实体。},
+      {你知道“壳”和“皮”的区别吗？}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0一边紧盯着#0，一边毫无意义地磨着牙。},
+      {$0身上那块可能是肋骨的碎骨正嘎吱作响。 },
+      {在$0注视着#0时，它外皮那弯曲的脖颈发出了不自然的嘎吱断裂声。},
+      {$0那看起来像嘴一样的器官中偶尔会流出一些人体内脏。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0小心翼翼地走着，以免踩到它流到地上的分泌物。},
+      {虽然这个异想体没有做出任何威胁到#0的举动，可#0依然不由自主地浑身打颤。},
+      {虽然#0知道这个异想体不会立刻攻击自己，但是在这收容单元所发生的一切事实本身就会让人感到极度的恐惧。 }
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {进行工作时，#0发现$0的某些部位看上去有点眼熟。},
+      {#0在$0的体内发现了些什么。}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {“她”是#0的前辈。虽然他们从未搭过一句话，但他们肯定能成为不错的同事的。},
+      {#0曾看过那名前辈职员“她”的简历，她脸上的黑痣给#0留下了深刻的印象，这也是为什么#0能如此清楚地记住她。}
+      ]
+    </narration>
+    <narration action="special_ability1">
+      [
+      {$0披上了#0的外皮。}
+      ]
+    </narration>
+    <narration action="special_ability2">
+      [
+      {在$0披上新外皮的过程中，#0的几节骨头散落在地板上，骨碌碌地滚动着。}
+      ]
+    </narration>
+    <narration action="special_ability3">
+      [
+      {现在，每当成为#0的$0行走时，没有完全固定到位的骨头都会发出嘎吱嘎吱的声响。 }
+      ]
+    </narration>
+    <narration action="panic">
+      [
+      {面对$0时，#0内心的厌恶感油然而生，无助和反胃感正在缓缓渗入#0的骨髓，仿佛它们与生俱来。}
+      ]
+    </narration>
+    <narration action="dead">
+      [
+      {现在，#0成为了$0的新躯壳。也许有那么一天，#0也能得到一场正式的葬礼吧，就像$0现在正尝试蜕下的旧躯壳一样。},
+      {#0很快就会成为$0的新躯壳，公司里的每一名员工都将记住#0。即使他们不想，他们也不得不记住#0。}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-06-20</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/NotThing</portrait>
+      <name openLevel ="1">“一无所有”</name>
+      <name openLevel ="2">折射的“一无所有”</name>
+      <name openLevel ="4">镜像的“一无所有”</name>
+      <riskLevel openLevel ="1">ZAYIN</riskLevel>
+      <openText>主管！主管！主管！主管！主管！&#13;&#10;主管！主管！主管！主管！主管！</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {这个异想体用于排除Bug“能量公司”模组的Bug。 如果这个异想体使用“额外的收容单元”模块时出现, 请将在BaseMods文件夹中生成的 OnClickConfirm_PatchError.txt文件内容复制并粘贴到模组页面的BUGS选项卡中。如果您在使用"增加随机异想体 "模块时遇到该异想体，则risklevel.xml中的危险等级节点可能出问题了。检查你的节点是否为空, LcId是否包含已在黑名单中的模组ID，DLC异想体是否在节点中而你却在选项中禁用了。}
+      ]
+    </desc>
+   <specialTipSize size="7"> 
+      <specialTip openLevel="1" key="needKill">员工的勇气等级越低，对“$0”进行工作的成功率就越低，这导致勇气等级低的员工无法稳定完成对“$0”的工作。</specialTip>
+      <specialTip openLevel="2" key="justice">正义等级低于4级的员工完成了对“$0”的工作后，“$0”的逆卡巴拉计数器将会减少。</specialTip>
+      <specialTip openLevel="2" key="killUp">某个对“$0”进行工作的员工在收容单元内因受到“$0”的伤害而死亡，不知什么时候，“$0”套上了该员工的外皮，变成了该员工的模样。经过确认，我们发现在这种情况下对“$0”进行工作的员工若陷入恐慌，也会成为“$0”的外皮。</specialTip>
+      <specialTip openLevel="2" key="panicUp">当工作结果为差时，“$0”杀死了对其完成工作的员工，并套上了该员工的外皮。</specialTip>
+      <specialTip openLevel="3" key="makePanic">当“$0”伪装成人类的外貌后，勇气等级低于4级的员工在被分配进“$0”的收容单元时立刻陷入了恐慌。建议主管不要在这种情况下派遣勇气等级低于4的员工进入“$0”的收容单元。</specialTip>
+      <specialTip openLevel="3" key="backMonster">“$0”套上人类的外皮后，会杀死所有看到它的样貌并陷入恐慌的员工，随后套上他们的外皮。同时，“$0”的计数器将会减少。</specialTip>
+      <specialTip openLevel="4" key="needGun">当“$0”套上某个员工的外皮后，如若“$0”的计数器归零，那么“$0”会以外皮的形象突破收容。请主管立即根据被“$0”杀死的员工的外貌找到“$0”，并将其处决 。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

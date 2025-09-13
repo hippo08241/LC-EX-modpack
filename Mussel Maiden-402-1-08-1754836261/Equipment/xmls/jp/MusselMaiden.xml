@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="MusselMaiden_Name">ハマグリのハート</text>
+<text id="MusselMaiden_Weapon_SpecialDesc">攻撃時、対象の最も弱い耐性がRED耐性の場合、攻撃速度が大幅に上昇します。</text>
+<text id="MusselMaiden_Weapon_Desc">砕いた硬い貝殻と青い絹で作られています。 &#10;アサリはなぜ殻をあんなに硬くするのでしょうか？</text>
+<text id="MusselMaiden_Armor_SpecialDesc">勤務開始後、同じ部門の職員は最大HPの 10% の完全耐性シールドを受け取ります。</text>
+<text id="MusselMaiden_Armor_Desc">硬い貝殻から組み立てられています。 &#10;この硬い貝殻の下には何が隠されているのでしょうか？</text>
+<text id="MusselMaiden_Gift_Desc">HP+4、精神+3 こんなに美しい真珠は何でできているのでしょう？</text>
+</localize>

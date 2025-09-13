@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="Tooltip_GameStatus@Pause">Play the game at x0.5 speed&#13;&#10;You can also pause by pressing Spacebar</text>
+  <text id="Tooltip_GameStatus@SpeedLv1">Play the game at normal speed&#13;&#10;E: Accelerate</text>
+  <text id="Tooltip_GameStatus@SpeedLv2">Play the game at x1.5 speed&#13;&#10;Q: Slow down / E: Accelerate</text>
+  <text id="Tooltip_GameStatus@SpeedLv3">Play the game at x2 speed&#13;&#10;Q: Slow down</text>
+</localize>

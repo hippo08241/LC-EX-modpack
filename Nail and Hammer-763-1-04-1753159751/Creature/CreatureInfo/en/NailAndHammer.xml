@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="10654330">
+
+
+
+    <narration action="move">
+      #0 was sent to work with $0.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 wields a huge nail and hammer that look scary.},
+      {If possible, #0 really doesn't want to meet $0.},
+      {It has been rumored for a long time that $0 can judge sins.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {Sin has climbed onto #0's back.},
+      {Who gave $0 the right to act as a judge?},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {In front of $0, #0 really hopes he is dead.},
+      {$0 will impose sins on everyone equally.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Sins will continue to accumulate. When #0 is overwhelmed by the heavy weight of sins on him, it will be too late.},
+      ]
+    </narration>
+	
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-05-199</codeNo>
+      <portrait openLevel ="1">Custom/NailAndHammer</portrait>
+
+      <name openLevel ="1">
+        Nail and Hammer
+      </name>
+
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>They said that its nail and hammer judged those guilty of sin.</openText>
+
+    </collection>
+
+
+    <desc id="1" openLevel="0">
+      [
+      {Lately, the sound of metal being hammered had been echoing in Sonya's dreams.
+Ding—!
+Ding—!
+Ding—!     
+One strike after another, the crisp yet piercing clang of metal reverberated through the empty space. In an instant, light burst forth, sparks flying in all directions. But the sound quickly waned, the light instantly retreating into shadow. And just when she thought it was all about to end, it came again. One strike after another, ceaseless and unrelenting, never granting her peace.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {She knew it must have something to do with that Abnormality gripping its nail and hammer.
+From the moment she had first joined the corperation, that thing had always been there. However, her first real encounter with it had been only two weeks ago. But truth be told, she had despised that accursed thing from the very beginning! Just looking at it was enough to send a shiver down her spine - let alone the nail in its hand. Oh, the nail! Let visceras come, let blood come, let phantoms and horrors come - she feared none of those! But nails, those horrifying nails, she could not bear them.
+She had known it from the very beginning. That nail was destined to pierce her eye, to run straight through her brain. It was inevitable! She had done everything in her power to avoid crossing paths with that thing, just to escape the gnawing sense of dread it stirred within her.
+God, let not this innocent girl fall victim to such cruelty!}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="1">
+      [
+      {She had come up with countless excuses to evade the task, yet she was still assigned to its containment unit.
+But she knew this was no mere coincidence. It must have been Luzhin! He must have said something to the department head, forcing her into this dreadful duty!
+Ever since the containment breach a month ago, he had harbored nothing but resentment toward her. Though he had never voiced it outright, she knew exactly why.
+Sonya had gotten his sister, Dunya, killed.
+It was out of this personal grudge that Luzhin had assigned her to the Containment Unit he knew she loathed the most.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="1">
+      [
+      {- But it wasn't my fault! What else could I have done? That creature was right there before my eyes - if I hadn't locked the door at that moment, the entire department would have perished! It was the right decision; there was nothing to be afraid of. Even though her face, pressed against the window, had been utterly ghastly, that was simply something I had to deal with myself.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="1">
+      [
+      {At this thought, Sonya felt reassured. Yes, her decision had been flawless. She had no sin for which to repent.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="1">
+      [
+      {They said that its nail and hammer judged those guilty of sin.
+If that was true, then she had nothing to fear.
+...}
+      ]
+    </desc>
+
+    <desc id="7" openLevel="2">
+      [
+      {- Judge her, then. In the place of me, who cannot.
+
+As Luzhin watched Sonya walk toward the Containment Unit, his heart pounded harder than it had the day he had first submitted his job application.
+From the way she looked at him, he could tell what she thought of him. And she had guessed right, he had used his position to force this assignment upon her. But don't be mistaken! Luzhin inwardly argued, in his mind, with the neighbors who looked at him with cold eyes. Yes, he hated Sonya, but not merely because of Dunya. What he loathed most was her arrogance, that insufferable air of self-righteousness, as if she were flawless, untouchable. It was that contemptuous disregard for others that made his teeth grind with rage.
+That was why he had secretly altered the orders, ensuring she was sent to work with that Abnormality again and again.
+And do not think this was mere petty spite. He had not done this simply to make her suffer. He intended to kill Sonya!
+This was no abuse of power. This was premeditated murder!}
+      ]
+    </desc>
+
+    <desc id="8" openLevel="2">
+      [
+      {The plan was proceeding smoothly.
+No one would find it suspicious. This was standard procedure, any workplace casualties were attributed solely to employee negligence. The upper management's directives were beyond question. It was all written clearly in the handbook.
+
+She would die in that Containment Unit. The nail would pierce her eye, drive through her skull. Luzhin could already see it, that future unfolding before him, so vivid it was as if it had already happened.
+
+Feigning nonchalance, he left the break room and stepped into the passage.
+...}
+      ]
+    </desc>
+
+    <desc id="9" openLevel="3">
+      [
+      {The door wouldn't open. The containment unit was locked.
+Sonya clawed at the door in a frenzy, digging her nails into the cracks and pulling with all her might. It didn't take long before her nails peeled away from her fingers, exposing the tender flesh beneath. Blood streamed from her hands, but she had no time to feel pain. She pounded on the door with such force that her bones threatened to shatter, her joints on the verge of dislocation.
+
+ - Let me out!
+
+She screamed, but there was no reply.
+Through the window, she caught one last glimpse of Luzhin. His lips curled ever so slightly, as if he were smiling, mocking her impending doom.
+She shrieked his name, smearing the window with crimson handprints.
+
+ - I will...}
+      ]
+    </desc>
+
+    <desc id="10" openLevel="3">
+      [
+      {Ding—!}
+      ]
+    </desc>
+
+    <desc id="11" openLevel="4">
+      [
+      {The vilest curse still lingered on Sonya's lips when the sound of metal hammering rang out from within the Containment Unit.
+Scarlet blood smeared across the glass. Sonya's voice was gone.}
+      ]
+    </desc>
+
+    <desc id="12" openLevel="4">
+      [
+      {Only the hammering remained, echoing endlessly in Luzhin's ears.
+
+Ding—!
+Ding—!
+Ding—!
+
+Light flared, blood splattered.}
+      ]
+    </desc>
+
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">When working with $0, the employee gained a stack of Guilt everytime they produced a NE-Box.</specialTip>
+      <specialTip openLevel="0" key="0">When the work result was not Good, the employee was attacked by $0.</specialTip>
+      <specialTip openLevel="0" key="0">$0 used its Nail or its Hammer to attack. $0 normally used the Nail, but the higher the Guilt the employee had, the more probable $0 would use the Hammer to attack.</specialTip>
+      <specialTip openLevel="0" key="0">Upon being attacked by the Nail, the employee takes a midium amount of R damage and gains 5 stacks of Guilt; upon being attacked by the Hammer, the employee takes a large amount of R damage and takes W damage which the amount depends on the Guilt the employee has.</specialTip>
+      <specialTip openLevel="0" key="0">When an employee had more than 10 stacks of Guilt, they panicked.</specialTip>
+      <specialTip openLevel="0" key="0">Normally, the employees could adjust their mental states to clear up the Guilt progressively. The higher the Justice level the employee has, the faster the Guilt can be cleared up.</specialTip>
+      <specialTip openLevel="0" key="0">However, when panicked, the Guilt within the employee lost control and turned into reality.</specialTip>
+    </specialTipSize>
+  </observe>
+  <child>
+    <name>Guilt</name>
+    <codeId>T-05-199-1</codeId>
+  </child>
+</creature>

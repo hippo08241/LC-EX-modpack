@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="18007">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar a trabalhar.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 está sempre em algum lugar na sua mente.},
+      {#0 observa atentamente a entidade.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 sentiu a respiração falhar.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {É difícil dizer se $0 é realmente uma anormalidade.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {#0 ficou surpreso com essa coisa.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">Depression</codeNo>
+      <portrait openLevel ="1">Custom/Depression</portrait>
+
+      <name openLevel ="1">
+                Depressão
+      </name>
+      <riskLevel openLevel ="4">WAW</riskLevel>
+
+      <specialName openLevel ="1">Depressão</specialName>
+      <openText>A morte é o cavalete e o sangue é a tinta.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Depressão}
+      ]
+    </desc>
+	
+	  <desc id="2" openLevel="1">
+      [
+      {Eu costumava ser uma criança alegre. Pelo menos é o que as pessoas pensam.
+Sou uma pessoa sombria, nunca acho que as coisas vão melhorar, tudo é inútil. Tudo dá em nada. Minha família me pressiona a estudar e sempre reclama quando não consigo. Você acha que é só um desabafo? Não, para uma pessoa sensível como eu, um comentário irreverente fica na mente como uma faca. Então, girando lentamente, sufocando de dor, mas sem perder a consciência, eu apenas pego a dor e a encaro de frente, até que sou completamente dominado por ela.
+Ao vê-la, ela é perfeita, pelo menos eu acho. O que é mais frustrante, não estar com ela ou estar com ela? Os dois são a mesma coisa, na minha opinião. Justamente quando eu estava no fundo da minha vida, ela apareceu. Pouco a pouco, eu me tornei mais vivo e mais brilhante. Então ela me abandonou irresponsavelmente. Ela me empurrou para o abismo. Sim, ela está apenas deixando alguém que não importa, mas estou mantendo a pessoa mais importante da minha vida longe dela. Abandonei a escola e apaguei todos os meus contatos.
+Fico deitada sozinha na cama por uma longa, longa noite, imaginando todas as coisas boas. E enfrento toda a humilhação e desespero sozinha.
+Ela foi diagnosticada com depressão grave. Não é um resultado surpreendente, tudo está como deveria ser. "Estou deprimida", minha mãe me disse. Ah, estou apenas reclamando. Não posso simplesmente fingir que minha vida nunca aconteceu? Ah... que lindo resultado. Como diabos sobrevivi a uma vida amorosa tão horrível, meus acadêmicos sem esperança, o ambiente doméstico sufocante...? Todas as noites, eu me segurava firmemente, longe da janela, da faca. Percebi que não queria realmente morrer, mas ainda ansiava pela última luz da minha vida se extinguir.
+Sofri tudo em silêncio, como sempre faço, dizendo a mim mesma que a capacidade do meu coração é infinita e que posso aceitar todas as reclamações e lágrimas. Adultos podem se anestesiar com álcool, mas eu tive que me forçar a suportar o insuportável. As cortinas foram lentamente fechadas e o luar caiu sobre a cama. Foi maravilhoso, os travesseiros molhados se encheram com minha dor.
+O quarto estava cheio do leve aroma de flores... O aroma de frutas também estava lá... o teto branco parecia baixo... a jaqueta restritiva era agradável... as cicatrizes em meus pulsos também eram chocantes.
+"Por que você fez isso?"
+"É simples, eu não quero viver."
+"Não é bom estar vivo?"
+"Até que você se coloque no lugar dessa pessoa e ande no caminho que ela andou, você nunca vai entendê-la verdadeiramente, e quando você puder realmente se colocar no lugar dela, você vai descobrir que até respirar é doloroso."
+------
+Minha mente quer me matar.
+Fisicamente, sinto que estou prestes a entrar em colapso.
+O que precisa acontecer com uma pessoa para fazê-la querer morrer?
+Eu não experimentei nada traumático ou assustador, eu sou um ser humano normal.
+Por que eu iria querer morrer?
+Eu não sei.
+}
+      ]
+    </desc>
+
+
+    <specialTipSize size="7">
+      <specialTip openLevel="0" key="paranoia">Após entrarem na unidade de contenção, os funcionários cujo PS estava abaixo de 10% do seu máximo cometeram suicídio.</specialTip>
+      <specialTip openLevel="1" key="paranoia2">Quando o Qliphoth Counter chegou a zero, um funcionário aleatório dentro do departamento cometeu suicídio. Todos os Qliphoth Counters se recuperaram quando isso aconteceu.</specialTip>
+      <specialTip openLevel="2" key="paranoia3">Quando os resultados do trabalho eram bons, o Contador Qliphoth aumentava.</specialTip>
+      <specialTip openLevel="3" key="paranoia4">Quando os resultados do trabalho eram ruins, o funcionário que executava o trabalho cometia suicídio.</specialTip>
+    </specialTipSize>
+  </observe>
+
+</creature>

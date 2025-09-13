@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+ <text id="ScytheClock_weapon_name">대가</text>
+
+<text id="ScytheClock_armor_no">B-02형</text>
+
+<text id="ScytheClock_armor_desc">사실 헛되이 쓰는 시간이라던가, 시간이 모자란다던가 하는 것은 쓸데 없는 불평이다. 이 옷은 당신이 잃어버린 시간을 되찾아줄 뿐만 아니라 주어진 것보다 더 많은 시간을 가지게 만들어 줄 것이다. 하지만 그에 따른 대가 역시 받아낼 것이다. 애초부터 그런 식으로 설계되었기에.</text>
+
+<text id="ScytheClock_armor_specialDesc">일시 정지시 장착한 직원이 P속성 피해를 입음.</text>
+
+<text id="ScytheClock_armor_no">A-02형</text>
+
+<text id="ScytheClock_weapon_desc">사실 헛되이 쓰는 시간이라던가, 시간이 모자란다던가 하는 것은 쓸데 없는 불평이다. 이 무기는 대가를 거부하고 도망치려는 자들을 찾아갈 것이다. 그들이 원하던 원하지 않던 받아가야 한다는 걸 모두 알고 있다</text>
+
+<text id="ScytheClock_weapon_specialDesc">환상체에게 전체 체력에 비례한 추가 피해를 입힘</text>
+
+<text id="ScytheClock_gift_Desc">정신력 + 3 해당 환상체의 특수능력의 대상으로 지정되지 않음</text>
+</localize>

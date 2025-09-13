@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ascii" ?>
+<localize>
+  <text id="wonderlab_3_dialog_1">Manager, do you know about the Bloodfiends?</text>
+  <text id="wonderlab_3_dialog_2">I'm sure you do, but do you recall that you had to 'reset' because of them?</text>
+  <text id="wonderlab_3_dialog_3">I remember. Every employee became a monster, drifting through the hallways. In despair, you...</text>
+  <text id="wonderlab_3_dialog_4">Am I joking? Perhaps. I could reveal the tales of yourself falling into despair, if you so wanted.</text>
+
+  <text id="wonderlab_3_selection_1">Accept.</text>
+  <text id="wonderlab_3_selection_2">Decline.</text>
+
+  <text id="wonderlab_3_dialog_5">Everyone has secrets that they wish not to share.</text>
+  <text id="wonderlab_3_dialog_6">While discussing hobbies are enjoyable, I don't prefer to share it.</text>
+  <text id="wonderlab_3_dialog_7">Instead, let me tell you a different story.</text>
+
+  <text id="wonderlab_3_dialog_8">Are you afraid of seeing yourself fail, or is it your ego speaking?</text>
+  <text id="wonderlab_3_dialog_9">I do not quite like either. I hope this news I carry will accelerate your downfall.</text>
+
+  <text id="wonderlab_3_dialog_10">The Extraction team extracted 0-01-34 again. It's speculated that this abnormality is the origin of said Bloodfiends.</text>
+  <text id="wonderlab_3_dialog_11">Even the infinite possibilities within a human may produce overlapping results, though uncommon.</text>
+  <text id="wonderlab_3_dialog_12">And said overlapping results may also be unstable to the point where it's simply disposed of.</text>
+  <text id="wonderlab_3_dialog_13">0-01-34 is an outlier.</text>
+  <text id="wonderlab_3_dialog_14">Though unstable enough to the point where it'd normally be disposed of, the amount of Energy it generates qualified it for a reexamination.</text>
+  <text id="wonderlab_3_dialog_15">Said reexamination will be carried out by the active Manager. Your success, and, by extention, your failure, will decide whether or not it'll be accepted as an official Abnormality.</text>
+  <text id="wonderlab_3_dialog_16">In short, you're in charge of taking care of an unstable Abnormality that's failed to be controlled once before.</text>
+
+  <text id="wonderlab_3_dialog_17">Isn't that just lovely?</text>
+  <text id="wonderlab_3_dialog_18">Seeing as how you've made this far, I doubt you'd fail too easily. You've proven to be different than the previous Managers.</text>
+  <text id="wonderlab_3_dialog_19">However, if you do fail...</text>
+  <text id="wonderlab_3_dialog_20">I expect a different expression to be on your face.</text>
+</localize>

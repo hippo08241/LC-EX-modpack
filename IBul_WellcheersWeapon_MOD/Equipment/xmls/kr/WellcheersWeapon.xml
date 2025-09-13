@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Wellcheers_weapon_name">소다</text>
+  <text id="Wellcheers_weapon_desc">유난히 새우를 좋아했던 직원이 마지막으로 추출한 무기.&#13;&#10;청량해보이는 보라빛의 권총.&#13;&#10;&#13;&#10;탄환을 발사할 때 아주 희미한 포도향기가 허공에 닿는다.</text>
+  <text id="Wellcheers_weapon_specialDesc">체력이나 정신력이 하락했을 때 음료수를 마셔 회복한다.</text>
+</localize>

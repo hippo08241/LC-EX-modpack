@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="salt_weapon_name">毘沙門天</text>
+<text id="salt_weapon_desc">武士の刀は鞘に収めるのではなく、魂の中に納めるべきである。</text>
+<text id="salt_weapon_specialDesc">攻撃対象のレベルが4/WAW以上の場合、4つの属性ごとに1ポイントの追加ダメージが加算されます。&#13;&#10;&#13;&#10;対象がレベル5/Alephの場合はさらに1回追加。&#13;&#10;&#13;&#10;この武器の追加ダメージは、塩の結晶の戦士の祝福を享受できます。</text>
+<text id="salt_gift_name">毘沙門天</text>
+<text id="salt_gift_desc">移動速度+2、攻撃速度+2</text>
+<text id="salt_armor_name">毘沙門天</text>
+<text id="salt_armor_desc">いわゆる武士道とは死を見抜くということです。生と死の板挟みになったとき、英断を下し、冷静に死に向かう。</text>
+<text id="salt_armor_specialDesc">攻撃時に体力が20%未満の場合、次の攻撃で攻撃者と自身に100ポイントのレッドダメージを与えます。</text>
+</localize>

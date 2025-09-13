@@ -1,0 +1,34 @@
+
+VendWordsSkeleton.png
+size: 1538,1538
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow
+  rotate: true
+  xy: 2, 1160
+  size: 376, 378
+  orig: 500, 500
+  offset: 58, 69
+  index: -1
+Note1
+  rotate: false
+  xy: 896, 430
+  size: 640, 1106
+  orig: 705, 1141
+  offset: 18, 28
+  index: -1
+Note2
+  rotate: true
+  xy: 382, 1056
+  size: 480, 512
+  orig: 512, 512
+  offset: 16, 0
+  index: -1
+VendWordsBase
+  rotate: true
+  xy: 2, 280
+  size: 774, 808
+  orig: 792, 834
+  offset: 7, 13
+  index: -1

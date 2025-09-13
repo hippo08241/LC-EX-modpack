@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="122222">
+    <narration action="move">
+      #0 職員が作業をしに$0の収容室へ向かいます
+    </narration>
+    <narration action="start">
+      [
+      {#0 職員は透明な瓶の中を覗きます}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 職員は、収容室を満たす甘い香りに惹かれています},
+      {$0は中身を揺らすだけで、何も反応を見せません.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-07-25</codeNo>
+      <portrait openLevel ="1">Custom/TearsBottle</portrait>
+
+      <name openLevel ="1">
+       涙の瓶
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+      <openText>君は自分の涙で溺死するだろう。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {ケーキでふさがれた透明な瓶は、食塩水でいっぱいだ。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {ピン職員に涙の瓶のケーキを一度切ると、涙の瓶が割れ、収容室が中身で溢れ返した。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {ピン職員の体は大きくなり、減り続けた。
+しばらくして収容室の水がすべて消え、ピン職員が収容室から出てきた。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="2">
+      [
+      {収容室を出たピン職員の心臓には割れたハートがついていた。
+涙の瓶を欲しがった者は、自分の涙に溺れるだろう。}
+      ]
+    </desc>
+
+     <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">愛着作業を行った際にPE-Boxの生産が増加した。</specialTip>
+      <specialTip openLevel="2" key="2">本能作業を結果が良い状態で完了すると、瓶が割れ、収容室が水でいっぱいになり始めた。</specialTip>
+      <specialTip openLevel="3" key="3">$0のE.G.O.ギフトを持った職員が本能作業をする時、$0はPE-Boxを生産しなかった。</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

@@ -1,0 +1,244 @@
+
+AnswerOfMachines.png
+size: 1280,1280
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Foot1
+  rotate: false
+  xy: 1164, 651
+  size: 110, 47
+  orig: 110, 47
+  offset: 0, 0
+  index: -1
+Foot2
+  rotate: false
+  xy: 1176, 846
+  size: 99, 46
+  orig: 101, 47
+  offset: 1, 0
+  index: -1
+L2Leg
+  rotate: true
+  xy: 959, 894
+  size: 122, 298
+  orig: 122, 298
+  offset: 0, 0
+  index: -1
+L3Leg
+  rotate: true
+  xy: 547, 684
+  size: 121, 286
+  orig: 121, 286
+  offset: 0, 0
+  index: -1
+LArmJoint1
+  rotate: false
+  xy: 333, 542
+  size: 40, 118
+  orig: 40, 119
+  offset: 0, 0
+  index: -1
+LArmJoint2
+  rotate: true
+  xy: 844, 801
+  size: 101, 110
+  orig: 101, 110
+  offset: 0, 0
+  index: -1
+LArmShield
+  rotate: true
+  xy: 959, 1018
+  size: 114, 304
+  orig: 115, 305
+  offset: 0, 1
+  index: -1
+LClaw
+  rotate: false
+  xy: 1176, 700
+  size: 96, 110
+  orig: 96, 112
+  offset: 0, 1
+  index: -1
+LClawAttack
+  rotate: false
+  xy: 951, 629
+  size: 138, 73
+  orig: 138, 73
+  offset: 0, 0
+  index: -1
+LHand
+  rotate: false
+  xy: 1091, 663
+  size: 71, 39
+  orig: 72, 39
+  offset: 0, 0
+  index: -1
+LLegJoint
+  rotate: true
+  xy: 834, 544
+  size: 124, 103
+  orig: 124, 103
+  offset: 0, 0
+  index: -1
+R3Leg
+  rotate: true
+  xy: 547, 807
+  size: 95, 295
+  orig: 97, 297
+  offset: 1, 1
+  index: -1
+RArmShield
+  rotate: true
+  xy: 2, 574
+  size: 181, 329
+  orig: 182, 329
+  offset: 0, 0
+  index: -1
+RClaw
+  rotate: false
+  xy: 835, 670
+  size: 114, 129
+  orig: 114, 129
+  offset: 0, 0
+  index: -1
+RHand
+  rotate: false
+  xy: 1065, 562
+  size: 91, 52
+  orig: 91, 53
+  offset: 0, 1
+  index: -1
+RLegJoint
+  rotate: true
+  xy: 1161, 525
+  size: 124, 104
+  orig: 125, 106
+  offset: 0, 1
+  index: -1
+Shadow
+  rotate: true
+  xy: 927, 946
+  size: 46, 20
+  orig: 46, 20
+  offset: 0, 0
+  index: -1
+barrel
+  rotate: false
+  xy: 2, 757
+  size: 373, 155
+  orig: 373, 155
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 914
+  size: 545, 361
+  orig: 546, 361
+  offset: 0, 0
+  index: -1
+bodylight
+  rotate: false
+  xy: 549, 904
+  size: 376, 116
+  orig: 376, 116
+  offset: 0, 0
+  index: -1
+cannon light
+  rotate: true
+  xy: 333, 662
+  size: 93, 42
+  orig: 93, 42
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 927, 994
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+gear1
+  rotate: false
+  xy: 523, 554
+  size: 131, 128
+  orig: 131, 128
+  offset: 0, 0
+  index: -1
+gear2
+  rotate: true
+  xy: 656, 560
+  size: 122, 125
+  orig: 123, 126
+  offset: 0, 0
+  index: -1
+gear3
+  rotate: true
+  xy: 377, 746
+  size: 166, 168
+  orig: 166, 168
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 1091, 616
+  size: 68, 45
+  orig: 68, 45
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 956, 704
+  size: 218, 188
+  orig: 218, 189
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 377, 553
+  size: 144, 191
+  orig: 144, 191
+  offset: 0, 0
+  index: -1
+shellGas
+  rotate: true
+  xy: 1176, 812
+  size: 32, 97
+  orig: 32, 97
+  offset: 0, 0
+  index: -1
+smoke1
+  rotate: true
+  xy: 1065, 465
+  size: 95, 90
+  orig: 95, 90
+  offset: 0, 0
+  index: -1
+smoke2
+  rotate: false
+  xy: 939, 540
+  size: 124, 87
+  orig: 124, 88
+  offset: 0, 0
+  index: -1
+sw1
+  rotate: false
+  xy: 783, 635
+  size: 49, 47
+  orig: 50, 50
+  offset: 1, 2
+  index: -1
+turret
+  rotate: false
+  xy: 549, 1022
+  size: 408, 253
+  orig: 408, 253
+  offset: 0, 0
+  index: -1
+Ｒ2Leg
+  rotate: true
+  xy: 959, 1134
+  size: 141, 316
+  orig: 142, 316
+  offset: 0, 0
+  index: -1

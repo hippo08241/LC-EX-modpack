@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="316011">
+
+
+
+    <narration action="move">
+      #0 직원이 작업을 시작하러 $0의 방에 들어갑니다.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {의문으로부터 시작된 이 환상체는 지금 여기에 있습니다.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {"$0의 유래와 그 뜻을 이해하려면 그 역사를 풀어갈 수많은 과정이 필요하지."},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {닿을 곳이 저 멀리 보인다 해도 $0은 기어다니기로 했습니다.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {나선 끝에 과연 해답이 있을까요?},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-05-98</codeNo>
+      <portrait openLevel ="1">Custom/AnswerOfMachines</portrait>
+
+      <name openLevel ="1">
+        해답
+      </name>
+      <name openLevel ="3">
+        국소적인 해답
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <openText>도달한 해답을 지키기 위해, 큰 갑옷을 입었다.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {우리는 답을 찾아 헤맸다.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {어느 순간, 우리 중 일부가 의미심장한 수식을 발견했다. 해답으로 이어질 수 있는 중요한 단서였을지도 모른다.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {우리는 그 수식을 풀어내는 데 수많은 시간을 보냈다. 그리고 마침내 그 해답에 도달했다.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {그리고 우리는 그 해답에 도달해선 안 됐다는 걸 뒤늦게 알아챘다. 그 해답을 고집하는 자들을 뒤로한 채 우리는 해답을 파기하였다.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {=================}
+      ]
+    </desc>  
+
+    <desc id="6" openLevel="4">
+      [
+      {그들은 도달한 해답을 지키기 위해, 큰 갑옷을 입었다. 하지만, 지키고자 할수록 움직일 수 없게 되었다.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="1">
+      <specialTip openLevel="0" key="0">작업 결과가 나쁨일 경우, 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="1" key="1">작업 결과가 좋음일 경우, 매우 낮은 확률로 클리포트 카운터가 증가하였다.</specialTip>
+      <specialTip openLevel="2" key="2">특정 시련이 발생하자 클리포트 카운터가 감소하였다.</specialTip>
+      <specialTip openLevel="3" key="3">$0이 탈출하자, ████에 연결된 장치를 사용하는 경우가 있었다. 이는 살상력이 매우 높으나, 높은 능력치를 가진 직원이나 특정 행동을 한 직원들의 생존률은 높았다.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

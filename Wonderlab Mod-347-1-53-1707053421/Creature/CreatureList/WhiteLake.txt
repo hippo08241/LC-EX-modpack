@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<creature_list>
+  <creature name="WhiteLake" src="WhiteLake" id="102177">
+    <stat>WhiteLake_stat</stat>
+  </creature>
+</creature_list>

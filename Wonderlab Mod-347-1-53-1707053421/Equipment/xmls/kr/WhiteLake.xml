@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<localize>
+  <text id="WhiteLake_weapon_name">뜯어내는 날개</text>
+  <text id="WhiteLake_weapon_desc">무언가에 뜯기고 상처 입은 거친 날개</text>
+  <text id="WhiteLakeKnight_weapon_name">용사의 검</text>
+  <text id="WhiteLakeKnight_weapon_desc"></text>
+  <text id="WhiteLake_armor_desc">비록 날개가 꺾였다 한들
+나에겐 아직 두 다리가 남아있기에, 나아갈 것이다.</text>
+  <text id="WhiteLake_gift_desc">작업성공률 +5 작업속도 +5</text>
+</localize>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="WarmMother_weapon_name">Empty Warmth</text>
+<text id="WarmMother_gift_name">Empty Warmth</text>
+<text id="WarmMother_gift_desc">HP -4, SP +5, Work Success Rate +2</text>
+<text id="WarmMother_armor_desc">A soft and fluffy vest of terry cloth.
+Constantly radiating heat and warmth around the employee.
+It is said that every emplyoee who is wearing this will feel comforted by it's heat and cloth. </text>
+</localize>

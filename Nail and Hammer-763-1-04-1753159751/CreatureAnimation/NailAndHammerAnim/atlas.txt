@@ -1,0 +1,55 @@
+
+skeleton.png
+size: 962,1232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1上
+  rotate: false
+  xy: 291, 566
+  size: 308, 664
+  orig: 308, 664
+  offset: 0, 0
+  index: -1
+1下
+  rotate: false
+  xy: 684, 282
+  size: 276, 312
+  orig: 276, 312
+  offset: 0, 0
+  index: -1
+1中
+  rotate: false
+  xy: 684, 22
+  size: 216, 258
+  orig: 216, 258
+  offset: 0, 0
+  index: -1
+手1
+  rotate: true
+  xy: 395, 26
+  size: 538, 287
+  orig: 538, 287
+  offset: 0, 0
+  index: -1
+罪恶感-钉-受击
+  rotate: false
+  xy: 2, 2
+  size: 391, 464
+  orig: 391, 464
+  offset: 0, 0
+  index: -1
+罪恶感-钉-死亡
+  rotate: true
+  xy: 2, 468
+  size: 762, 287
+  orig: 762, 287
+  offset: 0, 0
+  index: -1
+钉
+  rotate: false
+  xy: 601, 596
+  size: 259, 634
+  orig: 259, 634
+  offset: 0, 0
+  index: -1

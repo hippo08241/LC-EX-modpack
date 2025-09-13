@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<creature>
+  <script>NailAndHammer</script>
+  <stat>
+    <riskLevel>3</riskLevel>
+    <maxWorkCount>2</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.2</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.4</prob>
+      <prob level="2">0.45</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.2</prob>
+      <prob level="2">0.2</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.0</prob>
+      <prob level="5">0.0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.7</prob>
+      <prob level="5">0.8</prob>
+    </workProb>
+    <qliphoth>0</qliphoth>
+    <workCooltime>8</workCooltime>
+    <escapeable>false</escapeable>
+    <hp>100</hp>
+    <speed>0</speed>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>14</cube>
+      <cube>18</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="2" max="3" />
+    <workSpeed>0.65</workSpeed>
+    <observeInfo total="100">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="6" />
+      <observeElement name="work_w" cost="6" />
+      <observeElement name="work_b" cost="6" />
+      <observeElement name="work_p" cost="6" />
+      <observeElement name="care_0" cost="8" />
+      <observeElement name="care_1" cost="8" />
+      <observeElement name="care_2" cost="8" />
+      <observeElement name="care_3" cost="8" />
+      <observeElement name="care_4" cost="8" />
+      <observeElement name="care_5" cost="8" />
+      <observeElement name="care_6" cost="8" />
+    </observeInfo>
+    <observeBonus level="1" type="prob">5</observeBonus>
+    <observeBonus level="2" type="speed">5</observeBonus>
+    <observeBonus level="3" type="prob">5</observeBonus>
+    <observeBonus level="4" type="speed">5</observeBonus>
+    <equipment level="4" cost="45" equipId="10654330" />
+    <equipment level="3" cost="40" equipId="10654331" />
+    <equipment level="4" prob="0.1" equipId="10654332" />
+    <defense id="1">
+      <defenseElement type="R">1</defenseElement>
+      <defenseElement type="W">1</defenseElement>
+      <defenseElement type="B">1</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+  </stat>
+  <graph>
+    <node id="creature" x="-1.8" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/NailAndHammerAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" /> 
+  <child>NailAndHammer_child_stat</child>
+</creature>

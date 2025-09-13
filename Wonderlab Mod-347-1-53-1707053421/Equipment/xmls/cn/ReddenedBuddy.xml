@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="ReddenedBuddy_equip_name">捉迷藏</text>
+<text id="ReddenedBuddy_weapon_desc">“再呼唤我一次吧，无论何时我都会等你……”</text>
+<text id="ReddenedBuddy_gift_desc">最大生命值+6</text>
+<text id="ReddenedBuddy_weapon_specialDesc">攻击速度非常慢。攻击准备中受到的红色物理伤害减少。</text>
+<text id="ReddenedBuddy_armor_desc">“我对主人的心意……只留下血红的疤痕。”</text>
+</localize>

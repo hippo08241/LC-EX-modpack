@@ -1,0 +1,230 @@
+
+SamuraiWeapon.png
+size: 4325,908
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 4067, 650
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: true
+  xy: 2078, 117
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 4087, 392
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 3651, 134
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+EGO_BlackSwan_Penetrate
+  rotate: false
+  xy: 2363, 606
+  size: 1188, 300
+  orig: 1188, 300
+  offset: 0, 0
+  index: -1
+EGO_BlackSwan_Slash2
+  rotate: true
+  xy: 1422, 247
+  size: 659, 939
+  orig: 659, 939
+  offset: 0, 0
+  index: -1
+EGO_BlackSwan_Special
+  rotate: false
+  xy: 2, 21
+  size: 1418, 885
+  orig: 1418, 885
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 3781, 262
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 3781, 132
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: true
+  xy: 3553, 650
+  size: 256, 512
+  orig: 256, 512
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 3571, 392
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 3829, 392
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head--p
+  rotate: false
+  xy: 2877, 45
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 4039, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 4039, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 2078, 51
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 3651, 4
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 3781, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 3911, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Note
+  rotate: false
+  xy: 3135, 12
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 4041, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 4169, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 4217, 584
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 4169, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 4171, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 3393, 12
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+blood
+  rotate: false
+  xy: 2363, 92
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+hit1
+  rotate: false
+  xy: 3243, 361
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+hit2
+  rotate: false
+  xy: 1422, 2
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+hit3
+  rotate: false
+  xy: 1750, 2
+  size: 326, 243
+  orig: 326, 243
+  offset: 0, 0
+  index: -1
+武器
+  rotate: true
+  xy: 3243, 270
+  size: 89, 331
+  orig: 89, 331
+  offset: 0, 0
+  index: -1
+武器开
+  rotate: false
+  xy: 2877, 303
+  size: 364, 301
+  orig: 364, 301
+  offset: 0, 0
+  index: -1

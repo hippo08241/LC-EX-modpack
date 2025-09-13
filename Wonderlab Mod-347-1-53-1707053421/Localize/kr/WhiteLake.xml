@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="WhiteLakeGiftDesc0">너만을 위해 만든 선물이야!</text>
+  <text id="WhiteLakeGiftDesc1">내 마음이야!</text>
+  <text id="WhiteLakeGiftDesc2">받아, 나만의 작은 용사님.</text>
+  <text id="WhiteLakeGiftDesc3">네가 있어서 얼마나 좋은지 몰라~</text>
+
+  <text id="WhiteLakeSaveDesc0">도와주세요 용사님!!</text>
+  <text id="WhiteLakeSaveDesc1">용사님! 당신의 호수를 지켜주세요!!</text>
+  <text id="WhiteLakeSaveDesc2">마녀! 마녀가 날 괴롭히고 있어!!</text>
+  <text id="WhiteLakeSaveDesc3">물러서 이 마녀!!</text>
+  <text id="WhiteLakeSaveDesc4">용사님!! 당신만의 호수를 구해주세요!!</text>
+</localize>

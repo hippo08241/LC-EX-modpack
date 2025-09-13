@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="161464">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0を上った先には何が待ち受けているのだろうか？},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0は$0を登れるかどうか考える。},
+      {$0を登り切った職員はどうなっただろうか？},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {そもそも、$0に頂上はあるのか？},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-03-16</codeNo>
+      <portrait openLevel ="1">Custom/JackLessTree</portrait>
+
+      <name openLevel ="1">
+        ジャックなしの豆の木
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAIYN
+      </riskLevel>
+
+      <openText>狂った話だと思われるかもしれないが、ある職員がこの豆の木を一番に登ると決心し、登りきったらしい…… </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {記録
+F-03-16は大きな豆の木です。
+それは、ジャックの豆の木に登場する豆の木のようです。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {ある職員が、F-03-16と決心したそうです。
+そして、登り切りました。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {その職員は今も見つかっていません。
+他の職員がF-03-16に上ろうとしたことはありましたが、消えることはありませんでした。
+恐らく、職員のステータスが違うからでしょう。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {職員たちの間では登り切った職員のうわさが流れています。
+以下はそのうちの一つです。
+狂った話だと思われるかもしれないが、ある職員がこの豆の木を一番に登ると決心し、登りきったらしい…… 
+もしも豆の木に「頂上」があるのならば、彼はおそらくそこに住んでいるだろう。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {また登りきることで、500年前の贈り物が手に入るのでは？と言われています。}
+      ]
+    </desc>
+
+
+
+
+    <specialTipSize size="4">
+      <specialTip openLevel="0" key="0">本能作業終了時、作業結果が良ければ、作業をしていた職員にギフトが付与された。</specialTip>
+      <specialTip openLevel="1" key="1">本能作業終了時、作業結果が悪いと、作業をしていた職員は死亡した。</specialTip>
+      <specialTip openLevel="2" key="2">洞察作業終了時、生産するPE-Boxの量が増加した。</specialTip>
+      <specialTip openLevel="3" key="3">抑圧作業終了時、作業を完了した職員はRダメージを受けた。</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

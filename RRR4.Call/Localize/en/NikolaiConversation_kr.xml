@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localize>  
+  <!--Captain-->
+  <text id="Nikolai_Captain_Start_0">Apologies for the noise, Manager. All of you, shut up and focus.</text>
+  <text id="Nikolai_Captain_Start_1">4th Pack. We’ve a lot to gain here, so try to make it count, alright?</text>
+  <text id="Nikolai_Captain_Start_2">Be serious if you don’t want to end up dead.</text>
+  <text id="Nikolai_Captain_Start_Geburah">...Her. Don't let it shake you.</text>
+  <text id="Nikolai_Captain_Start_Binah">....Arbiter. Manager, if that's a real one, you're aware we'll hold you accountable, yes?</text>
+  
+  <text id="Nikolai_Captain_Half_0">Half wiped out. It's getting dangerous... Hang in there.</text>
+  <text id="Nikolai_Captain_Half_1">Half wiped out. You can't afford to be distracted, back to it!</text>
+  <text id="Nikolai_Captain_Half_2">Half wiped out... all of you, wake up and fight!</text>
+  <text id="Nikolai_Captain_Half_Geburah">Half of the 4th Pack has been killed. Keep your heads up.</text>
+  <text id="Nikolai_Captain_Half_Binah">Just because it's a false Arbiter doesn't mean you can take it lightly. Focus!</text>
+
+  <text id="Nikolai_Captain_Almost_0">Eighty percent of the crew is dead. If it weren't for the energy supply...</text>
+  <text id="Nikolai_Captain_Almost_1">80% lost. Don't let your guard down! This is no different than in the outskirts!</text>
+  <text id="Nikolai_Captain_Almost_Geburah">80% down. This is a tricky opponent, but we have to push through. I'm launching an all-out assault!</text>
+  <text id="Nikolai_Captain_Almost_Binah">...This may be the only wing mad enough to send us to fight an Arbiter, even degraded as it is.</text>
+  
+  <text id="Nikolai_Captain_Eliminated_0">The 4th Pack was annihilated. I'll file the offical report later today.</text>
+  <text id="Nikolai_Captain_Eliminated_1">All team members have been wiped out. The mission has failed.</text>
+  <text id="Nikolai_Captain_Eliminated_2">Unfortunate. We weren't able to handle it. I'll reprimand them for the failure later.</text>
+  <text id="Nikolai_Captain_Eliminated_Geburah">Red Mist... The next time we meet... it won't be like this.</text>
+  <text id="Nikolai_Captain_Eliminated_Binah">...Be thankful we have no better options for energy, Manager.</text>
+  
+  <text id="Nikolai_Captain_End_0">Mission complete. We'll submit the mission report later.</text>
+  <text id="Nikolai_Captain_End_1">That's all, then. Keep up the good work, Manager.</text>
+  <text id="Nikolai_Captain_End_2">I have a lot to do when I get back...</text>
+  <text id="Nikolai_Captain_End_3">Mission accomplished. We will proceed with the memory wipe.</text>
+  <text id="Nikolai_Captain_End_Geburah">...We'll take our leave.</text>
+  <text id="Nikolai_Captain_End_Binah">For both our sakes, I'll pretend this encounter never happened. Try not to get in such trouble again.</text>
+</localize>

@@ -1,0 +1,293 @@
+
+aaa.png
+size: 907,1597
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 748, 86
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 831, 365
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+BigBadWolf_BronzeBull
+  rotate: false
+  xy: 2, 1339
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 516, 1339
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 774, 1339
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 496, 693
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 211, 429
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 211, 299
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+EyeBrow
+  rotate: true
+  xy: 776, 785
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: false
+  xy: 2, 825
+  size: 256, 512
+  orig: 256, 512
+  offset: 0, 0
+  index: -1
+HairFront
+  rotate: false
+  xy: 260, 1081
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 260, 823
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+L arm 1
+  rotate: false
+  xy: 754, 655
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L arm 2
+  rotate: false
+  xy: 397, 54
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L hand
+  rotate: false
+  xy: 831, 496
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+L leg 1
+  rotate: false
+  xy: 571, 437
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+L leg 2
+  rotate: false
+  xy: 701, 432
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 571, 307
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MouthHammer
+  rotate: true
+  xy: 2, 310
+  size: 513, 207
+  orig: 513, 207
+  offset: 0, 0
+  index: -1
+MouthHammer_Close
+  rotate: true
+  xy: 469, 393
+  size: 164, 100
+  orig: 164, 100
+  offset: 0, 0
+  index: -1
+MouthHammer_Open
+  rotate: false
+  xy: 496, 567
+  size: 211, 124
+  orig: 211, 124
+  offset: 0, 0
+  index: -1
+Note
+  rotate: false
+  xy: 518, 1081
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+R arm 1
+  rotate: false
+  xy: 701, 302
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R arm 2
+  rotate: false
+  xy: 558, 177
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R hand
+  rotate: false
+  xy: 831, 430
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+R leg 1
+  rotate: false
+  xy: 688, 172
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+R leg 2
+  rotate: false
+  xy: 527, 47
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 518, 823
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+hybz_3
+  rotate: false
+  xy: 469, 309
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+hybz_4
+  rotate: true
+  xy: 474, 218
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+hybz_5
+  rotate: false
+  xy: 657, 88
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+hybz_6
+  rotate: false
+  xy: 657, 4
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+hybz_7
+  rotate: false
+  xy: 748, 2
+  size: 89, 82
+  orig: 89, 82
+  offset: 0, 0
+  index: -1
+peng_huo_0030
+  rotate: true
+  xy: 396, 184
+  size: 113, 76
+  orig: 113, 76
+  offset: 0, 0
+  index: -1
+peng_huo_0031
+  rotate: false
+  xy: 709, 562
+  size: 185, 91
+  orig: 185, 91
+  offset: 0, 0
+  index: -1
+peng_huo_0033
+  rotate: false
+  xy: 145, 75
+  size: 250, 104
+  orig: 250, 104
+  offset: 0, 0
+  index: -1
+peng_huo_0035
+  rotate: true
+  xy: 776, 1043
+  size: 294, 129
+  orig: 294, 129
+  offset: 0, 0
+  index: -1
+peng_huo_0038
+  rotate: true
+  xy: 2, 17
+  size: 291, 141
+  orig: 291, 141
+  offset: 0, 0
+  index: -1
+peng_huo_0040
+  rotate: false
+  xy: 211, 687
+  size: 283, 134
+  orig: 283, 134
+  offset: 0, 0
+  index: -1
+peng_huo_0042
+  rotate: false
+  xy: 211, 559
+  size: 261, 126
+  orig: 261, 126
+  offset: 0, 0
+  index: -1
+peng_huo_0044
+  rotate: false
+  xy: 145, 181
+  size: 249, 116
+  orig: 249, 116
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="DreamSpider_weapon_name">渡梦人</text>
+  <text id="DreamSpider_gift_name">渡梦人</text>
+  <text id="DreamSpider_gift_desc">最大精神值+4&#13;&#10;持有“渡梦人”时，提高2点最大与最小攻击力
+</text>
+  <text id="DreamSpider_weapon_desc">这把武器射出的子弹结构犹如精巧的蛛网，命中能令目标陷入短暂的美梦。&#13;&#10;若你沉溺于这张精心织就的杰作，那依靠梦境为食的蜘蛛很快便会侵入你的脑海。&#13;&#10;睡吧，睡吧，亲爱的，愿你在其中安详地永眠。</text>
+<text id="DreamSpider_armor_desc">这件护甲的布料如梦般轻薄，虚幻，穿上时仿佛身处梦境。&#13;&#10;如果让意志力薄弱的员工穿戴，他们会在美梦中沉沦而一睡不醒。&#13;&#10;蛛丝的缠缚越发紧涩，困于网中之人究竟是逃不出，还是不愿逃呢？</text>
+<text id="DreamSpider_weapon_specialDesc">这把武器命中时会短暂削减目标的移动速度与攻击速度。</text>
+<text id="DreamSpider_armor_specialDesc">穿戴者不会被“T-02-676”所魅惑，也无法对“T-02-676”进行工作。</text>
+</localize>

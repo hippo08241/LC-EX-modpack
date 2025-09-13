@@ -1,0 +1,208 @@
+
+aa.png
+size: 5657,4931
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+기포1
+  rotate: false
+  xy: 2, 4104
+  size: 740, 702
+  orig: 742, 704
+  offset: 1, 1
+  index: -1
+기포2
+  rotate: true
+  xy: 1520, 2495
+  size: 1218, 1328
+  orig: 1220, 1330
+  offset: 1, 1
+  index: -1
+기포3
+  rotate: true
+  xy: 3967, 4357
+  size: 572, 644
+  orig: 574, 646
+  offset: 1, 1
+  index: -1
+기포4
+  rotate: false
+  xy: 3011, 4551
+  size: 386, 378
+  orig: 388, 380
+  offset: 1, 1
+  index: -1
+기포5
+  rotate: true
+  xy: 3399, 4459
+  size: 470, 566
+  orig: 472, 568
+  offset: 1, 1
+  index: -1
+기포6
+  rotate: true
+  xy: 744, 4042
+  size: 709, 750
+  orig: 711, 752
+  offset: 1, 1
+  index: -1
+꼬리
+  rotate: false
+  xy: 2850, 2015
+  size: 2546, 1277
+  orig: 2546, 1277
+  offset: 0, 0
+  index: -1
+다문입
+  rotate: false
+  xy: 659, 4808
+  size: 359, 121
+  orig: 362, 123
+  offset: 1, 1
+  index: -1
+머리카락
+  rotate: false
+  xy: 2, 3023
+  size: 1516, 853
+  orig: 1516, 853
+  offset: 0, 0
+  index: -1
+몸통1
+  rotate: false
+  xy: 4613, 4272
+  size: 1042, 657
+  orig: 1045, 659
+  offset: 1, 1
+  index: -1
+몸통2
+  rotate: false
+  xy: 2387, 3715
+  size: 1171, 742
+  orig: 1173, 745
+  offset: 1, 2
+  index: -1
+물결1
+  rotate: false
+  xy: 4538, 3294
+  size: 1064, 976
+  orig: 1066, 978
+  offset: 1, 1
+  index: -1
+물결2
+  rotate: true
+  xy: 4130, 2
+  size: 2011, 1351
+  orig: 2011, 1351
+  offset: 0, 0
+  index: -1
+앞물
+  rotate: false
+  xy: 2, 77
+  size: 3802, 1067
+  orig: 3802, 1067
+  offset: 0, 0
+  index: -1
+얼굴
+  rotate: true
+  xy: 3560, 3490
+  size: 865, 976
+  orig: 868, 978
+  offset: 2, 1
+  index: -1
+오른눈
+  rotate: true
+  xy: 2652, 4621
+  size: 308, 357
+  orig: 310, 359
+  offset: 1, 1
+  index: -1
+오른쪽감은눈
+  rotate: false
+  xy: 96, 4868
+  size: 323, 61
+  orig: 325, 63
+  offset: 1, 1
+  index: -1
+오른쪽깨진하트눈동자
+  rotate: true
+  xy: 1020, 4802
+  size: 127, 136
+  orig: 129, 138
+  offset: 1, 1
+  index: -1
+오른쪽눈물
+  rotate: false
+  xy: 421, 4865
+  size: 69, 64
+  orig: 71, 66
+  offset: 1, 1
+  index: -1
+왼눈
+  rotate: true
+  xy: 2287, 4652
+  size: 277, 363
+  orig: 279, 365
+  offset: 1, 1
+  index: -1
+왼쪽감은눈
+  rotate: false
+  xy: 1300, 4753
+  size: 610, 176
+  orig: 612, 178
+  offset: 1, 1
+  index: -1
+왼쪽깨진하트눈동자
+  rotate: true
+  xy: 1158, 4800
+  size: 129, 140
+  orig: 131, 142
+  offset: 1, 1
+  index: -1
+왼쪽눈물
+  rotate: true
+  xy: 492, 4860
+  size: 69, 165
+  orig: 71, 167
+  offset: 1, 1
+  index: -1
+웅덩이1
+  rotate: false
+  xy: 2, 1146
+  size: 4126, 867
+  orig: 4128, 869
+  offset: 1, 1
+  index: -1
+지느러미
+  rotate: false
+  xy: 1496, 3878
+  size: 889, 772
+  orig: 889, 772
+  offset: 0, 0
+  index: -1
+침
+  rotate: true
+  xy: 2, 4891
+  size: 38, 92
+  orig: 40, 94
+  offset: 1, 1
+  index: -1
+펼친입
+  rotate: false
+  xy: 1912, 4717
+  size: 373, 212
+  orig: 375, 214
+  offset: 1, 1
+  index: -1
+
+aaa.png
+size: 4367,3505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+뒷배경
+  rotate: false
+  xy: 2, 2
+  size: 4363, 3501
+  orig: 4365, 3503
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+
+  <text id="ChP_weapon_name">기술의 아름다움</text>
+  <text id="ChP_weapon_desc">아이들은 자신만의 세상을 주섬주섬 꺼낸다.</text>
+  <text id="ChP_weapon_specialDesc">다른 직원이 동일 공격 대상을 공격한다면, 해당 피해의 일정 비율만큼 추가 피해가 누적된다. 이 무기로 주는 피해와 해당 추가 피해는 바로 주지 못 하고, 해당 무기 착용자가 공격을 멈춰야 피해가 들어간다.</text>
+  <text id="ChP_armor_desc">아이들은 자신만의 세상을 만들기 위해 탐구한다.</text>
+  <text id="ChP_armor_specialDesc">나는 참으로 신기한 특수 효과를 발견했지만, 그 설명을 적어 넣기에는 여백이 부족하다.</text>
+
+  <text id="SpMa_armor_name">칠흑 유체</text>
+  <text id="SpMa_armor_desc">내 주위의 병든 영혼은 언제든지 깨져 검은 액체가 흘러나올 수 있다.</text>
+  <text id="SpMa_armor_specialDesc">같은 방 내에 존재하는 직원 수가 적을수록 W 피해 내성이 강해진다.</text>
+  
+  <text id="UnC_weapon_name">연결된 마음</text>
+  <text id="UnC_weapon_desc">"하늘은 존재한 적이 없습니다."</text>
+
+</localize>

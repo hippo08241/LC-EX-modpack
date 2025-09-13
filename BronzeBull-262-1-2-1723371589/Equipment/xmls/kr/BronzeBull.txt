@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+<text id="BronzeBull_weapon_name">카포테</text>
+<text id="BronzeBull_gift_name">카포테</text>
+<text id="BronzeBull_gift_desc">체력 +8</text>
+<text id="BronzeBull_armor_desc">"인생 처음이자 마지막으로 보는 투우 공연이었습니다. 투우가 단순한 공연이 아니라 실제로 싸우는 것이라는 걸 저는 몰랐습니다! 죽어라! 황소! 너무 순진했던 나를 비난해도 좋습니다."</text>
+<text id="BronzeBull_weapon_desc">공격 시 일정 확률로 P 피해</text>
+</localize>

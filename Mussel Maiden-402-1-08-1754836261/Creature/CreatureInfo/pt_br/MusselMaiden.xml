@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="199957">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar a trabalhar.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 fica sentado em silêncio, com os olhos fechados, sem saber o que pensar.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 não consegue deixar de ficar hipnotizado ao olhar para o cabelo longo e sedoso de $0.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {A lama dentro da concha do molusco... é feita de esqueletos humanos? #0 está chocado.}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Para quem eram destinadas as pérolas nas conchas? #0 não sabe.}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-01-216</codeNo>
+      <portrait openLevel ="1">Custom/MusselGirl</portrait>
+
+      <name openLevel ="1">
+        Donzela do Mexilhão
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>Você sabe como são feitos os "Colares de Contas"?</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {“Você sabe o que são um genótipo e um fenótipo? Mesmo que os genótipos de dois ou mais indivíduos biológicos sejam exatamente os mesmos, eles podem exibir fenótipos diferentes. O inverso também é verdadeiro: diferentes combinações de genótipos podem ter fenótipos quase idênticos sob certas condições. O que aconteceria se você modificasse esses genótipos e fenótipos? Os alterasse? Você poderia criar um ser teoricamente "perfeito". Esta é uma alma que se beneficiou de tais modificações genéticas, um indivíduo raro de um em dez mil. Lindo, não é?"}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {O indivíduo diante de você nem pode ser chamado de "ser vivo". É uma superposição puramente genética, uma forma de vida na forma de um humano, o único indivíduo no mundo como ele. As criaturas nascidas com ele nada mais são do que uma coleção de heterozigotos eliminados e indivíduos recessivos, nem remotamente próximos desta criação perfeita. Os imperfeitos. As sobras. Zombarias e falsificações em comparação com seu esplendor.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {"--Não importa qual combinação de genótipos você tem. Nós buscamos apenas indivíduos que podem exibir as características mais perfeitas." &#13;&#10;--""Fino". Descarte. &#13;&#10;--"Stupid." Discard. &#13;&#10;--"Plano". Descartar. &#13;&#10;--"Irritado." Descartar. &#13;&#10; "Não precisa pensar em pessoas feias nascidas em ambientes feios. Estamos trabalhando com beleza, aqui."}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Eles exibem os produtos perfeitos de seu cultivo na vitrine, adornados com sedas e cetins, de pé sob a luz brilhante, polindo cuidadosamente as pérolas da coleção. Eles foram presos entre camadas de afeição até que não pudessem mais respirar. Respire fundo ao vê-lo, destaque sua raridade e preciosidade com os ossos de seus irmãos feios, pise em seu fenótipo abandonado sob os pés, amaldiçoando a sujeira que o cobre, e segure a joia preciosa no altar para desfrutar de todo o louvor e glória que o aguarda. Mas logo, a próxima geração chega, e com ela a efervescência da beleza que se despedaça contra ela, dando à luz um novo capítulo de beleza--}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Então a coisa morreu. Ela brilha como uma pérola artificial dentro de nossos corações.}
+      ]
+    </desc>
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">A cada dia, o primeiro funcionário que obtiver um bom resultado no trabalho ganhará o "amor da garota dos moluscos".</specialTip>
+      <specialTip openLevel="2" key="2">Funcionários com o "amor pela garota dos moluscos" tiveram estatísticas aumentadas.</specialTip>
+      <specialTip openLevel="3" key="3">Há uma chance moderada de que o Contador Qliphoth seja reduzido se o resultado do trabalho for normal ou ruim.</specialTip>
+      <specialTip openLevel="4" key="4">Depois que um funcionário com o "amor pela garota dos moluscos" trabalhou em $0 várias vezes, $0 devorará esse funcionário e violará imediatamente a contenção. Depois de devorar o funcionário, $0 ficou muito mais agressivo do que o normal.</specialTip>
+   </specialTipSize>
+  </observe>
+</creature>

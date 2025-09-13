@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+
+  <info id ="100719">
+
+
+
+  <narration action="move">
+      #0 is on their way to $0’s Containment Unit to begin the work process.
+    </narration>
+
+    <narration action="start">
+      [
+      {#0 smells the aroma of food emanating from $0 as soon as they enter the containment unit.},
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {$0's warm and soft fur relaxes the atmosphere of the entire containment unit.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0 waves to #0, inviting #0 to its beautiful and warm paradise.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 opened its mouth to speak as several churning, struggling hands attempted to escape from its mouth.},
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {Sensing the hidden intent behind $0's kindness, #0 began to rush through their work.},
+      {Poor #0, all they could do was fall to their knees and retch as they realize what the snack was.},
+      ]
+    </narration>
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">T-07-19</codeNo>
+      <portrait openLevel ="1">Custom/Hamster</portrait>
+
+      <name openLevel ="1">
+        Mr. Hamster
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+
+      <openText>Remember, don't be alone.&#13;&#10;Whatever you do, don't be alone.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {The Abnormality looks like a giant hamster doll wearing a black bow tie. It always seems to be smiling at the employees in front of it, trying to create a gentle and friendly atmosphere. Its fur is pale yellow, dry, fluffy and soft, much like warm bedding. Upon closer observation, you can also smell the aroma of bacon and salt. &#13;&#10;Employees from the Backstreets are sure to recall fond childhood memories when they see it! ...That's because it literally looks just like a charity mascot that appeared in the Backstreets over a decade ago. &#13;&#10;It was observed that the Abnormality was able to significantly reduce the level of psychological stress and had a positive effect on employees.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="2">
+      [
+      {&lt;Audio Transcript&gt;&#13;&#10;&lt;color=#FCD499&gt;Employee P5105:Hmm, hmm, hmm...&lt;/color&gt;&#13;&#10;&lt;color=#FFB85C&gt;Employee S1226: Yo, what's got you so happy? &lt;/color&gt;&#13;&#10;&lt;color=#FCD499&gt;Employee P5105: I got to see Mr. Hamster again today. I didn't think he'd be able to recognize me after not seeing me for so long! He really hasn't changed at all, we're still best friends! He gave me a snack, you want some?&lt;/color&gt;&#13;&#10;&lt;color=#FFB85C&gt;Employee S1226: Being best friends with an Abnormality...? There’s gotta be some sort of rule against that, right? Also, you really shouldn’t eat that stuff. Have you forgotten what the employee handbook says? If you can't properly distinguish the boundaries between an Abnormality and a human- annnnd you’re already eating it.&lt;/color&gt;&#13;&#10;&lt;color=#FCD499&gt;Employee P5105: It's the classic smoked bacon flavor. Really good stuff. By the way, what were you saying?&lt;/color&gt;&#13;&#10;&lt;color=#FFB85C&gt;Employee S1226: You weren’t- You know what? Whatever. I've already done my job of reminding you, and if this causes you to die or whatever, it’s all on you.&lt;/color&gt;&#13;&#10;Employee P5105 didn't seem to care what Employee S1226 had said. He chewed his snack and walked away.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="3">
+      [
+      {&lt;Excerpt from Counseling Record #10-719-01&gt;&#13;&#10;&lt;color=#5682BB&gt;Interviewer: Employee V5625&#13;&#10;Name: ██████&lt;/color&gt;&#13;&#10;&lt;color=#A45864&gt;Interviewee: Employee A4374&#13;&#10;Name: █████&#13;&#10;...Yeah, you know that new one? Yeah, the hamster. It freaks me the (omitted) out. I get goosebumps whenever I enter its containment unit.&#13;&#10;...Seriously? You better not be fooled by a cutesy appearance. That's a fast way to die around here, I'll tell you that. While we're on the subject, don't eat anything it gives you. It's definitely not a snack. ...What is it? You don't want to know.&lt;/color&gt;&#13;&#10;The senior employee walked away with a grimace, mutter curses under their breath.&#13;&#10;&lt;Excerpt from Counseling Record #10-719-02&gt;&#13;&#10;&lt;color=#5682BB&gt;Interviewer: V5625&#13;&#10;Name: ██████&lt;/color&gt;&#13;&#10;&lt;color=#B48662&gt;Interviewee: B8613&#13;&#10;Name: █████&#13;&#10;That one? I think anyone with eyes can see what's wrong with it. It's covered in blood, for one. Yep, this one's clearly not friendly.&#13;&#10;Oh, and have you noticed? It seems like there's something wriggling around in that thing's mouth, I think I saw some fingers. It’s weird, but I always feel like getting closer when I spot them. If you're going to work on it, I think you need to assess your ability level before that, otherwise those hands might drag you away~&#13;&#10;Hm... by the way, I sure hope you've been following the employee handbook properly. Don't eat anything offered by an Abnormality unless strictly told to by the relevant documentation~&lt;/color&gt;&#13;&#10;The senior employee winked, and then left his seat.&#13;&#10;Conclusion: Reports made from speaking with senior employees indicate that the Abnormality appears to look different to employees with higher levels of caution. According to their descriptions, its fur was actually dirty and caked with blood, and the so-called snacks …were apparently made from far less palatable ingredients.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {Recently, there has been a ghost story circulating around the clerks: &#13;&#10;When conducting night patrols, please avoid being alone. &#13;&#10;If you are left alone, find a colleague as quickly as you can.&#13;&#10;If you hear the distinct sound of muffled footsteps and the scraping of fabric, get out of the current area and do what you can to find a coworker as soon as possible. &#13;&#10;Remember, don't be alone. &#13;&#10;Whatever you do, don't be alone.&#13;&#10;&lt;color=#FF0000&gt;“If you feel something sneaking up behind you, then congratulations, you are on your way to a warm and happy new place to live.” &lt;/color&gt;}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="none">$0 welcomes every employee who enters the containment unit with a delicious treat! Employees heal 10 HP and SP when they enter the containment unit.</specialTip>
+      <specialTip openLevel="1" key="none">However, employees with a Prudence level of 4 or higher perceived the essence of the food. They lost 20 SP when they left the containment unit.</specialTip>
+      <specialTip openLevel="2" key="none">$0 hates bad kids! When the work result was bad, the Qliphoth Counter lowered.</specialTip>
+      <specialTip openLevel="3" key="none">When the result of Attachment work was good, $0 will sincerely invite the employee to its paradise! Employees with a Prudence or Temprence level of 2 or lower happily accepted its invitation. After that, the Qliphoth Counter returned to the maximum value.</specialTip>
+      <specialTip openLevel="4" key="none">The employees who accepted the invitation disappeared from the facility. Later, we found that the locations where these employees' signals disappeared were scattered in multiple areas, and these locations all pointed to laboratories in the outskirts of varying sizes.</specialTip>
+      <specialTip openLevel="5" key="none">When the Qliphoth Counter lowered to zero, an employee who was alone was put into a sack by a huge shadow that suddenly appeared behind them. After that, the employee disappeared without a trace, and $0's Qliphoth Counter returned to the maximum value.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

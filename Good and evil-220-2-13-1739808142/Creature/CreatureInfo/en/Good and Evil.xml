@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="647140">
+
+
+
+    <narration action="move">
+#0 has been assigned to work with "$0"... It seems like today is an extraordinary day.
+    </narration>
+
+    <narration action="start">
+      [
+      {"$0" keeps spinning relentlessly, as if it wants to draw people in or propel them away.}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {#0 feels that "$0" resembles two other Abnormalities in certain ways.}
+      {The atmosphere here fluctuates between comfort and oppression.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {An inexplicable force prevents #0 from leaving.}
+      {"$0" feels perplexed, questioning the nature of good and evil. Are we inherently good or evil ourselves?}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">X-06-104-62</codeNo>
+      <name openLevel ="1">Flesh and Gold</name>
+      <name openLevel ="4">Good and Evil</name>
+      <portrait openLevel ="1">Custom/Good and Evil</portrait>
+      <riskLevel openLevel ="1">HE</riskLevel>
+      <openText>The chasm between good and evil intertwines like the dance of genius and madness, revealing the boundaries of human nature in a philosophical spectacle.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {This abnormality originates from Branch X-7209, and its appearance bears similarities to O-05-102 and O-07-103.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {We once believed that the darkness within X-06-104-62 was the source of evil, &#13;&#10; However, we failed to realize that the true essence of evil lies within the seemingly radiant gold.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {Agent Charlotte, a Level-3 agent, tragically passed away during multiple engagements with X-06-104-62.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Experiment One:&#13;&#10;When the extraction level of PE-BOX is set between 12 and 16, Agent Justin's mental contamination index returns to zero.&#13;&#10;It appears that all of this is caused by the black portion of X-06-104-62.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {Experiment 2:&#13;&#10;After completing the task on X-06-104-62, Agent Charlotte suffered physical injuries.&#13;&#10;完After multiple tasks, Agent Charlotte died. It seems that the golden part of X-06-104-62 was responsible for all of this.&#13;&#10;In her hallucination, Charlotte saw the true form of X-06-104-62. It was not just a simple abnormality, but a complex entity. The flesh represented its longing for life, with an innocent nature hidden within. The golden part, seemingly pure goodness, was actually a ruse and temptation it employed.}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">When the work results for "$0" are good, the Qliphoth Counter of "$0" will ▇▇.</specialTip>
+      <specialTip openLevel="2" key="2">When the work results for "$0" are bad, the Qliphoth Counter of "$0" will decrease.</specialTip>
+      <specialTip openLevel="3" key="3">When the PE-BOX extraction during work is between 12 and 16, the agents will experience a slight restoration of their mental state.</specialTip>
+     <specialTip openLevel="4" key="4">When the work result is either good or bad, it triggers the special ability of "$0".</specialTip>
+     <specialTip openLevel="5" key="5">When the Qliphoth Counter of "$0" reaches 0, O-05-102 will escape.</specialTip>
+     <specialTip openLevel="6" key="6">The special ability of $0-1 will set the life and SP (spirit) values of the employees to 200, but it will remove the effects of healing. The special ability of $0-2 will cause the employees to take physical damage.</specialTip>
+     </specialTipSize>
+  </observe>
+</creature>

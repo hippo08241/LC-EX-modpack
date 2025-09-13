@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="Acacia_weapon_name">abysm</text>
+  <text id="Acacia_weapon_Desc">The weapon's Bullets of sin travel across the corridor, along the horizon.</text>
+  <text id="Acacia_armor_Desc">A pure white robe only covers the darkest sins.</text>
+  <text id="Acacia_armor_specialDesc">Does not take damage from magic bullets when the Abnormality's suit is equipped.</text>
+  <text id="Acacia_gift_Desc">SP +3 Attack Speed +10 Repression Work Success Rate increased by 3% </text>
+</localize>

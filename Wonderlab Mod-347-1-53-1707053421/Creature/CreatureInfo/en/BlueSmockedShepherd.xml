@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110014">
+
+
+
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+   <narration action="mid1">
+      [
+      {The Blue Smocked Shepherd's specialty is cleverly mixing truth and lies.}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {The Blue Smocked Shepherd says the march to the unreachable home will start soon.},
+      {The Blue Smocked Shepherd claims the only one who can stop the Wolf is him.},
+{The Blue Smocked Shepherd says F-01-57 is a twit who suffers nightmares.},
+{The Blue Smocked Shepherd says the Wolf will appear soon.},
+{The Blue Smocked Sheperd says O-01-28 is a stupid brat.}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {Annoyed, #0 insults the Blue Smocked Shepherd themselves.}
+      ]
+    </narration>
+ 
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-35</codeNo>
+      <portrait openLevel ="1">Custom/BlueSmockedShepherd</portrait>
+
+      <name openLevel ="1">
+       The Blue Smocked Shepherd
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW
+      </riskLevel>
+
+      <specialName openLevel ="1">
+       The Wolf has appeared!
+      </specialName>
+      <openText>“A wolf is about, a wolf is about!"</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Humans are strange.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {Though there is no such thing as a perfect relationship or total affection, they crave for it.}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {Look. Everything that exists has a durability. You can't restore a rusty blade forever.}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {The blade eventually breaks down. Our relationship is not so different. It eventually rusts and crumbles apart, or cut short by tragedies that befalls us.}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {Why do you try? Favor, affection, love, sympathy, they're all but meaningless flattery. It's hilarious, seeing you toil at my feet. I applause your showmanship!}
+      ]
+    </desc>
+
+
+
+
+
+      <specialTipSize size="7">
+      <specialTip openLevel="0" key="nope">When the work result was good, the Qilphoth counter lowered with a medium probability, except if the work was Repression.</specialTip>
+      <specialTip openLevel="0" key="nope">When $0 wasn't worked on for over a minute, its Qilphoth counter lowered.</specialTip>
+      <specialTip openLevel="0" key="nope">When the work result was normal, the Qilphoth counter lowered with a low probability, except if the work was Repression.</specialTip>
+      <specialTip openLevel="0" key="nope">Committing Repression work on $0 increased the Qilphoth counter.</specialTip>
+      <specialTip openLevel="0" key="nope">During work, an employee 'brought up' a certain Abnormality within the facility. Every time $0 'brought up' F-04-36, F-04-36's Qilphoth counter lowered.</specialTip>
+      <specialTip openLevel="0" key="nope">When the Qilphoth counter reached 0, F-04-36's Qilphoth counter lowered by 1 every 20 seconds. During this, Repression work can be done on $0 to commence a duel. When the duel was won, F-04-36 was suppressed. When the duel was lost, $0 breached containment.</specialTip>
+      <specialTip openLevel="0" key="nope">When $0 breached, F-04-36's Qliphoth counter was instantly set to 0. F-01-57 was aggressive to both $0 and F-04-36.</specialTip>
+     </specialTipSize>
+
+    
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {The stage was set a long time ago, and here's a man who caused many to die.}
+        {Coincidentally, you have a gun.}
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="Shoot him." target="1" isAnswer="true"  message="The curtains open." />
+        <node desc="Watch." target="2" isAnswer="true" message="The curtains open." />
+        <node desc="Shoot someone else." target="3" isAnswer="true" message="The curtains open." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {You decide to shoot the man.}
+        {Finally, the curtain falls.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {The barrel of the gun lost its aim.}
+        {The stage ends in a tragedy.}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {The stage ends in a comedy.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {"A sinner spectating a play, moved by its eccentric ways of expressing things confesses their sins on the spot. A play is sure to reveal the true scheme underneath."}
+        ]
+      </angela>
+    </max>
+    
+  </observe>
+  
+
+</creature>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localize>
+  <text id="WhiteLakeGiftDesc0">貴方だけのために作ったプレゼントよ！</text>
+  <text id="WhiteLakeGiftDesc1">私の気持ちよ。</text>
+  <text id="WhiteLakeGiftDesc2">受け取って、私だけの小さな勇士さん。</text>
+  <text id="WhiteLakeGiftDesc3">貴方じゃなきゃダメなの</text>
+
+  <text id="WhiteLakeSaveDesc0">助けてください、勇者様！！</text>
+  <text id="WhiteLakeSaveDesc1">勇者様！貴方の湖を守ってください！！</text>
+  <text id="WhiteLakeSaveDesc2">魔女! 魔女が私をいじめている!!</text>
+  <text id="WhiteLakeSaveDesc3">この魔女!!</text>
+  <text id="WhiteLakeSaveDesc4">勇者様！！貴方だけの湖を助けてください！！</text>
+</localize>

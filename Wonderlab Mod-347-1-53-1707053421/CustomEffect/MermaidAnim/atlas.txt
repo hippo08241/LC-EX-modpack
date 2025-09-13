@@ -1,0 +1,82 @@
+
+a.png
+size: 1905,1565
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+감은눈
+  rotate: false
+  xy: 65, 1441
+  size: 503, 122
+  orig: 506, 125
+  offset: 2, 1
+  index: -1
+꼬리
+  rotate: false
+  xy: 637, 615
+  size: 959, 500
+  orig: 962, 505
+  offset: 3, 2
+  index: -1
+뒷머리
+  rotate: false
+  xy: 2, 2
+  size: 996, 611
+  orig: 1000, 615
+  offset: 2, 2
+  index: -1
+뜬눈
+  rotate: false
+  xy: 957, 1288
+  size: 494, 275
+  orig: 499, 278
+  offset: 2, 1
+  index: -1
+몸통
+  rotate: false
+  xy: 1453, 1117
+  size: 450, 446
+  orig: 456, 454
+  offset: 3, 4
+  index: -1
+얼굴
+  rotate: false
+  xy: 2, 791
+  size: 633, 632
+  orig: 637, 635
+  offset: 2, 2
+  index: -1
+입
+  rotate: false
+  xy: 2, 1512
+  size: 61, 51
+  orig: 63, 53
+  offset: 1, 1
+  index: -1
+하트눈
+  rotate: false
+  xy: 570, 1425
+  size: 385, 138
+  orig: 387, 140
+  offset: 1, 1
+  index: -1
+
+aa.png
+size: 1748,1375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+앞머리
+  rotate: false
+  xy: 2, 2
+  size: 1097, 633
+  orig: 1101, 635
+  offset: 2, 1
+  index: -1
+욕조
+  rotate: false
+  xy: 2, 637
+  size: 1744, 736
+  orig: 1746, 738
+  offset: 1, 1
+  index: -1

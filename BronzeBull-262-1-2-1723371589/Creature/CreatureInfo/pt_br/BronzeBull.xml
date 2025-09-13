@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="156523">
+
+
+
+    <narration action="move">
+      #0 foi atribuído à unidade de contenção de “$0”
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 está com falta de ar.},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {A cabeça em $0 parece muito dolorida e continua gritando.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0 sente um vapor quente vindo em direção do rosto de $0.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-01-11-07</codeNo>
+      <portrait openLevel ="1">Custom/BronzeBull_portrait</portrait>
+
+      <name openLevel ="1">
+        Touro de Bronze
+      </name>
+
+      <riskLevel openLevel ="1">
+        TETH
+      </riskLevel>
+
+      <openText>O touro de cobre está pegando fogo e é difícil fechar a boca do inimigo.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {O Touro de Bronze é uma estátua de metal de bronze que assume a aparência de um touro. Estava coberto de ferrugem e marcas de calor, e as observações registraram que o metal era descrito como uma liga de cobre e zinco. O vapor pode ser visto emanando das narinas da vaca. A boca da vaca se abre, revelando uma cabeça humana dentro. }
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Foi demonstrado durante a batalha que a figura humanóide conseguiu sair da boca da vaca, pelo menos até a barriga. Sua pele é vermelha e coberta de cicatrizes, e seu rosto parece ter uma aparência permanente de dor.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {O homem preso na boca da vaca clamou ao mundo por socorro com seus lamentos e gritos. Seu rosto sempre mostrava dor e tormento sem fim. Os pesquisadores tentaram falar com ele, mas suas palavras estavam cheias de profecias e avisos misteriosos.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {Uma jovem pesquisadora, Emily, fica curiosa sobre o Touro de Bronze. Ela cava fundo e tenta libertar as cabeças presas entre o gado. No entanto, cada contato a fazia sentir um medo e uma pressão indescritíveis.
+
+ Com o passar do tempo, a mente de Emily foi gradualmente assombrada pelo Touro de Bronze. Ela começa a ter pesadelos e alucinações que atormentam seu dia a dia. Sempre que se aproxima da vaca, ela sente a penetração de uma força maligna, colocando sua alma em risco.
+
+Outros pesquisadores também começaram a sentir a estranha influência do Touro de Bronze. Pesadelos, alucinações e medos envolvem todos os cantos do instituto. Emily tenta ir embora, mas se vê aprisionada pelo touro de latão, incapaz de escapar.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {Chegou o momento final. Emily se colocou na frente do touro de latão, tentando se comunicar com a cabeça presa dentro dele. Porém, a voz daquela pessoa estava cheia de dor e desespero, fazendo seu coração tremer.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {Em desespero, Emily escolheu uma forma extrema de fuga. Ela voluntariamente se prendeu na boca do touro de bronze e compartilhou uma eternidade de dor com a cabeça humana presa.
+
+Quando outros pesquisadores finalmente encontraram Emily, eles viram apenas o touro de latão parado em silêncio, e Emily tornou-se a companheira da cabeça presa.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="1">
+      <specialTip openLevel="0" key="0">Quando há vermelho na aparência do agente, o contador Qliphoth “$0” tem alta probabilidade de diminuir após a contagem regressiva.</specialTip>
+      <specialTip openLevel="1" key="1">Lembrete caloroso: "$0" não pode ver a arma EGO, então a arma EGO vermelha pode ser trazida com segurança para sua unidade de contenção em caso de emergência</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

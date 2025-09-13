@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+  <text id="sha_name">シャシャ</text>
+  <text id="wonderlab_2_dialog_1">...聞こえますか？</text>
+  <text id="wonderlab_2_dialog_2">こんにちは。0-5681支部の懲戒チーム副署長、シャシャです。</text>
+  <text id="wonderlab_2_dialog_3">すでに経験されているのでご存知だと思いますが、変異体の管理法は本社のアブノーマリティと類似しながらも異なる点が多いかと思われます。</text>
+  <text id="wonderlab_2_dialog_4">したがって、職員の変異体アブノーマリティ管理法教育とE.G.O装備の管理を徹底的に行うことをお勧めいたします。</text>
+  <text id="wonderlab_2_dialog_5">以上です。</text>
+  <text id="wonderlab_2_dialog_angelica">(O-5681支部との通信がとだえた)</text>
+
+  <text id="wonderlab_2_dialog_6">O-5681支部は、変異体だけでなく異種アブノーマリティまで管理する場所でした</text>
+  <text id="wonderlab_2_dialog_7">当該支部管理者の死亡は想定外のことですが、彼らの業務能力まで疑う必要はないでしょう。</text>
+  <text id="wonderlab_2_dialog_8">つきましては、支部職員の本社招集令を提案致しますが、あなたのお考えはいかがでしょうか？</text>
+
+  <text id="wonderlab_2_selection_1">疑問を抱く。</text>
+  <text id="wonderlab_2_selection_2">許可する。</text>
+
+  <text id="wonderlab_2_dialog_9">全ては会社の繁栄のためです。</text>
+  <text id="wonderlab_2_dialog_10">効率的な人的資材を適材適所に配置すること、それが私が最高のAIと呼ばれる理由です。</text>
+  <text id="wonderlab_2_dialog_11">「管理人」の前で言うのもおかしな話でしたね</text>
+  <text id="wonderlab_2_dialog_12">念の為に呼び出しシステム自体は設けておきます。</text>
+
+  <text id="wonderlab_2_dialog_13">支部の管理人は力不足でしたが、あなたならできるでしょう</text>
+  <text id="wonderlab_2_dialog_14">効率的な人的資材を適材適所に配置すること、それが私が最高のAIと呼ばれる理由です。</text>
+  <text id="wonderlab_2_dialog_15">あなたを助ける、最高のAIと呼ばれる私がいますから。</text>
+  <text id="wonderlab_2_dialog_16">もちろん負担になるのでしたらいつでも断ってもらって構いません。</text>
+  <text id="wonderlab_2_dialog_17">いつものように、選択は「管理人」の役割ですから。</text>
+</localize>

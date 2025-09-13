@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <scene id="WonderLab_3">
+        
+    <character id="angela" name="angela_name" color="FFBBFF" sprite="Angela" />
+    <character id="no" name="no_name" color="FFBBFF" sprite="" />
+
+    <bgm src="wonderlab/nosferatu"/>
+
+    <position character="angela" to="right" fast="true"/>
+    <speak speaker="angela" anim="Glad4">custom/wonderlab_3_dialog_1</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_2</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_3</speak>
+    <speak speaker="angela" anim="Glad3">custom/wonderlab_3_dialog_4</speak>
+
+    <select>
+      <option text="wonderlab/wonderlab_3_selection_1">
+        <speak speaker="angela" anim="Glad3">custom/wonderlab_3_dialog_5</speak>
+        <speak speaker="angela">custom/wonderlab_3_dialog_6</speak>
+        <speak speaker="angela">custom/wonderlab_3_dialog_7</speak>
+      </option>
+      <option text="wonderlab/wonderlab_3_selection_2">
+        <speak speaker="angela" anim="Anger2">custom/wonderlab_3_dialog_8</speak>
+        <speak speaker="angela">custom/wonderlab_3_dialog_9</speak>
+      </option>
+    </select>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+   <remove_cg effect="fade" />
+
+    <disappear character="angela" fast="true"/>
+    
+    <background src="wonderlab/nosferatuCG1_normal" effect="none"/>
+
+    <speak speaker="angela">custom/wonderlab_3_dialog_10</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_11</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_12</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_13</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_14</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_15</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_16</speak>
+
+    <cg src="BlackCG" effect="fade" />
+    <wait time="2" />
+    <remove_cg effect="fade" />
+   
+    <background src="AngelaBackground" effect="none"/>
+
+    <position character="angela" to="right" />
+
+    <speak speaker="angela" anim="Glad4">custom/wonderlab_3_dialog_17</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_18</speak>
+    <speak speaker="angela" anim="Default1">custom/wonderlab_3_dialog_19</speak>
+    <speak speaker="angela">custom/wonderlab_3_dialog_20</speak>
+  </scene> 
+</root>

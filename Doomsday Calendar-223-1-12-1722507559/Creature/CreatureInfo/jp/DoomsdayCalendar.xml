@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id ="156514">
+    <narration action="move">
+      #0 enters the Containment Unit of $0.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0は巨大な石板で、赤い筋繊維でできた土台がある。},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0のレンガが軋み始める},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0のレンガには古代言語の文字が刻まれている},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">M-04-04-05</codeNo>
+      <portrait openLevel ="1">Custom/DoomsdayCalendar_portrait</portrait>
+
+      <name openLevel ="1">
+        終末カレンダー
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <openText>汝も又、生贄となれ。</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {筋肉の繊維で編まれたような木製の台座の上には、大きな石板が置かれていた。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {エージェントが近づくと、レンガの仕切りがガタガタと音を立て始めた。好奇心に駆られたエージェントたちは、よりよく観察づるために近づこうとする。
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {レンガに刻まれた多数の文字から、ある日付を予測するための道具である可能性が高い。文字は古代の言語から来ており、その板はほぼ間違いなくカレンダーである。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {「私には機会があった。その選択は妥当だったので、私はゆるぎない一歩を踏み出した。」
+
+}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {「たとえ死んでも生き返るのだから。
+いわば、死を感じなかった。戦いで何度も死を体験してきたが、その時は、通常なら死に伴うような痛みや閃光のような混乱はなかった。ただ、別の場所に運ばれていくような感覚だった。
+宇宙かもしれないし、別の次元かもしれない」}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {「自分の体も声も、私の感覚では知覚できなかった。おそらく私の目は消え、私はその場所の一部となったのだろう。
+そこで私は終わりを見たのかもしれない。私が目撃したのは終末だったのかもしれない。
+いや、もしかしたら私が終末であり、終末であったのかもしれない......私は終末に存在していたが、存在していたわけではなかった。」}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="0">クリフォト暴走レベル上昇時、$0のクリフォトカウンターが１減少した。</specialTip>
+      <specialTip openLevel="1" key="1">生贄作業を開始すると、クリフォトカウンターが即座に増加し、作業をした職員に一定のBLACKダメージを与えた。</specialTip>
+      <specialTip openLevel="2" key="2">クリフォトカウンターが低い程、生贄作業によるBLACKダメージが大きくなる。</specialTip>
+      <specialTip openLevel="4" key="4">クリフォトカウンターが０になると、１２０秒間のカウントダウン状態になり、生贄作業しかできなくなる。クリフォトカウンターが０の状態で１２０秒間が経過すると、一定範囲内の対象にBLACK大ダメージを与える。</specialTip>
+      <specialTip openLevel="3" key="3">クリフォトカウンターが０になると、６０秒ごとに「終末土偶」を３体生成し、さらにクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="5" key="5">「終末土偶」が鎮圧されると、クリフォトカウンターが即座に上昇するが、「終末土偶」を鎮圧して再びクリフォトカウンターを上昇させるには６０秒経過する必要がある。</specialTip>
+    </specialTipSize>
+  </observe>
+
+  <child>
+    <name>終末土偶</name>
+    <codeId>M-04-04-05-A</codeId>
+  </child>
+</creature>

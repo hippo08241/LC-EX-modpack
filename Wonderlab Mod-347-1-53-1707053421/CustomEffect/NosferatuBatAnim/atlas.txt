@@ -1,0 +1,41 @@
+
+body.png
+size: 469,213
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 357, 93
+  size: 110, 118
+  orig: 112, 121
+  offset: 1, 2
+  index: -1
+eye
+  rotate: false
+  xy: 357, 9
+  size: 69, 82
+  orig: 71, 84
+  offset: 1, 1
+  index: -1
+eye2
+  rotate: false
+  xy: 428, 38
+  size: 10, 53
+  orig: 12, 55
+  offset: 1, 1
+  index: -1
+wingL
+  rotate: false
+  xy: 2, 6
+  size: 202, 205
+  orig: 204, 208
+  offset: 1, 2
+  index: -1
+wingR
+  rotate: false
+  xy: 206, 2
+  size: 149, 209
+  orig: 151, 211
+  offset: 1, 1
+  index: -1

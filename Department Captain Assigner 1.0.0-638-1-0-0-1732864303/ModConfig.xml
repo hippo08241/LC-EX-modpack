@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <!--By default, Captains can only be assigned after 7 days of continuous service in a department. If true, Captains can be assigned at all times. Default=False-->
+  <bypass7DayService>False</bypass7DayService>
+  <!--If true, all departments can have more than 1 Captain. Default=False-->
+  <multipleCaptains>False</multipleCaptains>
+</settings>

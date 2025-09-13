@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110002">
+
+
+
+    <narration action="move">
+      #0被派往$0的收容单元。
+    </narration>
+
+  </info>
+
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">F-02-29</codeNo>
+      <name openLevel ="1">胆小的猫咪</name>
+      <portrait openLevel ="1">Custom/ScareyCat</portrait>
+      <riskLevel openLevel ="2">HE</riskLevel>
+      <openText>今后能一直跟着你吗？这样我就有
+勇气撕碎他们……</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {眼睛异常大的，具有猫科动物外形的异想体。体表光秃秃的，只有尾巴末端长满了红色的毛发。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {一头身材特别矮小的狮子是个胆小鬼，被大家冷落着，它独自待在森林里。走近他的是一个生锈的铁皮樵夫、一个空脑袋的稻草人和一个穿银鞋的女孩。狮子渴望勇气，加入了勇敢的小女孩和她的朋友们，希望实现自己的愿望。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {于是狮子和它的朋友们找到了巫师，许下了各自的愿望。当巫师说它会获得无与伦比的勇气时，狮子完全相信了巫师，并喝下了她递给它的清澈液体。狮子曾经是森林里的懦夫，但它终于得到了涌出的勇气。蓝鬓毛的勇敢狮子把剩下的朋友们抛在脑后，回到了森林里。它相信自己再也不会被任何东西吓到了。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {然而，狮子又一次孤身一人，一种不同的恐惧又悄悄地回到了狮子身上。没有朋友，它还有存在的理由吗？孤身一人的自己又是什么呢？&#13;&#10;&#13;&#10;被孤独的恐惧笼罩的狮子，紧紧趴着小小的身体，在经历了仿佛永恒的畏缩之后，再次出现在它面前的竟然是与它一起旅行的三位朋友。狮子毫不犹豫地决定，要跟随它的朋友们走上少女要走的那条永无止境的道路。于是，勇气开始像魔法一样在它内心涌动。当每个人都在一起时，没有什么好害怕的，唯一的恐惧就只是孤独。}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="4">
+      [
+      {狮子就这样恢复了勇气，它的毛发被试图分开他们这群朋友的人的鲜血染成了红色。为了和朋友们在一起，为了满足朋友们的愿望，这就是狮子的存在方式。它杀的人越多，它获得的勇气就越大，它的毛发也一天比一天红。}
+      ]
+    </desc>
+    
+  <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">如果设施内存在“F-01-25”、“F-05-32”、“F-01-87”中的一个或多个，则对“$0”工作的成功率也将随之变动。这三种存在被称为“朋友”。</specialTip>
+      <specialTip openLevel="2" key="2">设施内的“朋友”数量越多，对“$0”进行的工作成功率也越高。如果设施内没有“朋友”，“$0”就会变得极度不安，工作成功率也将大幅下降。</specialTip>
+      <specialTip openLevel="3" key="3">当“朋友”突破收容时，“$0”会与他们一起突破收容。在“朋友”都被重新收容前，“$0”以惊人的速度修复了自身的损伤。</specialTip>
+  </specialTipSize>
+  </observe>
+
+  <etc>
+    <!-- 오즈 -->
+    <param key="emeraldcastle" index="0">翡翠城</param>
+    <param key="lumberjack" index="1">用铅制成的心脏</param>
+    <param key="scarecrow" index="2">装有锯末的布袋</param>
+    <param key="waygohome" index="3">永远回不去的家</param>
+    <param key="scareycat" index="4">激发勇气的药水</param>
+    <param key="oz" index="5">说谎的大人</param>
+  </etc>
+</creature>

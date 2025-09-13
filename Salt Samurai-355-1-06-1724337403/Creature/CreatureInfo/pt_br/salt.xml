@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="500101">
+
+
+
+    <narration action="move">
+      #0 entra na unidade de contenção de $0 para começar o trabalho.
+    </narration>
+
+    <narration action="mid1">
+      [
+      {$0 faz toda a sala cheirar a sal...},
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 experimenta $0. Nojento! É excessivamente salgado!},
+      {#0 ouvi dizer que o sal de $0 também pode curar mais do que a carne.},
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {$0 fica de joelhos e não move um músculo.},
+      {#0 está ficando desidratado.},
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">T-05-61</codeNo>
+      <portrait openLevel ="1">Custom/salt_portrait</portrait>
+
+      <name openLevel ="1"> Samurai de Sal</name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>Cristais de sal, fracos mas indestrutíveis, são usados ​​para trazer paz às almas em tempos de guerra.</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {Era uma vez um guerreiro conhecido como Samurai de Sal. A história começa no campo de batalha, um lugar onde homens corajosos são afiados pelo sangue e pelo fogo. O antigo lema, “Morte antes da desonra”, foi transmitido há milhares de anos e ressoa nas nuvens e nos céus. Todo soldado, antes de se alistar no exército, está familiarizado com ele, jurando derramar seu sangue e conquistar a glória que só é encontrada no campo de batalha.
+No entanto, a vitória custa caro. Uma vitória muitas vezes requer os cadáveres de inúmeros guerreiros, e a recompensa para aqueles que têm a sorte de sobreviver nada mais é do que uma passagem para um novo campo de batalha. E então as pessoas sempre se perguntaram: qual é a chave para a vitória? É uma armadura impenetrável ou uma espada afiada?}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {Porém, o verdadeiro milagre não vem da nitidez e robustez do equipamento, mas do sal fino cristalizado. Na vasta terra do campo de batalha, os soldados feridos e incapacitados são esterilizados e tratados com sal, e este cuidado e calor são uma recompensa tão preciosa como a vitória.
+Durante a guerra, os soldados atacam bravamente no campo de batalha encharcado de sangue, sem ter que pensar em alternativas. A coragem de um homem acabará por levar à destruição neste campo de batalha sangrento. Isto parece ter-se tornado um destino predestinado, à medida que os seres humanos continuam a perseguir a vitória enquanto plantam as sementes da destruição no meio da vitória.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {No entanto, foi realmente nesse ponto que o Samurai de Sal se destacou. De vez em quando, o general e seus soldados ponderavam uma maneira de escapar do bloqueio inimigo. Porém, graças ao presente de amigos, os guerreiros do cristal de sal abriram uma saída para o bloqueio. Eles não precisam mais quebrar a cabeça para romper o bloqueio inimigo, porque a ponte da amizade e do cuidado, o sal, abriu o caminho para eles.
+A existência dos Guerreiros do Sal tornou-se um milagre, e os generais e soldados sentiram a beleza da humanidade. Eles aprenderam que na guerra não existe apenas a severidade da vida e da morte, mas também a presença de calor e cuidado. A coragem não é o único caminho, o calor da amizade e da camaradagem pode ser a única esperança no frio campo de batalha.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {No entanto, verdadeiramente sob a liderança dos Guerreiros do Sal, os soldados redescobriram o significado do campo de batalha. Eles não perseguiam mais uma única glória, mas sentiam o valor da vida sob a proteção da amizade. Essa transmissão de cuidado até transformou o amargo conflito entre inimigo e inimigo em um estado de amizade.
+No entanto, a roda da história nem sempre avança. Na guerra, a vitória é sempre acompanhada de grandes sacrifícios, e a amizade e o calor parecem tão frágeis por trás disso. É difícil escapar do destino de destruição que todos os soldados um dia encontrarão.}
+      ]
+    </desc>
+
+    <desc id="5" openLevel="3">
+      [
+      {No entanto, no meio de uma grande batalha, os generais e soldados pertencentes ao Samurai de Sal foram apanhados sob um pesado bloqueio inimigo. Apesar da amizade e dos presentes que outrora lhes trouxeram muita ajuda, naquele momento o cerco do inimigo colocou-os numa situação difícil em que não conseguiram escapar.
+Neste momento, o Samurai de Sal se sentia tão pequeno, sem seus guerreiros ao seu lado. Sua amizade, carinho e cuidado tornaram-se insignificantes em um instante. A coragem de um homem é como uma gota no oceano diante da guerra; mesmo que haja muito amor e carinho, isso não poderá mudar a cruel realidade da guerra, nem poderá mudar as execuções sangrentas que se seguiram à sua captura.}
+      ]
+    </desc>
+
+    <desc id="6" openLevel="4">
+      [
+      {O general e seus soldados fizeram o possível para romper o bloqueio inimigo. No entanto, eles nunca conseguiram avançar e, no final, foram capturados pelo inimigo. A coragem dos piqueiros inimigos não era algo que pudesse ser superado apenas pela camaradagem.
+Nesta batalha, a luz da amizade representada pelos Guerreiros do Sal se apagou no último momento. Seus esforços trouxeram algum calor aos soldados, mas o calor parecia muito frágil diante da gigantesca máquina de guerra.
+“A morte antes da desonra”, este antigo ditado, foi finalmente verificado no campo de batalha. A glória da vitória é sempre acompanhada de grandes sacrifícios, e as faíscas da amizade e do cuidado queimaram no fogo da guerra.}
+      ]
+    </desc>
+
+
+
+    <specialTipSize size="6">
+      <specialTip openLevel="0" key="nope">Um funcionário que concluiu o trabalho com US$ 0 recebeu uma bênção. Esse funcionário será referido como T-05-61-1.</specialTip>
+      <specialTip openLevel="1" key="nope">A bênção teve efeito em T-05-61-1 quando eles foram ordenados a suprimir uma Anormalidade dois ou mais níveis abaixo de seu nível.</specialTip>
+      <specialTip openLevel="2" key="nope">A bênção também teve efeito em T-05-61-1 quando eles foram ordenados a suprimir uma Anormalidade dois ou mais níveis acima de seu nível..</specialTip>
+      <specialTip openLevel="3" key="nope">T-05-61-1 sofreu uma pequena quantidade de dano BRANCO para cada ataque em combate devido à indignidade de intimidar uma Anormalidade cujo nível de perigo é dois abaixo do seu..</specialTip>
+      <specialTip openLevel="4" key="nope">T-05-61-1 curou uma pequena quantidade de SP para cada ataque em combate devido à intensidade da batalha contra uma Anormalidade cujo nível de perigo é dois acima do seu próprio.</specialTip>
+      <specialTip openLevel="5" key="nope">*Gravação da Pesquisa* T-05-61-1, ao atacar uma Anormalidade dois níveis acima deles, causou dano extra a cada ataque quando fortalecido em $0 e ganhou uma pequena quantidade de roubo de vida.</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

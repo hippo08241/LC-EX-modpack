@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="100410">
+
+
+
+    <narration action="move">
+      #0被派往“$0”的收容单元。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0在工作期间多次尝试振作起来。},
+      {“$0”飞走了，观察着#0。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {一颗新果实正在“$0”附近生长。}
+      ]
+    </narration>
+
+    <narration action="mid3">
+      [
+      {#0在接近“$0”，但最终他清醒过来了。}
+      ]
+    </narration>
+
+    <narration action="mid4">
+      [
+      {果实这次也响起了痛苦的声音},
+      {果实这次也响起了绝望的声音},
+      {果实这次也响起了悲伤的声音}
+      ]
+    </narration>
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-04-10</codeNo>
+      <portrait openLevel ="1">Custom/Hookah</portrait>
+
+      <name openLevel ="1">
+        水烟毛毛虫
+      </name>
+
+      <riskLevel openLevel ="1">
+        WAW	
+      </riskLevel>
+      <openText>燃烧吧，我将陷入沉醉，你将展开翅膀。</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {天花板上挂着许多果实的异想体。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {果实是某人的绝望、牺牲、痛苦和悲伤。}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {想法越多，越痛苦；记忆越多，越悲伤；知识越多，越绝望。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {如果不想，不忆，不知，不是更好吗？}
+      ]
+    </desc>
+    
+  <specialTipSize size="6">
+      <specialTip openLevel="1" key="1">员工完成工作后，一个“羽化计数”（简称F-04-10-1）开始形成。</specialTip>
+      <specialTip openLevel="2" key="2">当完成最高品质的压迫工作后，F-04-10-1不会增加。</specialTip>
+      <specialTip openLevel="3" key="3">当一名具有F-04-10-1的员工完成工作时，F-04-10-1的形式会发生变化。这种新形式被命名为F-04-10-2。</specialTip>
+      <specialTip openLevel="4" key="4">当一名具有F-04-10-2的员工完成工作时，“$0”的逆卡巴拉计数器会立刻减少。</specialTip>
+      <specialTip openLevel="5" key="5">当级别较低的员工进行工作时，“$0”产生了更多的PE-BOX。</specialTip>
+      <specialTip openLevel="6" key="6">当一名员工在收容单元中死亡时，“$0”的逆卡巴拉计数器会立刻降低。</specialTip>
+     </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {悬挂在天花板上的果实在你眼前来回摇摆。}
+{一颗果实注意到了你，所有的它们都疯狂地向你冲来。}
+{你的选择是……}
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="保护自己" target="1" isAnswer="false"/>
+        <node desc="闭上眼睛" target="2" isAnswer="true"/>
+      </select>
+      
+      <desc id="1" select="0">
+        [
+        {你试图用双手保护自己。}
+{它们穿过了你的手掌，穿透血肉。}
+{这是你从未感受过的疼痛。}
+{新的果实开始生长。}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+       {就像什么都不在乎一般，你闭上了眼睛。}
+{预期的结果并未到来，你缓慢地睁开了眼睛。}
+{没有果实，没有缎带，没有任何变化。}
+        ]
+      </desc>
+
+   
+      
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {一个拥有可爱外表，但试图玩弄心灵的异想体。},
+        {主管，您相信您所认为的是事实吗？}
+        ]
+      </angela>
+    </max>
+  </observe>
+</creature>

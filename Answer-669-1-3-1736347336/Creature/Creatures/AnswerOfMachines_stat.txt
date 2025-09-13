@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<creature>
+  <script>AnswerOfMachines</script>
+  <stat>
+    <riskLevel>4</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0.8</prob>
+      <prob level="2">0.75</prob>
+      <prob level="3">0.6</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.4</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0.5</prob>
+      <prob level="2">0.5</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.35</prob>
+      <prob level="5">0.0</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0.55</prob>
+      <prob level="2">0.55</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.0</prob>
+      <prob level="2">0.35</prob>
+      <prob level="3">0.45</prob>
+      <prob level="4">0.45</prob>
+      <prob level="5">0.45</prob>
+    </workProb>
+    <qliphoth>2</qliphoth>
+    <workCooltime>15</workCooltime>
+	<escapeable>true</escapeable>
+    <hp>1000</hp>
+    <speed>1.3</speed>
+    <specialDamage>
+      <damage id="1" type="R" min="20" max="140" />
+    </specialDamage>
+    <feelingStateCubeBounds>
+      <cube>8</cube>
+      <cube>16</cube>
+      <cube>23</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="R" min="5" max="8" />
+    <workSpeed>0.35</workSpeed>
+    <observeInfo total="92">
+      <observeElement name="stat" cost="20" />
+      <observeElement name="defense" cost="20" />
+      <observeElement name="work_r" cost="5" />
+      <observeElement name="work_w" cost="5" />
+      <observeElement name="work_b" cost="5" />
+      <observeElement name="work_p" cost="5" />
+      <observeElement name="care_0" cost="8" />
+      <observeElement name="care_1" cost="8" />
+      <observeElement name="care_2" cost="8" />
+      <observeElement name="care_3" cost="8" />
+    </observeInfo>
+    <observeBonus level="1" type="prob">4</observeBonus>
+    <observeBonus level="2" type="speed">3</observeBonus>
+    <observeBonus level="3" type="prob">4</observeBonus>
+    <observeBonus level="4" type="speed">3</observeBonus>
+    <equipment level="4" cost="150" equipId="773488" />
+    <equipment level="4" cost="100" equipId="706743" />
+    <equipment level="3" prob="0.02" equipId="968328" />
+    <defense id="1">
+      <defenseElement type="R">0.1</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.6</defenseElement>
+      <defenseElement type="P">0.3</defenseElement>
+    </defense>
+
+  </stat>
+  <graph>
+    <node id="creature" x="-1.1" y="-1.8" type="creature" />
+    <node id="workspace" x="1.9" y="-1.8" type="workspace" />
+    <!--<node id="door"  x="2" y="-1" type="entry"/>-->
+    <node id="outter" x="0" y="0" type="outterDoor" />
+    <node id="inner" x="2" y="-1.8" type="innerDoor" />
+    <node id="teddy" x="-0.2" y="-1.8" type="custom" />
+    <!--<edge node1="workspace" node2="door" type="road" />-->
+    <edge node1="teddy" node2="inner" type="road" />
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+  <anim prefab="Custom/AnswerOfMachinesAnim" x="-1" y="-2" />
+  <portrait src="Unit/creature/magicalGirl" />
+</creature>

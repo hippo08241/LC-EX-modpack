@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<equipment_list>
+
+  <equipment id="202177" type="weapon">
+    <name>WhiteLake_weapon_name</name>
+    <desc>WhiteLake_weapon_desc</desc>
+    <sprite>Shark_WhiteLake</sprite>
+    <script>WhiteLakeWeapon</script>
+
+    <grade>3</grade>
+    <maxNum>2</maxNum>
+    <require type="R">3</require>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_WhiteLakeWeapon</specialWeaponAnim>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <damage type="R" min="7" max="8">
+      <soundInfo type="damage">creature/BigBadWolf/Wolf_Scratch</soundInfo>
+    </damage>
+    <damage type="R" min="15" max="17">
+      <soundInfo type="damage">creature/BigBadWolf/Wolf_Scratch</soundInfo>
+    </damage>
+    <range>2</range>
+    <attackSpeed>0.5</attackSpeed>
+  </equipment>
+
+  <equipment id="202178" type="weapon">
+    <name>WhiteLakeKnight_weapon_name</name>
+    <desc>WhiteLakeKnight_weapon_desc</desc>
+    <sprite>BlackSwan_WhiteLakeKnight</sprite>
+    <script>WhiteLakeKnightWeapon</script>
+
+    <grade>3</grade>
+    <maxNum>-1</maxNum>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>LongBirdWeapon_WhiteLakeKnight</specialWeaponAnim>
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <damage type="R" min="4" max="6">
+      <soundInfo type="damage">Weapons/katana</soundInfo>
+    </damage>
+    <range>3.5</range>
+    <attackSpeed>0.5</attackSpeed>
+  </equipment>
+
+  <equipment id="302177" type="armor">
+    <name>WhiteLake_weapon_name</name>
+    <desc>WhiteLake_armor_desc</desc>
+    <armorId>302177</armorId>
+
+    <grade>3</grade>
+    <maxNum>3</maxNum>
+    <require type="R">3</require>
+
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">1.3</defenseElement>
+      <defenseElement type="B">0.8</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+  </equipment>
+
+  <equipment id="402177" type="special">
+    <name>WhiteLake_weapon_name</name>
+    <desc>WhiteLake_gift_desc</desc>
+    <sprite>402177</sprite>
+
+    <attachPos>hair</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <workProb>+5</workProb>
+      <cubeSpeed>+5</cubeSpeed>
+    </bonus>
+  </equipment>
+
+</equipment_list>

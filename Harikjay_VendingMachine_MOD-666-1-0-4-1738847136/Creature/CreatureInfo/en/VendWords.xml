@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <info id="509122">
+
+    <narration action="move">
+      Beginning work...
+    </narration>
+
+  </info>
+  <observe level ="4">
+    <collection>
+      <codeNo openLevel ="0">O-05-222</codeNo>
+      <portrait openLevel ="1">Custom/VendWords</portrait>
+
+      <name openLevel ="2">
+        Vending Machine of Words
+      </name>
+
+      <riskLevel openLevel ="1">
+        ZAYIN
+      </riskLevel>
+
+      <openText>
+        The machine did not dispense soda or snacks, but the most eloquent of sounds.
+      </openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {The machine did not dispense soda or snacks, but the most eloquent of sounds.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {He who listened to the sounds emerging from Vending Machine of Words' hatch found himself profoundly enlightened.}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="2">
+      [
+      {Wishing to bask in its wisdom he would return again and again, until all its knowledge had been imparted upon him.}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="3">
+      [
+      {However, words so divine are not to be shared; it all was for naught when the others arrived and stole his wisdom away.}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="4">
+      [
+      {All things come with a price. This is the one thing they came to learn in the end.}
+      ]
+    </desc>
+
+     <specialTipSize size="5">
+      <specialTip openLevel="0" key="Hubris1">After working with $0, the agent experienced an increase in all stats regarding Temperance.</specialTip>
+      <specialTip openLevel="1" key="Hubris2">The affected agent was found to also have an increased success rate when performing Insight work.
+</specialTip>
+      <specialTip openLevel="1" key="Hubris3">The effect increases with each consecutive usage, up to three times.
+</specialTip>
+      <specialTip openLevel="2" key="Hubris4"> If a different agent works with $0, the original agent loses the effect and it cannot be applied again for the rest of the day.</specialTip>
+      <specialTip openLevel="3" key="Hubris5">A portion of all energy accumulated by the affected agent is paid to $0.</specialTip>
+      </specialTipSize>
+  </observe>
+</creature>

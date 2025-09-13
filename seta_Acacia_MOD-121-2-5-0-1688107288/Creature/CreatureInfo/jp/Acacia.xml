@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="101103">
+
+
+
+    <narration action="move">
+      #0は、作業をするために$0の収容室に入ります。
+    </narration>
+    <narration action="start">
+      [
+      {$0は愛や喜びなどの肯定的なことを 覚えてるが、 気力がなく反応を示さない。}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {悪魔を愛した代償は、 あまりにも残酷だった。}
+      ]
+    </narration>
+
+    <narration action="mid2">
+      [
+      {魔法の弾丸は $0以外のあらゆるものに 命中する可能性があります。}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {彼が$0の首に掛けた逆十字架は、 以前は上を向いていました。}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {$0は言った。 「#0、あなたは神を信じますか？信じてください。 そして私のようにならないでください。」}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-01-69-1</codeNo>
+      <portrait openLevel ="1">Custom/Acacia</portrait>
+
+      <name openLevel ="1">
+       アカシア
+      </name>
+      <name openLevel ="3">
+       魔弾の花嫁
+      </name>
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+      <openText>あなたは神を信じますか？</openText>
+    
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {悪魔が最後に望んだのは 絶望だった。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {最後を迎えた者が出会うのは、地獄という名の深淵だ --射手がそうであったように。
+}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {一人の人がいました。 明るい笑顔でいつも前向きな人。 悪魔は彼女の心の奥底にある絶望をを見抜き、彼女が絶望に陥り、もがき苦しむ姿を見たかったのです。 そこで悪魔は、人間のような感情を偽り、彼女を心から愛した。 --それを愛と呼ぶかどうかは疑わしいが。 悪魔に恋をした純白のアカシアの花は、徐々に正気を失い、やがて悪魔に貫かれ、黒くなってしまった。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {手にした彼女を満足げな笑みで見つめながら、悪魔は黒ずんだ花にこう囁いた。 「誰にでも当たる弾丸をあげましょう」。 彼女は悪魔との契約で手に入れた銃弾で自らの頭を撃ち抜きましたが、 その代償として地獄へと落ち、自らも悪魔となりました。 永遠に死ぬことはできず、彼女は今もなお地獄をさまよっており、 他の人が同じ運命を辿るのを防ぐために神への信仰を伝えています。 彼女を奈落に落とした悪魔と共に。 永久に。}
+      ]
+    </desc>
+
+    
+    
+  <specialTipSize size="2">
+      <specialTip openLevel="1" key="1">$0が施設内に存在する場合、F-01-69への依頼コストは半分に減少しました。</specialTip>
+      <specialTip openLevel="1" key="2">正義ランク3未満の職員が$0への作業を終えた場合、クリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="1" key="3">作業結果が悪い場合、高い確率でクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="1" key="4">クリフォトカウンターが0になったとき、F-01-69は施設内のどこかへと弾丸を発射した。</specialTip>
+  </specialTipSize>
+
+  </observe>
+</creature>

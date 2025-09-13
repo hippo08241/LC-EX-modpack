@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="110012">
+
+
+
+    <narration action="move">
+      #0 職員が作業を始めに $0の部屋へ入ります。
+    </narration>
+
+    <narration action="mid1">
+      [
+      {#0は体がだるくなるような感じを受けます。}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {$0の恨みは計り知れないほど深いです.},
+      {$0は自分の無念が晴らされることを望みます。},
+
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {#0は頭と胸がつぶれたような痛みを感じます。}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">F-05-33</codeNo>
+      <portrait openLevel ="1">Custom/DrownedSister</portrait>
+
+      <name openLevel ="1">
+        沈んだ姉妹
+      </name>
+
+      <riskLevel openLevel ="1">
+        HE
+      </riskLevel>
+
+      <specialName openLevel ="1">
+        一つ
+      </specialName>
+      <openText>"どうして私たちはここまで憎まれましたか。"</openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {死を願うほど憎まれました。}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {一言でもおっしゃっていたら。私達が憎かったと、言葉でもおっしゃったなら…}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {ああ、無念でございます。 我々は罪人になってしまいました。私達も知らない、私達の罪を聞いてください。聞いてくださって……。}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {恨みを晴らしてください……}
+      ]
+    </desc>
+
+
+
+  <specialTipSize size="5">
+      <specialTip openLevel="0" key="nope">$0ではない他のアブノーマリティの作業が完了すると、$0のクリフォトカウンターが減少した。</specialTip>
+      <specialTip openLevel="0" key="nope">洞察作業の結果が良い時に$0のクリフォトカウンターが増加した.</specialTip>
+      <specialTip openLevel="0" key="nope">#0職員が抑圧作業を終えるとロックされた姉妹のクリフォトカウンターが0になった。</specialTip>
+      <specialTip openLevel="0" key="nope">$0のクリフォトカウンターが0になった時、当該アブノーマリティの収容室のある廊下が水に浸かり始めた。 該当廊下を通る職員は、強いWHITEダメージを受けた。</specialTip>
+      <specialTip openLevel="0" key="nope">海員作業で$0の恨みを晴らすと、$0のクリフォトカウンターが回復した。 海員作業を終えた職員は1日の間、知恵が半分に減った。</specialTip>
+     </specialTipSize>
+
+    <max>
+      <!--기본 선택지-->
+      <desc id="0" select="1">
+        [
+        {무대는 시작 된지 오래고 여기 많은 사람들을 죽게 만든 한 남자가 있다. }
+        {그리고 당신에겐 때마침 총이 들려 있다.  }
+        <!--계속-->
+        ]
+      </desc>
+
+      <!--선택지-->
+      <select id="1">
+        <node desc="그를 쏜다" target="1" isAnswer="true"  message="커튼이 열린다." />
+        <node desc="지켜본다." target="2" isAnswer="true" message="커튼이 열린다." />
+        <node desc="다른 사람을 쏜다." target="3" isAnswer="true" message="커튼이 열린다." />
+      </select>
+
+      <desc id="1" select="0">
+        [
+        {당신은 그를 쏘기로 결심했다. }
+        {비로소 막이 내린다.}
+        ]
+      </desc>
+
+      <desc id="2" select="0">
+        [
+        {총구가 갈 길을 잃었다. }
+        {무대는 비극으로 끝난다.}
+        ]
+      </desc>
+
+      <desc id="3" select="0">
+        [
+        {무대는 희극으로 끝난다.}
+        ]
+      </desc>
+
+      <!--스토리 파트에서 출력될 부분-->
+      <angela>
+        [
+        {“죄를 지은 자가 연극을 구경하다가 무대의 기묘한 표현에 마음 속 깊이 뒤흔들려 그 자리에서 자기의 죄를 고백했다. 연극이야 말로 본심을 들쳐낼 수 있을거야.”}
+        ]
+      </angela>
+    </max>
+
+  </observe>
+
+  <etc>
+    <param key="attack1" index="0"> <!--  -->
+      A : (방백) 저 자는 자기만 생각하는 오만한 인물이었다. (가면을 쓰다듬으며) 나는 처음부터 그 사실을 알고 있었지. 재앙은 꼬리를 물어 이어 질거야.
+    </param>
+    <param key="attack2" index="1">
+      A : (방백) 세상에 버림받은 자, 내가 대신 죽음을 가해줄 것이다. 나는 그럴 만한 자격이 있다. 채우지 못한 갈증이 온다.
+    </param>
+    <param key="attack3" index="2">
+      A : (방백) 그의 절망은 이미 뼛속 깊이 스며들어 그를 좀먹고 있다. 그는 항상 웃고 있었지만 속으로는 항상 스스로를 혐오스러워 하고 있었지.
+    </param>
+    <param key="attack4" index="3">
+      A: (방백) 그는 실패로부터 회피한 비겁한 자다. 나는 그를 용서할 수 없어. 나는 천당이든 지옥이든 당신과 함께 내 맘대로 드나드는 사람이야!
+    </param>
+
+    <param key="kill1" index="4"> <!-- 각각 죽이고 나서 대사 으안안ㅁ아앜앜어안ㄴ앜 -->
+      (실패한 자가 쓰러진다)
+    </param>
+    <param key="kill2" index="5">
+      (버려진 자가 쓰러진다)
+    </param>
+    <param key="kill3" index="6">
+      (절망한 자가 쓰러진다)
+    </param>
+    <param key="kill4" index="7">
+      (회피한 자가 쓰러진다)
+    </param>
+
+
+    <param key="finale1" index="8"> <!-- 쥔공한테 총 쏠때-->
+     A :  죽는다는 건 곧 잠드는 것, 이것 뿐이다. (쓰러진다)
+    </param>
+
+    <param key="finale2" index="9"><!--총 안쏠때-->
+      A : 나의 대사 중에 죄악이 드러났는가? (조명이 꺼진다)
+    </param>
+
+    <param key="finale3" index="10"> <!-- 다른 사람한테 쏠때-->
+      A :  신이여 안됩니다. 도와주소서. 이 고통을 가져가소서. (지독한 침묵)
+    </param>
+
+
+
+    <param key="special" index="11"> <!-- 특수공격 발동 되기 시작할때-->
+      #0 직원에겐 더 이상 아무런 명령을 내릴 수 없습니다. 그의 온 정신은 온통 그 책에 가있습니다. 무대가 시작됩니다.
+    </param>
+
+
+    <param key="end" index="12"> <!-- 연출없이 끝날때-->
+      어둠 속에 길 잃고 침묵에 둘러싸인 당신, 한 때는 아침도 왔지만 지금은 끝없는 밤.당신에게 닿을 수 있다면 이 어둠에서 벗어나 밝은 빗 속으로 인도할텐데.
+    </param>
+
+
+
+
+  </etc>
+
+
+</creature>

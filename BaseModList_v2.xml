@@ -870,5 +870,27 @@
       <g_modid />
       <g_fileid>-1</g_fileid>
     </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>.git</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
+    <ModInfoXml>
+      <modfoldername>Free Customization-477-2-2-0-1719182512</modfoldername>
+      <Useit>true</Useit>
+      <IsWorkShop>false</IsWorkShop>
+      <IsNexus>false</IsNexus>
+      <IsGitHub>false</IsGitHub>
+      <modid>-1</modid>
+      <fileid>-1</fileid>
+      <g_modid />
+      <g_fileid>-1</g_fileid>
+    </ModInfoXml>
   </list>
 </ModListXml>

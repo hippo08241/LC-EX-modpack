@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="BossBird_armor_remake_specialDesc">この武器を装備した職員のHPが低くなるほど武器の攻撃力上昇&#13;&#10;&#13;&#10;同じエリアに敵対対象が5秒以上滞在する場合、5秒ごとにBダメージ&#13;&#10;終末のすべてのE.G.O装備時の効果：特殊能力のダメージ属性がR、W、B、Pに拡張されます<!--Original description End here-->&#13;&#10;&#13;&#10;終末のすべてのE.G.O装着時の効果：hpが低くなるほどE.G.Oが変化する</text>
+	<text id="BossBird_weapon_remake_specialDesc">勇気、慎重、自制、正義が110以上の職員が装備可能&#13;&#10;&#13;&#10;すべての攻撃属性(R,W,B,P)で攻撃&#13;&#10;一定時間ごとに特殊攻撃パターンで攻撃&#13;&#10;&#13;&#10;該当EGOを装着した職員がいる場合、管理中終末鳥が登場しない<!--Original description End here -->&#13;&#10;&#13;&#10;罰鳥のE.G.O giftと一緒に装着時：「懲罰」攻撃使用可能&#13;&#10;大鳥のE.G.O giftと一緒に装着時：「ランプ」攻撃使用可能&#13;&#10;審判鳥のE.G.O giftと一緒に装着時：「審判」攻撃を使用可能&#13;&#10;このEGOを装着した職員がいる場合、管理中に終末鳥が登場しない</text>
+	<text id="BossBird_apo_name">終末</text>
+</localize>

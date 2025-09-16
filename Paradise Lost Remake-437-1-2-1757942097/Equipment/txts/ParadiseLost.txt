@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+   <equipment id="200015" type="weapon">
+    <name>DeathAngel_weapon_name</name>
+    <no>DeathAngel_weapon_no</no>
+    <desc>DeathAngel_weapon_desc</desc>
+    <specialDesc>DeathAngel_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_ParadiseLost</specialWeaponAnim>
+    <sprite>DeathAngel</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Attack3</animation>
+    <animation>Attack4</animation>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <!--첫번째 패턴 데미지 (UI 표시용, 실적용 안 됨)-->
+    <damage type="P" min="22" max="28">
+      <soundInfo type="damage">Weapons/DeathAngel1</soundInfo>
+    </damage>
+
+    <!--두번째 패턴 데미지-->
+    <damage type="P" min="50" max="60">
+      <soundInfo type="damage">Weapons/DeathAngel2</soundInfo>
+
+      <effectInfo type="damage">
+        <src>DeathAngelWeaponSpecial</src>
+        <pos>
+          <x>8</x>
+          <y>1.088</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>2</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <!--첫번째 패턴 데미지, 두번째 패턴 사거리 등 각종 수치는 DeathAngelWeapon.cs에 있음-->
+    <range>80</range>
+    <script>DeathAngelWeapon_Remake</script>
+    <maxNum>1</maxNum>
+
+    <splash type="penetration" />
+
+    <attackSpeed>1.83</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="204444" type="weapon">
+    <name>DeathAngel_Scythe_Apostle_weapon_name</name>
+    <no>DeathAngel_weapon_no</no>
+    <desc>DeathAngel_weapon_desc</desc>
+    <specialDesc>DeathAngel_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_ScytheApostle</specialWeaponAnim>
+    <sprite>DeathAngel</sprite>
+
+    <animation>Attack1</animation>
+
+    <!--첫번째 패턴 데미지 (UI 표시용, 실적용 안 됨)-->
+    <damage type="R" min="24" max="30">
+      <soundInfo type="damage">Apostle_Scythe</soundInfo>
+    </damage>
+
+    <range>5</range>
+    <script>ApostleScytheWeapon</script>
+    <maxNum>0</maxNum>
+
+    <attackSpeed>1.83</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="204445" type="weapon">
+    <name>DeathAngel_Staff_Apostle_weapon_name</name>
+    <no>DeathAngel_Apostle_weapon_no</no>
+    <desc>DeathAngel_weapon_desc</desc>
+    <specialDesc>DeathAngel_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_StaffApostle</specialWeaponAnim>
+    <sprite>DeathAngel</sprite>
+
+    <animation>Attack1</animation>
+
+    <!--첫번째 패턴 데미지 (UI 표시용, 실적용 안 됨)-->
+    <damage type="W" min="30" max="33">
+      <soundInfo type="damage">WhiteNight_Apostle_Wand</soundInfo>
+    </damage>
+
+    <range>40</range>
+    <script>ApostleStaffWeapon</script>
+    <maxNum>0</maxNum>
+
+    <attackSpeed>1.83</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+<equipment id="204446" type="weapon">
+    <name>DeathAngel_Spear_Apostle_weapon_name</name>
+    <no>DeathAngel_Apostle_weapon_no</no>
+    <desc>DeathAngel_weapon_desc</desc>
+    <specialDesc>DeathAngel_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>DeathAngelWeapon_SpearApostle</specialWeaponAnim>
+    <sprite>DeathAngel</sprite>
+
+    <animation>Attack1</animation>
+
+    <!--첫번째 패턴 데미지 (UI 표시용, 실적용 안 됨)-->
+    <damage type="B" min="17" max="24">
+      <soundInfo type="damage">WhiteNight_Apostle_Spear</soundInfo>
+    </damage>
+
+    <range>5</range>
+    <script>ApostleSpearWeapon</script>
+    <maxNum>0</maxNum>
+
+    <attackSpeed>1.83</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+</equipment_list>

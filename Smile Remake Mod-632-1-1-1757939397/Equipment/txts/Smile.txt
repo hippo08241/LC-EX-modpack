@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200042" type="weapon">
+    <name>DangoCreature_weapon_name</name>
+    <no>DangoCreature_weapon_no</no>
+    <desc>DangoCreature_weapon_desc</desc>
+    <specialDesc>DangoCreature_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_Smile_Remake</specialWeaponAnim>
+    <sprite>DangoCreature</sprite>
+
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Scream_Weapon</animation>
+    <animation>Scream</animation>
+    <animation>Mountain_of_Pouring_Bodies_Weapon</animation>
+    <animation>Mountain_of_Pouring_Bodies</animation>
+    <animation>Heal_1</animation>
+    <animation>Heal_2</animation>
+    <animation>Heal_3</animation>
+
+    <damage type="B" min="12" max="18">
+      <soundInfo type="damage">Weapons/hammer</soundInfo>
+    </damage>
+
+    <damage type="B" min="35" max="45">
+      <effectInfo type="damage">
+        <src>DangoWeaponShockwave</src>
+        <pos>
+          <x>2.1</x>
+          <y>0.2</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="B" min="4" max="4">
+      <!--<soundInfo type="damage">creature/DangoCreature/Danggo_Lv1_Atk</soundInfo>-->
+
+      <effectInfo type="damage">
+        <src>DangoWeaponBlood</src>
+        <pos>
+          <x>2.1</x>
+          <y>0.2</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>1</lifetime>
+        <unscaled>false</unscaled>
+      </effectInfo>
+    </damage>
+
+    <damage type="B" min="6" max="12">
+    </damage>
+
+    <damage type="B" min="5" max="30">
+    </damage>
+
+    <splash type="penetration"/>
+    <range>5</range>
+
+    <script>DangoCreature_RemakeWeapon</script>
+    <maxNum>1</maxNum>
+    <!--dummy For UI-->
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+<equipment id="300042" type="armor">
+
+    <name>DangoCreature_weapon_name</name>
+    <no>DangoCreature_armor_no</no>
+    <desc>DangoCreature_armor_desc</desc>
+    <specialDesc>DangoCreature_armor_specialDesc</specialDesc>
+
+    <require type="B">5</require>
+    <require type="level">5</require>
+
+    <armorId>29</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.5</defenseElement>
+      <defenseElement type="B">0.2</defenseElement>
+      <defenseElement type="P">1</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>DangoCreature_RemakeArmor</script>
+  </equipment>
+</equipment_list>
+

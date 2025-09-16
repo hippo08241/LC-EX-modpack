@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <equipment_list>
+  <equipment id="300038" type="armor">
+
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_armor_no</no>
+    <desc>BossBird_armor_desc</desc>
+    <specialDesc>BossBird_armor_specialDesc</specialDesc>
+
+    <armorId>230100</armorId>
+
+    <require type="R">6</require>
+    <require type="W">6</require>
+    <require type="B">6</require>
+    <require type="P">6</require>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+    <script>BossBirdArmor</script>
+  </equipment>
+</equipment_list>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<creature>
+  <script>DummyScript</script>
+  <stat>
+    <riskLevel>5</riskLevel>
+    <maxWorkCount>3</maxWorkCount>
+    <workProb type="R">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="W">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="B">
+      <prob level="1">0</prob>
+      <prob level="2">0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <workProb type="P">
+      <prob level="1">0.0</prob>
+      <prob level="2">0.0</prob>
+      <prob level="3">0</prob>
+      <prob level="4">0</prob>
+      <prob level="5">0</prob>
+    </workProb>
+    <qliphoth>0</qliphoth>
+    <workCooltime>15</workCooltime>
+    <feelingStateCubeBounds>
+      <cube>7</cube>
+      <cube>14</cube>
+      <cube>20</cube>
+    </feelingStateCubeBounds>
+    <workDamage type="B" min="4" max="5" />
+
+    <specialDamage>
+      <damage id="1" type="B" min="5" max="5" />
+    </specialDamage>
+
+    <workSpeed>0.3</workSpeed>
+    <hp>700</hp>
+    <speed>8</speed>
+    <observeInfo total="0">
+      <observeElement name="stat" cost="0"/>
+      <observeElement name="defense" cost="0"/>
+      <observeElement name="work_r" cost="0"/>
+      <observeElement name="work_w" cost="0"/>
+      <observeElement name="work_b" cost="0"/>
+      <observeElement name="work_p" cost="0"/>
+
+      <observeElement name="care_0" cost="0"/>
+    </observeInfo>
+
+    <observeBonus level="1" type="speed">3</observeBonus>
+    <observeBonus level="2" type="prob">3</observeBonus>
+    <observeBonus level="3" type="speed">3</observeBonus>
+    <observeBonus level="4" type="prob">3</observeBonus>
+     <escapeable>false</escapeable>
+    <defense id="1">
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.8</defenseElement>
+      <defenseElement type="B">0.4</defenseElement>
+      <defenseElement type="P">1.0</defenseElement>
+    </defense>
+
+  </stat>
+  <graph>
+    <node id="creature" x="-1.6" y="-1.8" type="creature"/>
+    <node id="workspace" x="1.9" y="-1.8" type="workspace"/>
+
+    <node id="outter" x="0" y="0" type="outterDoor"/>
+    <node id="inner" x="2" y="-1.8" type="innerDoor"/>
+
+    <edge node1="workspace" node2="inner" type="road" />
+    <edge node1="creature" node2="workspace" type="road" />
+  </graph>
+
+  <returnImg src=""/>
+
+  <anim prefab="" x="-1" y="-2" />
+  <portrait src="" />
+
+</creature>

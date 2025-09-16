@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+  -->
+  <info id ="500056">
+
+
+
+    <narration action="move">
+    </narration>
+
+    <narration action="mid1">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {}
+      ]
+    </narration>
+    <narration action="mid4">
+      [
+      {}
+      ]
+    </narration>
+
+  </info>
+
+  <observe level ="1">
+    <collection>
+      <codeNo openLevel ="0">O-03-89-S</codeNo>
+      <portrait openLevel ="1">Sprites/Unit/creature/Censored</portrait>
+
+      <name openLevel ="0">
+        [CENSORED]
+      </name>
+
+      <riskLevel openLevel ="0">
+        ALEPH
+      </riskLevel>
+
+      <openText></openText>
+
+    </collection>
+
+    <desc id="1" openLevel="0">
+      [
+      {}
+      ]
+    </desc>
+
+    <desc id="2" openLevel="1">
+      [
+      {}
+      ]
+    </desc>
+
+    <desc id="3" openLevel="2">
+      [
+      {}
+      ]
+    </desc>
+
+    <desc id="4" openLevel="3">
+      [
+      {}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {}
+    ]
+    </desc>
+
+
+
+  <specialTipSize size="7">
+      <specialTip openLevel="1" key="1"></specialTip>
+   </specialTipSize>
+  </observe>
+</creature>

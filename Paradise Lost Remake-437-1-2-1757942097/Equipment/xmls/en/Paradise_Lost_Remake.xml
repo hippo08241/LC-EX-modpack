@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="DeathAngel_Scythe_Apostle_weapon_name">Scythe of the Apostle</text>
+	<text id="DeathAngel_Spear_Apostle_weapon_name">Spear of the Apostle</text>
+	<text id="DeathAngel_Staff_Apostle_weapon_name">Staff of the Apostle</text>
+	<text id="DeathAngel_weapon_specialDesc">Unable to recover HP,SP by regenerator when equipped with the weapon&#13;&#10;&#13;&#10;Decrease the target’s movement speed and recover HP,SP when performing a normal attack&#13;&#10;(The amount of damage and heal varies according to the number of targets)&#13;&#10;&#13;&#10;Create a shield that blocks every type of damage when performing a special attack. (However, special attacks are only carried out when the Abnormality is inside the facility.)<!--Original description end here-->If you have the appropriate Abnormality in your facility and are carrying the E.G.O. gift of the appropriate Abnormality, you can use the "Apostle" and "Divine Power" attacks.</text>
+</localize>

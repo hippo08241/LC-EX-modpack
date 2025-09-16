@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200056" type="weapon">
+    <name>Censored_weapon_name</name>
+    <desc>Censored_weapon_desc</desc>
+    <specialDesc>Censored_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_CensoredWeapon</specialWeaponAnim>
+    <sprite>Censored</sprite>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <animation>Attack1_lv1</animation>
+    <animation>Attack1_lv2</animation>
+    <animation>Attack1_lv3</animation>
+    <animation>Attack2_lv1</animation>
+    <animation>Attack2_lv2</animation>
+    <animation>Attack2_lv3</animation>
+    <animation>Baby</animation>
+
+<!-- Atk1_Lv1 -->
+    <damage type="B" min="5" max="9">
+    </damage>
+<!-- Atk2_Lv1 -->
+    <damage type="B" min="5" max="9">
+    </damage>
+    <damage type="B" min="10" max="15">
+    </damage>
+<!-- Atk2_Lv2 -->
+    <damage type="B" min="15" max="30">
+    </damage>
+<!-- Atk1_Lv2 -->
+    <damage type="B" min="7" max="11">
+    </damage>
+<!-- Atk1_Lv3 -->
+    <damage type="B" min="8" max="12">
+    </damage>
+    <damage type="B" min="13" max="17">
+    </damage>
+<!-- Atk2_Lv3 -->
+    <damage type="B" min="6" max="6">
+    </damage>
+    <damage type="B" min="12" max="12">
+    </damage>
+    <damage type="B" min="20" max="20">
+    </damage>
+
+    <range>3</range>
+
+    <script>Censored_Remake_Weapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+    <equipment id="500356" type="armor">
+    <name>Censored_weapon_name</name>
+    <desc>Censored_armor_desc</desc>
+
+    <require type="R">5</require>
+    <require type="level">5</require>
+
+    <armorId>500356</armorId>
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1.0</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>Censored_Remake_Armor</script>
+  </equipment>
+
+<!-- CENSORED-DUMMY-DATA!!!!! -->
+  <equipment id="500357" type="armor">
+    <name>Censored_weapon_name</name>
+    <desc>Censored_armor_desc</desc>
+
+    <armorId>500357</armorId>
+    <defense>
+      <defenseElement type="R">0.6</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1.0</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+  </equipment>
+</equipment_list>

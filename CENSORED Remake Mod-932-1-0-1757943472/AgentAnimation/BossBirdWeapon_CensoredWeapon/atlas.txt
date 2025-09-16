@@ -1,0 +1,195 @@
+
+skeleton.png
+size: 1917,237
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 1020, 33
+  size: 247, 72
+  orig: 249, 74
+  offset: 1, 1
+  index: -1
+2f
+  rotate: false
+  xy: 1774, 130
+  size: 129, 105
+  orig: 129, 105
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 837, 11
+  size: 91, 47
+  orig: 93, 49
+  offset: 1, 1
+  index: -1
+Body
+  rotate: true
+  xy: 742, 107
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: true
+  xy: 1000, 107
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 1258, 107
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 1516, 107
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 1269, 64
+  size: 137, 41
+  orig: 256, 128
+  offset: 59, 41
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 1361, 2
+  size: 118, 7
+  orig: 256, 128
+  offset: 65, 60
+  index: -1
+FixerPale1
+  rotate: false
+  xy: 742, 60
+  size: 276, 45
+  orig: 281, 47
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: true
+  xy: 2, 9
+  size: 226, 288
+  orig: 256, 512
+  offset: 14, 113
+  index: -1
+HairFront
+  rotate: false
+  xy: 292, 3
+  size: 254, 232
+  orig: 256, 256
+  offset: 2, 8
+  index: -1
+Head
+  rotate: false
+  xy: 548, 31
+  size: 192, 204
+  orig: 256, 256
+  offset: 35, 27
+  index: -1
+L arm 1
+  rotate: true
+  xy: 930, 9
+  size: 49, 86
+  orig: 128, 128
+  offset: 37, 21
+  index: -1
+L arm 2
+  rotate: true
+  xy: 1269, 2
+  size: 60, 90
+  orig: 128, 128
+  offset: 32, 20
+  index: -1
+L hand
+  rotate: true
+  xy: 1817, 29
+  size: 48, 46
+  orig: 64, 64
+  offset: 8, 10
+  index: -1
+L leg 1
+  rotate: true
+  xy: 1647, 2
+  size: 51, 93
+  orig: 128, 128
+  offset: 40, 13
+  index: -1
+L leg 2
+  rotate: false
+  xy: 1865, 49
+  size: 50, 79
+  orig: 128, 128
+  offset: 39, 29
+  index: -1
+Mouth
+  rotate: false
+  xy: 2, 2
+  size: 18, 5
+  orig: 128, 128
+  offset: 56, 60
+  index: -1
+Note
+  rotate: false
+  xy: 1408, 11
+  size: 105, 94
+  orig: 256, 256
+  offset: 70, 74
+  index: -1
+R arm 1
+  rotate: true
+  xy: 1774, 79
+  size: 49, 89
+  orig: 128, 128
+  offset: 39, 20
+  index: -1
+R arm 2
+  rotate: false
+  xy: 1586, 15
+  size: 59, 90
+  orig: 128, 128
+  offset: 34, 19
+  index: -1
+R hand
+  rotate: false
+  xy: 1361, 13
+  size: 44, 49
+  orig: 64, 64
+  offset: 10, 8
+  index: -1
+R leg 1
+  rotate: true
+  xy: 1647, 55
+  size: 50, 95
+  orig: 128, 128
+  offset: 36, 8
+  index: -1
+R leg 2
+  rotate: true
+  xy: 1744, 19
+  size: 58, 71
+  orig: 128, 128
+  offset: 35, 29
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 1515, 13
+  size: 69, 92
+  orig: 256, 256
+  offset: 93, 135
+  index: -1
+my1
+  rotate: false
+  xy: 742, 9
+  size: 93, 49
+  orig: 93, 49
+  offset: 0, 0
+  index: -1

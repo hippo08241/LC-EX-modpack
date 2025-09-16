@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="DeathAngel_Scythe_Apostle_weapon_name">鎌の使徒</text>
+	<text id="DeathAngel_Spear_Apostle_weapon_name">槍の使徒</text>
+	<text id="DeathAngel_Staff_Apostle_weapon_name">杖の使徒</text>
+	<text id="DeathAngel_weapon_specialDesc">該当武器装着時、回復炉による体力、精神力回復不可能&#13;&#10;&#13;&#10;通常攻撃時、攻撃対象の移動速度の減少と、自分の体力、精神力を回復（ダメージと回復量は攻撃対象の数によって変化する）&#13;&#10;&#13;&#10;特殊攻撃時一定時間の間、すべての攻撃属性のダメージを防いでくれるバリア生成（ただし、特殊攻撃は施設内に該当個体がある場合にのみ発動）<!--Original description end here-->施設内に該当個体が存在しており、該当個体のE.G.O giftを保有している場合、「使徒」、「権能」攻撃使用可能</text>
+</localize>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+    <!--황혼무기-->
+  <equipment id="200038" type="weapon">
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_weapon_no</no>
+    <desc>BossBird_weapon_desc</desc>
+    <specialDesc>BossBird_weapon_remake_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_Twilight</specialWeaponAnim>
+    <sprite>BossBird</sprite>
+
+    <animation>Attack1</animation><!--dummy-->
+    <animation>Attack2</animation><!--dummy-->
+    <animation>Attack_JudeSword_01</animation><!--dummy-->
+    <animation>Attack_JudgeSword_02</animation><!--dummy-->
+    <animation>PrayCast</animation><!--dummy-->
+    <animation>Attack01</animation>
+    <animation>Attack02</animation>
+    <animation>Attack03</animation>
+    <animation>Attack_Lamp</animation>
+    <animation>Attack_beak</animation>
+    <animation>Attack_judgement</animation>
+    <animation>Attack_lightbullet</animation>
+    <animation>Teleport</animation>
+
+    <require type="R">6</require>
+    <require type="W">6</require>
+    <require type="B">6</require>
+    <require type="P">6</require>
+
+    <damage type="R" min="12" max="18">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="W" min="12" max="18">
+    </damage>
+    <damage type="B" min="12" max="18">
+    </damage>
+    <damage type="P" min="12" max="18">
+    </damage>
+
+    <damage type="R" min="20" max="30">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="20" max="30">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="20" max="30">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="20" max="30">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+    <damage type="R" min="10" max="16">
+    </damage>
+    <damage type="W" min="10" max="16">
+    </damage>
+    <damage type="B" min="10" max="16">
+    </damage>
+    <damage type="P" min="10" max="16">
+    </damage>
+
+    <damage type="R" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="R" min="20" max="30">
+    </damage>
+    <damage type="W" min="20" max="30">
+    </damage>
+    <damage type="B" min="20" max="30">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="P" min="20" max="30">
+    </damage>
+    <damage type="W" min="20" max="30">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+
+    <damage type="R" min="60" max="80">
+    </damage>
+
+    <damage type="B" min="20" max="40">
+    </damage>
+
+    <damage type="P" min="40" max="40">
+    </damage>
+
+    <damage type="B" min="4" max="8">
+    </damage>
+
+    <range>6</range>
+    <script>kygi123_Twilight.NewBossBirdWeapon, kygi123_Twilight</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+    <!--어둠황혼무기-->
+  <equipment id="200138" type="weapon">
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_weapon_no</no>
+    <desc>BossBird_weapon_desc</desc>
+    <specialDesc>BossBird_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_TwilightDark</specialWeaponAnim>
+    <sprite>BossBird_Dark</sprite>
+
+    <animation>Attack1</animation><!--dummy-->
+    <animation>Attack2</animation><!--dummy-->
+    <animation>Attack_JudeSword_01</animation><!--dummy-->
+    <animation>Attack_JudgeSword_02</animation><!--dummy-->
+    <animation>PrayCast</animation><!--dummy-->
+    <animation>Attack01</animation>
+    <animation>Attack02</animation>
+    <animation>Attack03</animation>
+    <animation>Attack_Lamp</animation>
+    <animation>Attack_beak</animation>
+    <animation>Attack_judgement</animation>
+    <animation>Attack_lightbullet</animation>
+    <animation>Teleport</animation>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <damage type="R" min="18" max="27">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="W" min="18" max="27">
+    </damage>
+    <damage type="B" min="18" max="27">
+    </damage>
+    <damage type="P" min="18" max="27">
+    </damage>
+
+    <damage type="R" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+    <damage type="R" min="20" max="32">
+    </damage>
+    <damage type="W" min="20" max="32">
+    </damage>
+    <damage type="B" min="20" max="32">
+    </damage>
+    <damage type="P" min="20" max="32">
+    </damage>
+
+    <damage type="R" min="80" max="110">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="80" max="110">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="80" max="110">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="80" max="110">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="R" min="30" max="45">
+    </damage>
+    <damage type="W" min="30" max="45">
+    </damage>
+    <damage type="B" min="30" max="45">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="P" min="30" max="45">
+    </damage>
+    <damage type="W" min="30" max="45">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+
+    <damage type="R" min="100" max="100">
+    </damage>
+
+    <damage type="B" min="40" max="50">
+    </damage>
+
+    <damage type="P" min="70" max="70">
+    </damage>
+
+    <damage type="B" min="6" max="10">
+    </damage>
+
+    <range>6</range>
+    <script>kygi123_Twilight.DarkBossBirdWeapon, kygi123_Twilight</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+    <!--종말무기-->
+  <equipment id="200238" type="weapon">
+    <name>BossBird_apo_name</name>
+    <no>BossBird_weapon_no</no>
+    <desc>BossBird_weapon_desc</desc>
+    <specialDesc>BossBird_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_TwilightApo</specialWeaponAnim>
+    <sprite>BossBird_Apocalypse</sprite>
+
+    <animation>Attack1</animation><!--dummy-->
+    <animation>Attack2</animation><!--dummy-->
+    <animation>Attack_JudeSword_01</animation><!--dummy-->
+    <animation>Attack_JudgeSword_02</animation><!--dummy-->
+    <animation>PrayCast</animation><!--dummy-->
+    <animation>Attack01</animation>
+    <animation>Attack02</animation>
+    <animation>Attack03</animation>
+    <animation>Attack_Lamp</animation>
+    <animation>Attack_beak</animation>
+    <animation>Attack_judgement</animation>
+    <animation>Attack_lightbullet</animation>
+    <animation>Teleport</animation>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <damage type="R" min="24" max="36">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="W" min="24" max="36">
+    </damage>
+    <damage type="B" min="24" max="36">
+    </damage>
+    <damage type="P" min="24" max="36">
+    </damage>
+
+    <damage type="R" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="60" max="80">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+    <damage type="R" min="30" max="45">
+    </damage>
+    <damage type="W" min="30" max="45">
+    </damage>
+    <damage type="B" min="30" max="45">
+    </damage>
+    <damage type="P" min="30" max="45">
+    </damage>
+
+    <damage type="R" min="100" max="140">
+      <soundInfo type="damage">Weapons/judgement2_1</soundInfo>
+    </damage>
+    <damage type="W" min="100" max="140">
+      <soundInfo type="damage">Weapons/judgement2_2</soundInfo>
+    </damage>
+    <damage type="B" min="100" max="140">
+      <soundInfo type="damage">Weapons/judgement2_3</soundInfo>
+    </damage>
+    <damage type="P" min="100" max="140">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="R" min="40" max="60">
+    </damage>
+    <damage type="W" min="40" max="60">
+    </damage>
+    <damage type="B" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement1</soundInfo>
+    </damage>
+    <damage type="P" min="40" max="60">
+    </damage>
+    <damage type="W" min="40" max="60">
+      <soundInfo type="damage">Weapons/judgement2_4</soundInfo>
+    </damage>
+
+    <damage type="R" min="200" max="200">
+    </damage>
+
+    <damage type="B" min="50" max="60">
+    </damage>
+
+    <damage type="P" min="100" max="100">
+    </damage>
+
+    <damage type="B" min="8" max="12">
+    </damage>
+
+    <range>6</range>
+    <script>kygi123_Twilight.ApoBossBirdWeapon, kygi123_Twilight</script>
+    <maxNum>1</maxNum>
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+    <!--황혼방어구-->
+  <equipment id="300038" type="armor">
+
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_armor_no</no>
+    <desc>BossBird_armor_desc</desc>
+    <specialDesc>BossBird_armor_remake_specialDesc</specialDesc>
+
+    <armorId>45</armorId>
+
+    <require type="R">6</require>
+    <require type="W">6</require>
+    <require type="B">6</require>
+    <require type="P">6</require>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">0.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+    <script>kygi123_Twilight.NewBossBirdArmor, kygi123_Twilight</script>
+  </equipment>
+  <!--어둠황혼방어구-->
+  <equipment id="300138" type="armor">
+
+    <name>BossBird_weapon_name</name>
+    <no>BossBird_armor_no</no>
+    <desc>BossBird_armor_desc</desc>
+    <specialDesc>BossBird_armor_specialDesc</specialDesc>
+
+    <armorId>452</armorId>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">0.4</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+    <script>kygi123_Twilight.DarkBossBirdArmor, kygi123_Twilight</script>
+  </equipment>
+  <!--종말방어구-->
+  <equipment id="300238" type="armor">
+
+    <name>BossBird_apo_name</name>
+    <no>BossBird_armor_no</no>
+    <desc>BossBird_armor_desc</desc>
+    <specialDesc>BossBird_armor_specialDesc</specialDesc>
+
+    <armorId>453</armorId>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <defense>
+      <defenseElement type="R">0.2</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.2</defenseElement>
+      <defenseElement type="P">0.3</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+
+    <script>kygi123_Twilight.ApoBossBirdArmor, kygi123_Twilight</script>
+  </equipment>
+    <!--황혼에고기프트-->
+ <equipment id="400038" type="special">
+    <name>BossBird_Special_name</name>
+    <desc>BossBird_Special_gift_Desc</desc>
+    <attachPos>back</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>7</hp>
+      <mental>7</mental>
+      <cubeSpeed>7</cubeSpeed>
+      <workProb>7</workProb>
+      <movement>7</movement>
+      <attackSpeed>7</attackSpeed>
+    </bonus>
+    <sprite>BossBirdWing</sprite>
+  </equipment>
+    <!--황혼어둠에고기프트-->
+ <equipment id="400138" type="special">
+    <name>BossBird_Special_name</name>
+    <desc>BossBird_Special_gift_Desc</desc>
+    <attachPos>back</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>7</hp>
+      <mental>7</mental>
+      <cubeSpeed>7</cubeSpeed>
+      <workProb>7</workProb>
+      <movement>9</movement>
+      <attackSpeed>9</attackSpeed>
+    </bonus>
+    <sprite>BossBirdWing_Dark</sprite>
+  </equipment>
+    <!--종말에고기프트-->
+ <equipment id="400238" type="special">
+    <name>BossBird_Special_name</name>
+    <desc>BossBird_Special_gift_Desc</desc>
+    <attachPos>back</attachPos>
+    <attachType>add</attachType>
+    <bonus>
+      <hp>7</hp>
+      <mental>7</mental>
+      <cubeSpeed>7</cubeSpeed>
+      <workProb>7</workProb>
+      <movement>15</movement>
+      <attackSpeed>15</attackSpeed>
+    </bonus>
+    <sprite>BossBirdWing_Apocalypse</sprite>
+  </equipment>
+</equipment_list>

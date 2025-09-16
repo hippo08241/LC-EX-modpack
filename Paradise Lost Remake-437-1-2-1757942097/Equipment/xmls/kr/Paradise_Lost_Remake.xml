@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="DeathAngel_Scythe_Apostle_weapon_name">낫의 사도</text>
+	<text id="DeathAngel_Spear_Apostle_weapon_name">창의 사도</text>
+	<text id="DeathAngel_Staff_Apostle_weapon_name">봉의 사도</text>
+	<text id="DeathAngel_weapon_specialDesc">해당 무기 장착 시 재생로에 의한 체력, 정신력 회복 불가능&#13;&#10;&#13;&#10;일반 공격 시 공격 대상의 이동 속도 감소 및 자신의 체력, 정신력 회복 (데미지와 회복량은 공격 대상의 수에 따라 변화함)&#13;&#10;&#13;&#10;특수 공격 시 일정 시간동안 모든 공격 속성의 피해를 막아주는 보호막 생성 (단, 특수 공격은 시설 내에 해당 환상체가 있을 경우에만 발동)<!--Original description end here-->시설 내에 해당 환상체가 있고, 해당 환상체의 E.G.O gift를 보유하고 있을 경우 "사도", "권능" 공격 사용 가능</text>
+</localize>

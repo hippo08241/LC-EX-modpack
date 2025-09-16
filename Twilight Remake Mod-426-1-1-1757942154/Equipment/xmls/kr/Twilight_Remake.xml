@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="BossBird_armor_remake_specialDesc">해당 무기를 장착한 직원의 hp가 낮아질수록 무기 공격력 증가&#13;&#10;&#13;&#10;같은 구역에 적대 대상이 5초 이상 머무를 경우 5초마다 B 피해&#13;&#10;종말새의 모든 E.G.O 장착 시 효과 : 특수능력의 피해 속성이 R,W,B,P로 확장됨<!--Original description End here-->&#13;&#10;&#13;&#10;종말새의 모든 E.G.O 장착 시 효과 : hp가 낮아질수록 E.G.O가 변화함</text>
+	<text id="BossBird_weapon_remake_specialDesc">용기, 지혜, 절제, 정의가 110 이상인 직원 장착 가능&#13;&#10;&#13;&#10;모든 공격 속성 (R,W,B,P)으로 공격&#13;&#10;일정 시간마다 특수 공격 패턴으로 공격&#13;&#10;&#13;&#10;해당 장비를 장착한 직원이 있을 경우 관리 중 종말새가 등장하지 않음<!--Original description End here-->&#13;&#10;&#13;&#10;징벌새의 E.G.O gift와 함께 장착시 : "징벌" 공격 사용가능&#13;&#10;큰새의 E.G.O gift와 함께 장착시 : "램프" 공격 사용가능&#13;&#10;심판새의 E.G.O gift와 함께 장착시 : "심판" 공격 사용가능&#13;&#10;종말새의 E.G.O gift와 함께 장착시 : "종말" 공격 사용가능&#13;&#10;&#13;&#10;해당 장비를 장착한 직원이 있을 경우 관리 중 종말새가 등장하지 않음</text>
+	<text id="BossBird_apo_name">종말</text>
+</localize>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200058" type="weapon">
+    <name>BlueStar_weapon_name</name>
+    <desc>BlueStar_weapon_desc</desc>
+    <specialDesc>BlueStar_weapon_specialDesc</specialDesc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>BossBirdWeapon_Star_of_a_Sound</specialWeaponAnim>
+    <sprite>BlueStar</sprite>
+
+    <require type="level">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+
+    <animation>Attack_JudeSword_01</animation><!--dummy-->
+    <animation>Attack_JudgeSword_02</animation><!--dummy-->
+    <animation>Attack1</animation>
+    <animation>Attack2</animation>
+    <animation>Attack3</animation>
+    <animation>Stellar_Intervention</animation>
+    <animation>Stellar_Manipulation</animation>
+    <animation>Stellar_Tempest</animation>
+    <animation>Where_We_Should_Go_Back</animation>
+
+    <damage type="W" min="8" max="12">
+      <soundInfo type="damage">Weapons/blueStar</soundInfo>
+      <!--<effectInfo type="damage">
+        <src>ShockwaveEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+
+      <effectInfo type="damage">
+        <src>BlueStarWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="9" max="13">
+      <soundInfo type="damage">Weapons/blueStar</soundInfo>
+      <!--<effectInfo type="damage">
+        <src>ShockwaveEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+
+      <effectInfo type="damage">
+        <src>BlueStarWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+
+    <damage type="W" min="5" max="7">
+      <soundInfo type="damage">Weapons/blueStar</soundInfo>
+      <!--<effectInfo type="damage">
+        <src>ShockwaveEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>-->
+
+      <effectInfo type="damage">
+        <src>BlueStarWeaponEffect</src>
+        <pos>
+          <x>0</x>
+          <y>1</y>
+        </pos>
+        <rot>0</rot>
+        <lifetime>0.48</lifetime>
+        <unscaled>false</unscaled>
+        <attach>victim</attach>
+      </effectInfo>
+    </damage>
+    <range>25</range>
+
+    <splash type="penetration"/>
+
+    <script>BlueStar_Remake_Weapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>1.5</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+
+</equipment_list>

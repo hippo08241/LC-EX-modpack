@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="200064" type="weapon">
+    <name>PinkCorps_weapon_name</name>
+    <no>PinkCorps_weapon_no</no>
+    <desc>PinkCorps_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>PinkCorpsWeapon_PinkHeart</specialWeaponAnim>
+    <sprite>PinkCorps</sprite>
+
+    <animation>Attack1</animation>
+    <animation>Attack_Start</animation>
+    <animation>Attack_Standby</animation>
+    <animation>Attack_Shoot</animation>
+    <animation>Attack_Shoot_Final</animation>
+    <animation>Attack_Special_Ready</animation>
+    <animation>Attack_Special_Shoot</animation>
+    <animation>Attack_Special_Shoot_Final</animation>
+    <animation>Attack_Reload</animation>
+    <animation>Attack_MoveForward</animation>
+    <animation>Attack_MoveBackward</animation>
+
+
+    <require type="W">5</require>
+    <require type="level">5</require>
+
+    <damage type="W" min="18" max="22">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <damage type="B" min="20" max="30">
+      <soundInfo type="damage"></soundInfo>
+    </damage>
+
+    <range>50</range>
+    <script>PinkCorpsWeapon_RemakeWeapon</script>
+    <maxNum>1</maxNum>
+
+    <attackSpeed>2</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+</equipment_list>
+

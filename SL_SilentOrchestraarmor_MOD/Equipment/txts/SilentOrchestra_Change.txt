@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="300019" type="armor">
+
+    <name>SilentOrchestra_weapon_name</name>
+    <no>SilentOrchestra_armor_no</no>
+    <desc>SilentOrchestra_armor_desc</desc>
+
+    <require type="level">5</require>
+    <require type="W">5</require>
+
+    <armorId>200112</armorId>
+
+    <defense>
+      <defenseElement type="R">0.5</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.5</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>OrchestraArmor</script>
+  </equipment>
+</equipment_list>

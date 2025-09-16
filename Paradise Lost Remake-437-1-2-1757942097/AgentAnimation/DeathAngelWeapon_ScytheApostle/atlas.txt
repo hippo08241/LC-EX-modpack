@@ -1,0 +1,174 @@
+
+skeleton.png
+size: 497,1213
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 275, 515
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 275, 257
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 2, 259
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: true
+  xy: 2, 129
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eff
+  rotate: false
+  xy: 290, 1007
+  size: 205, 204
+  orig: 222, 226
+  offset: 11, 9
+  index: -1
+Eye
+  rotate: false
+  xy: 275, 773
+  size: 136, 41
+  orig: 256, 128
+  offset: 59, 41
+  index: -1
+EyeBrow
+  rotate: true
+  xy: 275, 868
+  size: 116, 5
+  orig: 256, 128
+  offset: 66, 61
+  index: -1
+HairBack
+  rotate: true
+  xy: 2, 986
+  size: 225, 286
+  orig: 256, 512
+  offset: 15, 114
+  index: -1
+HairFront
+  rotate: true
+  xy: 260, 2
+  size: 253, 230
+  orig: 256, 256
+  offset: 2, 9
+  index: -1
+Head
+  rotate: true
+  xy: 290, 816
+  size: 189, 203
+  orig: 256, 256
+  offset: 37, 28
+  index: -1
+L arm 1
+  rotate: true
+  xy: 405, 442
+  size: 46, 85
+  orig: 128, 128
+  offset: 38, 21
+  index: -1
+L arm 2
+  rotate: true
+  xy: 405, 539
+  size: 57, 88
+  orig: 128, 128
+  offset: 33, 21
+  index: -1
+L hand
+  rotate: false
+  xy: 192, 85
+  size: 47, 42
+  orig: 64, 64
+  offset: 8, 12
+  index: -1
+L leg 1
+  rotate: true
+  xy: 98, 77
+  size: 50, 92
+  orig: 128, 128
+  offset: 41, 14
+  index: -1
+L leg 2
+  rotate: true
+  xy: 413, 765
+  size: 49, 76
+  orig: 128, 128
+  offset: 40, 30
+  index: -1
+Mouth
+  rotate: true
+  xy: 282, 967
+  size: 17, 4
+  orig: 128, 128
+  offset: 57, 60
+  index: -1
+Note
+  rotate: true
+  xy: 405, 658
+  size: 105, 89
+  orig: 256, 256
+  offset: 70, 77
+  index: -1
+R arm 1
+  rotate: true
+  xy: 405, 490
+  size: 47, 87
+  orig: 128, 128
+  offset: 40, 22
+  index: -1
+R arm 2
+  rotate: true
+  xy: 405, 598
+  size: 58, 89
+  orig: 128, 128
+  offset: 35, 20
+  index: -1
+R hand
+  rotate: true
+  xy: 192, 41
+  size: 42, 47
+  orig: 64, 64
+  offset: 11, 9
+  index: -1
+R leg 1
+  rotate: true
+  xy: 2, 77
+  size: 50, 94
+  orig: 128, 128
+  offset: 36, 9
+  index: -1
+R leg 2
+  rotate: false
+  xy: 405, 278
+  size: 55, 68
+  orig: 128, 128
+  offset: 36, 31
+  index: -1
+Scythe
+  rotate: true
+  xy: 2, 389
+  size: 595, 271
+  orig: 596, 279
+  offset: 1, 3
+  index: -1
+Weapon_Fist_Left
+  rotate: false
+  xy: 405, 348
+  size: 68, 92
+  orig: 256, 256
+  offset: 94, 135
+  index: -1

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize>
+	<text id="DeathAngel_Scythe_Apostle_weapon_name">镰刀使徒</text>
+	<text id="DeathAngel_Spear_Apostle_weapon_name">长枪使徒</text>
+	<text id="DeathAngel_Staff_Apostle_weapon_name">权杖使徒</text>
+	<text id="DeathAngel_weapon_specialDesc">持有者无法通过各部门的“再生反应堆”恢复生命值和精神值。&#13;&#10;&#13;&#10;这把武器能减少被击中单位的移动速度，同时恢复持有者的生命值和精神值。&#13;&#10;（伤害量和恢复量取决于击中单位的数量。）&#13;&#10;&#13;&#10;发起特殊攻击时，这把武器会生成一个护盾，减少持有者受到的所有类型的伤害。 (但是，特殊攻击只有在设施内有特定异想体时才能发动)<!--Original description end here-->设施内有相应的异想体且携带相应异想体的E.G.O饰品时，可使用“使徒”“权能”攻击。</text>
+</localize>

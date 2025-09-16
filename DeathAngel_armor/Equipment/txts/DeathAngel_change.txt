@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+ <equipment id="300015" type="armor">
+
+    <name>DeathAngel_weapon_name</name>
+    <no>DeathAngel_armor_no</no>
+    <desc>DeathAngel_armor_desc</desc>
+    <specialDesc>DeathAngel_armor_specialDesc</specialDesc>
+
+    <armorId>311111</armorId>
+
+    <require type="R">5</require>
+    <require type="W">5</require>
+    <require type="B">5</require>
+    <require type="P">5</require>
+
+    <defense>
+      <defenseElement type="R">0.2</defenseElement>
+      <defenseElement type="W">0.2</defenseElement>
+      <defenseElement type="B">0.2</defenseElement>
+      <defenseElement type="P">0.2</defenseElement>
+    </defense>
+    <grade>5</grade>
+    <maxNum>1</maxNum>
+    <script>DeathAngelArmor</script>
+  </equipment>
+</equipment_list>

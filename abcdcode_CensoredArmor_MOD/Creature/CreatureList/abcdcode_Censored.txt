@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<creature_list>
- <creature name="Censored" src="Censored" id="100056">
-    <stat>Censored_stat</stat>
-  </creature>
-
-</creature_list>

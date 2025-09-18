@@ -1,0 +1,167 @@
+
+WayGoHome.png
+size: 475,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+나쁨 입
+  rotate: true
+  xy: 447, 56
+  size: 33, 22
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+눈동자
+  rotate: false
+  xy: 447, 91
+  size: 22, 37
+  orig: 23, 38
+  offset: 0, 0
+  index: -1
+눈물
+  rotate: false
+  xy: 447, 130
+  size: 26, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+눈물방울
+  rotate: true
+  xy: 152, 2
+  size: 11, 10
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+리본
+  rotate: false
+  xy: 179, 181
+  size: 181, 172
+  orig: 185, 175
+  offset: 2, 2
+  index: -1
+머리
+  rotate: false
+  xy: 2, 165
+  size: 175, 188
+  orig: 179, 193
+  offset: 2, 2
+  index: -1
+머리카락1
+  rotate: false
+  xy: 183, 85
+  size: 118, 94
+  orig: 122, 97
+  offset: 1, 2
+  index: -1
+머리카락2
+  rotate: true
+  xy: 99, 35
+  size: 128, 82
+  orig: 133, 88
+  offset: 2, 3
+  index: -1
+몸통
+  rotate: false
+  xy: 2, 38
+  size: 95, 125
+  orig: 97, 127
+  offset: 1, 1
+  index: -1
+미소 입
+  rotate: false
+  xy: 152, 15
+  size: 27, 18
+  orig: 29, 21
+  offset: 1, 2
+  index: -1
+벽돌2
+  rotate: false
+  xy: 183, 13
+  size: 125, 70
+  orig: 125, 70
+  offset: 0, 0
+  index: -1
+사망 눈
+  rotate: true
+  xy: 2, 2
+  size: 34, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+앉았을때 신발
+  rotate: true
+  xy: 369, 151
+  size: 55, 104
+  orig: 55, 104
+  offset: 0, 0
+  index: -1
+옆 신발
+  rotate: true
+  xy: 369, 24
+  size: 125, 76
+  orig: 130, 95
+  offset: 5, 18
+  index: -1
+오른눈
+  rotate: false
+  xy: 428, 287
+  size: 45, 63
+  orig: 47, 65
+  offset: 0, 1
+  index: -1
+왼눈
+  rotate: false
+  xy: 428, 222
+  size: 44, 63
+  orig: 47, 65
+  offset: 1, 1
+  index: -1
+웃는 눈
+  rotate: false
+  xy: 41, 3
+  size: 36, 33
+  orig: 37, 37
+  offset: 1, 2
+  index: -1
+웃는 입
+  rotate: false
+  xy: 79, 2
+  size: 31, 31
+  orig: 33, 34
+  offset: 0, 1
+  index: -1
+일어섰을때 신발
+  rotate: false
+  xy: 303, 100
+  size: 64, 79
+  orig: 64, 80
+  offset: 0, 1
+  index: -1
+종아리
+  rotate: false
+  xy: 408, 352
+  size: 65, 169
+  orig: 80, 173
+  offset: 15, 2
+  index: -1
+치마
+  rotate: false
+  xy: 2, 355
+  size: 404, 166
+  orig: 404, 166
+  offset: 0, 0
+  index: -1
+허벅지
+  rotate: false
+  xy: 362, 208
+  size: 64, 142
+  orig: 75, 147
+  offset: 9, 3
+  index: -1
+호요요 입
+  rotate: true
+  xy: 112, 9
+  size: 24, 38
+  orig: 27, 41
+  offset: 1, 2
+  index: -1

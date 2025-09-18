@@ -1,0 +1,216 @@
+
+WayGoHome_Dead.png
+size: 1905,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 544, 138
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 674, 138
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: true
+  xy: 759, 8
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 804, 138
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 1130, 48
+  size: 149, 90
+  orig: 256, 128
+  offset: 54, 19
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 2, 3
+  size: 116, 7
+  orig: 256, 128
+  offset: 66, 61
+  index: -1
+HairBack
+  rotate: false
+  xy: 316, 108
+  size: 226, 286
+  orig: 256, 512
+  offset: 14, 114
+  index: -1
+HairFront
+  rotate: true
+  xy: 1433, 140
+  size: 254, 232
+  orig: 256, 256
+  offset: 2, 8
+  index: -1
+Head
+  rotate: true
+  xy: 1667, 203
+  size: 191, 205
+  orig: 256, 256
+  offset: 35, 27
+  index: -1
+L arm 1
+  rotate: false
+  xy: 1342, 50
+  size: 49, 88
+  orig: 128, 128
+  offset: 36, 20
+  index: -1
+L arm 2
+  rotate: false
+  xy: 1281, 48
+  size: 59, 90
+  orig: 128, 128
+  offset: 32, 20
+  index: -1
+L hand
+  rotate: false
+  xy: 1086, 2
+  size: 48, 43
+  orig: 64, 64
+  offset: 8, 11
+  index: -1
+L leg 1
+  rotate: false
+  xy: 1017, 44
+  size: 52, 94
+  orig: 128, 128
+  offset: 39, 13
+  index: -1
+L leg 2
+  rotate: true
+  xy: 1825, 151
+  size: 50, 78
+  orig: 128, 128
+  offset: 39, 29
+  index: -1
+Mouth
+  rotate: false
+  xy: 1136, 18
+  size: 50, 28
+  orig: 128, 128
+  offset: 39, 51
+  index: -1
+R arm 1
+  rotate: false
+  xy: 1393, 51
+  size: 47, 87
+  orig: 128, 128
+  offset: 40, 22
+  index: -1
+R arm 2
+  rotate: false
+  xy: 1071, 47
+  size: 57, 91
+  orig: 128, 128
+  offset: 35, 19
+  index: -1
+R hand
+  rotate: true
+  xy: 1342, 2
+  size: 46, 51
+  orig: 64, 64
+  offset: 10, 8
+  index: -1
+R leg 1
+  rotate: false
+  xy: 534, 10
+  size: 52, 96
+  orig: 128, 128
+  offset: 35, 8
+  index: -1
+R leg 2
+  rotate: false
+  xy: 1608, 68
+  size: 56, 70
+  orig: 128, 128
+  offset: 35, 30
+  index: -1
+dead/belly_hole
+  rotate: true
+  xy: 316, 5
+  size: 101, 216
+  orig: 132, 230
+  offset: 24, 5
+  index: -1
+dead/belly_meat
+  rotate: true
+  xy: 1442, 10
+  size: 56, 137
+  orig: 79, 178
+  offset: 11, 23
+  index: -1
+dead/eye_back
+  rotate: true
+  xy: 1667, 33
+  size: 168, 156
+  orig: 181, 180
+  offset: 3, 15
+  index: -1
+dead/eye_blood
+  rotate: false
+  xy: 1442, 68
+  size: 164, 70
+  orig: 203, 106
+  offset: 21, 13
+  index: -1
+dead/eye_hole
+  rotate: false
+  xy: 588, 2
+  size: 169, 134
+  orig: 192, 147
+  offset: 11, 0
+  index: -1
+dead/mouth2
+  rotate: false
+  xy: 1017, 13
+  size: 67, 29
+  orig: 88, 51
+  offset: 7, 13
+  index: -1
+dead/mouth2_blood
+  rotate: false
+  xy: 1188, 19
+  size: 80, 27
+  orig: 101, 46
+  offset: 0, 12
+  index: -1
+벽돌
+  rotate: true
+  xy: 1825, 4
+  size: 145, 65
+  orig: 149, 65
+  offset: 1, 0
+  index: -1
+아래
+  rotate: false
+  xy: 934, 140
+  size: 497, 254
+  orig: 497, 255
+  offset: 0, 1
+  index: -1
+위
+  rotate: true
+  xy: 2, 12
+  size: 382, 312
+  orig: 386, 312
+  offset: 1, 0
+  index: -1

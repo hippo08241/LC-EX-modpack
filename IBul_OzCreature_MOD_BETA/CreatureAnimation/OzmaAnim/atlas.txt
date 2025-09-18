@@ -1,0 +1,111 @@
+
+Ozma.png
+size: 943,400
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+머리
+  rotate: true
+  xy: 655, 24
+  size: 166, 142
+  orig: 166, 142
+  offset: 0, 0
+  index: -1
+면사포
+  rotate: false
+  xy: 683, 203
+  size: 247, 195
+  orig: 254, 196
+  offset: 0, 0
+  index: -1
+몸통
+  rotate: false
+  xy: 323, 22
+  size: 330, 168
+  orig: 330, 168
+  offset: 0, 0
+  index: -1
+빛
+  rotate: false
+  xy: 2, 38
+  size: 319, 360
+  orig: 390, 401
+  offset: 20, 20
+  index: -1
+옆장미
+  rotate: true
+  xy: 889, 161
+  size: 40, 52
+  orig: 40, 52
+  offset: 0, 0
+  index: -1
+오른손
+  rotate: true
+  xy: 230, 2
+  size: 34, 41
+  orig: 36, 42
+  offset: 0, 1
+  index: -1
+오른팔1
+  rotate: false
+  xy: 799, 114
+  size: 88, 87
+  orig: 88, 92
+  offset: 0, 5
+  index: -1
+오른팔2
+  rotate: true
+  xy: 112, 6
+  size: 30, 70
+  orig: 30, 70
+  offset: 0, 0
+  index: -1
+왼손
+  rotate: true
+  xy: 184, 2
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1
+왼팔1
+  rotate: true
+  xy: 2, 2
+  size: 34, 108
+  orig: 36, 108
+  offset: 2, 0
+  index: -1
+왼팔2
+  rotate: true
+  xy: 895, 77
+  size: 82, 46
+  orig: 82, 48
+  offset: 0, 1
+  index: -1
+작은장미
+  rotate: false
+  xy: 273, 10
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+장미
+  rotate: true
+  xy: 895, 28
+  size: 47, 46
+  orig: 50, 48
+  offset: 1, 2
+  index: -1
+지팡이
+  rotate: false
+  xy: 323, 192
+  size: 358, 206
+  orig: 362, 206
+  offset: 4, 0
+  index: -1
+티아라
+  rotate: false
+  xy: 799, 38
+  size: 94, 74
+  orig: 94, 74
+  offset: 0, 0
+  index: -1

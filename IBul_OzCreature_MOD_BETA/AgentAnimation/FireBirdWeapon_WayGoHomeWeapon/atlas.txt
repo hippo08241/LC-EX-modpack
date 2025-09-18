@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 776,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 230, 265
+  size: 128, 256
+  orig: 256, 256
+  offset: 64, 0
+  index: -1
+CoatBack
+  rotate: false
+  xy: 258, 7
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatLeft
+  rotate: false
+  xy: 360, 265
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+CoatRight
+  rotate: false
+  xy: 388, 7
+  size: 128, 256
+  orig: 128, 256
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: true
+  xy: 620, 126
+  size: 137, 42
+  orig: 256, 128
+  offset: 58, 40
+  index: -1
+EyeBrow
+  rotate: false
+  xy: 569, 4
+  size: 117, 5
+  orig: 256, 128
+  offset: 65, 61
+  index: -1
+HairBack
+  rotate: false
+  xy: 2, 235
+  size: 226, 286
+  orig: 256, 512
+  offset: 14, 114
+  index: -1
+HairFront
+  rotate: false
+  xy: 2, 2
+  size: 254, 231
+  orig: 256, 256
+  offset: 2, 9
+  index: -1
+Head
+  rotate: false
+  xy: 490, 317
+  size: 190, 204
+  orig: 256, 256
+  offset: 36, 28
+  index: -1
+L arm 1
+  rotate: false
+  xy: 682, 435
+  size: 47, 86
+  orig: 128, 128
+  offset: 38, 21
+  index: -1
+L arm 2
+  rotate: false
+  xy: 716, 36
+  size: 58, 88
+  orig: 128, 128
+  offset: 33, 21
+  index: -1
+L hand
+  rotate: true
+  xy: 682, 386
+  size: 47, 43
+  orig: 64, 64
+  offset: 8, 11
+  index: -1
+L leg 1
+  rotate: true
+  xy: 586, 265
+  size: 50, 91
+  orig: 128, 128
+  offset: 41, 14
+  index: -1
+L leg 2
+  rotate: false
+  xy: 518, 4
+  size: 49, 77
+  orig: 128, 128
+  offset: 40, 30
+  index: -1
+Mouth
+  rotate: false
+  xy: 230, 258
+  size: 17, 5
+  orig: 128, 128
+  offset: 57, 60
+  index: -1
+Note
+  rotate: true
+  xy: 625, 14
+  size: 110, 89
+  orig: 256, 256
+  offset: 67, 77
+  index: -1
+R arm 1
+  rotate: true
+  xy: 664, 126
+  size: 46, 85
+  orig: 128, 128
+  offset: 41, 23
+  index: -1
+R arm 2
+  rotate: false
+  xy: 664, 174
+  size: 57, 89
+  orig: 128, 128
+  offset: 36, 20
+  index: -1
+R hand
+  rotate: false
+  xy: 679, 266
+  size: 42, 49
+  orig: 64, 64
+  offset: 11, 8
+  index: -1
+R leg 1
+  rotate: true
+  xy: 490, 265
+  size: 50, 94
+  orig: 128, 128
+  offset: 36, 9
+  index: -1
+R leg 2
+  rotate: false
+  xy: 569, 11
+  size: 54, 70
+  orig: 128, 128
+  offset: 36, 30
+  index: -1
+feather
+  rotate: true
+  xy: 518, 83
+  size: 180, 100
+  orig: 183, 101
+  offset: 2, 1
+  index: -1
